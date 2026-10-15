@@ -299,6 +299,7 @@ def main():
              sectors=sectors(px, cfg, L), mag7=mag7(px, caps, cfg, L), top10=t10,
              themes=themes(px, cfg, L, reddit, trends, xg, news), reddit_tickers=reddit_tickers(px, reddit, L),
              rising_tickers=rising_tickers(px, cfg, L), narratives=narratives(cfg, reddit, news), catalysts=catalysts(px, cfg, L), big_movers=big_movers(px, cfg, L, news), concentration=concentration(px, cfg, L), consumer=consumer(px, trends, L, cfg, load_json('consumer_info.json', default={}), news, reddit, load_json('youtube.json', default=None)),
+             discovery=dict(reddit=(reddit or {}).get('discovery', [])[:15], search_rising=(trends or {}).get('discovery', {})),
              sources=dict(reddit=bool(reddit and reddit.get('n_posts')), trends=bool(trends and trends.get('terms')),
                           x=bool(xg and xg.get('themes')), news=bool(news and news.get('n'))))
     save_json(A, 'analysis.json')

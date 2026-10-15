@@ -38,7 +38,8 @@ def main():
     except Exception as e:
         print('reddit auth failed:', e); tok = None
     posts, errors = [], []
-    for sub in rc['subreddits'] + rc.get('ground_truth_subreddits', []):
+    disc = cfg.get('discovery', {})
+    for sub in rc['subreddits'] + rc.get('ground_truth_subreddits', []) + disc.get('subreddits', []):
         for listing in ('hot', 'new'):
             try:
                 posts += [dict(sub=sub, title=p.get('title', ''), text=p.get('selftext', '')[:3000], score=p.get('score', 0),
@@ -51,7 +52,7 @@ def main():
     for p in posts:
         if p['url'] not in seen:
             seen.add(p['url']); uniq.append(p)
-    gt_only = set(rc.get('ground_truth_subreddits', []))
+    gt_only = set(rc.get('ground_truth_subreddits', [])) | set(cfg.get('discovery', {}).get('subreddits', []))
     inv = [p for p in uniq if p['sub'] not in gt_only]
     theme_counts, theme_top = {}, {}
     for name, th in cfg['themes'].items():
@@ -76,6 +77,12 @@ def main():
         hit = [p for p in uniq if pt.search((p['title'] + ' ' + p['text']).lower())]
         sc = [p for p in hit if any(re.search(r'\b' + w + r'\b', (p['title'] + ' ' + p['text']).lower()) for w in SCARE)]
         brands[c['term']] = dict(mentions=len(hit), scare=len(sc), scare_examples=[dict(title=p['title'][:140], url=p['url']) for p in sc[:2]])
+    dpats = [re.compile(r'\b' + re.escape(ph) + r'\b') for ph in disc.get('phrases', [])]
+    dsubs = set(disc.get('subreddits', []))
+    discovery = sorted([dict(title=p['title'][:160], sub=p['sub'], score=p['score'], comments=p['comments'], url=p['url'],
+                             phrase=next((ph for ph, pt in zip(disc.get('phrases', []), dpats) if pt.search((p['title'] + ' ' + p['text']).lower())), None))
+                        for p in uniq if any(pt.search((p['title'] + ' ' + p['text']).lower()) for pt in dpats)],
+                       key=lambda x: -(x['score'] + 3 * x['comments']))[:25]
     tick = collections.Counter()
     for p in inv:
         txt = p['title'] + ' ' + p['text']
@@ -84,7 +91,7 @@ def main():
             tick[t] += 1
     top_tickers = [(t, n) for t, n in tick.most_common(40) if n >= rc['min_ticker_mentions']]
     out = dict(date=today(), authed=bool(tok), n_posts=len(uniq), errors=errors, theme_counts=theme_counts,
-               theme_top_posts=theme_top, top_tickers=top_tickers, narratives=narr, brands=brands,
+               theme_top_posts=theme_top, top_tickers=top_tickers, narratives=narr, brands=brands, discovery=discovery,
                n_ground_truth_posts=sum(p['sub'] in gt_subs for p in uniq))
     save_json(out, 'reddit.json')
     if uniq:

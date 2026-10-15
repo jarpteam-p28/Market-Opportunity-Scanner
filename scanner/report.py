@@ -59,6 +59,13 @@ def build(A, agents, cfg):
     if A.get('consumer'):
         L += ['', '## 5c. Consumer social-arb watch (Google searches, last 4 weeks vs prior 12)', '| Search term | Ticker | Search vs prior 12 wks | vs same weeks last year | 12-mo high | YouTube buying-intent /100 comments | Scare posts | 1 mo price | 3 mo price | vs rival 3 mo | Mkt cap $B | Short % | Read |', '|---|---|---|---|---|---|---|---|---|---|---|---|---|']
         L += [f"| {r['term']} | {r['ticker']} | {f(r['search_change'])} | {f(r.get('yoy_same_season'))} | {yn(r['at_12m_high'])} | {r.get('yt_intent_per_100') if r.get('yt_intent_per_100') is not None else '–'} | {r.get('scare_posts') if r.get('scare_posts') is not None else '–'} | {f(r.get('m'))} | {f(r.get('q'))} | {(r['vs'] + ' ' + f(r['vs_rival_q'])) if r.get('vs') else '–'} | {r.get('mcap_b') or '–'} | {f(r.get('short_pct'))} | {(('⚠️ ' if r.get('scare_flag') else '🔥 ') + r['read']) if r['read'] else ''} |" for r in A['consumer']]
+    D = A.get('discovery') or {}
+    if D.get('reddit') or D.get('search_rising'):
+        L += ['', '## 5h. Discovery: new things people are talking about (wide funnel, not yet on any list)']
+        for p in D.get('reddit', [])[:10]:
+            L.append(f"- r/{p['sub']} ({p['phrase']}): [{p['title'][:100]}]({p['url']}) · {p['score']} upvotes, {p['comments']} comments")
+        for seed, rows in (D.get('search_rising') or {}).items():
+            L.append(f"- Google rising searches for '{seed}': " + ', '.join(f"{r.get('query')} (+{r.get('value')}%)" for r in rows[:6]))
     if A.get('catalysts'):
         L += ['', '## 5f. Catalyst calendar']
         for c in A['catalysts']:
@@ -95,6 +102,14 @@ def short(A):
            'Rising on Reddit: ' + (', '.join(r['ticker'] for r in A.get('rising_tickers', [])[:5]) or 'none yet'),
            'Search spikes: ' + (', '.join(f"{r['term']} ({r['ticker']})" for r in A.get('consumer', []) if r['flag']) or 'none'),
            'Themes: ' + ('; '.join(f"{t['theme']}: {t['label'].split(' - ')[0]}" for t in hot) or 'nothing confirmed by talk + price')]
+    try:
+        import pandas as pd
+        from common import ROOT
+        j = pd.read_csv(ROOT / 'journal' / 'theses.csv'); j = j[j.date == A['date']]
+        if len(j):
+            msg.append('Ideas: ' + '; '.join(f"{r.ticker} ({r.stance}, {r.get('conviction', '')})" for _, r in j.head(5).iterrows()))
+    except Exception:
+        pass
     return '\n'.join(msg)
 
 

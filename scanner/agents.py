@@ -26,6 +26,10 @@ def context_for(name, A, extra):
         'sentiment': {'themes': A['themes'], 'reddit_tickers': A['reddit_tickers'], 'rising_tickers': A.get('rising_tickers'), 'consumer_search_watch': A.get('consumer'), 'narratives': A.get('narratives'), 'big_movers': A.get('big_movers'), 'x': extra.get('x'), 'trends': extra.get('trends'),
                       'news': (extra.get('news') or {}).get('by_theme')},
         'themes': {'themes': slim_themes, 'sectors': A['sectors'], 'catalysts': A.get('catalysts'), 'news': (extra.get('news') or {}).get('by_theme')},
+        'social_arb': {'regime': A['regime']['label'], 'consumer_search_watch': A.get('consumer'), 'rising_tickers': A.get('rising_tickers'),
+                       'discovery': A.get('discovery'), 'narratives': A.get('narratives'), 'catalysts': A.get('catalysts'), 'big_movers': A.get('big_movers'),
+                       'themes': [t for t in slim_themes if t['label'].startswith(('EARLY', 'STEALTH', 'CONFIRMED'))],
+                       'headlines': [h['title'] for h in (extra.get('news') or {}).get('latest', [])[:40]]},
         'skeptic': {'regime': A['regime'], 'mag7': A['mag7'], 'themes': slim_themes, 'ai_concentration_watch': A.get('concentration'), 'narratives': A.get('narratives')},
         'regime_extra': None,
     }

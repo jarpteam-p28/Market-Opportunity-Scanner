@@ -40,6 +40,16 @@ def main():
         except Exception as e:
             out['errors'].append(f'{term}: {e}')
         time.sleep(4)
+    out['discovery'] = {}
+    for seed in cfg.get('discovery', {}).get('trends_seeds', []):
+        try:
+            py.build_payload([seed], timeframe='today 1-m', geo=gt['geo'])
+            rq = py.related_queries().get(seed, {}).get('rising')
+            if rq is not None and len(rq):
+                out['discovery'][seed] = rq.head(10).to_dict('records')   # [{'query':..., 'value': % rise}]
+        except Exception as e:
+            out['errors'].append(f'discovery {seed}: {e}')
+        time.sleep(4)
     save_json(out, 'trends.json')
     print(f"trends: {len(out['terms'])} terms, {len(out['errors'])} errors")
 
