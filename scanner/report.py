@@ -57,8 +57,8 @@ def build(A, agents, cfg):
         L += ['', '## 5b. Rising talk on Reddit (at least double the usual mentions)', '| Ticker | Mentions | Usual | Change | 1 mo price | >50d |', '|---|---|---|---|---|---|']
         L += [f"| {r['ticker']} | {r['mentions']} | {r['baseline']} | {f(r['change'])} | {f(r.get('m'))} | {yn(r.get('above50'))} |" for r in A['rising_tickers']]
     if A.get('consumer'):
-        L += ['', '## 5c. Consumer social-arb watch (Google searches, last 4 weeks vs prior 12)', '| Search term | Ticker | Search change | At 12-mo high | 1 mo price | 3 mo price | vs rival 3 mo | Mkt cap $B | Short % | Read |', '|---|---|---|---|---|---|---|---|---|---|']
-        L += [f"| {r['term']} | {r['ticker']} | {f(r['search_change'])} | {yn(r['at_12m_high'])} | {f(r.get('m'))} | {f(r.get('q'))} | {(r['vs'] + ' ' + f(r['vs_rival_q'])) if r.get('vs') else '–'} | {r.get('mcap_b') or '–'} | {f(r.get('short_pct'))} | {('🔥 ' + r['read']) if r['flag'] else ''} |" for r in A['consumer']]
+        L += ['', '## 5c. Consumer social-arb watch (Google searches, last 4 weeks vs prior 12)', '| Search term | Ticker | Search vs prior 12 wks | vs same weeks last year | 12-mo high | YouTube buying-intent /100 comments | Scare posts | 1 mo price | 3 mo price | vs rival 3 mo | Mkt cap $B | Short % | Read |', '|---|---|---|---|---|---|---|---|---|---|---|---|---|']
+        L += [f"| {r['term']} | {r['ticker']} | {f(r['search_change'])} | {f(r.get('yoy_same_season'))} | {yn(r['at_12m_high'])} | {r.get('yt_intent_per_100') if r.get('yt_intent_per_100') is not None else '–'} | {r.get('scare_posts') if r.get('scare_posts') is not None else '–'} | {f(r.get('m'))} | {f(r.get('q'))} | {(r['vs'] + ' ' + f(r['vs_rival_q'])) if r.get('vs') else '–'} | {r.get('mcap_b') or '–'} | {f(r.get('short_pct'))} | {(('⚠️ ' if r.get('scare_flag') else '🔥 ') + r['read']) if r['read'] else ''} |" for r in A['consumer']]
     if A.get('catalysts'):
         L += ['', '## 5f. Catalyst calendar']
         for c in A['catalysts']:

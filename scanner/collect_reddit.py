@@ -69,6 +69,13 @@ def main():
         hit = [p for p in uniq if any(pt.search((p['title'] + ' ' + p['text']).lower()) for pt in pats)]
         narr[key] = dict(all=len(hit), ground_truth=sum(p['sub'] in gt_subs for p in hit),
                          examples=[dict(title=h['title'][:140], sub=h['sub'], url=h['url']) for h in sorted(hit, key=lambda x: -x['score'])[:3]])
+    SCARE = ['recall', 'lawsuit', 'toxic', 'cancer', 'arsenic', 'cyanide', 'banned', 'boycott', 'poison', 'contaminated', 'satanic', 'cursed', 'outbreak']
+    brands = {}
+    for c in cfg.get('consumer_watch', []):
+        pt = re.compile(r'\b' + re.escape(c['term'].lower()) + r'\b')
+        hit = [p for p in uniq if pt.search((p['title'] + ' ' + p['text']).lower())]
+        sc = [p for p in hit if any(re.search(r'\b' + w + r'\b', (p['title'] + ' ' + p['text']).lower()) for w in SCARE)]
+        brands[c['term']] = dict(mentions=len(hit), scare=len(sc), scare_examples=[dict(title=p['title'][:140], url=p['url']) for p in sc[:2]])
     tick = collections.Counter()
     for p in inv:
         txt = p['title'] + ' ' + p['text']
@@ -77,7 +84,7 @@ def main():
             tick[t] += 1
     top_tickers = [(t, n) for t, n in tick.most_common(40) if n >= rc['min_ticker_mentions']]
     out = dict(date=today(), authed=bool(tok), n_posts=len(uniq), errors=errors, theme_counts=theme_counts,
-               theme_top_posts=theme_top, top_tickers=top_tickers, narratives=narr,
+               theme_top_posts=theme_top, top_tickers=top_tickers, narratives=narr, brands=brands,
                n_ground_truth_posts=sum(p['sub'] in gt_subs for p in uniq))
     save_json(out, 'reddit.json')
     if uniq:

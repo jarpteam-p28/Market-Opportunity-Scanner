@@ -137,6 +137,9 @@ consumer_watch:
   - { term: "robinhood", ticker: HOOD }
   - { term: "pokemon cards", ticker: NTDOY }
   - { term: "gta 6", ticker: TTWO }
+  - { term: "labubu", ticker: 9992.HK }
+  - { term: "uggs", ticker: DECK }
+  - { term: "barbie", ticker: MAT }
   - { term: "build a bear", ticker: BBW }
 
 # Narrative meters (Camillo's attention trade): count phrases in Reddit posts + headlines vs their own baseline.

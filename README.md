@@ -35,6 +35,7 @@ Add these under GitHub → Settings → Secrets and variables → Actions. All a
 | `REDDIT_CLIENT_ID`, `REDDIT_CLIENT_SECRET` | Reddit talk. Create a "script" app at reddit.com/prefs/apps. | free |
 | `TELEGRAM_TOKEN`, `TELEGRAM_CHAT_ID` | Phone summary (same bot as the stock scanner). | free |
 | `ANTHROPIC_API_KEY` | The research agents' written thesis. | pay per use |
+| `YOUTUBE_API_KEY` | YouTube comment buzz (buying-intent / scare words) for consumer watch terms. Create a key in Google Cloud Console → YouTube Data API v3. | free (daily quota) |
 | `XAI_API_KEY` | X posts through Grok. Also set `x_grok.enabled: true` in config.yaml. | pay per use |
 
 Prices come from Yahoo Finance and Google Trends comes from pytrends; neither needs a key. Google Trends sometimes rate-limits and is skipped quietly when it does.

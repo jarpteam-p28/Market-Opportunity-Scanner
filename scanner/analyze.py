@@ -189,12 +189,18 @@ def concentration(px, cfg, L):
                 read=('Stress in the AI chain: ' + ', '.join(weak)) if weak else 'No obvious cracks in the AI chain leaders')
 
 
-def consumer(px, trends, L, cfg, info, news):
+def consumer(px, trends, L, cfg, info, news, reddit=None, youtube=None):
     """Camillo-style checks on each search spike: needle mover (size), fuel (short interest), already priced? already in the news?"""
     out = []; vs = {c['ticker']: c.get('vs') for c in cfg.get('consumer_watch', [])}
     heads = ' '.join(h['title'].lower() for h in (news or {}).get('latest', []))
     for term, v in ((trends or {}).get('consumer') or {}).items():
-        t = v.get('ticker'); row = dict(term=term, ticker=t, search_change=pct(v.get('change')), at_12m_high=v.get('at_12m_high'))
+        t = v.get('ticker'); row = dict(term=term, ticker=t, search_change=pct(v.get('change')), at_12m_high=v.get('at_12m_high'),
+                                        yoy_same_season=pct(v.get('yoy_same_season')), at_5y_high=v.get('at_5y_high'))
+        rb = ((reddit or {}).get('brands') or {}).get(term, {}); yt = ((youtube or {}).get('terms') or {}).get(term, {})
+        row.update(reddit_mentions=rb.get('mentions'), scare_posts=rb.get('scare'), scare_examples=rb.get('scare_examples', []),
+                   yt_views=yt.get('views_30d_top5'), yt_intent_per_100=yt.get('intent_per_100'), yt_scare_per_100=yt.get('scare_per_100'))
+        scare_flag = (rb.get('scare') or 0) >= 2 or (yt.get('scare_per_100') or 0) >= 5
+        row['scare_flag'] = scare_flag
         if t in px:
             row.update(m=pct(ret(px[t], L['month'])), q=pct(ret(px[t], L['quarter'])))
         if vs.get(t) and vs[t] in px and t in px:
@@ -203,15 +209,16 @@ def consumer(px, trends, L, cfg, info, news):
         row['mcap_b'] = round(inf['mcap'] / 1e9, 1) if inf.get('mcap') else None
         row['short_pct'] = pct(inf['short_pct_float']) if inf.get('short_pct_float') else None
         row['in_headlines'] = term.split()[0] in heads
-        row['flag'] = bool((v.get('change') or 0) >= 0.5 or v.get('at_12m_high'))
+        row['flag'] = bool((v.get('change') or 0) >= 0.5 or v.get('at_12m_high') or (v.get('yoy_same_season') or 0) >= 0.5)
         if row['flag']:
             moved = (row.get('q') or 0) > 30
             big = (row['mcap_b'] or 0) > 100
-            row['read'] = ('LATE - price already ran / in the news' if moved or row['in_headlines'] else
+            row['read'] = ('CAUTION - scare/negative-virality talk rising: check if it is true' if scare_flag else
+                           'LATE - price already ran / in the news' if moved or row['in_headlines'] else
                            'WATCH - spike at a giant, may not move the needle' if big else
                            'EARLY - search spike, price and news not there yet: verify (stores, reviews, analyst coverage)')
         else:
-            row['read'] = ''
+            row['read'] = 'CAUTION - scare/negative-virality talk' if scare_flag else ''
         out.append(row)
     return sorted(out, key=lambda r: -(r['search_change'] or -999))
 
@@ -291,7 +298,7 @@ def main():
     A = dict(date=today(), last_bar=str(px.index.max().date()), regime=regime(px, cfg, L), breadth=breadth,
              sectors=sectors(px, cfg, L), mag7=mag7(px, caps, cfg, L), top10=t10,
              themes=themes(px, cfg, L, reddit, trends, xg, news), reddit_tickers=reddit_tickers(px, reddit, L),
-             rising_tickers=rising_tickers(px, cfg, L), narratives=narratives(cfg, reddit, news), catalysts=catalysts(px, cfg, L), big_movers=big_movers(px, cfg, L, news), concentration=concentration(px, cfg, L), consumer=consumer(px, trends, L, cfg, load_json('consumer_info.json', default={}), news),
+             rising_tickers=rising_tickers(px, cfg, L), narratives=narratives(cfg, reddit, news), catalysts=catalysts(px, cfg, L), big_movers=big_movers(px, cfg, L, news), concentration=concentration(px, cfg, L), consumer=consumer(px, trends, L, cfg, load_json('consumer_info.json', default={}), news, reddit, load_json('youtube.json', default=None)),
              sources=dict(reddit=bool(reddit and reddit.get('n_posts')), trends=bool(trends and trends.get('terms')),
                           x=bool(xg and xg.get('themes')), news=bool(news and news.get('n'))))
     save_json(A, 'analysis.json')

@@ -28,11 +28,15 @@ def main():
     for c in cfg.get('consumer_watch', []):
         term = c['term']
         try:
-            py.build_payload([term], timeframe='today 12-m', geo=gt['geo'])
-            s = py.interest_over_time()[term]
+            py.build_payload([term], timeframe='today 5-y', geo=gt['geo'])
+            s5 = py.interest_over_time()[term]
+            s = s5.iloc[-52:]
             last = float(s.iloc[-4:].mean()); prior = float(s.iloc[-16:-4].mean()); year = float(s.mean())
+            ly = s5.iloc[-56:-48]; same_last_year = float(ly.iloc[2:6].mean()) if len(ly) >= 6 else None   # same 4 weeks a year ago
             out['consumer'][term] = dict(ticker=c['ticker'], last_4w=last, prior_12w=prior, year_avg=year,
-                                         change=(last / prior - 1) if prior else None, at_12m_high=bool(s.iloc[-4:].max() >= s.max()))
+                                         change=(last / prior - 1) if prior else None, at_12m_high=bool(s.iloc[-4:].max() >= s.max()),
+                                         yoy_same_season=(last / same_last_year - 1) if same_last_year else None,
+                                         at_5y_high=bool(s.iloc[-4:].max() >= s5.max()))
         except Exception as e:
             out['errors'].append(f'{term}: {e}')
         time.sleep(4)
