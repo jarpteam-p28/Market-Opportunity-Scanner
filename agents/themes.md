@@ -10,3 +10,5 @@ DATA:
 {{DATA}}
 
 Also judge the "AI efficiency wave" basket (labor-heavy companies that could expand margins by using AI) against the infrastructure themes: has money started rotating from the builders to the users yet?
+
+Check the "AI efficiency evidence" narrative meter (posts/headlines saying AI cut costs) and the Dev/IT ground-truth post count: is there real evidence that AI is paying off inside companies? Also judge the "Distribution moats" basket.

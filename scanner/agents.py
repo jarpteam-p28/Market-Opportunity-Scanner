@@ -23,10 +23,10 @@ def context_for(name, A, extra):
     pick = {
         'regime': {'regime': A['regime'], 'breadth': A['breadth'], 'mag7': A['mag7'], 'ai_concentration_watch': A.get('concentration')},
         'sectors': {'sectors': A['sectors'], 'top10': A['top10'], 'breadth': A['breadth']},
-        'sentiment': {'themes': A['themes'], 'reddit_tickers': A['reddit_tickers'], 'rising_tickers': A.get('rising_tickers'), 'consumer_search_watch': A.get('consumer'), 'x': extra.get('x'), 'trends': extra.get('trends'),
+        'sentiment': {'themes': A['themes'], 'reddit_tickers': A['reddit_tickers'], 'rising_tickers': A.get('rising_tickers'), 'consumer_search_watch': A.get('consumer'), 'narratives': A.get('narratives'), 'x': extra.get('x'), 'trends': extra.get('trends'),
                       'news': (extra.get('news') or {}).get('by_theme')},
         'themes': {'themes': slim_themes, 'sectors': A['sectors'], 'news': (extra.get('news') or {}).get('by_theme')},
-        'skeptic': {'regime': A['regime'], 'mag7': A['mag7'], 'themes': slim_themes, 'ai_concentration_watch': A.get('concentration')},
+        'skeptic': {'regime': A['regime'], 'mag7': A['mag7'], 'themes': slim_themes, 'ai_concentration_watch': A.get('concentration'), 'narratives': A.get('narratives')},
         'regime_extra': None,
     }
     return json.dumps(pick.get(name, A), default=str)[:60000]
@@ -61,7 +61,7 @@ def main():
         try:
             wl = json.loads(m.group(1)).get('watchlist', [])
             px = pd.read_csv(day_dir() / 'prices.csv', index_col=0, parse_dates=True)
-            rows = [dict(date=today(), ticker=w.get('ticker'), theme=w.get('theme'), stance=w.get('stance'),
+            rows = [dict(date=today(), ticker=w.get('ticker'), theme=w.get('theme'), stance=w.get('stance'), conviction=w.get('conviction'), thesis_breaker=(w.get('thesis_breaker') or '')[:200],
                          idea=w.get('why', '')[:300], price=round(float(px[w['ticker']].dropna().iloc[-1]), 2) if w.get('ticker') in px else None,
                          spy=round(float(px[cfg['regime']['index']].dropna().iloc[-1]), 2)) for w in wl]
             j = ROOT / 'journal' / 'theses.csv'; j.parent.mkdir(exist_ok=True)

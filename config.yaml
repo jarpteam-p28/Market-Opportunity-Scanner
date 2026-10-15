@@ -102,6 +102,11 @@ themes:
     tickers: [AMZN, UPS, FDX, UNH, CVS, JPM, WMT, ACN, CNC, TRV]
     keywords: ["AI layoffs", "AI efficiency", "replaced by AI", "AI customer service", "headcount cuts"]
     trends: ["AI layoffs"]
+  Distribution moats:         # Camillo: when intelligence is cheap, owners of distribution win first
+    etfs: []
+    tickers: [AMZN, WMT, COST, HD, PG, KO, PEP, MCD, UPS, V]
+    keywords: ["distribution moat", "logistics network", "last mile"]
+    trends: []
   Robotics:
     etfs: [BOTZ]
     tickers: [TSLA, ISRG, TER, SYM, ROK]
@@ -132,9 +137,24 @@ consumer_watch:
   - { term: "robinhood", ticker: HOOD }
   - { term: "pokemon cards", ticker: NTDOY }
 
+# Narrative meters (Camillo's attention trade): count phrases in Reddit posts + headlines vs their own baseline.
+narratives:
+  ai_fear:
+    label: "AI fear / FUD"
+    phrases: ["ai bubble", "capex", "circular financing", "open source model", "open-weight", "deepseek", "kimi", "margin call",
+              "dot com", "dotcom", "overvalued", "bubble", "ai winter", "depreciation", "openai losses", "data center glut"]
+  ai_efficiency:
+    label: "AI efficiency evidence"
+    phrases: ["ai saved", "saved us", "cut costs", "reduced costs", "lower costs", "headcount", "laid off", "layoffs",
+              "replaced by ai", "customer service costs", "productivity gains", "automated", "ai agents replaced"]
+  leverage:
+    label: "Leverage / forced selling"
+    phrases: ["margin call", "liquidation", "leveraged etf", "forced selling", "deleveraging", "korea margin"]
+
 # ---------- 4. Where people talk ----------
 reddit:
   subreddits: [stocks, investing, wallstreetbets, StockMarket, options, SecurityAnalysis, energy, nuclear]
+  ground_truth_subreddits: [ExperiencedDevs, sysadmin, devops, cscareerquestions, MachineLearning, LocalLLaMA, ITManagers, dataengineering]
   posts_per_sub: 100          # hot + new
   min_ticker_mentions: 3
   rising_min_mentions: 5      # a ticker must have at least this many mentions now to count as 'rising'

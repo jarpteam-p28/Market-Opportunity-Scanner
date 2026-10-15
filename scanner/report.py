@@ -46,6 +46,13 @@ def build(A, agents, cfg):
         L += ['', '## 5a. AI concentration-risk watch', f"**{C['read']}** (chip index {C['benchmark']} 1 mo {f(C['bench_m'])})", '',
               '| Ticker | 1 mo | 3 mo | vs chips 1 mo | >50d | >200d |', '|---|---|---|---|---|---|']
         L += [f"| {r['ticker']} | {f(r['m'])} | {f(r['q'])} | {f(r['vs_chips_m'])} | {yn(r['above50'])} | {yn(r['above200'])} |" for r in C['rows']]
+    if A.get('narratives'):
+        L += ['', '## 5e. Narrative meters (talk vs its own usual level)', '| Narrative | Reddit per 1k posts | Change | Headlines per 1k | Change | Dev/IT posts | Accelerating? |', '|---|---|---|---|---|---|---|']
+        L += [f"| {n['label']} | {n['reddit_per_1k'] if n['reddit_per_1k'] is not None else '–'} | {f(n['reddit_change'])} | {n['news_per_1k'] if n['news_per_1k'] is not None else '–'} | {f(n['news_change'])} | {n['ground_truth_posts'] if n['ground_truth_posts'] is not None else '–'} | {'⚠️ yes' if n['accelerating'] else 'no'} |" for n in A['narratives']]
+        for n in A['narratives']:
+            ex = [e for e in n['examples'] if e.get('title')][:2]
+            if ex:
+                L.append(f"- {n['label']} examples: " + ' · '.join(f"[{e['title'][:90]}]({e.get('url') or e.get('link', '')})" for e in ex))
     if A.get('rising_tickers'):
         L += ['', '## 5b. Rising talk on Reddit (at least double the usual mentions)', '| Ticker | Mentions | Usual | Change | 1 mo price | >50d |', '|---|---|---|---|---|---|']
         L += [f"| {r['ticker']} | {r['mentions']} | {r['baseline']} | {f(r['change'])} | {f(r.get('m'))} | {yn(r.get('above50'))} |" for r in A['rising_tickers']]
@@ -75,6 +82,7 @@ def short(A):
            'Leading sectors: ' + ', '.join(f"{x['sector']} ({f(x['rs_m_now'])})" for x in s[:3]),
            'Moving up: ' + (', '.join(x['sector'] for x in up) or 'none'),
            ('⚠️ 10-yr yield at/above 5%' if R.get('ten_year_alert') else '10-yr below 5%') + ' | AI chain: ' + (A.get('concentration') or {}).get('read', 'n/a'),
+           'Narratives: ' + (', '.join(n['label'] + ' accelerating' for n in A.get('narratives', []) if n['accelerating']) or 'nothing accelerating'),
            'Rising on Reddit: ' + (', '.join(r['ticker'] for r in A.get('rising_tickers', [])[:5]) or 'none yet'),
            'Search spikes: ' + (', '.join(f"{r['term']} ({r['ticker']})" for r in A.get('consumer', []) if r['flag']) or 'none'),
            'Themes: ' + ('; '.join(f"{t['theme']}: {t['label'].split(' - ')[0]}" for t in hot) or 'nothing confirmed by talk + price')]

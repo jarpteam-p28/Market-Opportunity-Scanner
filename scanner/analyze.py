@@ -238,6 +238,21 @@ def rising_tickers(px, cfg, L):
     return sorted(out, key=lambda r: -r['change'])[:15]
 
 
+def narratives(cfg, reddit, news):
+    out = []
+    for key, nv in cfg.get('narratives', {}).items():
+        r_now, r_chg = buzz_change('narratives_reddit', key)
+        n_now, n_chg = buzz_change('narratives_news', key)
+        rn = ((reddit or {}).get('narratives') or {}).get(key, {})
+        chg = [c for c in (r_chg, n_chg) if c is not None]
+        accel = max(chg) if chg else None
+        out.append(dict(key=key, label=nv['label'], reddit_per_1k=None if r_now is None else round(r_now, 1), reddit_change=pct(r_chg),
+                        news_per_1k=None if n_now is None else round(n_now, 1), news_change=pct(n_chg),
+                        ground_truth_posts=rn.get('ground_truth'), examples=rn.get('examples', [])[:2] + ((news or {}).get('narratives', {}).get(key, {}).get('examples', [])[:2]),
+                        accelerating=bool(accel is not None and accel >= 0.5)))
+    return out
+
+
 def main():
     cfg = load_config(); L = cfg['report']['lookbacks_days']; d = day_dir()
     px = pd.read_csv(d / 'prices.csv', index_col=0, parse_dates=True).sort_index()
@@ -247,7 +262,7 @@ def main():
     A = dict(date=today(), last_bar=str(px.index.max().date()), regime=regime(px, cfg, L), breadth=breadth,
              sectors=sectors(px, cfg, L), mag7=mag7(px, caps, cfg, L), top10=t10,
              themes=themes(px, cfg, L, reddit, trends, xg, news), reddit_tickers=reddit_tickers(px, reddit, L),
-             rising_tickers=rising_tickers(px, cfg, L), concentration=concentration(px, cfg, L), consumer=consumer(px, trends, L, cfg, load_json('consumer_info.json', default={}), news),
+             rising_tickers=rising_tickers(px, cfg, L), narratives=narratives(cfg, reddit, news), concentration=concentration(px, cfg, L), consumer=consumer(px, trends, L, cfg, load_json('consumer_info.json', default={}), news),
              sources=dict(reddit=bool(reddit and reddit.get('n_posts')), trends=bool(trends and trends.get('terms')),
                           x=bool(xg and xg.get('themes')), news=bool(news and news.get('n'))))
     save_json(A, 'analysis.json')
