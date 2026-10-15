@@ -1,0 +1,1 @@
+`theses.csv`: every watch-list idea the agents produce, with the date and price. `scored.csv`: how each idea did after 1, 3 and 6 months vs the S&P. If the ideas don't beat the S&P over time, the agents are not adding value.

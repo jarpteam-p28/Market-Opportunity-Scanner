@@ -1,0 +1,12 @@
+# Instructions for Claude in this repo
+- Owner: Pablo. Self-directed trader who builds swing and position trades in stocks. He wants plain English and honest, unsugarcoated reads. Always say research only, not investment advice, and that Claude is not a licensed advisor.
+- This project is separate from his media repo (Media-Page-for-Bh-Base). Never mix them.
+- No auto-trading, no order placement, no webhooks to brokers. Output is reports and phone alerts only.
+- Never enter or ask for passwords. Secrets live in GitHub Actions secrets that Pablo adds himself.
+- Everything the scanner looks at is driven by `config.yaml`. Prefer editing config over code.
+- Every collector must fail soft. A missing source is reported in the "Sources this run" line, never crashes the run.
+- Don't invent data in reports or agent prompts. Agents only use the numbers they are given.
+- Lessons from his backtest project (Project "Trading view configuration"):
+  - Market regime (S&P vs its 200-day average) mattered more than most stock-level signals.
+  - Popular signals often failed placebo tests.
+  - Judge the agents by `journal/scored.csv` vs the S&P, not by how convincing they sound.

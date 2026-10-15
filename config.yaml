@@ -1,0 +1,127 @@
+# Market-Opportunity-Scanner — everything the scanner looks at is driven from this file.
+# Edit lists here; no code changes needed. Tickers that no longer exist are skipped automatically.
+
+report:
+  title: "Market Opportunity Scan"
+  lookbacks_days: { week: 5, month: 21, quarter: 63 }   # trading days
+  top_n: 10
+
+# ---------- 1. Market regime ----------
+regime:
+  index: SPY
+  equal_weight: RSP          # equal-weight S&P 500 (is it only the mega caps?)
+  small_caps: IWM
+  nasdaq: QQQ
+  vix: ^VIX
+  ten_year: ^TNX
+  dollar: UUP
+  credit_risk_on: HYG        # high yield vs treasuries = credit appetite
+  credit_safe: IEF
+
+# ---------- 2. Sectors (SPDR sector ETFs) ----------
+sectors:
+  Technology: XLK
+  Communication: XLC
+  Consumer Discretionary: XLY
+  Consumer Staples: XLP
+  Energy: XLE
+  Financials: XLF
+  Health Care: XLV
+  Industrials: XLI
+  Materials: XLB
+  Real Estate: XLRE
+  Utilities: XLU
+
+# Candidate large caps per sector. The scanner ranks them by LIVE market cap and keeps the top 10.
+sector_candidates:
+  Technology: [NVDA, MSFT, AAPL, AVGO, ORCL, CRM, AMD, CSCO, IBM, ACN, ADBE, NOW, QCOM, TXN, INTU, AMAT, MU, LRCX, KLAC, ANET, PLTR, ADI, PANW, CRWD]
+  Communication: [GOOGL, META, NFLX, TMUS, DIS, VZ, T, CMCSA, CHTR, EA, TTWO, WBD, LYV, OMC]
+  Consumer Discretionary: [AMZN, TSLA, HD, MCD, BKNG, LOW, TJX, SBUX, NKE, ORLY, CMG, MAR, ABNB, GM, F, ROST, AZO, HLT, DASH, RCL]
+  Consumer Staples: [WMT, COST, PG, KO, PEP, PM, MO, MDLZ, CL, TGT, KMB, KDP, GIS, KR, MNST, HSY, STZ, SYY]
+  Energy: [XOM, CVX, COP, EOG, SLB, WMB, MPC, PSX, KMI, OKE, OXY, VLO, HES, BKR, FANG, LNG, TRGP]
+  Financials: [BRK-B, JPM, V, MA, BAC, WFC, GS, MS, AXP, SPGI, BLK, C, SCHW, PGR, CB, MMC, BX, KKR, COF, ICE]
+  Health Care: [LLY, UNH, JNJ, ABBV, MRK, TMO, ABT, ISRG, AMGN, DHR, PFE, BSX, SYK, GILD, VRTX, MDT, ELV, CI, REGN, HCA]
+  Industrials: [GE, CAT, RTX, UNP, HON, UBER, ETN, BA, LMT, DE, ADP, GEV, PH, WM, TT, UPS, PWR, NOC, GD, MMM, VRT]
+  Materials: [LIN, SHW, APD, ECL, FCX, NEM, CRH, CTVA, DD, NUE, VMC, MLM, DOW, PPG, SCCO]
+  Real Estate: [PLD, AMT, EQIX, WELL, SPG, O, PSA, DLR, CCI, CBRE, VICI, EXR, AVB, IRM]
+  Utilities: [NEE, SO, DUK, CEG, VST, AEP, SRE, D, EXC, XEL, PCG, PEG, ED, NRG, ETR, TLN]
+
+mag7: [AAPL, MSFT, NVDA, GOOGL, AMZN, META, TSLA]
+
+# ---------- 3. Themes: the talk vs. the tape ----------
+# Each theme = price basket (ETFs + leaders) + words people use when they talk about it.
+themes:
+  AI chips:
+    etfs: [SMH, SOXX]
+    tickers: [NVDA, AMD, AVGO, TSM, MU, ARM, MRVL, ASML]
+    keywords: ["AI chips", "semiconductor", "GPU", "HBM", "Nvidia"]
+    trends: ["AI chips", "Nvidia stock"]
+  AI data centers:
+    etfs: [DTCR, SRVR]
+    tickers: [EQIX, DLR, VRT, ANET, SMCI, DELL, CRWV]
+    keywords: ["data center", "datacenter", "hyperscaler", "AI capex"]
+    trends: ["data center", "AI data center"]
+  Power for AI:
+    etfs: [XLU, GRID]
+    tickers: [VST, CEG, NRG, TLN, GEV, ETN, PWR]
+    keywords: ["power grid", "electricity demand", "power shortage", "utilities AI", "natural gas turbines"]
+    trends: ["data center power", "electricity prices"]
+  Nuclear:
+    etfs: [URA, NLR]
+    tickers: [CCJ, OKLO, SMR, LEU, BWXT, NNE]
+    keywords: ["nuclear", "uranium", "SMR", "small modular reactor"]
+    trends: ["nuclear energy", "uranium"]
+  Water:
+    etfs: [PHO, FIW, CGW]
+    tickers: [XYL, ECL, AWK, WTRG, VLTO, WTS, AQUA]
+    keywords: ["water shortage", "data center water", "water stocks", "water cooling"]
+    trends: ["data center water", "water shortage"]
+  Cooling:
+    etfs: []
+    tickers: [VRT, MOD, JCI, TT, CARR]
+    keywords: ["liquid cooling", "data center cooling"]
+    trends: ["liquid cooling"]
+  Copper & grid materials:
+    etfs: [COPX, CPER]
+    tickers: [FCX, SCCO, TECK]
+    keywords: ["copper", "copper shortage"]
+    trends: ["copper price"]
+  AI software:
+    etfs: [IGV]
+    tickers: [PLTR, MSFT, NOW, CRM, SNOW, DDOG]
+    keywords: ["AI agents", "AI software", "Palantir"]
+    trends: ["AI agents"]
+  Robotics:
+    etfs: [BOTZ]
+    tickers: [ISRG, TER, SYM, ROK]
+    keywords: ["robotics", "humanoid robot"]
+    trends: ["humanoid robot"]
+
+# ---------- 4. Where people talk ----------
+reddit:
+  subreddits: [stocks, investing, wallstreetbets, StockMarket, options, SecurityAnalysis, energy, nuclear]
+  posts_per_sub: 100          # hot + new
+  min_ticker_mentions: 3
+
+google_trends:
+  enabled: true
+  timeframe: "today 3-m"
+  geo: "US"
+
+x_grok:                       # optional, needs XAI_API_KEY secret (paid, ~$5 per 1,000 posts fetched)
+  enabled: false
+  model: grok-4
+  max_queries: 6
+
+news_rss:
+  - https://feeds.content.dowjones.io/public/rss/mw_topstories
+  - https://www.cnbc.com/id/100003114/device/rss/rss.html
+  - https://finance.yahoo.com/news/rssindex
+  - https://www.investing.com/rss/news_25.rss
+
+# ---------- 5. Agents (thesis writers) ----------
+agents:
+  enabled: true               # runs only if ANTHROPIC_API_KEY secret exists; otherwise the data report still ships
+  model: claude-sonnet-5-5
+  max_tokens: 3000
+  order: [regime, sectors, sentiment, themes, skeptic, synthesizer]

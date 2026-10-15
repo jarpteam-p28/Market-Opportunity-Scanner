@@ -1,0 +1,63 @@
+"""Collect daily prices (1 year) for regime, sectors, themes, Mag 7 and sector candidates, plus live market caps.
+Source: Yahoo Finance via yfinance (free). Output: data/<date>/prices.csv, volumes.csv, market_caps.json"""
+import sys, time
+import pandas as pd
+from common import load_config, day_dir, save_json
+
+
+def all_tickers(cfg):
+    t = set(cfg['regime'].values()) | set(cfg['sectors'].values()) | set(cfg['mag7'])
+    for lst in cfg['sector_candidates'].values():
+        t |= set(lst)
+    for th in cfg['themes'].values():
+        t |= set(th.get('etfs', [])) | set(th.get('tickers', []))
+    return sorted(t)
+
+
+def download(tickers, period='1y'):
+    import yfinance as yf
+    closes, vols = {}, {}
+    for i in range(0, len(tickers), 80):          # batches keep Yahoo happy
+        chunk = tickers[i:i + 80]
+        raw = yf.download(chunk, period=period, auto_adjust=True, group_by='ticker', progress=False, threads=True)
+        for t in chunk:
+            try:
+                x = raw[t] if len(chunk) > 1 else raw
+                x = x.dropna(subset=['Close'])
+                if len(x):
+                    closes[t] = x['Close']; vols[t] = x['Volume']
+            except Exception:
+                pass
+        time.sleep(1)
+    return pd.DataFrame(closes), pd.DataFrame(vols)
+
+
+def market_caps(tickers):
+    import yfinance as yf
+    out = {}
+    for t in tickers:
+        try:
+            mc = yf.Ticker(t).fast_info.get('marketCap')
+            if mc:
+                out[t] = float(mc)
+        except Exception:
+            pass
+    return out
+
+
+def main():
+    cfg = load_config()
+    tick = all_tickers(cfg)
+    px, vol = download(tick)
+    missing = [t for t in tick if t not in px.columns]
+    d = day_dir()
+    px.to_csv(d / 'prices.csv'); vol.to_csv(d / 'volumes.csv')
+    stocks = sorted({s for lst in cfg['sector_candidates'].values() for s in lst} |
+                    {s for th in cfg['themes'].values() for s in th.get('tickers', [])} | set(cfg['mag7']))
+    save_json(market_caps(stocks), 'market_caps.json')
+    save_json({'n_tickers': len(tick), 'got': px.shape[1], 'missing': missing, 'last_bar': str(px.index.max())}, 'market_meta.json')
+    print(f'prices: {px.shape}, missing {len(missing)}: {missing[:20]}')
+
+
+if __name__ == '__main__':
+    sys.exit(main())
