@@ -21,12 +21,13 @@ def context_for(name, A, extra):
     """Give each agent only the slice it needs (keeps cost down and the agents focused)."""
     slim_themes = [{k: v for k, v in t.items() if k != 'top_posts'} for t in A['themes']]
     pick = {
-        'regime': {'regime': A['regime'], 'breadth': A['breadth'], 'mag7': A['mag7']},
+        'regime': {'regime': A['regime'], 'breadth': A['breadth'], 'mag7': A['mag7'], 'ai_concentration_watch': A.get('concentration')},
         'sectors': {'sectors': A['sectors'], 'top10': A['top10'], 'breadth': A['breadth']},
-        'sentiment': {'themes': A['themes'], 'reddit_tickers': A['reddit_tickers'], 'x': extra.get('x'), 'trends': extra.get('trends'),
+        'sentiment': {'themes': A['themes'], 'reddit_tickers': A['reddit_tickers'], 'rising_tickers': A.get('rising_tickers'), 'consumer_search_watch': A.get('consumer'), 'x': extra.get('x'), 'trends': extra.get('trends'),
                       'news': (extra.get('news') or {}).get('by_theme')},
         'themes': {'themes': slim_themes, 'sectors': A['sectors'], 'news': (extra.get('news') or {}).get('by_theme')},
-        'skeptic': {'regime': A['regime'], 'mag7': A['mag7'], 'themes': slim_themes},
+        'skeptic': {'regime': A['regime'], 'mag7': A['mag7'], 'themes': slim_themes, 'ai_concentration_watch': A.get('concentration')},
+        'regime_extra': None,
     }
     return json.dumps(pick.get(name, A), default=str)[:60000]
 
@@ -45,6 +46,8 @@ def main():
             ctx = json.dumps({'agent_reports': outs, 'regime': A['regime']['label'], 'date': A['date']})
         else:
             ctx = context_for(name, A, extra)
+        if name != 'synthesizer':
+            tmpl = tmpl.replace('{{PLAYBOOK}}', '{{PLAYBOOK}}') if '{{PLAYBOOK}}' in tmpl else tmpl + '\n\nUser playbook notes (context, not data):\n{{PLAYBOOK}}'
         prompt = tmpl.replace('{{DATE}}', A['date']).replace('{{PLAYBOOK}}', playbook).replace('{{DATA}}', ctx)
         try:
             outs[name] = call(prompt, cfg, key)

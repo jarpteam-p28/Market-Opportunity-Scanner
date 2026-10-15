@@ -9,3 +9,5 @@ Playbook notes from the user (may be empty):
 
 DATA:
 {{DATA}}
+
+Pay special attention to "rising_tickers" (talk at least doubling vs its own baseline) and the consumer search watch (Google searches spiking for a product/brand). A spike in searches with the stock not yet moving is the classic social-arbitrage setup; a spike after a big price move is likely late.

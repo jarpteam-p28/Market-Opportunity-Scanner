@@ -8,3 +8,5 @@ Do not invent numbers.
 
 DATA:
 {{DATA}}
+
+Also judge the "AI efficiency wave" basket (labor-heavy companies that could expand margins by using AI) against the infrastructure themes: has money started rotating from the builders to the users yet?

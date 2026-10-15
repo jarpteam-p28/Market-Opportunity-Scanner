@@ -51,6 +51,8 @@ def regime(px, cfg, L):
             s = px[t].dropna(); out[k] = dict(last=round(float(s.iloc[-1]), 2), m_change=pct(ret(s, L['month'])))
     score = sum([bool(out['spy']['above200']), bool(out['spy']['above50']),
                  (out.get('vix', {}).get('last') or 99) < 20, (out['credit_appetite_1m'] or 0) > 0])
+    ty = out.get('ten_year', {}).get('last')
+    out['ten_year_alert'] = bool(ty is not None and ty >= g.get('ten_year_alert', 99))
     out['label'] = {4: 'RISK-ON', 3: 'RISK-ON (some caution)', 2: 'MIXED', 1: 'RISK-OFF (some support)', 0: 'RISK-OFF'}[score]
     out['score_0_4'] = score
     return out
@@ -172,6 +174,54 @@ def reddit_tickers(px, reddit, L):
     return out
 
 
+def concentration(px, cfg, L):
+    cw = cfg.get('concentration_watch') or {}
+    b = cw.get('benchmark', 'SMH'); rows = []
+    if b not in px:
+        return {}
+    bm, bq = ret(px[b], L['month']), ret(px[b], L['quarter'])
+    for t in cw.get('tickers', []):
+        if t in px:
+            rows.append(dict(ticker=t, m=pct(ret(px[t], L['month'])), q=pct(ret(px[t], L['quarter'])),
+                             vs_chips_m=pct(ret(px[t], L['month']) - bm), above50=above(px[t], 50), above200=above(px[t], 200)))
+    weak = [r['ticker'] for r in rows if r['above200'] is False or (r['vs_chips_m'] or 0) < -10]
+    return dict(benchmark=b, bench_m=pct(bm), bench_q=pct(bq), rows=rows, warning_names=weak,
+                read=('Stress in the AI chain: ' + ', '.join(weak)) if weak else 'No obvious cracks in the AI chain leaders')
+
+
+def consumer(px, trends, L):
+    out = []
+    for term, v in ((trends or {}).get('consumer') or {}).items():
+        t = v.get('ticker'); row = dict(term=term, ticker=t, search_change=pct(v.get('change')), at_12m_high=v.get('at_12m_high'))
+        if t in px:
+            row.update(m=pct(ret(px[t], L['month'])), q=pct(ret(px[t], L['quarter'])))
+        row['flag'] = bool((v.get('change') or 0) >= 0.5 or v.get('at_12m_high'))
+        out.append(row)
+    return sorted(out, key=lambda r: -(r['search_change'] or -999))
+
+
+def rising_tickers(px, cfg, L):
+    p = HISTORY / 'reddit_tickers.csv'
+    if not p.exists():
+        return []
+    h = pd.read_csv(p, parse_dates=['date']).sort_values('date').set_index('date').fillna(0)
+    if len(h) < 2:
+        return []
+    now = h.iloc[-1]; base = h[h.index <= h.index[-1] - pd.Timedelta(days=5)].tail(4)
+    if not len(base):
+        return []
+    b = base.mean(); out = []
+    for t in now.index:
+        if now[t] >= cfg['reddit'].get('rising_min_mentions', 5):
+            ch = (now[t] + 1) / (b.get(t, 0) + 1) - 1
+            if ch >= 1.0:   # at least double the usual talk
+                row = dict(ticker=t, mentions=int(now[t]), baseline=round(float(b.get(t, 0)), 1), change=pct(ch))
+                if t in px:
+                    row.update(m=pct(ret(px[t], L['month'])), above50=above(px[t], 50))
+                out.append(row)
+    return sorted(out, key=lambda r: -r['change'])[:15]
+
+
 def main():
     cfg = load_config(); L = cfg['report']['lookbacks_days']; d = day_dir()
     px = pd.read_csv(d / 'prices.csv', index_col=0, parse_dates=True).sort_index()
@@ -181,6 +231,7 @@ def main():
     A = dict(date=today(), last_bar=str(px.index.max().date()), regime=regime(px, cfg, L), breadth=breadth,
              sectors=sectors(px, cfg, L), mag7=mag7(px, caps, cfg, L), top10=t10,
              themes=themes(px, cfg, L, reddit, trends, xg, news), reddit_tickers=reddit_tickers(px, reddit, L),
+             rising_tickers=rising_tickers(px, cfg, L), concentration=concentration(px, cfg, L), consumer=consumer(px, trends, L),
              sources=dict(reddit=bool(reddit and reddit.get('n_posts')), trends=bool(trends and trends.get('terms')),
                           x=bool(xg and xg.get('themes')), news=bool(news and news.get('n'))))
     save_json(A, 'analysis.json')

@@ -7,3 +7,5 @@ Be concrete and use only the numbers given.
 
 DATA:
 {{DATA}}
+
+Always check the AI concentration-risk watch: does the bull case depend on a few AI labs and hyperscalers continuing to spend? Are Oracle, CoreWeave or the hyperscalers breaking down while chips still look fine? Is the 10-year yield near or above 5%?

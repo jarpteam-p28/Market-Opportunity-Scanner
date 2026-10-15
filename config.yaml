@@ -17,6 +17,7 @@ regime:
   dollar: UUP
   credit_risk_on: HYG        # high yield vs treasuries = credit appetite
   credit_safe: IEF
+  ten_year_alert: 5.0        # Eisman: ~5% on the 10-year looks like the market's line in the sand
 
 # ---------- 2. Sectors (SPDR sector ETFs) ----------
 sectors:
@@ -58,13 +59,13 @@ themes:
     trends: ["AI chips", "Nvidia stock"]
   AI data centers:
     etfs: [DTCR, SRVR]
-    tickers: [EQIX, DLR, VRT, ANET, SMCI, DELL, CRWV]
+    tickers: [EQIX, DLR, VRT, ANET, CSCO, SMCI, DELL, CRWV]
     keywords: ["data center", "datacenter", "hyperscaler", "AI capex"]
     trends: ["data center", "AI data center"]
   Power for AI:
     etfs: [XLU, GRID]
-    tickers: [VST, CEG, NRG, TLN, GEV, ETN, PWR]
-    keywords: ["power grid", "electricity demand", "power shortage", "utilities AI", "natural gas turbines"]
+    tickers: [VST, CEG, NRG, TLN, GEV, ETN, PWR, BE]
+    keywords: ["power grid", "electricity demand", "power shortage", "utilities AI", "gas turbine", "Bloom Energy", "fuel cell"]
     trends: ["data center power", "electricity prices"]
   Nuclear:
     etfs: [URA, NLR]
@@ -91,17 +92,43 @@ themes:
     tickers: [PLTR, MSFT, NOW, CRM, SNOW, DDOG]
     keywords: ["AI agents", "AI software", "Palantir"]
     trends: ["AI agents"]
+  Memory chips:
+    etfs: [EWY]
+    tickers: [MU, SNDK, WDC, STX]
+    keywords: ["memory chips", "HBM", "DRAM", "NAND", "Micron", "SanDisk"]
+    trends: ["memory chip shortage"]
+  AI efficiency wave:          # Camillo's "third wave": big labor/admin/logistics costs that AI can cut (a hypothesis basket)
+    etfs: []
+    tickers: [AMZN, UPS, FDX, UNH, CVS, JPM, WMT, ACN, CNC, TRV]
+    keywords: ["AI layoffs", "AI efficiency", "replaced by AI", "AI customer service", "headcount cuts"]
+    trends: ["AI layoffs"]
   Robotics:
     etfs: [BOTZ]
     tickers: [ISRG, TER, SYM, ROK]
     keywords: ["robotics", "humanoid robot"]
     trends: ["humanoid robot"]
 
+# AI concentration-risk monitor (Eisman): if these break while chips hold up, the AI chain may be cracking.
+concentration_watch:
+  benchmark: SMH
+  tickers: [ORCL, CRWV, NVDA, MSFT, AMZN, GOOGL, META]
+
+# Consumer social-arbitrage watch (Camillo): Google Trends terms for products/brands -> ticker. Add your own.
+consumer_watch:
+  - { term: "coconut water", ticker: COCO }
+  - { term: "sweetgreen wrap", ticker: SG }
+  - { term: "swatch", ticker: UHR.SW }
+  - { term: "ozempic", ticker: NVO }
+  - { term: "hims", ticker: HIMS }
+  - { term: "robinhood", ticker: HOOD }
+  - { term: "pokemon cards", ticker: NTDOY }
+
 # ---------- 4. Where people talk ----------
 reddit:
   subreddits: [stocks, investing, wallstreetbets, StockMarket, options, SecurityAnalysis, energy, nuclear]
   posts_per_sub: 100          # hot + new
   min_ticker_mentions: 3
+  rising_min_mentions: 5      # a ticker must have at least this many mentions now to count as 'rising'
 
 google_trends:
   enabled: true

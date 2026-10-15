@@ -21,6 +21,7 @@ def build(A, agents, cfg):
           f"| S&P 500 (SPY) | {R['spy']['last']} | {f(R['spy']['w'])} | {f(R['spy']['m'])} | {f(R['spy']['q'])} | {f(R['spy']['ytd'])} | {yn(R['spy']['above50'])} | {yn(R['spy']['above200'])} |", '']
     L += [f"- VIX {R.get('vix', {}).get('last', '–')} · 10-yr yield {R.get('ten_year', {}).get('last', '–')} · dollar 1-mo {f(R.get('dollar', {}).get('m_change'))}",
           f"- Equal-weight vs S&P (1 mo): {f(R['equal_vs_cap_1m'])} · small caps vs S&P: {f(R['small_vs_large_1m'])} · credit appetite (HYG/IEF): {f(R['credit_appetite_1m'])}",
+          ("- ⚠️ **10-year yield at/above the 5% danger line**" if R.get('ten_year_alert') else "- 10-year yield below the 5% danger line"),
           f"- Breadth: {A['breadth']['pct_top10s_above_50d']}% of sector top-10 names above their 50-day, {A['breadth']['pct_top10s_above_200d']}% above 200-day", '']
     L += ['## 2. Is it only the Magnificent 7?', f"**{M['read']}**", '', '| | 1 wk | 1 mo | 3 mo | YTD |', '|---|---|---|---|---|',
           f"| Mag 7 (equal weight) | {f(M['mag7_w'])} | {f(M['mag7_m'])} | {f(M['mag7_q'])} | {f(M['mag7_ytd'])} |",
@@ -40,8 +41,19 @@ def build(A, agents, cfg):
     for t in A['themes']:
         ld = ', '.join(f'{c} {f(r)}' for c, r in t['leaders_m'])
         L.append(f"- **{t['theme']}** leaders (1 mo): {ld}" + (f" · top post: [{t['top_posts'][0]['title'][:80]}]({t['top_posts'][0]['url']})" if t['top_posts'] else ''))
+    C = A.get('concentration') or {}
+    if C.get('rows'):
+        L += ['', '## 5a. AI concentration-risk watch', f"**{C['read']}** (chip index {C['benchmark']} 1 mo {f(C['bench_m'])})", '',
+              '| Ticker | 1 mo | 3 mo | vs chips 1 mo | >50d | >200d |', '|---|---|---|---|---|---|']
+        L += [f"| {r['ticker']} | {f(r['m'])} | {f(r['q'])} | {f(r['vs_chips_m'])} | {yn(r['above50'])} | {yn(r['above200'])} |" for r in C['rows']]
+    if A.get('rising_tickers'):
+        L += ['', '## 5b. Rising talk on Reddit (at least double the usual mentions)', '| Ticker | Mentions | Usual | Change | 1 mo price | >50d |', '|---|---|---|---|---|---|']
+        L += [f"| {r['ticker']} | {r['mentions']} | {r['baseline']} | {f(r['change'])} | {f(r.get('m'))} | {yn(r.get('above50'))} |" for r in A['rising_tickers']]
+    if A.get('consumer'):
+        L += ['', '## 5c. Consumer social-arb watch (Google searches, last 4 weeks vs prior 12)', '| Search term | Ticker | Search change | At 12-mo high | 1 mo price | 3 mo price | Flag |', '|---|---|---|---|---|---|---|']
+        L += [f"| {r['term']} | {r['ticker']} | {f(r['search_change'])} | {yn(r['at_12m_high'])} | {f(r.get('m'))} | {f(r.get('q'))} | {'🔥' if r['flag'] else ''} |" for r in A['consumer']]
     if A['reddit_tickers']:
-        L += ['', '## 5. Most-mentioned tickers on Reddit (this scan)', '| Ticker | Mentions | 1 mo | >50d |', '|---|---|---|---|']
+        L += ['', '## 5d. Most-mentioned tickers on Reddit (this scan)', '| Ticker | Mentions | 1 mo | >50d |', '|---|---|---|---|']
         L += [f"| {r['ticker']} | {r['mentions']} | {f(r.get('m'))} | {yn(r.get('above50'))} |" for r in A['reddit_tickers']]
     L += ['', '## 6. Top 10 by market cap in each sector', '']
     for sec, rows in A['top10'].items():
@@ -62,6 +74,9 @@ def short(A):
     msg = [f"📊 Market scan {A['date']}: {R['label']}", f"SPY 1wk {f(R['spy']['w'])}, 1mo {f(R['spy']['m'])} | {A['mag7']['read']}",
            'Leading sectors: ' + ', '.join(f"{x['sector']} ({f(x['rs_m_now'])})" for x in s[:3]),
            'Moving up: ' + (', '.join(x['sector'] for x in up) or 'none'),
+           ('⚠️ 10-yr yield at/above 5%' if R.get('ten_year_alert') else '10-yr below 5%') + ' | AI chain: ' + (A.get('concentration') or {}).get('read', 'n/a'),
+           'Rising on Reddit: ' + (', '.join(r['ticker'] for r in A.get('rising_tickers', [])[:5]) or 'none yet'),
+           'Search spikes: ' + (', '.join(f"{r['term']} ({r['ticker']})" for r in A.get('consumer', []) if r['flag']) or 'none'),
            'Themes: ' + ('; '.join(f"{t['theme']}: {t['label'].split(' - ')[0]}" for t in hot) or 'nothing confirmed by talk + price')]
     return '\n'.join(msg)
 

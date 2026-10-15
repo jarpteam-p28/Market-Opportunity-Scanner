@@ -6,12 +6,15 @@ from common import load_config, day_dir, save_json
 
 
 def all_tickers(cfg):
-    t = set(cfg['regime'].values()) | set(cfg['sectors'].values()) | set(cfg['mag7'])
+    t = {v for k, v in cfg['regime'].items() if k != 'ten_year_alert'} | set(cfg['sectors'].values()) | set(cfg['mag7'])
     for lst in cfg['sector_candidates'].values():
         t |= set(lst)
     for th in cfg['themes'].values():
         t |= set(th.get('etfs', [])) | set(th.get('tickers', []))
-    return sorted(t)
+    t |= set(cfg.get('concentration_watch', {}).get('tickers', [])) | {cfg.get('concentration_watch', {}).get('benchmark', 'SMH')}
+    t |= {c['ticker'] for c in cfg.get('consumer_watch', [])}
+    t.discard(None); t.discard('ten_year_alert')
+    return sorted(x for x in t if isinstance(x, str))
 
 
 def download(tickers, period='1y'):
