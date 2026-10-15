@@ -1,6 +1,6 @@
 """Turn raw data into the read: regime, sector rotation, Mag 7 vs the rest, top-10 per sector,
 and the theme 'talk vs tape' matrix. Output: data/<date>/analysis.json"""
-import sys, math
+import sys, math, re
 import numpy as np, pandas as pd
 from common import load_config, load_json, save_json, day_dir, HISTORY, today
 
@@ -253,6 +253,35 @@ def narratives(cfg, reddit, news):
     return out
 
 
+def catalysts(px, cfg, L):
+    out = []; today_ = pd.Timestamp(today())
+    for c in cfg.get('catalysts', []):
+        try:
+            days = (pd.Timestamp(c['date']) - today_).days
+        except Exception:
+            days = None
+        def rows(lst, side):
+            return [dict(ticker=t, side=side, w=pct(ret(px[t], L['week'])), m=pct(ret(px[t], L['month'])), q=pct(ret(px[t], L['quarter'])))
+                    for t in lst if t in px]
+        out.append(dict(name=c['name'], date=c['date'], days_to_event=days, benchmarks=c.get('benchmarks', ''),
+                        tickers=rows(c.get('primary', []), 'main') + rows(c.get('second_order_up', []), '2nd-order +') + rows(c.get('second_order_down', []), '2nd-order -')))
+    return out
+
+
+def big_movers(px, cfg, L, news, threshold=0.08):
+    """Watch-list names that moved a lot this week; agents must judge if the reason is material or noise."""
+    watch = {s for th in cfg['themes'].values() for s in th.get('tickers', [])} | {c['ticker'] for c in cfg.get('consumer_watch', [])} | set(cfg['mag7'])
+    heads = (news or {}).get('latest', [])
+    out = []
+    for t in sorted(watch):
+        if t in px:
+            w = ret(px[t], L['week'])
+            if w is not None and abs(w) >= threshold:
+                hl = [h['title'] for h in heads if re.search(r'\b' + re.escape(t) + r'\b', h['title'])][:3]
+                out.append(dict(ticker=t, w=pct(w), m=pct(ret(px[t], L['month'])), headlines=hl))
+    return sorted(out, key=lambda r: -abs(r['w']))[:20]
+
+
 def main():
     cfg = load_config(); L = cfg['report']['lookbacks_days']; d = day_dir()
     px = pd.read_csv(d / 'prices.csv', index_col=0, parse_dates=True).sort_index()
@@ -262,7 +291,7 @@ def main():
     A = dict(date=today(), last_bar=str(px.index.max().date()), regime=regime(px, cfg, L), breadth=breadth,
              sectors=sectors(px, cfg, L), mag7=mag7(px, caps, cfg, L), top10=t10,
              themes=themes(px, cfg, L, reddit, trends, xg, news), reddit_tickers=reddit_tickers(px, reddit, L),
-             rising_tickers=rising_tickers(px, cfg, L), narratives=narratives(cfg, reddit, news), concentration=concentration(px, cfg, L), consumer=consumer(px, trends, L, cfg, load_json('consumer_info.json', default={}), news),
+             rising_tickers=rising_tickers(px, cfg, L), narratives=narratives(cfg, reddit, news), catalysts=catalysts(px, cfg, L), big_movers=big_movers(px, cfg, L, news), concentration=concentration(px, cfg, L), consumer=consumer(px, trends, L, cfg, load_json('consumer_info.json', default={}), news),
              sources=dict(reddit=bool(reddit and reddit.get('n_posts')), trends=bool(trends and trends.get('terms')),
                           x=bool(xg and xg.get('themes')), news=bool(news and news.get('n'))))
     save_json(A, 'analysis.json')

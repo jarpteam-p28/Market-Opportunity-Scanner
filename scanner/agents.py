@@ -25,7 +25,7 @@ def context_for(name, A, extra):
         'sectors': {'sectors': A['sectors'], 'top10': A['top10'], 'breadth': A['breadth']},
         'sentiment': {'themes': A['themes'], 'reddit_tickers': A['reddit_tickers'], 'rising_tickers': A.get('rising_tickers'), 'consumer_search_watch': A.get('consumer'), 'narratives': A.get('narratives'), 'x': extra.get('x'), 'trends': extra.get('trends'),
                       'news': (extra.get('news') or {}).get('by_theme')},
-        'themes': {'themes': slim_themes, 'sectors': A['sectors'], 'news': (extra.get('news') or {}).get('by_theme')},
+        'themes': {'themes': slim_themes, 'sectors': A['sectors'], 'catalysts': A.get('catalysts'), 'news': (extra.get('news') or {}).get('by_theme')},
         'skeptic': {'regime': A['regime'], 'mag7': A['mag7'], 'themes': slim_themes, 'ai_concentration_watch': A.get('concentration'), 'narratives': A.get('narratives')},
         'regime_extra': None,
     }

@@ -136,6 +136,8 @@ consumer_watch:
   - { term: "hims", ticker: HIMS }
   - { term: "robinhood", ticker: HOOD }
   - { term: "pokemon cards", ticker: NTDOY }
+  - { term: "gta 6", ticker: TTWO }
+  - { term: "build a bear", ticker: BBW }
 
 # Narrative meters (Camillo's attention trade): count phrases in Reddit posts + headlines vs their own baseline.
 narratives:
@@ -150,6 +152,15 @@ narratives:
   leverage:
     label: "Leverage / forced selling"
     phrases: ["margin call", "liquidation", "leveraged etf", "forced selling", "deleveraging", "korea margin"]
+
+# Event catalysts (Camillo-style scenario trades). Dates: verify before relying on them.
+catalysts:
+  - name: "GTA 6 launch"
+    date: "2026-11-19"            # reported launch date; verify, delays are a key risk
+    primary: [TTWO]
+    second_order_up: [DASH, UBER, SONY, MSFT]
+    second_order_down: [NFLX]
+    benchmarks: "Street year-1 units ~30-50M; online spend per monthly user ~$20-60; GTA 5 online still ~$0.6B/yr"
 
 # ---------- 4. Where people talk ----------
 reddit:

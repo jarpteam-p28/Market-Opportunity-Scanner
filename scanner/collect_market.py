@@ -13,6 +13,8 @@ def all_tickers(cfg):
         t |= set(th.get('etfs', [])) | set(th.get('tickers', []))
     t |= set(cfg.get('concentration_watch', {}).get('tickers', [])) | {cfg.get('concentration_watch', {}).get('benchmark', 'SMH')}
     t |= {c['ticker'] for c in cfg.get('consumer_watch', [])} | {c['vs'] for c in cfg.get('consumer_watch', []) if c.get('vs')}
+    for c in cfg.get('catalysts', []):
+        t |= set(c.get('primary', [])) | set(c.get('second_order_up', [])) | set(c.get('second_order_down', []))
     t.discard(None); t.discard('ten_year_alert')
     return sorted(x for x in t if isinstance(x, str))
 

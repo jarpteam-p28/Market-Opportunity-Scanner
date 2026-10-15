@@ -59,6 +59,15 @@ def build(A, agents, cfg):
     if A.get('consumer'):
         L += ['', '## 5c. Consumer social-arb watch (Google searches, last 4 weeks vs prior 12)', '| Search term | Ticker | Search change | At 12-mo high | 1 mo price | 3 mo price | vs rival 3 mo | Mkt cap $B | Short % | Read |', '|---|---|---|---|---|---|---|---|---|---|']
         L += [f"| {r['term']} | {r['ticker']} | {f(r['search_change'])} | {yn(r['at_12m_high'])} | {f(r.get('m'))} | {f(r.get('q'))} | {(r['vs'] + ' ' + f(r['vs_rival_q'])) if r.get('vs') else '–'} | {r.get('mcap_b') or '–'} | {f(r.get('short_pct'))} | {('🔥 ' + r['read']) if r['flag'] else ''} |" for r in A['consumer']]
+    if A.get('catalysts'):
+        L += ['', '## 5f. Catalyst calendar']
+        for c in A['catalysts']:
+            L += [f"**{c['name']}** — {c['date']} ({c['days_to_event']} days away). Benchmarks: {c['benchmarks']}", '',
+                  '| Ticker | Role | 1 wk | 1 mo | 3 mo |', '|---|---|---|---|---|']
+            L += [f"| {r['ticker']} | {r['side']} | {f(r['w'])} | {f(r['m'])} | {f(r['q'])} |" for r in c['tickers']]
+    if A.get('big_movers'):
+        L += ['', '## 5g. Big movers on the watch list this week (is the reason material or noise?)', '| Ticker | 1 wk | 1 mo | Headlines found |', '|---|---|---|---|']
+        L += [f"| {r['ticker']} | {f(r['w'])} | {f(r['m'])} | {'; '.join(h[:80] for h in r['headlines']) or '–'} |" for r in A['big_movers']]
     if A['reddit_tickers']:
         L += ['', '## 5d. Most-mentioned tickers on Reddit (this scan)', '| Ticker | Mentions | 1 mo | >50d |', '|---|---|---|---|']
         L += [f"| {r['ticker']} | {r['mentions']} | {f(r.get('m'))} | {yn(r.get('above50'))} |" for r in A['reddit_tickers']]
