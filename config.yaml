@@ -104,8 +104,8 @@ themes:
     trends: ["AI layoffs"]
   Robotics:
     etfs: [BOTZ]
-    tickers: [ISRG, TER, SYM, ROK]
-    keywords: ["robotics", "humanoid robot"]
+    tickers: [TSLA, ISRG, TER, SYM, ROK]
+    keywords: ["robotics", "humanoid robot", "humanoid", "Optimus", "embodied AI", "Figure AI", "Apptronik"]
     trends: ["humanoid robot"]
 
 # AI concentration-risk monitor (Eisman): if these break while chips hold up, the AI chain may be cracking.
@@ -116,7 +116,16 @@ concentration_watch:
 # Consumer social-arbitrage watch (Camillo): Google Trends terms for products/brands -> ticker. Add your own.
 consumer_watch:
   - { term: "coconut water", ticker: COCO }
-  - { term: "sweetgreen wrap", ticker: SG }
+  - { term: "sweetgreen", ticker: SG }
+  - { term: "cava", ticker: CAVA }
+  - { term: "dutch bros", ticker: BROS, vs: SBUX }
+  - { term: "starbucks", ticker: SBUX }
+  - { term: "birkenstock", ticker: BIRK }
+  - { term: "hoka", ticker: DECK, vs: NKE }
+  - { term: "on running shoes", ticker: ONON, vs: NKE }
+  - { term: "crocs", ticker: CROX }
+  - { term: "elf cosmetics", ticker: ELF }
+  - { term: "celsius energy drink", ticker: CELH }
   - { term: "swatch", ticker: UHR.SW }
   - { term: "ozempic", ticker: NVO }
   - { term: "hims", ticker: HIMS }

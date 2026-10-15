@@ -50,8 +50,8 @@ def build(A, agents, cfg):
         L += ['', '## 5b. Rising talk on Reddit (at least double the usual mentions)', '| Ticker | Mentions | Usual | Change | 1 mo price | >50d |', '|---|---|---|---|---|---|']
         L += [f"| {r['ticker']} | {r['mentions']} | {r['baseline']} | {f(r['change'])} | {f(r.get('m'))} | {yn(r.get('above50'))} |" for r in A['rising_tickers']]
     if A.get('consumer'):
-        L += ['', '## 5c. Consumer social-arb watch (Google searches, last 4 weeks vs prior 12)', '| Search term | Ticker | Search change | At 12-mo high | 1 mo price | 3 mo price | Flag |', '|---|---|---|---|---|---|---|']
-        L += [f"| {r['term']} | {r['ticker']} | {f(r['search_change'])} | {yn(r['at_12m_high'])} | {f(r.get('m'))} | {f(r.get('q'))} | {'🔥' if r['flag'] else ''} |" for r in A['consumer']]
+        L += ['', '## 5c. Consumer social-arb watch (Google searches, last 4 weeks vs prior 12)', '| Search term | Ticker | Search change | At 12-mo high | 1 mo price | 3 mo price | vs rival 3 mo | Mkt cap $B | Short % | Read |', '|---|---|---|---|---|---|---|---|---|---|']
+        L += [f"| {r['term']} | {r['ticker']} | {f(r['search_change'])} | {yn(r['at_12m_high'])} | {f(r.get('m'))} | {f(r.get('q'))} | {(r['vs'] + ' ' + f(r['vs_rival_q'])) if r.get('vs') else '–'} | {r.get('mcap_b') or '–'} | {f(r.get('short_pct'))} | {('🔥 ' + r['read']) if r['flag'] else ''} |" for r in A['consumer']]
     if A['reddit_tickers']:
         L += ['', '## 5d. Most-mentioned tickers on Reddit (this scan)', '| Ticker | Mentions | 1 mo | >50d |', '|---|---|---|---|']
         L += [f"| {r['ticker']} | {r['mentions']} | {f(r.get('m'))} | {yn(r.get('above50'))} |" for r in A['reddit_tickers']]

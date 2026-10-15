@@ -12,7 +12,7 @@ def all_tickers(cfg):
     for th in cfg['themes'].values():
         t |= set(th.get('etfs', [])) | set(th.get('tickers', []))
     t |= set(cfg.get('concentration_watch', {}).get('tickers', [])) | {cfg.get('concentration_watch', {}).get('benchmark', 'SMH')}
-    t |= {c['ticker'] for c in cfg.get('consumer_watch', [])}
+    t |= {c['ticker'] for c in cfg.get('consumer_watch', [])} | {c['vs'] for c in cfg.get('consumer_watch', []) if c.get('vs')}
     t.discard(None); t.discard('ten_year_alert')
     return sorted(x for x in t if isinstance(x, str))
 
@@ -48,6 +48,19 @@ def market_caps(tickers):
     return out
 
 
+def short_interest(tickers):
+    """Short % of float + market cap for the consumer watch list (small list, so the slow .info call is fine)."""
+    import yfinance as yf
+    out = {}
+    for t in tickers:
+        try:
+            i = yf.Ticker(t).info
+            out[t] = dict(short_pct_float=i.get('shortPercentOfFloat'), mcap=i.get('marketCap'), name=i.get('shortName'))
+        except Exception:
+            pass
+    return out
+
+
 def main():
     cfg = load_config()
     tick = all_tickers(cfg)
@@ -58,6 +71,7 @@ def main():
     stocks = sorted({s for lst in cfg['sector_candidates'].values() for s in lst} |
                     {s for th in cfg['themes'].values() for s in th.get('tickers', [])} | set(cfg['mag7']))
     save_json(market_caps(stocks), 'market_caps.json')
+    save_json(short_interest(sorted({c['ticker'] for c in cfg.get('consumer_watch', [])})), 'consumer_info.json')
     save_json({'n_tickers': len(tick), 'got': px.shape[1], 'missing': missing, 'last_bar': str(px.index.max())}, 'market_meta.json')
     print(f'prices: {px.shape}, missing {len(missing)}: {missing[:20]}')
 
