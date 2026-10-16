@@ -200,4 +200,5 @@ agents:
   enabled: true               # runs only if ANTHROPIC_API_KEY secret exists; otherwise the data report still ships
   model: claude-sonnet-5-5
   max_tokens: 3000
+  max_tokens_by_agent: { social_arb: 8000, synthesizer: 6000 }   # the idea-hunter ran out of room at 3000
   order: [regime, sectors, sentiment, themes, social_arb, skeptic, synthesizer]

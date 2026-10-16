@@ -9,9 +9,9 @@ from common import ROOT, load_config, load_json, save_json, day_dir, today
 API = 'https://api.anthropic.com/v1/messages'
 
 
-def call(prompt, cfg, key):
+def call(prompt, cfg, key, name=None):
     r = requests.post(API, timeout=300, headers={'x-api-key': key, 'anthropic-version': '2023-06-01', 'content-type': 'application/json'},
-                      json={'model': cfg['agents']['model'], 'max_tokens': cfg['agents']['max_tokens'],
+                      json={'model': cfg['agents']['model'], 'max_tokens': cfg['agents'].get('max_tokens_by_agent', {}).get(name, cfg['agents']['max_tokens']),
                             'messages': [{'role': 'user', 'content': prompt}]})
     r.raise_for_status()
     j = r.json(); txt = ''.join(c.get('text', '') for c in j.get('content', []) if c.get('type') == 'text')
@@ -58,7 +58,7 @@ def main():
         prompt = tmpl.replace('{{DATE}}', A['date']).replace('{{PLAYBOOK}}', playbook).replace('{{DATA}}', ctx)
         for attempt in (1, 2):   # one retry: an empty or failed reply shouldn't leave a hole in the report
             try:
-                outs[name] = call(prompt, cfg, key); break
+                outs[name] = call(prompt, cfg, key, name); break
             except Exception as e:
                 outs[name] = f'(agent failed: {e})'
         print(f'agent {name}: {len(outs[name])} chars')
