@@ -77,3 +77,73 @@ KeyError: 'pct_top10s_above_50d'
 scored 6
 
 (exit 0)
+=== collect_market
+prices: (260, 286), missing 3: ['AQUA', 'HES', 'MMC']
+$AQUA: No data found, symbol may be delisted
+
+1 Failed download:
+['AQUA']: No data found, symbol may be delisted
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: HES"}}}
+$HES: No data found, symbol may be delisted
+$MMC: No data found, symbol may be delisted
+
+2 Failed downloads:
+['HES', 'MMC']: No data found, symbol may be delisted
+$HES: No data found, symbol may be delisted
+$MMC: No data found, symbol may be delisted
+
+(exit 0)
+=== collect_reddit
+reddit: 0 posts, authed=False, errors=56
+
+(exit 0)
+=== collect_trends
+trends: 14 terms, 2 errors
+
+(exit 0)
+=== collect_x
+x/grok: skipped (disabled or no XAI_API_KEY)
+
+(exit 0)
+=== collect_youtube
+youtube: skipped (no YOUTUBE_API_KEY)
+
+(exit 0)
+=== collect_news
+news: 50 headlines
+
+(exit 0)
+=== analyze
+analysis saved: RISK-ON (some caution) | themes: 12
+
+(exit 0)
+=== agents
+agent regime: 1386 chars
+agent sectors: 1358 chars
+agent sentiment: 2036 chars
+agent themes: 2514 chars
+agent social_arb: 52 chars
+agent skeptic: 1361 chars
+agent synthesizer: 4470 chars
+
+(exit 0)
+=== report
+[telegram not configured]
+📊 Market scan 2026-10-16: RISK-ON (some caution)
+SPY 1wk -0.3%, 1mo +2.6% | Narrow market: Mag 7 is carrying it
+Leading sectors: Health Care (+3.4%), Consumer Staples (+2.1%), Energy (+2.0%)
+Moving up: Health Care, Consumer Staples, Energy
+⚠️ 10-yr yield at/above 5% | AI chain: Stress in the AI chain: ORCL, CRWV
+Narratives: nothing accelerating
+Rising on Reddit: none yet
+Search spikes: uggs (DECK), pokemon cards (NTDOY), gta 6 (TTWO)
+Themes: AI efficiency wave: CONFIRMED; Memory chips: EARLY
+Ideas: LLY (long-bias, medium); AMGN (long-bias, low); WMT (long-bias, low); TTWO (watch, low); MU (watch, low)
+Full report: reports/latest.md in the repo
+report written 24140 chars
+
+(exit 0)
+=== score_journal
+scored 6
+
+(exit 0)

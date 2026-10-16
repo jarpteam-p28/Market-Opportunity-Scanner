@@ -30,7 +30,10 @@
     "label": "RISK-ON (some caution)",
     "score_0_4": 3
   },
-  "breadth": {},
+  "breadth": {
+    "pct_top10s_above_50d": 49.1,
+    "pct_top10s_above_200d": 54.6
+  },
   "sectors": [
     {
       "sector": "Health Care",
@@ -249,7 +252,1130 @@
     },
     "read": "Narrow market: Mag 7 is carrying it"
   },
-  "top10": {},
+  "top10": {
+    "Technology": [
+      {
+        "ticker": "NVDA",
+        "mcap_b": 5245,
+        "m": 1.6,
+        "q": 7.2,
+        "ytd": 16.7,
+        "vs_sector_m": -1.4,
+        "above50": false,
+        "above200": true
+      },
+      {
+        "ticker": "AAPL",
+        "mcap_b": 4991,
+        "m": 2.9,
+        "q": 2.6,
+        "ytd": 26.1,
+        "vs_sector_m": -0.1,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "MSFT",
+        "mcap_b": 4006,
+        "m": 10.0,
+        "q": 37.2,
+        "ytd": 12.2,
+        "vs_sector_m": 7.0,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "AVGO",
+        "mcap_b": 1644,
+        "m": 1.6,
+        "q": -7.0,
+        "ytd": 0.0,
+        "vs_sector_m": -1.4,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "MU",
+        "mcap_b": 1054,
+        "m": 0.5,
+        "q": 9.7,
+        "ytd": 226.5,
+        "vs_sector_m": -2.5,
+        "above50": false,
+        "above200": true
+      },
+      {
+        "ticker": "AMD",
+        "mcap_b": 918,
+        "m": 9.7,
+        "q": 13.4,
+        "ytd": 162.5,
+        "vs_sector_m": 6.7,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "PLTR",
+        "mcap_b": 482,
+        "m": 15.0,
+        "q": 51.5,
+        "ytd": 12.8,
+        "vs_sector_m": 12.0,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "CSCO",
+        "mcap_b": 433,
+        "m": 2.4,
+        "q": -1.5,
+        "ytd": 45.2,
+        "vs_sector_m": -0.6,
+        "above50": false,
+        "above200": true
+      },
+      {
+        "ticker": "ORCL",
+        "mcap_b": 408,
+        "m": -5.7,
+        "q": 6.8,
+        "ytd": -30.1,
+        "vs_sector_m": -8.7,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "LRCX",
+        "mcap_b": 347,
+        "m": 3.2,
+        "q": -11.3,
+        "ytd": 62.6,
+        "vs_sector_m": 0.2,
+        "above50": false,
+        "above200": false
+      }
+    ],
+    "Communication": [
+      {
+        "ticker": "GOOGL",
+        "mcap_b": 4271,
+        "m": 1.9,
+        "q": 0.8,
+        "ytd": 11.8,
+        "vs_sector_m": 2.0,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "META",
+        "mcap_b": 1877,
+        "m": 9.5,
+        "q": 14.1,
+        "ytd": 11.9,
+        "vs_sector_m": 9.7,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "NFLX",
+        "mcap_b": 302,
+        "m": -5.0,
+        "q": 5.3,
+        "ytd": -22.6,
+        "vs_sector_m": -4.8,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "DIS",
+        "mcap_b": 191,
+        "m": 3.4,
+        "q": 13.3,
+        "ytd": -2.0,
+        "vs_sector_m": 3.6,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "VZ",
+        "mcap_b": 184,
+        "m": -9.4,
+        "q": 3.4,
+        "ytd": 16.3,
+        "vs_sector_m": -9.2,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "TMUS",
+        "mcap_b": 168,
+        "m": -10.9,
+        "q": -17.9,
+        "ytd": -21.4,
+        "vs_sector_m": -10.7,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "T",
+        "mcap_b": 161,
+        "m": -8.1,
+        "q": 9.0,
+        "ytd": -0.9,
+        "vs_sector_m": -7.9,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "WBD",
+        "mcap_b": 78,
+        "m": null,
+        "q": null,
+        "ytd": 0.0,
+        "vs_sector_m": null,
+        "above50": null,
+        "above200": null
+      },
+      {
+        "ticker": "CMCSA",
+        "mcap_b": 77,
+        "m": -6.8,
+        "q": -7.1,
+        "ytd": -18.1,
+        "vs_sector_m": -6.7,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "EA",
+        "mcap_b": 53,
+        "m": null,
+        "q": null,
+        "ytd": 0.0,
+        "vs_sector_m": null,
+        "above50": null,
+        "above200": null
+      }
+    ],
+    "Consumer Discretionary": [
+      {
+        "ticker": "AMZN",
+        "mcap_b": 2748,
+        "m": 3.6,
+        "q": 3.0,
+        "ytd": 10.4,
+        "vs_sector_m": 0.4,
+        "above50": false,
+        "above200": true
+      },
+      {
+        "ticker": "TSLA",
+        "mcap_b": 1431,
+        "m": 1.2,
+        "q": -4.8,
+        "ytd": -19.4,
+        "vs_sector_m": -1.9,
+        "above50": true,
+        "above200": false
+      },
+      {
+        "ticker": "HD",
+        "mcap_b": 308,
+        "m": 1.9,
+        "q": -8.4,
+        "ytd": -8.5,
+        "vs_sector_m": -1.3,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "MCD",
+        "mcap_b": 172,
+        "m": -2.4,
+        "q": -8.8,
+        "ytd": -19.1,
+        "vs_sector_m": -5.6,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "TJX",
+        "mcap_b": 160,
+        "m": 17.7,
+        "q": -6.1,
+        "ytd": -5.0,
+        "vs_sector_m": 14.5,
+        "above50": true,
+        "above200": false
+      },
+      {
+        "ticker": "BKNG",
+        "mcap_b": 128,
+        "m": -3.3,
+        "q": -8.5,
+        "ytd": -22.0,
+        "vs_sector_m": -6.4,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "SBUX",
+        "mcap_b": 110,
+        "m": -0.5,
+        "q": -7.6,
+        "ytd": 17.1,
+        "vs_sector_m": -3.6,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "LOW",
+        "mcap_b": 110,
+        "m": 0.8,
+        "q": -5.7,
+        "ytd": -17.6,
+        "vs_sector_m": -2.3,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "ABNB",
+        "mcap_b": 103,
+        "m": 4.0,
+        "q": 19.4,
+        "ytd": 28.4,
+        "vs_sector_m": 0.9,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "MAR",
+        "mcap_b": 101,
+        "m": 15.1,
+        "q": 5.5,
+        "ytd": 25.1,
+        "vs_sector_m": 12.0,
+        "above50": true,
+        "above200": true
+      }
+    ],
+    "Consumer Staples": [
+      {
+        "ticker": "WMT",
+        "mcap_b": 935,
+        "m": 9.6,
+        "q": 3.4,
+        "ytd": 6.5,
+        "vs_sector_m": 4.9,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "COST",
+        "mcap_b": 433,
+        "m": 9.4,
+        "q": 4.1,
+        "ytd": 13.9,
+        "vs_sector_m": 4.7,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "KO",
+        "mcap_b": 396,
+        "m": 4.7,
+        "q": 13.5,
+        "ytd": 34.2,
+        "vs_sector_m": -0.0,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "PG",
+        "mcap_b": 365,
+        "m": 6.8,
+        "q": 5.5,
+        "ytd": 12.0,
+        "vs_sector_m": 2.1,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "PM",
+        "mcap_b": 312,
+        "m": 5.2,
+        "q": 4.5,
+        "ytd": 27.9,
+        "vs_sector_m": 0.5,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "PEP",
+        "mcap_b": 175,
+        "m": -4.4,
+        "q": -5.4,
+        "ytd": -7.8,
+        "vs_sector_m": -9.1,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "MO",
+        "mcap_b": 123,
+        "m": 5.3,
+        "q": 1.1,
+        "ytd": 34.3,
+        "vs_sector_m": 0.6,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "MNST",
+        "mcap_b": 89,
+        "m": 1.7,
+        "q": -7.0,
+        "ytd": 18.3,
+        "vs_sector_m": -3.0,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "MDLZ",
+        "mcap_b": 81,
+        "m": 2.0,
+        "q": 4.2,
+        "ytd": 20.1,
+        "vs_sector_m": -2.7,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "CL",
+        "mcap_b": 74,
+        "m": 6.5,
+        "q": 0.2,
+        "ytd": 19.4,
+        "vs_sector_m": 1.8,
+        "above50": true,
+        "above200": true
+      }
+    ],
+    "Energy": [
+      {
+        "ticker": "XOM",
+        "mcap_b": 718,
+        "m": 7.0,
+        "q": 19.3,
+        "ytd": 48.1,
+        "vs_sector_m": 2.4,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "CVX",
+        "mcap_b": 430,
+        "m": 3.7,
+        "q": 18.1,
+        "ytd": 47.9,
+        "vs_sector_m": -0.9,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "COP",
+        "mcap_b": 173,
+        "m": 6.9,
+        "q": 24.4,
+        "ytd": 54.7,
+        "vs_sector_m": 2.4,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "MPC",
+        "mcap_b": 139,
+        "m": 15.2,
+        "q": 53.0,
+        "ytd": 196.7,
+        "vs_sector_m": 10.7,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "VLO",
+        "mcap_b": 128,
+        "m": 10.1,
+        "q": 44.0,
+        "ytd": 176.8,
+        "vs_sector_m": 5.5,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "PSX",
+        "mcap_b": 115,
+        "m": 9.3,
+        "q": 40.5,
+        "ytd": 128.8,
+        "vs_sector_m": 4.7,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "WMB",
+        "mcap_b": 85,
+        "m": -2.4,
+        "q": -5.0,
+        "ytd": 17.7,
+        "vs_sector_m": -6.9,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "EOG",
+        "mcap_b": 81,
+        "m": 5.3,
+        "q": 9.1,
+        "ytd": 49.0,
+        "vs_sector_m": 0.7,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "KMI",
+        "mcap_b": 73,
+        "m": 6.8,
+        "q": 2.6,
+        "ytd": 22.8,
+        "vs_sector_m": 2.2,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "SLB",
+        "mcap_b": 72,
+        "m": -7.5,
+        "q": 3.5,
+        "ytd": 28.1,
+        "vs_sector_m": -12.1,
+        "above50": false,
+        "above200": false
+      }
+    ],
+    "Financials": [
+      {
+        "ticker": "BRK-B",
+        "mcap_b": 1125,
+        "m": 1.1,
+        "q": 7.1,
+        "ytd": 4.6,
+        "vs_sector_m": 2.0,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "JPM",
+        "mcap_b": 891,
+        "m": -3.4,
+        "q": -1.1,
+        "ytd": 6.1,
+        "vs_sector_m": -2.5,
+        "above50": false,
+        "above200": true
+      },
+      {
+        "ticker": "V",
+        "mcap_b": 750,
+        "m": 7.8,
+        "q": 11.7,
+        "ytd": 14.7,
+        "vs_sector_m": 8.6,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "MA",
+        "mcap_b": 540,
+        "m": 8.7,
+        "q": 13.5,
+        "ytd": 8.7,
+        "vs_sector_m": 9.5,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "BAC",
+        "mcap_b": 362,
+        "m": -10.7,
+        "q": -15.2,
+        "ytd": -4.5,
+        "vs_sector_m": -9.9,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "MS",
+        "mcap_b": 286,
+        "m": -10.0,
+        "q": -15.0,
+        "ytd": 4.3,
+        "vs_sector_m": -9.2,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "GS",
+        "mcap_b": 260,
+        "m": -5.0,
+        "q": -15.9,
+        "ytd": 2.9,
+        "vs_sector_m": -4.1,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "WFC",
+        "mcap_b": 248,
+        "m": -4.9,
+        "q": -4.9,
+        "ytd": -9.8,
+        "vs_sector_m": -4.1,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "AXP",
+        "mcap_b": 212,
+        "m": 0.8,
+        "q": -11.4,
+        "ytd": -14.2,
+        "vs_sector_m": 1.6,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "C",
+        "mcap_b": 207,
+        "m": -7.3,
+        "q": -4.3,
+        "ytd": 7.2,
+        "vs_sector_m": -6.5,
+        "above50": false,
+        "above200": false
+      }
+    ],
+    "Health Care": [
+      {
+        "ticker": "LLY",
+        "mcap_b": 1116,
+        "m": 10.0,
+        "q": 6.3,
+        "ytd": 17.0,
+        "vs_sector_m": 4.0,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "JNJ",
+        "mcap_b": 610,
+        "m": -5.2,
+        "q": 0.6,
+        "ytd": 24.4,
+        "vs_sector_m": -11.3,
+        "above50": false,
+        "above200": true
+      },
+      {
+        "ticker": "ABBV",
+        "mcap_b": 501,
+        "m": 8.6,
+        "q": 12.0,
+        "ytd": 27.7,
+        "vs_sector_m": 2.6,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "UNH",
+        "mcap_b": 365,
+        "m": 8.4,
+        "q": -4.0,
+        "ytd": 25.6,
+        "vs_sector_m": 2.4,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "MRK",
+        "mcap_b": 358,
+        "m": 0.2,
+        "q": 14.5,
+        "ytd": 40.8,
+        "vs_sector_m": -5.8,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "TMO",
+        "mcap_b": 258,
+        "m": 7.4,
+        "q": 30.9,
+        "ytd": 20.5,
+        "vs_sector_m": 1.4,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "AMGN",
+        "mcap_b": 235,
+        "m": 15.3,
+        "q": 19.2,
+        "ytd": 35.3,
+        "vs_sector_m": 9.3,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "GILD",
+        "mcap_b": 195,
+        "m": 6.6,
+        "q": 17.9,
+        "ytd": 30.5,
+        "vs_sector_m": 0.5,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "ABT",
+        "mcap_b": 181,
+        "m": 2.9,
+        "q": 4.6,
+        "ytd": -14.4,
+        "vs_sector_m": -3.1,
+        "above50": false,
+        "above200": true
+      },
+      {
+        "ticker": "PFE",
+        "mcap_b": 168,
+        "m": 7.2,
+        "q": 19.6,
+        "ytd": 24.3,
+        "vs_sector_m": 1.2,
+        "above50": true,
+        "above200": true
+      }
+    ],
+    "Industrials": [
+      {
+        "ticker": "CAT",
+        "mcap_b": 338,
+        "m": -6.0,
+        "q": -16.3,
+        "ytd": 29.2,
+        "vs_sector_m": -5.8,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "GE",
+        "mcap_b": 324,
+        "m": -0.1,
+        "q": -10.4,
+        "ytd": 1.7,
+        "vs_sector_m": 0.1,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "RTX",
+        "mcap_b": 252,
+        "m": -5.0,
+        "q": -3.1,
+        "ytd": 3.0,
+        "vs_sector_m": -4.8,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "GEV",
+        "mcap_b": 247,
+        "m": 0.1,
+        "q": -12.4,
+        "ytd": 42.0,
+        "vs_sector_m": 0.4,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "DE",
+        "mcap_b": 175,
+        "m": -2.6,
+        "q": 9.2,
+        "ytd": 40.9,
+        "vs_sector_m": -2.4,
+        "above50": false,
+        "above200": true
+      },
+      {
+        "ticker": "UNP",
+        "mcap_b": 172,
+        "m": 2.8,
+        "q": -3.9,
+        "ytd": 26.7,
+        "vs_sector_m": 3.0,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "ETN",
+        "mcap_b": 156,
+        "m": 1.2,
+        "q": 0.9,
+        "ytd": 27.4,
+        "vs_sector_m": 1.4,
+        "above50": false,
+        "above200": true
+      },
+      {
+        "ticker": "BA",
+        "mcap_b": 149,
+        "m": -6.6,
+        "q": -11.8,
+        "ytd": -13.1,
+        "vs_sector_m": -6.3,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "UBER",
+        "mcap_b": 146,
+        "m": 0.4,
+        "q": -1.6,
+        "ytd": -12.8,
+        "vs_sector_m": 0.6,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "LMT",
+        "mcap_b": 123,
+        "m": -0.9,
+        "q": 5.3,
+        "ytd": 12.1,
+        "vs_sector_m": -0.6,
+        "above50": false,
+        "above200": false
+      }
+    ],
+    "Materials": [
+      {
+        "ticker": "LIN",
+        "mcap_b": 227,
+        "m": 6.7,
+        "q": -3.6,
+        "ytd": 16.8,
+        "vs_sector_m": 5.9,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "SCCO",
+        "mcap_b": 170,
+        "m": 6.2,
+        "q": 19.0,
+        "ytd": 47.1,
+        "vs_sector_m": 5.4,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "NEM",
+        "mcap_b": 122,
+        "m": -4.9,
+        "q": 29.4,
+        "ytd": 16.7,
+        "vs_sector_m": -5.8,
+        "above50": false,
+        "above200": true
+      },
+      {
+        "ticker": "FCX",
+        "mcap_b": 101,
+        "m": 1.4,
+        "q": 20.3,
+        "ytd": 39.2,
+        "vs_sector_m": 0.5,
+        "above50": false,
+        "above200": true
+      },
+      {
+        "ticker": "SHW",
+        "mcap_b": 82,
+        "m": 4.8,
+        "q": 1.9,
+        "ytd": 4.7,
+        "vs_sector_m": 4.0,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "ECL",
+        "mcap_b": 82,
+        "m": 6.1,
+        "q": 6.9,
+        "ytd": 11.7,
+        "vs_sector_m": 5.2,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "APD",
+        "mcap_b": 66,
+        "m": 4.0,
+        "q": 1.0,
+        "ytd": 23.3,
+        "vs_sector_m": 3.1,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "NUE",
+        "mcap_b": 58,
+        "m": -2.1,
+        "q": 7.9,
+        "ytd": 57.4,
+        "vs_sector_m": -2.9,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "CRH",
+        "mcap_b": 55,
+        "m": -5.1,
+        "q": -19.7,
+        "ytd": -33.3,
+        "vs_sector_m": -5.9,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "MLM",
+        "mcap_b": 35,
+        "m": -1.1,
+        "q": -12.5,
+        "ytd": -20.8,
+        "vs_sector_m": -2.0,
+        "above50": false,
+        "above200": false
+      }
+    ],
+    "Real Estate": [
+      {
+        "ticker": "WELL",
+        "mcap_b": 169,
+        "m": 0.1,
+        "q": -3.2,
+        "ytd": 27.8,
+        "vs_sector_m": 1.1,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "PLD",
+        "mcap_b": 121,
+        "m": -5.1,
+        "q": -14.6,
+        "ytd": 1.8,
+        "vs_sector_m": -4.0,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "EQIX",
+        "mcap_b": 98,
+        "m": -2.0,
+        "q": -1.9,
+        "ytd": 32.0,
+        "vs_sector_m": -0.9,
+        "above50": false,
+        "above200": true
+      },
+      {
+        "ticker": "AMT",
+        "mcap_b": 85,
+        "m": 3.9,
+        "q": 7.8,
+        "ytd": 6.5,
+        "vs_sector_m": 5.0,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "SPG",
+        "mcap_b": 66,
+        "m": 0.2,
+        "q": -10.1,
+        "ytd": 13.6,
+        "vs_sector_m": 1.3,
+        "above50": false,
+        "above200": true
+      },
+      {
+        "ticker": "DLR",
+        "mcap_b": 65,
+        "m": -3.6,
+        "q": 1.0,
+        "ytd": 15.1,
+        "vs_sector_m": -2.6,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "PSA",
+        "mcap_b": 55,
+        "m": 0.2,
+        "q": -6.2,
+        "ytd": 17.2,
+        "vs_sector_m": 1.3,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "O",
+        "mcap_b": 53,
+        "m": -2.3,
+        "q": -14.3,
+        "ytd": 2.5,
+        "vs_sector_m": -1.2,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "CBRE",
+        "mcap_b": 39,
+        "m": -2.2,
+        "q": -3.9,
+        "ytd": -15.7,
+        "vs_sector_m": -1.1,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "CCI",
+        "mcap_b": 34,
+        "m": 9.3,
+        "q": 2.5,
+        "ytd": -6.5,
+        "vs_sector_m": 10.3,
+        "above50": true,
+        "above200": false
+      }
+    ],
+    "Utilities": [
+      {
+        "ticker": "NEE",
+        "mcap_b": 165,
+        "m": -1.8,
+        "q": -10.4,
+        "ytd": 0.5,
+        "vs_sector_m": -3.3,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "SO",
+        "mcap_b": 103,
+        "m": 3.4,
+        "q": -5.6,
+        "ytd": 4.8,
+        "vs_sector_m": 1.9,
+        "above50": true,
+        "above200": false
+      },
+      {
+        "ticker": "CEG",
+        "mcap_b": 97,
+        "m": 6.0,
+        "q": 9.1,
+        "ytd": -21.8,
+        "vs_sector_m": 4.4,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "DUK",
+        "mcap_b": 93,
+        "m": 1.0,
+        "q": -4.1,
+        "ytd": 4.1,
+        "vs_sector_m": -0.6,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "AEP",
+        "mcap_b": 68,
+        "m": 3.0,
+        "q": -5.2,
+        "ytd": 10.3,
+        "vs_sector_m": 1.4,
+        "above50": true,
+        "above200": false
+      },
+      {
+        "ticker": "D",
+        "mcap_b": 55,
+        "m": -1.0,
+        "q": -10.6,
+        "ytd": 10.6,
+        "vs_sector_m": -2.6,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "SRE",
+        "mcap_b": 54,
+        "m": 1.1,
+        "q": -10.4,
+        "ytd": -5.1,
+        "vs_sector_m": -0.4,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "VST",
+        "mcap_b": 52,
+        "m": 10.0,
+        "q": -0.7,
+        "ytd": -4.0,
+        "vs_sector_m": 8.5,
+        "above50": true,
+        "above200": false
+      },
+      {
+        "ticker": "ETR",
+        "mcap_b": 50,
+        "m": 1.6,
+        "q": -7.6,
+        "ytd": 14.5,
+        "vs_sector_m": 0.1,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "XEL",
+        "mcap_b": 47,
+        "m": 3.3,
+        "q": -3.9,
+        "ytd": 4.1,
+        "vs_sector_m": 1.8,
+        "above50": true,
+        "above200": false
+      }
+    ]
+  },
   "themes": [
     {
       "theme": "AI software",
@@ -270,7 +1396,7 @@
       "above50": true,
       "reddit_mentions_per_1k_posts": null,
       "reddit_change": null,
-      "google_trends_change": null,
+      "google_trends_change": -7.9,
       "x_volume": null,
       "news_headlines": 0,
       "label": "STEALTH - price leading, talk quiet",
@@ -322,7 +1448,7 @@
       "above50": true,
       "reddit_mentions_per_1k_posts": null,
       "reddit_change": null,
-      "google_trends_change": 24.4,
+      "google_trends_change": 23.4,
       "x_volume": null,
       "news_headlines": 0,
       "label": "CONFIRMED - talk and price both rising",
@@ -426,7 +1552,7 @@
       "above50": false,
       "reddit_mentions_per_1k_posts": null,
       "reddit_change": null,
-      "google_trends_change": -29.9,
+      "google_trends_change": -33.2,
       "x_volume": null,
       "news_headlines": 0,
       "label": "NEUTRAL",
@@ -477,7 +1603,7 @@
       "above50": true,
       "reddit_mentions_per_1k_posts": null,
       "reddit_change": null,
-      "google_trends_change": -27.7,
+      "google_trends_change": -28.0,
       "x_volume": null,
       "news_headlines": 0,
       "label": "NEUTRAL",
@@ -525,7 +1651,7 @@
       "above50": false,
       "reddit_mentions_per_1k_posts": null,
       "reddit_change": null,
-      "google_trends_change": -13.2,
+      "google_trends_change": -13.8,
       "x_volume": null,
       "news_headlines": 0,
       "label": "NEUTRAL",
@@ -624,7 +1750,7 @@
       "above50": false,
       "reddit_mentions_per_1k_posts": null,
       "reddit_change": null,
-      "google_trends_change": -19.6,
+      "google_trends_change": -19.8,
       "x_volume": null,
       "news_headlines": 0,
       "label": "NEUTRAL",
@@ -671,7 +1797,7 @@
       "above50": false,
       "reddit_mentions_per_1k_posts": null,
       "reddit_change": null,
-      "google_trends_change": -23.2,
+      "google_trends_change": -22.8,
       "x_volume": null,
       "news_headlines": 0,
       "label": "NEUTRAL",
@@ -723,7 +1849,7 @@
       "above50": false,
       "reddit_mentions_per_1k_posts": null,
       "reddit_change": null,
-      "google_trends_change": -32.4,
+      "google_trends_change": -19.0,
       "x_volume": null,
       "news_headlines": 0,
       "label": "NEUTRAL",
@@ -820,7 +1946,7 @@
       "above50": false,
       "reddit_mentions_per_1k_posts": null,
       "reddit_change": null,
-      "google_trends_change": -24.0,
+      "google_trends_change": -24.1,
       "x_volume": null,
       "news_headlines": 0,
       "label": "NEUTRAL",
@@ -1134,9 +2260,9 @@
     {
       "term": "uggs",
       "ticker": "DECK",
-      "search_change": 192.8,
+      "search_change": 189.2,
       "at_12m_high": false,
-      "yoy_same_season": -12.0,
+      "yoy_same_season": -13.0,
       "at_5y_high": false,
       "reddit_mentions": 0,
       "scare_posts": 0,
@@ -1149,6 +2275,28 @@
       "q": -18.7,
       "mcap_b": 11.8,
       "short_pct": 9.7,
+      "in_headlines": false,
+      "flag": true,
+      "read": "EARLY - search spike, price and news not there yet: verify (stores, reviews, analyst coverage)"
+    },
+    {
+      "term": "pokemon cards",
+      "ticker": "NTDOY",
+      "search_change": 5.9,
+      "at_12m_high": false,
+      "yoy_same_season": 80.5,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": null,
+      "yt_intent_per_100": null,
+      "yt_scare_per_100": null,
+      "scare_flag": false,
+      "m": -0.9,
+      "q": 16.9,
+      "mcap_b": 59.7,
+      "short_pct": null,
       "in_headlines": false,
       "flag": true,
       "read": "EARLY - search spike, price and news not there yet: verify (stores, reviews, analyst coverage)"
@@ -1178,9 +2326,9 @@
     {
       "term": "sweetgreen",
       "ticker": "SG",
-      "search_change": 1.7,
+      "search_change": 0.9,
       "at_12m_high": false,
-      "yoy_same_season": -4.3,
+      "yoy_same_season": -5.1,
       "at_5y_high": false,
       "reddit_mentions": 0,
       "scare_posts": 0,
@@ -1200,9 +2348,9 @@
     {
       "term": "cava",
       "ticker": "CAVA",
-      "search_change": -1.3,
+      "search_change": -1.6,
       "at_12m_high": false,
-      "yoy_same_season": 14.6,
+      "yoy_same_season": 14.3,
       "at_5y_high": false,
       "reddit_mentions": 0,
       "scare_posts": 0,
@@ -1222,9 +2370,9 @@
     {
       "term": "starbucks",
       "ticker": "SBUX",
-      "search_change": -4.2,
+      "search_change": -3.7,
       "at_12m_high": false,
-      "yoy_same_season": 7.4,
+      "yoy_same_season": 8.0,
       "at_5y_high": false,
       "reddit_mentions": 0,
       "scare_posts": 0,
@@ -1244,9 +2392,9 @@
     {
       "term": "dutch bros",
       "ticker": "BROS",
-      "search_change": -9.9,
+      "search_change": -9.2,
       "at_12m_high": false,
-      "yoy_same_season": 12.9,
+      "yoy_same_season": 13.8,
       "at_5y_high": false,
       "reddit_mentions": 0,
       "scare_posts": 0,
@@ -1266,33 +2414,11 @@
       "read": ""
     },
     {
-      "term": "hims",
-      "ticker": "HIMS",
-      "search_change": -14.4,
-      "at_12m_high": false,
-      "yoy_same_season": -24.6,
-      "at_5y_high": false,
-      "reddit_mentions": 0,
-      "scare_posts": 0,
-      "scare_examples": [],
-      "yt_views": null,
-      "yt_intent_per_100": null,
-      "yt_scare_per_100": null,
-      "scare_flag": false,
-      "m": 4.9,
-      "q": -10.5,
-      "mcap_b": 6.9,
-      "short_pct": 28.2,
-      "in_headlines": false,
-      "flag": false,
-      "read": ""
-    },
-    {
       "term": "celsius energy drink",
       "ticker": "CELH",
-      "search_change": -15.2,
+      "search_change": -13.9,
       "at_12m_high": false,
-      "yoy_same_season": -30.3,
+      "yoy_same_season": -29.3,
       "at_5y_high": false,
       "reddit_mentions": 0,
       "scare_posts": 0,
@@ -1310,11 +2436,55 @@
       "read": ""
     },
     {
+      "term": "hims",
+      "ticker": "HIMS",
+      "search_change": -15.0,
+      "at_12m_high": false,
+      "yoy_same_season": -25.1,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": null,
+      "yt_intent_per_100": null,
+      "yt_scare_per_100": null,
+      "scare_flag": false,
+      "m": 4.9,
+      "q": -10.5,
+      "mcap_b": 6.9,
+      "short_pct": 28.2,
+      "in_headlines": false,
+      "flag": false,
+      "read": ""
+    },
+    {
+      "term": "gta 6",
+      "ticker": "TTWO",
+      "search_change": -15.0,
+      "at_12m_high": false,
+      "yoy_same_season": 480.0,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": null,
+      "yt_intent_per_100": null,
+      "yt_scare_per_100": null,
+      "scare_flag": false,
+      "m": -1.1,
+      "q": -11.5,
+      "mcap_b": 39.1,
+      "short_pct": 5.0,
+      "in_headlines": false,
+      "flag": true,
+      "read": "EARLY - search spike, price and news not there yet: verify (stores, reviews, analyst coverage)"
+    },
+    {
       "term": "elf cosmetics",
       "ticker": "ELF",
-      "search_change": -15.7,
+      "search_change": -17.6,
       "at_12m_high": false,
-      "yoy_same_season": -30.5,
+      "yoy_same_season": -32.1,
       "at_5y_high": false,
       "reddit_mentions": 0,
       "scare_posts": 0,
@@ -1332,11 +2502,11 @@
       "read": ""
     },
     {
-      "term": "gta 6",
-      "ticker": "TTWO",
-      "search_change": -16.0,
+      "term": "robinhood",
+      "ticker": "HOOD",
+      "search_change": -19.1,
       "at_12m_high": false,
-      "yoy_same_season": 473.3,
+      "yoy_same_season": -33.0,
       "at_5y_high": false,
       "reddit_mentions": 0,
       "scare_posts": 0,
@@ -1345,13 +2515,35 @@
       "yt_intent_per_100": null,
       "yt_scare_per_100": null,
       "scare_flag": false,
-      "m": -1.1,
-      "q": -11.5,
-      "mcap_b": 39.1,
-      "short_pct": 5.0,
+      "m": -0.4,
+      "q": 4.0,
+      "mcap_b": 93.5,
+      "short_pct": 5.1,
       "in_headlines": false,
-      "flag": true,
-      "read": "EARLY - search spike, price and news not there yet: verify (stores, reviews, analyst coverage)"
+      "flag": false,
+      "read": ""
+    },
+    {
+      "term": "ozempic",
+      "ticker": "NVO",
+      "search_change": -19.4,
+      "at_12m_high": false,
+      "yoy_same_season": -34.9,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": null,
+      "yt_intent_per_100": null,
+      "yt_scare_per_100": null,
+      "scare_flag": false,
+      "m": -6.0,
+      "q": -21.1,
+      "mcap_b": 173.1,
+      "short_pct": 1.0,
+      "in_headlines": false,
+      "flag": false,
+      "read": ""
     },
     {
       "term": "on running shoes",
@@ -1380,9 +2572,9 @@
     {
       "term": "hoka",
       "ticker": "DECK",
-      "search_change": -21.8,
+      "search_change": -21.2,
       "at_12m_high": false,
-      "yoy_same_season": -9.5,
+      "yoy_same_season": -8.8,
       "at_5y_high": false,
       "reddit_mentions": 0,
       "scare_posts": 0,
@@ -1400,33 +2592,11 @@
       "read": ""
     },
     {
-      "term": "birkenstock",
-      "ticker": "BIRK",
-      "search_change": -21.9,
-      "at_12m_high": false,
-      "yoy_same_season": 1.8,
-      "at_5y_high": false,
-      "reddit_mentions": 0,
-      "scare_posts": 0,
-      "scare_examples": [],
-      "yt_views": null,
-      "yt_intent_per_100": null,
-      "yt_scare_per_100": null,
-      "scare_flag": false,
-      "m": 17.9,
-      "q": -19.1,
-      "mcap_b": 5.9,
-      "short_pct": 13.4,
-      "in_headlines": false,
-      "flag": false,
-      "read": ""
-    },
-    {
       "term": "build a bear",
       "ticker": "BBW",
-      "search_change": -22.0,
+      "search_change": -21.5,
       "at_12m_high": false,
-      "yoy_same_season": 18.2,
+      "yoy_same_season": 18.9,
       "at_5y_high": false,
       "reddit_mentions": 0,
       "scare_posts": 0,
@@ -1446,9 +2616,9 @@
     {
       "term": "coconut water",
       "ticker": "COCO",
-      "search_change": -23.2,
+      "search_change": -22.7,
       "at_12m_high": false,
-      "yoy_same_season": 28.2,
+      "yoy_same_season": 29.1,
       "at_5y_high": false,
       "reddit_mentions": 0,
       "scare_posts": 0,
@@ -1461,6 +2631,28 @@
       "q": -21.2,
       "mcap_b": 3.3,
       "short_pct": 15.9,
+      "in_headlines": false,
+      "flag": false,
+      "read": ""
+    },
+    {
+      "term": "birkenstock",
+      "ticker": "BIRK",
+      "search_change": -22.8,
+      "at_12m_high": false,
+      "yoy_same_season": 0.6,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": null,
+      "yt_intent_per_100": null,
+      "yt_scare_per_100": null,
+      "scare_flag": false,
+      "m": 17.9,
+      "q": -19.1,
+      "mcap_b": 5.9,
+      "short_pct": 13.4,
       "in_headlines": false,
       "flag": false,
       "read": ""
@@ -1501,9 +2693,9 @@
       "yt_intent_per_100": null,
       "yt_scare_per_100": null,
       "scare_flag": false,
-      "m": -4.3,
+      "m": -4.4,
       "q": -11.0,
-      "mcap_b": 193.0,
+      "mcap_b": 192.8,
       "short_pct": null,
       "in_headlines": false,
       "flag": false,
@@ -1538,19 +2730,23 @@
       "sold out": [
         {
           "query": "macklemore european tour sold out",
-          "value": 15100
+          "value": 15150
         },
         {
           "query": "ram 1500 rumble bee sold out",
-          "value": 14250
+          "value": 14450
         },
         {
           "query": "macklemore sold out european dates",
           "value": 300
         },
         {
+          "query": "how to bake a cake",
+          "value": 190
+        },
+        {
           "query": "iphone 18 pro max sold out",
-          "value": 120
+          "value": 110
         },
         {
           "query": "sold out sign",
@@ -1567,8 +2763,8 @@
           "value": 700
         },
         {
-          "query": "pokemon 30th anniversary",
-          "value": 650
+          "query": "30th anniversary pokemon",
+          "value": 600
         },
         {
           "query": "30th anniversary pokemon restock",
@@ -1591,15 +2787,19 @@
           "value": 140
         },
         {
-          "query": "target restock pokemon",
-          "value": 130
+          "query": "when does costco restock pokemon cards",
+          "value": 140
         },
         {
-          "query": "nintendo switch 2 zelda restock",
-          "value": 110
+          "query": "target restock pokemon",
+          "value": 120
         }
       ],
       "dupe": [
+        {
+          "query": "mac paramount dupe",
+          "value": 400
+        },
         {
           "query": "rayhaan azul dupe of",
           "value": 350
@@ -1618,7 +2818,7 @@
         },
         {
           "query": "rayhaan aquatica dupe of",
-          "value": 120
+          "value": 110
         },
         {
           "query": "hawas ice",
@@ -1635,10 +2835,6 @@
         {
           "query": "hawas kobra dupe of",
           "value": 50
-        },
-        {
-          "query": "french avenue veneno dupe of",
-          "value": 50
         }
       ],
       "viral": [
@@ -1648,19 +2844,19 @@
         },
         {
           "query": "mike satterlee viral business success",
-          "value": 24250
+          "value": 24800
         },
         {
           "query": "viral body scrubber",
-          "value": 22300
+          "value": 22350
         },
         {
           "query": "trump suit tags viral photo",
-          "value": 19650
+          "value": 19700
         },
         {
           "query": "angelina jolie handwriting viral note",
-          "value": 19100
+          "value": 19050
         },
         {
           "query": "viral shih tzu puppy tiktok",
@@ -1668,41 +2864,41 @@
         },
         {
           "query": "viral back scrubber",
-          "value": 10950
+          "value": 11050
         },
         {
           "query": "kentucky bakery viral caramel apple",
           "value": 7000
         },
         {
-          "query": "ericka alvarez viral baseball backlash",
-          "value": 6500
+          "query": "what gets a lot of viral views",
+          "value": 6600
         },
         {
-          "query": "what gets a lot of viral views",
-          "value": 6450
+          "query": "ericka alvarez viral baseball backlash",
+          "value": 6500
         }
       ],
       "new flavor": [
         {
           "query": "mountain dew 2027 new flavor",
-          "value": 919600
-        },
-        {
-          "query": "spam new flavor",
-          "value": 29350
+          "value": 942300
         },
         {
           "query": "dr pepper new flavor rumors",
-          "value": 19150
+          "value": 19250
         },
         {
           "query": "mountain dew new flavor",
           "value": 1400
         },
         {
-          "query": "redbull new flavor",
-          "value": 190
+          "query": "bloom new flavor",
+          "value": 750
+        },
+        {
+          "query": "dr pepper new flavor",
+          "value": 450
         },
         {
           "query": "celsius new flavor",
@@ -1720,7 +2916,7 @@
       "where to buy": [
         {
           "query": "where to buy red dye diesel",
-          "value": 5550
+          "value": 5500
         },
         {
           "query": "where to buy pumpkins near me",
@@ -1732,7 +2928,7 @@
         },
         {
           "query": "where to buy covid tests",
-          "value": 110
+          "value": 100
         },
         {
           "query": "where to buy kratom",
@@ -1743,42 +2939,38 @@
           "value": 60
         },
         {
-          "query": "museums",
+          "query": "where to buy pokemon cards",
           "value": 50
         },
         {
-          "query": "where to buy pokemon cards",
+          "query": "museums",
           "value": 50
         }
       ],
       "shortage": [
         {
           "query": "europe e-bike mechanic shortage",
-          "value": 42150
+          "value": 41800
         },
         {
           "query": "europe diesel supply shortage",
-          "value": 26300
+          "value": 26350
         },
         {
           "query": "federal election commission quorum shortage",
-          "value": 14250
+          "value": 14200
         },
         {
           "query": "is there an oil shortage in the us",
-          "value": 10000
+          "value": 9750
         },
         {
           "query": "playstation 5 pro market shortage",
-          "value": 5300
+          "value": 5000
         },
         {
           "query": "gas shortage 1970s",
           "value": 1550
-        },
-        {
-          "query": "texas diesel shortage",
-          "value": 900
         },
         {
           "query": "diesel shortage",
@@ -1791,6 +2983,52 @@
         {
           "query": "why is there a diesel shortage",
           "value": 350
+        },
+        {
+          "query": "is there a diesel shortage",
+          "value": 300
+        }
+      ],
+      "waitlist": [
+        {
+          "query": "olivia rodrigo chicago",
+          "value": 9200
+        },
+        {
+          "query": "claude code projects waitlist",
+          "value": 3700
+        },
+        {
+          "query": "steam frame waitlist",
+          "value": 3350
+        },
+        {
+          "query": "steam frame",
+          "value": 1700
+        },
+        {
+          "query": "jev waitlist",
+          "value": 950
+        },
+        {
+          "query": "olivia rodrigo waitlist tickets",
+          "value": 400
+        },
+        {
+          "query": "unraveled tour waitlist",
+          "value": 350
+        },
+        {
+          "query": "olivia rodrigo",
+          "value": 300
+        },
+        {
+          "query": "waitlist olivia rodrigo",
+          "value": 250
+        },
+        {
+          "query": "apple ios 27 siri ai waitlist",
+          "value": 250
         }
       ]
     }
@@ -1801,7 +3039,5 @@
     "x": false,
     "news": true
   },
-  "errors": [
-    "top10: TypeError: unsupported operand type(s) for -: 'NoneType' and 'float'"
-  ]
+  "errors": []
 }
