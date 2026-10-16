@@ -11,7 +11,7 @@ def main():
     out = {'date': today(), 'terms': {}, 'consumer': {}, 'errors': []}
     try:
         from pytrends.request import TrendReq
-        py = TrendReq(hl='en-US', tz=300, timeout=(10, 30), retries=2, backoff_factor=1)
+        py = TrendReq(hl='en-US', tz=300, timeout=(10, 30))   # no retries arg: pytrends' retry code breaks on urllib3 v2
     except Exception as e:
         out['errors'].append(f'pytrends unavailable: {e}'); save_json(out, 'trends.json'); return
     for theme, th in cfg['themes'].items():

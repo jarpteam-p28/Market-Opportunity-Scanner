@@ -294,14 +294,26 @@ def main():
     px = pd.read_csv(d / 'prices.csv', index_col=0, parse_dates=True).sort_index()
     caps = load_json('market_caps.json', default={})
     reddit, trends, xg, news = (load_json(f, default=None) for f in ('reddit.json', 'trends.json', 'x_grok.json', 'news.json'))
-    t10, breadth = top10(px, caps, cfg, L)
-    A = dict(date=today(), last_bar=str(px.index.max().date()), regime=regime(px, cfg, L), breadth=breadth,
-             sectors=sectors(px, cfg, L), mag7=mag7(px, caps, cfg, L), top10=t10,
-             themes=themes(px, cfg, L, reddit, trends, xg, news), reddit_tickers=reddit_tickers(px, reddit, L),
-             rising_tickers=rising_tickers(px, cfg, L), narratives=narratives(cfg, reddit, news), catalysts=catalysts(px, cfg, L), big_movers=big_movers(px, cfg, L, news), concentration=concentration(px, cfg, L), consumer=consumer(px, trends, L, cfg, load_json('consumer_info.json', default={}), news, reddit, load_json('youtube.json', default=None)),
+    errors = []
+    def safe(name, fn, default=None):
+        """One broken section must not kill the whole report."""
+        try:
+            return fn()
+        except Exception as e:
+            import traceback; traceback.print_exc()
+            errors.append(f'{name}: {type(e).__name__}: {e}'); return default
+    t10, breadth = safe('top10', lambda: top10(px, caps, cfg, L), default=({}, {}))
+    A = dict(date=today(), last_bar=str(px.index.max().date()), regime=safe('regime', lambda: regime(px, cfg, L), {'label': 'UNKNOWN', 'spy': {}}), breadth=breadth,
+             sectors=safe('sectors', lambda: sectors(px, cfg, L), []), mag7=safe('mag7', lambda: mag7(px, caps, cfg, L), {}), top10=t10,
+             themes=safe('themes', lambda: themes(px, cfg, L, reddit, trends, xg, news), []), reddit_tickers=safe('reddit_tickers', lambda: reddit_tickers(px, reddit, L), []),
+             rising_tickers=safe('rising_tickers', lambda: rising_tickers(px, cfg, L), []), narratives=safe('narratives', lambda: narratives(cfg, reddit, news), {}),
+             catalysts=safe('catalysts', lambda: catalysts(px, cfg, L), []), big_movers=safe('big_movers', lambda: big_movers(px, cfg, L, news), []),
+             concentration=safe('concentration', lambda: concentration(px, cfg, L), {}),
+             consumer=safe('consumer', lambda: consumer(px, trends, L, cfg, load_json('consumer_info.json', default={}), news, reddit, load_json('youtube.json', default=None)), []),
              discovery=dict(reddit=(reddit or {}).get('discovery', [])[:15], search_rising=(trends or {}).get('discovery', {})),
              sources=dict(reddit=bool(reddit and reddit.get('n_posts')), trends=bool(trends and trends.get('terms')),
                           x=bool(xg and xg.get('themes')), news=bool(news and news.get('n'))))
+    A['errors'] = errors
     save_json(A, 'analysis.json')
     print('analysis saved:', A['regime']['label'], '| themes:', len(A['themes']))
 
