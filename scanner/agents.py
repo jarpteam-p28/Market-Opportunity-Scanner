@@ -14,7 +14,10 @@ def call(prompt, cfg, key):
                       json={'model': cfg['agents']['model'], 'max_tokens': cfg['agents']['max_tokens'],
                             'messages': [{'role': 'user', 'content': prompt}]})
     r.raise_for_status()
-    return ''.join(c.get('text', '') for c in r.json()['content'] if c.get('type') == 'text')
+    j = r.json(); txt = ''.join(c.get('text', '') for c in j.get('content', []) if c.get('type') == 'text')
+    if not txt.strip():
+        raise RuntimeError(f"empty reply (stop_reason={j.get('stop_reason')})")
+    return txt
 
 
 def context_for(name, A, extra):
@@ -53,10 +56,11 @@ def main():
         if name != 'synthesizer':
             tmpl = tmpl.replace('{{PLAYBOOK}}', '{{PLAYBOOK}}') if '{{PLAYBOOK}}' in tmpl else tmpl + '\n\nUser playbook notes (context, not data):\n{{PLAYBOOK}}'
         prompt = tmpl.replace('{{DATE}}', A['date']).replace('{{PLAYBOOK}}', playbook).replace('{{DATA}}', ctx)
-        try:
-            outs[name] = call(prompt, cfg, key)
-        except Exception as e:
-            outs[name] = f'(agent failed: {e})'
+        for attempt in (1, 2):   # one retry: an empty or failed reply shouldn't leave a hole in the report
+            try:
+                outs[name] = call(prompt, cfg, key); break
+            except Exception as e:
+                outs[name] = f'(agent failed: {e})'
         print(f'agent {name}: {len(outs[name])} chars')
     save_json(outs, 'agents.json')
     # watch list -> journal for later scoring

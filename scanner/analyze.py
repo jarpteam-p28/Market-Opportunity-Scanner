@@ -15,8 +15,15 @@ def above(s, n):
     return bool(s.iloc[-1] > s.iloc[-n:].mean()) if len(s) >= n else None
 
 
+def diff(a, b):
+    return None if a is None or b is None else a - b
+
+
 def ytd(s):
-    s = s.dropna(); y = s[s.index.year == s.index[-1].year]
+    s = s.dropna()
+    if s.empty:
+        return None
+    y = s[s.index.year == s.index[-1].year]
     prev = s[s.index.year < s.index[-1].year]
     base = prev.iloc[-1] if len(prev) else y.iloc[0]
     return float(s.iloc[-1] / base - 1)
@@ -64,14 +71,14 @@ def sectors(px, cfg, L):
         if t not in px:
             continue
         s = px[t]
-        rs_now = ret(s, L['month']) - ret(spy, L['month'])
+        rs_now = diff(ret(s, L['month']), ret(spy, L['month']))
         s1, spy1 = s.dropna().iloc[:-L['week']], spy.dropna().iloc[:-L['week']]
-        rs_prev = ret(s1, L['month']) - ret(spy1, L['month'])
+        rs_prev = diff(ret(s1, L['month']), ret(spy1, L['month']))
         rows.append(dict(sector=name, etf=t, w=pct(ret(s, L['week'])), m=pct(ret(s, L['month'])), q=pct(ret(s, L['quarter'])),
                          rs_m_now=pct(rs_now), rs_m_last_week=pct(rs_prev), above50=above(s, 50), above200=above(s, 200)))
     df = pd.DataFrame(rows)
-    df['rank_now'] = df.rs_m_now.rank(ascending=False).astype(int)
-    df['rank_last_week'] = df.rs_m_last_week.rank(ascending=False).astype(int)
+    df['rank_now'] = df.rs_m_now.rank(ascending=False).fillna(len(df)).astype(int)
+    df['rank_last_week'] = df.rs_m_last_week.rank(ascending=False).fillna(len(df)).astype(int)
     df['rank_change'] = df.rank_last_week - df.rank_now          # + = moving up the leaderboard
     return df.sort_values('rank_now').to_dict('records')
 
@@ -80,13 +87,13 @@ def top10(px, caps, cfg, L):
     out = {}; breadth50 = []; breadth200 = []
     for sec, cands in cfg['sector_candidates'].items():
         etf = px.get(cfg['sectors'][sec])
-        ranked = sorted([c for c in cands if c in caps and c in px], key=lambda c: -caps[c])[:cfg['report']['top_n']]
+        ranked = sorted([c for c in cands if caps.get(c) and c in px], key=lambda c: -caps[c])[:cfg['report']['top_n']]
         rows = []
         for c in ranked:
             s = px[c]; a50, a200 = above(s, 50), above(s, 200)
             breadth50.append(a50); breadth200.append(a200)
             rows.append(dict(ticker=c, mcap_b=round(caps[c] / 1e9), m=pct(ret(s, L['month'])), q=pct(ret(s, L['quarter'])),
-                             ytd=pct(ytd(s)), vs_sector_m=pct(ret(s, L['month']) - (ret(etf, L['month']) if etf is not None else 0)),
+                             ytd=pct(ytd(s)), vs_sector_m=pct(diff(ret(s, L['month']), ret(etf, L['month']) if etf is not None else 0)),
                              above50=a50, above200=a200))
         out[sec] = rows
     b50 = [x for x in breadth50 if x is not None]; b200 = [x for x in breadth200 if x is not None]
@@ -302,7 +309,7 @@ def main():
         except Exception as e:
             import traceback; traceback.print_exc()
             errors.append(f'{name}: {type(e).__name__}: {e}'); return default
-    t10, breadth = safe('top10', lambda: top10(px, caps, cfg, L), default=({}, {}))
+    t10, breadth = safe('top10', lambda: top10(px, caps, cfg, L), default=({}, {'pct_top10s_above_50d': None, 'pct_top10s_above_200d': None}))
     A = dict(date=today(), last_bar=str(px.index.max().date()), regime=safe('regime', lambda: regime(px, cfg, L), {'label': 'UNKNOWN', 'spy': {}}), breadth=breadth,
              sectors=safe('sectors', lambda: sectors(px, cfg, L), []), mag7=safe('mag7', lambda: mag7(px, caps, cfg, L), {}), top10=t10,
              themes=safe('themes', lambda: themes(px, cfg, L, reddit, trends, xg, news), []), reddit_tickers=safe('reddit_tickers', lambda: reddit_tickers(px, reddit, L), []),
