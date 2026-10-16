@@ -1,0 +1,1807 @@
+{
+  "date": "2026-10-16",
+  "last_bar": "2026-10-16",
+  "regime": {
+    "spy": {
+      "last": 771.79,
+      "w": -0.3,
+      "m": 2.6,
+      "q": 4.1,
+      "ytd": 14.1,
+      "above50": true,
+      "above200": true
+    },
+    "equal_vs_cap_1m": -0.9,
+    "small_vs_large_1m": -5.6,
+    "credit_appetite_1m": -1.1,
+    "vix": {
+      "last": 16.46,
+      "m_change": -7.1
+    },
+    "ten_year": {
+      "last": 5.09,
+      "m_change": 1.7
+    },
+    "dollar": {
+      "last": 29.0,
+      "m_change": 2.1
+    },
+    "ten_year_alert": true,
+    "label": "RISK-ON (some caution)",
+    "score_0_4": 3
+  },
+  "breadth": {},
+  "sectors": [
+    {
+      "sector": "Health Care",
+      "etf": "XLV",
+      "w": 5.4,
+      "m": 6.0,
+      "q": 10.4,
+      "rs_m_now": 3.4,
+      "rs_m_last_week": -0.4,
+      "above50": true,
+      "above200": true,
+      "rank_now": 1,
+      "rank_last_week": 3,
+      "rank_change": 2
+    },
+    {
+      "sector": "Consumer Staples",
+      "etf": "XLP",
+      "w": 3.9,
+      "m": 4.7,
+      "q": 2.4,
+      "rs_m_now": 2.1,
+      "rs_m_last_week": -0.7,
+      "above50": true,
+      "above200": true,
+      "rank_now": 2,
+      "rank_last_week": 4,
+      "rank_change": 2
+    },
+    {
+      "sector": "Energy",
+      "etf": "XLE",
+      "w": 2.0,
+      "m": 4.6,
+      "q": 16.1,
+      "rs_m_now": 2.0,
+      "rs_m_last_week": -1.3,
+      "above50": true,
+      "above200": true,
+      "rank_now": 3,
+      "rank_last_week": 5,
+      "rank_change": 2
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "etf": "XLY",
+      "w": 1.5,
+      "m": 3.2,
+      "q": -1.5,
+      "rs_m_now": 0.6,
+      "rs_m_last_week": -2.2,
+      "above50": false,
+      "above200": false,
+      "rank_now": 4,
+      "rank_last_week": 6,
+      "rank_change": 2
+    },
+    {
+      "sector": "Technology",
+      "etf": "XLK",
+      "w": -4.3,
+      "m": 3.0,
+      "q": 7.9,
+      "rs_m_now": 0.4,
+      "rs_m_last_week": 3.6,
+      "above50": false,
+      "above200": true,
+      "rank_now": 5,
+      "rank_last_week": 1,
+      "rank_change": -4
+    },
+    {
+      "sector": "Utilities",
+      "etf": "XLU",
+      "w": 1.4,
+      "m": 1.5,
+      "q": -7.1,
+      "rs_m_now": -1.1,
+      "rs_m_last_week": -5.4,
+      "above50": false,
+      "above200": false,
+      "rank_now": 6,
+      "rank_last_week": 8,
+      "rank_change": 2
+    },
+    {
+      "sector": "Materials",
+      "etf": "XLB",
+      "w": 2.6,
+      "m": 0.9,
+      "q": 0.5,
+      "rs_m_now": -1.7,
+      "rs_m_last_week": -5.4,
+      "above50": false,
+      "above200": true,
+      "rank_now": 7,
+      "rank_last_week": 8,
+      "rank_change": 1
+    },
+    {
+      "sector": "Communication",
+      "etf": "XLC",
+      "w": 0.3,
+      "m": -0.2,
+      "q": 2.0,
+      "rs_m_now": -2.8,
+      "rs_m_last_week": -0.3,
+      "above50": true,
+      "above200": false,
+      "rank_now": 8,
+      "rank_last_week": 2,
+      "rank_change": -6
+    },
+    {
+      "sector": "Industrials",
+      "etf": "XLI",
+      "w": -0.3,
+      "m": -0.2,
+      "q": -6.2,
+      "rs_m_now": -2.8,
+      "rs_m_last_week": -3.5,
+      "above50": false,
+      "above200": false,
+      "rank_now": 8,
+      "rank_last_week": 7,
+      "rank_change": -1
+    },
+    {
+      "sector": "Financials",
+      "etf": "XLF",
+      "w": 1.9,
+      "m": -0.8,
+      "q": -1.4,
+      "rs_m_now": -3.4,
+      "rs_m_last_week": -6.4,
+      "above50": false,
+      "above200": true,
+      "rank_now": 10,
+      "rank_last_week": 10,
+      "rank_change": 0
+    },
+    {
+      "sector": "Real Estate",
+      "etf": "XLRE",
+      "w": 2.8,
+      "m": -1.1,
+      "q": -6.8,
+      "rs_m_now": -3.7,
+      "rs_m_last_week": -6.9,
+      "above50": false,
+      "above200": false,
+      "rank_now": 11,
+      "rank_last_week": 11,
+      "rank_change": 0
+    }
+  ],
+  "mag7": {
+    "members": [
+      "AAPL",
+      "MSFT",
+      "NVDA",
+      "GOOGL",
+      "AMZN",
+      "META",
+      "TSLA"
+    ],
+    "mag7_w": -1.3,
+    "spy_w": -0.3,
+    "equal_weight_w": 1.5,
+    "mag7_m": 2.7,
+    "spy_m": 2.6,
+    "equal_weight_m": 1.7,
+    "mag7_q": 9.4,
+    "spy_q": 4.1,
+    "equal_weight_q": 1.1,
+    "mag7_ytd": 16.5,
+    "spy_ytd": 14.1,
+    "equal_weight_ytd": 13.6,
+    "mag7_share_of_tracked_mcap": 41.9,
+    "each": {
+      "AAPL": {
+        "m": 2.9,
+        "q": 2.6,
+        "ytd": 26.1
+      },
+      "MSFT": {
+        "m": 10.0,
+        "q": 37.2,
+        "ytd": 12.2
+      },
+      "NVDA": {
+        "m": 1.6,
+        "q": 7.2,
+        "ytd": 16.7
+      },
+      "GOOGL": {
+        "m": 1.9,
+        "q": 0.8,
+        "ytd": 11.8
+      },
+      "AMZN": {
+        "m": 3.6,
+        "q": 3.0,
+        "ytd": 10.4
+      },
+      "META": {
+        "m": 9.5,
+        "q": 14.1,
+        "ytd": 11.9
+      },
+      "TSLA": {
+        "m": 1.2,
+        "q": -4.8,
+        "ytd": -19.4
+      }
+    },
+    "read": "Narrow market: Mag 7 is carrying it"
+  },
+  "top10": {},
+  "themes": [
+    {
+      "theme": "AI software",
+      "basket": [
+        "IGV",
+        "PLTR",
+        "MSFT",
+        "NOW",
+        "CRM",
+        "SNOW",
+        "DDOG"
+      ],
+      "w": -1.7,
+      "m": 6.8,
+      "q": 36.8,
+      "rs_vs_spy_m": 4.2,
+      "rs_vs_spy_q": 32.7,
+      "above50": true,
+      "reddit_mentions_per_1k_posts": null,
+      "reddit_change": null,
+      "google_trends_change": null,
+      "x_volume": null,
+      "news_headlines": 0,
+      "label": "STEALTH - price leading, talk quiet",
+      "leaders_m": [
+        [
+          "DDOG",
+          15.4
+        ],
+        [
+          "PLTR",
+          15.0
+        ],
+        [
+          "MSFT",
+          10.0
+        ]
+      ],
+      "laggards_m": [
+        [
+          "SNOW",
+          1.2
+        ],
+        [
+          "CRM",
+          -1.3
+        ]
+      ],
+      "top_posts": []
+    },
+    {
+      "theme": "AI efficiency wave",
+      "basket": [
+        "AMZN",
+        "UPS",
+        "FDX",
+        "UNH",
+        "CVS",
+        "JPM",
+        "WMT",
+        "ACN",
+        "CNC",
+        "TRV"
+      ],
+      "w": 4.3,
+      "m": 4.0,
+      "q": 4.4,
+      "rs_vs_spy_m": 1.4,
+      "rs_vs_spy_q": 0.3,
+      "above50": true,
+      "reddit_mentions_per_1k_posts": null,
+      "reddit_change": null,
+      "google_trends_change": 24.4,
+      "x_volume": null,
+      "news_headlines": 0,
+      "label": "CONFIRMED - talk and price both rising",
+      "leaders_m": [
+        [
+          "ACN",
+          19.6
+        ],
+        [
+          "WMT",
+          9.6
+        ],
+        [
+          "UNH",
+          8.4
+        ]
+      ],
+      "laggards_m": [
+        [
+          "FDX",
+          -2.0
+        ],
+        [
+          "JPM",
+          -3.4
+        ]
+      ],
+      "top_posts": []
+    },
+    {
+      "theme": "Distribution moats",
+      "basket": [
+        "AMZN",
+        "WMT",
+        "COST",
+        "HD",
+        "PG",
+        "KO",
+        "PEP",
+        "MCD",
+        "UPS",
+        "V"
+      ],
+      "w": 3.3,
+      "m": 3.4,
+      "q": 2.5,
+      "rs_vs_spy_m": 0.8,
+      "rs_vs_spy_q": -1.6,
+      "above50": true,
+      "reddit_mentions_per_1k_posts": null,
+      "reddit_change": null,
+      "google_trends_change": null,
+      "x_volume": null,
+      "news_headlines": 0,
+      "label": "STEALTH - price leading, talk quiet",
+      "leaders_m": [
+        [
+          "WMT",
+          9.6
+        ],
+        [
+          "COST",
+          9.4
+        ],
+        [
+          "V",
+          7.8
+        ]
+      ],
+      "laggards_m": [
+        [
+          "MCD",
+          -2.4
+        ],
+        [
+          "PEP",
+          -4.4
+        ]
+      ],
+      "top_posts": []
+    },
+    {
+      "theme": "Power for AI",
+      "basket": [
+        "XLU",
+        "GRID",
+        "VST",
+        "CEG",
+        "NRG",
+        "TLN",
+        "GEV",
+        "ETN",
+        "PWR",
+        "BE"
+      ],
+      "w": -6.7,
+      "m": 1.5,
+      "q": -5.6,
+      "rs_vs_spy_m": -1.1,
+      "rs_vs_spy_q": -9.7,
+      "above50": false,
+      "reddit_mentions_per_1k_posts": null,
+      "reddit_change": null,
+      "google_trends_change": -29.9,
+      "x_volume": null,
+      "news_headlines": 0,
+      "label": "NEUTRAL",
+      "leaders_m": [
+        [
+          "TLN",
+          22.9
+        ],
+        [
+          "VST",
+          10.0
+        ],
+        [
+          "CEG",
+          6.0
+        ]
+      ],
+      "laggards_m": [
+        [
+          "NRG",
+          -4.2
+        ],
+        [
+          "BE",
+          -12.5
+        ]
+      ],
+      "top_posts": []
+    },
+    {
+      "theme": "Water",
+      "basket": [
+        "PHO",
+        "FIW",
+        "CGW",
+        "XYL",
+        "ECL",
+        "AWK",
+        "WTRG",
+        "VLTO",
+        "WTS"
+      ],
+      "w": 2.2,
+      "m": 1.0,
+      "q": 3.0,
+      "rs_vs_spy_m": -1.6,
+      "rs_vs_spy_q": -1.1,
+      "above50": true,
+      "reddit_mentions_per_1k_posts": null,
+      "reddit_change": null,
+      "google_trends_change": -27.7,
+      "x_volume": null,
+      "news_headlines": 0,
+      "label": "NEUTRAL",
+      "leaders_m": [
+        [
+          "ECL",
+          6.1
+        ],
+        [
+          "VLTO",
+          5.6
+        ],
+        [
+          "WTS",
+          1.8
+        ]
+      ],
+      "laggards_m": [
+        [
+          "AWK",
+          -3.4
+        ],
+        [
+          "XYL",
+          -3.6
+        ]
+      ],
+      "top_posts": []
+    },
+    {
+      "theme": "Robotics",
+      "basket": [
+        "BOTZ",
+        "TSLA",
+        "ISRG",
+        "TER",
+        "SYM",
+        "ROK"
+      ],
+      "w": -5.6,
+      "m": -0.6,
+      "q": -0.8,
+      "rs_vs_spy_m": -3.2,
+      "rs_vs_spy_q": -4.9,
+      "above50": false,
+      "reddit_mentions_per_1k_posts": null,
+      "reddit_change": null,
+      "google_trends_change": -13.2,
+      "x_volume": null,
+      "news_headlines": 0,
+      "label": "NEUTRAL",
+      "leaders_m": [
+        [
+          "ISRG",
+          11.9
+        ],
+        [
+          "ROK",
+          1.7
+        ],
+        [
+          "TSLA",
+          1.2
+        ]
+      ],
+      "laggards_m": [
+        [
+          "TER",
+          0.6
+        ],
+        [
+          "SYM",
+          -7.8
+        ]
+      ],
+      "top_posts": []
+    },
+    {
+      "theme": "AI chips",
+      "basket": [
+        "SMH",
+        "SOXX",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "TSM",
+        "MU",
+        "ARM",
+        "MRVL",
+        "ASML"
+      ],
+      "w": -7.6,
+      "m": -0.9,
+      "q": -3.4,
+      "rs_vs_spy_m": -3.5,
+      "rs_vs_spy_q": -7.5,
+      "above50": false,
+      "reddit_mentions_per_1k_posts": null,
+      "reddit_change": null,
+      "google_trends_change": -24.6,
+      "x_volume": null,
+      "news_headlines": 2,
+      "label": "NEUTRAL",
+      "leaders_m": [
+        [
+          "AMD",
+          9.7
+        ],
+        [
+          "MRVL",
+          5.0
+        ],
+        [
+          "ASML",
+          3.4
+        ]
+      ],
+      "laggards_m": [
+        [
+          "MU",
+          0.5
+        ],
+        [
+          "ARM",
+          0.3
+        ]
+      ],
+      "top_posts": []
+    },
+    {
+      "theme": "Copper & grid materials",
+      "basket": [
+        "COPX",
+        "CPER",
+        "FCX",
+        "SCCO",
+        "TECK"
+      ],
+      "w": -3.9,
+      "m": -0.9,
+      "q": 4.1,
+      "rs_vs_spy_m": -3.5,
+      "rs_vs_spy_q": 0.0,
+      "above50": false,
+      "reddit_mentions_per_1k_posts": null,
+      "reddit_change": null,
+      "google_trends_change": -19.6,
+      "x_volume": null,
+      "news_headlines": 0,
+      "label": "NEUTRAL",
+      "leaders_m": [
+        [
+          "SCCO",
+          6.2
+        ],
+        [
+          "TECK",
+          2.3
+        ],
+        [
+          "FCX",
+          1.4
+        ]
+      ],
+      "laggards_m": [
+        [
+          "TECK",
+          2.3
+        ],
+        [
+          "FCX",
+          1.4
+        ]
+      ],
+      "top_posts": []
+    },
+    {
+      "theme": "Cooling",
+      "basket": [
+        "VRT",
+        "MOD",
+        "JCI",
+        "TT",
+        "CARR"
+      ],
+      "w": -7.7,
+      "m": -2.9,
+      "q": -17.4,
+      "rs_vs_spy_m": -5.5,
+      "rs_vs_spy_q": -21.5,
+      "above50": false,
+      "reddit_mentions_per_1k_posts": null,
+      "reddit_change": null,
+      "google_trends_change": -23.2,
+      "x_volume": null,
+      "news_headlines": 0,
+      "label": "NEUTRAL",
+      "leaders_m": [
+        [
+          "TT",
+          8.5
+        ],
+        [
+          "JCI",
+          5.4
+        ],
+        [
+          "CARR",
+          1.3
+        ]
+      ],
+      "laggards_m": [
+        [
+          "VRT",
+          -10.3
+        ],
+        [
+          "MOD",
+          -15.0
+        ]
+      ],
+      "top_posts": []
+    },
+    {
+      "theme": "AI data centers",
+      "basket": [
+        "DTCR",
+        "SRVR",
+        "EQIX",
+        "DLR",
+        "VRT",
+        "ANET",
+        "CSCO",
+        "SMCI",
+        "DELL",
+        "CRWV"
+      ],
+      "w": -9.9,
+      "m": -8.1,
+      "q": -1.5,
+      "rs_vs_spy_m": -10.7,
+      "rs_vs_spy_q": -5.6,
+      "above50": false,
+      "reddit_mentions_per_1k_posts": null,
+      "reddit_change": null,
+      "google_trends_change": -32.4,
+      "x_volume": null,
+      "news_headlines": 0,
+      "label": "NEUTRAL",
+      "leaders_m": [
+        [
+          "CSCO",
+          2.4
+        ],
+        [
+          "EQIX",
+          -2.0
+        ],
+        [
+          "DLR",
+          -3.6
+        ]
+      ],
+      "laggards_m": [
+        [
+          "DELL",
+          -16.0
+        ],
+        [
+          "CRWV",
+          -16.4
+        ]
+      ],
+      "top_posts": []
+    },
+    {
+      "theme": "Memory chips",
+      "basket": [
+        "EWY",
+        "MU",
+        "SNDK",
+        "WDC",
+        "STX"
+      ],
+      "w": -11.0,
+      "m": -12.2,
+      "q": -17.3,
+      "rs_vs_spy_m": -14.8,
+      "rs_vs_spy_q": -21.4,
+      "above50": false,
+      "reddit_mentions_per_1k_posts": null,
+      "reddit_change": null,
+      "google_trends_change": 97.6,
+      "x_volume": null,
+      "news_headlines": 0,
+      "label": "EARLY - talk rising, price not yet (social-arbitrage watch)",
+      "leaders_m": [
+        [
+          "MU",
+          0.5
+        ],
+        [
+          "SNDK",
+          -8.2
+        ],
+        [
+          "STX",
+          -11.7
+        ]
+      ],
+      "laggards_m": [
+        [
+          "STX",
+          -11.7
+        ],
+        [
+          "WDC",
+          -14.5
+        ]
+      ],
+      "top_posts": []
+    },
+    {
+      "theme": "Nuclear",
+      "basket": [
+        "URA",
+        "NLR",
+        "CCJ",
+        "OKLO",
+        "SMR",
+        "LEU",
+        "BWXT",
+        "NNE"
+      ],
+      "w": -9.3,
+      "m": -17.2,
+      "q": -23.4,
+      "rs_vs_spy_m": -19.8,
+      "rs_vs_spy_q": -27.5,
+      "above50": false,
+      "reddit_mentions_per_1k_posts": null,
+      "reddit_change": null,
+      "google_trends_change": -24.0,
+      "x_volume": null,
+      "news_headlines": 0,
+      "label": "NEUTRAL",
+      "leaders_m": [
+        [
+          "BWXT",
+          -5.8
+        ],
+        [
+          "CCJ",
+          -8.4
+        ],
+        [
+          "LEU",
+          -8.6
+        ]
+      ],
+      "laggards_m": [
+        [
+          "OKLO",
+          -15.7
+        ],
+        [
+          "SMR",
+          -25.9
+        ]
+      ],
+      "top_posts": []
+    }
+  ],
+  "reddit_tickers": [],
+  "rising_tickers": [],
+  "narratives": [
+    {
+      "key": "ai_fear",
+      "label": "AI fear / FUD",
+      "reddit_per_1k": null,
+      "reddit_change": null,
+      "news_per_1k": 0.0,
+      "news_change": null,
+      "ground_truth_posts": 0,
+      "examples": [],
+      "accelerating": false
+    },
+    {
+      "key": "ai_efficiency",
+      "label": "AI efficiency evidence",
+      "reddit_per_1k": null,
+      "reddit_change": null,
+      "news_per_1k": 0.0,
+      "news_change": null,
+      "ground_truth_posts": 0,
+      "examples": [],
+      "accelerating": false
+    },
+    {
+      "key": "leverage",
+      "label": "Leverage / forced selling",
+      "reddit_per_1k": null,
+      "reddit_change": null,
+      "news_per_1k": 0.0,
+      "news_change": null,
+      "ground_truth_posts": 0,
+      "examples": [],
+      "accelerating": false
+    }
+  ],
+  "catalysts": [
+    {
+      "name": "GTA 6 launch",
+      "date": "2026-11-19",
+      "days_to_event": 34,
+      "benchmarks": "Street year-1 units ~30-50M; online spend per monthly user ~$20-60; GTA 5 online still ~$0.6B/yr",
+      "tickers": [
+        {
+          "ticker": "TTWO",
+          "side": "main",
+          "w": 0.0,
+          "m": -1.1,
+          "q": -11.5
+        },
+        {
+          "ticker": "DASH",
+          "side": "2nd-order +",
+          "w": 0.7,
+          "m": -1.9,
+          "q": 4.8
+        },
+        {
+          "ticker": "UBER",
+          "side": "2nd-order +",
+          "w": 1.5,
+          "m": 0.4,
+          "q": -1.6
+        },
+        {
+          "ticker": "SONY",
+          "side": "2nd-order +",
+          "w": 3.1,
+          "m": 4.0,
+          "q": 16.9
+        },
+        {
+          "ticker": "MSFT",
+          "side": "2nd-order +",
+          "w": 3.2,
+          "m": 10.0,
+          "q": 37.2
+        },
+        {
+          "ticker": "NFLX",
+          "side": "2nd-order -",
+          "w": 1.5,
+          "m": -5.0,
+          "q": 5.3
+        }
+      ]
+    }
+  ],
+  "big_movers": [
+    {
+      "ticker": "SMCI",
+      "w": -18.0,
+      "m": -4.8,
+      "headlines": []
+    },
+    {
+      "ticker": "DELL",
+      "w": -17.6,
+      "m": -16.0,
+      "headlines": []
+    },
+    {
+      "ticker": "SMR",
+      "w": -16.0,
+      "m": -25.9,
+      "headlines": []
+    },
+    {
+      "ticker": "MOD",
+      "w": -15.3,
+      "m": -15.0,
+      "headlines": []
+    },
+    {
+      "ticker": "CRWV",
+      "w": -14.6,
+      "m": -16.4,
+      "headlines": []
+    },
+    {
+      "ticker": "TER",
+      "w": -13.9,
+      "m": 0.6,
+      "headlines": []
+    },
+    {
+      "ticker": "BE",
+      "w": -13.4,
+      "m": -12.5,
+      "headlines": []
+    },
+    {
+      "ticker": "SNDK",
+      "w": -13.3,
+      "m": -8.2,
+      "headlines": []
+    },
+    {
+      "ticker": "OKLO",
+      "w": -13.2,
+      "m": -15.7,
+      "headlines": []
+    },
+    {
+      "ticker": "MRVL",
+      "w": -12.1,
+      "m": 5.0,
+      "headlines": []
+    },
+    {
+      "ticker": "ANET",
+      "w": -12.0,
+      "m": -6.1,
+      "headlines": []
+    },
+    {
+      "ticker": "VRT",
+      "w": -11.9,
+      "m": -10.3,
+      "headlines": []
+    },
+    {
+      "ticker": "ARM",
+      "w": -11.1,
+      "m": 0.3,
+      "headlines": []
+    },
+    {
+      "ticker": "NNE",
+      "w": -10.9,
+      "m": -13.1,
+      "headlines": []
+    },
+    {
+      "ticker": "SG",
+      "w": 10.8,
+      "m": 60.1,
+      "headlines": []
+    },
+    {
+      "ticker": "STX",
+      "w": -10.8,
+      "m": -11.7,
+      "headlines": []
+    },
+    {
+      "ticker": "LEU",
+      "w": -10.6,
+      "m": -8.6,
+      "headlines": []
+    },
+    {
+      "ticker": "MU",
+      "w": -10.1,
+      "m": 0.5,
+      "headlines": []
+    },
+    {
+      "ticker": "ELF",
+      "w": 9.6,
+      "m": 24.3,
+      "headlines": []
+    },
+    {
+      "ticker": "UNH",
+      "w": 9.6,
+      "m": 8.4,
+      "headlines": []
+    }
+  ],
+  "concentration": {
+    "benchmark": "SMH",
+    "bench_m": 2.4,
+    "bench_q": 0.4,
+    "rows": [
+      {
+        "ticker": "ORCL",
+        "m": -5.7,
+        "q": 6.8,
+        "vs_chips_m": -8.2,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "CRWV",
+        "m": -16.4,
+        "q": -4.8,
+        "vs_chips_m": -18.8,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "NVDA",
+        "m": 1.6,
+        "q": 7.2,
+        "vs_chips_m": -0.9,
+        "above50": false,
+        "above200": true
+      },
+      {
+        "ticker": "MSFT",
+        "m": 10.0,
+        "q": 37.2,
+        "vs_chips_m": 7.6,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "AMZN",
+        "m": 3.6,
+        "q": 3.0,
+        "vs_chips_m": 1.1,
+        "above50": false,
+        "above200": true
+      },
+      {
+        "ticker": "GOOGL",
+        "m": 1.9,
+        "q": 0.8,
+        "vs_chips_m": -0.6,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "META",
+        "m": 9.5,
+        "q": 14.1,
+        "vs_chips_m": 7.1,
+        "above50": true,
+        "above200": true
+      }
+    ],
+    "warning_names": [
+      "ORCL",
+      "CRWV"
+    ],
+    "read": "Stress in the AI chain: ORCL, CRWV"
+  },
+  "consumer": [
+    {
+      "term": "uggs",
+      "ticker": "DECK",
+      "search_change": 192.8,
+      "at_12m_high": false,
+      "yoy_same_season": -12.0,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": null,
+      "yt_intent_per_100": null,
+      "yt_scare_per_100": null,
+      "scare_flag": false,
+      "m": 11.1,
+      "q": -18.7,
+      "mcap_b": 11.8,
+      "short_pct": 9.7,
+      "in_headlines": false,
+      "flag": true,
+      "read": "EARLY - search spike, price and news not there yet: verify (stores, reviews, analyst coverage)"
+    },
+    {
+      "term": "barbie",
+      "ticker": "MAT",
+      "search_change": 5.4,
+      "at_12m_high": false,
+      "yoy_same_season": -13.3,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": null,
+      "yt_intent_per_100": null,
+      "yt_scare_per_100": null,
+      "scare_flag": false,
+      "m": 31.5,
+      "q": 21.1,
+      "mcap_b": 4.9,
+      "short_pct": 16.7,
+      "in_headlines": false,
+      "flag": false,
+      "read": ""
+    },
+    {
+      "term": "sweetgreen",
+      "ticker": "SG",
+      "search_change": 1.7,
+      "at_12m_high": false,
+      "yoy_same_season": -4.3,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": null,
+      "yt_intent_per_100": null,
+      "yt_scare_per_100": null,
+      "scare_flag": false,
+      "m": 60.1,
+      "q": 49.7,
+      "mcap_b": 1.3,
+      "short_pct": 26.6,
+      "in_headlines": false,
+      "flag": false,
+      "read": ""
+    },
+    {
+      "term": "cava",
+      "ticker": "CAVA",
+      "search_change": -1.3,
+      "at_12m_high": false,
+      "yoy_same_season": 14.6,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": null,
+      "yt_intent_per_100": null,
+      "yt_scare_per_100": null,
+      "scare_flag": false,
+      "m": 11.3,
+      "q": -19.5,
+      "mcap_b": 6.5,
+      "short_pct": 14.4,
+      "in_headlines": false,
+      "flag": false,
+      "read": ""
+    },
+    {
+      "term": "starbucks",
+      "ticker": "SBUX",
+      "search_change": -4.2,
+      "at_12m_high": false,
+      "yoy_same_season": 7.4,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": null,
+      "yt_intent_per_100": null,
+      "yt_scare_per_100": null,
+      "scare_flag": false,
+      "m": -0.5,
+      "q": -7.6,
+      "mcap_b": 110.4,
+      "short_pct": 4.1,
+      "in_headlines": false,
+      "flag": false,
+      "read": ""
+    },
+    {
+      "term": "dutch bros",
+      "ticker": "BROS",
+      "search_change": -9.9,
+      "at_12m_high": false,
+      "yoy_same_season": 12.9,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": null,
+      "yt_intent_per_100": null,
+      "yt_scare_per_100": null,
+      "scare_flag": false,
+      "m": -0.7,
+      "q": -39.9,
+      "vs": "SBUX",
+      "vs_rival_q": -32.2,
+      "mcap_b": 7.2,
+      "short_pct": 50.5,
+      "in_headlines": false,
+      "flag": false,
+      "read": ""
+    },
+    {
+      "term": "hims",
+      "ticker": "HIMS",
+      "search_change": -14.4,
+      "at_12m_high": false,
+      "yoy_same_season": -24.6,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": null,
+      "yt_intent_per_100": null,
+      "yt_scare_per_100": null,
+      "scare_flag": false,
+      "m": 4.9,
+      "q": -10.5,
+      "mcap_b": 6.9,
+      "short_pct": 28.2,
+      "in_headlines": false,
+      "flag": false,
+      "read": ""
+    },
+    {
+      "term": "celsius energy drink",
+      "ticker": "CELH",
+      "search_change": -15.2,
+      "at_12m_high": false,
+      "yoy_same_season": -30.3,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": null,
+      "yt_intent_per_100": null,
+      "yt_scare_per_100": null,
+      "scare_flag": false,
+      "m": -0.3,
+      "q": -2.9,
+      "mcap_b": 7.1,
+      "short_pct": 12.4,
+      "in_headlines": false,
+      "flag": false,
+      "read": ""
+    },
+    {
+      "term": "elf cosmetics",
+      "ticker": "ELF",
+      "search_change": -15.7,
+      "at_12m_high": false,
+      "yoy_same_season": -30.5,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": null,
+      "yt_intent_per_100": null,
+      "yt_scare_per_100": null,
+      "scare_flag": false,
+      "m": 24.3,
+      "q": 57.6,
+      "mcap_b": 6.9,
+      "short_pct": 8.2,
+      "in_headlines": true,
+      "flag": false,
+      "read": ""
+    },
+    {
+      "term": "gta 6",
+      "ticker": "TTWO",
+      "search_change": -16.0,
+      "at_12m_high": false,
+      "yoy_same_season": 473.3,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": null,
+      "yt_intent_per_100": null,
+      "yt_scare_per_100": null,
+      "scare_flag": false,
+      "m": -1.1,
+      "q": -11.5,
+      "mcap_b": 39.1,
+      "short_pct": 5.0,
+      "in_headlines": false,
+      "flag": true,
+      "read": "EARLY - search spike, price and news not there yet: verify (stores, reviews, analyst coverage)"
+    },
+    {
+      "term": "on running shoes",
+      "ticker": "ONON",
+      "search_change": -20.1,
+      "at_12m_high": false,
+      "yoy_same_season": 20.6,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": null,
+      "yt_intent_per_100": null,
+      "yt_scare_per_100": null,
+      "scare_flag": false,
+      "m": 29.6,
+      "q": -5.4,
+      "vs": "NKE",
+      "vs_rival_q": 8.8,
+      "mcap_b": 11.8,
+      "short_pct": 11.1,
+      "in_headlines": true,
+      "flag": false,
+      "read": ""
+    },
+    {
+      "term": "hoka",
+      "ticker": "DECK",
+      "search_change": -21.8,
+      "at_12m_high": false,
+      "yoy_same_season": -9.5,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": null,
+      "yt_intent_per_100": null,
+      "yt_scare_per_100": null,
+      "scare_flag": false,
+      "m": 11.1,
+      "q": -18.7,
+      "mcap_b": 11.8,
+      "short_pct": 9.7,
+      "in_headlines": false,
+      "flag": false,
+      "read": ""
+    },
+    {
+      "term": "birkenstock",
+      "ticker": "BIRK",
+      "search_change": -21.9,
+      "at_12m_high": false,
+      "yoy_same_season": 1.8,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": null,
+      "yt_intent_per_100": null,
+      "yt_scare_per_100": null,
+      "scare_flag": false,
+      "m": 17.9,
+      "q": -19.1,
+      "mcap_b": 5.9,
+      "short_pct": 13.4,
+      "in_headlines": false,
+      "flag": false,
+      "read": ""
+    },
+    {
+      "term": "build a bear",
+      "ticker": "BBW",
+      "search_change": -22.0,
+      "at_12m_high": false,
+      "yoy_same_season": 18.2,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": null,
+      "yt_intent_per_100": null,
+      "yt_scare_per_100": null,
+      "scare_flag": false,
+      "m": -0.1,
+      "q": -22.8,
+      "mcap_b": 0.3,
+      "short_pct": 27.4,
+      "in_headlines": false,
+      "flag": false,
+      "read": ""
+    },
+    {
+      "term": "coconut water",
+      "ticker": "COCO",
+      "search_change": -23.2,
+      "at_12m_high": false,
+      "yoy_same_season": 28.2,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": null,
+      "yt_intent_per_100": null,
+      "yt_scare_per_100": null,
+      "scare_flag": false,
+      "m": 2.3,
+      "q": -21.2,
+      "mcap_b": 3.3,
+      "short_pct": 15.9,
+      "in_headlines": false,
+      "flag": false,
+      "read": ""
+    },
+    {
+      "term": "swatch",
+      "ticker": "UHR.SW",
+      "search_change": -25.0,
+      "at_12m_high": false,
+      "yoy_same_season": 44.4,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": null,
+      "yt_intent_per_100": null,
+      "yt_scare_per_100": null,
+      "scare_flag": false,
+      "m": 5.3,
+      "q": -9.4,
+      "mcap_b": 9.6,
+      "short_pct": null,
+      "in_headlines": false,
+      "flag": false,
+      "read": ""
+    },
+    {
+      "term": "labubu",
+      "ticker": "9992.HK",
+      "search_change": -26.8,
+      "at_12m_high": false,
+      "yoy_same_season": -92.4,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": null,
+      "yt_intent_per_100": null,
+      "yt_scare_per_100": null,
+      "scare_flag": false,
+      "m": -4.3,
+      "q": -11.0,
+      "mcap_b": 193.0,
+      "short_pct": null,
+      "in_headlines": false,
+      "flag": false,
+      "read": ""
+    },
+    {
+      "term": "crocs",
+      "ticker": "CROX",
+      "search_change": -28.1,
+      "at_12m_high": false,
+      "yoy_same_season": -2.7,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": null,
+      "yt_intent_per_100": null,
+      "yt_scare_per_100": null,
+      "scare_flag": false,
+      "m": 8.1,
+      "q": -9.0,
+      "mcap_b": 6.0,
+      "short_pct": 14.0,
+      "in_headlines": false,
+      "flag": false,
+      "read": ""
+    }
+  ],
+  "discovery": {
+    "reddit": [],
+    "search_rising": {
+      "sold out": [
+        {
+          "query": "macklemore european tour sold out",
+          "value": 15100
+        },
+        {
+          "query": "ram 1500 rumble bee sold out",
+          "value": 14250
+        },
+        {
+          "query": "macklemore sold out european dates",
+          "value": 300
+        },
+        {
+          "query": "iphone 18 pro max sold out",
+          "value": 120
+        },
+        {
+          "query": "sold out sign",
+          "value": 40
+        }
+      ],
+      "restock": [
+        {
+          "query": "target pokemon 30th anniversary",
+          "value": 800
+        },
+        {
+          "query": "target pokemon 30th anniversary restock",
+          "value": 700
+        },
+        {
+          "query": "pokemon 30th anniversary",
+          "value": 650
+        },
+        {
+          "query": "30th anniversary pokemon restock",
+          "value": 550
+        },
+        {
+          "query": "when will target restock pokemon cards",
+          "value": 250
+        },
+        {
+          "query": "pokemon 30th anniversary set",
+          "value": 200
+        },
+        {
+          "query": "needoh advent calendar",
+          "value": 170
+        },
+        {
+          "query": "costco pokemon restock",
+          "value": 140
+        },
+        {
+          "query": "target restock pokemon",
+          "value": 130
+        },
+        {
+          "query": "nintendo switch 2 zelda restock",
+          "value": 110
+        }
+      ],
+      "dupe": [
+        {
+          "query": "rayhaan azul dupe of",
+          "value": 350
+        },
+        {
+          "query": "fire on ice lattafa dupe of",
+          "value": 250
+        },
+        {
+          "query": "rayhaan lion dupe of",
+          "value": 170
+        },
+        {
+          "query": "midnight addiction bath and body works dupe",
+          "value": 120
+        },
+        {
+          "query": "rayhaan aquatica dupe of",
+          "value": 120
+        },
+        {
+          "query": "hawas ice",
+          "value": 70
+        },
+        {
+          "query": "arabiyat prestige marwa",
+          "value": 70
+        },
+        {
+          "query": "club de nuit bling dupe of",
+          "value": 50
+        },
+        {
+          "query": "hawas kobra dupe of",
+          "value": 50
+        },
+        {
+          "query": "french avenue veneno dupe of",
+          "value": 50
+        }
+      ],
+      "viral": [
+        {
+          "query": "extremely small dachshund puppy viral",
+          "value": 55400
+        },
+        {
+          "query": "mike satterlee viral business success",
+          "value": 24250
+        },
+        {
+          "query": "viral body scrubber",
+          "value": 22300
+        },
+        {
+          "query": "trump suit tags viral photo",
+          "value": 19650
+        },
+        {
+          "query": "angelina jolie handwriting viral note",
+          "value": 19100
+        },
+        {
+          "query": "viral shih tzu puppy tiktok",
+          "value": 13500
+        },
+        {
+          "query": "viral back scrubber",
+          "value": 10950
+        },
+        {
+          "query": "kentucky bakery viral caramel apple",
+          "value": 7000
+        },
+        {
+          "query": "ericka alvarez viral baseball backlash",
+          "value": 6500
+        },
+        {
+          "query": "what gets a lot of viral views",
+          "value": 6450
+        }
+      ],
+      "new flavor": [
+        {
+          "query": "mountain dew 2027 new flavor",
+          "value": 919600
+        },
+        {
+          "query": "spam new flavor",
+          "value": 29350
+        },
+        {
+          "query": "dr pepper new flavor rumors",
+          "value": 19150
+        },
+        {
+          "query": "mountain dew new flavor",
+          "value": 1400
+        },
+        {
+          "query": "redbull new flavor",
+          "value": 190
+        },
+        {
+          "query": "celsius new flavor",
+          "value": 140
+        },
+        {
+          "query": "red bull new flavor",
+          "value": 120
+        },
+        {
+          "query": "wingstop new flavor",
+          "value": 110
+        }
+      ],
+      "where to buy": [
+        {
+          "query": "where to buy red dye diesel",
+          "value": 5550
+        },
+        {
+          "query": "where to buy pumpkins near me",
+          "value": 450
+        },
+        {
+          "query": "where to buy pumpkins",
+          "value": 400
+        },
+        {
+          "query": "where to buy covid tests",
+          "value": 110
+        },
+        {
+          "query": "where to buy kratom",
+          "value": 90
+        },
+        {
+          "query": "where to buy office supplies online",
+          "value": 60
+        },
+        {
+          "query": "museums",
+          "value": 50
+        },
+        {
+          "query": "where to buy pokemon cards",
+          "value": 50
+        }
+      ],
+      "shortage": [
+        {
+          "query": "europe e-bike mechanic shortage",
+          "value": 42150
+        },
+        {
+          "query": "europe diesel supply shortage",
+          "value": 26300
+        },
+        {
+          "query": "federal election commission quorum shortage",
+          "value": 14250
+        },
+        {
+          "query": "is there an oil shortage in the us",
+          "value": 10000
+        },
+        {
+          "query": "playstation 5 pro market shortage",
+          "value": 5300
+        },
+        {
+          "query": "gas shortage 1970s",
+          "value": 1550
+        },
+        {
+          "query": "texas diesel shortage",
+          "value": 900
+        },
+        {
+          "query": "diesel shortage",
+          "value": 400
+        },
+        {
+          "query": "diesel shortage us",
+          "value": 350
+        },
+        {
+          "query": "why is there a diesel shortage",
+          "value": 350
+        }
+      ]
+    }
+  },
+  "sources": {
+    "reddit": false,
+    "trends": true,
+    "x": false,
+    "news": true
+  },
+  "errors": [
+    "top10: TypeError: unsupported operand type(s) for -: 'NoneType' and 'float'"
+  ]
+}

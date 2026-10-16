@@ -1,53 +1,547 @@
 {
   "date": "2026-10-16",
-  "terms": {},
-  "consumer": {},
+  "terms": {
+    "AI chips": {
+      "theme": "AI chips",
+      "last_week": 9.857142857142858,
+      "prior_4w": 13.071428571428571,
+      "change": -0.24590163934426224,
+      "peak_3m": 100.0
+    },
+    "AI data center": {
+      "theme": "AI data centers",
+      "last_week": 10.857142857142858,
+      "prior_4w": 16.071428571428573,
+      "change": -0.3244444444444444,
+      "peak_3m": 100.0
+    },
+    "data center power": {
+      "theme": "Power for AI",
+      "last_week": 9.714285714285714,
+      "prior_4w": 13.25,
+      "change": -0.2668463611859839,
+      "peak_3m": 100.0
+    },
+    "electricity prices": {
+      "theme": "Power for AI",
+      "last_week": 10.285714285714286,
+      "prior_4w": 15.392857142857142,
+      "change": -0.3317865429234338,
+      "peak_3m": 100.0
+    },
+    "nuclear energy": {
+      "theme": "Nuclear",
+      "last_week": 37.857142857142854,
+      "prior_4w": 54.285714285714285,
+      "change": -0.3026315789473685,
+      "peak_3m": 100.0
+    },
+    "uranium": {
+      "theme": "Nuclear",
+      "last_week": 57.42857142857143,
+      "prior_4w": 69.85714285714286,
+      "change": -0.17791411042944782,
+      "peak_3m": 100.0
+    },
+    "data center water": {
+      "theme": "Water",
+      "last_week": 19.714285714285715,
+      "prior_4w": 26.0,
+      "change": -0.24175824175824168,
+      "peak_3m": 100.0
+    },
+    "water shortage": {
+      "theme": "Water",
+      "last_week": 13.428571428571429,
+      "prior_4w": 19.5,
+      "change": -0.31135531135531136,
+      "peak_3m": 100.0
+    },
+    "liquid cooling": {
+      "theme": "Cooling",
+      "last_week": 27.857142857142858,
+      "prior_4w": 36.25,
+      "change": -0.23152709359605905,
+      "peak_3m": 100.0
+    },
+    "copper price": {
+      "theme": "Copper & grid materials",
+      "last_week": 43.57142857142857,
+      "prior_4w": 54.17857142857143,
+      "change": -0.1957811470006593,
+      "peak_3m": 100.0
+    },
+    "memory chip shortage": {
+      "theme": "Memory chips",
+      "last_week": 23.714285714285715,
+      "prior_4w": 12.0,
+      "change": 0.9761904761904763,
+      "peak_3m": 100.0
+    },
+    "AI layoffs": {
+      "theme": "AI efficiency wave",
+      "last_week": 18.571428571428573,
+      "prior_4w": 14.928571428571429,
+      "change": 0.2440191387559809,
+      "peak_3m": 100.0
+    },
+    "humanoid robot": {
+      "theme": "Robotics",
+      "last_week": 19.571428571428573,
+      "prior_4w": 22.535714285714285,
+      "change": -0.13153724247226617,
+      "peak_3m": 100.0
+    }
+  },
+  "consumer": {
+    "coconut water": {
+      "ticker": "COCO",
+      "last_4w": 37.5,
+      "prior_12w": 48.833333333333336,
+      "year_avg": 51.34615384615385,
+      "change": -0.23208191126279865,
+      "at_12m_high": false,
+      "yoy_same_season": 0.28205128205128216,
+      "at_5y_high": false
+    },
+    "sweetgreen": {
+      "ticker": "SG",
+      "last_4w": 66.25,
+      "prior_12w": 65.16666666666667,
+      "year_avg": 66.5,
+      "change": 0.01662404092071612,
+      "at_12m_high": false,
+      "yoy_same_season": -0.04332129963898912,
+      "at_5y_high": false
+    },
+    "cava": {
+      "ticker": "CAVA",
+      "last_4w": 80.25,
+      "prior_12w": 81.33333333333333,
+      "year_avg": 81.15384615384616,
+      "change": -0.013319672131147486,
+      "at_12m_high": false,
+      "yoy_same_season": 0.14642857142857135,
+      "at_5y_high": false
+    },
+    "dutch bros": {
+      "ticker": "BROS",
+      "last_4w": 63.5,
+      "prior_12w": 70.5,
+      "year_avg": 70.42307692307692,
+      "change": -0.099290780141844,
+      "at_12m_high": false,
+      "yoy_same_season": 0.12888888888888883,
+      "at_5y_high": false
+    },
+    "starbucks": {
+      "ticker": "SBUX",
+      "last_4w": 47.0,
+      "prior_12w": 49.083333333333336,
+      "year_avg": 49.42307692307692,
+      "change": -0.042444821731748794,
+      "at_12m_high": false,
+      "yoy_same_season": 0.07428571428571429,
+      "at_5y_high": false
+    },
+    "birkenstock": {
+      "ticker": "BIRK",
+      "last_4w": 43.5,
+      "prior_12w": 55.666666666666664,
+      "year_avg": 55.38461538461539,
+      "change": -0.218562874251497,
+      "at_12m_high": false,
+      "yoy_same_season": 0.01754385964912286,
+      "at_5y_high": false
+    },
+    "hoka": {
+      "ticker": "DECK",
+      "last_4w": 33.5,
+      "prior_12w": 42.833333333333336,
+      "year_avg": 49.88461538461539,
+      "change": -0.2178988326848249,
+      "at_12m_high": false,
+      "yoy_same_season": -0.09459459459459463,
+      "at_5y_high": false
+    },
+    "on running shoes": {
+      "ticker": "ONON",
+      "last_4w": 20.5,
+      "prior_12w": 25.666666666666668,
+      "year_avg": 34.38461538461539,
+      "change": -0.2012987012987013,
+      "at_12m_high": false,
+      "yoy_same_season": 0.2058823529411764,
+      "at_5y_high": false
+    },
+    "crocs": {
+      "ticker": "CROX",
+      "last_4w": 36.0,
+      "prior_12w": 50.083333333333336,
+      "year_avg": 47.63461538461539,
+      "change": -0.2811980033277871,
+      "at_12m_high": false,
+      "yoy_same_season": -0.027027027027026973,
+      "at_5y_high": false
+    },
+    "elf cosmetics": {
+      "ticker": "ELF",
+      "last_4w": 22.75,
+      "prior_12w": 27.0,
+      "year_avg": 30.153846153846153,
+      "change": -0.15740740740740744,
+      "at_12m_high": false,
+      "yoy_same_season": -0.30534351145038163,
+      "at_5y_high": false
+    },
+    "celsius energy drink": {
+      "ticker": "CELH",
+      "last_4w": 17.25,
+      "prior_12w": 20.333333333333332,
+      "year_avg": 30.46153846153846,
+      "change": -0.15163934426229508,
+      "at_12m_high": false,
+      "yoy_same_season": -0.303030303030303,
+      "at_5y_high": false
+    },
+    "swatch": {
+      "ticker": "UHR.SW",
+      "last_4w": 3.25,
+      "prior_12w": 4.333333333333333,
+      "year_avg": 6.461538461538462,
+      "change": -0.25,
+      "at_12m_high": false,
+      "yoy_same_season": 0.4444444444444444,
+      "at_5y_high": false
+    },
+    "hims": {
+      "ticker": "HIMS",
+      "last_4w": 32.25,
+      "prior_12w": 37.666666666666664,
+      "year_avg": 43.90384615384615,
+      "change": -0.14380530973451322,
+      "at_12m_high": false,
+      "yoy_same_season": -0.24561403508771928,
+      "at_5y_high": false
+    },
+    "gta 6": {
+      "ticker": "TTWO",
+      "last_4w": 21.5,
+      "prior_12w": 25.583333333333332,
+      "year_avg": 14.826923076923077,
+      "change": -0.1596091205211726,
+      "at_12m_high": false,
+      "yoy_same_season": 4.733333333333333,
+      "at_5y_high": false
+    },
+    "labubu": {
+      "ticker": "9992.HK",
+      "last_4w": 2.5,
+      "prior_12w": 3.4166666666666665,
+      "year_avg": 10.615384615384615,
+      "change": -0.2682926829268293,
+      "at_12m_high": false,
+      "yoy_same_season": -0.9236641221374046,
+      "at_5y_high": false
+    },
+    "uggs": {
+      "ticker": "DECK",
+      "last_4w": 20.25,
+      "prior_12w": 6.916666666666667,
+      "year_avg": 16.673076923076923,
+      "change": 1.927710843373494,
+      "at_12m_high": false,
+      "yoy_same_season": -0.11956521739130432,
+      "at_5y_high": false
+    },
+    "barbie": {
+      "ticker": "MAT",
+      "last_4w": 3.25,
+      "prior_12w": 3.0833333333333335,
+      "year_avg": 3.4615384615384617,
+      "change": 0.054054054054053946,
+      "at_12m_high": false,
+      "yoy_same_season": -0.1333333333333333,
+      "at_5y_high": false
+    },
+    "build a bear": {
+      "ticker": "BBW",
+      "last_4w": 42.25,
+      "prior_12w": 54.166666666666664,
+      "year_avg": 44.84615384615385,
+      "change": -0.21999999999999997,
+      "at_12m_high": false,
+      "yoy_same_season": 0.18181818181818188,
+      "at_5y_high": false
+    }
+  },
   "errors": [
-    "AI chips: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "Nvidia stock: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "data center: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "AI data center: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "data center power: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "electricity prices: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "nuclear energy: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "uranium: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "data center water: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "water shortage: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "liquid cooling: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "copper price: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "AI agents: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "memory chip shortage: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "AI layoffs: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "humanoid robot: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "coconut water: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "sweetgreen: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "cava: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "dutch bros: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "starbucks: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "birkenstock: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "hoka: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "on running shoes: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "crocs: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "elf cosmetics: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "celsius energy drink: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "swatch: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "ozempic: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "hims: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "robinhood: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "pokemon cards: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "gta 6: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "labubu: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "uggs: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "barbie: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "build a bear: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "discovery sold out: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "discovery restock: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "discovery dupe: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "discovery viral: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "discovery new flavor: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "discovery where to buy: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "discovery shortage: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
-    "discovery waitlist: Retry.__init__() got an unexpected keyword argument 'method_whitelist'"
+    "Nvidia stock: The request failed: Google returned a response with code 429",
+    "data center: The request failed: Google returned a response with code 429",
+    "AI agents: The request failed: Google returned a response with code 429",
+    "ozempic: The request failed: Google returned a response with code 429",
+    "robinhood: The request failed: Google returned a response with code 429",
+    "pokemon cards: The request failed: Google returned a response with code 429",
+    "discovery waitlist: The request failed: Google returned a response with code 429"
   ],
-  "discovery": {}
+  "discovery": {
+    "sold out": [
+      {
+        "query": "macklemore european tour sold out",
+        "value": 15100
+      },
+      {
+        "query": "ram 1500 rumble bee sold out",
+        "value": 14250
+      },
+      {
+        "query": "macklemore sold out european dates",
+        "value": 300
+      },
+      {
+        "query": "iphone 18 pro max sold out",
+        "value": 120
+      },
+      {
+        "query": "sold out sign",
+        "value": 40
+      }
+    ],
+    "restock": [
+      {
+        "query": "target pokemon 30th anniversary",
+        "value": 800
+      },
+      {
+        "query": "target pokemon 30th anniversary restock",
+        "value": 700
+      },
+      {
+        "query": "pokemon 30th anniversary",
+        "value": 650
+      },
+      {
+        "query": "30th anniversary pokemon restock",
+        "value": 550
+      },
+      {
+        "query": "when will target restock pokemon cards",
+        "value": 250
+      },
+      {
+        "query": "pokemon 30th anniversary set",
+        "value": 200
+      },
+      {
+        "query": "needoh advent calendar",
+        "value": 170
+      },
+      {
+        "query": "costco pokemon restock",
+        "value": 140
+      },
+      {
+        "query": "target restock pokemon",
+        "value": 130
+      },
+      {
+        "query": "nintendo switch 2 zelda restock",
+        "value": 110
+      }
+    ],
+    "dupe": [
+      {
+        "query": "rayhaan azul dupe of",
+        "value": 350
+      },
+      {
+        "query": "fire on ice lattafa dupe of",
+        "value": 250
+      },
+      {
+        "query": "rayhaan lion dupe of",
+        "value": 170
+      },
+      {
+        "query": "midnight addiction bath and body works dupe",
+        "value": 120
+      },
+      {
+        "query": "rayhaan aquatica dupe of",
+        "value": 120
+      },
+      {
+        "query": "hawas ice",
+        "value": 70
+      },
+      {
+        "query": "arabiyat prestige marwa",
+        "value": 70
+      },
+      {
+        "query": "club de nuit bling dupe of",
+        "value": 50
+      },
+      {
+        "query": "hawas kobra dupe of",
+        "value": 50
+      },
+      {
+        "query": "french avenue veneno dupe of",
+        "value": 50
+      }
+    ],
+    "viral": [
+      {
+        "query": "extremely small dachshund puppy viral",
+        "value": 55400
+      },
+      {
+        "query": "mike satterlee viral business success",
+        "value": 24250
+      },
+      {
+        "query": "viral body scrubber",
+        "value": 22300
+      },
+      {
+        "query": "trump suit tags viral photo",
+        "value": 19650
+      },
+      {
+        "query": "angelina jolie handwriting viral note",
+        "value": 19100
+      },
+      {
+        "query": "viral shih tzu puppy tiktok",
+        "value": 13500
+      },
+      {
+        "query": "viral back scrubber",
+        "value": 10950
+      },
+      {
+        "query": "kentucky bakery viral caramel apple",
+        "value": 7000
+      },
+      {
+        "query": "ericka alvarez viral baseball backlash",
+        "value": 6500
+      },
+      {
+        "query": "what gets a lot of viral views",
+        "value": 6450
+      }
+    ],
+    "new flavor": [
+      {
+        "query": "mountain dew 2027 new flavor",
+        "value": 919600
+      },
+      {
+        "query": "spam new flavor",
+        "value": 29350
+      },
+      {
+        "query": "dr pepper new flavor rumors",
+        "value": 19150
+      },
+      {
+        "query": "mountain dew new flavor",
+        "value": 1400
+      },
+      {
+        "query": "redbull new flavor",
+        "value": 190
+      },
+      {
+        "query": "celsius new flavor",
+        "value": 140
+      },
+      {
+        "query": "red bull new flavor",
+        "value": 120
+      },
+      {
+        "query": "wingstop new flavor",
+        "value": 110
+      }
+    ],
+    "where to buy": [
+      {
+        "query": "where to buy red dye diesel",
+        "value": 5550
+      },
+      {
+        "query": "where to buy pumpkins near me",
+        "value": 450
+      },
+      {
+        "query": "where to buy pumpkins",
+        "value": 400
+      },
+      {
+        "query": "where to buy covid tests",
+        "value": 110
+      },
+      {
+        "query": "where to buy kratom",
+        "value": 90
+      },
+      {
+        "query": "where to buy office supplies online",
+        "value": 60
+      },
+      {
+        "query": "museums",
+        "value": 50
+      },
+      {
+        "query": "where to buy pokemon cards",
+        "value": 50
+      }
+    ],
+    "shortage": [
+      {
+        "query": "europe e-bike mechanic shortage",
+        "value": 42150
+      },
+      {
+        "query": "europe diesel supply shortage",
+        "value": 26300
+      },
+      {
+        "query": "federal election commission quorum shortage",
+        "value": 14250
+      },
+      {
+        "query": "is there an oil shortage in the us",
+        "value": 10000
+      },
+      {
+        "query": "playstation 5 pro market shortage",
+        "value": 5300
+      },
+      {
+        "query": "gas shortage 1970s",
+        "value": 1550
+      },
+      {
+        "query": "texas diesel shortage",
+        "value": 900
+      },
+      {
+        "query": "diesel shortage",
+        "value": 400
+      },
+      {
+        "query": "diesel shortage us",
+        "value": 350
+      },
+      {
+        "query": "why is there a diesel shortage",
+        "value": 350
+      }
+    ]
+  }
 }

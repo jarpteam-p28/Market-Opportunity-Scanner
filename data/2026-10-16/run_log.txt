@@ -1,0 +1,79 @@
+=== collect_market
+prices: (260, 286), missing 3: ['AQUA', 'HES', 'MMC']
+$AQUA: No data found, symbol may be delisted
+
+1 Failed download:
+['AQUA']: No data found, symbol may be delisted
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: HES"}}}
+$HES: No data found, symbol may be delisted
+$MMC: No data found, symbol may be delisted
+
+2 Failed downloads:
+['HES', 'MMC']: No data found, symbol may be delisted
+$HES: No data found, symbol may be delisted
+$MMC: No data found, symbol may be delisted
+
+(exit 0)
+=== collect_reddit
+reddit: 0 posts, authed=False, errors=56
+
+(exit 0)
+=== collect_trends
+trends: 13 terms, 7 errors
+
+(exit 0)
+=== collect_x
+x/grok: skipped (disabled or no XAI_API_KEY)
+
+(exit 0)
+=== collect_youtube
+youtube: skipped (no YOUTUBE_API_KEY)
+
+(exit 0)
+=== collect_news
+news: 50 headlines
+
+(exit 0)
+=== analyze
+analysis saved: RISK-ON (some caution) | themes: 12
+Traceback (most recent call last):
+  File "/home/runner/work/Market-Opportunity-Scanner/Market-Opportunity-Scanner/scanner/analyze.py", line 301, in safe
+    return fn()
+           ^^^^
+  File "/home/runner/work/Market-Opportunity-Scanner/Market-Opportunity-Scanner/scanner/analyze.py", line 305, in <lambda>
+    t10, breadth = safe('top10', lambda: top10(px, caps, cfg, L), default=({}, {}))
+                                         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/Market-Opportunity-Scanner/Market-Opportunity-Scanner/scanner/analyze.py", line 89, in top10
+    ytd=pct(ytd(s)), vs_sector_m=pct(ret(s, L['month']) - (ret(etf, L['month']) if etf is not None else 0)),
+                                     ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'float'
+
+(exit 0)
+=== agents
+agent regime: 1489 chars
+agent sectors: 1702 chars
+agent sentiment: 2068 chars
+agent themes: 2506 chars
+agent social_arb: 0 chars
+agent skeptic: 1284 chars
+agent synthesizer: 4598 chars
+
+(exit 0)
+=== report
+Traceback (most recent call last):
+  File "/home/runner/work/Market-Opportunity-Scanner/Market-Opportunity-Scanner/scanner/report.py", line 126, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/runner/work/Market-Opportunity-Scanner/Market-Opportunity-Scanner/scanner/report.py", line 118, in main
+    md = build(A, agents, cfg)
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/Market-Opportunity-Scanner/Market-Opportunity-Scanner/scanner/report.py", line 25, in build
+    f"- Breadth: {A['breadth']['pct_top10s_above_50d']}% of sector top-10 names above their 50-day, {A['breadth']['pct_top10s_above_200d']}% above 200-day", '']
+                  ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'pct_top10s_above_50d'
+
+(exit 1)
+=== score_journal
+scored 6
+
+(exit 0)
