@@ -195,6 +195,13 @@ setups:
     min_drawdown: 0.50       # at least 50% below the 252-day high
     min_dollar_volume_m: 20  # average daily $ volume (millions), keeps it liquid
     tranches: [0, -0.10, -0.20]
+  wealth_builder:            # Oliver Velez style: great company, temporarily beaten down, money to fix any problem
+    enabled: true
+    watch: [TSLA, PYPL, SOFI, SHOP, AMZN, GOOGL, META, NVDA, AAPL, MSFT, NFLX, ADBE, CRM, UBER, ABNB, XYZ, COIN, HOOD, PLTR, AMD, AVGO, LLY, NVO, UNH, DIS, NKE, SBUX]
+    min_market_cap_b: 10      # big enough to survive
+    min_money_score: 4        # of 6: net cash (or low debt), positive free cash flow, revenue growing, analysts like it, big institutions own it, large cap
+    max_debt_to_cash: 1.0     # debt no more than 1x cash counts as "little debt"
+    max_fetch: 150
   momentum:
     enabled: true
     top_pct: 0.10            # top 10% by 12-month return, skipping the last month

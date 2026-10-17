@@ -484,6 +484,51 @@ def entry_scans(px, cfg, L, sectors_rows):
     return out
 
 
+def wealth_builder(px, cfg, L):
+    """Under the monthly 20-SMA and weekly 200-SMA, ideally daily 20-SMA rising above the 200-SMA,
+    in a company with more money than its problems: net cash, free cash flow, growth, analyst and institutional love."""
+    c = cfg.get('setups', {}); wb = c.get('wealth_builder', {})
+    F = (load_json('fundamentals.json', default={}) or {}).get('names', {})
+    if not wb.get('enabled', True) or not F:
+        return None
+    mn, wn = c.get('monthly_sma', 20), c.get('weekly_sma', 200); watch = set(wb.get('watch', []))
+    rows = []
+    for t, f in F.items():
+        if t not in px:
+            continue
+        s = px[t].dropna()
+        if len(s) < 300:
+            continue
+        p = float(s.iloc[-1]); m = s.resample('ME').last(); w = s.resample('W-FRI').last()
+        m_sma = float(m.iloc[-mn:].mean()) if len(m) >= mn else None; w_sma = float(w.iloc[-wn:].mean()) if len(w) >= wn else None
+        d20 = s.rolling(20).mean(); d200 = s.rolling(200).mean()
+        daily_ok = bool(d20.iloc[-1] > d200.iloc[-1] and d20.iloc[-1] > d20.iloc[-6]) if len(s) >= 206 else False
+        cash, debt = f.get('totalCash') or 0, f.get('totalDebt') or 0
+        mc = (f.get('marketCap') or 0) / 1e9
+        checks = {
+            'net cash or little debt': bool(cash) and debt <= wb.get('max_debt_to_cash', 1.0) * cash,
+            'free cash flow positive': (f.get('freeCashflow') or 0) > 0,
+            'revenue growing': (f.get('revenueGrowth') or 0) > 0,
+            'analysts like it': (f.get('recommendationMean') or 9) <= 2.5 and (f.get('numberOfAnalystOpinions') or 0) >= 10,
+            'big institutions own it': (f.get('heldPercentInstitutions') or 0) >= 0.6,
+            'large cap': mc >= wb.get('min_market_cap_b', 10),
+        }
+        score = sum(checks.values())
+        under_m = m_sma is not None and p < m_sma; under_w = w_sma is not None and p < w_sma
+        rows.append(dict(ticker=t, name=f.get('shortName'), price=round(p, 2), under_monthly=under_m, vs_monthly=pct(p / m_sma - 1) if m_sma else None,
+                         under_weekly=under_w, vs_weekly=pct(p / w_sma - 1) if w_sma else None, daily_20_rising_above_200=daily_ok,
+                         money_score=score, missing=[k for k, v in checks.items() if not v], mcap_b=round(mc), cash_b=round(cash / 1e9, 1),
+                         debt_b=round(debt / 1e9, 1), fcf_b=round((f.get('freeCashflow') or 0) / 1e9, 1),
+                         rev_growth=pct(f.get('revenueGrowth')) if f.get('revenueGrowth') is not None else None,
+                         analyst=f.get('recommendationMean'), on_watch=t in watch, m=pct(ret(s, L['month']))))
+    good = lambda r: r['money_score'] >= wb.get('min_money_score', 4) and r['mcap_b'] >= wb.get('min_market_cap_b', 10)
+    full = sorted([r for r in rows if r['under_monthly'] and r['under_weekly'] and good(r)], key=lambda r: (not r['daily_20_rising_above_200'], -r['money_score']))
+    one = sorted([r for r in rows if (r['under_monthly'] != r['under_weekly']) and good(r)], key=lambda r: -r['money_score'])[:15]
+    if full:
+        log_setup('wealth_builder', full, px, cfg)
+    return dict(full=full, one_timeframe=one, watch_status=sorted([r for r in rows if r['on_watch']], key=lambda r: r['ticker']))
+
+
 def setup_scorecards():
     p = ROOT / 'journal' / 'setups_scored.csv'
     if not p.exists():
@@ -547,6 +592,7 @@ def main():
     A['setup_scorecard'] = safe('setup_scorecard', setup_scorecards)
     A['crypto'] = safe('crypto', lambda: crypto(px, cfg, L))
     A['setups'] = safe('setups', lambda: setups(px, cfg, L))
+    A['wealth_builder'] = safe('wealth_builder', lambda: wealth_builder(px, cfg, L))
     A['entry_scans'] = safe('entry_scans', lambda: entry_scans(px, cfg, L, A.get('sectors') or []))
     A['sources']['crypto_talk'] = bool(A['crypto'] and (A['crypto']['trending'] or A['crypto']['reddit']))
     A['sources']['earnings_insiders_options'] = bool(A['extras'] and (A['extras']['earnings'] or A['extras']['insiders'] or A['extras']['options']))

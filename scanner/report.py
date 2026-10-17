@@ -130,6 +130,17 @@ def build(A, agents, cfg):
                 L += [f"| {r['ticker']} | {r['price']} | {f(r['r12_1'])} | {r['sector']} | {f(r['m'])} |" for r in mo['rows']]
             else:
                 L += ['None today.']
+    W = A.get('wealth_builder')
+    if W:
+        L += ['', '## 5p. Wealth Builder (Oliver Velez style): great company, beaten-down chart',
+              'Chart: under the monthly 20-SMA and the weekly 200-SMA; best if the daily 20-SMA is rising and above the daily 200-SMA. Company: "more money than its problems" score out of 6 (net cash or little debt, positive free cash flow, revenue growing, analysts rate it buy, institutions own 60%+, $10B+ size). "Will it change the world" is your call, not the scanner\'s.', '']
+        hdr = ['| Ticker | Price | vs monthly 20 | vs weekly 200 | Daily 20 rising > 200 | Money score | Cash $B | Debt $B | FCF $B | Rev growth | Analysts (1=buy) | Missing | 1 mo |', '|---|---|---|---|---|---|---|---|---|---|---|---|---|']
+        row = lambda r: f"| {r['ticker']} | {r['price']} | {f(r['vs_monthly'])} | {f(r['vs_weekly'])} | {yn(r['daily_20_rising_above_200'])} | {r['money_score']}/6 | {r['cash_b']} | {r['debt_b']} | {r['fcf_b']} | {f(r['rev_growth'])} | {r['analyst'] or '–'} | {', '.join(r['missing']) or '–'} | {f(r['m'])} |"
+        L += ['**Both timeframes beaten down + strong company:**', ''] + ((hdr + [row(r) for r in W['full']]) if W['full'] else ['None today.'])
+        if W['one_timeframe']:
+            L += ['', '**Strong company, one timeframe so far:**', ''] + hdr + [row(r) for r in W['one_timeframe']]
+        if W['watch_status']:
+            L += ['', '**Your wealth watch list today:** ' + ' · '.join(f"{r['ticker']} {'M✅' if r['under_monthly'] else 'M❌'}{'W✅' if r['under_weekly'] else 'W❌'} {r['money_score']}/6" for r in W['watch_status'])]
     K = A.get('crypto')
     if K and (K.get('coins') or K.get('metals')):
         fg = K.get('fear_greed') or {}
@@ -207,6 +218,7 @@ def short(A):
            'Search spikes: ' + (', '.join(f"{r['term']} ({r['ticker']})" for r in A.get('consumer', []) if r['flag']) or 'none'),
            crypto_line(A),
            entry_line(A),
+           'Wealth Builder: ' + (', '.join(r['ticker'] for r in (A.get('wealth_builder') or {}).get('full', [])[:8]) or 'none today'),
            'Your VWAP setup (all 3): ' + (', '.join(r['ticker'] for r in (A.get('setups') or {}).get('all_three', [])[:8]) or 'none today'),
            'Themes: ' + ('; '.join(f"{t['theme']}: {t['label'].split(' - ')[0]}" for t in hot) or 'nothing confirmed by talk + price')]
     try:

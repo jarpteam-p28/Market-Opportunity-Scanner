@@ -3,7 +3,7 @@ usage: python scanner/run_all.py [--collect-only] [--no-agents]"""
 import sys, subprocess, pathlib
 HERE = pathlib.Path(__file__).parent
 args = set(sys.argv[1:])
-steps = ['collect_market', 'collect_reddit', 'collect_trends', 'collect_x', 'collect_youtube', 'collect_news', 'collect_crypto', 'collect_extras']
+steps = ['collect_market', 'collect_reddit', 'collect_trends', 'collect_x', 'collect_youtube', 'collect_news', 'collect_crypto', 'collect_extras', 'collect_fundamentals']
 if '--collect-only' not in args:
     steps += ['analyze'] + ([] if '--no-agents' in args else ['agents']) + ['report', 'score_journal']
 sys.path.insert(0, str(HERE))

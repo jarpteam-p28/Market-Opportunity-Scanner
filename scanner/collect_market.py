@@ -17,6 +17,7 @@ def all_tickers(cfg):
         t |= set(c.get('primary', [])) | set(c.get('second_order_up', [])) | set(c.get('second_order_down', []))
     cr = cfg.get('crypto', {})
     t |= set(cr.get('coins', {}).values()) | set(cr.get('metals', {}).values()) | {x for l in cr.get('related', {}).values() for x in l}
+    t |= set(cfg.get('setups', {}).get('wealth_builder', {}).get('watch', []))
     ex = cfg.get('extras', {})
     t |= set(ex.get('also_watch', [])) | {a['ticker'] for a in ex.get('app_watch', [])}
     t.discard(None); t.discard('ten_year_alert')
