@@ -12,6 +12,8 @@ def main():
     if not days:
         return
     px = pd.read_csv(days[-1] / 'prices.csv', index_col=0, parse_dates=True); spy = px[cfg['regime']['index']]
+    stocks = sorted({t for l in cfg['sector_candidates'].values() for t in l} | {t for th in cfg['themes'].values() for t in th.get('tickers', [])})
+    U = px[[t for t in stocks if t in px]]   # placebo: every stock we track, equal weight
     T = pd.read_csv(j, parse_dates=['date']); out = []
     for _, r in T.iterrows():
         row = r.to_dict()
@@ -23,6 +25,11 @@ def main():
                     row[f'ret_{lab}'] = round(after.iloc[n - 1] / r.price - 1, 4)
                     row[f'spy_{lab}'] = round(sa.iloc[n - 1] / r.spy - 1, 4)
                     row[f'excess_{lab}'] = round(row[f'ret_{lab}'] - row[f'spy_{lab}'], 4)
+                    ua = U[U.index > r.date]; ub = U[U.index <= r.date]
+                    if len(ua) >= n and len(ub):
+                        u = (ua.iloc[n - 1] / ub.iloc[-1] - 1).dropna()
+                        row[f'universe_{lab}'] = round(float(u.mean()), 4)
+                        row[f'edge_vs_universe_{lab}'] = round(row[f'ret_{lab}'] - row[f'universe_{lab}'], 4)
         out.append(row)
     pd.DataFrame(out).to_csv(ROOT / 'journal' / 'scored.csv', index=False)
     print('scored', len(out))

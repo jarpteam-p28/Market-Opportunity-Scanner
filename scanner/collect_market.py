@@ -15,6 +15,8 @@ def all_tickers(cfg):
     t |= {c['ticker'] for c in cfg.get('consumer_watch', [])} | {c['vs'] for c in cfg.get('consumer_watch', []) if c.get('vs')}
     for c in cfg.get('catalysts', []):
         t |= set(c.get('primary', [])) | set(c.get('second_order_up', [])) | set(c.get('second_order_down', []))
+    ex = cfg.get('extras', {})
+    t |= set(ex.get('also_watch', [])) | {a['ticker'] for a in ex.get('app_watch', [])}
     t.discard(None); t.discard('ten_year_alert')
     return sorted(x for x in t if isinstance(x, str))
 

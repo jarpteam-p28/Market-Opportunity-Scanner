@@ -296,6 +296,55 @@ def big_movers(px, cfg, L, news, threshold=0.08):
     return sorted(out, key=lambda r: -abs(r['w']))[:20]
 
 
+def extras(px, L):
+    """Earnings soon, insider buying, unusual options, app-store ranks for the focus names."""
+    E = load_json('extras.json', default=None)
+    if not E:
+        return None
+    now = pd.Timestamp(today()); out = dict(earnings=[], insiders=[], options=[], apps=[])
+    for t, r in E.get('names', {}).items():
+        m = pct(ret(px[t], L['month'])) if t in px else None
+        d = r.get('next_earnings')
+        if d:
+            days = (pd.Timestamp(d) - now).days
+            if 0 <= days <= 30:
+                out['earnings'].append(dict(ticker=t, date=d, days=days, m=m))
+        ins = r.get('insiders_90d')
+        if ins and ins.get('buys'):
+            out['insiders'].append(dict(ticker=t, m=m, **ins))
+        o = r.get('options')
+        if o and (o.get('unusual') or (o.get('vol_vs_oi') or 0) >= 0.5):
+            out['options'].append(dict(ticker=t, m=m, **o))
+    hist = HISTORY / 'app_ranks.csv'
+    prev = None
+    if hist.exists():
+        h = pd.read_csv(hist, parse_dates=['date']).sort_values('date')
+        old = h[h.date <= h.date.max() - pd.Timedelta(days=5)]
+        prev = old.iloc[-1] if len(old) else None
+    for app, v in (E.get('apps') or {}).get('charts', {}).items():
+        was = prev.get(app) if prev is not None and app in prev and pd.notna(prev.get(app)) else None
+        out['apps'].append(dict(app=app, ticker=v['ticker'], free_rank=v.get('top-free'), paid_rank=v.get('top-paid'),
+                                free_rank_last_week=int(was) if was is not None else None,
+                                m=pct(ret(px[v['ticker']], L['month'])) if v['ticker'] in px else None))
+    out['earnings'].sort(key=lambda r: r['days']); out['insiders'].sort(key=lambda r: -r['buy_value'])
+    out['options'].sort(key=lambda r: -(r['unusual'][0]['volume'] if r['unusual'] else 0)); out['apps'].sort(key=lambda r: r['free_rank'] or 999)
+    return out
+
+
+def scorecard():
+    p = HISTORY.parent.parent / 'journal' / 'scored.csv'
+    if not p.exists():
+        return None
+    d = pd.read_csv(p); res = {}
+    for lab in ('1m', '3m', '6m'):
+        c = f'excess_{lab}'
+        if c in d and d[c].notna().any():
+            x = d[d[c].notna()]
+            res[lab] = dict(ideas=len(x), avg_vs_spy=pct(x[c].mean()), hit_rate=pct((x[c] > 0).mean()),
+                            avg_vs_universe=pct(x[f'edge_vs_universe_{lab}'].mean()) if f'edge_vs_universe_{lab}' in x else None)
+    return dict(total_ideas=len(d), windows=res)
+
+
 def main():
     cfg = load_config(); L = cfg['report']['lookbacks_days']; d = day_dir()
     px = pd.read_csv(d / 'prices.csv', index_col=0, parse_dates=True).sort_index()
@@ -320,6 +369,10 @@ def main():
              discovery=dict(reddit=(reddit or {}).get('discovery', [])[:15], search_rising=(trends or {}).get('discovery', {})),
              sources=dict(reddit=bool(reddit and reddit.get('n_posts')), reddit_via_apewisdom=bool(reddit and reddit.get('apewisdom')), youtube=bool((load_json('youtube.json', default=None) or {}).get('terms')), trends=bool(trends and trends.get('terms')),
                           x=bool(xg and xg.get('themes')), news=bool(news and news.get('n'))))
+    A['extras'] = safe('extras', lambda: extras(px, L))
+    A['scorecard'] = safe('scorecard', scorecard)
+    A['sources']['earnings_insiders_options'] = bool(A['extras'] and (A['extras']['earnings'] or A['extras']['insiders'] or A['extras']['options']))
+    A['sources']['app_store'] = bool(A['extras'] and A['extras']['apps'])
     A['errors'] = errors
     save_json(A, 'analysis.json')
     print('analysis saved:', A['regime']['label'], '| themes:', len(A['themes']))

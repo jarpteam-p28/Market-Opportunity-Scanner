@@ -11,6 +11,13 @@ def f(x, suffix='%'):
     return '–' if x is None else f'{x:+.1f}{suffix}'
 
 
+def unusual_txt(u):
+    if not u:
+        return '–'
+    u = u[0]
+    return f"{u['side']} {u['strike']:g} exp {u['exp']}: {u['volume']:,} vs OI {u['oi']:,}"
+
+
 def build(A, agents, cfg):
     R = A['regime']; M = A['mag7']; L = []
     L += [f"# {cfg['report']['title']} — {A['date']}", f"_Data through {A['last_bar']}. Research only, not investment advice._", '']
@@ -78,6 +85,28 @@ def build(A, agents, cfg):
     if A['reddit_tickers']:
         L += ['', '## 5d. Most-mentioned tickers on Reddit (this scan)', '| Ticker | Mentions | 1 mo | >50d |', '|---|---|---|---|']
         L += [f"| {r['ticker']} | {r['mentions']} | {f(r.get('m'))} | {yn(r.get('above50'))} |" for r in A['reddit_tickers']]
+    X = A.get('extras') or {}
+    if X.get('earnings'):
+        L += ['', '## 5i. Earnings in the next 30 days (watch names)', '| Ticker | Date | Days away | 1 mo price |', '|---|---|---|---|']
+        L += [f"| {r['ticker']} | {r['date']} | {r['days']} | {f(r['m'])} |" for r in X['earnings']]
+    if X.get('insiders'):
+        L += ['', '## 5j. Insider buying, last 90 days (open-market purchases)', '| Ticker | Buys | $ bought | Sells | $ sold | Who bought | 1 mo price |', '|---|---|---|---|---|---|---|']
+        L += [f"| {r['ticker']} | {r['buys']} | {r['buy_value']:,} | {r['sells']} | {r['sell_value']:,} | {'; '.join(r['buyers'])[:90] or '–'} | {f(r['m'])} |" for r in X['insiders']]
+    if X.get('options'):
+        L += ['', '## 5k. Options activity (nearest 2 expirations, last session)', 'Unusual = a contract traded at least 3x its open interest and 500+ contracts: new money positioning. Not direction-proof: it can be a hedge.', '',
+              '| Ticker | Call vol | Put vol | Put/call | Volume vs open interest | Biggest unusual contract | 1 mo price |', '|---|---|---|---|---|---|---|']
+        L += [f"| {r['ticker']} | {r['call_vol']:,} | {r['put_vol']:,} | {r['put_call'] if r['put_call'] is not None else '–'} | {r['vol_vs_oi'] if r['vol_vs_oi'] is not None else '–'} | {unusual_txt(r['unusual'])} | {f(r['m'])} |" for r in X['options'][:20]]
+    if X.get('apps'):
+        L += ['', '## 5l. App Store rank (US top 100)', '| App | Ticker | Free rank | Last week | Paid rank | 1 mo price |', '|---|---|---|---|---|---|']
+        L += [f"| {r['app']} | {r['ticker']} | {r['free_rank'] or '–'} | {r['free_rank_last_week'] or '–'} | {r['paid_rank'] or '–'} | {f(r['m'])} |" for r in X['apps']]
+    S = A.get('scorecard')
+    L += ['', '## 7. Scorecard: are the agents beating the S&P?']
+    if S and S.get('windows'):
+        L += ['| Window | Ideas scored | Avg vs S&P | Hit rate vs S&P | Avg vs random pick from our list |', '|---|---|---|---|---|']
+        L += [f"| {k} | {v['ideas']} | {f(v['avg_vs_spy'])} | {v['hit_rate']}% | {f(v['avg_vs_universe'])} |" for k, v in S['windows'].items()]
+        L += ['', '_"Random pick" is the average of every stock the scanner tracks over the same days: the placebo. Beating the S&P but not the placebo means the market did the work, not the agents._']
+    else:
+        L += [f"No idea is a month old yet ({(S or {}).get('total_ideas', 0)} logged). First 1-month scores appear about four weeks after the first watchlist."]
     L += ['', '## 6. Top 10 by market cap in each sector', '']
     for sec, rows in A['top10'].items():
         L.append(f"**{sec}:** " + ' · '.join(f"{r['ticker']} {f(r['m'])}{'' if r['above50'] else '↓'}" for r in rows))

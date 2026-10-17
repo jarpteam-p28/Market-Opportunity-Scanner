@@ -171,6 +171,50 @@ discovery:
   subreddits: [SkincareAddiction, MakeupAddiction, femalefashionadvice, Sneakers, fragrance, gaming, Costco, traderjoes, fastfood, BuyItForLife, Frugal, popculturechat]
   phrases: ["sold out", "can't find", "cant find", "restock", "obsessed", "dupe", "worth the hype", "viral", "line around", "waited in line", "limited release", "new flavor", "discontinued"]
 
+# Extra evidence for watch names: earnings dates, insider buying, options activity, App Store ranks (all free).
+extras:
+  enabled: true
+  earnings: true
+  insiders: true
+  insider_days: 90
+  options: true
+  app_ranks: true
+  max_names: 70
+  also_watch: []          # add any ticker here to always get earnings / insider / options checks
+  app_watch:              # App Store top-100 rank -> ticker (name match is 'contains', case-insensitive)
+    - { app: "Robinhood", ticker: HOOD }
+    - { app: "DoorDash", ticker: DASH }
+    - { app: "Uber", ticker: UBER }
+    - { app: "Temu", ticker: PDD }
+    - { app: "Duolingo", ticker: DUOL }
+    - { app: "Hims", ticker: HIMS }
+    - { app: "Coinbase", ticker: COIN }
+    - { app: "Airbnb", ticker: ABNB }
+    - { app: "Spotify", ticker: SPOT }
+    - { app: "Netflix", ticker: NFLX }
+    - { app: "Instacart", ticker: CART }
+    - { app: "Lyft", ticker: LYFT }
+    - { app: "Reddit", ticker: RDDT }
+    - { app: "Pinterest", ticker: PINS }
+    - { app: "Snapchat", ticker: SNAP }
+    - { app: "PayPal", ticker: PYPL }
+    - { app: "Cash App", ticker: XYZ }
+    - { app: "SoFi", ticker: SOFI }
+    - { app: "Chime", ticker: CHYM }
+    - { app: "Starbucks", ticker: SBUX }
+    - { app: "McDonald", ticker: MCD }
+    - { app: "Chipotle", ticker: CMG }
+    - { app: "Dutch Bros", ticker: BROS }
+    - { app: "Sweetgreen", ticker: SG }
+    - { app: "CAVA", ticker: CAVA }
+    - { app: "Walmart", ticker: WMT }
+    - { app: "Target", ticker: TGT }
+    - { app: "Amazon Shopping", ticker: AMZN }
+    - { app: "Threads", ticker: META }
+    - { app: "Roblox", ticker: RBLX }
+    - { app: "Peacock", ticker: CMCSA }
+    - { app: "Disney+", ticker: DIS }
+
 # ---------- 4. Where people talk ----------
 reddit:
   subreddits: [stocks, investing, wallstreetbets, StockMarket, options, SecurityAnalysis, energy, nuclear]
