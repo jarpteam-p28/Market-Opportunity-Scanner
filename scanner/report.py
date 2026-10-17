@@ -1,5 +1,5 @@
 """Write the readable report: reports/<date>.md (+ reports/latest.md) and a short Telegram summary."""
-import sys
+import os, sys
 from common import REPORTS, load_config, load_json, telegram, today
 
 
