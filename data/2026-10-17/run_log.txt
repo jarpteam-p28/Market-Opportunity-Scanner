@@ -1,0 +1,57 @@
+=== collect_market
+prices: (259, 286), missing 3: ['AQUA', 'HES', 'MMC']
+$AQUA: No data found, symbol may be delisted
+
+1 Failed download:
+['AQUA']: No data found, symbol may be delisted
+$MMC: No data found, symbol may be delisted
+$HES: No data found, symbol may be delisted
+
+2 Failed downloads:
+['MMC', 'HES']: No data found, symbol may be delisted
+$HES: No data found, symbol may be delisted
+$MMC: No data found, symbol may be delisted
+
+(exit 0)
+=== collect_reddit
+reddit: 0 posts, authed=False, apewisdom tickers=196, errors=56
+
+(exit 0)
+=== collect_trends
+trends: 15 terms, 1 errors
+
+(exit 0)
+=== collect_x
+x/grok: skipped (disabled or no XAI_API_KEY)
+
+(exit 0)
+=== collect_youtube
+youtube: 21 terms, 0 errors
+
+(exit 0)
+=== collect_news
+news: 50 headlines
+
+(exit 0)
+=== analyze
+analysis saved: MIXED | themes: 12
+
+(exit 0)
+=== agents
+agent regime: 1442 chars
+agent sectors: 1556 chars
+agent sentiment: 2218 chars
+agent themes: 2601 chars
+agent social_arb: 5573 chars
+agent skeptic: 1401 chars
+agent synthesizer: 4693 chars
+
+(exit 0)
+=== report
+report written 31171 chars
+
+(exit 0)
+=== score_journal
+scored 11
+
+(exit 0)

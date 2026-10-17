@@ -1,0 +1,356 @@
+{
+  "date": "2026-10-17",
+  "n": 50,
+  "errors": [],
+  "by_theme": {
+    "AI chips": [
+      {
+        "title": "I watched Nvidia's Jensen Huang work the room in London. He brought big checks \u2014 and a blunt message",
+        "link": "https://www.cnbc.com/2026/10/16/nvidia-jensen-huang-london.html",
+        "published": "Fri, 16 Oct 2026 11:33:44 GMT",
+        "source": "www.cnbc.com"
+      }
+    ],
+    "AI data centers": [
+      {
+        "title": "Anthropic signs lease for first Canadian data center",
+        "link": "https://www.investing.com/news/stock-market-news/anthropic-signs-lease-for-first-canadian-data-center-4954967",
+        "published": "2026-10-16 23:06:30",
+        "source": "www.investing.com"
+      }
+    ],
+    "Power for AI": [],
+    "Nuclear": [
+      {
+        "title": "Trump says he won't use nuclear weapons or send ground troops to Iran",
+        "link": "https://www.cnbc.com/2026/10/16/us-iran-war-trump-hormuz.html",
+        "published": "Fri, 16 Oct 2026 09:46:54 GMT",
+        "source": "www.cnbc.com"
+      }
+    ],
+    "Water": [],
+    "Cooling": [],
+    "Copper & grid materials": [],
+    "AI software": [],
+    "Memory chips": [],
+    "AI efficiency wave": [],
+    "Distribution moats": [],
+    "Robotics": []
+  },
+  "latest": [
+    {
+      "title": "Nowhere to hide: Tech selloff hits software and chip stocks alike",
+      "link": "https://www.marketwatch.com/story/nowhere-to-hide-tech-selloff-hits-software-and-chip-stocks-alike-6d96773c?mod=mw_rss_topstories",
+      "published": "Fri, 16 Oct 2026 21:59:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "This Senate race where data centers are a crucial issue has more spending than any other midterm clash",
+      "link": "https://www.marketwatch.com/story/this-senate-race-where-data-centers-are-a-crucial-issue-has-more-spending-than-any-other-midterm-clash-5152b43d?mod=mw_rss_topstories",
+      "published": "Fri, 16 Oct 2026 21:43:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Could an Anthropic IPO put your 401(k) at risk? The AI safety debate hits a new dimension.",
+      "link": "https://www.marketwatch.com/story/could-an-anthropic-ipo-put-your-401-k-at-risk-the-ai-safety-debate-hits-a-new-dimension-db3f09f7?mod=mw_rss_topstories",
+      "published": "Fri, 16 Oct 2026 21:35:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "The bond market shrugged off two inflation shocks. Why stock investors should pay attention.",
+      "link": "https://www.marketwatch.com/story/the-bond-market-shrugged-off-two-inflation-shocks-why-stock-investors-should-pay-attention-5da4f771?mod=mw_rss_topstories",
+      "published": "Fri, 16 Oct 2026 21:30:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "New SEC rules would fleece everyday investors to enrich Wall Street",
+      "link": "https://www.marketwatch.com/story/new-sec-rules-would-fleece-everyday-investors-to-enrich-wall-street-0a00fe03?mod=mw_rss_topstories",
+      "published": "Fri, 16 Oct 2026 21:21:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "I\u2019m 63 and diagnosed with lymphoma. Should I take my Social Security next year?",
+      "link": "https://www.marketwatch.com/story/its-a-wait-and-see-situation-im-63-and-diagnosed-with-lymphoma-should-i-take-my-social-security-next-year-ea88b419?mod=mw_rss_topstories",
+      "published": "Fri, 16 Oct 2026 21:15:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Don\u2019t buy this dip: Several signs suggest there\u2019s more pain ahead for tech stocks",
+      "link": "https://www.marketwatch.com/story/dont-buy-this-dip-several-signs-suggest-theres-more-pain-ahead-for-tech-stocks-83f971d7?mod=mw_rss_topstories",
+      "published": "Fri, 16 Oct 2026 20:58:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "EchoStar\u2019s stock looks like a stealthy way to ride the SpaceX wave, J.P. Morgan says",
+      "link": "https://www.marketwatch.com/story/echostars-stock-looks-like-a-stealthy-way-to-ride-the-spacex-wave-j-p-morgan-says-c4effa5d?mod=mw_rss_topstories",
+      "published": "Fri, 16 Oct 2026 20:05:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Are we spending our retirement money in the right order? Our plan is: Social Security, annuities, cash \u2014 then IRA.",
+      "link": "https://www.marketwatch.com/story/are-we-spending-our-retirement-money-in-the-right-order-our-plan-is-social-security-annuities-cash-then-ira-02cec336?mod=mw_rss_topstories",
+      "published": "Fri, 16 Oct 2026 19:46:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Your Social Security check will rise an average of $75 a month \u2014 will it be able to keep up with inflation?",
+      "link": "https://www.marketwatch.com/story/social-securitys-cola-will-be-3-6-in-2027-as-inflation-persists-f7c9dff2?mod=mw_rss_topstories",
+      "published": "Fri, 16 Oct 2026 19:45:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Brent oil touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries",
+      "link": "https://www.cnbc.com/2026/10/16/oil-price-today-iran-strait-hormuz-ukraine-russia.html",
+      "published": "Fri, 16 Oct 2026 20:02:21 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Katie Zacharia out as Trump's White House press secretary",
+      "link": "https://www.cnbc.com/2026/10/16/trump-katie-zacharia-white-house.html",
+      "published": "Fri, 16 Oct 2026 21:26:15 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Apple\u2019s $1,999 iPhone Duo puts the company's status-symbol power to the test",
+      "link": "https://www.cnbc.com/2026/10/16/apple-iphone-duo-demand-price.html",
+      "published": "Fri, 16 Oct 2026 22:31:26 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Wall Street's fear gauge is ripping. Traders see it going even higher",
+      "link": "https://www.cnbc.com/2026/10/16/wall-streets-fear-gauge-is-ripping-traders-see-it-going-even-higher.html",
+      "published": "Fri, 16 Oct 2026 19:28:10 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Why Trump and the GOP's billion-dollar midterm blitz isn\u2019t working",
+      "link": "https://www.cnbc.com/2026/10/16/republicans-midterms-spending-trump-musk-2026.html",
+      "published": "Fri, 16 Oct 2026 17:55:05 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "U.S. presses China on Mastercard, Citigroup market access in bilateral Bangkok talks, official says",
+      "link": "https://www.cnbc.com/2026/10/16/us-china-mastercard-citigroup-market-access.html",
+      "published": "Fri, 16 Oct 2026 16:46:18 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Trump says White House didn't order Starlink restrictions in Ukraine",
+      "link": "https://www.cnbc.com/2026/10/16/trump-denies-musk-claim-he-ordered-starlink-restrictions-in-ukraine.html",
+      "published": "Fri, 16 Oct 2026 20:28:10 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Here's who Netflix just brought in to run content \u2014 and what it means for the streamer",
+      "link": "https://www.cnbc.com/2026/10/16/netflix-peter-rice-chief-content-officer.html",
+      "published": "Fri, 16 Oct 2026 19:40:00 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "The Austin Powers steamroller: How to trade CoreWeave's slow moving crisis",
+      "link": "https://www.cnbc.com/2026/10/16/playing-the-coreweave-disconnect.html",
+      "published": "Fri, 16 Oct 2026 18:24:35 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Tesla unveils long-delayed Roadster developed with SpaceX, fueling merger speculation",
+      "link": "https://www.cnbc.com/2026/10/15/tesla-roadster-reveal-what-to-know-about-the-delayed-ev.html",
+      "published": "Fri, 16 Oct 2026 15:52:41 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Prediction market odds on Tesla-SpaceX merger are above 50% for early 2027",
+      "link": "https://www.cnbc.com/2026/10/16/tesla-spacex-merger-odds-rise-on-kalshi.html",
+      "published": "Fri, 16 Oct 2026 17:02:40 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
+      "link": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html",
+      "published": "Fri, 16 Oct 2026 22:33:05 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "OpenAI Saudi national bugging case shows threat to U.S. leadership in AI: DNI Clayton",
+      "link": "https://www.cnbc.com/2026/10/16/ai-espionage-openai-jay-clayton.html",
+      "published": "Fri, 16 Oct 2026 16:27:44 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Debt is eating up a bigger chunk of your raise, research shows",
+      "link": "https://www.cnbc.com/2026/10/16/debt-payments-rise-more-than-income.html",
+      "published": "Fri, 16 Oct 2026 19:47:46 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Here's how the CoreWeave sell-off is affecting OpenAI vs. Anthropic valuations",
+      "link": "https://www.cnbc.com/2026/10/16/coreweave-openai-anthropic-perps.html",
+      "published": "Fri, 16 Oct 2026 13:43:53 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "NBA tightens betting rules, develops AI to flag suspicious wagers",
+      "link": "https://www.cnbc.com/2026/10/16/nba-tightens-betting-rules-develops-ai-to-flag-suspicious-wagers.html",
+      "published": "Fri, 16 Oct 2026 17:50:50 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Elon Musk cash infusion helps GOP Senate super PAC raise record $273 million",
+      "link": "https://www.cnbc.com/2026/10/15/elon-musk-senate-leadership-fund-fundraising.html",
+      "published": "Fri, 16 Oct 2026 12:17:29 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "SpaceX AI policy leader grilled by NYC Council on Grok safety, sexualized images",
+      "link": "https://www.cnbc.com/2026/10/16/spacex-policy-manger-to-testify-in-nyc-council-ai-safety-investigation.html",
+      "published": "Fri, 16 Oct 2026 19:30:51 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Why did CoreWeave stock get crushed this week? Look to this corner of the debt market for clues",
+      "link": "https://www.cnbc.com/investingclub/2026/10/16/coreweave-credit-default-swaps.html",
+      "published": "Fri, 16 Oct 2026 20:33:55 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Schwab to create 'tax-aware' strategy that's been attracting billions from wealthy investors",
+      "link": "https://www.cnbc.com/2026/10/16/tax-strategies-capital-gains-wealthy-investors-schwab.html",
+      "published": "Fri, 16 Oct 2026 16:21:14 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "I watched Nvidia's Jensen Huang work the room in London. He brought big checks \u2014 and a blunt message",
+      "link": "https://www.cnbc.com/2026/10/16/nvidia-jensen-huang-london.html",
+      "published": "Fri, 16 Oct 2026 11:33:44 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "The affordability crisis isn't hitting all voters equally. Here's why",
+      "link": "https://www.cnbc.com/2026/10/16/affordability-inflation-midterms.html",
+      "published": "Fri, 16 Oct 2026 19:22:21 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Blue Origin plans $330 million Florida expansion to ramp New Glenn launches",
+      "link": "https://www.cnbc.com/2026/10/16/blue-origin-new-glenn-florida-expansion.html",
+      "published": "Fri, 16 Oct 2026 14:26:05 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Trump says he won't use nuclear weapons or send ground troops to Iran",
+      "link": "https://www.cnbc.com/2026/10/16/us-iran-war-trump-hormuz.html",
+      "published": "Fri, 16 Oct 2026 09:46:54 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Fed's Warsh withholds rate signal, praises recent global tightening",
+      "link": "https://www.cnbc.com/2026/10/16/feds-warsh-says-ai-development-path-will-be-very-bumpy-.html",
+      "published": "Fri, 16 Oct 2026 12:36:00 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Sickle cell gene therapies offer new hope, but access remains a major challenge",
+      "link": "https://www.cnbc.com/2026/10/16/sickle-cell-gene-therapies-offer-new-hope-accessing-them-is-hard.html",
+      "published": "Fri, 16 Oct 2026 15:50:15 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Norway's $2 trillion wealth fund was frozen out of major defense companies. That may be about to change",
+      "link": "https://www.cnbc.com/2026/10/16/norway-sovereign-wealth-fund-defense-investment.html",
+      "published": "Fri, 16 Oct 2026 10:56:47 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "E.l.f. Beauty CFO Mandy Fields on consumers, pricing and building a foundation in cosmetics",
+      "link": "https://www.cnbc.com/2026/10/16/elf-beauty-cfo-mandy-fields-tariffs-marketing-makeup.html",
+      "published": "Fri, 16 Oct 2026 14:30:01 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "KFC to switch to Coca-Cola beverages in U.S. restaurants for the first time in decades",
+      "link": "https://www.cnbc.com/2026/10/15/kfc-coca-cola-pepsi-switch.html",
+      "published": "Fri, 16 Oct 2026 11:02:24 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Nike's India campus is a long-term growth bet amid turnaround",
+      "link": "https://www.cnbc.com/2026/10/16/nike-india-campus-china-sales.html",
+      "published": "Fri, 16 Oct 2026 11:00:01 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Anthropic offers Blackstone double-digit yield in chip-financing deal, FT reports",
+      "link": "https://www.investing.com/news/stock-market-news/anthropic-offers-blackstone-doubledigit-yield-in-chipfinancing-deal-ft-reports-4955079",
+      "published": "2026-10-17 01:06:24",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Will Starlink Mobile matter for Apple?",
+      "link": "https://www.investing.com/news/stock-market-news/will-starlink-mobile-matter-for-apple-4955056",
+      "published": "2026-10-17 00:39:39",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Anthropic quietly pitches its own AI safety bill to lawmakers, Politico reports",
+      "link": "https://www.investing.com/news/stock-market-news/anthropic-quietly-pitches-its-own-ai-safety-bill-to-lawmakers-politico-reports-4954941",
+      "published": "2026-10-16 23:24:17",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Anthropic signs lease for first Canadian data center",
+      "link": "https://www.investing.com/news/stock-market-news/anthropic-signs-lease-for-first-canadian-data-center-4954967",
+      "published": "2026-10-16 23:06:30",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Grynspan holds lead for next UN chief as race enters decisive stage",
+      "link": "https://www.investing.com/news/stock-market-news/grynspan-holds-lead-for-next-un-chief-as-race-enters-decisive-stage-4954900",
+      "published": "2026-10-16 22:30:23",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "US lifts restrictions on new Mexican flights from capital\u2019s airports",
+      "link": "https://www.investing.com/news/stock-market-news/us-lifts-restrictions-on-new-mexican-flights-from-capitals-airports-4954901",
+      "published": "2026-10-16 22:00:22",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Tesla shares caught up in tech rout despite new Roadster with flight capabilities",
+      "link": "https://www.investing.com/news/stock-market-news/tesla-unveils-new-roadster-with-flight-capabilities-set-for-production-in-2028-4952962",
+      "published": "2026-10-16 21:58:23",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "LA restaurant group used $60,000 Dodgers bet to hedge playoff risk, Kalshi says",
+      "link": "https://www.investing.com/news/stock-market-news/la-restaurant-group-used-60000-dodgers-bet-to-hedge-playoff-risk-kalshi-says-4954890",
+      "published": "2026-10-16 21:36:17",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Novavax shareholder Shah Capital to step back from activist role",
+      "link": "https://www.investing.com/news/stock-market-news/novavax-shareholder-shah-capital-to-step-back-from-activist-role-4954878",
+      "published": "2026-10-16 21:30:42",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Exclusive-Boeing sales chief McMullen to retire, company memo says",
+      "link": "https://www.investing.com/news/stock-market-news/exclusiveboeing-sales-chief-mcmullen-to-retire-company-memo-says-4954848",
+      "published": "2026-10-16 21:30:26",
+      "source": "www.investing.com"
+    }
+  ],
+  "narratives": {
+    "ai_fear": {
+      "count": 0,
+      "examples": []
+    },
+    "ai_efficiency": {
+      "count": 0,
+      "examples": []
+    },
+    "leverage": {
+      "count": 0,
+      "examples": []
+    }
+  }
+}

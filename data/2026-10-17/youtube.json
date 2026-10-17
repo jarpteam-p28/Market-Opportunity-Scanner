@@ -1,0 +1,260 @@
+{
+  "date": "2026-10-17",
+  "terms": {
+    "coconut water": {
+      "ticker": "COCO",
+      "videos": 5,
+      "views_30d_top5": 1340265,
+      "comments_read": 125,
+      "intent_per_100": 4.0,
+      "scare_per_100": 3.2,
+      "examples": [
+        "50 cent has been reacting online to a major coconut water brand recall due to safety and bacterial contamination risks, prompting him to express his frustration",
+        "i agree 100%\ni went to puerto rico and had me some real coconut water \nand ever since then i have not drunk me or bought me \nany coconut water from here \ud83d\udcaf",
+        "y we don\u2019t never find out we don\u2019t like something until after we have bought a lot of it\ud83d\ude02\ud83d\ude02"
+      ]
+    },
+    "sweetgreen": {
+      "ticker": "SG",
+      "videos": 5,
+      "views_30d_top5": 11806,
+      "comments_read": 13,
+      "intent_per_100": 0.0,
+      "scare_per_100": 0.0,
+      "examples": []
+    },
+    "cava": {
+      "ticker": "CAVA",
+      "videos": 5,
+      "views_30d_top5": 759026,
+      "comments_read": 400,
+      "intent_per_100": 0.0,
+      "scare_per_100": 0.0,
+      "examples": []
+    },
+    "dutch bros": {
+      "ticker": "BROS",
+      "videos": 5,
+      "views_30d_top5": 247711,
+      "comments_read": 190,
+      "intent_per_100": 3.7,
+      "scare_per_100": 0.5,
+      "examples": [
+        "i had really low blood sugar one day and in a desperate move got a mango smoothie from dutch bros. i farted more that day than any other day in my entire life (",
+        "also, you didn't mention that dutch bros just announced they are buying up all the salad & go locations that recently closed down. there were like 150 locations",
+        "dutch bros\u2019 billionaire co-founder tried to push through a private casino-style gambling operation in oregon that tribes said would undermine tribal gaming righ"
+      ]
+    },
+    "starbucks": {
+      "ticker": "SBUX",
+      "videos": 5,
+      "views_30d_top5": 267468,
+      "comments_read": 138,
+      "intent_per_100": 1.4,
+      "scare_per_100": 0.0,
+      "examples": [
+        "this dude ordered a gran day! being all country at that starbucks drive thru! \ud83d\ude02",
+        "please awaited not safe \ud83d\ude05\ud83d\ude05\ud83d\ude05\ud83d\ude05\ntamilnadu situation very dangerous now"
+      ]
+    },
+    "birkenstock": {
+      "ticker": "BIRK",
+      "videos": 5,
+      "views_30d_top5": 152680,
+      "comments_read": 132,
+      "intent_per_100": 0.0,
+      "scare_per_100": 1.5,
+      "examples": [
+        "every single video they make together is a  staged and sponsered ad for the tik tok shop. it's all fake and they play it up to make ignorant people believe that",
+        "mum putting her child in front of the camera but hides herself behind the camera. sick world we live in\u2026."
+      ]
+    },
+    "hoka": {
+      "ticker": "DECK",
+      "videos": 5,
+      "views_30d_top5": 85844,
+      "comments_read": 103,
+      "intent_per_100": 13.6,
+      "scare_per_100": 0.0,
+      "examples": [
+        "i have a pair nb hiera v9\u2019s \u2026 amazing trail shoe\u2026 just bought a pair of bondi 9\u2019s \u2026 so comfortable and look great. the bondis are better urban walkers but also ",
+        "i bought the hoka arahi 8 and the 9.  the 8 is a nice casual running shoe imo.  feels comfortable with mild support.  the hoka arahi 9 felt bad.  the toe box fe",
+        "hoka makes wide sizes which is good for my foot.  on doesn't make them in wide and they are very uncomfortable for me.   i just bought my first pair of hokas an"
+      ]
+    },
+    "on running shoes": {
+      "ticker": "ONON",
+      "videos": 5,
+      "views_30d_top5": 6811811,
+      "comments_read": 209,
+      "intent_per_100": 2.4,
+      "scare_per_100": 0.0,
+      "examples": [
+        "i own your #1 and #10, both released about the same time at the on flagship. my first (two) pairs of on. tried every model they had then, these 2 i can not deci",
+        "the on cradle set-up goes back to hoka midsoles from 10+ years ago\nthey have very few shoes that are actually worth buying",
+        "shoe shopping can be difficult. i'm 43 haven't bought new shoes in 6 years. previous were on cloud something or other and new balance fresh foam roav. \ntried al"
+      ]
+    },
+    "crocs": {
+      "ticker": "CROX",
+      "videos": 5,
+      "views_30d_top5": 752037,
+      "comments_read": 216,
+      "intent_per_100": 0.5,
+      "scare_per_100": 0.5,
+      "examples": [
+        "crocs have every reason to lol \ni mean their gonna win the lawsuit",
+        "don't go to dollar tree then \ud83d\ude02 i bought a pair a few years back and they're still functional!"
+      ]
+    },
+    "elf cosmetics": {
+      "ticker": "ELF",
+      "videos": 5,
+      "views_30d_top5": 5577593,
+      "comments_read": 279,
+      "intent_per_100": 3.6,
+      "scare_per_100": 0.0,
+      "examples": [
+        "products i like from elf:\n1 soft glam foundation (i mix a bit of maybelline fit me matte and poreless foundation into it to increase its longevity on my oily sk",
+        "eu acho que vai ser um grande flop. nao pelos produtos,  mas pela sephora mesmo que superfatura demais os precos,  a sephora gringa nao vende nem l'or\u00e9al e mayb",
+        "elf \u00e9 uma maybelline/vult americana. acho que seria mais neg\u00f3cio levar todas as marcas de influencers para o site no rastro da vic beaute. a sephora quis trazer"
+      ]
+    },
+    "celsius energy drink": {
+      "ticker": "CELH",
+      "videos": 5,
+      "views_30d_top5": 2222,
+      "comments_read": 6,
+      "intent_per_100": 0.0,
+      "scare_per_100": 0.0,
+      "examples": []
+    },
+    "swatch": {
+      "ticker": "UHR.SW",
+      "videos": 5,
+      "views_30d_top5": 69257,
+      "comments_read": 135,
+      "intent_per_100": 7.4,
+      "scare_per_100": 0.7,
+      "examples": [
+        "i prefer the sketch as among the two. i seem to recall marc @ long island watch reviewing a blue watch with the \"sketch-type\" markings awhile back - but i don't",
+        "omega would benefit if they thoughtfully trimmed their product lines.",
+        "wellll tissot got about 2 and a half grand out of me this year... i bought a gentleman open heart and 3 prx's..  lol"
+      ]
+    },
+    "ozempic": {
+      "ticker": "NVO",
+      "videos": 5,
+      "views_30d_top5": 969012,
+      "comments_read": 205,
+      "intent_per_100": 2.0,
+      "scare_per_100": 1.0,
+      "examples": [
+        "just lock in ! you don\u2019t need this.",
+        "for the past 3 months ive been struggling with insulin resistance and im trying to reverse it. during this time i learned a lot about what food is coming into m",
+        "ozempic is 100% poison and they knew it. it was never designed for weight loss."
+      ]
+    },
+    "hims": {
+      "ticker": "HIMS",
+      "videos": 5,
+      "views_30d_top5": 15891,
+      "comments_read": 10,
+      "intent_per_100": 0.0,
+      "scare_per_100": 0.0,
+      "examples": []
+    },
+    "robinhood": {
+      "ticker": "HOOD",
+      "videos": 5,
+      "views_30d_top5": 2288168,
+      "comments_read": 102,
+      "intent_per_100": 4.9,
+      "scare_per_100": 1.0,
+      "examples": [
+        "i know they did memorize all the lines and and they did rehearse that many times, but it's sooooooooooo fake, everyone sounds like a scripted bot, maybe beside ",
+        "robinhood froze people from buying gamestop",
+        "i have to admit, vlad is the person that first got me interested in buying stocks. i started in 2018. i am now 4x what i've put in. enough to live off now and c"
+      ]
+    },
+    "pokemon cards": {
+      "ticker": "NTDOY",
+      "videos": 5,
+      "views_30d_top5": 1726287,
+      "comments_read": 319,
+      "intent_per_100": 3.8,
+      "scare_per_100": 0.9,
+      "examples": [
+        "i just started collecting and i am starting by trying to master set the pitch black set. i personally have found it a lot of fun by ripping and chasing over buy",
+        "this video is timeless. the fact that your advice from a year ago is still relevant just shows the importance of the lessons. for me the biggest lesson was focu",
+        "man you nailed it with buying a few vintage and then getting hooked. that's me right now. one thing that's not for me is grading cards. that's just a lot of mon"
+      ]
+    },
+    "gta 6": {
+      "ticker": "TTWO",
+      "videos": 5,
+      "views_30d_top5": 4393397,
+      "comments_read": 439,
+      "intent_per_100": 2.3,
+      "scare_per_100": 0.5,
+      "examples": [
+        "november 19th is officially about to have the highest sick leave rate in recorded human history.",
+        "my older cousin had to sneak and buy me gta san andreas when i was younger today i preordered gta 6 for his son \ud83d\ude2d it\u2019s truly amazing times",
+        "\u201ci don\u2019t even own a ps5 and now i\u2019m considering buying one for gta 6\u201d\n\n-krispy king"
+      ]
+    },
+    "labubu": {
+      "ticker": "9992.HK",
+      "videos": 5,
+      "views_30d_top5": 352868,
+      "comments_read": 242,
+      "intent_per_100": 5.8,
+      "scare_per_100": 1.2,
+      "examples": [
+        "wait a minute wait a minute... you're telling me people bought those... as an investment?!",
+        "how fake is fake when you can't tell the difference?",
+        "it's consumerable garbage.: the thing these fad chasers don\u2019t understand is time\u2014and the difference between popularity and lasting resale value.\n\nlook at barbie"
+      ]
+    },
+    "uggs": {
+      "ticker": "DECK",
+      "videos": 5,
+      "views_30d_top5": 1003932,
+      "comments_read": 278,
+      "intent_per_100": 4.7,
+      "scare_per_100": 2.5,
+      "examples": [
+        "yeah ugg did release these before, i bought a used pair of these boots in a chocolate brown (they are called \u201cwrangell\u201d)  and they are amazing in winter here in",
+        "i wore the same pair of boots styled like these every michigan winter for 25 years.    they were sold by l.l.bean and made in canada.    they were completely sh",
+        "a fake welt around a glued boot is one of the biggest crimes!!! that\u2019s the big problem with the red wing 1907 moc toe!!!"
+      ]
+    },
+    "barbie": {
+      "ticker": "MAT",
+      "videos": 5,
+      "views_30d_top5": 4661890,
+      "comments_read": 86,
+      "intent_per_100": 5.8,
+      "scare_per_100": 1.2,
+      "examples": [
+        "i wanted one so badly when i was 5 but my parents said i was too young and they started buying them for me when i was 10. ah the nostalgia \ud83d\ude0a",
+        "this is a wonderful story. a happy story with a happy ending. it doesn\u2019t matter if she knew about the financial issues. she was just given a slap on the wrist a",
+        "wow, i'm tearing up watching this. i had barbie back in the early sixties.  she was my favorite doll second to betty beauty parlor( who had a real hair dryer th"
+      ]
+    },
+    "build a bear": {
+      "ticker": "BBW",
+      "videos": 5,
+      "views_30d_top5": 19864736,
+      "comments_read": 414,
+      "intent_per_100": 8.5,
+      "scare_per_100": 1.2,
+      "examples": [
+        "please never let anyone make you feel bad for buying thrifted clothing for crafts. i work at a thrift store and we toss out so much after it\u2019s sat on the floor ",
+        "wait this is sick i love that so much and the plushieeee",
+        "buying kid clothes for plushies is smart."
+      ]
+    }
+  },
+  "errors": []
+}
