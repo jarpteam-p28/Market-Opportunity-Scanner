@@ -59,6 +59,12 @@ def telegram(msg):
         print('[telegram not configured]\n' + msg)
         return
     import requests
-    for i in range(0, len(msg), 3900):   # Telegram limit 4096 chars
-        requests.post(f'https://api.telegram.org/bot{tok}/sendMessage',
-                      data={'chat_id': chat, 'text': msg[i:i + 3900], 'disable_web_page_preview': True}, timeout=20)
+    for cid in [c.strip() for c in chat.split(',') if c.strip()]:   # several people: "111,222"
+        for i in range(0, len(msg), 3900):   # Telegram limit 4096 chars
+            try:
+                r = requests.post(f'https://api.telegram.org/bot{tok}/sendMessage',
+                                  data={'chat_id': cid, 'text': msg[i:i + 3900], 'disable_web_page_preview': True}, timeout=20)
+                if not r.ok:
+                    print(f'telegram to ...{cid[-3:]} failed: {r.status_code}')
+            except Exception as e:
+                print(f'telegram to ...{cid[-3:]} failed: {e}')
