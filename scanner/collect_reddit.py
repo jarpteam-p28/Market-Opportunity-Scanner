@@ -30,6 +30,30 @@ def fetch(sub, tok, listing, limit):
     return [c['data'] for c in r.json()['data']['children']]
 
 
+def apewisdom(pages=2):
+    """Free public ticker-mention counts from Reddit (wallstreetbets, stocks, investing, ...) via apewisdom.io.
+    Used because Reddit blocks GitHub's servers and denied API access. Fails soft."""
+    rows, err = [], None
+    for page in range(1, pages + 1):
+        try:
+            r = requests.get(f'https://apewisdom.io/api/v1.0/filter/all-stocks/page/{page}', timeout=20,
+                             headers={'User-Agent': 'market-scanner/1.0 (personal research)'})
+            r.raise_for_status()
+            for x in r.json().get('results', []):
+                def num(k):
+                    try: return int(float(x.get(k) or 0))
+                    except (TypeError, ValueError): return 0
+                rows.append(dict(ticker=str(x.get('ticker', '')).upper(), name=x.get('name'), mentions=num('mentions'),
+                                 mentions_24h_ago=num('mentions_24h_ago'), upvotes=num('upvotes'), rank=num('rank'), rank_24h_ago=num('rank_24h_ago')))
+        except Exception as e:
+            err = f'apewisdom page {page}: {e}'; break
+    seen, out = set(), []
+    for r in rows:
+        if r['ticker'] and r['ticker'] not in seen:
+            seen.add(r['ticker']); out.append(r)
+    return out, err
+
+
 def main():
     cfg = load_config(); rc = cfg['reddit']
     known = {s for lst in cfg['sector_candidates'].values() for s in lst} | {s for th in cfg['themes'].values() for s in th['tickers']} | set(cfg['mag7'])
@@ -93,12 +117,20 @@ def main():
     out = dict(date=today(), authed=bool(tok), n_posts=len(uniq), errors=errors, theme_counts=theme_counts,
                theme_top_posts=theme_top, top_tickers=top_tickers, narratives=narr, brands=brands, discovery=discovery,
                n_ground_truth_posts=sum(p['sub'] in gt_subs for p in uniq))
+    ape, ape_err = apewisdom()
+    out['apewisdom'] = ape[:50]
+    if ape_err:
+        errors.append(ape_err)
+    if not uniq and ape:   # Reddit itself blocked: use ApeWisdom's counts for the ticker-buzz sections
+        out['source'] = 'apewisdom'
+        out['top_tickers'] = [(r['ticker'], r['mentions']) for r in ape[:40] if r['mentions'] >= rc['min_ticker_mentions']]
+        append_history('reddit_tickers', {'date': today(), **{r['ticker']: r['mentions'] for r in ape[:150]}})
     save_json(out, 'reddit.json')
     if uniq:
         append_history('reddit_themes', {'date': today(), 'n_posts': len(inv), **theme_counts})
         append_history('narratives_reddit', {'date': today(), 'n_posts': len(uniq), **{k: v['all'] for k, v in narr.items()}})
         append_history('reddit_tickers', {'date': today(), **dict(tick.most_common(150))})
-    print(f'reddit: {len(uniq)} posts, authed={bool(tok)}, errors={len(errors)}')
+    print(f'reddit: {len(uniq)} posts, authed={bool(tok)}, apewisdom tickers={len(ape)}, errors={len(errors)}')
 
 
 if __name__ == '__main__':

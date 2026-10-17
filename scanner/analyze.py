@@ -318,7 +318,7 @@ def main():
              concentration=safe('concentration', lambda: concentration(px, cfg, L), {}),
              consumer=safe('consumer', lambda: consumer(px, trends, L, cfg, load_json('consumer_info.json', default={}), news, reddit, load_json('youtube.json', default=None)), []),
              discovery=dict(reddit=(reddit or {}).get('discovery', [])[:15], search_rising=(trends or {}).get('discovery', {})),
-             sources=dict(reddit=bool(reddit and reddit.get('n_posts')), trends=bool(trends and trends.get('terms')),
+             sources=dict(reddit=bool(reddit and reddit.get('n_posts')), reddit_via_apewisdom=bool(reddit and reddit.get('apewisdom')), youtube=bool((load_json('youtube.json', default=None) or {}).get('terms')), trends=bool(trends and trends.get('terms')),
                           x=bool(xg and xg.get('themes')), news=bool(news and news.get('n'))))
     A['errors'] = errors
     save_json(A, 'analysis.json')
