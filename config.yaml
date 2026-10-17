@@ -107,6 +107,16 @@ themes:
     tickers: [AMZN, WMT, COST, HD, PG, KO, PEP, MCD, UPS, V]
     keywords: ["distribution moat", "logistics network", "last mile"]
     trends: []
+  Crypto:
+    etfs: [IBIT, ETHA]
+    tickers: [COIN, MSTR, HOOD, MARA, RIOT]
+    keywords: ["bitcoin", "btc", "ethereum", "crypto", "xrp", "solana", "memecoin", "meme coin"]
+    trends: ["bitcoin", "XRP", "meme coin"]
+  Precious metals:
+    etfs: [GLD, SLV, GDX]
+    tickers: [NEM, AEM, WPM, PSLV]
+    keywords: ["gold price", "silver price", "precious metals", "gold stocks"]
+    trends: ["buy gold", "silver price"]
   Robotics:
     etfs: [BOTZ]
     tickers: [TSLA, ISRG, TER, SYM, ROK]
@@ -170,6 +180,33 @@ discovery:
   trends_seeds: ["sold out", "restock", "dupe", "viral", "new flavor", "where to buy", "shortage", "waitlist"]   # Google 'rising' related searches
   subreddits: [SkincareAddiction, MakeupAddiction, femalefashionadvice, Sneakers, fragrance, gaming, Costco, traderjoes, fastfood, BuyItForLife, Frugal, popculturechat]
   phrases: ["sold out", "can't find", "cant find", "restock", "obsessed", "dupe", "worth the hype", "viral", "line around", "waited in line", "limited release", "new flavor", "discontinued"]
+
+# Crypto and precious metals (separate section). Prices from Yahoo; talk from CoinGecko, ApeWisdom, Fear & Greed, Google.
+crypto:
+  enabled: true
+  coins:                  # name -> Yahoo ticker
+    Bitcoin: BTC-USD
+    Ethereum: ETH-USD
+    XRP: XRP-USD
+    Solana: SOL-USD
+    BNB: BNB-USD
+    Dogecoin: DOGE-USD
+    Cardano: ADA-USD
+    Chainlink: LINK-USD
+    Avalanche: AVAX-USD
+    Litecoin: LTC-USD
+    Shiba Inu: SHIB-USD
+    Pepe: PEPE24478-USD
+  metals:
+    Gold: GC=F
+    Silver: SI=F
+    Platinum: PL=F
+    Palladium: PA=F
+    Copper: HG=F
+  related:                # stocks/ETFs that ride these
+    Crypto: [IBIT, ETHA, COIN, MSTR, HOOD, MARA, RIOT]
+    Metals: [GLD, SLV, GDX, GDXJ, NEM, AEM, WPM, PSLV]
+  meme_top_n: 15
 
 # Extra evidence for watch names: earnings dates, insider buying, options activity, App Store ranks (all free).
 extras:

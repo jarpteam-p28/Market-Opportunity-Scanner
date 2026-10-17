@@ -331,6 +331,48 @@ def extras(px, L):
     return out
 
 
+def crypto(px, cfg, L):
+    c = cfg.get('crypto', {}); J = load_json('crypto.json', default={}) or {}
+    def row(name, t):
+        if t not in px:
+            return None
+        s = px[t].dropna()
+        # crypto trades 7 days a week: use calendar windows so a "week" is 7 days for coins and stocks alike
+        def r(days):
+            past = s[s.index <= s.index[-1] - pd.Timedelta(days=days)]
+            return pct(float(s.iloc[-1] / past.iloc[-1] - 1)) if len(past) else None
+        return dict(name=name, ticker=t, last=round(float(s.iloc[-1]), 6 if s.iloc[-1] < 1 else 2), w=r(7), m=r(30), q=r(91), ytd=pct(ytd(s)),
+                    above50=above(s, 50), above200=above(s, 200))
+    coins = [x for x in (row(n, t) for n, t in c.get('coins', {}).items()) if x]
+    metals = [x for x in (row(n, t) for n, t in c.get('metals', {}).items()) if x]
+    related = {g: [x for x in (row(t, t) for t in lst) if x] for g, lst in c.get('related', {}).items()}
+    btc = next((x for x in coins if x['ticker'] == 'BTC-USD'), None)
+    trend = None
+    if btc:
+        trend = ('UPTREND (above 50 and 200-day)' if btc['above50'] and btc['above200'] else
+                 'DOWNTREND (below 50 and 200-day)' if btc['above50'] is False and btc['above200'] is False else 'MIXED')
+    gold = next((x for x in metals if x['ticker'] == 'GC=F'), None); silver = next((x for x in metals if x['ticker'] == 'SI=F'), None)
+    gs = None
+    if 'GC=F' in px and 'SI=F' in px:
+        rr = (px['GC=F'] / px['SI=F']).dropna()
+        if len(rr):
+            gs = dict(now=round(float(rr.iloc[-1]), 1), avg_1y=round(float(rr.iloc[-252:].mean()), 1))
+    # Reddit crypto talk vs its own usual level
+    rising = []
+    p = HISTORY / 'crypto_mentions.csv'
+    if p.exists():
+        h = pd.read_csv(p, parse_dates=['date']).sort_values('date').set_index('date').fillna(0)
+        base = h[h.index <= h.index[-1] - pd.Timedelta(days=5)].tail(4)
+        if len(base):
+            for t, n in h.iloc[-1].items():
+                b = base[t].mean() if t in base else 0
+                if n >= 10 and (n + 1) / (b + 1) >= 2:
+                    rising.append(dict(ticker=t, mentions=int(n), usual=round(float(b), 1)))
+    return dict(btc_trend=trend, coins=coins, metals=metals, related=related, gold_silver_ratio=gs,
+                fear_greed=J.get('fear_greed'), trending=J.get('trending', []), memes=J.get('memes', []),
+                reddit=J.get('reddit', [])[:15], reddit_rising=rising, errors=J.get('errors', []))
+
+
 def scorecard():
     p = HISTORY.parent.parent / 'journal' / 'scored.csv'
     if not p.exists():
@@ -371,6 +413,8 @@ def main():
                           x=bool(xg and xg.get('themes')), news=bool(news and news.get('n'))))
     A['extras'] = safe('extras', lambda: extras(px, L))
     A['scorecard'] = safe('scorecard', scorecard)
+    A['crypto'] = safe('crypto', lambda: crypto(px, cfg, L))
+    A['sources']['crypto_talk'] = bool(A['crypto'] and (A['crypto']['trending'] or A['crypto']['reddit']))
     A['sources']['earnings_insiders_options'] = bool(A['extras'] and (A['extras']['earnings'] or A['extras']['insiders'] or A['extras']['options']))
     A['sources']['app_store'] = bool(A['extras'] and A['extras']['apps'])
     A['errors'] = errors

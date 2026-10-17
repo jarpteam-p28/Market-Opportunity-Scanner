@@ -99,6 +99,26 @@ def build(A, agents, cfg):
     if X.get('apps'):
         L += ['', '## 5l. App Store rank (US top 100)', '| App | Ticker | Free rank | Last week | Paid rank | 1 mo price |', '|---|---|---|---|---|---|']
         L += [f"| {r['app']} | {r['ticker']} | {r['free_rank'] or '–'} | {r['free_rank_last_week'] or '–'} | {r['paid_rank'] or '–'} | {f(r['m'])} |" for r in X['apps']]
+    K = A.get('crypto')
+    if K and (K.get('coins') or K.get('metals')):
+        fg = K.get('fear_greed') or {}
+        L += ['', '## 8. Crypto and precious metals', f"**Bitcoin: {K.get('btc_trend') or 'n/a'}**" + (f" · Crypto Fear & Greed {fg['now']} ({fg['label']}), a week ago {fg.get('week_ago', '–')}, a month ago {fg.get('month_ago', '–')}" if fg else ''), '',
+              '| Coin / metal | Last | 1 wk | 1 mo | 3 mo | YTD | >50d | >200d |', '|---|---|---|---|---|---|---|---|']
+        L += [f"| {r['name']} | {r['last']:,} | {f(r['w'])} | {f(r['m'])} | {f(r['q'])} | {f(r['ytd'])} | {yn(r['above50'])} | {yn(r['above200'])} |" for r in K['coins'] + K['metals']]
+        if K.get('gold_silver_ratio'):
+            g = K['gold_silver_ratio']; L += ['', f"Gold/silver ratio {g['now']} (1-year average {g['avg_1y']}). Higher than usual means silver is cheap relative to gold."]
+        for grp, rows in (K.get('related') or {}).items():
+            if rows:
+                L += ['', f"**{grp} stocks and ETFs (1 mo):** " + ' · '.join(f"{r['name']} {f(r['m'])}{'' if r['above50'] else '↓'}" for r in rows)]
+        if K.get('trending'):
+            L += ['', '**Most searched coins on CoinGecko right now:** ' + ', '.join(f"{t['name']} ({t['symbol']}{', #' + str(t['mcap_rank']) if t.get('mcap_rank') else ''}{', 24h ' + f(round(t['chg_24h'], 1)) if t.get('chg_24h') is not None else ''})" for t in K['trending'][:10])]
+        if K.get('reddit'):
+            L += ['', '**Most-mentioned on crypto Reddit (via ApeWisdom):** ' + ', '.join(f"{r['ticker']} {r['mentions']}" + (f" (24h ago {r['mentions_24h_ago']})" if r.get('mentions_24h_ago') else '') for r in K['reddit'][:12])]
+        if K.get('reddit_rising'):
+            L += ['', '**Crypto talk at least double its usual level:** ' + ', '.join(f"{r['ticker']} {r['mentions']} vs usual {r['usual']}" for r in K['reddit_rising'])]
+        if K.get('memes'):
+            L += ['', '**Meme coins, by trading volume** (high risk: these can go to zero)', '', '| Coin | Mkt cap $B | 24h volume $B | 24h | 7 d | 30 d |', '|---|---|---|---|---|---|']
+            L += [f"| {m['name']} ({m['symbol']}) | {m['mcap_b']} | {m['vol_b']} | {f(round(m['chg_24h'], 1)) if m['chg_24h'] is not None else '–'} | {f(round(m['chg_7d'], 1)) if m['chg_7d'] is not None else '–'} | {f(round(m['chg_30d'], 1)) if m['chg_30d'] is not None else '–'} |" for m in K['memes']]
     S = A.get('scorecard')
     L += ['', '## 7. Scorecard: are the agents beating the S&P?']
     if S and S.get('windows'):
@@ -119,6 +139,17 @@ def build(A, agents, cfg):
     return '\n'.join(L)
 
 
+def crypto_line(A):
+    K = A.get('crypto') or {}
+    if not K.get('coins'):
+        return 'Crypto: n/a'
+    c = {r['ticker']: r for r in K['coins']}; m = {r['ticker']: r for r in K.get('metals', [])}
+    parts = [f"{n} {f(c[t]['w'])} wk" for n, t in (('BTC', 'BTC-USD'), ('ETH', 'ETH-USD'), ('XRP', 'XRP-USD')) if t in c]
+    parts += [f"{n} {f(m[t]['w'])} wk" for n, t in (('Gold', 'GC=F'), ('Silver', 'SI=F')) if t in m]
+    fg = K.get('fear_greed'); tr = ', '.join(t['symbol'] for t in K.get('trending', [])[:4])
+    return 'Crypto/metals: ' + ', '.join(parts) + (f" | Fear&Greed {fg['now']}" if fg else '') + (f" | trending: {tr}" if tr else '')
+
+
 def short(A):
     R = A['regime']; s = A['sectors']
     up = [x for x in s if x['rank_change'] > 0][:3]
@@ -130,6 +161,7 @@ def short(A):
            'Narratives: ' + (', '.join(n['label'] + ' accelerating' for n in A.get('narratives', []) if n['accelerating']) or 'nothing accelerating'),
            'Rising on Reddit: ' + (', '.join(r['ticker'] for r in A.get('rising_tickers', [])[:5]) or 'none yet'),
            'Search spikes: ' + (', '.join(f"{r['term']} ({r['ticker']})" for r in A.get('consumer', []) if r['flag']) or 'none'),
+           crypto_line(A),
            'Themes: ' + ('; '.join(f"{t['theme']}: {t['label'].split(' - ')[0]}" for t in hot) or 'nothing confirmed by talk + price')]
     try:
         import pandas as pd

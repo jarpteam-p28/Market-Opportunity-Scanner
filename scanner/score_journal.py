@@ -13,7 +13,7 @@ def main():
         return
     px = pd.read_csv(days[-1] / 'prices.csv', index_col=0, parse_dates=True); spy = px[cfg['regime']['index']]
     stocks = sorted({t for l in cfg['sector_candidates'].values() for t in l} | {t for th in cfg['themes'].values() for t in th.get('tickers', [])})
-    U = px[[t for t in stocks if t in px]]   # placebo: every stock we track, equal weight
+    U = px[[t for t in stocks if t in px]].dropna(how='all')   # placebo: every stock we track, equal weight
     T = pd.read_csv(j, parse_dates=['date']); out = []
     for _, r in T.iterrows():
         row = r.to_dict()
