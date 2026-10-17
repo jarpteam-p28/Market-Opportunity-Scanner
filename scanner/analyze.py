@@ -417,16 +417,91 @@ def setups(px, cfg, L):
                              hits=hits, m=pct(ret(s, L['month']))))
     full = sorted([r for r in rows if r['hits'] == 3], key=lambda r: abs(r['vs_vwap'] or 0))
     near = sorted([r for r in rows if r['hits'] == 2], key=lambda r: abs(r['vs_vwap'] or 0))[:c.get('show_near_misses', 15)]
-    if full:   # log for honest scoring later
-        j = ROOT / 'journal' / 'setups.csv'; j.parent.mkdir(exist_ok=True)
-        spy = float(px[cfg['regime']['index']].dropna().iloc[-1])
-        new = pd.DataFrame([dict(date=today(), ticker=r['ticker'], price=r['price'], spy=round(spy, 2), vs_vwap=r['vs_vwap'],
-                                 vs_monthly_sma=r['vs_monthly_sma'], vs_weekly_sma=r['vs_weekly_sma']) for r in full])
-        old = pd.read_csv(j) if j.exists() else pd.DataFrame()
-        if len(old):
-            old = old[old.date != today()]
-        pd.concat([old, new], ignore_index=True).to_csv(j, index=False)
+    log_setup('vwap', full, px, cfg)
     return dict(rules=dict(band=band, side=side, monthly_sma=mn, weekly_sma=wn), all_three=full, two_of_three=near, scanned=len(names))
+
+
+def log_setup(name, rows, px, cfg):
+    """Every hit goes to journal/setups.csv so the rule gets scored vs the S&P and a random pick."""
+    j = ROOT / 'journal' / 'setups.csv'; j.parent.mkdir(exist_ok=True)
+    old = pd.read_csv(j) if j.exists() else pd.DataFrame()
+    if len(old):
+        if 'setup' not in old:
+            old['setup'] = 'vwap'
+        old = old[~((old.date == today()) & (old.setup == name))]
+    spy = round(float(px[cfg['regime']['index']].dropna().iloc[-1]), 2)
+    new = pd.DataFrame([dict(date=today(), setup=name, ticker=r['ticker'], price=r['price'], spy=spy) for r in rows])
+    pd.concat([old, new], ignore_index=True).to_csv(j, index=False)
+
+
+def entry_scans(px, cfg, L, sectors_rows):
+    """Rule B (deep drawdown in a weak market, buy in thirds) and momentum (leaders in a strong market)."""
+    c = cfg.get('setups', {}); d = day_dir()
+    try:
+        vol = pd.read_csv(d / 'volumes.csv', index_col=0, parse_dates=True).sort_index()
+    except Exception:
+        vol = pd.DataFrame()
+    spy = px[cfg['regime']['index']]; spy_up = above(spy, 200)
+    sec_of = {t: sec for sec, l in cfg['sector_candidates'].items() for t in l}
+    names = sorted(set(sec_of) | {t for th in cfg['themes'].values() for t in th.get('tickers', [])} | {x['ticker'] for x in cfg.get('consumer_watch', [])})
+    names = [t for t in names if t in px and '.' not in t]
+    out = {'spy_above_200d': spy_up}
+    rb = c.get('rule_b', {})
+    if rb.get('enabled', True):
+        rows = []
+        for t in names:
+            s = px[t].dropna()
+            if len(s) < 260:
+                continue
+            hi = float(s.iloc[-252:].max()); price = float(s.iloc[-1]); dd = price / hi - 1
+            dv = float((s.iloc[-20:] * vol[t].reindex(s.index[-20:])).mean()) / 1e6 if t in vol else None
+            if dd <= -rb.get('min_drawdown', 0.5) and (dv is None or dv >= rb.get('min_dollar_volume_m', 20)):
+                rows.append(dict(ticker=t, price=round(price, 2), off_high=pct(dd), high_252d=round(hi, 2), dollar_vol_m=round(dv) if dv else None,
+                                 buy_levels=[round(price * (1 + x), 2) for x in rb.get('tranches', [0, -0.1, -0.2])], m=pct(ret(s, L['month']))))
+        rows.sort(key=lambda r: r['off_high'])
+        out['rule_b'] = dict(active=spy_up is False, rows=rows)
+        if spy_up is False and rows:
+            log_setup('rule_b', rows, px, cfg)
+    mo = c.get('momentum', {})
+    if mo.get('enabled', True):
+        top_secs = {r['sector'] for r in sectors_rows[:mo.get('top_sectors', 5)]} if sectors_rows else set()
+        sc = []
+        for t in names:
+            s = px[t].dropna()
+            if len(s) < 260:
+                continue
+            r121 = float(s.iloc[-22] / s.iloc[-253] - 1)
+            sc.append((t, r121, s))
+        if sc:
+            cut = pd.Series([x[1] for x in sc]).quantile(1 - mo.get('top_pct', 0.10))
+            rows = [dict(ticker=t, price=round(float(s.iloc[-1]), 2), r12_1=pct(r), sector=sec_of.get(t, 'theme'), m=pct(ret(s, L['month'])))
+                    for t, r, s in sc if r >= cut and above(s, 200) and (not top_secs or sec_of.get(t) in top_secs or t not in sec_of)]
+            rows.sort(key=lambda r: -r['r12_1'])
+            rows = rows[:mo.get('max_show', 20)]
+            out['momentum'] = dict(active=bool(spy_up), sectors=sorted(top_secs), rows=rows)
+            if spy_up and rows:
+                log_setup('momentum', rows, px, cfg)
+    return out
+
+
+def setup_scorecards():
+    p = ROOT / 'journal' / 'setups_scored.csv'
+    if not p.exists():
+        return None
+    d = pd.read_csv(p)
+    if 'setup' not in d:
+        d['setup'] = 'vwap'
+    out = {}
+    for name, g in d.groupby('setup'):
+        res = {}
+        for lab in ('1m', '3m', '6m'):
+            c = f'excess_{lab}'
+            if c in g and g[c].notna().any():
+                x = g[g[c].notna()]
+                res[lab] = dict(ideas=len(x), avg_vs_spy=pct(x[c].mean()), hit_rate=pct((x[c] > 0).mean()),
+                                avg_vs_universe=pct(x[f'edge_vs_universe_{lab}'].mean()) if f'edge_vs_universe_{lab}' in x else None)
+        out[name] = res
+    return out
 
 
 def scorecard(name='scored.csv'):
@@ -469,9 +544,10 @@ def main():
                           x=bool(xg and xg.get('themes')), news=bool(news and news.get('n'))))
     A['extras'] = safe('extras', lambda: extras(px, L))
     A['scorecard'] = safe('scorecard', scorecard)
-    A['setup_scorecard'] = safe('setup_scorecard', lambda: scorecard('setups_scored.csv'))
+    A['setup_scorecard'] = safe('setup_scorecard', setup_scorecards)
     A['crypto'] = safe('crypto', lambda: crypto(px, cfg, L))
     A['setups'] = safe('setups', lambda: setups(px, cfg, L))
+    A['entry_scans'] = safe('entry_scans', lambda: entry_scans(px, cfg, L, A.get('sectors') or []))
     A['sources']['crypto_talk'] = bool(A['crypto'] and (A['crypto']['trending'] or A['crypto']['reddit']))
     A['sources']['earnings_insiders_options'] = bool(A['extras'] and (A['extras']['earnings'] or A['extras']['insiders'] or A['extras']['options']))
     A['sources']['app_store'] = bool(A['extras'] and A['extras']['apps'])

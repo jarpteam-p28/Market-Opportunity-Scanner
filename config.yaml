@@ -190,6 +190,16 @@ setups:
   monthly_sma: 20
   weekly_sma: 200
   show_near_misses: 15       # also list names meeting 2 of the 3 rules
+  rule_b:                    # from your v30 backtest (Rule B, zone removed: the placebo showed the zone added nothing)
+    enabled: true
+    min_drawdown: 0.50       # at least 50% below the 252-day high
+    min_dollar_volume_m: 20  # average daily $ volume (millions), keeps it liquid
+    tranches: [0, -0.10, -0.20]
+  momentum:
+    enabled: true
+    top_pct: 0.10            # top 10% by 12-month return, skipping the last month
+    top_sectors: 5           # stock's sector must rank in the top 5 this month
+    max_show: 20
 
 # Crypto and precious metals (separate section). Prices from Yahoo; talk from CoinGecko, ApeWisdom, Fear & Greed, Google.
 crypto:

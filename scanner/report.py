@@ -109,6 +109,27 @@ def build(A, agents, cfg):
         L += ['**All three rules met:**', ''] + ((hdr + [line(r) for r in Z['all_three']]) if Z['all_three'] else ['None today.'])
         if Z['two_of_three']:
             L += ['', '**Two of three (watch for the third):**', ''] + hdr + [line(r) for r in Z['two_of_three']]
+    E = A.get('entry_scans')
+    if E:
+        rb, mo = E.get('rule_b'), E.get('momentum')
+        if rb is not None:
+            L += ['', '## 5n. Rule B: deep drawdown in a weak market (from your v30 backtest)',
+                  ('**ACTIVE**: the S&P is below its 200-day.' if rb['active'] else '**Not active**: the S&P is above its 200-day, so Rule B is off. Shown for watching only, not logged.') +
+                  ' Rule: 50%+ off the 252-day high, liquid. Buy 1/3 now, 1/3 at −10%, 1/3 at −20%. Exit: once up 40% on your average cost, sell when the close falls 25% from its high since then; otherwise after ~2 years. Expect a typical −19% to −24% drop before it works.', '']
+            if rb['rows']:
+                L += ['| Ticker | Price | Off 52-wk high | 52-wk high | $ vol/day (M) | Buy 1/3 at | 1 mo |', '|---|---|---|---|---|---|---|']
+                L += [f"| {r['ticker']} | {r['price']} | {f(r['off_high'])} | {r['high_252d']} | {r['dollar_vol_m'] or '–'} | {' / '.join(str(x) for x in r['buy_levels'])} | {f(r['m'])} |" for r in rb['rows'][:25]]
+            else:
+                L += ['No stocks 50%+ off their high today.']
+        if mo is not None:
+            L += ['', '## 5o. Momentum leaders in a strong market',
+                  ('**ACTIVE**: the S&P is above its 200-day.' if mo['active'] else '**Not active**: the S&P is below its 200-day. Shown for watching only, not logged.') +
+                  f" Rule: top 10% by 12-month return (skipping the last month), above the 200-day, sector in the top 5 ({', '.join(mo['sectors']) or 'n/a'}). Untested on your data: scored like everything else.", '']
+            if mo['rows']:
+                L += ['| Ticker | Price | 12-1 mo return | Sector | 1 mo |', '|---|---|---|---|---|']
+                L += [f"| {r['ticker']} | {r['price']} | {f(r['r12_1'])} | {r['sector']} | {f(r['m'])} |" for r in mo['rows']]
+            else:
+                L += ['None today.']
     K = A.get('crypto')
     if K and (K.get('coins') or K.get('metals')):
         fg = K.get('fear_greed') or {}
@@ -136,9 +157,10 @@ def build(A, agents, cfg):
         L += [f"| {k} | {v['ideas']} | {f(v['avg_vs_spy'])} | {v['hit_rate']}% | {f(v['avg_vs_universe'])} |" for k, v in S['windows'].items()]
         L += ['', '_"Random pick" is the average of every stock the scanner tracks over the same days: the placebo. Beating the S&P but not the placebo means the market did the work, not the agents._']
     SS = A.get('setup_scorecard')
-    if SS and SS.get('windows'):
-        L += ['', '**Your VWAP setup so far:**', '', '| Window | Hits scored | Avg vs S&P | Hit rate vs S&P | Avg vs random pick |', '|---|---|---|---|---|']
-        L += [f"| {k} | {v['ideas']} | {f(v['avg_vs_spy'])} | {v['hit_rate']}% | {f(v['avg_vs_universe'])} |" for k, v in SS['windows'].items()]
+    for nm, win in (SS or {}).items():
+        if win:
+            L += ['', f"**Scan '{nm}' so far:**", '', '| Window | Hits scored | Avg vs S&P | Hit rate vs S&P | Avg vs random pick |', '|---|---|---|---|---|']
+            L += [f"| {k} | {v['ideas']} | {f(v['avg_vs_spy'])} | {v['hit_rate']}% | {f(v['avg_vs_universe'])} |" for k, v in win.items()]
     if not (S and S.get('windows')):
         L += [f"No idea is a month old yet ({(S or {}).get('total_ideas', 0)} logged). First 1-month scores appear about four weeks after the first watchlist."]
     L += ['', '## 6. Top 10 by market cap in each sector', '']
@@ -151,6 +173,14 @@ def build(A, agents, cfg):
                 L += [f'### {k.title()}', v.strip(), '']
     src = A['sources']; L += ['', '---', 'Sources this run: ' + ', '.join(f"{k} {'✅' if v else '❌'}" for k, v in src.items()) + ', prices ✅']
     return '\n'.join(L)
+
+
+def entry_line(A):
+    E = A.get('entry_scans') or {}
+    rb, mo = E.get('rule_b') or {}, E.get('momentum') or {}
+    if rb.get('active'):
+        return 'Rule B (active): ' + (', '.join(r['ticker'] for r in rb.get('rows', [])[:8]) or 'none')
+    return 'Momentum (active): ' + (', '.join(r['ticker'] for r in mo.get('rows', [])[:8]) or 'none')
 
 
 def crypto_line(A):
@@ -176,6 +206,7 @@ def short(A):
            'Rising on Reddit: ' + (', '.join(r['ticker'] for r in A.get('rising_tickers', [])[:5]) or 'none yet'),
            'Search spikes: ' + (', '.join(f"{r['term']} ({r['ticker']})" for r in A.get('consumer', []) if r['flag']) or 'none'),
            crypto_line(A),
+           entry_line(A),
            'Your VWAP setup (all 3): ' + (', '.join(r['ticker'] for r in (A.get('setups') or {}).get('all_three', [])[:8]) or 'none today'),
            'Themes: ' + ('; '.join(f"{t['theme']}: {t['label'].split(' - ')[0]}" for t in hot) or 'nothing confirmed by talk + price')]
     try:
