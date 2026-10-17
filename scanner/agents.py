@@ -26,14 +26,14 @@ def context_for(name, A, extra):
     pick = {
         'regime': {'regime': A['regime'], 'breadth': A['breadth'], 'mag7': A['mag7'], 'crypto_metals_prices': {k: (A.get('crypto') or {}).get(k) for k in ('btc_trend', 'coins', 'metals', 'gold_silver_ratio', 'fear_greed')}, 'ai_concentration_watch': A.get('concentration')},
         'sectors': {'sectors': A['sectors'], 'top10': A['top10'], 'breadth': A['breadth']},
-        'sentiment': {'themes': A['themes'], 'reddit_tickers': A['reddit_tickers'], 'rising_tickers': A.get('rising_tickers'), 'consumer_search_watch': A.get('consumer'), 'narratives': A.get('narratives'), 'big_movers': A.get('big_movers'), 'extras': A.get('extras'), 'crypto': A.get('crypto'), 'x': extra.get('x'), 'trends': extra.get('trends'),
+        'sentiment': {'themes': A['themes'], 'reddit_tickers': A['reddit_tickers'], 'rising_tickers': A.get('rising_tickers'), 'consumer_search_watch': A.get('consumer'), 'narratives': A.get('narratives'), 'big_movers': A.get('big_movers'), 'extras': A.get('extras'), 'crypto': A.get('crypto'), 'vwap_setups': A.get('setups'), 'x': extra.get('x'), 'trends': extra.get('trends'),
                       'news': (extra.get('news') or {}).get('by_theme')},
         'themes': {'themes': slim_themes, 'sectors': A['sectors'], 'catalysts': A.get('catalysts'), 'news': (extra.get('news') or {}).get('by_theme')},
         'social_arb': {'regime': A['regime']['label'], 'consumer_search_watch': A.get('consumer'), 'rising_tickers': A.get('rising_tickers'),
                        'discovery': A.get('discovery'), 'narratives': A.get('narratives'), 'catalysts': A.get('catalysts'), 'big_movers': A.get('big_movers'), 'extras': A.get('extras'), 'crypto': A.get('crypto'),
                        'themes': [t for t in slim_themes if t['label'].startswith(('EARLY', 'STEALTH', 'CONFIRMED'))],
                        'headlines': [h['title'] for h in (extra.get('news') or {}).get('latest', [])[:40]]},
-        'skeptic': {'regime': A['regime'], 'mag7': A['mag7'], 'themes': slim_themes, 'ai_concentration_watch': A.get('concentration'), 'narratives': A.get('narratives'), 'extras': A.get('extras'), 'scorecard': A.get('scorecard')},
+        'skeptic': {'regime': A['regime'], 'mag7': A['mag7'], 'themes': slim_themes, 'ai_concentration_watch': A.get('concentration'), 'narratives': A.get('narratives'), 'extras': A.get('extras'), 'vwap_setups': A.get('setups'), 'scorecard': A.get('scorecard'), 'setup_scorecard': A.get('setup_scorecard')},
         'regime_extra': None,
     }
     return json.dumps(pick.get(name, A), default=str)[:60000]

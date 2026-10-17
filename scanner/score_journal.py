@@ -5,9 +5,14 @@ import pandas as pd
 from common import ROOT, DATA, load_config
 
 def main():
-    cfg = load_config(); j = ROOT / 'journal' / 'theses.csv'
+    for src, dst in (('theses.csv', 'scored.csv'), ('setups.csv', 'setups_scored.csv')):
+        score(src, dst)
+
+
+def score(src, dst):
+    cfg = load_config(); j = ROOT / 'journal' / src
     if not j.exists():
-        print('no journal yet'); return
+        print('no journal yet:', src); return
     days = sorted(p for p in DATA.iterdir() if p.is_dir() and (p / 'prices.csv').exists())
     if not days:
         return
@@ -31,8 +36,8 @@ def main():
                         row[f'universe_{lab}'] = round(float(u.mean()), 4)
                         row[f'edge_vs_universe_{lab}'] = round(row[f'ret_{lab}'] - row[f'universe_{lab}'], 4)
         out.append(row)
-    pd.DataFrame(out).to_csv(ROOT / 'journal' / 'scored.csv', index=False)
-    print('scored', len(out))
+    pd.DataFrame(out).to_csv(ROOT / 'journal' / dst, index=False)
+    print('scored', src, len(out))
 
 if __name__ == '__main__':
     sys.exit(main())

@@ -2,7 +2,7 @@
 and the theme 'talk vs tape' matrix. Output: data/<date>/analysis.json"""
 import sys, math, re
 import numpy as np, pandas as pd
-from common import load_config, load_json, save_json, day_dir, HISTORY, today
+from common import ROOT, load_config, load_json, save_json, day_dir, HISTORY, today
 
 
 def ret(s, n):
@@ -373,8 +373,64 @@ def crypto(px, cfg, L):
                 reddit=J.get('reddit', [])[:15], reddit_rising=rising, errors=J.get('errors', []))
 
 
-def scorecard():
-    p = HISTORY.parent.parent / 'journal' / 'scored.csv'
+def setups(px, cfg, L):
+    """Yearly VWAP (anchored Jan 1, typical price x volume) + monthly 20-SMA + weekly 200-SMA, on daily data."""
+    c = cfg.get('setups', {}); d = day_dir()
+    if not c.get('enabled', True):
+        return None
+    try:
+        vol = pd.read_csv(d / 'volumes.csv', index_col=0, parse_dates=True).sort_index()
+    except Exception:
+        return None
+    try:
+        typ = pd.read_csv(d / 'typical.csv', index_col=0, parse_dates=True).sort_index()
+    except Exception:
+        typ = px
+    names = sorted({t for l in cfg['sector_candidates'].values() for t in l} | {t for th in cfg['themes'].values() for t in th.get('tickers', []) + th.get('etfs', [])}
+                   | {x['ticker'] for x in cfg.get('consumer_watch', [])} | set(cfg.get('extras', {}).get('also_watch', [])) | set(cfg.get('sectors', {}).values()))
+    band = c.get('yearly_vwap_band', 0.02); side = c.get('vwap_side', 'any'); mn, wn = c.get('monthly_sma', 20), c.get('weekly_sma', 200)
+    rows = []
+    for t in names:
+        if t not in px or t not in vol or '.' in t:
+            continue
+        s = px[t].dropna()
+        if len(s) < 300:
+            continue
+        last = s.index[-1]; price = float(s.iloc[-1])
+        yr = s.index[s.index.year == last.year]
+        tp = (typ[t] if t in typ else px[t]).reindex(yr); v = vol[t].reindex(yr)
+        ok = tp.notna() & v.notna()
+        if v[ok].sum() <= 0:
+            continue
+        vwap = float((tp[ok] * v[ok]).sum() / v[ok].sum())
+        m = s.resample('ME').last(); w = s.resample('W-FRI').last()
+        m_sma = float(m.iloc[-mn:].mean()) if len(m) >= mn else None
+        w_sma = float(w.iloc[-wn:].mean()) if len(w) >= wn else None
+        dist = price / vwap - 1
+        on = abs(dist) <= band and (side == 'any' or (side == 'below' and dist <= 0) or (side == 'above' and dist >= 0))
+        um = m_sma is not None and price < m_sma; uw = w_sma is not None and price < w_sma
+        hits = int(on) + int(um) + int(uw)
+        if hits >= 2:
+            rows.append(dict(ticker=t, price=round(price, 2), yearly_vwap=round(vwap, 2), vs_vwap=pct(dist), on_vwap=bool(on),
+                             monthly_sma=round(m_sma, 2) if m_sma else None, vs_monthly_sma=pct(price / m_sma - 1) if m_sma else None, under_monthly=bool(um),
+                             weekly_sma=round(w_sma, 2) if w_sma else None, vs_weekly_sma=pct(price / w_sma - 1) if w_sma else None, under_weekly=bool(uw),
+                             hits=hits, m=pct(ret(s, L['month']))))
+    full = sorted([r for r in rows if r['hits'] == 3], key=lambda r: abs(r['vs_vwap'] or 0))
+    near = sorted([r for r in rows if r['hits'] == 2], key=lambda r: abs(r['vs_vwap'] or 0))[:c.get('show_near_misses', 15)]
+    if full:   # log for honest scoring later
+        j = ROOT / 'journal' / 'setups.csv'; j.parent.mkdir(exist_ok=True)
+        spy = float(px[cfg['regime']['index']].dropna().iloc[-1])
+        new = pd.DataFrame([dict(date=today(), ticker=r['ticker'], price=r['price'], spy=round(spy, 2), vs_vwap=r['vs_vwap'],
+                                 vs_monthly_sma=r['vs_monthly_sma'], vs_weekly_sma=r['vs_weekly_sma']) for r in full])
+        old = pd.read_csv(j) if j.exists() else pd.DataFrame()
+        if len(old):
+            old = old[old.date != today()]
+        pd.concat([old, new], ignore_index=True).to_csv(j, index=False)
+    return dict(rules=dict(band=band, side=side, monthly_sma=mn, weekly_sma=wn), all_three=full, two_of_three=near, scanned=len(names))
+
+
+def scorecard(name='scored.csv'):
+    p = ROOT / 'journal' / name
     if not p.exists():
         return None
     d = pd.read_csv(p); res = {}
@@ -413,7 +469,9 @@ def main():
                           x=bool(xg and xg.get('themes')), news=bool(news and news.get('n'))))
     A['extras'] = safe('extras', lambda: extras(px, L))
     A['scorecard'] = safe('scorecard', scorecard)
+    A['setup_scorecard'] = safe('setup_scorecard', lambda: scorecard('setups_scored.csv'))
     A['crypto'] = safe('crypto', lambda: crypto(px, cfg, L))
+    A['setups'] = safe('setups', lambda: setups(px, cfg, L))
     A['sources']['crypto_talk'] = bool(A['crypto'] and (A['crypto']['trending'] or A['crypto']['reddit']))
     A['sources']['earnings_insiders_options'] = bool(A['extras'] and (A['extras']['earnings'] or A['extras']['insiders'] or A['extras']['options']))
     A['sources']['app_store'] = bool(A['extras'] and A['extras']['apps'])

@@ -181,6 +181,16 @@ discovery:
   subreddits: [SkincareAddiction, MakeupAddiction, femalefashionadvice, Sneakers, fragrance, gaming, Costco, traderjoes, fastfood, BuyItForLife, Frugal, popculturechat]
   phrases: ["sold out", "can't find", "cant find", "restock", "obsessed", "dupe", "worth the hype", "viral", "line around", "waited in line", "limited release", "new flavor", "discontinued"]
 
+# Pablo's multi-timeframe setup: price ON the yearly VWAP + UNDER the monthly 20-SMA + UNDER the weekly 200-SMA.
+# Unproven: logged to journal/setups.csv and scored vs the S&P and a random pick, like the agents' ideas.
+setups:
+  enabled: true
+  yearly_vwap_band: 0.02     # "on" the yearly VWAP = within +/-2% of it. Set e.g. 0.03 for looser
+  vwap_side: any             # any | below | above  (below = at or under the VWAP only)
+  monthly_sma: 20
+  weekly_sma: 200
+  show_near_misses: 15       # also list names meeting 2 of the 3 rules
+
 # Crypto and precious metals (separate section). Prices from Yahoo; talk from CoinGecko, ApeWisdom, Fear & Greed, Google.
 crypto:
   enabled: true

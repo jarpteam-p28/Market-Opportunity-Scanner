@@ -99,6 +99,16 @@ def build(A, agents, cfg):
     if X.get('apps'):
         L += ['', '## 5l. App Store rank (US top 100)', '| App | Ticker | Free rank | Last week | Paid rank | 1 mo price |', '|---|---|---|---|---|---|']
         L += [f"| {r['app']} | {r['ticker']} | {r['free_rank'] or '–'} | {r['free_rank_last_week'] or '–'} | {r['paid_rank'] or '–'} | {f(r['m'])} |" for r in X['apps']]
+    Z = A.get('setups')
+    if Z:
+        r_ = Z['rules']
+        L += ['', f"## 5m. Your setup: on the yearly VWAP (±{r_['band']*100:g}%) + under the monthly {r_['monthly_sma']}-SMA + under the weekly {r_['weekly_sma']}-SMA",
+              f"Scanned {Z['scanned']} stocks and ETFs. Unproven rule: every hit is logged to journal/setups.csv and scored vs the S&P and a random pick. Regime today: **{A['regime']['label']}** (your backtests: regime mattered more than stock signals).", '']
+        hdr = ['| Ticker | Price | Yearly VWAP | vs VWAP | Monthly SMA | vs it | Weekly SMA | vs it | 1 mo |', '|---|---|---|---|---|---|---|---|---|']
+        line = lambda r: f"| {r['ticker']} | {r['price']} | {r['yearly_vwap']} {'✅' if r['on_vwap'] else '❌'} | {f(r['vs_vwap'])} | {r['monthly_sma'] or '–'} {'✅' if r['under_monthly'] else '❌'} | {f(r['vs_monthly_sma'])} | {r['weekly_sma'] or '–'} {'✅' if r['under_weekly'] else '❌'} | {f(r['vs_weekly_sma'])} | {f(r['m'])} |"
+        L += ['**All three rules met:**', ''] + ((hdr + [line(r) for r in Z['all_three']]) if Z['all_three'] else ['None today.'])
+        if Z['two_of_three']:
+            L += ['', '**Two of three (watch for the third):**', ''] + hdr + [line(r) for r in Z['two_of_three']]
     K = A.get('crypto')
     if K and (K.get('coins') or K.get('metals')):
         fg = K.get('fear_greed') or {}
@@ -125,7 +135,11 @@ def build(A, agents, cfg):
         L += ['| Window | Ideas scored | Avg vs S&P | Hit rate vs S&P | Avg vs random pick from our list |', '|---|---|---|---|---|']
         L += [f"| {k} | {v['ideas']} | {f(v['avg_vs_spy'])} | {v['hit_rate']}% | {f(v['avg_vs_universe'])} |" for k, v in S['windows'].items()]
         L += ['', '_"Random pick" is the average of every stock the scanner tracks over the same days: the placebo. Beating the S&P but not the placebo means the market did the work, not the agents._']
-    else:
+    SS = A.get('setup_scorecard')
+    if SS and SS.get('windows'):
+        L += ['', '**Your VWAP setup so far:**', '', '| Window | Hits scored | Avg vs S&P | Hit rate vs S&P | Avg vs random pick |', '|---|---|---|---|---|']
+        L += [f"| {k} | {v['ideas']} | {f(v['avg_vs_spy'])} | {v['hit_rate']}% | {f(v['avg_vs_universe'])} |" for k, v in SS['windows'].items()]
+    if not (S and S.get('windows')):
         L += [f"No idea is a month old yet ({(S or {}).get('total_ideas', 0)} logged). First 1-month scores appear about four weeks after the first watchlist."]
     L += ['', '## 6. Top 10 by market cap in each sector', '']
     for sec, rows in A['top10'].items():
@@ -162,6 +176,7 @@ def short(A):
            'Rising on Reddit: ' + (', '.join(r['ticker'] for r in A.get('rising_tickers', [])[:5]) or 'none yet'),
            'Search spikes: ' + (', '.join(f"{r['term']} ({r['ticker']})" for r in A.get('consumer', []) if r['flag']) or 'none'),
            crypto_line(A),
+           'Your VWAP setup (all 3): ' + (', '.join(r['ticker'] for r in (A.get('setups') or {}).get('all_three', [])[:8]) or 'none today'),
            'Themes: ' + ('; '.join(f"{t['theme']}: {t['label'].split(' - ')[0]}" for t in hot) or 'nothing confirmed by talk + price')]
     try:
         import pandas as pd
