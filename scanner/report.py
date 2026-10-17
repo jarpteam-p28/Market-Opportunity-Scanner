@@ -118,7 +118,8 @@ def main():
     md = build(A, agents, cfg)
     REPORTS.mkdir(exist_ok=True)
     (REPORTS / f"{today()}.md").write_text(md); (REPORTS / 'latest.md').write_text(md)
-    telegram(short(A) + '\nFull report: reports/latest.md in the repo')
+    repo = os.environ.get('GITHUB_REPOSITORY', 'jarpteam-p28/Market-Opportunity-Scanner')   # set automatically on GitHub
+    telegram(short(A) + f'\nFull report: https://github.com/{repo}/blob/main/reports/latest.md')
     print('report written', len(md), 'chars')
 
 
