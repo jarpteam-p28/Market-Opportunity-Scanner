@@ -1,0 +1,358 @@
+{
+  "date": "2026-10-19",
+  "n": 50,
+  "errors": [],
+  "by_theme": {
+    "AI chips": [
+      {
+        "title": "Nvidia-backed Nscale, Anthropic in talks for new $45 billion AI cloud deal, source says",
+        "link": "https://www.investing.com/news/stock-market-news/nscale-anthropic-in-talks-for-45-billion-cloud-computing-deal-bloomberg-news-reports-4958188",
+        "published": "2026-10-19 21:48:21",
+        "source": "www.investing.com"
+      }
+    ],
+    "AI data centers": [],
+    "Power for AI": [],
+    "Nuclear": [],
+    "Water": [],
+    "Cooling": [],
+    "Copper & grid materials": [],
+    "AI software": [
+      {
+        "title": "Exclusive-How one hacker used AI agents and a few thousand dollars to break into scores of sites",
+        "link": "https://www.investing.com/news/stock-market-news/exclusivehow-one-hacker-used-ai-agents-and-a-few-thousand-dollars-to-break-into-scores-of-sites-4956846",
+        "published": "2026-10-19 21:36:25",
+        "source": "www.investing.com"
+      }
+    ],
+    "Memory chips": [
+      {
+        "title": "Micron and other chip stocks spring back to life after bruising selloff",
+        "link": "https://www.marketwatch.com/story/micron-and-other-chip-stocks-spring-back-to-life-after-bruising-selloff-16486541?mod=mw_rss_topstories",
+        "published": "Mon, 19 Oct 2026 21:06:00 GMT",
+        "source": "feeds.content.dowjones.io"
+      }
+    ],
+    "AI efficiency wave": [],
+    "Distribution moats": [],
+    "Crypto": [],
+    "Precious metals": [],
+    "Robotics": []
+  },
+  "latest": [
+    {
+      "title": "Blood clots are \u2018incredibly common,\u2019 even for pro athletes like Jalen Hurts. Here\u2019s what to know.",
+      "link": "https://www.marketwatch.com/story/blood-clots-are-incredibly-common-even-for-pro-athletes-like-jalen-hurts-heres-what-to-know-e20071ef?mod=mw_rss_topstories",
+      "published": "Mon, 19 Oct 2026 21:58:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "When should you dump your target-date funds?",
+      "link": "https://www.marketwatch.com/story/when-should-you-dump-your-target-date-funds-18082148?mod=mw_rss_topstories",
+      "published": "Mon, 19 Oct 2026 21:37:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Credit markets have entered uncharted territory as the riskiest junk bonds send a warning to investors",
+      "link": "https://www.marketwatch.com/story/credit-markets-have-entered-uncharted-territory-as-the-riskiest-junk-bonds-send-a-warning-to-investors-816a05d5?mod=mw_rss_topstories",
+      "published": "Mon, 19 Oct 2026 21:36:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "\u2018I don\u2019t feel sorry for myself\u2019: I\u2019m 64 and will be renting for the rest of my life \u2014 but here\u2019s I\u2019m still hopeful",
+      "link": "https://www.marketwatch.com/story/my-husband-suffered-a-massive-stroke-at-53-im-64-and-will-rent-for-the-rest-of-my-life-but-im-still-hopeful-46bd6ce9?mod=mw_rss_topstories",
+      "published": "Mon, 19 Oct 2026 21:30:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "\u2018I\u2019m naturally skeptical\u2019: I receive 10 calls a day offering me $15,000 loans at 8% interest. Is this a scam?",
+      "link": "https://www.marketwatch.com/story/im-naturally-skeptical-i-receive-10-calls-a-day-offering-me-15-000-loans-at-8-interest-is-this-a-scam-825c3431?mod=mw_rss_topstories",
+      "published": "Mon, 19 Oct 2026 21:15:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Micron and other chip stocks spring back to life after bruising selloff",
+      "link": "https://www.marketwatch.com/story/micron-and-other-chip-stocks-spring-back-to-life-after-bruising-selloff-16486541?mod=mw_rss_topstories",
+      "published": "Mon, 19 Oct 2026 21:06:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "SpaceX earnings will be all about AI \u2014 for better or for worse",
+      "link": "https://www.marketwatch.com/story/spacex-earnings-will-be-all-about-ai-for-better-or-for-worse-89bbc772?mod=mw_rss_topstories",
+      "published": "Mon, 19 Oct 2026 21:02:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Why a former Intel skeptic is giving up his negative call on the stock after four years",
+      "link": "https://www.marketwatch.com/story/why-a-former-intel-skeptic-is-giving-up-his-negative-call-on-the-stock-after-four-years-47c2fab6?mod=mw_rss_topstories",
+      "published": "Mon, 19 Oct 2026 21:00:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Why the midterm elections are likely to become a strong tailwind for the stock market",
+      "link": "https://www.marketwatch.com/story/why-the-midterm-elections-are-likely-to-become-a-strong-tailwind-for-the-stock-market-3edfca6c?mod=mw_rss_topstories",
+      "published": "Mon, 19 Oct 2026 21:00:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Retiring abroad? Don\u2019t cut these financial ties to the U.S.",
+      "link": "https://www.marketwatch.com/story/retiring-abroad-dont-cut-these-financial-ties-to-the-u-s-5e7e4fc2?mod=mw_rss_topstories",
+      "published": "Mon, 19 Oct 2026 20:33:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Tech stocks had a nice oversold bounce on Monday. Earnings this week will determine if it's for real",
+      "link": "https://www.cnbc.com/2026/10/19/tech-stocks-rebound-meta-tesla-earnings.html",
+      "published": "Mon, 19 Oct 2026 20:57:14 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "OpenAI bugging suspect Alfozan held without bail after Saudi government offers to pay",
+      "link": "https://www.cnbc.com/2026/10/19/openai-bugging-suspect-alfozan-saudi-royal-family.html",
+      "published": "Mon, 19 Oct 2026 20:54:40 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Trump says he'd meet with Putin and Xi, criticizes Zelenskyy",
+      "link": "https://www.cnbc.com/2026/10/19/trump-putin-xi-zelenskyy.html",
+      "published": "Mon, 19 Oct 2026 21:00:02 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Saudi Arabia postpones big investor conference to 2027 as Iran-backed Houthis escalate attacks on kingdom",
+      "link": "https://www.cnbc.com/2026/10/19/saudi-arabia-postpones-fii-investor-conference-to-2027.html",
+      "published": "Mon, 19 Oct 2026 19:37:51 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Apple announces product launch event for Oct. 28. Analysts expect touchscreen laptop",
+      "link": "https://www.cnbc.com/2026/10/19/apple-product-launch-event-oct-28-analysts-expect-touchscreen-laptop.html",
+      "published": "Mon, 19 Oct 2026 19:46:07 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Anthropic is AI trade's last big hope for a major IPO this year",
+      "link": "https://www.cnbc.com/2026/10/19/anthropic-ipo-ai-trade.html",
+      "published": "Mon, 19 Oct 2026 16:42:14 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Google says it can build data centers the right way. Some experts and residents are skeptical",
+      "link": "https://www.cnbc.com/2026/10/19/how-data-centers-are-reshaping-americas-aging-grid-pine-island-minnesota-google.html",
+      "published": "Mon, 19 Oct 2026 21:05:20 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Elon Musk says he'll give a SpaceX share to every child in America next year",
+      "link": "https://www.cnbc.com/2026/10/19/elon-musk-spacex-shares-giveaway-kids.html",
+      "published": "Mon, 19 Oct 2026 16:58:20 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Gartner analyst behind tech rout: AI returns are not yet large enough to justify neocloud build-out",
+      "link": "https://www.cnbc.com/2026/10/19/gartner-analyst-warns-about-ai-neccloud-build-out.html",
+      "published": "Mon, 19 Oct 2026 16:57:16 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "French unrest compounds debt crisis fears. Paris-listed stocks, bonds and the euro fall",
+      "link": "https://www.cnbc.com/2026/10/19/france-protests-bond-yields-markets.html",
+      "published": "Mon, 19 Oct 2026 12:59:13 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "In pictures: More than 500,000 took to the streets as France protests erupted into violence",
+      "link": "https://www.cnbc.com/2026/10/19/france-protests-paris-violence-pictures.html",
+      "published": "Mon, 19 Oct 2026 08:10:26 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "NYSE becomes latest exchange to extend options hours as appetite for around-the-clock trading grows",
+      "link": "https://www.cnbc.com/2026/10/19/nyse-extends-options-trading-hours.html",
+      "published": "Mon, 19 Oct 2026 13:46:50 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Women may be at greater risk of AI job losses. Telephone switch operators and PCs show why",
+      "link": "https://www.cnbc.com/2026/10/19/ai-job-losses-women-automation-risk.html",
+      "published": "Mon, 19 Oct 2026 18:36:21 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Cornell sexual assault case has some prospective students rethinking plans, consultants say",
+      "link": "https://www.cnbc.com/2026/10/19/cornell-sexual-assault-case-concerns-applicants.html",
+      "published": "Mon, 19 Oct 2026 16:17:37 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Robot factories and hypersonic missiles: JPMorgan Chase's first $5 billion of defense investments",
+      "link": "https://www.cnbc.com/2026/10/19/jpmorgan-security-defense-investments.html",
+      "published": "Mon, 19 Oct 2026 12:34:01 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Putin reportedly proposes three-way summit with Trump and Xi on Ukraine war \u2014 without Zelenskyy",
+      "link": "https://www.cnbc.com/2026/10/19/putin-trump-xi-ukraine-war-energy.html",
+      "published": "Mon, 19 Oct 2026 10:36:47 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Boomers are buying into the promise of monthly income from options ETFs, but there's a tax catch",
+      "link": "https://www.cnbc.com/2026/10/18/retirement-income-funds-taxes.html",
+      "published": "Mon, 19 Oct 2026 12:58:03 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Crushed tech stocks bounce \u2014 plus, new doctor survey keeps us positive on Lilly",
+      "link": "https://www.cnbc.com/investingclub/2026/10/19/crushed-tech-stocks-bounce-new-doctor-survey-keeps-us-positive-on-lilly.html",
+      "published": "Mon, 19 Oct 2026 19:13:00 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Why hedge funds could be making a bond market shock more likely",
+      "link": "https://www.cnbc.com/2026/10/18/hedge-funds-bond-market-turmoil.html",
+      "published": "Sun, 18 Oct 2026 06:13:05 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Anthropic commits 5% of shares to new public benefit fund that could address AI job disruption",
+      "link": "https://www.cnbc.com/2026/10/18/anthropic-ai-public-benefit-fund.html",
+      "published": "Mon, 19 Oct 2026 12:33:07 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Bessent warns Zelenskyy to 'be very careful' about claims U.S. is throttling Starlink",
+      "link": "https://www.cnbc.com/2026/10/18/bessent-zelenskyy-starlink-ukarine-war.html",
+      "published": "Sun, 18 Oct 2026 19:37:28 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Roth conversions: When the \u2018juice isn't really worth the squeeze,\u2019 according to a top-ranked advisor",
+      "link": "https://www.cnbc.com/2026/10/18/roth-conversion-2026.html",
+      "published": "Sun, 18 Oct 2026 13:30:01 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Always on, always listening: New AI devices are pushing legal limits and could put users in jeopardy",
+      "link": "https://www.cnbc.com/2026/10/18/ai-wearables-privacy-wiretap-laws.html",
+      "published": "Sun, 18 Oct 2026 12:00:01 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Software\u2019s new consolidator gets big vote of confidence from Berkshire",
+      "link": "https://www.cnbc.com/2026/10/17/bending-spoons-wants-to-revive-software-castoffs-berkshire-investing.html",
+      "published": "Sat, 17 Oct 2026 15:11:30 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Investors are buying up vast tracts of timberland across U.S. in one of market's longest-term bets",
+      "link": "https://www.cnbc.com/2026/10/17/timberland-investing-returns-risk.html",
+      "published": "Sat, 17 Oct 2026 16:31:06 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Trump's student loan overhaul could lead to more bankruptcy filings, former judge says",
+      "link": "https://www.cnbc.com/2026/10/17/trump-student-loans-bankruptcy.html",
+      "published": "Sat, 17 Oct 2026 13:30:01 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "'Everyone laughed' when he started a pumpkin farm\u2014now it brings in $2 million a year",
+      "link": "https://www.cnbc.com/make-it/2026/10/17/great-pumpkin-farm-new-york-2-million-revenue.html",
+      "published": "Sat, 17 Oct 2026 13:00:01 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "China's third-quarter economic growth quickens to 4.5% as exports surge, beating estimates",
+      "link": "https://www.cnbc.com/2026/10/19/chinas-economic-growth-quickens-to-4point6percent-as-exports-surge-stimulus-rolls-out.html",
+      "published": "Mon, 19 Oct 2026 04:36:39 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "China's CXMT shares fall nearly 8% as investors look past chipmaker's profit turnaround",
+      "link": "https://www.cnbc.com/2026/10/19/china-cxmt-profit-outlook-shares.html",
+      "published": "Mon, 19 Oct 2026 07:48:53 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Japanese Prime Minister Takaichi rejects criticism around weak yen and high interest rates",
+      "link": "https://www.cnbc.com/2026/10/19/takaichi-weak-yen-jgb-yields.html",
+      "published": "Mon, 19 Oct 2026 05:29:51 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Nvidia-backed Nscale, Anthropic in talks for new $45 billion AI cloud deal, source says",
+      "link": "https://www.investing.com/news/stock-market-news/nscale-anthropic-in-talks-for-45-billion-cloud-computing-deal-bloomberg-news-reports-4958188",
+      "published": "2026-10-19 21:48:21",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Tradeweb stock rises in volatile trade amid $1.97 billion Trumid deal",
+      "link": "https://www.investing.com/news/stock-market-news/tradeweb-stock-tumbles-11-on-197-billion-trumid-deal-4958331",
+      "published": "2026-10-19 21:48:04",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "US set to announce certification of Boeing 737 MAX 10 Tuesday, sources say",
+      "link": "https://www.investing.com/news/stock-market-news/us-set-to-announce-certification-of-boeing-737-max-10-tuesday-sources-say-4958411",
+      "published": "2026-10-19 21:36:40",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Exclusive-How one hacker used AI agents and a few thousand dollars to break into scores of sites",
+      "link": "https://www.investing.com/news/stock-market-news/exclusivehow-one-hacker-used-ai-agents-and-a-few-thousand-dollars-to-break-into-scores-of-sites-4956846",
+      "published": "2026-10-19 21:36:25",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Mexico stocks higher at close of trade; S&P/BMV IPC up 0.12%",
+      "link": "https://www.investing.com/news/stock-market-news/mexico-stocks-higher-at-close-of-trade-spbmv-ipc-up-012-4958394",
+      "published": "2026-10-19 21:30:03",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Colombia stocks lower at close of trade; COLCAP down 1.75%",
+      "link": "https://www.investing.com/news/stock-market-news/colombia-stocks-lower-at-close-of-trade-colcap-down-175-4958393",
+      "published": "2026-10-19 21:25:03",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "California settles 23andMe data breach claims for $6 million",
+      "link": "https://www.investing.com/news/stock-market-news/california-settles-23andme-data-breach-claims-for-6-million-4958392",
+      "published": "2026-10-19 21:24:37",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Russia stocks higher at close of trade; MOEX Russia Index up 0.10%",
+      "link": "https://www.investing.com/news/stock-market-news/russia-stocks-higher-at-close-of-trade-moex-russia-index-up-010-4958389",
+      "published": "2026-10-19 21:20:03",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Why is Tradeweb Markets stock rising after-hours today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-tradeweb-markets-stock-rising-afterhours-today-93CH-4958385",
+      "published": "2026-10-19 21:13:21",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Why is Bitdeer Technologies stock rallying after the close today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-bitdeer-technologies-stock-rallying-after-the-close-today-93CH-4958384",
+      "published": "2026-10-19 21:13:10",
+      "source": "www.investing.com"
+    }
+  ],
+  "narratives": {
+    "ai_fear": {
+      "count": 0,
+      "examples": []
+    },
+    "ai_efficiency": {
+      "count": 0,
+      "examples": []
+    },
+    "leverage": {
+      "count": 0,
+      "examples": []
+    }
+  }
+}

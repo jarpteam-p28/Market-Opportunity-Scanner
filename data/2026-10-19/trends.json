@@ -1,0 +1,333 @@
+{
+  "date": "2026-10-19",
+  "terms": {
+    "AI chips": {
+      "theme": "AI chips",
+      "last_week": 11.0,
+      "prior_4w": 14.214285714285714,
+      "change": -0.22613065326633164,
+      "peak_3m": 100.0
+    },
+    "Nvidia stock": {
+      "theme": "AI chips",
+      "last_week": 27.857142857142858,
+      "prior_4w": 29.321428571428573,
+      "change": -0.049939098660170544,
+      "peak_3m": 100.0
+    },
+    "data center": {
+      "theme": "AI data centers",
+      "last_week": 39.142857142857146,
+      "prior_4w": 42.25,
+      "change": -0.07354184277261189,
+      "peak_3m": 100.0
+    },
+    "AI data center": {
+      "theme": "AI data centers",
+      "last_week": 11.0,
+      "prior_4w": 15.214285714285714,
+      "change": -0.27699530516431925,
+      "peak_3m": 100.0
+    },
+    "data center power": {
+      "theme": "Power for AI",
+      "last_week": 10.142857142857142,
+      "prior_4w": 13.535714285714286,
+      "change": -0.25065963060686025,
+      "peak_3m": 100.0
+    },
+    "electricity prices": {
+      "theme": "Power for AI",
+      "last_week": 12.857142857142858,
+      "prior_4w": 17.142857142857142,
+      "change": -0.25,
+      "peak_3m": 100.0
+    },
+    "uranium": {
+      "theme": "Nuclear",
+      "last_week": 61.714285714285715,
+      "prior_4w": 69.67857142857143,
+      "change": -0.11430035879036393,
+      "peak_3m": 100.0
+    },
+    "copper price": {
+      "theme": "Copper & grid materials",
+      "last_week": 45.42857142857143,
+      "prior_4w": 54.285714285714285,
+      "change": -0.16315789473684206,
+      "peak_3m": 100.0
+    },
+    "AI agents": {
+      "theme": "AI software",
+      "last_week": 31.857142857142858,
+      "prior_4w": 31.321428571428573,
+      "change": 0.01710376282782211,
+      "peak_3m": 100.0
+    },
+    "memory chip shortage": {
+      "theme": "Memory chips",
+      "last_week": 1.7142857142857142,
+      "prior_4w": 0.6428571428571429,
+      "change": 1.6666666666666665,
+      "peak_3m": 100.0
+    },
+    "AI layoffs": {
+      "theme": "AI efficiency wave",
+      "last_week": 16.428571428571427,
+      "prior_4w": 12.357142857142858,
+      "change": 0.32947976878612706,
+      "peak_3m": 100.0
+    },
+    "meme coin": {
+      "theme": "Crypto",
+      "last_week": 25.857142857142858,
+      "prior_4w": 37.857142857142854,
+      "change": -0.3169811320754716,
+      "peak_3m": 100.0
+    },
+    "silver price": {
+      "theme": "Precious metals",
+      "last_week": 57.42857142857143,
+      "prior_4w": 55.964285714285715,
+      "change": 0.026164645820038412,
+      "peak_3m": 100.0
+    },
+    "humanoid robot": {
+      "theme": "Robotics",
+      "last_week": 20.0,
+      "prior_4w": 22.25,
+      "change": -0.101123595505618,
+      "peak_3m": 100.0
+    }
+  },
+  "consumer": {
+    "coconut water": {
+      "ticker": "COCO",
+      "last_4w": 37.25,
+      "prior_12w": 47.25,
+      "year_avg": 52.05769230769231,
+      "change": -0.21164021164021163,
+      "at_12m_high": false,
+      "yoy_same_season": 0.22131147540983598,
+      "at_5y_high": false
+    },
+    "sweetgreen": {
+      "ticker": "SG",
+      "last_4w": 65.25,
+      "prior_12w": 68.41666666666667,
+      "year_avg": 69.0,
+      "change": -0.04628501827040199,
+      "at_12m_high": false,
+      "yoy_same_season": -0.08421052631578951,
+      "at_5y_high": false
+    },
+    "cava": {
+      "ticker": "CAVA",
+      "last_4w": 76.0,
+      "prior_12w": 81.83333333333333,
+      "year_avg": 81.40384615384616,
+      "change": -0.07128309572301417,
+      "at_12m_high": false,
+      "yoy_same_season": 0.01672240802675584,
+      "at_5y_high": false
+    },
+    "dutch bros": {
+      "ticker": "BROS",
+      "last_4w": 67.25,
+      "prior_12w": 69.0,
+      "year_avg": 70.65384615384616,
+      "change": -0.025362318840579712,
+      "at_12m_high": false,
+      "yoy_same_season": 0.09795918367346945,
+      "at_5y_high": false
+    },
+    "starbucks": {
+      "ticker": "SBUX",
+      "last_4w": 44.25,
+      "prior_12w": 49.333333333333336,
+      "year_avg": 49.07692307692308,
+      "change": -0.10304054054054057,
+      "at_12m_high": false,
+      "yoy_same_season": -0.23376623376623373,
+      "at_5y_high": false
+    },
+    "birkenstock": {
+      "ticker": "BIRK",
+      "last_4w": 43.75,
+      "prior_12w": 53.416666666666664,
+      "year_avg": 55.11538461538461,
+      "change": -0.18096723868954756,
+      "at_12m_high": false,
+      "yoy_same_season": 0.011560693641618602,
+      "at_5y_high": false
+    },
+    "hoka": {
+      "ticker": "DECK",
+      "last_4w": 33.5,
+      "prior_12w": 41.5,
+      "year_avg": 50.07692307692308,
+      "change": -0.19277108433734935,
+      "at_12m_high": false,
+      "yoy_same_season": -0.11258278145695366,
+      "at_5y_high": false
+    },
+    "on running shoes": {
+      "ticker": "ONON",
+      "last_4w": 19.75,
+      "prior_12w": 25.583333333333332,
+      "year_avg": 35.51923076923077,
+      "change": -0.2280130293159609,
+      "at_12m_high": false,
+      "yoy_same_season": 0.06756756756756754,
+      "at_5y_high": false
+    },
+    "crocs": {
+      "ticker": "CROX",
+      "last_4w": 35.5,
+      "prior_12w": 51.833333333333336,
+      "year_avg": 49.96153846153846,
+      "change": -0.3151125401929261,
+      "at_12m_high": false,
+      "yoy_same_season": -0.07189542483660127,
+      "at_5y_high": false
+    },
+    "elf cosmetics": {
+      "ticker": "ELF",
+      "last_4w": 22.0,
+      "prior_12w": 26.25,
+      "year_avg": 29.98076923076923,
+      "change": -0.16190476190476188,
+      "at_12m_high": false,
+      "yoy_same_season": -0.19999999999999996,
+      "at_5y_high": false
+    },
+    "celsius energy drink": {
+      "ticker": "CELH",
+      "last_4w": 16.25,
+      "prior_12w": 19.75,
+      "year_avg": 30.21153846153846,
+      "change": -0.17721518987341767,
+      "at_12m_high": false,
+      "yoy_same_season": -0.32291666666666663,
+      "at_5y_high": false
+    },
+    "swatch": {
+      "ticker": "UHR.SW",
+      "last_4w": 3.0,
+      "prior_12w": 4.333333333333333,
+      "year_avg": 6.519230769230769,
+      "change": -0.3076923076923076,
+      "at_12m_high": false,
+      "yoy_same_season": 0.19999999999999996,
+      "at_5y_high": false
+    },
+    "ozempic": {
+      "ticker": "NVO",
+      "last_4w": 29.5,
+      "prior_12w": 38.0,
+      "year_avg": 45.25,
+      "change": -0.22368421052631582,
+      "at_12m_high": false,
+      "yoy_same_season": -0.3979591836734694,
+      "at_5y_high": false
+    },
+    "hims": {
+      "ticker": "HIMS",
+      "last_4w": 30.5,
+      "prior_12w": 36.166666666666664,
+      "year_avg": 43.17307692307692,
+      "change": -0.15668202764976957,
+      "at_12m_high": false,
+      "yoy_same_season": -0.35449735449735453,
+      "at_5y_high": false
+    },
+    "robinhood": {
+      "ticker": "HOOD",
+      "last_4w": 32.75,
+      "prior_12w": 40.75,
+      "year_avg": 43.88461538461539,
+      "change": -0.19631901840490795,
+      "at_12m_high": false,
+      "yoy_same_season": -0.31413612565445026,
+      "at_5y_high": false
+    },
+    "pokemon cards": {
+      "ticker": "NTDOY",
+      "last_4w": 79.25,
+      "prior_12w": 78.75,
+      "year_avg": 72.57692307692308,
+      "change": 0.006349206349206327,
+      "at_12m_high": false,
+      "yoy_same_season": 0.7322404371584699,
+      "at_5y_high": false
+    },
+    "gta 6": {
+      "ticker": "TTWO",
+      "last_4w": 24.75,
+      "prior_12w": 23.666666666666668,
+      "year_avg": 15.51923076923077,
+      "change": 0.045774647887323994,
+      "at_12m_high": false,
+      "yoy_same_season": 2.3,
+      "at_5y_high": false
+    },
+    "labubu": {
+      "ticker": "9992.HK",
+      "last_4w": 2.75,
+      "prior_12w": 3.3333333333333335,
+      "year_avg": 10.173076923076923,
+      "change": -0.17500000000000004,
+      "at_12m_high": false,
+      "yoy_same_season": -0.9105691056910569,
+      "at_5y_high": false
+    },
+    "uggs": {
+      "ticker": "DECK",
+      "last_4w": 23.0,
+      "prior_12w": 8.583333333333334,
+      "year_avg": 17.0,
+      "change": 1.6796116504854366,
+      "at_12m_high": false,
+      "yoy_same_season": -0.15596330275229353,
+      "at_5y_high": false
+    },
+    "barbie": {
+      "ticker": "MAT",
+      "last_4w": 3.25,
+      "prior_12w": 3.0,
+      "year_avg": 3.4615384615384617,
+      "change": 0.08333333333333326,
+      "at_12m_high": false,
+      "yoy_same_season": -0.1333333333333333,
+      "at_5y_high": false
+    },
+    "build a bear": {
+      "ticker": "BBW",
+      "last_4w": 42.75,
+      "prior_12w": 57.166666666666664,
+      "year_avg": 47.23076923076923,
+      "change": -0.25218658892128276,
+      "at_12m_high": false,
+      "yoy_same_season": 0.08917197452229297,
+      "at_5y_high": false
+    }
+  },
+  "errors": [
+    "nuclear energy: The request failed: Google returned a response with code 429",
+    "data center water: The request failed: Google returned a response with code 429",
+    "water shortage: The request failed: Google returned a response with code 429",
+    "liquid cooling: The request failed: Google returned a response with code 429",
+    "bitcoin: The request failed: Google returned a response with code 429",
+    "XRP: The request failed: Google returned a response with code 429",
+    "buy gold: The request failed: Google returned a response with code 429",
+    "discovery sold out: The request failed: Google returned a response with code 429",
+    "discovery restock: The request failed: Google returned a response with code 429",
+    "discovery dupe: The request failed: Google returned a response with code 429",
+    "discovery viral: The request failed: Google returned a response with code 429",
+    "discovery new flavor: The request failed: Google returned a response with code 429",
+    "discovery where to buy: The request failed: Google returned a response with code 429",
+    "discovery shortage: The request failed: Google returned a response with code 429",
+    "discovery waitlist: The request failed: Google returned a response with code 429"
+  ],
+  "discovery": {}
+}

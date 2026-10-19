@@ -1,0 +1,836 @@
+{
+  "date": "2026-10-19",
+  "authed": false,
+  "n_posts": 0,
+  "errors": [
+    "stocks/hot: 403 Client Error: Blocked for url: https://www.reddit.com/r/stocks/hot.json?limit=100",
+    "stocks/new: 403 Client Error: Blocked for url: https://www.reddit.com/r/stocks/new.json?limit=100",
+    "investing/hot: 403 Client Error: Blocked for url: https://www.reddit.com/r/investing/hot.json?limit=100",
+    "investing/new: 403 Client Error: Blocked for url: https://www.reddit.com/r/investing/new.json?limit=100",
+    "wallstreetbets/hot: 403 Client Error: Blocked for url: https://www.reddit.com/r/wallstreetbets/hot.json?limit=100",
+    "wallstreetbets/new: 403 Client Error: Blocked for url: https://www.reddit.com/r/wallstreetbets/new.json?limit=100",
+    "StockMarket/hot: 403 Client Error: Blocked for url: https://www.reddit.com/r/StockMarket/hot.json?limit=100",
+    "StockMarket/new: 403 Client Error: Blocked for url: https://www.reddit.com/r/StockMarket/new.json?limit=100",
+    "options/hot: 403 Client Error: Blocked for url: https://www.reddit.com/r/options/hot.json?limit=100",
+    "options/new: 403 Client Error: Blocked for url: https://www.reddit.com/r/options/new.json?limit=100",
+    "SecurityAnalysis/hot: 403 Client Error: Blocked for url: https://www.reddit.com/r/SecurityAnalysis/hot.json?limit=100",
+    "SecurityAnalysis/new: 403 Client Error: Blocked for url: https://www.reddit.com/r/SecurityAnalysis/new.json?limit=100",
+    "energy/hot: 403 Client Error: Blocked for url: https://www.reddit.com/r/energy/hot.json?limit=100",
+    "energy/new: 403 Client Error: Blocked for url: https://www.reddit.com/r/energy/new.json?limit=100",
+    "nuclear/hot: 403 Client Error: Blocked for url: https://www.reddit.com/r/nuclear/hot.json?limit=100",
+    "nuclear/new: 403 Client Error: Blocked for url: https://www.reddit.com/r/nuclear/new.json?limit=100",
+    "ExperiencedDevs/hot: 403 Client Error: Blocked for url: https://www.reddit.com/r/ExperiencedDevs/hot.json?limit=100",
+    "ExperiencedDevs/new: 403 Client Error: Blocked for url: https://www.reddit.com/r/ExperiencedDevs/new.json?limit=100",
+    "sysadmin/hot: 403 Client Error: Blocked for url: https://www.reddit.com/r/sysadmin/hot.json?limit=100",
+    "sysadmin/new: 403 Client Error: Blocked for url: https://www.reddit.com/r/sysadmin/new.json?limit=100",
+    "devops/hot: 403 Client Error: Blocked for url: https://www.reddit.com/r/devops/hot.json?limit=100",
+    "devops/new: 403 Client Error: Blocked for url: https://www.reddit.com/r/devops/new.json?limit=100",
+    "cscareerquestions/hot: 403 Client Error: Blocked for url: https://www.reddit.com/r/cscareerquestions/hot.json?limit=100",
+    "cscareerquestions/new: 403 Client Error: Blocked for url: https://www.reddit.com/r/cscareerquestions/new.json?limit=100",
+    "MachineLearning/hot: 403 Client Error: Blocked for url: https://www.reddit.com/r/MachineLearning/hot.json?limit=100",
+    "MachineLearning/new: 403 Client Error: Blocked for url: https://www.reddit.com/r/MachineLearning/new.json?limit=100",
+    "LocalLLaMA/hot: 403 Client Error: Blocked for url: https://www.reddit.com/r/LocalLLaMA/hot.json?limit=100",
+    "LocalLLaMA/new: 403 Client Error: Blocked for url: https://www.reddit.com/r/LocalLLaMA/new.json?limit=100",
+    "ITManagers/hot: 403 Client Error: Blocked for url: https://www.reddit.com/r/ITManagers/hot.json?limit=100",
+    "ITManagers/new: 403 Client Error: Blocked for url: https://www.reddit.com/r/ITManagers/new.json?limit=100",
+    "dataengineering/hot: 403 Client Error: Blocked for url: https://www.reddit.com/r/dataengineering/hot.json?limit=100",
+    "dataengineering/new: 403 Client Error: Blocked for url: https://www.reddit.com/r/dataengineering/new.json?limit=100",
+    "SkincareAddiction/hot: 403 Client Error: Blocked for url: https://www.reddit.com/r/SkincareAddiction/hot.json?limit=100",
+    "SkincareAddiction/new: 403 Client Error: Blocked for url: https://www.reddit.com/r/SkincareAddiction/new.json?limit=100",
+    "MakeupAddiction/hot: 403 Client Error: Blocked for url: https://www.reddit.com/r/MakeupAddiction/hot.json?limit=100",
+    "MakeupAddiction/new: 403 Client Error: Blocked for url: https://www.reddit.com/r/MakeupAddiction/new.json?limit=100",
+    "femalefashionadvice/hot: 403 Client Error: Blocked for url: https://www.reddit.com/r/femalefashionadvice/hot.json?limit=100",
+    "femalefashionadvice/new: 403 Client Error: Blocked for url: https://www.reddit.com/r/femalefashionadvice/new.json?limit=100",
+    "Sneakers/hot: 403 Client Error: Blocked for url: https://www.reddit.com/r/Sneakers/hot.json?limit=100",
+    "Sneakers/new: 403 Client Error: Blocked for url: https://www.reddit.com/r/Sneakers/new.json?limit=100",
+    "fragrance/hot: 403 Client Error: Blocked for url: https://www.reddit.com/r/fragrance/hot.json?limit=100",
+    "fragrance/new: 403 Client Error: Blocked for url: https://www.reddit.com/r/fragrance/new.json?limit=100",
+    "gaming/hot: 403 Client Error: Blocked for url: https://www.reddit.com/r/gaming/hot.json?limit=100",
+    "gaming/new: 403 Client Error: Blocked for url: https://www.reddit.com/r/gaming/new.json?limit=100",
+    "Costco/hot: 403 Client Error: Blocked for url: https://www.reddit.com/r/Costco/hot.json?limit=100",
+    "Costco/new: 403 Client Error: Blocked for url: https://www.reddit.com/r/Costco/new.json?limit=100",
+    "traderjoes/hot: 403 Client Error: Blocked for url: https://www.reddit.com/r/traderjoes/hot.json?limit=100",
+    "traderjoes/new: 403 Client Error: Blocked for url: https://www.reddit.com/r/traderjoes/new.json?limit=100",
+    "fastfood/hot: 403 Client Error: Blocked for url: https://www.reddit.com/r/fastfood/hot.json?limit=100",
+    "fastfood/new: 403 Client Error: Blocked for url: https://www.reddit.com/r/fastfood/new.json?limit=100",
+    "BuyItForLife/hot: 403 Client Error: Blocked for url: https://www.reddit.com/r/BuyItForLife/hot.json?limit=100",
+    "BuyItForLife/new: 403 Client Error: Blocked for url: https://www.reddit.com/r/BuyItForLife/new.json?limit=100",
+    "Frugal/hot: 403 Client Error: Blocked for url: https://www.reddit.com/r/Frugal/hot.json?limit=100",
+    "Frugal/new: 403 Client Error: Blocked for url: https://www.reddit.com/r/Frugal/new.json?limit=100",
+    "popculturechat/hot: 403 Client Error: Blocked for url: https://www.reddit.com/r/popculturechat/hot.json?limit=100",
+    "popculturechat/new: 403 Client Error: Blocked for url: https://www.reddit.com/r/popculturechat/new.json?limit=100"
+  ],
+  "theme_counts": {
+    "AI chips": 0,
+    "AI data centers": 0,
+    "Power for AI": 0,
+    "Nuclear": 0,
+    "Water": 0,
+    "Cooling": 0,
+    "Copper & grid materials": 0,
+    "AI software": 0,
+    "Memory chips": 0,
+    "AI efficiency wave": 0,
+    "Distribution moats": 0,
+    "Crypto": 0,
+    "Precious metals": 0,
+    "Robotics": 0
+  },
+  "theme_top_posts": {
+    "AI chips": [],
+    "AI data centers": [],
+    "Power for AI": [],
+    "Nuclear": [],
+    "Water": [],
+    "Cooling": [],
+    "Copper & grid materials": [],
+    "AI software": [],
+    "Memory chips": [],
+    "AI efficiency wave": [],
+    "Distribution moats": [],
+    "Crypto": [],
+    "Precious metals": [],
+    "Robotics": []
+  },
+  "top_tickers": [
+    [
+      "SPY",
+      213
+    ],
+    [
+      "CRWV",
+      165
+    ],
+    [
+      "QQQ",
+      159
+    ],
+    [
+      "MU",
+      157
+    ],
+    [
+      "NBIS",
+      123
+    ],
+    [
+      "DTE",
+      86
+    ],
+    [
+      "TSLA",
+      84
+    ],
+    [
+      "AMZN",
+      66
+    ],
+    [
+      "NVDA",
+      65
+    ],
+    [
+      "SPCX",
+      64
+    ],
+    [
+      "META",
+      52
+    ],
+    [
+      "SOXL",
+      50
+    ],
+    [
+      "ET",
+      45
+    ],
+    [
+      "SNDK",
+      44
+    ],
+    [
+      "AMD",
+      43
+    ],
+    [
+      "VOO",
+      33
+    ],
+    [
+      "IREN",
+      31
+    ],
+    [
+      "APLD",
+      31
+    ],
+    [
+      "GOOGL",
+      29
+    ],
+    [
+      "AM",
+      26
+    ],
+    [
+      "GOOG",
+      23
+    ],
+    [
+      "GLD",
+      21
+    ],
+    [
+      "RIVN",
+      21
+    ],
+    [
+      "MSFT",
+      20
+    ],
+    [
+      "IT",
+      20
+    ],
+    [
+      "ASTS",
+      20
+    ],
+    [
+      "ORCL",
+      19
+    ],
+    [
+      "NFLX",
+      19
+    ],
+    [
+      "TCRT",
+      18
+    ],
+    [
+      "AVGO",
+      17
+    ],
+    [
+      "TQQQ",
+      17
+    ],
+    [
+      "RKLB",
+      17
+    ],
+    [
+      "AAPL",
+      15
+    ],
+    [
+      "IBKR",
+      15
+    ],
+    [
+      "SGOV",
+      15
+    ],
+    [
+      "USO",
+      14
+    ],
+    [
+      "GME",
+      14
+    ],
+    [
+      "EU",
+      14
+    ],
+    [
+      "MRNA",
+      12
+    ],
+    [
+      "WTI",
+      12
+    ]
+  ],
+  "narratives": {
+    "ai_fear": {
+      "all": 0,
+      "ground_truth": 0,
+      "examples": []
+    },
+    "ai_efficiency": {
+      "all": 0,
+      "ground_truth": 0,
+      "examples": []
+    },
+    "leverage": {
+      "all": 0,
+      "ground_truth": 0,
+      "examples": []
+    }
+  },
+  "brands": {
+    "coconut water": {
+      "mentions": 0,
+      "scare": 0,
+      "scare_examples": []
+    },
+    "sweetgreen": {
+      "mentions": 0,
+      "scare": 0,
+      "scare_examples": []
+    },
+    "cava": {
+      "mentions": 0,
+      "scare": 0,
+      "scare_examples": []
+    },
+    "dutch bros": {
+      "mentions": 0,
+      "scare": 0,
+      "scare_examples": []
+    },
+    "starbucks": {
+      "mentions": 0,
+      "scare": 0,
+      "scare_examples": []
+    },
+    "birkenstock": {
+      "mentions": 0,
+      "scare": 0,
+      "scare_examples": []
+    },
+    "hoka": {
+      "mentions": 0,
+      "scare": 0,
+      "scare_examples": []
+    },
+    "on running shoes": {
+      "mentions": 0,
+      "scare": 0,
+      "scare_examples": []
+    },
+    "crocs": {
+      "mentions": 0,
+      "scare": 0,
+      "scare_examples": []
+    },
+    "elf cosmetics": {
+      "mentions": 0,
+      "scare": 0,
+      "scare_examples": []
+    },
+    "celsius energy drink": {
+      "mentions": 0,
+      "scare": 0,
+      "scare_examples": []
+    },
+    "swatch": {
+      "mentions": 0,
+      "scare": 0,
+      "scare_examples": []
+    },
+    "ozempic": {
+      "mentions": 0,
+      "scare": 0,
+      "scare_examples": []
+    },
+    "hims": {
+      "mentions": 0,
+      "scare": 0,
+      "scare_examples": []
+    },
+    "robinhood": {
+      "mentions": 0,
+      "scare": 0,
+      "scare_examples": []
+    },
+    "pokemon cards": {
+      "mentions": 0,
+      "scare": 0,
+      "scare_examples": []
+    },
+    "gta 6": {
+      "mentions": 0,
+      "scare": 0,
+      "scare_examples": []
+    },
+    "labubu": {
+      "mentions": 0,
+      "scare": 0,
+      "scare_examples": []
+    },
+    "uggs": {
+      "mentions": 0,
+      "scare": 0,
+      "scare_examples": []
+    },
+    "barbie": {
+      "mentions": 0,
+      "scare": 0,
+      "scare_examples": []
+    },
+    "build a bear": {
+      "mentions": 0,
+      "scare": 0,
+      "scare_examples": []
+    }
+  },
+  "discovery": [],
+  "n_ground_truth_posts": 0,
+  "apewisdom": [
+    {
+      "ticker": "SPY",
+      "name": "SPDR S&amp;P 500 ETF Trust",
+      "mentions": 213,
+      "mentions_24h_ago": 73,
+      "upvotes": 3310,
+      "rank": 1,
+      "rank_24h_ago": 2
+    },
+    {
+      "ticker": "CRWV",
+      "name": "CoreWeave",
+      "mentions": 165,
+      "mentions_24h_ago": 31,
+      "upvotes": 264,
+      "rank": 2,
+      "rank_24h_ago": 7
+    },
+    {
+      "ticker": "QQQ",
+      "name": "Invesco QQQ ETF",
+      "mentions": 159,
+      "mentions_24h_ago": 43,
+      "upvotes": 221,
+      "rank": 3,
+      "rank_24h_ago": 5
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron Technology",
+      "mentions": 157,
+      "mentions_24h_ago": 60,
+      "upvotes": 977,
+      "rank": 4,
+      "rank_24h_ago": 1
+    },
+    {
+      "ticker": "NBIS",
+      "name": "Nebius Group",
+      "mentions": 123,
+      "mentions_24h_ago": 46,
+      "upvotes": 247,
+      "rank": 5,
+      "rank_24h_ago": 4
+    },
+    {
+      "ticker": "DTE",
+      "name": "DTE Energy",
+      "mentions": 86,
+      "mentions_24h_ago": 34,
+      "upvotes": 3445,
+      "rank": 6,
+      "rank_24h_ago": 8
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "mentions": 84,
+      "mentions_24h_ago": 23,
+      "upvotes": 171,
+      "rank": 7,
+      "rank_24h_ago": 20
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "mentions": 66,
+      "mentions_24h_ago": 26,
+      "upvotes": 602,
+      "rank": 8,
+      "rank_24h_ago": 13
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "mentions": 65,
+      "mentions_24h_ago": 44,
+      "upvotes": 457,
+      "rank": 9,
+      "rank_24h_ago": 3
+    },
+    {
+      "ticker": "SPCX",
+      "name": "SpaceX",
+      "mentions": 64,
+      "mentions_24h_ago": 24,
+      "upvotes": 200,
+      "rank": 10,
+      "rank_24h_ago": 18
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms (Facebook)",
+      "mentions": 52,
+      "mentions_24h_ago": 23,
+      "upvotes": 650,
+      "rank": 11,
+      "rank_24h_ago": 17
+    },
+    {
+      "ticker": "SOXL",
+      "name": "Direxion Shares ETF Trust - Direxion Daily Semiconductor Bull 3X Share",
+      "mentions": 50,
+      "mentions_24h_ago": 19,
+      "upvotes": 83,
+      "rank": 12,
+      "rank_24h_ago": 21
+    },
+    {
+      "ticker": "ET",
+      "name": "Energy Transfer Partners",
+      "mentions": 45,
+      "mentions_24h_ago": 13,
+      "upvotes": 66,
+      "rank": 13,
+      "rank_24h_ago": 35
+    },
+    {
+      "ticker": "SNDK",
+      "name": "Sandisk",
+      "mentions": 44,
+      "mentions_24h_ago": 27,
+      "upvotes": 126,
+      "rank": 14,
+      "rank_24h_ago": 12
+    },
+    {
+      "ticker": "AMD",
+      "name": "AMD",
+      "mentions": 43,
+      "mentions_24h_ago": 31,
+      "upvotes": 54,
+      "rank": 15,
+      "rank_24h_ago": 11
+    },
+    {
+      "ticker": "VOO",
+      "name": "Vanguard S&amp;P 500 ETF",
+      "mentions": 33,
+      "mentions_24h_ago": 29,
+      "upvotes": 169,
+      "rank": 16,
+      "rank_24h_ago": 6
+    },
+    {
+      "ticker": "IREN",
+      "name": "Iris Energy",
+      "mentions": 31,
+      "mentions_24h_ago": 12,
+      "upvotes": 65,
+      "rank": 17,
+      "rank_24h_ago": 30
+    },
+    {
+      "ticker": "APLD",
+      "name": "Applied Blockchain",
+      "mentions": 31,
+      "mentions_24h_ago": 6,
+      "upvotes": 211,
+      "rank": 18,
+      "rank_24h_ago": 48
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet (Google)",
+      "mentions": 29,
+      "mentions_24h_ago": 18,
+      "upvotes": 376,
+      "rank": 19,
+      "rank_24h_ago": 24
+    },
+    {
+      "ticker": "AM",
+      "name": "Antero Midstream",
+      "mentions": 26,
+      "mentions_24h_ago": 4,
+      "upvotes": 154,
+      "rank": 20,
+      "rank_24h_ago": 69
+    },
+    {
+      "ticker": "GOOG",
+      "name": "Alphabet (Google)",
+      "mentions": 23,
+      "mentions_24h_ago": 16,
+      "upvotes": 71,
+      "rank": 21,
+      "rank_24h_ago": 22
+    },
+    {
+      "ticker": "GLD",
+      "name": "SSgA SPDR Gold Shares",
+      "mentions": 21,
+      "mentions_24h_ago": 1,
+      "upvotes": 2830,
+      "rank": 22,
+      "rank_24h_ago": 475
+    },
+    {
+      "ticker": "RIVN",
+      "name": "Rivian",
+      "mentions": 21,
+      "mentions_24h_ago": 0,
+      "upvotes": 35,
+      "rank": 23,
+      "rank_24h_ago": 647
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "mentions": 20,
+      "mentions_24h_ago": 37,
+      "upvotes": 360,
+      "rank": 24,
+      "rank_24h_ago": 9
+    },
+    {
+      "ticker": "IT",
+      "name": "Gartner",
+      "mentions": 20,
+      "mentions_24h_ago": 12,
+      "upvotes": 623,
+      "rank": 25,
+      "rank_24h_ago": 34
+    },
+    {
+      "ticker": "ASTS",
+      "name": "AST SpaceMobile",
+      "mentions": 20,
+      "mentions_24h_ago": 37,
+      "upvotes": 109,
+      "rank": 26,
+      "rank_24h_ago": 16
+    },
+    {
+      "ticker": "ORCL",
+      "name": "Oracle",
+      "mentions": 19,
+      "mentions_24h_ago": 6,
+      "upvotes": 35,
+      "rank": 27,
+      "rank_24h_ago": 54
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Netflix",
+      "mentions": 19,
+      "mentions_24h_ago": 4,
+      "upvotes": 29,
+      "rank": 28,
+      "rank_24h_ago": 63
+    },
+    {
+      "ticker": "TCRT",
+      "name": "Alaunos Therapeutics",
+      "mentions": 18,
+      "mentions_24h_ago": 0,
+      "upvotes": 44,
+      "rank": 29,
+      "rank_24h_ago": 700
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom",
+      "mentions": 17,
+      "mentions_24h_ago": 26,
+      "upvotes": 35,
+      "rank": 30,
+      "rank_24h_ago": 15
+    },
+    {
+      "ticker": "TQQQ",
+      "name": "ProShares Trust - ProShares UltraPro QQQ",
+      "mentions": 17,
+      "mentions_24h_ago": 4,
+      "upvotes": 2820,
+      "rank": 31,
+      "rank_24h_ago": 88
+    },
+    {
+      "ticker": "RKLB",
+      "name": "Rocket Lab USA",
+      "mentions": 17,
+      "mentions_24h_ago": 27,
+      "upvotes": 36,
+      "rank": 32,
+      "rank_24h_ago": 19
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Apple",
+      "mentions": 15,
+      "mentions_24h_ago": 9,
+      "upvotes": 320,
+      "rank": 33,
+      "rank_24h_ago": 40
+    },
+    {
+      "ticker": "IBKR",
+      "name": "Interactive Brokers",
+      "mentions": 15,
+      "mentions_24h_ago": 2,
+      "upvotes": 26,
+      "rank": 34,
+      "rank_24h_ago": 107
+    },
+    {
+      "ticker": "SGOV",
+      "name": "iShares Trust - iShares 0-3 Month Treasury Bond ETF",
+      "mentions": 15,
+      "mentions_24h_ago": 14,
+      "upvotes": 33,
+      "rank": 35,
+      "rank_24h_ago": 39
+    },
+    {
+      "ticker": "USO",
+      "name": "United States Commodity Funds LLC - United States Oil Fund",
+      "mentions": 14,
+      "mentions_24h_ago": 2,
+      "upvotes": 16,
+      "rank": 36,
+      "rank_24h_ago": 447
+    },
+    {
+      "ticker": "GME",
+      "name": "GameStop",
+      "mentions": 14,
+      "mentions_24h_ago": 20,
+      "upvotes": 117,
+      "rank": 37,
+      "rank_24h_ago": 23
+    },
+    {
+      "ticker": "EU",
+      "name": "enCore Energy",
+      "mentions": 14,
+      "mentions_24h_ago": 37,
+      "upvotes": 48,
+      "rank": 38,
+      "rank_24h_ago": 10
+    },
+    {
+      "ticker": "MRNA",
+      "name": "Moderna",
+      "mentions": 12,
+      "mentions_24h_ago": 3,
+      "upvotes": 14,
+      "rank": 39,
+      "rank_24h_ago": 67
+    },
+    {
+      "ticker": "WTI",
+      "name": "W&amp;T Offshore",
+      "mentions": 12,
+      "mentions_24h_ago": 2,
+      "upvotes": 30,
+      "rank": 40,
+      "rank_24h_ago": 336
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "mentions": 12,
+      "mentions_24h_ago": 9,
+      "upvotes": 14,
+      "rank": 41,
+      "rank_24h_ago": 42
+    },
+    {
+      "ticker": "CD",
+      "name": "Chindata",
+      "mentions": 12,
+      "mentions_24h_ago": 7,
+      "upvotes": 29,
+      "rank": 42,
+      "rank_24h_ago": 53
+    },
+    {
+      "ticker": "CBRS",
+      "name": "Cerebras Systems",
+      "mentions": 12,
+      "mentions_24h_ago": 10,
+      "upvotes": 19,
+      "rank": 43,
+      "rank_24h_ago": 62
+    },
+    {
+      "ticker": "ALL",
+      "name": "Allstate",
+      "mentions": 10,
+      "mentions_24h_ago": 4,
+      "upvotes": 46,
+      "rank": 44,
+      "rank_24h_ago": 56
+    },
+    {
+      "ticker": "VT",
+      "name": "Vanguard Group, Inc. - Vanguard Total World Stock ETF",
+      "mentions": 10,
+      "mentions_24h_ago": 15,
+      "upvotes": 46,
+      "rank": 45,
+      "rank_24h_ago": 25
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Robinhood",
+      "mentions": 10,
+      "mentions_24h_ago": 3,
+      "upvotes": 16,
+      "rank": 46,
+      "rank_24h_ago": 59
+    },
+    {
+      "ticker": "ES",
+      "name": "Eversource Energy",
+      "mentions": 9,
+      "mentions_24h_ago": 3,
+      "upvotes": 27,
+      "rank": 47,
+      "rank_24h_ago": 77
+    },
+    {
+      "ticker": "VXUS",
+      "name": "Vanguard Group, Inc. - Vanguard Total International Stock ETF",
+      "mentions": 9,
+      "mentions_24h_ago": 4,
+      "upvotes": 19,
+      "rank": 48,
+      "rank_24h_ago": 36
+    },
+    {
+      "ticker": "UP",
+      "name": "Wheels Up",
+      "mentions": 9,
+      "mentions_24h_ago": 3,
+      "upvotes": 610,
+      "rank": 49,
+      "rank_24h_ago": 123
+    },
+    {
+      "ticker": "SO",
+      "name": "Southern Company",
+      "mentions": 8,
+      "mentions_24h_ago": 1,
+      "upvotes": 3,
+      "rank": 50,
+      "rank_24h_ago": 214
+    }
+  ],
+  "source": "apewisdom"
+}
