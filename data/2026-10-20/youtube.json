@@ -1,0 +1,254 @@
+{
+  "date": "2026-10-20",
+  "terms": {
+    "coconut water": {
+      "ticker": "COCO",
+      "videos": 5,
+      "views_30d_top5": 313983,
+      "comments_read": 80,
+      "intent_per_100": 5.0,
+      "scare_per_100": 1.2,
+      "examples": [
+        "such a great point about the potassium layout. from what i\u2019ve researched, it\u2019s an amazing hydration tool for anyone with healthy kidneys, but can be a literal e",
+        "been drinking this water since i was a kid! i don\u2019t care what these scientific studies show! i am 66 right now and i have no health problems. unfortunately your",
+        "i take losarten (potassium ), 100 mg. and amlodipine 5mg for bp issues. i'm a 74 year old african american female. i\u2019ve on the amlodipine for 1 year and recentl"
+      ]
+    },
+    "sweetgreen": {
+      "ticker": "SG",
+      "videos": 5,
+      "views_30d_top5": 2152,
+      "comments_read": 1,
+      "intent_per_100": 0.0,
+      "scare_per_100": 0.0,
+      "examples": []
+    },
+    "cava": {
+      "ticker": "CAVA",
+      "videos": 5,
+      "views_30d_top5": 880850,
+      "comments_read": 451,
+      "intent_per_100": 0.0,
+      "scare_per_100": 0.0,
+      "examples": []
+    },
+    "dutch bros": {
+      "ticker": "BROS",
+      "videos": 5,
+      "views_30d_top5": 256239,
+      "comments_read": 157,
+      "intent_per_100": 5.7,
+      "scare_per_100": 0.6,
+      "examples": [
+        "i had really low blood sugar one day and in a desperate move got a mango smoothie from dutch bros. i farted more that day than any other day in my entire life (",
+        "also, you didn't mention that dutch bros just announced they are buying up all the salad & go locations that recently closed down. there were like 150 locations",
+        "dutch bros\u2019 billionaire co-founder tried to push through a private casino-style gambling operation in oregon that tribes said would undermine tribal gaming righ"
+      ]
+    },
+    "starbucks": {
+      "ticker": "SBUX",
+      "videos": 5,
+      "views_30d_top5": 361495,
+      "comments_read": 276,
+      "intent_per_100": 3.3,
+      "scare_per_100": 2.2,
+      "examples": [
+        "u can record all u want but it becomes illegal when u post it online",
+        "the one on 71st and stony island street in chicago often has a line spilling out into street!",
+        "starbucks is simply doing what a lot of other businesses are doing: closing unprofitable stores. my hometown, prior to 2025, had four starbucks (three freestand"
+      ]
+    },
+    "birkenstock": {
+      "ticker": "BIRK",
+      "videos": 5,
+      "views_30d_top5": 10088,
+      "comments_read": 9,
+      "intent_per_100": 0.0,
+      "scare_per_100": 0.0,
+      "examples": []
+    },
+    "hoka": {
+      "ticker": "DECK",
+      "videos": 5,
+      "views_30d_top5": 142708,
+      "comments_read": 136,
+      "intent_per_100": 10.3,
+      "scare_per_100": 0.0,
+      "examples": [
+        "i\u2019m obsessed with my hokas! nothing else even comes close in comparison for me.",
+        "gone through 2 pair of arahi 8's this year with no real issues apart from they wear out quickly. moved to the clifton 10 and the sole is already wearing fast af",
+        "hoka makes wide sizes which is good for my foot.  on doesn't make them in wide and they are very uncomfortable for me.   i just bought my first pair of hokas an"
+      ]
+    },
+    "on running shoes": {
+      "ticker": "ONON",
+      "videos": 5,
+      "views_30d_top5": 7196964,
+      "comments_read": 134,
+      "intent_per_100": 0.7,
+      "scare_per_100": 0.7,
+      "examples": [
+        "i don't see any of the mizuno hyper warp line and those shoes are absolutely top tier i would say mainly for more tempo and race days",
+        "i met this dude in real life. he\u2019s like a really healthy cancer patient."
+      ]
+    },
+    "crocs": {
+      "ticker": "CROX",
+      "videos": 5,
+      "views_30d_top5": 945738,
+      "comments_read": 253,
+      "intent_per_100": 0.4,
+      "scare_per_100": 0.0,
+      "examples": [
+        "don't go to dollar tree then \ud83d\ude02 i bought a pair a few years back and they're still functional!"
+      ]
+    },
+    "elf cosmetics": {
+      "ticker": "ELF",
+      "videos": 5,
+      "views_30d_top5": 5371921,
+      "comments_read": 85,
+      "intent_per_100": 2.4,
+      "scare_per_100": 0.0,
+      "examples": [
+        "i look forward to your uploads! you truly teach us so much!! elf is such a great cosmetics line.",
+        "the video i need it!"
+      ]
+    },
+    "celsius energy drink": {
+      "ticker": "CELH",
+      "videos": 5,
+      "views_30d_top5": 109866,
+      "comments_read": 48,
+      "intent_per_100": 0.0,
+      "scare_per_100": 0.0,
+      "examples": []
+    },
+    "swatch": {
+      "ticker": "UHR.SW",
+      "videos": 5,
+      "views_30d_top5": 401424,
+      "comments_read": 280,
+      "intent_per_100": 5.0,
+      "scare_per_100": 2.1,
+      "examples": [
+        "omega would benefit if they thoughtfully trimmed their product lines.",
+        "swatch group has experienced a decline, but as an experienced investor, i view the claim that it is \u201cin big trouble\u201d as clickbait. profitability weakened in the",
+        "its weird i was just looking for a longines hydroquest blue and black dial. i bought a mido blue big date and its super accurate and well made that i also bout "
+      ]
+    },
+    "ozempic": {
+      "ticker": "NVO",
+      "videos": 5,
+      "views_30d_top5": 496625,
+      "comments_read": 205,
+      "intent_per_100": 2.0,
+      "scare_per_100": 1.0,
+      "examples": [
+        "this is a fairly well-researched overview of semaglutide, and i appreciate that it examines both the clinical benefits and serious safety concerns. the step, se",
+        "the worst side affect i had on mounjano was nausea/vomiting on 5mg  so was decreased back to 2.5 been on for about 13 mos. and lost roughly 53 lbs granted i'm o",
+        "after taking it for a year, it started losing its effectiveness. but up to that point i'd lost about 30 pounds. it's a matter of self-discipline for you after t"
+      ]
+    },
+    "hims": {
+      "ticker": "HIMS",
+      "videos": 5,
+      "views_30d_top5": 21388,
+      "comments_read": 16,
+      "intent_per_100": 0.0,
+      "scare_per_100": 0.0,
+      "examples": []
+    },
+    "robinhood": {
+      "ticker": "HOOD",
+      "videos": 5,
+      "views_30d_top5": 2298149,
+      "comments_read": 86,
+      "intent_per_100": 4.7,
+      "scare_per_100": 1.2,
+      "examples": [
+        "i know they did memorize all the lines and and they did rehearse that many times, but it's sooooooooooo fake, everyone sounds like a scripted bot, maybe beside ",
+        "look at the upcoming flex elite card, it\u2019s basically a better alternative to the rh gold card and would complement rh platinum nicely.  ignore the 5 percent hea",
+        "robinhood froze people from buying gamestop"
+      ]
+    },
+    "pokemon cards": {
+      "ticker": "NTDOY",
+      "videos": 5,
+      "views_30d_top5": 1218705,
+      "comments_read": 256,
+      "intent_per_100": 3.5,
+      "scare_per_100": 1.6,
+      "examples": [
+        "those full arts are pretty sick ngl",
+        "i think sleeved blisters are the best to get, or whatever is left at your local retail if you somehow end up in there as they\u2019re just restocking. you\u2019re not spe",
+        "ive been getting alot of xy era full arts lately, they just hit different and ive been obsessed with vintage and mid era lately especially the ex era \ud83d\ude05 keep the"
+      ]
+    },
+    "gta 6": {
+      "ticker": "TTWO",
+      "videos": 5,
+      "views_30d_top5": 54532306,
+      "comments_read": 400,
+      "intent_per_100": 5.8,
+      "scare_per_100": 1.0,
+      "examples": [
+        "the \"another delay might jump out at us from the shadows\" line gave me chills because same \u2014 my brain still treats this whole thing like an elaborate dream! aft",
+        "you can download the game november 12th. after that start using up those sick days on the 19th.",
+        "i'm glad they kept delaying it, it really shows they want this to be the best gta we've ever played. it did annoy me but i let it slide because not only is it r"
+      ]
+    },
+    "labubu": {
+      "ticker": "9992.HK",
+      "videos": 5,
+      "views_30d_top5": 1072433,
+      "comments_read": 157,
+      "intent_per_100": 3.8,
+      "scare_per_100": 0.0,
+      "examples": [
+        "these are just the cutest \ud83d\ude3b. i think all are darling and will be buying a few \u2764",
+        "i love the leopard one...have fun and enjoy your collection,  we are all crazy collectors.  i don't  do dolls, but recently i bought a bunch of funny vintage  f",
+        "i\u2019m glad you could get them\u2026 i went to my local popmart the day after they dropped and they never got them in yet, they said it\u2019ll be another week or two. so i "
+      ]
+    },
+    "uggs": {
+      "ticker": "DECK",
+      "videos": 5,
+      "views_30d_top5": 1204296,
+      "comments_read": 281,
+      "intent_per_100": 4.3,
+      "scare_per_100": 1.4,
+      "examples": [
+        "yeah ugg did release these before, i bought a used pair of these boots in a chocolate brown (they are called \u201cwrangell\u201d)  and they are amazing in winter here in",
+        "a fake welt around a glued boot is one of the biggest crimes!!! that\u2019s the big problem with the red wing 1907 moc toe!!!",
+        "emery igloo from panama jack is supposedly sheep skin lined"
+      ]
+    },
+    "barbie": {
+      "ticker": "MAT",
+      "videos": 5,
+      "views_30d_top5": 4077264,
+      "comments_read": 100,
+      "intent_per_100": 2.0,
+      "scare_per_100": 0.0,
+      "examples": [
+        "the swing and slide set is adorable! i want this for myself \ud83d\ude02",
+        "the little swing is just adorable! i want one for myself! \ud83d\ude02"
+      ]
+    },
+    "build a bear": {
+      "ticker": "BBW",
+      "videos": 5,
+      "views_30d_top5": 404483,
+      "comments_read": 244,
+      "intent_per_100": 13.9,
+      "scare_per_100": 1.2,
+      "examples": [
+        "i've said it a hundred times and all say it here too. \ud83d\udc4f\ud83c\udffd buyers\ud83d\udc4f\ud83c\udffd set \ud83d\udc4f\ud83c\udffdthe\ud83d\udc4f\ud83c\udffdprice!\ud83d\udc4f\ud83c\udffd \n\nuntil we start naming and shaming collectors who buy from scalpers, unti",
+        "good timing on this video, i've been somewhat of a figure in the bab space for a couple years. enough that people began to recognize my bears and me by name. an",
+        ">be me\n\n>call your local bab about the pumpkin bear\n\n>\u201dwe still have a few left\u201d\n\n*1 week later*\n\n>take 40mins out of your day to get on a bus to the mall with "
+      ]
+    }
+  },
+  "errors": []
+}
