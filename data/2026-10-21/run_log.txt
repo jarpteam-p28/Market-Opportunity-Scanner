@@ -1,0 +1,54 @@
+=== collect_market
+prices: (1827, 329), missing 4: ['AQUA', 'HES', 'HON', 'MMC']
+$AQUA: No data found, symbol may be delisted
+
+1 Failed download:
+['AQUA']: No data found, symbol may be delisted
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: HES"}}}
+$HES: No data found, symbol may be delisted
+$HON: possibly delisted; no price data found  (period=5y)
+
+2 Failed downloads:
+['HES']: No data found, symbol may be delisted
+['HON']: possibly delisted; no price data found  (period=5y)
+$MMC: No data found, symbol may be delisted
+Failed to get ticker 'PH' reason: Failed to perform, curl: (28) Operation timed out after 10002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+
+1 Failed download:
+['MMC']: No data found, symbol may be delisted
+$HES: No data found, symbol may be delisted
+$MMC: No data found, symbol may be delisted
+
+(exit 0)
+=== collect_reddit
+reddit: 0 posts, authed=False, apewisdom tickers=199, errors=56
+
+(exit 0)
+=== collect_trends
+trends: 21 terms, 8 errors
+
+(exit 0)
+=== collect_x
+x/grok: skipped (disabled or no XAI_API_KEY)
+
+(exit 0)
+=== collect_youtube
+youtube: 21 terms, 0 errors
+
+(exit 0)
+=== collect_news
+news: 50 headlines
+
+(exit 0)
+=== collect_crypto
+crypto: trending 15, memes 15, reddit 25, errors 0
+
+(exit 0)
+=== collect_extras
+extras: 33 names, apps found 21, errors 0
+
+(exit 0)
+=== collect_fundamentals
+fundamentals: 127 names, 0 errors
+
+(exit 0)

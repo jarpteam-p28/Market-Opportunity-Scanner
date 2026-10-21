@@ -1,0 +1,351 @@
+{
+  "date": "2026-10-21",
+  "n": 50,
+  "errors": [],
+  "by_theme": {
+    "AI chips": [
+      {
+        "title": "Nvidia announces plug and play Vera Rubin racks that can be shipped on a truck",
+        "link": "https://www.cnbc.com/2026/10/21/nvidia-announces-vera-rubin-racks-that-can-be-shipped-on-a-truck-.html",
+        "published": "Wed, 21 Oct 2026 12:43:49 GMT",
+        "source": "www.cnbc.com"
+      }
+    ],
+    "AI data centers": [],
+    "Power for AI": [],
+    "Nuclear": [],
+    "Water": [],
+    "Cooling": [],
+    "Copper & grid materials": [],
+    "AI software": [
+      {
+        "title": "Walmart launches tools for AI agents to shop for customers",
+        "link": "https://www.investing.com/news/stock-market-news/walmart-launches-tools-for-ai-agents-to-shop-for-customers-4964210",
+        "published": "2026-10-21 21:30:23",
+        "source": "www.investing.com"
+      }
+    ],
+    "Memory chips": [],
+    "AI efficiency wave": [],
+    "Distribution moats": [],
+    "Crypto": [],
+    "Precious metals": [],
+    "Robotics": []
+  },
+  "latest": [
+    {
+      "title": "Why investors should be skeptical of a potential Tesla-SpaceX merger",
+      "link": "https://www.marketwatch.com/story/why-investors-should-be-skeptical-of-a-potential-tesla-spacex-merger-9e119d32?mod=mw_rss_topstories",
+      "published": "Wed, 21 Oct 2026 21:44:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Trump says data centers should generate their own electricity \u2014 but experts say only states can mandate that",
+      "link": "https://www.marketwatch.com/story/trump-says-data-centers-should-generate-their-own-electricity-but-experts-say-only-states-can-mandate-that-415dcaad?mod=mw_rss_topstories",
+      "published": "Wed, 21 Oct 2026 21:31:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Oil is now flowing out of the Persian Gulf like before the Iran war. Why prices may still not come down anytime soon.",
+      "link": "https://www.marketwatch.com/story/oil-is-now-flowing-out-of-the-persian-gulf-like-before-the-iran-war-why-prices-may-still-not-come-down-anytime-soon-56df2f48?mod=mw_rss_topstories",
+      "published": "Wed, 21 Oct 2026 21:14:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "\u2018I don\u2019t feel sorry for myself\u2019: I\u2019m 64 and will be renting for the rest of my life. Is that so bad?",
+      "link": "https://www.marketwatch.com/story/my-husband-suffered-a-massive-stroke-at-53-im-64-and-will-rent-for-the-rest-of-my-life-but-im-still-hopeful-46bd6ce9?mod=mw_rss_topstories",
+      "published": "Wed, 21 Oct 2026 21:00:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "7 healthcare stocks that stand out as investors pay up for the sector",
+      "link": "https://www.marketwatch.com/story/7-healthcare-stocks-that-stand-out-as-investors-pay-up-for-the-sector-d9b0c173?mod=mw_rss_topstories",
+      "published": "Wed, 21 Oct 2026 20:59:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "My partner of 17 years left me his $1 million home. His children say I influenced him to do so. Should I share my inheritance?",
+      "link": "https://www.marketwatch.com/story/my-unmarried-partner-of-17-years-left-me-his-1-1-million-home-his-three-children-are-livid-should-i-share-my-inheritance-a11d593d?mod=mw_rss_topstories",
+      "published": "Wed, 21 Oct 2026 20:31:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Moderna is about to release the trial results for its cancer vaccine. A lot is riding on this data.",
+      "link": "https://www.marketwatch.com/story/moderna-is-about-to-release-the-trial-results-for-its-cancer-vaccine-a-lot-is-riding-on-this-data-ccbf8c9c?mod=mw_rss_topstories",
+      "published": "Wed, 21 Oct 2026 20:18:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "We have a $300,000 mortgage with a 2.75% interest rate. I want to pay it off. My husband says I\u2019m crazy. Who\u2019s right?",
+      "link": "https://www.marketwatch.com/story/we-have-a-300-000-mortgage-with-a-2-75-interest-rate-i-want-to-pay-it-off-my-husband-says-im-crazy-whos-right-4ed15226?mod=mw_rss_topstories",
+      "published": "Wed, 21 Oct 2026 20:15:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "SpaceX\u2019s massive AI targets will test the limits of reality",
+      "link": "https://www.marketwatch.com/story/spacexs-massive-ai-targets-will-test-the-limits-of-reality-4f23a624?mod=mw_rss_topstories",
+      "published": "Wed, 21 Oct 2026 20:15:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "The Social Security Administration wants more babies signed up for \u2018Trump accounts.\u2019 But there\u2019s still a catch.",
+      "link": "https://www.marketwatch.com/story/the-social-security-administration-wants-more-babies-signed-up-for-trump-accounts-but-theres-still-a-catch-4096f16e?mod=mw_rss_topstories",
+      "published": "Wed, 21 Oct 2026 20:01:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Tesla beats on earnings and sales even as auto revenue declines",
+      "link": "https://www.cnbc.com/2026/10/21/tesla-tsla-q3-2026-earnings-report.html",
+      "published": "Wed, 21 Oct 2026 22:10:59 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "CoreWeave\u2019s market confidence erodes as bond yields spike and stock sinks",
+      "link": "https://www.cnbc.com/2026/10/21/coreweaves-market-confidence-erodes-as-bond-yields-spike-stock-sinks.html",
+      "published": "Wed, 21 Oct 2026 21:12:29 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "IBM beats on top and bottom lines as CEO Krishna touts 'Super Intelligence' traction",
+      "link": "https://www.cnbc.com/2026/10/21/ibm-q3-earnings-report-2026.html",
+      "published": "Wed, 21 Oct 2026 22:03:37 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Trump denies ordering Starlink slowdown in Ukraine, says he doesn't know who did",
+      "link": "https://www.cnbc.com/2026/10/21/trump-starlink-ukraine-elon-musk.html",
+      "published": "Wed, 21 Oct 2026 21:48:02 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "BlackRock's Rick Rieder sees 'historic' opportunity in high-quality bonds",
+      "link": "https://www.cnbc.com/2026/10/21/rick-rieder-investment-grade-bonds.html",
+      "published": "Wed, 21 Oct 2026 19:54:16 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Southwest Airlines cuts 2026 profit forecast on higher fuel",
+      "link": "https://www.cnbc.com/2026/10/21/southwest-airlines-luv-3q-2026-earnings.html",
+      "published": "Wed, 21 Oct 2026 21:07:11 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "How Ukraine\u2019s drone strikes on Russia crippled the world\u2019s second-largest diesel supplier",
+      "link": "https://www.cnbc.com/2026/10/21/ukraine-russia-drone-diesel-refinery-trump-putin-zelenskyy.html",
+      "published": "Wed, 21 Oct 2026 17:27:34 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Meta ordered to pay $25 billion penalty in New Mexico Cambridge Analytica case",
+      "link": "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html",
+      "published": "Wed, 21 Oct 2026 20:04:07 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Mortgage rates drop for the first time in 2 months, but demand still falls further",
+      "link": "https://www.cnbc.com/2026/10/21/mortgage-rates-drop-for-the-first-time-in-2-months-but-demand-falls.html",
+      "published": "Wed, 21 Oct 2026 13:13:48 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes",
+      "link": "https://www.cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html",
+      "published": "Wed, 21 Oct 2026 11:20:58 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "SpaceX stock jumps 10% after earnings beat and Musk hints at Tesla tie-up",
+      "link": "https://www.cnbc.com/2026/10/21/spacex-spcx-stock-musk-merger-tesla.html",
+      "published": "Wed, 21 Oct 2026 16:08:50 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "GM aims to develop vehicles in as little as two years with AI, software push",
+      "link": "https://www.cnbc.com/2026/10/21/gm-vehicle-development-ai-software.html",
+      "published": "Wed, 21 Oct 2026 20:14:36 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Trump-aligned super PACs pour millions into once-safe GOP House seats",
+      "link": "https://www.cnbc.com/2026/10/21/trump-pac-spending-midterm-election-house-republicans.html",
+      "published": "Wed, 21 Oct 2026 20:57:12 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Netflix has dipped its toe into theatrical. Is it ready to jump in?",
+      "link": "https://www.cnbc.com/2026/10/21/netflix-theatrical-strategy.html",
+      "published": "Wed, 21 Oct 2026 18:32:12 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "New Mexico AG lawsuit accuses Epstein's attorney and accountant of facilitating sex trafficking",
+      "link": "https://www.cnbc.com/2026/10/21/epstein-new-mexico-lawsuit-sex-trafficking.html",
+      "published": "Wed, 21 Oct 2026 21:41:23 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Meta and Tesla bulls get confidence boost after SpaceX earnings",
+      "link": "https://www.cnbc.com/2026/10/21/meta-tesla-options-earnings.html",
+      "published": "Wed, 21 Oct 2026 16:35:48 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Intel hits construction milestone at Ohio chip fab that\u2019s at least 5 years behind schedule",
+      "link": "https://www.cnbc.com/2026/10/21/intel-hits-construction-milestone-at-delayed-ohio-chip-fab-.html",
+      "published": "Wed, 21 Oct 2026 16:55:51 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Apple's iPhone Duo in short supply \u2014 plus, the 2 stocks fueling an AI rebound",
+      "link": "https://www.cnbc.com/investingclub/2026/10/21/apples-iphone-duo-in-short-supply-plus-2-stocks-fueling-an-ai-rebound.html",
+      "published": "Wed, 21 Oct 2026 19:47:38 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "The political ad wars are still being fought over the airwaves even as digital gains share",
+      "link": "https://www.cnbc.com/2026/10/21/why-broadcast-tv-still-dominates-political-ad-spending.html",
+      "published": "Wed, 21 Oct 2026 14:40:02 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Expanding AI trade is turning safety stocks into a 'Texas hedge'",
+      "link": "https://www.cnbc.com/2026/10/21/expanding-ai-trade-is-turning-safety-stocks-into-a-texas-hedge.html",
+      "published": "Wed, 21 Oct 2026 17:14:14 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "EBay to lay off 9% of workforce in its second round of job cuts this year",
+      "link": "https://www.cnbc.com/2026/10/21/ebay-layoffs-workforce-cuts.html",
+      "published": "Wed, 21 Oct 2026 15:17:03 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Musk's SpaceX stock gift is 'tip of the iceberg' for Trump Accounts, Altimeter's Gerstner says",
+      "link": "https://www.cnbc.com/2026/10/21/musk-spacex-stock-trump-account.html",
+      "published": "Wed, 21 Oct 2026 19:52:11 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "United Airlines set to open its biggest airport lounge in $2.6 billion overhaul at Houston hub",
+      "link": "https://www.cnbc.com/2026/10/21/united-airlines-biggest-airport-lounge-houston.html",
+      "published": "Wed, 21 Oct 2026 13:44:35 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Nvidia announces plug and play Vera Rubin racks that can be shipped on a truck",
+      "link": "https://www.cnbc.com/2026/10/21/nvidia-announces-vera-rubin-racks-that-can-be-shipped-on-a-truck-.html",
+      "published": "Wed, 21 Oct 2026 12:43:49 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Goldman Sachs, JPMorgan and Morgan Stanley are dominating the AI stock boom. Here's their edge",
+      "link": "https://www.cnbc.com/2026/10/21/goldman-sachs-jpmorgan-morgan-stanley-ai-trading.html",
+      "published": "Wed, 21 Oct 2026 15:30:50 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "OpenAI's most powerful AI models disabled their own safety monitoring \u2014 and one lied about it",
+      "link": "https://www.cnbc.com/2026/10/21/openai-ai-models-safety-monitoring.html",
+      "published": "Wed, 21 Oct 2026 07:49:48 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Tokenized stock trading takes off overseas as Goldman, other U.S. companies object",
+      "link": "https://www.cnbc.com/2026/10/21/tokenized-stocks-us-companies-object.html",
+      "published": "Wed, 21 Oct 2026 12:33:34 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "House committee says Webull messages point to China access to U.S. customer data",
+      "link": "https://www.cnbc.com/2026/10/21/webull-us-customer-data-china-access.html",
+      "published": "Wed, 21 Oct 2026 11:05:18 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "A $50 sports bet costs a young investor hundreds later. Here's how",
+      "link": "https://www.cnbc.com/2026/10/21/sports-betting-young-investors-compounding.html",
+      "published": "Wed, 21 Oct 2026 15:16:20 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "French 10-year bond yield hits 5% for first time since 2002 amid unrest",
+      "link": "https://www.cnbc.com/2026/10/21/france-protests-bonds-debt.html",
+      "published": "Wed, 21 Oct 2026 10:40:01 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "EverQuote stock rises on $50M share buyback program",
+      "link": "https://www.investing.com/news/stock-market-news/everquote-stock-rises-on-50m-share-buyback-program-4964287",
+      "published": "2026-10-21 21:54:46",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Southwest Airlines cuts profit forecast as fuel costs overshadow turnaround gains",
+      "link": "https://www.investing.com/news/stock-market-news/southwest-airlines-cuts-2026-profit-forecast-as-fuel-costs-spike-4964000",
+      "published": "2026-10-21 21:48:24",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Meta beats Q3 estimates, approves new nonvoting share class as AI spending surges",
+      "link": "https://www.investing.com/news/stock-market-news/meta-beats-q3-estimates-approves-new-nonvoting-share-class-as-ai-spending-surges-4963949",
+      "published": "2026-10-21 21:45:14",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "South Africa cuts bond sales, launches buyback program",
+      "link": "https://www.investing.com/news/stock-market-news/south-africa-cuts-bond-sales-launches-buyback-program-93CH-4964257",
+      "published": "2026-10-21 21:37:28",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Walmart launches tools for AI agents to shop for customers",
+      "link": "https://www.investing.com/news/stock-market-news/walmart-launches-tools-for-ai-agents-to-shop-for-customers-4964210",
+      "published": "2026-10-21 21:30:23",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Mexico stocks higher at close of trade; S&P/BMV IPC up 1.43%",
+      "link": "https://www.investing.com/news/stock-market-news/mexico-stocks-higher-at-close-of-trade-spbmv-ipc-up-143-4964235",
+      "published": "2026-10-21 21:30:04",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Chinese-linked hackers compromise ConnectWise, target hundreds in global attack, Microsoft says",
+      "link": "https://www.investing.com/news/stock-market-news/chineselinked-hackers-compromise-connectwise-target-hundreds-in-global-attack-microsoft-says-4964230",
+      "published": "2026-10-21 21:25:06",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Colombia stocks higher at close of trade; COLCAP up 1.07%",
+      "link": "https://www.investing.com/news/stock-market-news/colombia-stocks-higher-at-close-of-trade-colcap-up-107-4964229",
+      "published": "2026-10-21 21:25:03",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Why is Texas Instruments stock slipping today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-texas-instruments-stock-slipping-today-93CH-4964227",
+      "published": "2026-10-21 21:24:19",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Russia stocks lower at close of trade; MOEX Russia Index down 0.89%",
+      "link": "https://www.investing.com/news/stock-market-news/russia-stocks-lower-at-close-of-trade-moex-russia-index-down-089-4964211",
+      "published": "2026-10-21 21:20:04",
+      "source": "www.investing.com"
+    }
+  ],
+  "narratives": {
+    "ai_fear": {
+      "count": 0,
+      "examples": []
+    },
+    "ai_efficiency": {
+      "count": 0,
+      "examples": []
+    },
+    "leverage": {
+      "count": 0,
+      "examples": []
+    }
+  }
+}
