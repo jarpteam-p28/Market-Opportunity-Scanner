@@ -1,0 +1,391 @@
+{
+  "date": "2026-10-22",
+  "errors": [],
+  "trending": [
+    {
+      "name": "Universal High Income",
+      "symbol": "UHI",
+      "mcap_rank": 722,
+      "chg_24h": 4.423958721008864
+    },
+    {
+      "name": "Dacity Coin",
+      "symbol": "DACITY",
+      "mcap_rank": 756,
+      "chg_24h": 166.52667397512235
+    },
+    {
+      "name": "OnlyAgent",
+      "symbol": "OA",
+      "mcap_rank": 918,
+      "chg_24h": 0
+    },
+    {
+      "name": "Pearl",
+      "symbol": "PEARL",
+      "mcap_rank": 88,
+      "chg_24h": -7.239414202250003
+    },
+    {
+      "name": "Pudgy Penguins",
+      "symbol": "PENGU",
+      "mcap_rank": 114,
+      "chg_24h": -5.05375541109661
+    },
+    {
+      "name": "NEAR Protocol",
+      "symbol": "NEAR",
+      "mcap_rank": 19,
+      "chg_24h": -8.164135746011281
+    },
+    {
+      "name": "Solana",
+      "symbol": "SOL",
+      "mcap_rank": 7,
+      "chg_24h": -4.268457711112612
+    },
+    {
+      "name": "Aerodrome Finance",
+      "symbol": "AERO",
+      "mcap_rank": 92,
+      "chg_24h": -4.6554697046680635
+    },
+    {
+      "name": "Worldcoin",
+      "symbol": "WLD",
+      "mcap_rank": 50,
+      "chg_24h": -5.569037012487494
+    },
+    {
+      "name": "Sui",
+      "symbol": "SUI",
+      "mcap_rank": 29,
+      "chg_24h": -6.559516035607051
+    },
+    {
+      "name": "Avalanche",
+      "symbol": "AVAX",
+      "mcap_rank": 28,
+      "chg_24h": -7.157512529921936
+    },
+    {
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "mcap_rank": 1,
+      "chg_24h": -4.013025770840044
+    },
+    {
+      "name": "Bittensor",
+      "symbol": "TAO",
+      "mcap_rank": 36,
+      "chg_24h": -6.572654250773531
+    },
+    {
+      "name": "Monad",
+      "symbol": "MON",
+      "mcap_rank": 158,
+      "chg_24h": -6.374433539438834
+    },
+    {
+      "name": "Hyperliquid",
+      "symbol": "HYPE",
+      "mcap_rank": 11,
+      "chg_24h": -5.0454694997812295
+    }
+  ],
+  "memes": [
+    {
+      "name": "Dogecoin",
+      "symbol": "DOGE",
+      "mcap_b": 12.33,
+      "vol_b": 0.6,
+      "chg_24h": -4.63834,
+      "chg_7d": -3.1882,
+      "chg_30d": -21.3232
+    },
+    {
+      "name": "Pepe",
+      "symbol": "PEPE",
+      "mcap_b": 1.86,
+      "vol_b": 0.28,
+      "chg_24h": -6.01461,
+      "chg_7d": 6.8519,
+      "chg_30d": -9.7053
+    },
+    {
+      "name": "Pump.fun",
+      "symbol": "PUMP",
+      "mcap_b": 2.13,
+      "vol_b": 0.2,
+      "chg_24h": -9.75214,
+      "chg_7d": 1.1395,
+      "chg_30d": 2.9543
+    },
+    {
+      "name": "Little John",
+      "symbol": "JOHN",
+      "mcap_b": 0.02,
+      "vol_b": 0.17,
+      "chg_24h": null,
+      "chg_7d": null,
+      "chg_30d": null
+    },
+    {
+      "name": "Official Trump",
+      "symbol": "TRUMP",
+      "mcap_b": 0.49,
+      "vol_b": 0.12,
+      "chg_24h": -6.07493,
+      "chg_7d": -7.4381,
+      "chg_30d": -21.3331
+    },
+    {
+      "name": "Pudgy Penguins",
+      "symbol": "PENGU",
+      "mcap_b": 0.49,
+      "vol_b": 0.11,
+      "chg_24h": -4.91128,
+      "chg_7d": 3.1472,
+      "chg_30d": -22.8394
+    },
+    {
+      "name": "Shiba Inu",
+      "symbol": "SHIB",
+      "mcap_b": 2.92,
+      "vol_b": 0.04,
+      "chg_24h": -4.41133,
+      "chg_7d": -3.4907,
+      "chg_30d": -18.1879
+    },
+    {
+      "name": "dogwifhat",
+      "symbol": "WIF",
+      "mcap_b": 0.2,
+      "vol_b": 0.04,
+      "chg_24h": -7.00769,
+      "chg_7d": -2.0537,
+      "chg_30d": -20.4824
+    },
+    {
+      "name": "Bonk",
+      "symbol": "BONK",
+      "mcap_b": 0.27,
+      "vol_b": 0.03,
+      "chg_24h": -6.18427,
+      "chg_7d": -0.9695,
+      "chg_30d": -15.4074
+    },
+    {
+      "name": "Fartcoin",
+      "symbol": "FARTCOIN",
+      "mcap_b": 0.14,
+      "vol_b": 0.03,
+      "chg_24h": -9.18943,
+      "chg_7d": -8.1573,
+      "chg_30d": -28.9661
+    },
+    {
+      "name": "Universal High Income",
+      "symbol": "UHI",
+      "mcap_b": 0.03,
+      "vol_b": 0.02,
+      "chg_24h": 2.15312,
+      "chg_7d": null,
+      "chg_30d": null
+    },
+    {
+      "name": "Aura Final Boss",
+      "symbol": "KIMCHI",
+      "mcap_b": 0.01,
+      "vol_b": 0.02,
+      "chg_24h": -47.21493,
+      "chg_7d": null,
+      "chg_30d": null
+    },
+    {
+      "name": "FLOKI",
+      "symbol": "FLOKI",
+      "mcap_b": 0.23,
+      "vol_b": 0.01,
+      "chg_24h": -5.69754,
+      "chg_7d": -4.5639,
+      "chg_30d": -21.4247
+    },
+    {
+      "name": "cat in a dogs world",
+      "symbol": "MEW",
+      "mcap_b": 0.04,
+      "vol_b": 0.01,
+      "chg_24h": 6.33518,
+      "chg_7d": 13.4674,
+      "chg_30d": 1.4898
+    },
+    {
+      "name": "ORDI",
+      "symbol": "ORDI",
+      "mcap_b": 0.08,
+      "vol_b": 0.01,
+      "chg_24h": -5.46813,
+      "chg_7d": -5.6307,
+      "chg_30d": -23.6682
+    }
+  ],
+  "fear_greed": {
+    "now": 68,
+    "label": "Greed",
+    "week_ago": 53,
+    "month_ago": 78
+  },
+  "reddit": [
+    {
+      "ticker": "BTC.X",
+      "name": "Bitcoin",
+      "mentions": 16,
+      "mentions_24h_ago": 74
+    },
+    {
+      "ticker": "HH.X",
+      "name": "Holyheld",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "CT.X",
+      "name": "CommunityToken",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "CAN.X",
+      "name": "Channels",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "ID.X",
+      "name": "Everest",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "GLAD.X",
+      "name": "Gladius Finance",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "GBTC.X",
+      "name": "Grayscale Bitcoin Trust tokenized stock FTX",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "AMC.X",
+      "name": "AMC Entertainment Holdings tokenized stock FTX",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "GME.X",
+      "name": "GameStop tokenized stock FTX",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "ICP.X",
+      "name": "Internet Computer",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "SFP.X",
+      "name": "SafePal",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "WHOLE.X",
+      "name": "wormhole.finance",
+      "mentions": 1,
+      "mentions_24h_ago": 0
+    },
+    {
+      "ticker": "ON.X",
+      "name": "OFIN Token",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "LIVE.X",
+      "name": "TRONbetLive",
+      "mentions": 1,
+      "mentions_24h_ago": 0
+    },
+    {
+      "ticker": "GRAPH.X",
+      "name": "UniGraph",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "YT.X",
+      "name": "Cherry Token",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "AC.X",
+      "name": "Affil Coin",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "LN.X",
+      "name": "LINK",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "EST.X",
+      "name": "Esports Token",
+      "mentions": 1,
+      "mentions_24h_ago": 0
+    },
+    {
+      "ticker": "MAG.X",
+      "name": "Maggie",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "SSL.X",
+      "name": "Sergey Save Link",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "IT.X",
+      "name": "IDCM Token",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "AAPL.X",
+      "name": "Apple tokenized stock FTX",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "MSTR.X",
+      "name": "MicroStrategy tokenized stock FTX",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "LONG.X",
+      "name": "LONG COIN",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    }
+  ]
+}

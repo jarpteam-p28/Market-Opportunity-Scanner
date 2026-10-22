@@ -1,0 +1,370 @@
+{
+  "date": "2026-10-22",
+  "n": 50,
+  "errors": [],
+  "by_theme": {
+    "AI chips": [
+      {
+        "title": "Nvidia CEO Jensen Huang says neocloud demand is 'off the charts' but capital is scarce",
+        "link": "https://www.cnbc.com/2026/10/22/nvidia-jensen-huang-neocloud-demand-capital.html",
+        "published": "Thu, 22 Oct 2026 10:49:16 GMT",
+        "source": "www.cnbc.com"
+      },
+      {
+        "title": "Nvidia's Jensen Huang says he sees no sign of a 2029 memory glut: 'You can always use more'",
+        "link": "https://www.cnbc.com/2026/10/22/jensen-huang-nvidia-memory-selloff-shortage.html",
+        "published": "Thu, 22 Oct 2026 13:12:38 GMT",
+        "source": "www.cnbc.com"
+      }
+    ],
+    "AI data centers": [],
+    "Power for AI": [],
+    "Nuclear": [],
+    "Water": [],
+    "Cooling": [],
+    "Copper & grid materials": [],
+    "AI software": [],
+    "Memory chips": [
+      {
+        "title": "3 big reasons Micron and other chip stocks fell hard on Thursday",
+        "link": "https://www.marketwatch.com/story/two-big-reasons-micron-and-other-chip-stocks-are-falling-on-thursday-312f1fb2?mod=mw_rss_topstories",
+        "published": "Thu, 22 Oct 2026 21:19:00 GMT",
+        "source": "feeds.content.dowjones.io"
+      }
+    ],
+    "AI efficiency wave": [],
+    "Distribution moats": [],
+    "Crypto": [
+      {
+        "title": "Young investors are betting on prediction markets and crypto. But this bestselling author says the boring money moves still work.",
+        "link": "https://www.marketwatch.com/story/young-investors-are-betting-on-prediction-markets-and-crypto-but-this-bestselling-author-says-the-boring-money-moves-still-work-cd9d350a?mod=mw_rss_topstories",
+        "published": "Thu, 22 Oct 2026 17:21:00 GMT",
+        "source": "feeds.content.dowjones.io"
+      },
+      {
+        "title": "Lawsuit accuses Trump of illegally profiting off foreign crypto deals",
+        "link": "https://www.cnbc.com/2026/10/22/trump-world-liberty-crypto-lawsuit-uae.html",
+        "published": "Thu, 22 Oct 2026 22:02:34 GMT",
+        "source": "www.cnbc.com"
+      }
+    ],
+    "Precious metals": [],
+    "Robotics": []
+  },
+  "latest": [
+    {
+      "title": "Treasury yields log biggest drop since the 2023 banking crisis. Here\u2019s what\u2019s going on.",
+      "link": "https://www.marketwatch.com/story/treasury-yields-see-extreme-plunge-why-investors-are-ducking-for-cover-60044c66?mod=mw_rss_topstories",
+      "published": "Thu, 22 Oct 2026 22:07:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Americans are having fewer babies \u2014 and pampering them with luxury diapers",
+      "link": "https://www.marketwatch.com/story/americans-are-having-fewer-babies-and-pampering-them-with-luxury-diapers-a84222cd?mod=mw_rss_topstories",
+      "published": "Thu, 22 Oct 2026 21:28:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "3 big reasons Micron and other chip stocks fell hard on Thursday",
+      "link": "https://www.marketwatch.com/story/two-big-reasons-micron-and-other-chip-stocks-are-falling-on-thursday-312f1fb2?mod=mw_rss_topstories",
+      "published": "Thu, 22 Oct 2026 21:19:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Oil prices approach Iran-war highs as soaring tanker rates trigger a second energy squeeze",
+      "link": "https://www.marketwatch.com/story/oil-prices-approach-iran-war-highs-as-soaring-tanker-rates-trigger-a-second-energy-squeeze-2d726982?mod=mw_rss_topstories",
+      "published": "Thu, 22 Oct 2026 20:46:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Moderna\u2019s cancer vaccine hits its targets, but a data leak rattled investors and the stock tumbled",
+      "link": "https://www.marketwatch.com/story/modernas-stock-tumbles-after-reported-leak-of-data-for-cancer-vaccine-dcc897c1?mod=mw_rss_topstories",
+      "published": "Thu, 22 Oct 2026 20:14:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Is getting a wedding band from Quince a bad idea? It\u2019s a third of the price of a local jeweler.",
+      "link": "https://www.marketwatch.com/story/is-getting-a-wedding-band-from-quince-a-bad-idea-its-a-third-of-the-price-fa89c9b2?mod=mw_rss_topstories",
+      "published": "Thu, 22 Oct 2026 19:25:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Elon Musk promised a SpaceX share to every kid in America \u2014 don\u2019t hold your breath",
+      "link": "https://www.marketwatch.com/story/elon-musk-promised-a-spacex-share-to-every-kid-in-america-dont-hold-your-breath-d6572cdf?mod=mw_rss_topstories",
+      "published": "Thu, 22 Oct 2026 17:29:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "The Social Security Administration wants more babies signed up for \u2018Trump accounts.\u2019 But there\u2019s still a catch.",
+      "link": "https://www.marketwatch.com/story/the-social-security-administration-wants-more-babies-signed-up-for-trump-accounts-but-theres-still-a-catch-4096f16e?mod=mw_rss_topstories",
+      "published": "Thu, 22 Oct 2026 17:24:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Young investors are betting on prediction markets and crypto. But this bestselling author says the boring money moves still work.",
+      "link": "https://www.marketwatch.com/story/young-investors-are-betting-on-prediction-markets-and-crypto-but-this-bestselling-author-says-the-boring-money-moves-still-work-cd9d350a?mod=mw_rss_topstories",
+      "published": "Thu, 22 Oct 2026 17:21:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "\u2018AI is on trial\u2019: Bond yields sink below 5% as investors look for safety",
+      "link": "https://www.marketwatch.com/story/ai-is-on-trial-bond-yields-sink-below-5-as-investors-look-for-safety-dbc86ee9?mod=mw_rss_topstories",
+      "published": "Thu, 22 Oct 2026 17:16:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Elon Musk invests about $1 billion in Skydance",
+      "link": "https://www.cnbc.com/2026/10/22/elon-musk-skydance-investment.html",
+      "published": "Thu, 22 Oct 2026 19:34:46 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Moderna shares plunge after cancer vaccine data leaks \u2014 despite positive results",
+      "link": "https://www.cnbc.com/2026/10/22/moderna-stock-cancer-vaccine-data-leak.html",
+      "published": "Thu, 22 Oct 2026 21:52:02 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Meta\u2019s deal to keep Zuckerberg in California adds fuel to wealth tax debate ahead of election",
+      "link": "https://www.cnbc.com/2026/10/22/meta-mark-zuckerberg-california-billionaire-tax.html",
+      "published": "Thu, 22 Oct 2026 20:47:59 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Trump defends Ramaswamy ad with Acton's estranged mom after bipartisan criticism",
+      "link": "https://www.cnbc.com/2026/10/22/trump-ramaswamy-ad-acton-mother-ad.html",
+      "published": "Thu, 22 Oct 2026 20:26:48 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "OpenAI nears up to $30 billion funding round at $1.25 trillion valuation led by UAE investors",
+      "link": "https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html",
+      "published": "Thu, 22 Oct 2026 20:41:37 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Bill Ackman says 2027 will be an amazing year for stocks as wars, inflation ease",
+      "link": "https://www.cnbc.com/2026/10/22/bill-ackman-talks-meta-and-markets-with-cnbc.html",
+      "published": "Thu, 22 Oct 2026 17:53:08 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Trump asked Musk to lift Starlink slowdown, WSJ reports",
+      "link": "https://www.cnbc.com/2026/10/22/trump-musk-starlink-ukraine.html",
+      "published": "Thu, 22 Oct 2026 21:02:07 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Trump's approval rating on economy hits all-time low as midterm looms: CNBC survey",
+      "link": "https://www.cnbc.com/2026/10/22/trump-economic-approval-rating-midterms-poll.html",
+      "published": "Thu, 22 Oct 2026 13:18:36 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Disney\u2019s multiplatform Super Bowl plan frustrates ABC affiliates",
+      "link": "https://www.cnbc.com/2026/10/22/disneys-multiplatform-super-bowl-plan-frustrates-abc-affiliates.html",
+      "published": "Thu, 22 Oct 2026 20:44:26 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "SpaceX and Tesla have high election stakes as Elon Musk pours $366 million into campaigns",
+      "link": "https://www.cnbc.com/2026/10/22/elon-musk-midterm-election-spacex-tesla.html",
+      "published": "Thu, 22 Oct 2026 21:58:42 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "AI debt and French bonds face a stress test \u2014 why it may not be over",
+      "link": "https://www.cnbc.com/2026/10/22/ai-debt-and-french-bonds-stress-test.html",
+      "published": "Thu, 22 Oct 2026 18:13:37 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Reported fraud losses among older Americans hit $3 billion in 2025 as big losses surge: FTC report",
+      "link": "https://www.cnbc.com/2026/10/22/older-americans-fraud-losses-2025.html",
+      "published": "Thu, 22 Oct 2026 19:39:51 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "American Express brings Airbnb bookings and rewards to Amex Travel platform",
+      "link": "https://www.cnbc.com/2026/10/22/american-express-airbnb-travel-platform.html",
+      "published": "Thu, 22 Oct 2026 12:00:02 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Musk's clash with Ukraine accelerates demand for Starlink alternatives. Few exist",
+      "link": "https://www.cnbc.com/2026/10/22/elon-musk-ukraine-starlink-alternatives.html",
+      "published": "Thu, 22 Oct 2026 18:55:38 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Lawsuit accuses Trump of illegally profiting off foreign crypto deals",
+      "link": "https://www.cnbc.com/2026/10/22/trump-world-liberty-crypto-lawsuit-uae.html",
+      "published": "Thu, 22 Oct 2026 22:02:34 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "A lesson from poker tells us not to fold on Meta after its earnings sell-off. Here\u2019s why",
+      "link": "https://www.cnbc.com/investingclub/2026/10/22/meta-stock-why-were-staying-bullish-after-the-post-earnings-sell-off.html",
+      "published": "Thu, 22 Oct 2026 20:11:55 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Cruise lines chase luxury travelers with suites for up to $25,000 a night",
+      "link": "https://www.cnbc.com/2026/10/22/luxury-cruise-suites-regent-seven-seas.html",
+      "published": "Thu, 22 Oct 2026 16:46:29 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Jobless claims near the lowest since the 1960s as low-fire trend continues",
+      "link": "https://www.cnbc.com/2026/10/22/jobless-claims-record-low-weekly.html",
+      "published": "Thu, 22 Oct 2026 16:40:09 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Under-the-radar stocks to play the next leg of the energy trade with oil prices jumping again",
+      "link": "https://www.cnbc.com/2026/10/22/under-the-radar-stocks-to-play-the-next-leg-of-the-energy-trade-with-oil-prices-jumping-again.html",
+      "published": "Thu, 22 Oct 2026 15:16:05 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Judge orders Trump to sit for deposition in BBC defamation lawsuit by Dec. 11: Reports",
+      "link": "https://www.cnbc.com/2026/10/22/trump-deposition-bbc-defamation-lawsuit.html",
+      "published": "Thu, 22 Oct 2026 16:59:00 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "CoreWeave\u2019s market confidence erodes as bond yields spike and stock sinks",
+      "link": "https://www.cnbc.com/2026/10/21/coreweaves-market-confidence-erodes-as-bond-yields-spike-stock-sinks.html",
+      "published": "Thu, 22 Oct 2026 20:12:30 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Pepsi renews contract with Taco Bell days after KFC switches to Coke in the U.S.",
+      "link": "https://www.cnbc.com/2026/10/22/pepsico-taco-bell-beverage-deal.html",
+      "published": "Thu, 22 Oct 2026 18:51:44 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Third-party evaluators found vulnerabilities in OpenAI monitoring system during test pilot",
+      "link": "https://www.cnbc.com/2026/10/22/metr-redwood-research-open-ai-test.html",
+      "published": "Thu, 22 Oct 2026 17:37:47 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Nvidia CEO Jensen Huang says neocloud demand is 'off the charts' but capital is scarce",
+      "link": "https://www.cnbc.com/2026/10/22/nvidia-jensen-huang-neocloud-demand-capital.html",
+      "published": "Thu, 22 Oct 2026 10:49:16 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Virginia state Sen. L. Louise Lucas, a Trump critic, charged in marijuana racketeering case",
+      "link": "https://www.cnbc.com/2026/10/22/lucas-trump-virginia-marijuana-racketeering.html",
+      "published": "Thu, 22 Oct 2026 18:51:14 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Brent crude tops $113, highest level since May, after Trump hints at action on Iran",
+      "link": "https://www.cnbc.com/2026/10/22/oil-prices-today-wti-brent-saudi-arabia.html",
+      "published": "Thu, 22 Oct 2026 19:19:41 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "FIFA launches tender of 2030 men's World Cup U.S. media rights, plans to choose winner by end of year",
+      "link": "https://www.cnbc.com/2026/10/22/fifa-launches-tender-of-us-world-cup-media-rights-for-2030.html",
+      "published": "Thu, 22 Oct 2026 17:01:08 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Blackstone's Jon Gray says CoreWeave can 'find a way through' financing pressure",
+      "link": "https://www.cnbc.com/2026/10/22/blackstone-jon-gray-coreweave-financing.html",
+      "published": "Thu, 22 Oct 2026 14:11:14 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Why governments pulled websites offline over the decades-old PHP programming language",
+      "link": "https://www.cnbc.com/2026/10/22/php2shell-vulnerability-what-is-it-and-is-your-data-at-risk.html",
+      "published": "Thu, 22 Oct 2026 16:19:34 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Nvidia's Jensen Huang says he sees no sign of a 2029 memory glut: 'You can always use more'",
+      "link": "https://www.cnbc.com/2026/10/22/jensen-huang-nvidia-memory-selloff-shortage.html",
+      "published": "Thu, 22 Oct 2026 13:12:38 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "SK Hynix drops US IPO plan for Solidigm, newspaper reports",
+      "link": "https://www.investing.com/news/stock-market-news/sk-hynix-drops-us-ipo-plan-for-solidigm-newspaper-reports-4967714",
+      "published": "2026-10-22 22:00:46",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Huron Consulting stock rises on S&P SmallCap 600 addition",
+      "link": "https://www.investing.com/news/stock-market-news/huron-consulting-stock-rises-on-sp-smallcap-600-addition-4967707",
+      "published": "2026-10-22 21:57:24",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Brazil\u2019s Bradesco meets profit estimates despite slower credit revenue",
+      "link": "https://www.investing.com/news/stock-market-news/brazils-bradesco-meets-profit-estimates-despite-slower-credit-revenue-4967704",
+      "published": "2026-10-22 21:54:35",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "SpaceX in talks for 80,000 cell sites to build nationwide wireless network -report",
+      "link": "https://www.investing.com/news/stock-market-news/spacex-in-talks-for-80000-cell-sites-to-build-nationwide-wireless-network-report-4967701",
+      "published": "2026-10-22 21:50:51",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Exclusive-GM cancels deal with new US rare-earth magnet plant, documents say",
+      "link": "https://www.investing.com/news/stock-market-news/exclusivegm-cancels-deal-with-new-us-rareearth-magnet-plant-documents-say-4967695",
+      "published": "2026-10-22 21:48:43",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Merck/Moderna cancer vaccine cuts melanoma death or recurrence risk by 42%, shares fall",
+      "link": "https://www.investing.com/news/stock-market-news/merckmoderna-cancer-vaccine-cuts-melanoma-death-or-recurrence-risk-by-42-shares-fall-4967507",
+      "published": "2026-10-22 21:30:58",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Mexico stocks lower at close of trade; S&P/BMV IPC down 0.51%",
+      "link": "https://www.investing.com/news/stock-market-news/mexico-stocks-lower-at-close-of-trade-spbmv-ipc-down-051-4967645",
+      "published": "2026-10-22 21:30:03",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Aardvark Therapeutics stock surges as FDA lifts clinical hold",
+      "link": "https://www.investing.com/news/stock-market-news/aardvark-therapeutics-stock-surges-as-fda-lifts-clinical-hold-4967643",
+      "published": "2026-10-22 21:27:46",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Colombia stocks lower at close of trade; COLCAP down 1.25%",
+      "link": "https://www.investing.com/news/stock-market-news/colombia-stocks-lower-at-close-of-trade-colcap-down-125-4967641",
+      "published": "2026-10-22 21:25:03",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Citigroup convenes analysts in Mexico City to prepare Banamex IPO model -Bloomberg",
+      "link": "https://www.investing.com/news/stock-market-news/citigroup-convenes-analysts-in-mexico-city-to-prepare-banamex-ipo-model-bloomberg-4967637",
+      "published": "2026-10-22 21:23:21",
+      "source": "www.investing.com"
+    }
+  ],
+  "narratives": {
+    "ai_fear": {
+      "count": 0,
+      "examples": []
+    },
+    "ai_efficiency": {
+      "count": 0,
+      "examples": []
+    },
+    "leverage": {
+      "count": 0,
+      "examples": []
+    }
+  }
+}

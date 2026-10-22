@@ -1,0 +1,251 @@
+{
+  "date": "2026-10-22",
+  "terms": {
+    "coconut water": {
+      "ticker": "COCO",
+      "videos": 5,
+      "views_30d_top5": 10078399,
+      "comments_read": 150,
+      "intent_per_100": 0.7,
+      "scare_per_100": 0.7,
+      "examples": [
+        "*my dear husband is only 62 years old, and he was diagnosed with brain cancer. we had so many plans for our retirement, but now all we pray for is one more heal",
+        "we have super market when i see people buying this coconut water i feel very bad people are now addicted to this"
+      ]
+    },
+    "sweetgreen": {
+      "ticker": "SG",
+      "videos": 5,
+      "views_30d_top5": 4061,
+      "comments_read": 1,
+      "intent_per_100": 0.0,
+      "scare_per_100": 0.0,
+      "examples": []
+    },
+    "cava": {
+      "ticker": "CAVA",
+      "videos": 5,
+      "views_30d_top5": 250630,
+      "comments_read": 111,
+      "intent_per_100": 0.0,
+      "scare_per_100": 0.0,
+      "examples": []
+    },
+    "dutch bros": {
+      "ticker": "BROS",
+      "videos": 5,
+      "views_30d_top5": 370424,
+      "comments_read": 262,
+      "intent_per_100": 3.1,
+      "scare_per_100": 0.4,
+      "examples": [
+        "man i have waited the entire day for this",
+        "waited 2 weeks for this <3",
+        "i had really low blood sugar one day and in a desperate move got a mango smoothie from dutch bros. i farted more that day than any other day in my entire life ("
+      ]
+    },
+    "starbucks": {
+      "ticker": "SBUX",
+      "videos": 5,
+      "views_30d_top5": 467540,
+      "comments_read": 284,
+      "intent_per_100": 1.1,
+      "scare_per_100": 1.1,
+      "examples": [
+        "overpriced mediocre coffee with even worse food. i don\u2019t remember the last time i bought anything there. i brew better at home",
+        "i got my order wrong by a barista once, i ordered pumpkin spice, they gave me vanilla, when i went to complain they said i already took a sip, i never returned ",
+        "some of the ingredients have been linked to cancer. it's gross to only give people one day notice. they are a corporation at the end of the day. please support "
+      ]
+    },
+    "birkenstock": {
+      "ticker": "BIRK",
+      "videos": 5,
+      "views_30d_top5": 64154,
+      "comments_read": 42,
+      "intent_per_100": 0.0,
+      "scare_per_100": 0.0,
+      "examples": []
+    },
+    "hoka": {
+      "ticker": "DECK",
+      "videos": 5,
+      "views_30d_top5": 129829,
+      "comments_read": 106,
+      "intent_per_100": 10.4,
+      "scare_per_100": 0.0,
+      "examples": [
+        "gone through 2 pair of arahi 8's this year with no real issues apart from they wear out quickly. moved to the clifton 10 and the sole is already wearing fast af",
+        "hoka makes wide sizes which is good for my foot.  on doesn't make them in wide and they are very uncomfortable for me.   i just bought my first pair of hokas an",
+        "i\u2019m obsessed with my hokas! nothing else even comes close in comparison for me."
+      ]
+    },
+    "on running shoes": {
+      "ticker": "ONON",
+      "videos": 5,
+      "views_30d_top5": 86618,
+      "comments_read": 97,
+      "intent_per_100": 4.1,
+      "scare_per_100": 0.0,
+      "examples": [
+        "bought a pair of adidas dropset pros because i like the idea of cushion and stability, but my wide midfoot was in pain after walking on the treadmill for an hou",
+        "mizuno hw elite deff stier. it's the shoe i've run more in in terms of supershoes because i actually bought it for training. 160 euros was cheaper than most sup",
+        "my most durable super shoes definetly adios pro 3, puma deviate nitro elite 3 still strong after 200 km. recently bought some alphafly 3s and really impressed f"
+      ]
+    },
+    "crocs": {
+      "ticker": "CROX",
+      "videos": 5,
+      "views_30d_top5": 1084342,
+      "comments_read": 295,
+      "intent_per_100": 0.3,
+      "scare_per_100": 0.0,
+      "examples": [
+        "don't go to dollar tree then \ud83d\ude02 i bought a pair a few years back and they're still functional!"
+      ]
+    },
+    "elf cosmetics": {
+      "ticker": "ELF",
+      "videos": 5,
+      "views_30d_top5": 6880126,
+      "comments_read": 179,
+      "intent_per_100": 1.7,
+      "scare_per_100": 0.0,
+      "examples": [
+        "we love that you're so obsessed \ud83d\ude0d\ud83d\udc96",
+        "guirl do the jumbo eyeliner",
+        "you should make a jumbo lip liner!!"
+      ]
+    },
+    "celsius energy drink": {
+      "ticker": "CELH",
+      "videos": 5,
+      "views_30d_top5": 1538,
+      "comments_read": 4,
+      "intent_per_100": 0.0,
+      "scare_per_100": 0.0,
+      "examples": []
+    },
+    "swatch": {
+      "ticker": "UHR.SW",
+      "videos": 5,
+      "views_30d_top5": 294212,
+      "comments_read": 175,
+      "intent_per_100": 1.1,
+      "scare_per_100": 2.9,
+      "examples": [
+        "i prefer the sketch as among the two. i seem to recall marc @ long island watch reviewing a blue watch with the \"sketch-type\" markings awhile back - but i don't",
+        "you blew it man.  those watches are being sold online for $600-700",
+        "5 grand this must be fake."
+      ]
+    },
+    "ozempic": {
+      "ticker": "NVO",
+      "videos": 5,
+      "views_30d_top5": 469489,
+      "comments_read": 305,
+      "intent_per_100": 4.3,
+      "scare_per_100": 3.6,
+      "examples": [
+        "i don't have a more trusted source of health information than this channel. the transparency and depth you bring is rare. this led me to your body wants to heal",
+        "i was 200 kg on the 1st of january 2026. today i am 118 kg. this is purely natural, no ozempic glp taken. strictly from high protein, calorie deficit, resistanc",
+        "im in canada \ud83c\udde8\ud83c\udde6 and the glp1 is everywhere. i feel like im the only one not on it and im missing out on this mirscle drug. i have pcos, secondary infertility fo"
+      ]
+    },
+    "hims": {
+      "ticker": "HIMS",
+      "videos": 5,
+      "views_30d_top5": 17301,
+      "comments_read": 11,
+      "intent_per_100": 0.0,
+      "scare_per_100": 0.0,
+      "examples": []
+    },
+    "robinhood": {
+      "ticker": "HOOD",
+      "videos": 5,
+      "views_30d_top5": 2283735,
+      "comments_read": 63,
+      "intent_per_100": 3.2,
+      "scare_per_100": 1.6,
+      "examples": [
+        "i know they did memorize all the lines and and they did rehearse that many times, but it's sooooooooooo fake, everyone sounds like a scripted bot, maybe beside ",
+        "the stock was exploding and almost all brokerage stopped people from being able to buy it. only let sell orders in to keep the price down.\n\nthey all did this to"
+      ]
+    },
+    "pokemon cards": {
+      "ticker": "NTDOY",
+      "videos": 5,
+      "views_30d_top5": 3893831,
+      "comments_read": 331,
+      "intent_per_100": 5.7,
+      "scare_per_100": 9.1,
+      "examples": [
+        "5 million dollars for that pikachu card, immediately. i need it",
+        "i bought that sylveon box too it\u2019s so cute but sadly you only get 4 packs",
+        "thats actually so sick of target to do"
+      ]
+    },
+    "gta 6": {
+      "ticker": "TTWO",
+      "videos": 5,
+      "views_30d_top5": 3336014,
+      "comments_read": 275,
+      "intent_per_100": 6.9,
+      "scare_per_100": 2.2,
+      "examples": [
+        "the size debate is harder than it looks \u2014 the only scale figure on rockstar's record is phil garbut's 'about twice the size of gta 5' line, and breakdowns like ",
+        "no gta games is going to compare to gta 5 online that mode made rockstar games billions of dollars and i don't think gta 6 online is going break any record of g",
+        "a large map doesn't mean anythibg! look at how much dead space there was in the gta 5 map... whi h rockstar barely utilized for gta online! also, a bigger map a"
+      ]
+    },
+    "labubu": {
+      "ticker": "9992.HK",
+      "videos": 5,
+      "views_30d_top5": 1401720,
+      "comments_read": 234,
+      "intent_per_100": 7.7,
+      "scare_per_100": 1.3,
+      "examples": [
+        "wait a minute wait a minute... you're telling me people bought those... as an investment?!",
+        "how fake is fake when you can't tell the difference?",
+        "never bought one. but i do have one. for like 5 seconds. \ud83d\ude02 a coworker gave me one. instantly threw it in the trash after she clocked out and left. she clipped o"
+      ]
+    },
+    "uggs": {
+      "ticker": "DECK",
+      "videos": 5,
+      "views_30d_top5": 1081773,
+      "comments_read": 239,
+      "intent_per_100": 5.0,
+      "scare_per_100": 1.7,
+      "examples": [
+        "yeah ugg did release these before, i bought a used pair of these boots in a chocolate brown (they are called \u201cwrangell\u201d)  and they are amazing in winter here in",
+        "i wore the same pair of boots styled like these every michigan winter for 25 years.    they were sold by l.l.bean and made in canada.    they were completely sh",
+        "a fake welt around a glued boot is one of the biggest crimes!!! that\u2019s the big problem with the red wing 1907 moc toe!!!"
+      ]
+    },
+    "barbie": {
+      "ticker": "MAT",
+      "videos": 5,
+      "views_30d_top5": 4631123,
+      "comments_read": 0,
+      "intent_per_100": null,
+      "scare_per_100": null,
+      "examples": []
+    },
+    "build a bear": {
+      "ticker": "BBW",
+      "videos": 5,
+      "views_30d_top5": 403901,
+      "comments_read": 227,
+      "intent_per_100": 15.0,
+      "scare_per_100": 1.3,
+      "examples": [
+        "please never let anyone make you feel bad for buying thrifted clothing for crafts. i work at a thrift store and we toss out so much after it\u2019s sat on the floor ",
+        "wait this is sick i love that so much and the plushieeee",
+        "buying kid clothes for plushies is smart."
+      ]
+    }
+  },
+  "errors": []
+}
