@@ -1,0 +1,630 @@
+{
+  "date": "2026-10-23",
+  "terms": {
+    "AI chips": {
+      "theme": "AI chips",
+      "last_week": 32.142857142857146,
+      "prior_4w": 44.5,
+      "change": -0.2776886035313001,
+      "peak_3m": 100.0
+    },
+    "Nvidia stock": {
+      "theme": "AI chips",
+      "last_week": 27.857142857142858,
+      "prior_4w": 30.178571428571427,
+      "change": -0.07692307692307687,
+      "peak_3m": 100.0
+    },
+    "data center": {
+      "theme": "AI data centers",
+      "last_week": 52.714285714285715,
+      "prior_4w": 55.75,
+      "change": -0.054452274183215854,
+      "peak_3m": 100.0
+    },
+    "AI data center": {
+      "theme": "AI data centers",
+      "last_week": 24.714285714285715,
+      "prior_4w": 35.92857142857143,
+      "change": -0.3121272365805169,
+      "peak_3m": 100.0
+    },
+    "data center power": {
+      "theme": "Power for AI",
+      "last_week": 23.285714285714285,
+      "prior_4w": 34.57142857142857,
+      "change": -0.32644628099173556,
+      "peak_3m": 100.0
+    },
+    "electricity prices": {
+      "theme": "Power for AI",
+      "last_week": 25.428571428571427,
+      "prior_4w": 33.75,
+      "change": -0.24656084656084665,
+      "peak_3m": 100.0
+    },
+    "uranium": {
+      "theme": "Nuclear",
+      "last_week": 60.714285714285715,
+      "prior_4w": 68.82142857142857,
+      "change": -0.1177996886351842,
+      "peak_3m": 100.0
+    },
+    "data center water": {
+      "theme": "Water",
+      "last_week": 28.285714285714285,
+      "prior_4w": 37.42857142857143,
+      "change": -0.24427480916030542,
+      "peak_3m": 100.0
+    },
+    "water shortage": {
+      "theme": "Water",
+      "last_week": 13.714285714285714,
+      "prior_4w": 18.0,
+      "change": -0.23809523809523814,
+      "peak_3m": 100.0
+    },
+    "AI layoffs": {
+      "theme": "AI efficiency wave",
+      "last_week": 23.285714285714285,
+      "prior_4w": 25.714285714285715,
+      "change": -0.09444444444444455,
+      "peak_3m": 100.0
+    },
+    "bitcoin": {
+      "theme": "Crypto",
+      "last_week": 37.285714285714285,
+      "prior_4w": 44.42857142857143,
+      "change": -0.16077170418006437,
+      "peak_3m": 100.0
+    },
+    "XRP": {
+      "theme": "Crypto",
+      "last_week": 31.285714285714285,
+      "prior_4w": 42.892857142857146,
+      "change": -0.27060782681099094,
+      "peak_3m": 100.0
+    },
+    "meme coin": {
+      "theme": "Crypto",
+      "last_week": 28.142857142857142,
+      "prior_4w": 36.5,
+      "change": -0.22896281800391394,
+      "peak_3m": 100.0
+    },
+    "buy gold": {
+      "theme": "Precious metals",
+      "last_week": 57.42857142857143,
+      "prior_4w": 65.92857142857143,
+      "change": -0.12892741061755142,
+      "peak_3m": 100.0
+    },
+    "silver price": {
+      "theme": "Precious metals",
+      "last_week": 59.142857142857146,
+      "prior_4w": 59.5,
+      "change": -0.006002400960384069,
+      "peak_3m": 100.0
+    },
+    "humanoid robot": {
+      "theme": "Robotics",
+      "last_week": 15.285714285714286,
+      "prior_4w": 21.464285714285715,
+      "change": -0.2878535773710482,
+      "peak_3m": 100.0
+    }
+  },
+  "consumer": {
+    "coconut water": {
+      "ticker": "COCO",
+      "last_4w": 36.25,
+      "prior_12w": 47.166666666666664,
+      "year_avg": 52.19230769230769,
+      "change": -0.23144876325088337,
+      "at_12m_high": false,
+      "yoy_same_season": 0.20833333333333326,
+      "at_5y_high": false
+    },
+    "sweetgreen": {
+      "ticker": "SG",
+      "last_4w": 63.25,
+      "prior_12w": 62.166666666666664,
+      "year_avg": 63.92307692307692,
+      "change": 0.017426273458445163,
+      "at_12m_high": false,
+      "yoy_same_season": -0.03435114503816794,
+      "at_5y_high": false
+    },
+    "cava": {
+      "ticker": "CAVA",
+      "last_4w": 81.0,
+      "prior_12w": 85.33333333333333,
+      "year_avg": 84.21153846153847,
+      "change": -0.05078125,
+      "at_12m_high": false,
+      "yoy_same_season": 0.06578947368421062,
+      "at_5y_high": false
+    },
+    "dutch bros": {
+      "ticker": "BROS",
+      "last_4w": 64.0,
+      "prior_12w": 69.0,
+      "year_avg": 69.92307692307692,
+      "change": -0.07246376811594202,
+      "at_12m_high": false,
+      "yoy_same_season": 0.05785123966942152,
+      "at_5y_high": false
+    },
+    "starbucks": {
+      "ticker": "SBUX",
+      "last_4w": 43.25,
+      "prior_12w": 47.583333333333336,
+      "year_avg": 47.15384615384615,
+      "change": -0.09106830122591947,
+      "at_12m_high": false,
+      "yoy_same_season": -0.2276785714285714,
+      "at_5y_high": false
+    },
+    "birkenstock": {
+      "ticker": "BIRK",
+      "last_4w": 42.5,
+      "prior_12w": 55.0,
+      "year_avg": 56.03846153846154,
+      "change": -0.2272727272727273,
+      "at_12m_high": false,
+      "yoy_same_season": -0.017341040462427793,
+      "at_5y_high": false
+    },
+    "hoka": {
+      "ticker": "DECK",
+      "last_4w": 32.75,
+      "prior_12w": 41.166666666666664,
+      "year_avg": 49.44230769230769,
+      "change": -0.20445344129554655,
+      "at_12m_high": false,
+      "yoy_same_season": -0.11486486486486491,
+      "at_5y_high": false
+    },
+    "on running shoes": {
+      "ticker": "ONON",
+      "last_4w": 20.0,
+      "prior_12w": 25.25,
+      "year_avg": 35.07692307692308,
+      "change": -0.20792079207920788,
+      "at_12m_high": false,
+      "yoy_same_season": 0.11111111111111116,
+      "at_5y_high": false
+    },
+    "crocs": {
+      "ticker": "CROX",
+      "last_4w": 33.5,
+      "prior_12w": 49.333333333333336,
+      "year_avg": 47.40384615384615,
+      "change": -0.32094594594594594,
+      "at_12m_high": false,
+      "yoy_same_season": -0.06944444444444442,
+      "at_5y_high": false
+    },
+    "elf cosmetics": {
+      "ticker": "ELF",
+      "last_4w": 22.25,
+      "prior_12w": 26.5,
+      "year_avg": 30.134615384615383,
+      "change": -0.160377358490566,
+      "at_12m_high": false,
+      "yoy_same_season": -0.19090909090909092,
+      "at_5y_high": false
+    },
+    "celsius energy drink": {
+      "ticker": "CELH",
+      "last_4w": 17.0,
+      "prior_12w": 20.0,
+      "year_avg": 30.21153846153846,
+      "change": -0.15000000000000002,
+      "at_12m_high": false,
+      "yoy_same_season": -0.276595744680851,
+      "at_5y_high": false
+    },
+    "swatch": {
+      "ticker": "UHR.SW",
+      "last_4w": 3.0,
+      "prior_12w": 4.333333333333333,
+      "year_avg": 6.480769230769231,
+      "change": -0.3076923076923076,
+      "at_12m_high": false,
+      "yoy_same_season": 0.19999999999999996,
+      "at_5y_high": false
+    },
+    "ozempic": {
+      "ticker": "NVO",
+      "last_4w": 29.0,
+      "prior_12w": 37.5,
+      "year_avg": 44.61538461538461,
+      "change": -0.22666666666666668,
+      "at_12m_high": false,
+      "yoy_same_season": -0.4020618556701031,
+      "at_5y_high": false
+    },
+    "hims": {
+      "ticker": "HIMS",
+      "last_4w": 31.25,
+      "prior_12w": 36.833333333333336,
+      "year_avg": 43.65384615384615,
+      "change": -0.15158371040723984,
+      "at_12m_high": false,
+      "yoy_same_season": -0.32795698924731187,
+      "at_5y_high": false
+    },
+    "robinhood": {
+      "ticker": "HOOD",
+      "last_4w": 35.25,
+      "prior_12w": 42.25,
+      "year_avg": 45.76923076923077,
+      "change": -0.16568047337278102,
+      "at_12m_high": false,
+      "yoy_same_season": -0.301980198019802,
+      "at_5y_high": false
+    },
+    "pokemon cards": {
+      "ticker": "NTDOY",
+      "last_4w": 76.75,
+      "prior_12w": 78.83333333333333,
+      "year_avg": 71.82692307692308,
+      "change": -0.026427061310782207,
+      "at_12m_high": false,
+      "yoy_same_season": 0.7344632768361581,
+      "at_5y_high": false
+    },
+    "gta 6": {
+      "ticker": "TTWO",
+      "last_4w": 25.25,
+      "prior_12w": 23.5,
+      "year_avg": 15.442307692307692,
+      "change": 0.07446808510638303,
+      "at_12m_high": false,
+      "yoy_same_season": 2.4827586206896552,
+      "at_5y_high": false
+    },
+    "labubu": {
+      "ticker": "9992.HK",
+      "last_4w": 2.75,
+      "prior_12w": 3.25,
+      "year_avg": 9.923076923076923,
+      "change": -0.15384615384615385,
+      "at_12m_high": false,
+      "yoy_same_season": -0.9083333333333333,
+      "at_5y_high": false
+    },
+    "uggs": {
+      "ticker": "DECK",
+      "last_4w": 23.0,
+      "prior_12w": 8.75,
+      "year_avg": 17.403846153846153,
+      "change": 1.6285714285714286,
+      "at_12m_high": false,
+      "yoy_same_season": -0.1785714285714286,
+      "at_5y_high": false
+    },
+    "barbie": {
+      "ticker": "MAT",
+      "last_4w": 3.0,
+      "prior_12w": 3.0833333333333335,
+      "year_avg": 3.4615384615384617,
+      "change": -0.027027027027027084,
+      "at_12m_high": false,
+      "yoy_same_season": -0.25,
+      "at_5y_high": false
+    },
+    "build a bear": {
+      "ticker": "BBW",
+      "last_4w": 40.75,
+      "prior_12w": 56.666666666666664,
+      "year_avg": 46.48076923076923,
+      "change": -0.28088235294117647,
+      "at_12m_high": false,
+      "yoy_same_season": 0.07236842105263164,
+      "at_5y_high": false
+    }
+  },
+  "errors": [
+    "nuclear energy: The request failed: Google returned a response with code 429",
+    "liquid cooling: The request failed: Google returned a response with code 429",
+    "copper price: The request failed: Google returned a response with code 429",
+    "AI agents: The request failed: Google returned a response with code 429",
+    "memory chip shortage: The request failed: Google returned a response with code 429"
+  ],
+  "discovery": {
+    "sold out": [
+      {
+        "query": "calvin harris sold out",
+        "value": 47700
+      },
+      {
+        "query": "carlsbad caverns cheetos impact",
+        "value": 19600
+      },
+      {
+        "query": "cheapest flights to tokyo",
+        "value": 13000
+      },
+      {
+        "query": "are calvin harris tickets sold out",
+        "value": 11850
+      },
+      {
+        "query": "chilis new chicken parm big crispy",
+        "value": 10950
+      },
+      {
+        "query": "nba achilles injury",
+        "value": 10800
+      },
+      {
+        "query": "ram 1500 rumble bee sold out",
+        "value": 10400
+      },
+      {
+        "query": "iphone duo pre order sold out",
+        "value": 9400
+      },
+      {
+        "query": "foldable iphone duo sold out",
+        "value": 6400
+      },
+      {
+        "query": "macklemore european tour sold out",
+        "value": 5100
+      }
+    ],
+    "restock": [
+      {
+        "query": "when does kohls restock needohs",
+        "value": 12750
+      },
+      {
+        "query": "needoh advent calendar",
+        "value": 200
+      },
+      {
+        "query": "zelda 40th anniversary switch 2 restock",
+        "value": 170
+      },
+      {
+        "query": "how often does pokemon center restock",
+        "value": 140
+      },
+      {
+        "query": "when does costco restock pokemon cards",
+        "value": 110
+      },
+      {
+        "query": "when does trader joes restock flowers",
+        "value": 100
+      },
+      {
+        "query": "costco pokemon restock",
+        "value": 80
+      },
+      {
+        "query": "target 30th anniversary pokemon",
+        "value": 70
+      },
+      {
+        "query": "when does dollar general restock pokemon cards",
+        "value": 50
+      },
+      {
+        "query": "30th anniversary pokemon",
+        "value": 50
+      }
+    ],
+    "dupe": [
+      {
+        "query": "heavenly hunks dupe loops mini donuts",
+        "value": 110100
+      },
+      {
+        "query": "rayhaan equinox dupe of",
+        "value": 5100
+      },
+      {
+        "query": "costco lola blanket dupe",
+        "value": 5000
+      },
+      {
+        "query": "rayhaan vantage dupe of",
+        "value": 900
+      },
+      {
+        "query": "lattafa fire on ice dupe of",
+        "value": 250
+      },
+      {
+        "query": "rayhaan azul dupe of",
+        "value": 200
+      },
+      {
+        "query": "club de nuit bling dupe of",
+        "value": 190
+      },
+      {
+        "query": "rayhaan lion dupe of",
+        "value": 150
+      },
+      {
+        "query": "khadlaj island dreams dupe of",
+        "value": 100
+      },
+      {
+        "query": "rayhaan aquatica dupe of",
+        "value": 90
+      }
+    ],
+    "viral": [
+      {
+        "query": "trump suit tags viral photo",
+        "value": 91750
+      },
+      {
+        "query": "extremely small dachshund puppy viral",
+        "value": 49700
+      },
+      {
+        "query": "ericka alvarez viral baseball backlash",
+        "value": 45250
+      },
+      {
+        "query": "viral coyote pear tree video",
+        "value": 39950
+      },
+      {
+        "query": "mike satterlee viral business success",
+        "value": 25650
+      },
+      {
+        "query": "angelina jolie handwriting viral note",
+        "value": 18250
+      },
+      {
+        "query": "anne hathaway verity premiere viral video",
+        "value": 11050
+      },
+      {
+        "query": "what gets a lot of viral views",
+        "value": 8100
+      },
+      {
+        "query": "kyle shanahan brock purdy viral",
+        "value": 7250
+      },
+      {
+        "query": "ella langley viral fan video",
+        "value": 3000
+      }
+    ],
+    "new flavor": [
+      {
+        "query": "mountain dew 2027 new flavor",
+        "value": 479400
+      },
+      {
+        "query": "pepsi new flavor",
+        "value": 1350
+      },
+      {
+        "query": "mountain dew new flavor",
+        "value": 550
+      },
+      {
+        "query": "dr pepper new flavor",
+        "value": 300
+      },
+      {
+        "query": "celsius new flavor",
+        "value": 50
+      }
+    ],
+    "where to buy": [
+      {
+        "query": "where to buy red dye diesel",
+        "value": 1950
+      },
+      {
+        "query": "where to buy pumpkins near me",
+        "value": 500
+      },
+      {
+        "query": "where to buy pumpkins",
+        "value": 400
+      },
+      {
+        "query": "where to buy colored contacts",
+        "value": 250
+      }
+    ],
+    "shortage": [
+      {
+        "query": "europe e-bike mechanic shortage",
+        "value": 39150
+      },
+      {
+        "query": "omaha gas shortage",
+        "value": 30950
+      },
+      {
+        "query": "europe diesel supply shortage",
+        "value": 27650
+      },
+      {
+        "query": "federal election commission quorum shortage",
+        "value": 13550
+      },
+      {
+        "query": "gas shortage omaha ne",
+        "value": 13200
+      },
+      {
+        "query": "bali fuel shortage",
+        "value": 11300
+      },
+      {
+        "query": "is there a pumpkin shortage this year",
+        "value": 8050
+      },
+      {
+        "query": "global fuel oil shortage trends",
+        "value": 7800
+      },
+      {
+        "query": "nintendo zelda anniversary product shortage",
+        "value": 7650
+      },
+      {
+        "query": "playstation 5 pro market shortage",
+        "value": 5400
+      }
+    ],
+    "waitlist": [
+      {
+        "query": "snooze waitlist",
+        "value": 8950
+      },
+      {
+        "query": "claude code projects waitlist",
+        "value": 6250
+      },
+      {
+        "query": "dove perfume waitlist",
+        "value": 5000
+      },
+      {
+        "query": "claude projects waitlist",
+        "value": 300
+      },
+      {
+        "query": "texas road house waitlist",
+        "value": 200
+      },
+      {
+        "query": "prolific waitlist",
+        "value": 150
+      },
+      {
+        "query": "olivia rodrigo",
+        "value": 150
+      },
+      {
+        "query": "waitlist olivia rodrigo",
+        "value": 150
+      },
+      {
+        "query": "olivia rodrigo waitlist tickets",
+        "value": 100
+      },
+      {
+        "query": "longhorn waitlist",
+        "value": 70
+      }
+    ]
+  }
+}

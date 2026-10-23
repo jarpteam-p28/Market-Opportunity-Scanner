@@ -1,0 +1,1023 @@
+{
+  "date": "2026-10-23",
+  "names": {
+    "TTWO": {
+      "next_earnings": "2026-11-09",
+      "insiders_90d": {
+        "buys": 0,
+        "buy_value": 0,
+        "sells": 9,
+        "sell_value": 13153767,
+        "buyers": []
+      },
+      "options": {
+        "call_vol": 3188,
+        "put_vol": 7682,
+        "put_call": 2.41,
+        "vol_vs_oi": 0.27,
+        "unusual": [
+          {
+            "side": "put",
+            "exp": "2026-10-30",
+            "strike": 195.0,
+            "volume": 2202,
+            "oi": 146
+          },
+          {
+            "side": "call",
+            "exp": "2026-10-30",
+            "strike": 212.5,
+            "volume": 1045,
+            "oi": 112
+          },
+          {
+            "side": "put",
+            "exp": "2026-10-30",
+            "strike": 202.5,
+            "volume": 1021,
+            "oi": 28
+          }
+        ]
+      }
+    },
+    "VST": {
+      "next_earnings": "2026-11-06",
+      "insiders_90d": {
+        "buys": 2,
+        "buy_value": 1173069,
+        "sells": 4,
+        "sell_value": 16626776,
+        "buyers": [
+          "BURKE JAMES A. (Chief Executive Officer)"
+        ]
+      },
+      "options": {
+        "call_vol": 11321,
+        "put_vol": 5270,
+        "put_call": 0.47,
+        "vol_vs_oi": 0.28,
+        "unusual": [
+          {
+            "side": "call",
+            "exp": "2026-10-23",
+            "strike": 138.0,
+            "volume": 541,
+            "oi": 3
+          }
+        ]
+      }
+    },
+    "MU": {
+      "next_earnings": "2026-12-23",
+      "insiders_90d": {
+        "buys": 0,
+        "buy_value": 0,
+        "sells": 3,
+        "sell_value": 78460728,
+        "buyers": []
+      },
+      "options": {
+        "call_vol": 465327,
+        "put_vol": 380520,
+        "put_call": 0.82,
+        "vol_vs_oi": 2.27,
+        "unusual": [
+          {
+            "side": "call",
+            "exp": "2026-10-23",
+            "strike": 900.0,
+            "volume": 67748,
+            "oi": 5896
+          },
+          {
+            "side": "call",
+            "exp": "2026-10-23",
+            "strike": 890.0,
+            "volume": 61194,
+            "oi": 2735
+          },
+          {
+            "side": "put",
+            "exp": "2026-10-23",
+            "strike": 880.0,
+            "volume": 50559,
+            "oi": 1994
+          }
+        ]
+      }
+    },
+    "V": {
+      "next_earnings": "2026-10-27",
+      "insiders_90d": {
+        "buys": 0,
+        "buy_value": 0,
+        "sells": 6,
+        "sell_value": 33405949,
+        "buyers": []
+      },
+      "options": {
+        "call_vol": 5518,
+        "put_vol": 7921,
+        "put_call": 1.44,
+        "vol_vs_oi": 0.38,
+        "unusual": [
+          {
+            "side": "put",
+            "exp": "2026-10-23",
+            "strike": 407.5,
+            "volume": 1406,
+            "oi": 461
+          }
+        ]
+      }
+    },
+    "CRWV": {
+      "next_earnings": "2026-11-11",
+      "insiders_90d": {
+        "buys": 0,
+        "buy_value": 0,
+        "sells": 50,
+        "sell_value": 937719930,
+        "buyers": []
+      },
+      "options": {
+        "call_vol": 209850,
+        "put_vol": 151859,
+        "put_call": 0.72,
+        "vol_vs_oi": 0.48,
+        "unusual": [
+          {
+            "side": "call",
+            "exp": "2026-10-23",
+            "strike": 55.0,
+            "volume": 38872,
+            "oi": 1648
+          },
+          {
+            "side": "call",
+            "exp": "2026-10-23",
+            "strike": 56.0,
+            "volume": 33361,
+            "oi": 2077
+          },
+          {
+            "side": "call",
+            "exp": "2026-10-23",
+            "strike": 57.0,
+            "volume": 23478,
+            "oi": 4998
+          }
+        ]
+      }
+    },
+    "ORCL": {
+      "next_earnings": "2026-12-14",
+      "insiders_90d": {
+        "buys": 1,
+        "buy_value": 3483800,
+        "sells": 3,
+        "sell_value": 5342124,
+        "buyers": [
+          "RUSCKOWSKI STEPHEN H (Director)"
+        ]
+      },
+      "options": {
+        "call_vol": 95900,
+        "put_vol": 67424,
+        "put_call": 0.7,
+        "vol_vs_oi": 0.3,
+        "unusual": [
+          {
+            "side": "put",
+            "exp": "2026-10-23",
+            "strike": 127.0,
+            "volume": 10285,
+            "oi": 2080
+          },
+          {
+            "side": "call",
+            "exp": "2026-10-23",
+            "strike": 128.0,
+            "volume": 8088,
+            "oi": 1095
+          },
+          {
+            "side": "call",
+            "exp": "2026-10-23",
+            "strike": 127.0,
+            "volume": 7416,
+            "oi": 1604
+          }
+        ]
+      }
+    },
+    "NVDA": {
+      "next_earnings": "2026-11-17",
+      "insiders_90d": {
+        "buys": 0,
+        "buy_value": 0,
+        "sells": 5,
+        "sell_value": 959950681,
+        "buyers": []
+      },
+      "options": {
+        "call_vol": 1019023,
+        "put_vol": 574769,
+        "put_call": 0.56,
+        "vol_vs_oi": 1.65,
+        "unusual": [
+          {
+            "side": "call",
+            "exp": "2026-10-23",
+            "strike": 215.0,
+            "volume": 284410,
+            "oi": 17514
+          },
+          {
+            "side": "call",
+            "exp": "2026-10-23",
+            "strike": 212.5,
+            "volume": 263778,
+            "oi": 7948
+          },
+          {
+            "side": "put",
+            "exp": "2026-10-23",
+            "strike": 210.0,
+            "volume": 172409,
+            "oi": 19432
+          }
+        ]
+      }
+    },
+    "MSFT": {
+      "next_earnings": "2026-10-28",
+      "insiders_90d": {
+        "buys": 0,
+        "buy_value": 0,
+        "sells": 5,
+        "sell_value": 75404854,
+        "buyers": []
+      },
+      "options": {
+        "call_vol": 165054,
+        "put_vol": 111034,
+        "put_call": 0.67,
+        "vol_vs_oi": 1.35,
+        "unusual": [
+          {
+            "side": "call",
+            "exp": "2026-10-23",
+            "strike": 525.0,
+            "volume": 42358,
+            "oi": 1924
+          },
+          {
+            "side": "call",
+            "exp": "2026-10-23",
+            "strike": 527.5,
+            "volume": 24794,
+            "oi": 1309
+          },
+          {
+            "side": "put",
+            "exp": "2026-10-23",
+            "strike": 522.5,
+            "volume": 22382,
+            "oi": 3774
+          }
+        ]
+      }
+    },
+    "AMZN": {
+      "next_earnings": "2026-10-29",
+      "insiders_90d": {
+        "buys": 0,
+        "buy_value": 0,
+        "sells": 11,
+        "sell_value": 365033942,
+        "buyers": []
+      },
+      "options": {
+        "call_vol": 297574,
+        "put_vol": 159301,
+        "put_call": 0.54,
+        "vol_vs_oi": 1.45,
+        "unusual": [
+          {
+            "side": "call",
+            "exp": "2026-10-23",
+            "strike": 250.0,
+            "volume": 78492,
+            "oi": 8545
+          },
+          {
+            "side": "call",
+            "exp": "2026-10-23",
+            "strike": 252.5,
+            "volume": 64962,
+            "oi": 13973
+          },
+          {
+            "side": "put",
+            "exp": "2026-10-23",
+            "strike": 247.5,
+            "volume": 44751,
+            "oi": 4867
+          }
+        ]
+      }
+    },
+    "GOOGL": {
+      "next_earnings": "2026-10-28",
+      "insiders_90d": {
+        "buys": 0,
+        "buy_value": 0,
+        "sells": 0,
+        "sell_value": 0,
+        "buyers": []
+      },
+      "options": {
+        "call_vol": 138747,
+        "put_vol": 64118,
+        "put_call": 0.46,
+        "vol_vs_oi": 0.99,
+        "unusual": [
+          {
+            "side": "call",
+            "exp": "2026-10-23",
+            "strike": 325.0,
+            "volume": 39927,
+            "oi": 1597
+          },
+          {
+            "side": "call",
+            "exp": "2026-10-23",
+            "strike": 322.5,
+            "volume": 20879,
+            "oi": 436
+          },
+          {
+            "side": "put",
+            "exp": "2026-10-23",
+            "strike": 320.0,
+            "volume": 19040,
+            "oi": 3310
+          }
+        ]
+      }
+    },
+    "META": {
+      "next_earnings": "2026-10-21",
+      "insiders_90d": {
+        "buys": 0,
+        "buy_value": 0,
+        "sells": 21,
+        "sell_value": 102828013,
+        "buyers": []
+      },
+      "options": {
+        "call_vol": 231046,
+        "put_vol": 172896,
+        "put_call": 0.75,
+        "vol_vs_oi": 1.11,
+        "unusual": [
+          {
+            "side": "call",
+            "exp": "2026-10-23",
+            "strike": 650.0,
+            "volume": 35241,
+            "oi": 1607
+          },
+          {
+            "side": "call",
+            "exp": "2026-10-23",
+            "strike": 645.0,
+            "volume": 21973,
+            "oi": 791
+          },
+          {
+            "side": "call",
+            "exp": "2026-10-23",
+            "strike": 647.5,
+            "volume": 19874,
+            "oi": 607
+          }
+        ]
+      }
+    },
+    "AAPL": {
+      "next_earnings": "2026-11-02",
+      "insiders_90d": {
+        "buys": 0,
+        "buy_value": 0,
+        "sells": 15,
+        "sell_value": 94649421,
+        "buyers": []
+      },
+      "options": {
+        "call_vol": 576468,
+        "put_vol": 492099,
+        "put_call": 0.85,
+        "vol_vs_oi": 2.86,
+        "unusual": [
+          {
+            "side": "call",
+            "exp": "2026-10-23",
+            "strike": 350.0,
+            "volume": 164214,
+            "oi": 20765
+          },
+          {
+            "side": "put",
+            "exp": "2026-10-23",
+            "strike": 345.0,
+            "volume": 127237,
+            "oi": 12941
+          },
+          {
+            "side": "call",
+            "exp": "2026-10-23",
+            "strike": 352.5,
+            "volume": 98271,
+            "oi": 17308
+          }
+        ]
+      }
+    },
+    "TSLA": {
+      "next_earnings": "2026-10-21",
+      "insiders_90d": {
+        "buys": 0,
+        "buy_value": 0,
+        "sells": 1,
+        "sell_value": 938419,
+        "buyers": []
+      },
+      "options": {
+        "call_vol": 1026636,
+        "put_vol": 1070655,
+        "put_call": 1.04,
+        "vol_vs_oi": 3.2,
+        "unusual": [
+          {
+            "side": "put",
+            "exp": "2026-10-23",
+            "strike": 370.0,
+            "volume": 287751,
+            "oi": 9579
+          },
+          {
+            "side": "call",
+            "exp": "2026-10-23",
+            "strike": 375.0,
+            "volume": 206709,
+            "oi": 6277
+          },
+          {
+            "side": "call",
+            "exp": "2026-10-23",
+            "strike": 372.5,
+            "volume": 169424,
+            "oi": 2065
+          }
+        ]
+      }
+    },
+    "COCO": {
+      "next_earnings": "2026-10-22",
+      "insiders_90d": {
+        "buys": 0,
+        "buy_value": 0,
+        "sells": 0,
+        "sell_value": 0,
+        "buyers": []
+      },
+      "options": {
+        "call_vol": 309,
+        "put_vol": 460,
+        "put_call": 1.49,
+        "vol_vs_oi": 0.14,
+        "unusual": []
+      }
+    },
+    "SG": {
+      "next_earnings": "2026-11-05",
+      "insiders_90d": {
+        "buys": 0,
+        "buy_value": 0,
+        "sells": 2,
+        "sell_value": 123219,
+        "buyers": []
+      },
+      "options": {
+        "call_vol": 598,
+        "put_vol": 323,
+        "put_call": 0.54,
+        "vol_vs_oi": 0.1,
+        "unusual": []
+      }
+    },
+    "CAVA": {
+      "next_earnings": "2026-11-04",
+      "insiders_90d": {
+        "buys": 2,
+        "buy_value": 482340,
+        "sells": 0,
+        "sell_value": 0,
+        "buyers": [
+          "KADOW JOSEPH JOHN (Officer)",
+          "THOMPSON DOUGLAS W (Chief Operating Officer)"
+        ]
+      },
+      "options": {
+        "call_vol": 1514,
+        "put_vol": 1791,
+        "put_call": 1.18,
+        "vol_vs_oi": 0.23,
+        "unusual": [
+          {
+            "side": "put",
+            "exp": "2026-10-30",
+            "strike": 50.0,
+            "volume": 746,
+            "oi": 172
+          }
+        ]
+      }
+    },
+    "BROS": {
+      "next_earnings": "2026-11-04",
+      "insiders_90d": {
+        "buys": 1,
+        "buy_value": 103120,
+        "sells": 3,
+        "sell_value": 12822787,
+        "buyers": [
+          "PENEGOR TODD ALLAN (Director)"
+        ]
+      },
+      "options": {
+        "call_vol": 1353,
+        "put_vol": 771,
+        "put_call": 0.57,
+        "vol_vs_oi": 0.17,
+        "unusual": []
+      }
+    },
+    "SBUX": {
+      "next_earnings": "2026-10-29",
+      "insiders_90d": {
+        "buys": 0,
+        "buy_value": 0,
+        "sells": 4,
+        "sell_value": 685935,
+        "buyers": []
+      },
+      "options": {
+        "call_vol": 3076,
+        "put_vol": 2143,
+        "put_call": 0.7,
+        "vol_vs_oi": 0.14,
+        "unusual": []
+      }
+    },
+    "BIRK": {
+      "next_earnings": "2026-08-13",
+      "insiders_90d": null,
+      "options": {
+        "call_vol": 196,
+        "put_vol": 101,
+        "put_call": 0.52,
+        "vol_vs_oi": 0.03,
+        "unusual": []
+      }
+    },
+    "DECK": {
+      "next_earnings": "2026-10-22",
+      "insiders_90d": {
+        "buys": 0,
+        "buy_value": 0,
+        "sells": 0,
+        "sell_value": 0,
+        "buyers": []
+      },
+      "options": {
+        "call_vol": 4058,
+        "put_vol": 5948,
+        "put_call": 1.47,
+        "vol_vs_oi": 0.46,
+        "unusual": [
+          {
+            "side": "put",
+            "exp": "2026-10-30",
+            "strike": 78.0,
+            "volume": 1084,
+            "oi": 50
+          }
+        ]
+      }
+    },
+    "ONON": {
+      "next_earnings": "2026-11-11",
+      "insiders_90d": {
+        "buys": 2,
+        "buy_value": 3987580,
+        "sells": 2,
+        "sell_value": 59978,
+        "buyers": [
+          "BERNHARD OLIVIER (Officer and Director)",
+          "COPPETTI CASPAR FELIX (Chief Executive Officer)"
+        ]
+      },
+      "options": {
+        "call_vol": 2638,
+        "put_vol": 4714,
+        "put_call": 1.79,
+        "vol_vs_oi": 0.23,
+        "unusual": [
+          {
+            "side": "put",
+            "exp": "2026-10-30",
+            "strike": 33.0,
+            "volume": 1067,
+            "oi": 221
+          }
+        ]
+      }
+    },
+    "CROX": {
+      "next_earnings": "2026-10-29",
+      "insiders_90d": {
+        "buys": 3,
+        "buy_value": 612571,
+        "sells": 1,
+        "sell_value": 4154785,
+        "buyers": [
+          "KAPLAN BETH JANELL (Director)",
+          "SMACH THOMAS J (Director)"
+        ]
+      },
+      "options": {
+        "call_vol": 313,
+        "put_vol": 159,
+        "put_call": 0.51,
+        "vol_vs_oi": 0.05,
+        "unusual": []
+      }
+    },
+    "ELF": {
+      "next_earnings": "2026-11-04",
+      "insiders_90d": {
+        "buys": 0,
+        "buy_value": 0,
+        "sells": 9,
+        "sell_value": 10695962,
+        "buyers": []
+      },
+      "options": {
+        "call_vol": 1180,
+        "put_vol": 571,
+        "put_call": 0.48,
+        "vol_vs_oi": 0.28,
+        "unusual": []
+      }
+    },
+    "CELH": {
+      "next_earnings": "2026-11-09",
+      "insiders_90d": {
+        "buys": 3,
+        "buy_value": 1830043,
+        "sells": 0,
+        "sell_value": 0,
+        "buyers": [
+          "DESANTIS DAMON (Director)",
+          "FIELDLY JOHN ERICK (Chief Executive Officer)",
+          "KRAVITZ HAL (Director)"
+        ]
+      },
+      "options": {
+        "call_vol": 4087,
+        "put_vol": 1284,
+        "put_call": 0.31,
+        "vol_vs_oi": 0.17,
+        "unusual": []
+      }
+    },
+    "NVO": {
+      "next_earnings": "2026-11-04",
+      "insiders_90d": null,
+      "options": {
+        "call_vol": 9692,
+        "put_vol": 3008,
+        "put_call": 0.31,
+        "vol_vs_oi": 0.14,
+        "unusual": []
+      }
+    },
+    "HIMS": {
+      "next_earnings": "2026-11-09",
+      "insiders_90d": {
+        "buys": 0,
+        "buy_value": 0,
+        "sells": 9,
+        "sell_value": 5284826,
+        "buyers": []
+      },
+      "options": {
+        "call_vol": 56243,
+        "put_vol": 15687,
+        "put_call": 0.28,
+        "vol_vs_oi": 0.64,
+        "unusual": [
+          {
+            "side": "call",
+            "exp": "2026-10-30",
+            "strike": 30.0,
+            "volume": 9900,
+            "oi": 1794
+          },
+          {
+            "side": "call",
+            "exp": "2026-10-30",
+            "strike": 28.5,
+            "volume": 9488,
+            "oi": 391
+          },
+          {
+            "side": "put",
+            "exp": "2026-10-30",
+            "strike": 28.0,
+            "volume": 3954,
+            "oi": 1215
+          }
+        ]
+      }
+    },
+    "HOOD": {
+      "next_earnings": "2026-10-27",
+      "insiders_90d": {
+        "buys": 0,
+        "buy_value": 0,
+        "sells": 12,
+        "sell_value": 123283837,
+        "buyers": []
+      },
+      "options": {
+        "call_vol": 137220,
+        "put_vol": 76078,
+        "put_call": 0.55,
+        "vol_vs_oi": 0.58,
+        "unusual": [
+          {
+            "side": "put",
+            "exp": "2026-10-23",
+            "strike": 95.0,
+            "volume": 16989,
+            "oi": 4940
+          },
+          {
+            "side": "call",
+            "exp": "2026-10-23",
+            "strike": 97.0,
+            "volume": 16780,
+            "oi": 2099
+          },
+          {
+            "side": "call",
+            "exp": "2026-10-23",
+            "strike": 96.0,
+            "volume": 15175,
+            "oi": 1379
+          }
+        ]
+      }
+    },
+    "NTDOY": {
+      "next_earnings": "2026-11-05",
+      "insiders_90d": null,
+      "options": null
+    },
+    "MAT": {
+      "next_earnings": "2026-11-05",
+      "insiders_90d": {
+        "buys": 0,
+        "buy_value": 0,
+        "sells": 1,
+        "sell_value": 586909,
+        "buyers": []
+      },
+      "options": {
+        "call_vol": 5313,
+        "put_vol": 4776,
+        "put_call": 0.9,
+        "vol_vs_oi": 0.11,
+        "unusual": []
+      }
+    },
+    "BBW": {
+      "next_earnings": "2026-08-27",
+      "insiders_90d": {
+        "buys": 0,
+        "buy_value": 0,
+        "sells": 1,
+        "sell_value": 272949,
+        "buyers": []
+      },
+      "options": {
+        "call_vol": 165,
+        "put_vol": 116,
+        "put_call": 0.7,
+        "vol_vs_oi": 0.06,
+        "unusual": []
+      }
+    },
+    "DASH": {
+      "next_earnings": "2026-11-04",
+      "insiders_90d": {
+        "buys": 0,
+        "buy_value": 0,
+        "sells": 27,
+        "sell_value": 102505080,
+        "buyers": []
+      },
+      "options": {
+        "call_vol": 2316,
+        "put_vol": 2596,
+        "put_call": 1.12,
+        "vol_vs_oi": 0.38,
+        "unusual": [
+          {
+            "side": "put",
+            "exp": "2026-10-30",
+            "strike": 172.5,
+            "volume": 606,
+            "oi": 26
+          }
+        ]
+      }
+    },
+    "UBER": {
+      "next_earnings": "2026-11-04",
+      "insiders_90d": {
+        "buys": 2,
+        "buy_value": 15314016,
+        "sells": 1,
+        "sell_value": 2008673,
+        "buyers": [
+          "KHOSROWSHAHI DARA (Chief Executive Officer)",
+          "MACDONALD ANDREW (President)"
+        ]
+      },
+      "options": {
+        "call_vol": 32688,
+        "put_vol": 25442,
+        "put_call": 0.78,
+        "vol_vs_oi": 0.44,
+        "unusual": [
+          {
+            "side": "call",
+            "exp": "2026-10-23",
+            "strike": 68.0,
+            "volume": 5281,
+            "oi": 936
+          },
+          {
+            "side": "call",
+            "exp": "2026-10-30",
+            "strike": 69.0,
+            "volume": 3124,
+            "oi": 925
+          },
+          {
+            "side": "call",
+            "exp": "2026-10-23",
+            "strike": 67.0,
+            "volume": 1256,
+            "oi": 173
+          }
+        ]
+      }
+    },
+    "SONY": {
+      "next_earnings": "2026-11-05",
+      "insiders_90d": null,
+      "options": {
+        "call_vol": 3468,
+        "put_vol": 96,
+        "put_call": 0.03,
+        "vol_vs_oi": 0.62,
+        "unusual": [
+          {
+            "side": "call",
+            "exp": "2026-10-30",
+            "strike": 27.0,
+            "volume": 590,
+            "oi": 7
+          },
+          {
+            "side": "call",
+            "exp": "2026-10-23",
+            "strike": 19.0,
+            "volume": 534,
+            "oi": 46
+          }
+        ]
+      }
+    }
+  },
+  "errors": [],
+  "apps": {
+    "charts": {
+      "DoorDash": {
+        "ticker": "DASH",
+        "top-free": 48
+      },
+      "Uber": {
+        "ticker": "UBER",
+        "top-free": 43
+      },
+      "Temu": {
+        "ticker": "PDD",
+        "top-free": 28
+      },
+      "Duolingo": {
+        "ticker": "DUOL",
+        "top-free": 81
+      },
+      "Airbnb": {
+        "ticker": "ABNB",
+        "top-free": 84
+      },
+      "Spotify": {
+        "ticker": "SPOT",
+        "top-free": 35
+      },
+      "Netflix": {
+        "ticker": "NFLX",
+        "top-free": 76
+      },
+      "Lyft": {
+        "ticker": "LYFT",
+        "top-free": 69
+      },
+      "Reddit": {
+        "ticker": "RDDT",
+        "top-free": 65
+      },
+      "Pinterest": {
+        "ticker": "PINS",
+        "top-free": 49
+      },
+      "Snapchat": {
+        "ticker": "SNAP",
+        "top-free": 45
+      },
+      "PayPal": {
+        "ticker": "PYPL",
+        "top-free": 50
+      },
+      "Cash App": {
+        "ticker": "XYZ",
+        "top-free": 46
+      },
+      "Chime": {
+        "ticker": "CHYM",
+        "top-free": 79
+      },
+      "Starbucks": {
+        "ticker": "SBUX",
+        "top-free": 94
+      },
+      "McDonald": {
+        "ticker": "MCD",
+        "top-free": 9
+      },
+      "Walmart": {
+        "ticker": "WMT",
+        "top-free": 32
+      },
+      "Amazon Shopping": {
+        "ticker": "AMZN",
+        "top-free": 37
+      },
+      "Threads": {
+        "ticker": "META",
+        "top-free": 12
+      },
+      "Peacock": {
+        "ticker": "CMCSA",
+        "top-free": 95
+      },
+      "Disney+": {
+        "ticker": "DIS",
+        "top-free": 98
+      },
+      "Target": {
+        "ticker": "TGT",
+        "top-paid": 20
+      }
+    },
+    "errors": []
+  }
+}

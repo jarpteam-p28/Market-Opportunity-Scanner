@@ -1,0 +1,391 @@
+{
+  "date": "2026-10-23",
+  "errors": [],
+  "trending": [
+    {
+      "name": "Universal High Income",
+      "symbol": "UHI",
+      "mcap_rank": 615,
+      "chg_24h": 28.528005088138205
+    },
+    {
+      "name": "Dacity Coin",
+      "symbol": "DACITY",
+      "mcap_rank": 830,
+      "chg_24h": -15.971263866860552
+    },
+    {
+      "name": "Irys",
+      "symbol": "IRYS",
+      "mcap_rank": 201,
+      "chg_24h": 290.97821741891295
+    },
+    {
+      "name": "Pearl",
+      "symbol": "PEARL",
+      "mcap_rank": 89,
+      "chg_24h": -6.8716530289075175
+    },
+    {
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "mcap_rank": 1,
+      "chg_24h": -0.09370060223162659
+    },
+    {
+      "name": "Pudgy Penguins",
+      "symbol": "PENGU",
+      "mcap_rank": 113,
+      "chg_24h": 0.2965969515846835
+    },
+    {
+      "name": "Starknet",
+      "symbol": "STRK",
+      "mcap_rank": 124,
+      "chg_24h": -5.260094379250334
+    },
+    {
+      "name": "Venice Token",
+      "symbol": "VVV",
+      "mcap_rank": 71,
+      "chg_24h": -4.107729034964721
+    },
+    {
+      "name": "Aerodrome Finance",
+      "symbol": "AERO",
+      "mcap_rank": 98,
+      "chg_24h": -5.877728947326872
+    },
+    {
+      "name": "Derive",
+      "symbol": "DRV",
+      "mcap_rank": 123,
+      "chg_24h": 0.4327614665384278
+    },
+    {
+      "name": "Quant",
+      "symbol": "QNT",
+      "mcap_rank": 40,
+      "chg_24h": -2.048571841834134
+    },
+    {
+      "name": "Avalanche",
+      "symbol": "AVAX",
+      "mcap_rank": 28,
+      "chg_24h": -0.012088936049519546
+    },
+    {
+      "name": "Sui",
+      "symbol": "SUI",
+      "mcap_rank": 29,
+      "chg_24h": -0.21463798118171318
+    },
+    {
+      "name": "Hyperliquid",
+      "symbol": "HYPE",
+      "mcap_rank": 11,
+      "chg_24h": 0.11140872614507866
+    },
+    {
+      "name": "Aave",
+      "symbol": "AAVE",
+      "mcap_rank": 46,
+      "chg_24h": -0.2592190978814672
+    }
+  ],
+  "memes": [
+    {
+      "name": "Pepe",
+      "symbol": "PEPE",
+      "mcap_b": 1.95,
+      "vol_b": 0.65,
+      "chg_24h": 5.10974,
+      "chg_7d": 15.6854,
+      "chg_30d": 6.5277
+    },
+    {
+      "name": "Dogecoin",
+      "symbol": "DOGE",
+      "mcap_b": 12.4,
+      "vol_b": 0.45,
+      "chg_24h": 0.61448,
+      "chg_7d": -1.2958,
+      "chg_30d": -13.7729
+    },
+    {
+      "name": "Moonbirds",
+      "symbol": "BIRB",
+      "mcap_b": 0.02,
+      "vol_b": 0.18,
+      "chg_24h": 55.95727,
+      "chg_7d": 63.5578,
+      "chg_30d": 17.2449
+    },
+    {
+      "name": "Little John",
+      "symbol": "JOHN",
+      "mcap_b": 0.02,
+      "vol_b": 0.17,
+      "chg_24h": null,
+      "chg_7d": null,
+      "chg_30d": null
+    },
+    {
+      "name": "Pump.fun",
+      "symbol": "PUMP",
+      "mcap_b": 2.06,
+      "vol_b": 0.13,
+      "chg_24h": -3.34797,
+      "chg_7d": 0.8953,
+      "chg_30d": 11.4723
+    },
+    {
+      "name": "Pudgy Penguins",
+      "symbol": "PENGU",
+      "mcap_b": 0.49,
+      "vol_b": 0.1,
+      "chg_24h": 0.43477,
+      "chg_7d": 4.0247,
+      "chg_30d": -19.3677
+    },
+    {
+      "name": "Official Trump",
+      "symbol": "TRUMP",
+      "mcap_b": 0.49,
+      "vol_b": 0.1,
+      "chg_24h": 0.20589,
+      "chg_7d": -4.0552,
+      "chg_30d": -11.3529
+    },
+    {
+      "name": "Shiba Inu",
+      "symbol": "SHIB",
+      "mcap_b": 2.97,
+      "vol_b": 0.06,
+      "chg_24h": 1.81429,
+      "chg_7d": -0.9354,
+      "chg_30d": -9.7697
+    },
+    {
+      "name": "Bonk",
+      "symbol": "BONK",
+      "mcap_b": 0.28,
+      "vol_b": 0.06,
+      "chg_24h": 4.48542,
+      "chg_7d": 4.5327,
+      "chg_30d": -8.4228
+    },
+    {
+      "name": "dogwifhat",
+      "symbol": "WIF",
+      "mcap_b": 0.19,
+      "vol_b": 0.04,
+      "chg_24h": -3.1606,
+      "chg_7d": -5.0053,
+      "chg_30d": -16.7327
+    },
+    {
+      "name": "Fartcoin",
+      "symbol": "FARTCOIN",
+      "mcap_b": 0.14,
+      "vol_b": 0.03,
+      "chg_24h": -3.67246,
+      "chg_7d": -9.6301,
+      "chg_30d": -24.7385
+    },
+    {
+      "name": "FLOKI",
+      "symbol": "FLOKI",
+      "mcap_b": 0.23,
+      "vol_b": 0.02,
+      "chg_24h": 2.50845,
+      "chg_7d": -0.3875,
+      "chg_30d": -11.6596
+    },
+    {
+      "name": "Universal High Income",
+      "symbol": "UHI",
+      "mcap_b": 0.03,
+      "vol_b": 0.02,
+      "chg_24h": 27.7553,
+      "chg_7d": null,
+      "chg_30d": null
+    },
+    {
+      "name": "Useless Coin",
+      "symbol": "USELESS",
+      "mcap_b": 0.16,
+      "vol_b": 0.02,
+      "chg_24h": 7.7548,
+      "chg_7d": 0.6308,
+      "chg_30d": -44.2642
+    },
+    {
+      "name": "Ape and Pepe",
+      "symbol": "APEPE",
+      "mcap_b": 0.25,
+      "vol_b": 0.01,
+      "chg_24h": 0.47667,
+      "chg_7d": 0.7182,
+      "chg_30d": -3.8303
+    }
+  ],
+  "fear_greed": {
+    "now": 50,
+    "label": "Neutral",
+    "week_ago": 63,
+    "month_ago": 71
+  },
+  "reddit": [
+    {
+      "ticker": "CT.X",
+      "name": "CommunityToken",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "CAN.X",
+      "name": "Channels",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "ID.X",
+      "name": "Everest",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "GBTC.X",
+      "name": "Grayscale Bitcoin Trust tokenized stock FTX",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "ICP.X",
+      "name": "Internet Computer",
+      "mentions": 1,
+      "mentions_24h_ago": 0
+    },
+    {
+      "ticker": "WHOLE.X",
+      "name": "wormhole.finance",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "ON.X",
+      "name": "OFIN Token",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "LIVE.X",
+      "name": "TRONbetLive",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "YT.X",
+      "name": "Cherry Token",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "EST.X",
+      "name": "Esports Token",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "MSTR.X",
+      "name": "MicroStrategy tokenized stock FTX",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "LONG.X",
+      "name": "LONG COIN",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "TOS.X",
+      "name": "ThingsOperatingSystem",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "ITS.X",
+      "name": "IterationSyndicate",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "LOT.X",
+      "name": "Lukki Operating Token",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "IRA.X",
+      "name": "Diligence",
+      "mentions": 1,
+      "mentions_24h_ago": 0
+    },
+    {
+      "ticker": "FIRE.X",
+      "name": "Fireball",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "TRC.X",
+      "name": "Terracoin",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "TRUMP.X",
+      "name": "TrumpCoin",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "MAC.X",
+      "name": "Matrexcoin",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "SWIFT.X",
+      "name": "SwiftCash",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "MB.X",
+      "name": "MineBee",
+      "mentions": 1,
+      "mentions_24h_ago": 0
+    },
+    {
+      "ticker": "REAL.X",
+      "name": "REAL",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "UPI.X",
+      "name": "Pawtocol",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "YOU.X",
+      "name": "YOU COIN",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    }
+  ]
+}
