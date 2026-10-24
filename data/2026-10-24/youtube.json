@@ -1,0 +1,255 @@
+{
+  "date": "2026-10-24",
+  "terms": {
+    "coconut water": {
+      "ticker": "COCO",
+      "videos": 5,
+      "views_30d_top5": 171966,
+      "comments_read": 83,
+      "intent_per_100": 1.2,
+      "scare_per_100": 1.2,
+      "examples": [
+        "*my dear husband is only 62 years old, and he was diagnosed with brain cancer. we had so many plans for our retirement, but now all we pray for is one more heal",
+        "as a professional water drinker (like i'm legit obsessed with water), that's not water. just call it healthy juice at this point."
+      ]
+    },
+    "sweetgreen": {
+      "ticker": "SG",
+      "videos": 5,
+      "views_30d_top5": 4089,
+      "comments_read": 1,
+      "intent_per_100": 0.0,
+      "scare_per_100": 0.0,
+      "examples": []
+    },
+    "cava": {
+      "ticker": "CAVA",
+      "videos": 5,
+      "views_30d_top5": 1006690,
+      "comments_read": 301,
+      "intent_per_100": 0.0,
+      "scare_per_100": 0.0,
+      "examples": []
+    },
+    "dutch bros": {
+      "ticker": "BROS",
+      "videos": 5,
+      "views_30d_top5": 392784,
+      "comments_read": 222,
+      "intent_per_100": 3.6,
+      "scare_per_100": 0.5,
+      "examples": [
+        "man i have waited the entire day for this",
+        "waited 2 weeks for this <3",
+        "i had really low blood sugar one day and in a desperate move got a mango smoothie from dutch bros. i farted more that day than any other day in my entire life ("
+      ]
+    },
+    "starbucks": {
+      "ticker": "SBUX",
+      "videos": 5,
+      "views_30d_top5": 595463,
+      "comments_read": 400,
+      "intent_per_100": 3.8,
+      "scare_per_100": 1.5,
+      "examples": [
+        "dark chocolate is good for you... its good for cancer and it slows down cancer cells... it has to be 70% percent cocoa...",
+        "just all poison",
+        "fun fact: there are influencers who got  whole snoopy launch for free while baristas got fired over when they bought  the cup (no discount)."
+      ]
+    },
+    "birkenstock": {
+      "ticker": "BIRK",
+      "videos": 5,
+      "views_30d_top5": 91378,
+      "comments_read": 60,
+      "intent_per_100": 0.0,
+      "scare_per_100": 0.0,
+      "examples": []
+    },
+    "hoka": {
+      "ticker": "DECK",
+      "videos": 5,
+      "views_30d_top5": 438409,
+      "comments_read": 146,
+      "intent_per_100": 6.8,
+      "scare_per_100": 0.0,
+      "examples": [
+        "i\u2019m obsessed with my hokas! nothing else even comes close in comparison for me.",
+        "gone through 2 pair of arahi 8's this year with no real issues apart from they wear out quickly. moved to the clifton 10 and the sole is already wearing fast af",
+        "hoka makes wide sizes which is good for my foot.  on doesn't make them in wide and they are very uncomfortable for me.   i just bought my first pair of hokas an"
+      ]
+    },
+    "on running shoes": {
+      "ticker": "ONON",
+      "videos": 5,
+      "views_30d_top5": 128238,
+      "comments_read": 65,
+      "intent_per_100": 9.2,
+      "scare_per_100": 3.1,
+      "examples": [
+        "i think the baseline shoe should have been an actual supershoe with some carbon plate/rod/rim technology rather than the evo sls. that would have been a more fa",
+        "you'd have to do way more testing to know for sure. the best you're getting is the feeling. many years ago i bought some shoes that were supposed to be really r",
+        "illegal shoes wat bullshit.there not going to make any one go quicker than wat there fitness is letting them.its only a scam to make more money.total garbage."
+      ]
+    },
+    "crocs": {
+      "ticker": "CROX",
+      "videos": 5,
+      "views_30d_top5": 1203871,
+      "comments_read": 324,
+      "intent_per_100": 0.3,
+      "scare_per_100": 0.0,
+      "examples": [
+        "don't go to dollar tree then \ud83d\ude02 i bought a pair a few years back and they're still functional!"
+      ]
+    },
+    "elf cosmetics": {
+      "ticker": "ELF",
+      "videos": 5,
+      "views_30d_top5": 1628521,
+      "comments_read": 140,
+      "intent_per_100": 3.6,
+      "scare_per_100": 0.0,
+      "examples": [
+        "i look forward to your uploads! you truly teach us so much!! elf is such a great cosmetics line.",
+        "the video i need it!",
+        "we love that you're so obsessed \ud83d\ude0d\ud83d\udc96"
+      ]
+    },
+    "celsius energy drink": {
+      "ticker": "CELH",
+      "videos": 5,
+      "views_30d_top5": 38732,
+      "comments_read": 78,
+      "intent_per_100": 6.4,
+      "scare_per_100": 1.3,
+      "examples": [
+        "it's wild how they put citric acid, in literally everything. especially when it's derived from mold too. there's a bottle of aloe juice in my fridge, that has c",
+        "everytime i drink something with citric acid my gum gets irritated. it's literally poison for the teeth.",
+        "i just bought two more cases"
+      ]
+    },
+    "swatch": {
+      "ticker": "UHR.SW",
+      "videos": 5,
+      "views_30d_top5": 326133,
+      "comments_read": 184,
+      "intent_per_100": 6.0,
+      "scare_per_100": 2.2,
+      "examples": [
+        "i prefer the sketch as among the two. i seem to recall marc @ long island watch reviewing a blue watch with the \"sketch-type\" markings awhile back - but i don't",
+        "ohhhh i want one sooooo badddddd i'l try to get one!",
+        "obsessed!!!"
+      ]
+    },
+    "ozempic": {
+      "ticker": "NVO",
+      "videos": 5,
+      "views_30d_top5": 1077171,
+      "comments_read": 351,
+      "intent_per_100": 2.8,
+      "scare_per_100": 3.7,
+      "examples": [
+        "thank you dr n for debunking all the crap about glp-1s that is constantly being spewed online.  love you dr n.",
+        "everything online contradicts everything online. we can't believe anything anymore.",
+        "i really appreciate your informative videos as i\u2019m thinking of glp1 as a 5(yr old, 2x breast cancer survivor and 240lbs"
+      ]
+    },
+    "hims": {
+      "ticker": "HIMS",
+      "videos": 5,
+      "views_30d_top5": 8681,
+      "comments_read": 10,
+      "intent_per_100": 0.0,
+      "scare_per_100": 0.0,
+      "examples": []
+    },
+    "robinhood": {
+      "ticker": "HOOD",
+      "videos": 5,
+      "views_30d_top5": 2318042,
+      "comments_read": 61,
+      "intent_per_100": 3.3,
+      "scare_per_100": 1.6,
+      "examples": [
+        "i know they did memorize all the lines and and they did rehearse that many times, but it's sooooooooooo fake, everyone sounds like a scripted bot, maybe beside ",
+        "look at the upcoming flex elite card, it\u2019s basically a better alternative to the rh gold card and would complement rh platinum nicely.  ignore the 5 percent hea"
+      ]
+    },
+    "pokemon cards": {
+      "ticker": "NTDOY",
+      "videos": 5,
+      "views_30d_top5": 1326378,
+      "comments_read": 343,
+      "intent_per_100": 13.1,
+      "scare_per_100": 5.2,
+      "examples": [
+        "a full size noivern would be so sick! but obviously i would say that\u2026 lol",
+        "a armored mewtwo would be sick\u26a1\u26a1\u26a1",
+        "favorite is gengar but statue a groudon would be sick\ud83d\udd25\ud83d\udd25"
+      ]
+    },
+    "gta 6": {
+      "ticker": "TTWO",
+      "videos": 5,
+      "views_30d_top5": 3305102,
+      "comments_read": 219,
+      "intent_per_100": 2.7,
+      "scare_per_100": 0.5,
+      "examples": [
+        "i\u2019m 59 and retired with time on my hands. i\u2019ll be prepping before launch, cooking food that can be frozen until needed. house tidied, supplies bought.\nwhen the ",
+        "i'm taking my time exploring and enjoying the city. not worried about spoilers because i won't be online to see them \ud83e\udd37\ud83c\udffe",
+        "only 4 thursday left 2026 \n\noctober 29 \n\nnovember 5 \nnovember 12 \nnovember 19 gta 6 release date with gta online thursday update"
+      ]
+    },
+    "labubu": {
+      "ticker": "9992.HK",
+      "videos": 5,
+      "views_30d_top5": 1469419,
+      "comments_read": 236,
+      "intent_per_100": 7.6,
+      "scare_per_100": 1.3,
+      "examples": [
+        "wait a minute wait a minute... you're telling me people bought those... as an investment?!",
+        "how fake is fake when you can't tell the difference?",
+        "such a fake life must be awful to live."
+      ]
+    },
+    "uggs": {
+      "ticker": "DECK",
+      "videos": 5,
+      "views_30d_top5": 164794,
+      "comments_read": 144,
+      "intent_per_100": 2.8,
+      "scare_per_100": 2.8,
+      "examples": [
+        "yeah ugg did release these before, i bought a used pair of these boots in a chocolate brown (they are called \u201cwrangell\u201d)  and they are amazing in winter here in",
+        "a fake welt around a glued boot is one of the biggest crimes!!! that\u2019s the big problem with the red wing 1907 moc toe!!!",
+        "i wore the same pair of boots styled like these every michigan winter for 25 years.    they were sold by l.l.bean and made in canada.    they were completely sh"
+      ]
+    },
+    "barbie": {
+      "ticker": "MAT",
+      "videos": 5,
+      "views_30d_top5": 4137499,
+      "comments_read": 0,
+      "intent_per_100": null,
+      "scare_per_100": null,
+      "examples": []
+    },
+    "build a bear": {
+      "ticker": "BBW",
+      "videos": 5,
+      "views_30d_top5": 389521,
+      "comments_read": 216,
+      "intent_per_100": 16.2,
+      "scare_per_100": 1.4,
+      "examples": [
+        "good timing on this video, i've been somewhat of a figure in the bab space for a couple years. enough that people began to recognize my bears and me by name. an",
+        "i've said it a hundred times and all say it here too. \ud83d\udc4f\ud83c\udffd buyers\ud83d\udc4f\ud83c\udffd set \ud83d\udc4f\ud83c\udffdthe\ud83d\udc4f\ud83c\udffdprice!\ud83d\udc4f\ud83c\udffd \n\nuntil we start naming and shaming collectors who buy from scalpers, unti",
+        "welcome back!!\n\ni am still so upset about the latest halloween drop, i bought the bat as a birthday present for myself and build a bear cancelled my order for i"
+      ]
+    }
+  },
+  "errors": []
+}

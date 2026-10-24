@@ -1,0 +1,351 @@
+{
+  "date": "2026-10-24",
+  "n": 50,
+  "errors": [],
+  "by_theme": {
+    "AI chips": [
+      {
+        "title": "Nvidia's role as AI financier faces first big test as neoclouds take market hit",
+        "link": "https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html",
+        "published": "Sat, 24 Oct 2026 11:00:01 GMT",
+        "source": "www.cnbc.com"
+      }
+    ],
+    "AI data centers": [],
+    "Power for AI": [],
+    "Nuclear": [],
+    "Water": [],
+    "Cooling": [],
+    "Copper & grid materials": [],
+    "AI software": [],
+    "Memory chips": [],
+    "AI efficiency wave": [],
+    "Distribution moats": [],
+    "Crypto": [],
+    "Precious metals": [],
+    "Robotics": []
+  },
+  "latest": [
+    {
+      "title": "Young Americans are giving up on car ownership. It\u2019s a path to financial freedom for some.",
+      "link": "https://www.marketwatch.com/story/young-americans-are-giving-up-their-cars-its-a-path-to-financial-freedom-for-some-3cce491c?mod=mw_rss_topstories",
+      "published": "Sat, 24 Oct 2026 14:06:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "My father-in-law, 81, sold his $75,000 home to pay his daughter\u2019s $50,000 debt. How can I keep him from becoming destitute?",
+      "link": "https://www.marketwatch.com/story/my-father-in-law-81-sold-his-75-000-home-and-paid-off-his-daughters-50-000-debt-what-happens-to-him-now-60e8fc72?mod=mw_rss_topstories",
+      "published": "Sat, 24 Oct 2026 14:00:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Investors\u2019 recent money moves show a preference for lowering risks over boosting rewards",
+      "link": "https://www.marketwatch.com/story/investors-recent-money-moves-show-a-preference-for-quality-over-momentum-within-the-s-p-500-ed6b5149?mod=mw_rss_topstories",
+      "published": "Sat, 24 Oct 2026 13:37:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "My niece\u2019s college rent is covered by a 529 plan. What else can I pay for tax-free?",
+      "link": "https://www.marketwatch.com/story/my-nieces-college-rent-is-covered-by-a-529-plan-what-else-can-i-pay-for-tax-free-d1686b63?mod=mw_rss_topstories",
+      "published": "Sat, 24 Oct 2026 13:28:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "My spouse was awarded $90,000 from my 401(k) in our divorce. How is that fair?",
+      "link": "https://www.marketwatch.com/story/my-spouse-was-awarded-90-000-from-my-401-k-in-our-divorce-how-is-that-fair-dc839aa3?mod=mw_rss_topstories",
+      "published": "Sat, 24 Oct 2026 13:00:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "\u2018She\u2019s living the dream\u2019: My stepmother said I can buy my childhood home for $850,000. Is she taking advantage of me?",
+      "link": "https://www.marketwatch.com/story/shes-living-the-dream-my-stepmother-said-i-can-buy-my-childhood-home-for-850-000-is-she-taking-advantage-of-me-1fdda7b5?mod=mw_rss_topstories",
+      "published": "Sat, 24 Oct 2026 12:30:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Moderna\u2019s cancer vaccine is \u2018likely\u2019 to get approved. Skeptics question if it will be the best option.",
+      "link": "https://www.marketwatch.com/story/the-real-test-for-modernas-cancer-vaccine-isnt-about-beating-keytruda-its-keeping-cancer-from-coming-back-in-the-long-term-da9af99f?mod=mw_rss_topstories",
+      "published": "Sat, 24 Oct 2026 12:25:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "AI fever ignites a boom in thematic ETFs as fund managers hunt for their next big hit",
+      "link": "https://www.marketwatch.com/story/ai-fever-ignites-a-boom-in-thematic-etfs-as-fund-managers-hunt-for-their-next-big-hit-82d1566c?mod=mw_rss_topstories",
+      "published": "Sat, 24 Oct 2026 12:00:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "My husband wants to sell our $1.5 million home and invest the proceeds. But this is where we raised our kids \u2014 and I can\u2019t bear to leave.",
+      "link": "https://www.marketwatch.com/story/my-husband-wants-to-sell-our-1-5-million-home-and-invest-the-proceeds-but-this-is-where-we-raised-our-kids-and-i-cant-bear-to-leave-4feb46ed?mod=mw_rss_topstories",
+      "published": "Sat, 24 Oct 2026 12:00:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "\u2018Non-answers\u2019 aren\u2019t working. This is what investors really need from the Fed.",
+      "link": "https://www.marketwatch.com/story/non-answers-arent-working-this-is-what-investors-really-need-from-the-fed-673a9dce?mod=mw_rss_topstories",
+      "published": "Sat, 24 Oct 2026 11:30:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Why popular airplanes are getting scrapped years early",
+      "link": "https://www.cnbc.com/2026/10/24/spirit-airlines-planes-scrapped-engine-shortage.html",
+      "published": "Sat, 24 Oct 2026 12:59:59 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Nvidia's role as AI financier faces first big test as neoclouds take market hit",
+      "link": "https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html",
+      "published": "Sat, 24 Oct 2026 11:00:01 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Trump is pushing a massive AI buildout. His own voters are wary of what comes with it",
+      "link": "https://www.cnbc.com/2026/10/24/trump-ai-data-centers-voter-backlash-midterms.html",
+      "published": "Sat, 24 Oct 2026 10:59:16 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "What next for France as riots rattle markets? Three questions facing investors ahead of more protests",
+      "link": "https://www.cnbc.com/2026/10/24/france-riots-paris-unrest-debt-budget.html",
+      "published": "Sat, 24 Oct 2026 06:23:02 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Berkshire shares shake the Buffett blues with new all-time highs",
+      "link": "https://www.cnbc.com/2026/10/24/berkshire-record-high-without-buffett.html",
+      "published": "Sat, 24 Oct 2026 12:48:32 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Fact vs. fiction: Doctors share whether peptides are safe and effective",
+      "link": "https://www.cnbc.com/make-it/2026/10/24/peptides-safety-risks-benefits.html",
+      "published": "Sat, 24 Oct 2026 13:05:01 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Turmoil hits AI buildout as neoclouds face pressure, credit risks mount and Solidigm pulls IPO",
+      "link": "https://www.cnbc.com/2026/10/23/ai-turmoil-neoclouds-struggle-credit-risks-jump-solidigm-pulls-ipo.html",
+      "published": "Sat, 24 Oct 2026 06:41:14 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Ukraine says Starlink and Starshield high speed restrictions have been lifted",
+      "link": "https://www.cnbc.com/2026/10/24/ukraine-starlink-starshield-service-restored.html",
+      "published": "Sat, 24 Oct 2026 13:00:35 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "AI's 'Black October':\u00a0Critical PHP flaws set off global security scramble",
+      "link": "https://www.cnbc.com/2026/10/23/php-vulnerabilities-ai-cybersecurity.html",
+      "published": "Fri, 23 Oct 2026 16:55:37 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "America by the numbers: How voters feel about the economy, inflation, AI and Trump",
+      "link": "https://www.cnbc.com/2026/10/23/america-by-the-numbers-how-voters-feel-about-the-economy-inflation-ai-and-trump.html",
+      "published": "Sat, 24 Oct 2026 10:58:30 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Trump's executive order targets mortgage insurance, refinance costs. What it means for borrowers",
+      "link": "https://www.cnbc.com/2026/10/23/trump-mortgage-executive-order-costs.html",
+      "published": "Fri, 23 Oct 2026 22:27:06 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Scalpers offer Apple iPhone Duo buyers hundreds extra outside Beijing launch",
+      "link": "https://www.cnbc.com/2026/10/23/apple-iphone-duo-china-launch.html",
+      "published": "Fri, 23 Oct 2026 20:06:37 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Trump dropping some Canada tariffs but 'replacing' them with other products",
+      "link": "https://www.cnbc.com/2026/10/23/trump-tariffs-canada-susan-collins.html",
+      "published": "Fri, 23 Oct 2026 21:26:59 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Moody's holds steady on France's credit rating as country grapples with turmoil and higher yields",
+      "link": "https://www.cnbc.com/2026/10/23/moodys-holds-steady-on-frances-credit-rating-as-country-grapples-with-turmoil-and-higher-yields.html",
+      "published": "Fri, 23 Oct 2026 22:49:42 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Corruption is voters' top issue ahead of midterm election, CNBC survey shows",
+      "link": "https://www.cnbc.com/2026/10/23/corruption-midterm-election-cnbc-poll-trump.html",
+      "published": "Fri, 23 Oct 2026 19:26:17 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "What a day in customer service looks like \u2014 as AI changes everything",
+      "link": "https://www.cnbc.com/2026/10/24/ai-customer-service-jobs-work.html",
+      "published": "Sat, 24 Oct 2026 05:00:01 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "CrowdStrike CEO's alarming prediction \u2014 plus, the sell-off spreads beyond tech",
+      "link": "https://www.cnbc.com/investingclub/2026/10/23/crowdstrikes-alarming-prediction-plus-sell-off-spreads-beyond-tech.html",
+      "published": "Fri, 23 Oct 2026 18:49:56 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Trump says he ordered DOJ suit to block Alaska Senate race certification if Republican loses",
+      "link": "https://www.cnbc.com/2026/10/23/alaska-senate-election-doj-lawsuit-sullivan.html",
+      "published": "Fri, 23 Oct 2026 20:20:41 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "In hunt for Starlink alternative, Ukraine partners with Nokia and satellite maker ICEYE",
+      "link": "https://www.cnbc.com/2026/10/23/ukraine-partners-with-nokia-and-iceye-for-starlink-alternative.html",
+      "published": "Fri, 23 Oct 2026 20:52:23 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Musk's SpaceX is still restricting Starlink in Ukraine and the toll is rising",
+      "link": "https://www.cnbc.com/2026/10/23/ukraine-says-starlink-restrictions-remain-despite-trump-assurances.html",
+      "published": "Fri, 23 Oct 2026 19:50:26 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "TikTok U.S. hunts for multiple gigawatts of computing capacity, sources tell CNBC",
+      "link": "https://www.cnbc.com/2026/10/23/tiktok-us-compute-capacity.html",
+      "published": "Fri, 23 Oct 2026 15:35:36 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Meta shares are down 9% this week. Here's why Mike Khouw is buying now",
+      "link": "https://www.cnbc.com/2026/10/23/meta-shares-rough-week-mike-khouw-is-buying.html",
+      "published": "Fri, 23 Oct 2026 19:25:18 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Qatar deal to buy U.S. natural gas shows how Iran war has redrawn global energy markets",
+      "link": "https://www.cnbc.com/2026/10/23/cheniere-qatar-energy-lng-natural-gas-iran-war-strait-hormuz.html",
+      "published": "Fri, 23 Oct 2026 19:19:08 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Democratic socialist set to become D.C. mayor \u2014 and face Trump's pushback",
+      "link": "https://www.cnbc.com/2026/10/23/janeese-lewis-george-democratic-socialist-washington-dc-mayor.html",
+      "published": "Fri, 23 Oct 2026 10:30:01 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "France is flashing euro crisis signals. This time, the fault lines are different",
+      "link": "https://www.cnbc.com/2026/10/23/france-debt-euro-zone-contagion.html",
+      "published": "Fri, 23 Oct 2026 11:12:38 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Investors are starting to find opportunities in the battered bond market",
+      "link": "https://www.cnbc.com/2026/10/23/investors-are-starting-to-find-opportunities-in-the-battered-bond-market.html",
+      "published": "Fri, 23 Oct 2026 20:09:36 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "American Express is cutting 5% of its workforce to 'prepare for AI'",
+      "link": "https://www.cnbc.com/2026/10/23/american-express-job-cuts.html",
+      "published": "Fri, 23 Oct 2026 18:57:48 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Doctors call Moderna, Merck cancer vaccine data a major advancement \u2014 despite Wall Street reaction",
+      "link": "https://www.cnbc.com/2026/10/23/moderna-merck-cancer-vaccine-data.html",
+      "published": "Fri, 23 Oct 2026 17:15:08 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Texas Senate race: New Talarico ad rips Elon Musk 'dark money' push",
+      "link": "https://www.cnbc.com/2026/10/23/james-talarico-campaign-ad-elon-musk-texas-senate-election.html",
+      "published": "Fri, 23 Oct 2026 17:26:12 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Two ex-FBI officials charged with allegedly lying about Hunter Biden probe: DOJ",
+      "link": "https://www.cnbc.com/2026/10/23/fbi-hunter-biden-criminal-charges.html",
+      "published": "Fri, 23 Oct 2026 16:32:44 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "France\u2019s luxury stores board up windows ahead of fresh protests",
+      "link": "https://www.investing.com/news/stock-market-news/frances-luxury-stores-board-up-windows-ahead-of-fresh-protests-4970670",
+      "published": "2026-10-24 09:24:17",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Johnson & Johnson\u2019s prostate cancer drug shrinks tumors in early-stage trial",
+      "link": "https://www.investing.com/news/stock-market-news/johnson--johnsons-prostate-cancer-drug-shrinks-tumors-in-earlystage-trial-4970719",
+      "published": "2026-10-24 08:24:21",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Swiss stocks outperform Europe as investors retreat from AI trade - Bloomberg",
+      "link": "https://www.investing.com/news/stock-market-news/swiss-stocks-outperform-europe-as-investors-retreat-from-ai-trade--bloomberg-4970705",
+      "published": "2026-10-24 08:07:38",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Moonshot curbs hacking ability in new Kimi model as fears grow over AI-powered cyberattacks",
+      "link": "https://www.investing.com/news/stock-market-news/moonshot-curbs-hacking-ability-in-new-kimi-model-as-fears-grow-over-aipowered-cyberattacks-4970639",
+      "published": "2026-10-24 06:00:39",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "JetBlue creditors working with restructuring adviser PJT Partners, WSJ reports",
+      "link": "https://www.investing.com/news/stock-market-news/jetblue-creditors-working-with-restructuring-adviser-pjt-partners-wsj-reports-4970498",
+      "published": "2026-10-24 01:54:18",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Democrat on US FCC urges broadcast industry to be more aggressive confronting the agency",
+      "link": "https://www.investing.com/news/stock-market-news/democrat-on-us-fcc-urges-broadcast-industry-to-be-more-aggressive-confronting-the-agency-4970551",
+      "published": "2026-10-24 01:42:20",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "OpenAI resumes frontier AI training after security overhaul, discloses flaw in widely used software",
+      "link": "https://www.investing.com/news/stock-market-news/openai-resumes-frontier-ai-training-with-enhanced-security-no-internet-access-4970304",
+      "published": "2026-10-24 00:55:01",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "France spared\u00a0Moody\u2019s ratings downgrade as it struggles with unrest",
+      "link": "https://www.investing.com/news/stock-market-news/unresthit-france-poised-for-moodys-ratings-verdict-4968793",
+      "published": "2026-10-24 00:24:22",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Exclusive-Boeing supplier dispute has halted 777 freighter production for two months, sources say",
+      "link": "https://www.investing.com/news/stock-market-news/exclusiveboeing-supplier-dispute-has-halted-777-freighter-production-for-two-months-sources-say-4970513",
+      "published": "2026-10-23 23:48:39",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Wall Street closes lower to end rocky week",
+      "link": "https://www.investing.com/news/stock-market-news/wall-street-futures-dip-after-ai-rout-telecoms-slide-4968816",
+      "published": "2026-10-23 23:48:23",
+      "source": "www.investing.com"
+    }
+  ],
+  "narratives": {
+    "ai_fear": {
+      "count": 1,
+      "examples": [
+        {
+          "title": "Moonshot curbs hacking ability in new Kimi model as fears grow over AI-powered cyberattacks",
+          "link": "https://www.investing.com/news/stock-market-news/moonshot-curbs-hacking-ability-in-new-kimi-model-as-fears-grow-over-aipowered-cyberattacks-4970639",
+          "published": "2026-10-24 06:00:39",
+          "source": "www.investing.com"
+        }
+      ]
+    },
+    "ai_efficiency": {
+      "count": 0,
+      "examples": []
+    },
+    "leverage": {
+      "count": 0,
+      "examples": []
+    }
+  }
+}
