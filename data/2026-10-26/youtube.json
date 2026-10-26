@@ -1,0 +1,256 @@
+{
+  "date": "2026-10-26",
+  "terms": {
+    "coconut water": {
+      "ticker": "COCO",
+      "videos": 5,
+      "views_30d_top5": 205141,
+      "comments_read": 86,
+      "intent_per_100": 2.3,
+      "scare_per_100": 1.2,
+      "examples": [
+        "*my dear husband is only 62 years old, and he was diagnosed with brain cancer. we had so many plans for our retirement, but now all we pray for is one more heal",
+        "the cruise lines and resorts should be calling him to come perform that song 2-3 nights out of the week \ud83d\ude02",
+        "bought a young coconut from walmart. came with a green thing to push in to pierce and a straw. this exists. spout makes no sense"
+      ]
+    },
+    "sweetgreen": {
+      "ticker": "SG",
+      "videos": 5,
+      "views_30d_top5": 14146,
+      "comments_read": 0,
+      "intent_per_100": null,
+      "scare_per_100": null,
+      "examples": []
+    },
+    "cava": {
+      "ticker": "CAVA",
+      "videos": 5,
+      "views_30d_top5": 699339,
+      "comments_read": 313,
+      "intent_per_100": 0.3,
+      "scare_per_100": 0.0,
+      "examples": [
+        "me parece irresponsable y mezquino que menciones a los adultos mayores como una carga.\n\nellos fueron quienes construyeron el mundo en el que nacieron los jovene"
+      ]
+    },
+    "dutch bros": {
+      "ticker": "BROS",
+      "videos": 5,
+      "views_30d_top5": 422398,
+      "comments_read": 212,
+      "intent_per_100": 3.3,
+      "scare_per_100": 0.5,
+      "examples": [
+        "man i have waited the entire day for this",
+        "waited 2 weeks for this <3",
+        "i had really low blood sugar one day and in a desperate move got a mango smoothie from dutch bros. i farted more that day than any other day in my entire life ("
+      ]
+    },
+    "starbucks": {
+      "ticker": "SBUX",
+      "videos": 5,
+      "views_30d_top5": 618415,
+      "comments_read": 403,
+      "intent_per_100": 2.2,
+      "scare_per_100": 2.2,
+      "examples": [
+        "dark chocolate is good for you... its good for cancer and it slows down cancer cells... it has to be 70% percent cocoa...",
+        "until this behavior is punished by the police, it will keep happening. imagine trying to run a business and old people heartlessly sit there occupying tables, n",
+        "this one time in vietnam, i waited 2 hours for coffees. store was full, only two staff. i couldn't believe it. i'm from melbourne, coffee is now."
+      ]
+    },
+    "birkenstock": {
+      "ticker": "BIRK",
+      "videos": 5,
+      "views_30d_top5": 127236,
+      "comments_read": 67,
+      "intent_per_100": 0.0,
+      "scare_per_100": 0.0,
+      "examples": []
+    },
+    "hoka": {
+      "ticker": "DECK",
+      "videos": 5,
+      "views_30d_top5": 161957,
+      "comments_read": 121,
+      "intent_per_100": 7.4,
+      "scare_per_100": 0.0,
+      "examples": [
+        "gone through 2 pair of arahi 8's this year with no real issues apart from they wear out quickly. moved to the clifton 10 and the sole is already wearing fast af",
+        "i\u2019m obsessed with my hokas! nothing else even comes close in comparison for me.",
+        "i have a pair nb hiera v9\u2019s \u2026 amazing trail shoe\u2026 just bought a pair of bondi 9\u2019s \u2026 so comfortable and look great. the bondis are better urban walkers but also "
+      ]
+    },
+    "on running shoes": {
+      "ticker": "ONON",
+      "videos": 5,
+      "views_30d_top5": 10629315,
+      "comments_read": 118,
+      "intent_per_100": 1.7,
+      "scare_per_100": 0.0,
+      "examples": [
+        "\"can you prove any of that?\" is the most important line in this video, and more people need to be asking that about everything.",
+        "as a vibram owner, let me share a caveat:  try them on before plunking down money for them. \n\nit's more than just a question of size. not every foot conforms to"
+      ]
+    },
+    "crocs": {
+      "ticker": "CROX",
+      "videos": 5,
+      "views_30d_top5": 529253,
+      "comments_read": 214,
+      "intent_per_100": 0.0,
+      "scare_per_100": 0.0,
+      "examples": []
+    },
+    "elf cosmetics": {
+      "ticker": "ELF",
+      "videos": 5,
+      "views_30d_top5": 755597,
+      "comments_read": 133,
+      "intent_per_100": 6.0,
+      "scare_per_100": 0.0,
+      "examples": [
+        "we love that you're so obsessed \ud83d\ude0d\ud83d\udc96",
+        "guirl do the jumbo eyeliner",
+        "you should make a jumbo lip liner!!"
+      ]
+    },
+    "celsius energy drink": {
+      "ticker": "CELH",
+      "videos": 5,
+      "views_30d_top5": 22990,
+      "comments_read": 14,
+      "intent_per_100": 0.0,
+      "scare_per_100": 0.0,
+      "examples": []
+    },
+    "swatch": {
+      "ticker": "UHR.SW",
+      "videos": 5,
+      "views_30d_top5": 641667,
+      "comments_read": 277,
+      "intent_per_100": 5.4,
+      "scare_per_100": 0.0,
+      "examples": [
+        "love mac! the only mac nail polish i have still is the 2016 \"skin of evil\" star trek 50th anniversary line. mac was at the star trek convention that year and ha",
+        "i had no idea mac had nail polish ever. this is so beautiful i need this now. what is a good dupe",
+        "its hard to believe they have been working on this since coraline- 16 years!"
+      ]
+    },
+    "ozempic": {
+      "ticker": "NVO",
+      "videos": 5,
+      "views_30d_top5": 199895,
+      "comments_read": 219,
+      "intent_per_100": 6.8,
+      "scare_per_100": 6.8,
+      "examples": [
+        "im in canada \ud83c\udde8\ud83c\udde6 and the glp1 is everywhere. i feel like im the only one not on it and im missing out on this mirscle drug. i have pcos, secondary infertility fo",
+        "with all the research that's going on into the benefits of glp-1 medications outside of diabetes and weight loss. maybe we'll all be on them for 70 years.\nheart",
+        "i was 200 kg on the 1st of january 2026. today i am 118 kg. this is purely natural, no ozempic glp taken. strictly from high protein, calorie deficit, resistanc"
+      ]
+    },
+    "hims": {
+      "ticker": "HIMS",
+      "videos": 5,
+      "views_30d_top5": 25708,
+      "comments_read": 24,
+      "intent_per_100": 4.2,
+      "scare_per_100": 0.0,
+      "examples": [
+        "what do you think will happen after earnings?!\n\nthank you to all my 2700+ subscribers!! i appreciate everyone who takes their time to support and watch my conte"
+      ]
+    },
+    "robinhood": {
+      "ticker": "HOOD",
+      "videos": 5,
+      "views_30d_top5": 2372188,
+      "comments_read": 114,
+      "intent_per_100": 3.5,
+      "scare_per_100": 1.8,
+      "examples": [
+        "i know they did memorize all the lines and and they did rehearse that many times, but it's sooooooooooo fake, everyone sounds like a scripted bot, maybe beside ",
+        "huge moves: rumors say spacex just bought cursor for $60b and launched the groknam token alongside it.",
+        "hopefully you asked him about the biggest gamestop scam in history which he conducted"
+      ]
+    },
+    "pokemon cards": {
+      "ticker": "NTDOY",
+      "videos": 5,
+      "views_30d_top5": 1462253,
+      "comments_read": 357,
+      "intent_per_100": 3.4,
+      "scare_per_100": 1.1,
+      "examples": [
+        "my daughter and i only got you meet you once in va, she still talks about buying the gem vol2, you deserve everything coming such a nice guy!",
+        "in our country, we have fake cards, original cards are rare and very expensive, i'm wondering if you can giveaway regular cards to my 6 years old  daughter. i'm",
+        "those cards are sick!"
+      ]
+    },
+    "gta 6": {
+      "ticker": "TTWO",
+      "videos": 5,
+      "views_30d_top5": 239541,
+      "comments_read": 275,
+      "intent_per_100": 6.2,
+      "scare_per_100": 0.4,
+      "examples": [
+        "6:14 @hazardoushdtv i\u2019m starting to think that you guys are complaining about these functions just for the sake of complaining. if you played rdr2 then you know",
+        "22 and i'm gonna be too sick to go to work on the 19th and 20th of next month",
+        "in 2005, i was dating an accountant at take2 and got to play gta san andreas about 3 weeks before it was released. i had completely ingored games for about 6 ye"
+      ]
+    },
+    "labubu": {
+      "ticker": "9992.HK",
+      "videos": 5,
+      "views_30d_top5": 676054,
+      "comments_read": 215,
+      "intent_per_100": 11.6,
+      "scare_per_100": 1.4,
+      "examples": [
+        "i love cats but don\u2019t really care for labubu so i\u2019ll pass. but if hirono releases cats? i\u2019m buying the whole set!",
+        "good job getting the secret on your first box! i liked how you didn't realize it was the secret.  teehee. the four ears are a bit silly, but labubu is dressing ",
+        "congratulations \ud83c\udf89 i\u2019m so happy for you \ud83d\udda4 the secret is definitely the best one.\ni\u2019m also seriously running out of space to display/store my collection. from now"
+      ]
+    },
+    "uggs": {
+      "ticker": "DECK",
+      "videos": 5,
+      "views_30d_top5": 60028,
+      "comments_read": 54,
+      "intent_per_100": 7.4,
+      "scare_per_100": 7.4,
+      "examples": [
+        "yeah ugg did release these before, i bought a used pair of these boots in a chocolate brown (they are called \u201cwrangell\u201d)  and they are amazing in winter here in",
+        "a fake welt around a glued boot is one of the biggest crimes!!! that\u2019s the big problem with the red wing 1907 moc toe!!!",
+        "i wore the same pair of boots styled like these every michigan winter for 25 years.    they were sold by l.l.bean and made in canada.    they were completely sh"
+      ]
+    },
+    "barbie": {
+      "ticker": "MAT",
+      "videos": 5,
+      "views_30d_top5": 4841876,
+      "comments_read": 100,
+      "intent_per_100": 1.0,
+      "scare_per_100": 0.0,
+      "examples": [
+        "\u0e44\u0e14\u0e49\u0e1f\u0e31\u0e07\u0e40\u0e1e\u0e25\u0e07\u0e19\u0e35\u0e49\u0e04\u0e23\u0e31\u0e49\u0e07\u0e41\u0e23\u0e01\u0e17\u0e35\u0e48\u0e07\u0e32\u0e19 barbies vs the jukks \u0e40\u0e14\u0e37\u0e2d\u0e14\u0e21\u0e32\u0e01 \n\u0e40\u0e1b\u0e47\u0e19\u0e41\u0e1f\u0e19\u0e40\u0e1e\u0e25\u0e07\u0e15\u0e31\u0e49\u0e07\u0e41\u0e15\u0e48\u0e2d\u0e35\u0e1e\u0e35\u0e41\u0e23\u0e01 \u0e2d\u0e31\u0e25\u0e1a\u0e31\u0e49\u0e21\u0e41\u0e23\u0e01 \u0e2d\u0e31\u0e25\u0e1a\u0e31\u0e49\u0e21\u0e2a\u0e2d\u0e07 \u0e08\u0e19\u0e22\u0e38\u0e04\u0e2a\u0e21\u0e2d\u0e25\u0e23\u0e39\u0e21\n\u0e23\u0e31\u0e01\u0e17\u0e38\u0e01\u0e22\u0e38\u0e04 \u0e23\u0e31\u0e01\u0e17\u0e38\u0e01 line up\n\n\u0e16\u0e36\u0e07\u0e2d\u0e30\u0e44\u0e23\u0e46 \u0e43\u0e19\u0e0a\u0e35\u0e27"
+      ]
+    },
+    "build a bear": {
+      "ticker": "BBW",
+      "videos": 5,
+      "views_30d_top5": 380000,
+      "comments_read": 124,
+      "intent_per_100": 6.5,
+      "scare_per_100": 2.4,
+      "examples": [
+        "please never let anyone make you feel bad for buying thrifted clothing for crafts. i work at a thrift store and we toss out so much after it\u2019s sat on the floor ",
+        "wait this is sick i love that so much and the plushieeee",
+        "buying kid clothes for plushies is smart."
+      ]
+    }
+  },
+  "errors": []
+}
