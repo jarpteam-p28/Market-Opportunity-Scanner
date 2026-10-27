@@ -1,0 +1,251 @@
+{
+  "date": "2026-10-27",
+  "terms": {
+    "coconut water": {
+      "ticker": "COCO",
+      "videos": 5,
+      "views_30d_top5": 166213,
+      "comments_read": 56,
+      "intent_per_100": 3.6,
+      "scare_per_100": 1.8,
+      "examples": [
+        "*my dear husband is only 62 years old, and he was diagnosed with brain cancer. we had so many plans for our retirement, but now all we pray for is one more heal",
+        "the cruise lines and resorts should be calling him to come perform that song 2-3 nights out of the week \ud83d\ude02",
+        "bought a young coconut from walmart. came with a green thing to push in to pierce and a straw. this exists. spout makes no sense"
+      ]
+    },
+    "sweetgreen": {
+      "ticker": "SG",
+      "videos": 5,
+      "views_30d_top5": 14762,
+      "comments_read": 0,
+      "intent_per_100": null,
+      "scare_per_100": null,
+      "examples": []
+    },
+    "cava": {
+      "ticker": "CAVA",
+      "videos": 5,
+      "views_30d_top5": 986608,
+      "comments_read": 400,
+      "intent_per_100": 0.0,
+      "scare_per_100": 0.0,
+      "examples": []
+    },
+    "dutch bros": {
+      "ticker": "BROS",
+      "videos": 5,
+      "views_30d_top5": 433121,
+      "comments_read": 225,
+      "intent_per_100": 4.0,
+      "scare_per_100": 0.4,
+      "examples": [
+        "personally cannot stand these overly sweet \"coffee\" drinks, and the lines are always crazy, that's why we're the fattest country",
+        "man i have waited the entire day for this",
+        "waited 2 weeks for this <3"
+      ]
+    },
+    "starbucks": {
+      "ticker": "SBUX",
+      "videos": 5,
+      "views_30d_top5": 546990,
+      "comments_read": 312,
+      "intent_per_100": 3.8,
+      "scare_per_100": 2.6,
+      "examples": [
+        "dark chocolate is good for you... its good for cancer and it slows down cancer cells... it has to be 70% percent cocoa...",
+        "we would probably look a little bit better with a little bit of eyeliner or mascara that's my opinion and maybe a little bit of eyeshadow",
+        "i bought a strawberry shortcake version at ross for just $8.00!"
+      ]
+    },
+    "birkenstock": {
+      "ticker": "BIRK",
+      "videos": 5,
+      "views_30d_top5": 105922,
+      "comments_read": 63,
+      "intent_per_100": 0.0,
+      "scare_per_100": 0.0,
+      "examples": []
+    },
+    "hoka": {
+      "ticker": "DECK",
+      "videos": 5,
+      "views_30d_top5": 172712,
+      "comments_read": 106,
+      "intent_per_100": 11.3,
+      "scare_per_100": 0.0,
+      "examples": [
+        "i switched to hoka on the recommendation of a physio. it only took a year and i had a wrecked ankle for the reasons outlined here. it is so bad that it still ha",
+        "gone through 2 pair of arahi 8's this year with no real issues apart from they wear out quickly. moved to the clifton 10 and the sole is already wearing fast af",
+        "i bought the hoka arahi 8 and the 9.  the 8 is a nice casual running shoe imo.  feels comfortable with mild support.  the hoka arahi 9 felt bad.  the toe box fe"
+      ]
+    },
+    "on running shoes": {
+      "ticker": "ONON",
+      "videos": 5,
+      "views_30d_top5": 56580,
+      "comments_read": 48,
+      "intent_per_100": 6.2,
+      "scare_per_100": 0.0,
+      "examples": [
+        "watching your video daily until my first half-mary on nov 8. you inspired me to start running last april. bought 3 shoes so far that you recommended. more power",
+        "i've been looking for this shoe for 2 months in all chinese websites when di the hype start and why it's sold out everywhere before reviews hit ? \ud83d\ude05",
+        "i don't see any of the mizuno hyper warp line and those shoes are absolutely top tier i would say mainly for more tempo and race days"
+      ]
+    },
+    "crocs": {
+      "ticker": "CROX",
+      "videos": 5,
+      "views_30d_top5": 3104237,
+      "comments_read": 276,
+      "intent_per_100": 0.0,
+      "scare_per_100": 0.0,
+      "examples": []
+    },
+    "elf cosmetics": {
+      "ticker": "ELF",
+      "videos": 5,
+      "views_30d_top5": 752036,
+      "comments_read": 128,
+      "intent_per_100": 3.1,
+      "scare_per_100": 0.0,
+      "examples": [
+        "guirl do the jumbo eyeliner",
+        "you should make a jumbo lip liner!!",
+        "you should do a jumbo lip liner"
+      ]
+    },
+    "celsius energy drink": {
+      "ticker": "CELH",
+      "videos": 5,
+      "views_30d_top5": 26173,
+      "comments_read": 17,
+      "intent_per_100": 0.0,
+      "scare_per_100": 0.0,
+      "examples": []
+    },
+    "swatch": {
+      "ticker": "UHR.SW",
+      "videos": 5,
+      "views_30d_top5": 723392,
+      "comments_read": 341,
+      "intent_per_100": 6.7,
+      "scare_per_100": 0.6,
+      "examples": [
+        "its hard to believe they have been working on this since coraline- 16 years!",
+        "it\u2019s hard to believe this could surpass coraline for me. that film is flawless.",
+        "i've waited this movie for over 3 years i believe. i'm quite sure i'll cry"
+      ]
+    },
+    "ozempic": {
+      "ticker": "NVO",
+      "videos": 5,
+      "views_30d_top5": 481485,
+      "comments_read": 213,
+      "intent_per_100": 4.7,
+      "scare_per_100": 2.3,
+      "examples": [
+        "i was 200 kg on the 1st of january 2026. today i am 118 kg. this is purely natural, no ozempic glp taken. strictly from high protein, calorie deficit, resistanc",
+        "im in canada \ud83c\udde8\ud83c\udde6 and the glp1 is everywhere. i feel like im the only one not on it and im missing out on this mirscle drug. i have pcos, secondary infertility fo",
+        "with all the research that's going on into the benefits of glp-1 medications outside of diabetes and weight loss. maybe we'll all be on them for 70 years.\nheart"
+      ]
+    },
+    "hims": {
+      "ticker": "HIMS",
+      "videos": 5,
+      "views_30d_top5": 1834,
+      "comments_read": 5,
+      "intent_per_100": 0.0,
+      "scare_per_100": 0.0,
+      "examples": []
+    },
+    "robinhood": {
+      "ticker": "HOOD",
+      "videos": 5,
+      "views_30d_top5": 2261272,
+      "comments_read": 54,
+      "intent_per_100": 7.4,
+      "scare_per_100": 1.9,
+      "examples": [
+        "who's buying the dip!",
+        "a bad day for hood, trying to hold the 90 line",
+        "i\u2019m buying more hood stock if it falls to around 70$"
+      ]
+    },
+    "pokemon cards": {
+      "ticker": "NTDOY",
+      "videos": 5,
+      "views_30d_top5": 1317625,
+      "comments_read": 223,
+      "intent_per_100": 4.9,
+      "scare_per_100": 1.3,
+      "examples": [
+        "5 million dollars for that pikachu card, immediately. i need it",
+        "i bought that sylveon box too it\u2019s so cute but sadly you only get 4 packs",
+        "thats actually so sick of target to do"
+      ]
+    },
+    "gta 6": {
+      "ticker": "TTWO",
+      "videos": 5,
+      "views_30d_top5": 329572,
+      "comments_read": 434,
+      "intent_per_100": 7.8,
+      "scare_per_100": 0.5,
+      "examples": [
+        "everyone make sure to clean your consoles heatsink\u2019s bc they\u2019re gonna need it \ud83d\ude02",
+        "on the 12th, the servers are gonna get hit hard from people who've preordered",
+        "when i bought it i also ordered a 2 tb ssd card, glad i did this last month."
+      ]
+    },
+    "labubu": {
+      "ticker": "9992.HK",
+      "videos": 5,
+      "views_30d_top5": 872138,
+      "comments_read": 208,
+      "intent_per_100": 11.5,
+      "scare_per_100": 1.4,
+      "examples": [
+        "me who never bought labubu : ok",
+        "i never bought into the craze of labubu.\n\ni witnessed the  craze from the sidelines \ud83d\ude02",
+        "people weren't buying a cute toy, they were buying the high of winning a casino game. once everything became easily available, the magic died instantly.\nother s"
+      ]
+    },
+    "uggs": {
+      "ticker": "DECK",
+      "videos": 5,
+      "views_30d_top5": 332947,
+      "comments_read": 134,
+      "intent_per_100": 3.7,
+      "scare_per_100": 3.0,
+      "examples": [
+        "yeah ugg did release these before, i bought a used pair of these boots in a chocolate brown (they are called \u201cwrangell\u201d)  and they are amazing in winter here in",
+        "basically since my wife and i discovered ugg since 1974 we stopped buying from the deckers ugg. their boots are just way better in every way possible",
+        "i wore the same pair of boots styled like these every michigan winter for 25 years.    they were sold by l.l.bean and made in canada.    they were completely sh"
+      ]
+    },
+    "barbie": {
+      "ticker": "MAT",
+      "videos": 5,
+      "views_30d_top5": 7697773,
+      "comments_read": 119,
+      "intent_per_100": 0.0,
+      "scare_per_100": 0.0,
+      "examples": []
+    },
+    "build a bear": {
+      "ticker": "BBW",
+      "videos": 5,
+      "views_30d_top5": 1762463,
+      "comments_read": 221,
+      "intent_per_100": 6.3,
+      "scare_per_100": 1.8,
+      "examples": [
+        "a moment of silence to those who waited for a beat drop\ud83d\ude02",
+        "the \"most toxic trapper\" award goes to future.",
+        "a moment of silence to those who waited to see he turn metal into human \ud83d\ude02"
+      ]
+    }
+  },
+  "errors": []
+}
