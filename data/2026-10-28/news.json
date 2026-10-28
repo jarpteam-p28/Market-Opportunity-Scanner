@@ -1,0 +1,364 @@
+{
+  "date": "2026-10-28",
+  "n": 50,
+  "errors": [],
+  "by_theme": {
+    "AI chips": [
+      {
+        "title": "Nvidia's $12.9 billion Hugging Face deal draws DOJ scrutiny",
+        "link": "https://www.cnbc.com/2026/10/28/doj-questions-nvidias-12point9-billion-hugging-face-deal.html",
+        "published": "Wed, 28 Oct 2026 21:58:51 GMT",
+        "source": "www.cnbc.com"
+      }
+    ],
+    "AI data centers": [],
+    "Power for AI": [],
+    "Nuclear": [],
+    "Water": [],
+    "Cooling": [],
+    "Copper & grid materials": [],
+    "AI software": [],
+    "Memory chips": [
+      {
+        "title": "Micron\u2019s stock rises after SK Hynix earnings. Here\u2019s its next major test.",
+        "link": "https://www.marketwatch.com/story/microns-stock-rises-after-sk-hynix-earnings-heres-its-next-major-test-99853d0e?mod=mw_rss_topstories",
+        "published": "Wed, 28 Oct 2026 20:45:00 GMT",
+        "source": "feeds.content.dowjones.io"
+      },
+      {
+        "title": "Fed chairman talks tough on inflation \u2014 plus, what's behind Micron's big rally",
+        "link": "https://www.cnbc.com/investingclub/2026/10/28/fed-chairman-talks-tough-on-inflation-plus-whats-behind-microns-big-rally.html",
+        "published": "Wed, 28 Oct 2026 19:17:35 GMT",
+        "source": "www.cnbc.com"
+      }
+    ],
+    "AI efficiency wave": [],
+    "Distribution moats": [],
+    "Crypto": [],
+    "Precious metals": [],
+    "Robotics": []
+  },
+  "latest": [
+    {
+      "title": "Lumentum\u2019s stock pops as investors cheer a possible sale to Marvell",
+      "link": "https://www.marketwatch.com/story/lumentums-stock-pops-as-investors-cheer-a-possible-sale-to-marvell-07c1d0e8?mod=mw_rss_topstories",
+      "published": "Wed, 28 Oct 2026 22:08:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "We stopped helping our neighbors with free home repairs and our friendship cooled. Who\u2019s to blame?",
+      "link": "https://www.marketwatch.com/story/we-stopped-helping-our-neighbors-with-free-home-repairs-and-our-friendship-cooled-whos-to-blame-d20b0720?mod=mw_rss_topstories",
+      "published": "Wed, 28 Oct 2026 22:00:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "My wife cried when I found out she had only $80,000 in her 401(k). I have $2.2 million. Am I wrong to be shocked?",
+      "link": "https://www.marketwatch.com/story/my-wife-has-only-80-000-saved-for-retirement-i-have-2-2-million-am-i-wrong-to-be-shocked-3e27b490?mod=mw_rss_topstories",
+      "published": "Wed, 28 Oct 2026 21:45:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "We\u2019re in our 70s. Should we pay off our 2.5% mortgage \u2014 or put the money in a high-yield savings account?",
+      "link": "https://www.marketwatch.com/story/we-are-in-our-70s-should-we-pay-off-our-2-5-mortgage-or-build-up-our-savings-5a35e9c1?mod=mw_rss_topstories",
+      "published": "Wed, 28 Oct 2026 21:30:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Why did the Fed hold off on raising interest rates? Warsh says it\u2019s because an \u2018information-rich\u2019 period is coming.",
+      "link": "https://www.marketwatch.com/story/why-did-the-fed-hold-off-on-raising-interest-rates-warsh-says-its-because-an-information-rich-period-is-coming-098ced8d?mod=mw_rss_topstories",
+      "published": "Wed, 28 Oct 2026 21:27:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "ServiceNow\u2019s stock slides as earnings miss clouds a raised AI outlook",
+      "link": "https://www.marketwatch.com/story/servicenows-stock-slides-as-earnings-miss-clouds-a-raised-ai-outlook-96e48385?mod=mw_rss_topstories",
+      "published": "Wed, 28 Oct 2026 21:07:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Chipotle expects modestly higher sales this year as drive-thru \u2018Chipotlanes\u2019 come to more stores",
+      "link": "https://www.marketwatch.com/story/chipotle-expects-modestly-higher-sales-this-year-as-drive-thru-chipotlanes-come-to-more-stores-4f255bbc?mod=mw_rss_topstories",
+      "published": "Wed, 28 Oct 2026 20:58:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Vertiv earnings just sent an upbeat signal about AI ahead of Big Tech results",
+      "link": "https://www.marketwatch.com/story/vertiv-earnings-just-sent-an-upbeat-signal-about-ai-ahead-of-big-tech-results-5714a105?mod=mw_rss_topstories",
+      "published": "Wed, 28 Oct 2026 20:49:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Micron\u2019s stock rises after SK Hynix earnings. Here\u2019s its next major test.",
+      "link": "https://www.marketwatch.com/story/microns-stock-rises-after-sk-hynix-earnings-heres-its-next-major-test-99853d0e?mod=mw_rss_topstories",
+      "published": "Wed, 28 Oct 2026 20:45:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Here\u2019s what just sent Oracle\u2019s stock soaring",
+      "link": "https://www.marketwatch.com/story/heres-what-just-sent-oracles-stock-soaring-7a1a91e2?mod=mw_rss_topstories",
+      "published": "Wed, 28 Oct 2026 20:38:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Alphabet sinks 10% as it holds 2026 capex unchanged, expects significant increase in 2027",
+      "link": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html",
+      "published": "Wed, 28 Oct 2026 22:07:17 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Microsoft stock jumps 4% as cloud growth drives earnings and revenue beat",
+      "link": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html",
+      "published": "Wed, 28 Oct 2026 22:09:11 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Bond investor Jeff Gundlach on Fed's rate pause: 'What are you waiting for?'",
+      "link": "https://www.cnbc.com/2026/10/28/bond-investor-jeff-gundlach-talks-feds-rate-pause-with-cnbc.html",
+      "published": "Wed, 28 Oct 2026 19:53:50 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Here are five key takeaways from the Fed rate decision and Warsh news conference",
+      "link": "https://www.cnbc.com/2026/10/28/fed-rate-decision-warsh-takeaways.html",
+      "published": "Wed, 28 Oct 2026 21:31:46 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "DoorDash's deal to buy Instacart coming as early as Thursday morning, sources tell CNBC",
+      "link": "https://www.cnbc.com/2026/10/28/doordash-instacart-maplebear.html",
+      "published": "Wed, 28 Oct 2026 21:47:47 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Chipotle shares rise 7% after CEO says same-store sales growth will continue",
+      "link": "https://www.cnbc.com/2026/10/28/chipotle-mexican-grill-cmg-q3-2026-earnings.html",
+      "published": "Wed, 28 Oct 2026 22:12:28 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Three media outlets seek full White House access in amended lawsuit",
+      "link": "https://www.cnbc.com/2026/10/28/trump-white-house-media-ban-cnn-msnow-politico.html",
+      "published": "Wed, 28 Oct 2026 20:21:03 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "10-year Treasury yield creeps higher even as Fed keeps rates the same",
+      "link": "https://www.cnbc.com/2026/10/28/us-treasurys-bonds-yields-federal-reserve.html",
+      "published": "Wed, 28 Oct 2026 20:17:19 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Bessent says 'not necessarily' a mistake if the Fed hikes again",
+      "link": "https://www.cnbc.com/2026/10/28/scott-bessent-interview.html",
+      "published": "Wed, 28 Oct 2026 21:06:37 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Fed leaves rates unchanged: What it means for credit cards, mortgages, auto loans and savings accounts",
+      "link": "https://www.cnbc.com/2026/10/28/fed-rate-decision-consumer-borrowing-costs.html",
+      "published": "Wed, 28 Oct 2026 20:59:23 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "FedEx beats expectations, raises outlook in first report since calendar adjustment",
+      "link": "https://www.cnbc.com/2026/10/28/fedex-fdx-sept-2026-earnings.html",
+      "published": "Wed, 28 Oct 2026 20:35:33 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Ford reports mixed third-quarter results, says 2027 earnings will be in line with this year",
+      "link": "https://www.cnbc.com/2026/10/28/ford-motor-f-earnings-q3-2026.html",
+      "published": "Wed, 28 Oct 2026 21:42:24 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Nvidia's $12.9 billion Hugging Face deal draws DOJ scrutiny",
+      "link": "https://www.cnbc.com/2026/10/28/doj-questions-nvidias-12point9-billion-hugging-face-deal.html",
+      "published": "Wed, 28 Oct 2026 21:58:51 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Oracle stock pops 11% as long-term revenue forecast and clarity on financing ease debt concerns",
+      "link": "https://www.cnbc.com/2026/10/28/oracle-forecast-growth-2030.html",
+      "published": "Wed, 28 Oct 2026 20:00:44 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Wendy's shares jump 15% as Nelson Peltz's Trian offers $1.4 billion to buy burger chain",
+      "link": "https://www.cnbc.com/2026/10/28/nelson-peltz-trian-wendys-1point4-billion.html",
+      "published": "Wed, 28 Oct 2026 14:35:51 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Flavor Flav, Hillary Clinton weigh in as WNBA takes flak for weekday lunchtime finals game",
+      "link": "https://www.cnbc.com/2026/10/28/wnba-atlanta-dream-golden-state-valkyries-flavor-flav-hillary-clinton-.html",
+      "published": "Wed, 28 Oct 2026 07:58:09 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "We're adding a new, high-profile AI play to our Bullpen stocks to watch list",
+      "link": "https://www.cnbc.com/investingclub/2026/10/28/were-adding-a-new-high-profile-ai-stock-to-our-bullpen.html",
+      "published": "Wed, 28 Oct 2026 18:33:53 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Luxury round-the-world cruise ends abruptly as fuel costs skyrocket",
+      "link": "https://www.cnbc.com/2026/10/28/villa-vie-odyssey-fuel-costs.html",
+      "published": "Wed, 28 Oct 2026 11:39:44 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Here is what changed in the new Fed statement",
+      "link": "https://www.cnbc.com/2026/10/28/fed-statement-redline-october-2026.html",
+      "published": "Wed, 28 Oct 2026 18:06:50 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Peltola campaign aides, DSCC officials helped recruit second Dan Sullivan in Alaska race: NYT",
+      "link": "https://www.cnbc.com/2026/10/28/mary-peltola-dan-sullivan-alaska-senate-campaign-recruitment.html",
+      "published": "Wed, 28 Oct 2026 19:52:06 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Fed chairman talks tough on inflation \u2014 plus, what's behind Micron's big rally",
+      "link": "https://www.cnbc.com/investingclub/2026/10/28/fed-chairman-talks-tough-on-inflation-plus-whats-behind-microns-big-rally.html",
+      "published": "Wed, 28 Oct 2026 19:17:35 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Fed holds rates steady despite concerns over inflation",
+      "link": "https://www.cnbc.com/2026/10/28/fed-interest-rate-decision-october-2026.html",
+      "published": "Wed, 28 Oct 2026 19:43:48 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "The 'Magnificent Seven' is no more. Time to pick winners and losers as group's correlation breaks down",
+      "link": "https://www.cnbc.com/2026/10/28/magnificent-seven-stocks-correlation-breakdown.html",
+      "published": "Wed, 28 Oct 2026 13:09:08 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Apple brings touch to the Mac, reversing years-old stance on touchscreen laptop",
+      "link": "https://www.cnbc.com/2026/10/28/apple-mac-touchscreen-launch.html",
+      "published": "Wed, 28 Oct 2026 22:04:19 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Trump is using tariffs as a 'tool for grift,' Raskin says in demand for donor records",
+      "link": "https://www.cnbc.com/2026/10/28/trump-tariffs-corruption-raskin.html",
+      "published": "Wed, 28 Oct 2026 17:39:43 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "At least 68 people dead in high-speed Spain train crash",
+      "link": "https://www.cnbc.com/2026/10/28/spain-high-speed-train-crash.html",
+      "published": "Wed, 28 Oct 2026 15:41:54 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Options traders break down a massive Alphabet trade into earnings",
+      "link": "https://www.cnbc.com/2026/10/28/alphabet-microsoft-report-after-the-bell-what-options-trader-see.html",
+      "published": "Wed, 28 Oct 2026 20:13:59 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Looking for yield? This could be one of the best times in recent market history to buy corporate bonds",
+      "link": "https://www.cnbc.com/2026/10/28/buy-bonds-yields.html",
+      "published": "Wed, 28 Oct 2026 19:30:34 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "FEC campaign finance system offline days before midterms after hackers reportedly target site",
+      "link": "https://www.cnbc.com/2026/10/28/fec-hack-outage-campaign-finance-filings.html",
+      "published": "Wed, 28 Oct 2026 15:09:38 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Stellantis stock rises 13% as automaker's turnaround plan, cost cuts gain traction",
+      "link": "https://www.cnbc.com/2026/10/28/stellantis-45-billion-cash-drain-turnaround.html",
+      "published": "Wed, 28 Oct 2026 20:23:48 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Why is Lumentum stock surging today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-lumentum-stock-surging-today-93CH-4981083",
+      "published": "2026-10-28 22:03:32",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Why is Marvell Technology stock sliding today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-marvell-technology-stock-sliding-today-93CH-4981081",
+      "published": "2026-10-28 22:03:21",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Marvell nears deal for optical supplier Lumentum to bolster hardware, report says",
+      "link": "https://www.investing.com/news/stock-market-news/marvell-nears-deal-for-optical-supplier-lumentum-to-bolster-hardware-report-says-4981052",
+      "published": "2026-10-28 21:56:16",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "FedEx margins decline, shares fall despite bigger than expected quarterly profit",
+      "link": "https://www.investing.com/news/stock-market-news/fedex-forecasts-annual-profit-above-estimates-posts-higher-quarterly-earnings-on-better-pricing-volumes-4980618",
+      "published": "2026-10-28 21:54:22",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Why is Darling Ingredients stock sliding today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-darling-ingredients-stock-sliding-today-93CH-4981046",
+      "published": "2026-10-28 21:52:37",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Why is Equinix stock surging today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-equinix-stock-surging-today-93CH-4981045",
+      "published": "2026-10-28 21:52:32",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Alphabet shares fall after revenue miss, cash burn worsens",
+      "link": "https://www.investing.com/news/stock-market-news/alphabets-heavy-cloud-spending-drives-biggerthanexpected-cash-burn-4980612",
+      "published": "2026-10-28 21:48:19",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "US bans imports from BGI Genomics, MGI Tech, citing ties to forced labor in Xinjiang",
+      "link": "https://www.investing.com/news/stock-market-news/us-bans-imports-from-three-chinese-genomics-companies-citing-forced-labor-4979357",
+      "published": "2026-10-28 21:42:21",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Why is Honeywell Aerospace stock sliding today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-honeywell-aerospace-stock-sliding-today-93CH-4981018",
+      "published": "2026-10-28 21:41:42",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Why is MGM Resorts stock sliding today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-mgm-resorts-stock-sliding-today-93CH-4981008",
+      "published": "2026-10-28 21:40:18",
+      "source": "www.investing.com"
+    }
+  ],
+  "narratives": {
+    "ai_fear": {
+      "count": 1,
+      "examples": [
+        {
+          "title": "Alphabet sinks 10% as it holds 2026 capex unchanged, expects significant increase in 2027",
+          "link": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html",
+          "published": "Wed, 28 Oct 2026 22:07:17 GMT",
+          "source": "www.cnbc.com"
+        }
+      ]
+    },
+    "ai_efficiency": {
+      "count": 0,
+      "examples": []
+    },
+    "leverage": {
+      "count": 0,
+      "examples": []
+    }
+  }
+}
