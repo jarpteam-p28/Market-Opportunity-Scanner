@@ -1,0 +1,256 @@
+{
+  "date": "2026-10-29",
+  "terms": {
+    "coconut water": {
+      "ticker": "COCO",
+      "videos": 5,
+      "views_30d_top5": 361161,
+      "comments_read": 148,
+      "intent_per_100": 1.4,
+      "scare_per_100": 0.7,
+      "examples": [
+        "*my dear husband is only 62 years old, and he was diagnosed with brain cancer. we had so many plans for our retirement, but now all we pray for is one more heal",
+        "as a professional water drinker (like i'm legit obsessed with water), that's not water. just call it healthy juice at this point.",
+        "i want this soap"
+      ]
+    },
+    "sweetgreen": {
+      "ticker": "SG",
+      "videos": 5,
+      "views_30d_top5": 14948,
+      "comments_read": 0,
+      "intent_per_100": null,
+      "scare_per_100": null,
+      "examples": []
+    },
+    "cava": {
+      "ticker": "CAVA",
+      "videos": 5,
+      "views_30d_top5": 928944,
+      "comments_read": 500,
+      "intent_per_100": 0.0,
+      "scare_per_100": 0.0,
+      "examples": []
+    },
+    "dutch bros": {
+      "ticker": "BROS",
+      "videos": 5,
+      "views_30d_top5": 469933,
+      "comments_read": 320,
+      "intent_per_100": 2.2,
+      "scare_per_100": 0.3,
+      "examples": [
+        "man i have waited the entire day for this",
+        "waited 2 weeks for this <3",
+        "no, grown americans love their coffee black maybe a sugar or a little tiny splash of creamer. what you\u2019re experiencing is the youth in america (teens to ungrown"
+      ]
+    },
+    "starbucks": {
+      "ticker": "SBUX",
+      "videos": 5,
+      "views_30d_top5": 493427,
+      "comments_read": 323,
+      "intent_per_100": 2.2,
+      "scare_per_100": 1.9,
+      "examples": [
+        "dark chocolate is good for you... its good for cancer and it slows down cancer cells... it has to be 70% percent cocoa...",
+        "we would probably look a little bit better with a little bit of eyeliner or mascara that's my opinion and maybe a little bit of eyeshadow",
+        "would you follow your $100,000+ job to a state not in line with your politics, or quit to stay in lefty seattle with a slim chance of finding another position c"
+      ]
+    },
+    "birkenstock": {
+      "ticker": "BIRK",
+      "videos": 5,
+      "views_30d_top5": 90293,
+      "comments_read": 26,
+      "intent_per_100": 0.0,
+      "scare_per_100": 0.0,
+      "examples": []
+    },
+    "hoka": {
+      "ticker": "DECK",
+      "videos": 5,
+      "views_30d_top5": 177463,
+      "comments_read": 103,
+      "intent_per_100": 9.7,
+      "scare_per_100": 0.0,
+      "examples": [
+        "gone through 2 pair of arahi 8's this year with no real issues apart from they wear out quickly. moved to the clifton 10 and the sole is already wearing fast af",
+        "i switched to hoka on the recommendation of a physio. it only took a year and i had a wrecked ankle for the reasons outlined here. it is so bad that it still ha",
+        "hoka makes wide sizes which is good for my foot.  on doesn't make them in wide and they are very uncomfortable for me.   i just bought my first pair of hokas an"
+      ]
+    },
+    "on running shoes": {
+      "ticker": "ONON",
+      "videos": 5,
+      "views_30d_top5": 237929,
+      "comments_read": 81,
+      "intent_per_100": 6.2,
+      "scare_per_100": 1.2,
+      "examples": [
+        "the hyperboost edge is already on sale for $150 and $160 at reputable us online retail outlets in select colors.",
+        "these shoes are going to hurt your knees and hips during long walks and standing up in lines like during travels or shopping.  you genuinely need support, like ",
+        "the mount to coast shoe looks sick asf"
+      ]
+    },
+    "crocs": {
+      "ticker": "CROX",
+      "videos": 5,
+      "views_30d_top5": 524450,
+      "comments_read": 187,
+      "intent_per_100": 0.0,
+      "scare_per_100": 0.0,
+      "examples": []
+    },
+    "elf cosmetics": {
+      "ticker": "ELF",
+      "videos": 5,
+      "views_30d_top5": 283821,
+      "comments_read": 58,
+      "intent_per_100": 3.4,
+      "scare_per_100": 0.0,
+      "examples": [
+        "products i like from elf:\n1 soft glam foundation (i mix a bit of maybelline fit me matte and poreless foundation into it to increase its longevity on my oily sk",
+        "we love that you're so obsessed \ud83d\ude0d\ud83d\udc96"
+      ]
+    },
+    "celsius energy drink": {
+      "ticker": "CELH",
+      "videos": 5,
+      "views_30d_top5": 29547,
+      "comments_read": 14,
+      "intent_per_100": 0.0,
+      "scare_per_100": 0.0,
+      "examples": []
+    },
+    "swatch": {
+      "ticker": "UHR.SW",
+      "videos": 5,
+      "views_30d_top5": 312089,
+      "comments_read": 186,
+      "intent_per_100": 1.6,
+      "scare_per_100": 3.2,
+      "examples": [
+        "as a creative director, i was immediately drawn to the d1 sketch watches and considered buying one. i love the playful cartoonish look and it\u2019s no doubt a conve",
+        "i prefer the sketch as among the two. i seem to recall marc @ long island watch reviewing a blue watch with the \"sketch-type\" markings awhile back - but i don't",
+        "another fake watch review"
+      ]
+    },
+    "ozempic": {
+      "ticker": "NVO",
+      "videos": 5,
+      "views_30d_top5": 1710284,
+      "comments_read": 314,
+      "intent_per_100": 2.2,
+      "scare_per_100": 2.2,
+      "examples": [
+        "this is a fairly well-researched overview of semaglutide, and i appreciate that it examines both the clinical benefits and serious safety concerns. the step, se",
+        "if all of our food wasn\u2019t addictive poison, this wouldn\u2019t be a problem. now gotta use drugs to fight the awful addictive food. \nbest care scenario, ozympic and ",
+        "i lost 130lbs on my own. gym and not being greedy helps. if you are always hungry, drink 3 glasses of water and wait 30 mins. small, frequent meals throughout t"
+      ]
+    },
+    "hims": {
+      "ticker": "HIMS",
+      "videos": 5,
+      "views_30d_top5": 5341,
+      "comments_read": 28,
+      "intent_per_100": 3.6,
+      "scare_per_100": 0.0,
+      "examples": [
+        "are you ready for hims stock to explode?!\n\nthank you to all my 2700+ subscribers!! i appreciate everyone who takes their time to support and watch my content! l"
+      ]
+    },
+    "robinhood": {
+      "ticker": "HOOD",
+      "videos": 5,
+      "views_30d_top5": 2425338,
+      "comments_read": 95,
+      "intent_per_100": 5.3,
+      "scare_per_100": 1.1,
+      "examples": [
+        "who's buying the dip!",
+        "i\u2019m buying more hood stock if it falls to around 70$",
+        "a bad day for hood, trying to hold the 90 line"
+      ]
+    },
+    "pokemon cards": {
+      "ticker": "NTDOY",
+      "videos": 5,
+      "views_30d_top5": 1889302,
+      "comments_read": 469,
+      "intent_per_100": 7.7,
+      "scare_per_100": 5.3,
+      "examples": [
+        "have you guys ever bought pok\u00e9mon cards from temu? were they legit or fake?",
+        "i saw fake cards being sold on tiktok today.  first i was suspicious, because the seller sounded chinese, but was selling prismatic and 30th packs in english.  ",
+        "i've had the same sort of luck on temu as i have with resellers on walmart's or target's online site.  stick to 4.5 stars or higher though."
+      ]
+    },
+    "gta 6": {
+      "ticker": "TTWO",
+      "videos": 5,
+      "views_30d_top5": 308366,
+      "comments_read": 397,
+      "intent_per_100": 1.0,
+      "scare_per_100": 0.0,
+      "examples": [
+        "c'est quand m\u00eame fou qu'ils n'aient absolument pas \u00e9voqu\u00e9 le mode online qui est quand m\u00eame la partie la plus importante \u00e0 long terme de gta . je n'ai pas le so",
+        "meme sur gta 5 online je d\u00e9couvre encore des d\u00e9tails que j\u2019avais pas remarqu\u00e9\u2026mais 90% des gens en on rien a foutre \u2026. ils pensent qu\u2019a rush les jeu et les miss",
+        "\" quelles sont les informations importantes qu'on pourrait encore apprendre ? \" je ne sais pas le mode online peut \u00eatre non ? \ud83d\ude05"
+      ]
+    },
+    "labubu": {
+      "ticker": "9992.HK",
+      "videos": 5,
+      "views_30d_top5": 2872488,
+      "comments_read": 292,
+      "intent_per_100": 8.9,
+      "scare_per_100": 1.4,
+      "examples": [
+        "i like that this happened primarily because the maker of labubu is mostly responsible for this.   the maker literally gave an interview saying he made this line",
+        "my 6 year old niece recently told me nobody buys labubus anymore because the fake ones (lafufus) are full of asbestos",
+        "i remember getting my gf a labubu at retail price, straight from pop mart during the peak of the craze.  genuinely confused why people were paying scalper price"
+      ]
+    },
+    "uggs": {
+      "ticker": "DECK",
+      "videos": 5,
+      "views_30d_top5": 452738,
+      "comments_read": 210,
+      "intent_per_100": 2.4,
+      "scare_per_100": 1.9,
+      "examples": [
+        "yeah ugg did release these before, i bought a used pair of these boots in a chocolate brown (they are called \u201cwrangell\u201d)  and they are amazing in winter here in",
+        "i wore the same pair of boots styled like these every michigan winter for 25 years.    they were sold by l.l.bean and made in canada.    they were completely sh",
+        "basically since my wife and i discovered ugg since 1974 we stopped buying from the deckers ugg. their boots are just way better in every way possible"
+      ]
+    },
+    "barbie": {
+      "ticker": "MAT",
+      "videos": 5,
+      "views_30d_top5": 5372044,
+      "comments_read": 200,
+      "intent_per_100": 1.5,
+      "scare_per_100": 0.5,
+      "examples": [
+        "i\u2019m obsessed with the details in this set! great review!",
+        "as someone who was bullied by both classmates and teachers at various points throughout grade school, i can say it gets pretty bad. here's some key memories :)\n",
+        "layze is here when we exactly need it like thanks papi"
+      ]
+    },
+    "build a bear": {
+      "ticker": "BBW",
+      "videos": 5,
+      "views_30d_top5": 586659,
+      "comments_read": 136,
+      "intent_per_100": 6.6,
+      "scare_per_100": 2.2,
+      "examples": [
+        "please never let anyone make you feel bad for buying thrifted clothing for crafts. i work at a thrift store and we toss out so much after it\u2019s sat on the floor ",
+        "wait this is sick i love that so much and the plushieeee",
+        "buying kid clothes for plushies is smart."
+      ]
+    }
+  },
+  "errors": []
+}
