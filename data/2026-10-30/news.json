@@ -1,0 +1,363 @@
+{
+  "date": "2026-10-30",
+  "n": 50,
+  "errors": [],
+  "by_theme": {
+    "AI chips": [],
+    "AI data centers": [],
+    "Power for AI": [],
+    "Nuclear": [],
+    "Water": [],
+    "Cooling": [],
+    "Copper & grid materials": [],
+    "AI software": [],
+    "Memory chips": [],
+    "AI efficiency wave": [],
+    "Distribution moats": [],
+    "Crypto": [
+      {
+        "title": "Binance loses $6.3 billion in crypto heist\u2014what happens to your money when an exchange gets hacked",
+        "link": "https://www.cnbc.com/make-it/2026/10/30/binance-crypto-hack-customer-funds.html",
+        "published": "Fri, 30 Oct 2026 21:45:52 GMT",
+        "source": "www.cnbc.com"
+      },
+      {
+        "title": "Why bitcoin held up better after the record Binance hack",
+        "link": "https://www.cnbc.com/2026/10/30/binance-hack-bitcoin-price.html",
+        "published": "Fri, 30 Oct 2026 18:07:00 GMT",
+        "source": "www.cnbc.com"
+      },
+      {
+        "title": "$6.3 billion Binance hack is largest crypto theft on record",
+        "link": "https://www.cnbc.com/2026/10/29/circle-tether-freeze-funds-impacted-by-potential-binance-security-issue.html",
+        "published": "Fri, 30 Oct 2026 21:21:17 GMT",
+        "source": "www.cnbc.com"
+      }
+    ],
+    "Precious metals": [],
+    "Robotics": []
+  },
+  "latest": [
+    {
+      "title": "Why gold plunged to its lowest price in a year despite renewed Iran jitters",
+      "link": "https://www.marketwatch.com/story/why-gold-plunged-to-its-lowest-price-in-a-year-despite-renewed-iran-jitters-365be0e2?mod=mw_rss_topstories",
+      "published": "Fri, 30 Oct 2026 21:30:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Warsh wants the Fed to say less. Two officials are pushing for more transparency.",
+      "link": "https://www.marketwatch.com/story/the-fed-held-interest-rates-steady-but-these-officials-see-more-hikes-coming-soon-2098bbd8?mod=mw_rss_topstories",
+      "published": "Fri, 30 Oct 2026 21:23:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "In a wild October for markets, these stocks were the biggest winners and losers",
+      "link": "https://www.marketwatch.com/story/in-a-wild-october-for-markets-these-stocks-were-the-biggest-winners-and-losers-3736f043?mod=mw_rss_topstories",
+      "published": "Fri, 30 Oct 2026 20:52:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Why Intel\u2019s stock saw its worst day in decades \u2014 and a $140 billion wipeout",
+      "link": "https://www.marketwatch.com/story/why-intels-stock-is-sinking-toward-its-worst-drop-in-two-years-492d71a7?mod=mw_rss_topstories",
+      "published": "Fri, 30 Oct 2026 20:48:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Reddit\u2019s stock logs its biggest one-day drop ever. It\u2019s not the last of the bad news, analysts say.",
+      "link": "https://www.marketwatch.com/story/reddit-shares-on-track-for-largest-ever-one-day-drop-and-analysts-say-the-bad-news-hasnt-ended-25d46284?mod=mw_rss_topstories",
+      "published": "Fri, 30 Oct 2026 20:42:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Microsoft is winning the cloud wars and becoming Wall Street\u2019s new golden child",
+      "link": "https://www.marketwatch.com/story/microsoft-is-winning-the-cloud-wars-and-becoming-wall-streets-new-golden-child-62eecbbd?mod=mw_rss_topstories",
+      "published": "Fri, 30 Oct 2026 20:29:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "AMD\u2019s stock slides after Intel earnings reveal two big issues",
+      "link": "https://www.marketwatch.com/story/amds-stock-slides-after-intel-earnings-reveal-two-big-issues-d3afed91?mod=mw_rss_topstories",
+      "published": "Fri, 30 Oct 2026 20:28:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "The selloff in tech stocks is shifting into overdrive",
+      "link": "https://www.marketwatch.com/story/the-selloff-in-tech-stocks-is-shifting-into-overdrive-afb50975?mod=mw_rss_topstories",
+      "published": "Fri, 30 Oct 2026 20:26:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "After Intel\u2019s historic stock drop, analysts say there\u2019s no reason to buy the dip",
+      "link": "https://www.marketwatch.com/story/after-intels-historic-stock-drop-analysts-say-theres-no-reason-to-buy-the-dip-068446af?mod=mw_rss_topstories",
+      "published": "Fri, 30 Oct 2026 20:23:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Trump administration is illegally delaying student-debt forgiveness for tens of thousands of public servants, lawsuit alleges",
+      "link": "https://www.marketwatch.com/story/trump-administration-is-illegally-delaying-student-debt-forgiveness-for-tens-of-thousands-of-public-servants-lawsuit-alleges-e4d31e59?mod=mw_rss_topstories",
+      "published": "Fri, 30 Oct 2026 20:23:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Intel stock has worst day since 1970s, wiping about $12 billion off government's stake",
+      "link": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html",
+      "published": "Fri, 30 Oct 2026 20:30:57 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Treasury Department announces new Series I bond rate of 5.51% for the next six months",
+      "link": "https://www.cnbc.com/2026/10/30/treasury-i-bond-rate-through-april-2027.html",
+      "published": "Fri, 30 Oct 2026 17:15:53 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Reid Hoffman gives millions to Dems in late spending spree as Epstein fight spills into election",
+      "link": "https://www.cnbc.com/2026/10/30/reid-hoffman-democrats-epstein-midterms-2026.html",
+      "published": "Fri, 30 Oct 2026 18:32:17 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Meta outlook revised to negative by S&P on cash flow and capex concerns",
+      "link": "https://www.cnbc.com/2026/10/30/meta-outlook-to-revised-to-negative-by-sp-after-cash-flow-negative.html",
+      "published": "Fri, 30 Oct 2026 22:00:52 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Criminal investigation of Alaska Senate race is 'ongoing,' U.S. Attorney says",
+      "link": "https://www.cnbc.com/2026/10/30/alaska-senate-election-doj-lawsuit-sullivan-peltola.html",
+      "published": "Fri, 30 Oct 2026 20:46:04 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Binance loses $6.3 billion in crypto heist\u2014what happens to your money when an exchange gets hacked",
+      "link": "https://www.cnbc.com/make-it/2026/10/30/binance-crypto-hack-customer-funds.html",
+      "published": "Fri, 30 Oct 2026 21:45:52 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Why bitcoin held up better after the record Binance hack",
+      "link": "https://www.cnbc.com/2026/10/30/binance-hack-bitcoin-price.html",
+      "published": "Fri, 30 Oct 2026 18:07:00 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Cramer\u2019s week ahead: Expect more volatility as tech earnings, midterms loom",
+      "link": "https://www.cnbc.com/2026/10/30/jim-cramer-week-ahead-apple-amd-jobs-report.html",
+      "published": "Fri, 30 Oct 2026 22:17:13 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Binance hack: Investigators in a 'cat and mouse game' to recover $6.3 billion in stolen funds",
+      "link": "https://www.cnbc.com/2026/10/30/binance-hack-stolen-crypto-recovery.html",
+      "published": "Fri, 30 Oct 2026 19:27:03 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "'Bad time to troll': Binance co-founder Zhao asks Musk for support after hack",
+      "link": "https://www.cnbc.com/2026/10/30/binance-hack-elon-musk-tesla-spacex.html",
+      "published": "Fri, 30 Oct 2026 20:02:45 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Gamble on democracy: Inside suspicious election-contracts trading on prediction markets",
+      "link": "https://www.cnbc.com/2026/10/30/gamble-on-democracy-inside-suspicious-election-contracts-trading-on-prediction-markets-.html",
+      "published": "Fri, 30 Oct 2026 22:00:53 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Gen Z is ditching bars for run clubs \u2014 and finding more than friends along the way",
+      "link": "https://www.cnbc.com/2026/10/30/gen-z-diplo-run-club.html",
+      "published": "Fri, 30 Oct 2026 10:32:46 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Tankers defy sharp escalation of Iranian attacks to keep crude oil flowing through Strait of Hormuz",
+      "link": "https://www.cnbc.com/2026/10/30/tanker-attack-strait-hormuz-iran-war-oil.html",
+      "published": "Fri, 30 Oct 2026 18:28:09 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Chevron and Exxon hit all-time highs as refining profits soar in reaction to Iran and Ukraine wars",
+      "link": "https://www.cnbc.com/2026/10/30/chevron-exxon-cvx-xom-earnings-q3-2026.html",
+      "published": "Fri, 30 Oct 2026 16:44:31 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Fed officials are already saying they\u2019ll need to get back to hiking rates",
+      "link": "https://www.cnbc.com/2026/10/30/musalem-fed-monetary-policy-tightening.html",
+      "published": "Fri, 30 Oct 2026 21:53:10 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Halloween gets pricier as chocolate costs climb \u2014 Hershey may feel the pinch",
+      "link": "https://www.cnbc.com/2026/10/30/halloween-gets-pricier-as-chocolate-costs-rise-hershey-could-feel-it.html",
+      "published": "Fri, 30 Oct 2026 16:55:41 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Tech gets crushed, defensive stocks shine. How we're making sense of it all",
+      "link": "https://www.cnbc.com/investingclub/2026/10/30/tech-gets-crushed-defensive-stocks-shine-how-were-making-sense-of-it-all.html",
+      "published": "Fri, 30 Oct 2026 18:55:44 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Trump rallies in Kansas and Iowa are back on after RNC said they were canceled: Source",
+      "link": "https://www.cnbc.com/2026/10/30/trump-vance-rally-midterm-elections-.html",
+      "published": "Fri, 30 Oct 2026 15:52:35 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Cheaper cars are selling considerably faster than at the beginning of the year",
+      "link": "https://www.cnbc.com/2026/10/30/cheap-cars-selling-fast.html",
+      "published": "Fri, 30 Oct 2026 18:45:35 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Class action lawsuit blames Trump officials for student loan forgiveness delays",
+      "link": "https://www.cnbc.com/2026/10/30/lawsuit-blames-trump-officials-for-student-loan-forgiveness-delays.html",
+      "published": "Fri, 30 Oct 2026 17:40:00 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "$6.3 billion Binance hack is largest crypto theft on record",
+      "link": "https://www.cnbc.com/2026/10/29/circle-tether-freeze-funds-impacted-by-potential-binance-security-issue.html",
+      "published": "Fri, 30 Oct 2026 21:21:17 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Binance's $6.3 billion hack: What we know and what comes next",
+      "link": "https://www.cnbc.com/2026/10/30/billions-in-crypto-frozen-in-binance-hack-heres-what-happens-next-.html",
+      "published": "Fri, 30 Oct 2026 16:31:36 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Wall Street braces for Democratic gains as 2026 midterm election nears",
+      "link": "https://www.cnbc.com/2026/10/30/2026-midterm-election-wall-street-prepares-for-democratic-gains.html",
+      "published": "Fri, 30 Oct 2026 19:11:32 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Musk and Zuckerberg echo Trump's push to rebrand AI as 'super intelligence' on earnings calls. Others do not",
+      "link": "https://www.cnbc.com/2026/10/30/trump-tech-allies-swap-ai-for-super-intelligence-in-earnings-calls.html",
+      "published": "Fri, 30 Oct 2026 15:14:27 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Swiss central bank posts bumper $23 billion profit thanks to gold, foreign assets",
+      "link": "https://www.cnbc.com/2026/10/30/swiss-national-bank-q3-profit-gold-foreign-asset.html",
+      "published": "Fri, 30 Oct 2026 15:07:48 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Tech giants need legacy businesses to keep growing as they pour trillions into the AI buildout",
+      "link": "https://www.cnbc.com/2026/10/30/tech-giants-alphabet-meta-microsoft-amazon-ai-buildouts.html",
+      "published": "Fri, 30 Oct 2026 11:00:01 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "A pharma giant is moving past one patent cliff \u2014 but another is already looming",
+      "link": "https://www.cnbc.com/2026/10/30/novartis-remibrutinib-multiple-sclerosis.html",
+      "published": "Fri, 30 Oct 2026 06:00:01 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Russian strikes plunge Ukrainian city into blackout as Zelenskyy warns of more missile attacks",
+      "link": "https://www.cnbc.com/2026/10/30/russia-ukraine-putin-zelenskyy-energy-strikes.html",
+      "published": "Fri, 30 Oct 2026 11:29:59 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Iran claims four tankers struck mines in Hormuz as strike fears grow after U.S. midterms",
+      "link": "https://www.cnbc.com/2026/10/30/iran-trump-hormuz-oil-middle-east-.html",
+      "published": "Fri, 30 Oct 2026 07:12:49 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "The big questions remaining after Anthropic\u2019s blockbuster IPO prospectus",
+      "link": "https://www.cnbc.com/2026/10/30/anthropic-ipo-s1-revenue-compute.html",
+      "published": "Fri, 30 Oct 2026 12:27:36 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Inovio Pharmaceuticals gets FDA approval for first product",
+      "link": "https://www.investing.com/news/stock-market-news/inovio-pharmaceuticals-gets-fda-approval-for-first-product-93CH-4988824",
+      "published": "2026-10-30 22:01:26",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Why is Inovio Pharmaceuticals stock surging today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-inovio-pharmaceuticals-stock-surging-today-93CH-4988814",
+      "published": "2026-10-30 21:58:57",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "S&P Global revises Meta\u2019s outlook to \u2019negative\u2019 on AI spending, cash flow concerns",
+      "link": "https://www.investing.com/news/stock-market-news/sp-global-revises-outlook-on-meta-to-negative-on-cashflow-concerns-4988756",
+      "published": "2026-10-30 21:54:17",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Why is Georgia Banking stock climbing today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-georgia-banking-stock-climbing-today-93CH-4988812",
+      "published": "2026-10-30 21:52:40",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Google weighs cybersecurity role in Pentagon\u2019s Golden Dome project - Bloomberg",
+      "link": "https://www.investing.com/news/stock-market-news/google-weighs-cybersecurity-role-in-pentagons-golden-dome-project--bloomberg-4988811",
+      "published": "2026-10-30 21:50:59",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "SpaceX\u2019s Shotwell says 2 million shares to be gifted to children\u2019s Trump Accounts",
+      "link": "https://www.investing.com/news/stock-market-news/spacexs-shotwell-says-2-million-shares-to-be-gifted-to-childrens-trump-accounts-4988802",
+      "published": "2026-10-30 21:42:23",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "McDonald\u2019s must face lawsuit over\u00a0McRib, US judge rules",
+      "link": "https://www.investing.com/news/stock-market-news/mcdonalds-must-face-lawsuit-overmcrib-us-judge-rules-4988646",
+      "published": "2026-10-30 21:30:22",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Mexico stocks lower at close of trade; S&P/BMV IPC down 0.01%",
+      "link": "https://www.investing.com/news/stock-market-news/mexico-stocks-lower-at-close-of-trade-spbmv-ipc-down-001-4988776",
+      "published": "2026-10-30 21:30:03",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Okta jumps after-hours following tapped inclusion in the S&P 500",
+      "link": "https://www.investing.com/news/stock-market-news/okta-jumps-afterhours-following-tapped-inclusion-in-the-sp-500-4988775",
+      "published": "2026-10-30 21:29:08",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Colombia stocks higher at close of trade; COLCAP up 0.04%",
+      "link": "https://www.investing.com/news/stock-market-news/colombia-stocks-higher-at-close-of-trade-colcap-up-004-4988773",
+      "published": "2026-10-30 21:25:04",
+      "source": "www.investing.com"
+    }
+  ],
+  "narratives": {
+    "ai_fear": {
+      "count": 1,
+      "examples": [
+        {
+          "title": "Meta outlook revised to negative by S&P on cash flow and capex concerns",
+          "link": "https://www.cnbc.com/2026/10/30/meta-outlook-to-revised-to-negative-by-sp-after-cash-flow-negative.html",
+          "published": "Fri, 30 Oct 2026 22:00:52 GMT",
+          "source": "www.cnbc.com"
+        }
+      ]
+    },
+    "ai_efficiency": {
+      "count": 0,
+      "examples": []
+    },
+    "leverage": {
+      "count": 0,
+      "examples": []
+    }
+  }
+}
