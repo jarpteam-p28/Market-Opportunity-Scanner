@@ -1,0 +1,6960 @@
+{
+  "date": "2026-10-31",
+  "last_bar": "2026-10-31",
+  "regime": {
+    "spy": {
+      "last": 755.72,
+      "w": -0.6,
+      "m": -1.1,
+      "q": -0.0,
+      "ytd": 11.7,
+      "above50": false,
+      "above200": true
+    },
+    "equal_vs_cap_1m": 5.6,
+    "small_vs_large_1m": 1.2,
+    "credit_appetite_1m": -2.0,
+    "vix": {
+      "last": 19.42,
+      "m_change": 18.5
+    },
+    "ten_year": {
+      "last": 4.93,
+      "m_change": -5.9
+    },
+    "dollar": {
+      "last": 29.0,
+      "m_change": 0.1
+    },
+    "ten_year_alert": false,
+    "label": "MIXED",
+    "score_0_4": 2
+  },
+  "breadth": {
+    "pct_top10s_above_50d": 64.8,
+    "pct_top10s_above_200d": 63.0
+  },
+  "sectors": [
+    {
+      "sector": "Energy",
+      "etf": "XLE",
+      "w": 1.0,
+      "m": 11.7,
+      "q": 19.8,
+      "rs_m_now": 12.8,
+      "rs_m_last_week": 11.7,
+      "above50": true,
+      "above200": true,
+      "rank_now": 1,
+      "rank_last_week": 1,
+      "rank_change": 0
+    },
+    {
+      "sector": "Consumer Staples",
+      "etf": "XLP",
+      "w": 1.3,
+      "m": 11.3,
+      "q": 6.1,
+      "rs_m_now": 12.4,
+      "rs_m_last_week": 9.0,
+      "above50": true,
+      "above200": true,
+      "rank_now": 2,
+      "rank_last_week": 3,
+      "rank_change": 1
+    },
+    {
+      "sector": "Health Care",
+      "etf": "XLV",
+      "w": 3.1,
+      "m": 11.2,
+      "q": 14.4,
+      "rs_m_now": 12.3,
+      "rs_m_last_week": 6.5,
+      "above50": true,
+      "above200": true,
+      "rank_now": 3,
+      "rank_last_week": 4,
+      "rank_change": 1
+    },
+    {
+      "sector": "Utilities",
+      "etf": "XLU",
+      "w": 2.0,
+      "m": 9.5,
+      "q": -1.4,
+      "rs_m_now": 10.5,
+      "rs_m_last_week": 9.1,
+      "above50": true,
+      "above200": false,
+      "rank_now": 4,
+      "rank_last_week": 2,
+      "rank_change": -2
+    },
+    {
+      "sector": "Materials",
+      "etf": "XLB",
+      "w": 2.8,
+      "m": 8.7,
+      "q": 3.9,
+      "rs_m_now": 9.7,
+      "rs_m_last_week": 4.2,
+      "above50": true,
+      "above200": true,
+      "rank_now": 5,
+      "rank_last_week": 5,
+      "rank_change": 0
+    },
+    {
+      "sector": "Real Estate",
+      "etf": "XLRE",
+      "w": 1.4,
+      "m": 6.1,
+      "q": -3.6,
+      "rs_m_now": 7.2,
+      "rs_m_last_week": 3.1,
+      "above50": true,
+      "above200": true,
+      "rank_now": 6,
+      "rank_last_week": 8,
+      "rank_change": 2
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "etf": "XLY",
+      "w": 2.0,
+      "m": 6.0,
+      "q": -2.2,
+      "rs_m_now": 7.1,
+      "rs_m_last_week": 3.5,
+      "above50": true,
+      "above200": true,
+      "rank_now": 7,
+      "rank_last_week": 6,
+      "rank_change": -1
+    },
+    {
+      "sector": "Financials",
+      "etf": "XLF",
+      "w": 1.1,
+      "m": 5.7,
+      "q": -1.2,
+      "rs_m_now": 6.8,
+      "rs_m_last_week": 3.5,
+      "above50": true,
+      "above200": true,
+      "rank_now": 8,
+      "rank_last_week": 6,
+      "rank_change": -2
+    },
+    {
+      "sector": "Industrials",
+      "etf": "XLI",
+      "w": 1.7,
+      "m": -0.7,
+      "q": -8.4,
+      "rs_m_now": 0.3,
+      "rs_m_last_week": -1.6,
+      "above50": false,
+      "above200": false,
+      "rank_now": 9,
+      "rank_last_week": 9,
+      "rank_change": 0
+    },
+    {
+      "sector": "Communication",
+      "etf": "XLC",
+      "w": -5.3,
+      "m": -9.1,
+      "q": -10.0,
+      "rs_m_now": -8.0,
+      "rs_m_last_week": -6.5,
+      "above50": false,
+      "above200": false,
+      "rank_now": 10,
+      "rank_last_week": 11,
+      "rank_change": 1
+    },
+    {
+      "sector": "Technology",
+      "etf": "XLK",
+      "w": -2.0,
+      "m": -9.3,
+      "q": 0.9,
+      "rs_m_now": -8.2,
+      "rs_m_last_week": -5.0,
+      "above50": false,
+      "above200": true,
+      "rank_now": 11,
+      "rank_last_week": 10,
+      "rank_change": -1
+    }
+  ],
+  "mag7": {
+    "members": [
+      "AAPL",
+      "MSFT",
+      "NVDA",
+      "GOOGL",
+      "AMZN",
+      "META",
+      "TSLA"
+    ],
+    "mag7_w": -3.2,
+    "spy_w": -0.6,
+    "equal_weight_w": 0.8,
+    "mag7_m": -9.7,
+    "spy_m": -1.1,
+    "equal_weight_m": 4.5,
+    "mag7_q": -5.8,
+    "spy_q": -0.0,
+    "equal_weight_q": 0.9,
+    "mag7_ytd": -5.9,
+    "spy_ytd": 11.7,
+    "equal_weight_ytd": 15.3,
+    "mag7_share_of_tracked_mcap": 40.2,
+    "each": {
+      "AAPL": {
+        "m": 4.3,
+        "q": 13.7,
+        "ytd": 27.1
+      },
+      "MSFT": {
+        "m": 1.8,
+        "q": 7.2,
+        "ytd": 8.6
+      },
+      "NVDA": {
+        "m": -11.4,
+        "q": -0.9,
+        "ytd": 10.0
+      },
+      "GOOGL": {
+        "m": -17.3,
+        "q": -25.0,
+        "ytd": -10.4
+      },
+      "AMZN": {
+        "m": -3.2,
+        "q": -15.4,
+        "ytd": 4.1
+      },
+      "META": {
+        "m": -15.3,
+        "q": 4.3,
+        "ytd": -6.6
+      },
+      "TSLA": {
+        "m": 12.9,
+        "q": 24.1,
+        "ytd": -11.1
+      }
+    },
+    "read": "Broadening: the average stock is keeping up or leading"
+  },
+  "top10": {
+    "Technology": [
+      {
+        "ticker": "AAPL",
+        "mcap_b": 5030,
+        "m": 4.3,
+        "q": 13.7,
+        "ytd": 27.1,
+        "vs_sector_m": 13.6,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "NVDA",
+        "mcap_b": 4941,
+        "m": -11.4,
+        "q": -0.9,
+        "ytd": 10.0,
+        "vs_sector_m": -2.1,
+        "above50": false,
+        "above200": true
+      },
+      {
+        "ticker": "MSFT",
+        "mcap_b": 3876,
+        "m": 1.8,
+        "q": 7.2,
+        "ytd": 8.6,
+        "vs_sector_m": 11.0,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "AVGO",
+        "mcap_b": 1557,
+        "m": -5.1,
+        "q": -16.7,
+        "ytd": -5.3,
+        "vs_sector_m": 4.1,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "MU",
+        "mcap_b": 1001,
+        "m": -19.4,
+        "q": 6.7,
+        "ytd": 210.2,
+        "vs_sector_m": -10.1,
+        "above50": false,
+        "above200": true
+      },
+      {
+        "ticker": "AMD",
+        "mcap_b": 824,
+        "m": -18.0,
+        "q": 4.2,
+        "ytd": 135.7,
+        "vs_sector_m": -8.8,
+        "above50": false,
+        "above200": true
+      },
+      {
+        "ticker": "PLTR",
+        "mcap_b": 442,
+        "m": -3.1,
+        "q": 46.5,
+        "ytd": 3.6,
+        "vs_sector_m": 6.1,
+        "above50": false,
+        "above200": true
+      },
+      {
+        "ticker": "CSCO",
+        "mcap_b": 412,
+        "m": -3.5,
+        "q": -9.4,
+        "ytd": 38.2,
+        "vs_sector_m": 5.7,
+        "above50": false,
+        "above200": true
+      },
+      {
+        "ticker": "ORCL",
+        "mcap_b": 396,
+        "m": -5.0,
+        "q": -7.5,
+        "ytd": -32.1,
+        "vs_sector_m": 4.2,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "AMAT",
+        "mcap_b": 310,
+        "m": -26.3,
+        "q": -24.6,
+        "ytd": 52.3,
+        "vs_sector_m": -17.0,
+        "above50": false,
+        "above200": false
+      }
+    ],
+    "Communication": [
+      {
+        "ticker": "GOOGL",
+        "mcap_b": 3440,
+        "m": -17.3,
+        "q": -25.0,
+        "ytd": -10.4,
+        "vs_sector_m": -8.1,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "META",
+        "mcap_b": 1572,
+        "m": -15.3,
+        "q": 4.3,
+        "ytd": -6.6,
+        "vs_sector_m": -6.2,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "NFLX",
+        "mcap_b": 258,
+        "m": -8.5,
+        "q": -15.3,
+        "ytd": -33.8,
+        "vs_sector_m": 0.6,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "DIS",
+        "mcap_b": 192,
+        "m": 9.5,
+        "q": 13.0,
+        "ytd": -1.7,
+        "vs_sector_m": 18.6,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "VZ",
+        "mcap_b": 185,
+        "m": -1.2,
+        "q": -4.1,
+        "ytd": 17.1,
+        "vs_sector_m": 7.9,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "TMUS",
+        "mcap_b": 166,
+        "m": -3.3,
+        "q": -11.2,
+        "ytd": -21.7,
+        "vs_sector_m": 5.9,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "T",
+        "mcap_b": 144,
+        "m": -10.9,
+        "q": -8.2,
+        "ytd": -9.7,
+        "vs_sector_m": -1.8,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "CMCSA",
+        "mcap_b": 82,
+        "m": 8.7,
+        "q": -4.0,
+        "ytd": -12.7,
+        "vs_sector_m": 17.8,
+        "above50": true,
+        "above200": false
+      },
+      {
+        "ticker": "WBD",
+        "mcap_b": 78,
+        "m": null,
+        "q": null,
+        "ytd": 0.0,
+        "vs_sector_m": null,
+        "above50": null,
+        "above200": null
+      },
+      {
+        "ticker": "EA",
+        "mcap_b": 53,
+        "m": null,
+        "q": null,
+        "ytd": 0.0,
+        "vs_sector_m": null,
+        "above50": null,
+        "above200": null
+      }
+    ],
+    "Consumer Discretionary": [
+      {
+        "ticker": "AMZN",
+        "mcap_b": 2598,
+        "m": -3.2,
+        "q": -15.4,
+        "ytd": 4.1,
+        "vs_sector_m": -9.2,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "TSLA",
+        "mcap_b": 1580,
+        "m": 12.9,
+        "q": 24.1,
+        "ytd": -11.1,
+        "vs_sector_m": 6.9,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "HD",
+        "mcap_b": 328,
+        "m": 16.5,
+        "q": -2.5,
+        "ytd": -2.3,
+        "vs_sector_m": 10.5,
+        "above50": true,
+        "above200": false
+      },
+      {
+        "ticker": "MCD",
+        "mcap_b": 183,
+        "m": 11.3,
+        "q": -2.0,
+        "ytd": -13.9,
+        "vs_sector_m": 5.3,
+        "above50": true,
+        "above200": false
+      },
+      {
+        "ticker": "TJX",
+        "mcap_b": 154,
+        "m": 5.0,
+        "q": -10.6,
+        "ytd": -7.8,
+        "vs_sector_m": -1.0,
+        "above50": true,
+        "above200": false
+      },
+      {
+        "ticker": "SBUX",
+        "mcap_b": 118,
+        "m": 9.3,
+        "q": 0.9,
+        "ytd": 25.3,
+        "vs_sector_m": 3.2,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "LOW",
+        "mcap_b": 117,
+        "m": 15.4,
+        "q": -0.8,
+        "ytd": -11.4,
+        "vs_sector_m": 9.3,
+        "above50": true,
+        "above200": false
+      },
+      {
+        "ticker": "BKNG",
+        "mcap_b": 111,
+        "m": -7.6,
+        "q": -22.9,
+        "ytd": -30.3,
+        "vs_sector_m": -13.6,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "MAR",
+        "mcap_b": 104,
+        "m": 12.5,
+        "q": 15.4,
+        "ytd": 29.5,
+        "vs_sector_m": 6.5,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "ABNB",
+        "mcap_b": 97,
+        "m": 2.4,
+        "q": 9.1,
+        "ytd": 21.1,
+        "vs_sector_m": -3.6,
+        "above50": false,
+        "above200": true
+      }
+    ],
+    "Consumer Staples": [
+      {
+        "ticker": "WMT",
+        "mcap_b": 980,
+        "m": 18.5,
+        "q": 11.8,
+        "ytd": 11.6,
+        "vs_sector_m": 7.1,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "COST",
+        "mcap_b": 449,
+        "m": 10.8,
+        "q": 6.3,
+        "ytd": 18.1,
+        "vs_sector_m": -0.5,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "KO",
+        "mcap_b": 405,
+        "m": 9.3,
+        "q": 9.0,
+        "ytd": 37.2,
+        "vs_sector_m": -2.0,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "PG",
+        "mcap_b": 374,
+        "m": 13.0,
+        "q": 12.2,
+        "ytd": 16.0,
+        "vs_sector_m": 1.7,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "PM",
+        "mcap_b": 325,
+        "m": 11.9,
+        "q": 12.4,
+        "ytd": 33.6,
+        "vs_sector_m": 0.6,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "PEP",
+        "mcap_b": 187,
+        "m": 9.3,
+        "q": -0.6,
+        "ytd": -1.4,
+        "vs_sector_m": -2.0,
+        "above50": true,
+        "above200": false
+      },
+      {
+        "ticker": "MO",
+        "mcap_b": 130,
+        "m": 16.5,
+        "q": 16.1,
+        "ytd": 41.9,
+        "vs_sector_m": 5.2,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "MNST",
+        "mcap_b": 93,
+        "m": 12.3,
+        "q": 1.2,
+        "ytd": 23.5,
+        "vs_sector_m": 1.0,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "MDLZ",
+        "mcap_b": 82,
+        "m": 12.4,
+        "q": 6.1,
+        "ytd": 23.8,
+        "vs_sector_m": 1.1,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "CL",
+        "mcap_b": 76,
+        "m": 13.4,
+        "q": 6.6,
+        "ytd": 23.5,
+        "vs_sector_m": 2.1,
+        "above50": true,
+        "above200": true
+      }
+    ],
+    "Energy": [
+      {
+        "ticker": "XOM",
+        "mcap_b": 764,
+        "m": 14.3,
+        "q": 21.5,
+        "ytd": 58.7,
+        "vs_sector_m": 2.6,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "CVX",
+        "mcap_b": 459,
+        "m": 13.7,
+        "q": 23.0,
+        "ytd": 58.8,
+        "vs_sector_m": 2.0,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "COP",
+        "mcap_b": 188,
+        "m": 21.2,
+        "q": 30.1,
+        "ytd": 68.2,
+        "vs_sector_m": 9.6,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "MPC",
+        "mcap_b": 125,
+        "m": 5.9,
+        "q": 45.2,
+        "ytd": 176.6,
+        "vs_sector_m": -5.8,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "VLO",
+        "mcap_b": 111,
+        "m": -2.2,
+        "q": 30.0,
+        "ytd": 149.1,
+        "vs_sector_m": -13.8,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "PSX",
+        "mcap_b": 110,
+        "m": 7.0,
+        "q": 37.9,
+        "ytd": 123.8,
+        "vs_sector_m": -4.6,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "WMB",
+        "mcap_b": 91,
+        "m": 7.4,
+        "q": 6.3,
+        "ytd": 26.4,
+        "vs_sector_m": -4.3,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "EOG",
+        "mcap_b": 87,
+        "m": 17.9,
+        "q": 14.4,
+        "ytd": 62.7,
+        "vs_sector_m": 6.3,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "SLB",
+        "mcap_b": 79,
+        "m": 10.4,
+        "q": 9.5,
+        "ytd": 42.3,
+        "vs_sector_m": -1.2,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "KMI",
+        "mcap_b": 75,
+        "m": 10.9,
+        "q": 7.9,
+        "ytd": 26.7,
+        "vs_sector_m": -0.7,
+        "above50": true,
+        "above200": true
+      }
+    ],
+    "Financials": [
+      {
+        "ticker": "BRK-B",
+        "mcap_b": 1161,
+        "m": 8.4,
+        "q": 5.7,
+        "ytd": 7.9,
+        "vs_sector_m": 2.7,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "JPM",
+        "mcap_b": 895,
+        "m": 1.7,
+        "q": -3.9,
+        "ytd": 6.6,
+        "vs_sector_m": -4.0,
+        "above50": false,
+        "above200": true
+      },
+      {
+        "ticker": "V",
+        "mcap_b": 773,
+        "m": 14.9,
+        "q": 13.3,
+        "ytd": 18.6,
+        "vs_sector_m": 9.2,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "MA",
+        "mcap_b": 556,
+        "m": 16.2,
+        "q": 11.9,
+        "ytd": 12.5,
+        "vs_sector_m": 10.5,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "BAC",
+        "mcap_b": 345,
+        "m": -6.9,
+        "q": -19.6,
+        "ytd": -7.6,
+        "vs_sector_m": -12.6,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "MS",
+        "mcap_b": 288,
+        "m": -1.4,
+        "q": -12.2,
+        "ytd": 6.2,
+        "vs_sector_m": -7.1,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "GS",
+        "mcap_b": 260,
+        "m": -0.2,
+        "q": -12.5,
+        "ytd": 3.3,
+        "vs_sector_m": -5.9,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "WFC",
+        "mcap_b": 250,
+        "m": 3.9,
+        "q": -4.6,
+        "ytd": -9.0,
+        "vs_sector_m": -1.8,
+        "above50": false,
+        "above200": true
+      },
+      {
+        "ticker": "AXP",
+        "mcap_b": 214,
+        "m": 6.0,
+        "q": -7.1,
+        "ytd": -12.8,
+        "vs_sector_m": 0.3,
+        "above50": true,
+        "above200": false
+      },
+      {
+        "ticker": "C",
+        "mcap_b": 203,
+        "m": -3.4,
+        "q": -8.2,
+        "ytd": 6.7,
+        "vs_sector_m": -9.1,
+        "above50": false,
+        "above200": false
+      }
+    ],
+    "Health Care": [
+      {
+        "ticker": "LLY",
+        "mcap_b": 1263,
+        "m": 23.3,
+        "q": 26.6,
+        "ytd": 32.5,
+        "vs_sector_m": 12.0,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "JNJ",
+        "mcap_b": 658,
+        "m": 5.6,
+        "q": 7.9,
+        "ytd": 34.1,
+        "vs_sector_m": -5.6,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "ABBV",
+        "mcap_b": 521,
+        "m": 14.1,
+        "q": 21.1,
+        "ytd": 32.9,
+        "vs_sector_m": 2.9,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "MRK",
+        "mcap_b": 369,
+        "m": 4.0,
+        "q": 17.7,
+        "ytd": 45.0,
+        "vs_sector_m": -7.3,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "UNH",
+        "mcap_b": 365,
+        "m": 11.4,
+        "q": -1.4,
+        "ytd": 25.7,
+        "vs_sector_m": 0.2,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "TMO",
+        "mcap_b": 258,
+        "m": 6.8,
+        "q": 21.5,
+        "ytd": 20.6,
+        "vs_sector_m": -4.4,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "AMGN",
+        "mcap_b": 252,
+        "m": 14.4,
+        "q": 23.7,
+        "ytd": 45.3,
+        "vs_sector_m": 3.2,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "GILD",
+        "mcap_b": 212,
+        "m": 15.7,
+        "q": 30.9,
+        "ytd": 41.6,
+        "vs_sector_m": 4.5,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "ABT",
+        "mcap_b": 184,
+        "m": 10.5,
+        "q": -0.2,
+        "ytd": -13.1,
+        "vs_sector_m": -0.7,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "PFE",
+        "mcap_b": 174,
+        "m": 8.5,
+        "q": 21.9,
+        "ytd": 28.9,
+        "vs_sector_m": -2.7,
+        "above50": true,
+        "above200": true
+      }
+    ],
+    "Industrials": [
+      {
+        "ticker": "GE",
+        "mcap_b": 313,
+        "m": -3.2,
+        "q": -18.1,
+        "ytd": -1.6,
+        "vs_sector_m": -2.5,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "CAT",
+        "mcap_b": 286,
+        "m": -24.5,
+        "q": -24.8,
+        "ytd": 9.6,
+        "vs_sector_m": -23.7,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "RTX",
+        "mcap_b": 270,
+        "m": 8.0,
+        "q": -7.5,
+        "ytd": 10.1,
+        "vs_sector_m": 8.7,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "GEV",
+        "mcap_b": 227,
+        "m": -13.1,
+        "q": -14.7,
+        "ytd": 31.6,
+        "vs_sector_m": -12.3,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "DE",
+        "mcap_b": 182,
+        "m": 1.2,
+        "q": 11.9,
+        "ytd": 46.2,
+        "vs_sector_m": 2.0,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "UNP",
+        "mcap_b": 181,
+        "m": 11.6,
+        "q": 4.9,
+        "ytd": 33.4,
+        "vs_sector_m": 12.3,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "LMT",
+        "mcap_b": 147,
+        "m": 26.0,
+        "q": 9.3,
+        "ytd": 34.1,
+        "vs_sector_m": 26.7,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "ETN",
+        "mcap_b": 144,
+        "m": -15.4,
+        "q": -15.4,
+        "ytd": 17.1,
+        "vs_sector_m": -14.7,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "BA",
+        "mcap_b": 136,
+        "m": -10.8,
+        "q": -26.5,
+        "ytd": -21.0,
+        "vs_sector_m": -10.0,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "UBER",
+        "mcap_b": 133,
+        "m": -3.9,
+        "q": -8.9,
+        "ytd": -20.1,
+        "vs_sector_m": -3.1,
+        "above50": false,
+        "above200": false
+      }
+    ],
+    "Materials": [
+      {
+        "ticker": "LIN",
+        "mcap_b": 236,
+        "m": 9.5,
+        "q": 7.4,
+        "ytd": 21.8,
+        "vs_sector_m": 0.9,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "SCCO",
+        "mcap_b": 150,
+        "m": -10.9,
+        "q": -2.8,
+        "ytd": 29.5,
+        "vs_sector_m": -19.5,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "NEM",
+        "mcap_b": 111,
+        "m": -7.0,
+        "q": 12.0,
+        "ytd": 7.5,
+        "vs_sector_m": -15.7,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "FCX",
+        "mcap_b": 90,
+        "m": -9.6,
+        "q": -1.6,
+        "ytd": 24.1,
+        "vs_sector_m": -18.3,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "ECL",
+        "mcap_b": 85,
+        "m": 11.7,
+        "q": 8.7,
+        "ytd": 16.3,
+        "vs_sector_m": 3.0,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "SHW",
+        "mcap_b": 80,
+        "m": 3.7,
+        "q": -5.9,
+        "ytd": 3.4,
+        "vs_sector_m": -5.0,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "APD",
+        "mcap_b": 70,
+        "m": 15.8,
+        "q": 8.7,
+        "ytd": 31.5,
+        "vs_sector_m": 7.1,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "NUE",
+        "mcap_b": 62,
+        "m": 16.1,
+        "q": 5.1,
+        "ytd": 69.3,
+        "vs_sector_m": 7.4,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "CRH",
+        "mcap_b": 60,
+        "m": 11.2,
+        "q": -7.5,
+        "ytd": -26.4,
+        "vs_sector_m": 2.5,
+        "above50": true,
+        "above200": false
+      },
+      {
+        "ticker": "MLM",
+        "mcap_b": 38,
+        "m": 12.8,
+        "q": -0.2,
+        "ytd": -12.8,
+        "vs_sector_m": 4.1,
+        "above50": true,
+        "above200": false
+      }
+    ],
+    "Real Estate": [
+      {
+        "ticker": "WELL",
+        "mcap_b": 172,
+        "m": 3.4,
+        "q": 1.0,
+        "ytd": 27.8,
+        "vs_sector_m": -2.7,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "PLD",
+        "mcap_b": 122,
+        "m": -0.2,
+        "q": -10.5,
+        "ytd": 2.6,
+        "vs_sector_m": -6.3,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "EQIX",
+        "mcap_b": 100,
+        "m": 0.1,
+        "q": -1.3,
+        "ytd": 34.3,
+        "vs_sector_m": -6.0,
+        "above50": false,
+        "above200": true
+      },
+      {
+        "ticker": "AMT",
+        "mcap_b": 87,
+        "m": 16.6,
+        "q": 9.7,
+        "ytd": 10.2,
+        "vs_sector_m": 10.5,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "SPG",
+        "mcap_b": 70,
+        "m": 8.4,
+        "q": -4.0,
+        "ytd": 21.6,
+        "vs_sector_m": 2.3,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "DLR",
+        "mcap_b": 67,
+        "m": 2.4,
+        "q": -4.9,
+        "ytd": 19.2,
+        "vs_sector_m": -3.7,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "PSA",
+        "mcap_b": 61,
+        "m": 14.4,
+        "q": 0.7,
+        "ytd": 28.9,
+        "vs_sector_m": 8.2,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "O",
+        "mcap_b": 54,
+        "m": 6.9,
+        "q": -9.0,
+        "ytd": 5.6,
+        "vs_sector_m": 0.7,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "CCI",
+        "mcap_b": 38,
+        "m": 34.1,
+        "q": 17.3,
+        "ytd": 3.7,
+        "vs_sector_m": 28.0,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "CBRE",
+        "mcap_b": 37,
+        "m": -1.3,
+        "q": -13.2,
+        "ytd": -19.9,
+        "vs_sector_m": -7.4,
+        "above50": false,
+        "above200": false
+      }
+    ],
+    "Utilities": [
+      {
+        "ticker": "NEE",
+        "mcap_b": 176,
+        "m": 9.6,
+        "q": -2.6,
+        "ytd": 6.5,
+        "vs_sector_m": 0.2,
+        "above50": true,
+        "above200": false
+      },
+      {
+        "ticker": "SO",
+        "mcap_b": 108,
+        "m": 12.3,
+        "q": 1.7,
+        "ytd": 10.1,
+        "vs_sector_m": 2.8,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "DUK",
+        "mcap_b": 99,
+        "m": 12.0,
+        "q": 3.4,
+        "ytd": 11.5,
+        "vs_sector_m": 2.6,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "CEG",
+        "mcap_b": 93,
+        "m": 1.3,
+        "q": -4.0,
+        "ytd": -25.4,
+        "vs_sector_m": -8.1,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "AEP",
+        "mcap_b": 71,
+        "m": 8.7,
+        "q": 2.2,
+        "ytd": 15.5,
+        "vs_sector_m": -0.7,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "D",
+        "mcap_b": 59,
+        "m": 9.6,
+        "q": -2.1,
+        "ytd": 17.2,
+        "vs_sector_m": 0.2,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "SRE",
+        "mcap_b": 56,
+        "m": 10.3,
+        "q": -1.1,
+        "ytd": -0.3,
+        "vs_sector_m": 0.8,
+        "above50": true,
+        "above200": false
+      },
+      {
+        "ticker": "ETR",
+        "mcap_b": 53,
+        "m": 9.7,
+        "q": 2.5,
+        "ytd": 21.3,
+        "vs_sector_m": 0.2,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "XEL",
+        "mcap_b": 51,
+        "m": 13.1,
+        "q": 3.6,
+        "ytd": 10.6,
+        "vs_sector_m": 3.7,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "EXC",
+        "mcap_b": 48,
+        "m": 14.1,
+        "q": 2.1,
+        "ytd": 8.8,
+        "vs_sector_m": 4.6,
+        "above50": true,
+        "above200": true
+      }
+    ]
+  },
+  "themes": [
+    {
+      "theme": "Distribution moats",
+      "basket": [
+        "AMZN",
+        "WMT",
+        "COST",
+        "HD",
+        "PG",
+        "KO",
+        "PEP",
+        "MCD",
+        "UPS",
+        "V"
+      ],
+      "w": 2.0,
+      "m": 6.4,
+      "q": 3.4,
+      "rs_vs_spy_m": 7.5,
+      "rs_vs_spy_q": 3.4,
+      "above50": true,
+      "reddit_mentions_per_1k_posts": null,
+      "reddit_change": null,
+      "google_trends_change": null,
+      "x_volume": null,
+      "news_headlines": 0,
+      "label": "STEALTH - price leading, talk quiet",
+      "leaders_m": [
+        [
+          "WMT",
+          18.5
+        ],
+        [
+          "HD",
+          16.5
+        ],
+        [
+          "UPS",
+          15.3
+        ]
+      ],
+      "laggards_m": [
+        [
+          "KO",
+          9.3
+        ],
+        [
+          "AMZN",
+          -3.2
+        ]
+      ],
+      "top_posts": []
+    },
+    {
+      "theme": "AI efficiency wave",
+      "basket": [
+        "AMZN",
+        "UPS",
+        "FDX",
+        "UNH",
+        "CVS",
+        "JPM",
+        "WMT",
+        "ACN",
+        "CNC",
+        "TRV"
+      ],
+      "w": 1.3,
+      "m": 6.3,
+      "q": 5.0,
+      "rs_vs_spy_m": 7.3,
+      "rs_vs_spy_q": 5.0,
+      "above50": true,
+      "reddit_mentions_per_1k_posts": null,
+      "reddit_change": null,
+      "google_trends_change": 56.1,
+      "x_volume": null,
+      "news_headlines": 0,
+      "label": "CONFIRMED - talk and price both rising",
+      "leaders_m": [
+        [
+          "ACN",
+          22.6
+        ],
+        [
+          "WMT",
+          18.5
+        ],
+        [
+          "UPS",
+          15.3
+        ]
+      ],
+      "laggards_m": [
+        [
+          "JPM",
+          1.7
+        ],
+        [
+          "AMZN",
+          -3.2
+        ]
+      ],
+      "top_posts": []
+    },
+    {
+      "theme": "Water",
+      "basket": [
+        "PHO",
+        "FIW",
+        "CGW",
+        "XYL",
+        "ECL",
+        "AWK",
+        "WTRG",
+        "VLTO",
+        "WTS"
+      ],
+      "w": -0.0,
+      "m": 5.9,
+      "q": 2.1,
+      "rs_vs_spy_m": 7.0,
+      "rs_vs_spy_q": 2.1,
+      "above50": true,
+      "reddit_mentions_per_1k_posts": null,
+      "reddit_change": null,
+      "google_trends_change": -5.2,
+      "x_volume": null,
+      "news_headlines": 0,
+      "label": "STEALTH - price leading, talk quiet",
+      "leaders_m": [
+        [
+          "VLTO",
+          17.4
+        ],
+        [
+          "AWK",
+          12.9
+        ],
+        [
+          "WTRG",
+          12.5
+        ]
+      ],
+      "laggards_m": [
+        [
+          "WTS",
+          -3.3
+        ],
+        [
+          "XYL",
+          -8.4
+        ]
+      ],
+      "top_posts": []
+    },
+    {
+      "theme": "Robotics",
+      "basket": [
+        "BOTZ",
+        "TSLA",
+        "ISRG",
+        "TER",
+        "SYM",
+        "ROK"
+      ],
+      "w": -2.5,
+      "m": -8.3,
+      "q": -1.8,
+      "rs_vs_spy_m": -7.2,
+      "rs_vs_spy_q": -1.8,
+      "above50": false,
+      "reddit_mentions_per_1k_posts": null,
+      "reddit_change": null,
+      "google_trends_change": -23.7,
+      "x_volume": null,
+      "news_headlines": 0,
+      "label": "NEUTRAL",
+      "leaders_m": [
+        [
+          "TSLA",
+          12.9
+        ],
+        [
+          "ISRG",
+          7.7
+        ],
+        [
+          "ROK",
+          -1.4
+        ]
+      ],
+      "laggards_m": [
+        [
+          "SYM",
+          -12.1
+        ],
+        [
+          "TER",
+          -34.0
+        ]
+      ],
+      "top_posts": []
+    },
+    {
+      "theme": "Power for AI",
+      "basket": [
+        "XLU",
+        "GRID",
+        "VST",
+        "CEG",
+        "NRG",
+        "TLN",
+        "GEV",
+        "ETN",
+        "PWR",
+        "BE"
+      ],
+      "w": 1.9,
+      "m": -11.2,
+      "q": 2.8,
+      "rs_vs_spy_m": -10.1,
+      "rs_vs_spy_q": 2.8,
+      "above50": false,
+      "reddit_mentions_per_1k_posts": null,
+      "reddit_change": null,
+      "google_trends_change": -11.8,
+      "x_volume": null,
+      "news_headlines": 0,
+      "label": "NEUTRAL",
+      "leaders_m": [
+        [
+          "TLN",
+          6.2
+        ],
+        [
+          "CEG",
+          1.3
+        ],
+        [
+          "NRG",
+          -0.9
+        ]
+      ],
+      "laggards_m": [
+        [
+          "ETN",
+          -15.4
+        ],
+        [
+          "BE",
+          -26.8
+        ]
+      ],
+      "top_posts": []
+    },
+    {
+      "theme": "Cooling",
+      "basket": [
+        "VRT",
+        "MOD",
+        "JCI",
+        "TT",
+        "CARR"
+      ],
+      "w": 0.4,
+      "m": -11.5,
+      "q": -4.9,
+      "rs_vs_spy_m": -10.4,
+      "rs_vs_spy_q": -4.9,
+      "above50": false,
+      "reddit_mentions_per_1k_posts": null,
+      "reddit_change": null,
+      "google_trends_change": -20.2,
+      "x_volume": null,
+      "news_headlines": 0,
+      "label": "NEUTRAL",
+      "leaders_m": [
+        [
+          "JCI",
+          -1.8
+        ],
+        [
+          "CARR",
+          -2.5
+        ],
+        [
+          "VRT",
+          -5.5
+        ]
+      ],
+      "laggards_m": [
+        [
+          "TT",
+          -10.7
+        ],
+        [
+          "MOD",
+          -31.4
+        ]
+      ],
+      "top_posts": []
+    },
+    {
+      "theme": "Copper & grid materials",
+      "basket": [
+        "COPX",
+        "CPER",
+        "FCX",
+        "SCCO",
+        "TECK"
+      ],
+      "w": -2.3,
+      "m": -12.5,
+      "q": -15.5,
+      "rs_vs_spy_m": -11.5,
+      "rs_vs_spy_q": -15.5,
+      "above50": false,
+      "reddit_mentions_per_1k_posts": null,
+      "reddit_change": null,
+      "google_trends_change": -9.8,
+      "x_volume": null,
+      "news_headlines": 0,
+      "label": "NEUTRAL",
+      "leaders_m": [
+        [
+          "TECK",
+          -7.1
+        ],
+        [
+          "FCX",
+          -9.6
+        ],
+        [
+          "SCCO",
+          -10.9
+        ]
+      ],
+      "laggards_m": [
+        [
+          "FCX",
+          -9.6
+        ],
+        [
+          "SCCO",
+          -10.9
+        ]
+      ],
+      "top_posts": []
+    },
+    {
+      "theme": "Nuclear",
+      "basket": [
+        "URA",
+        "NLR",
+        "CCJ",
+        "OKLO",
+        "SMR",
+        "LEU",
+        "BWXT",
+        "NNE"
+      ],
+      "w": 0.4,
+      "m": -12.8,
+      "q": -28.3,
+      "rs_vs_spy_m": -11.7,
+      "rs_vs_spy_q": -28.3,
+      "above50": false,
+      "reddit_mentions_per_1k_posts": null,
+      "reddit_change": null,
+      "google_trends_change": -8.8,
+      "x_volume": null,
+      "news_headlines": 0,
+      "label": "NEUTRAL",
+      "leaders_m": [
+        [
+          "BWXT",
+          -4.5
+        ],
+        [
+          "CCJ",
+          -10.2
+        ],
+        [
+          "LEU",
+          -25.7
+        ]
+      ],
+      "laggards_m": [
+        [
+          "SMR",
+          -27.9
+        ],
+        [
+          "OKLO",
+          -30.1
+        ]
+      ],
+      "top_posts": []
+    },
+    {
+      "theme": "Precious metals",
+      "basket": [
+        "GLD",
+        "SLV",
+        "GDX",
+        "NEM",
+        "AEM",
+        "WPM",
+        "PSLV"
+      ],
+      "w": -5.4,
+      "m": -13.3,
+      "q": -12.2,
+      "rs_vs_spy_m": -12.2,
+      "rs_vs_spy_q": -12.2,
+      "above50": false,
+      "reddit_mentions_per_1k_posts": null,
+      "reddit_change": null,
+      "google_trends_change": 5.7,
+      "x_volume": null,
+      "news_headlines": 0,
+      "label": "NEUTRAL",
+      "leaders_m": [
+        [
+          "NEM",
+          -7.0
+        ],
+        [
+          "AEM",
+          -8.4
+        ],
+        [
+          "WPM",
+          -12.6
+        ]
+      ],
+      "laggards_m": [
+        [
+          "WPM",
+          -12.6
+        ],
+        [
+          "PSLV",
+          -18.3
+        ]
+      ],
+      "top_posts": []
+    },
+    {
+      "theme": "AI data centers",
+      "basket": [
+        "DTCR",
+        "SRVR",
+        "EQIX",
+        "DLR",
+        "VRT",
+        "ANET",
+        "CSCO",
+        "SMCI",
+        "DELL",
+        "CRWV"
+      ],
+      "w": 0.7,
+      "m": -13.6,
+      "q": -7.7,
+      "rs_vs_spy_m": -12.5,
+      "rs_vs_spy_q": -7.7,
+      "above50": false,
+      "reddit_mentions_per_1k_posts": null,
+      "reddit_change": null,
+      "google_trends_change": -13.1,
+      "x_volume": null,
+      "news_headlines": 0,
+      "label": "NEUTRAL",
+      "leaders_m": [
+        [
+          "DLR",
+          2.4
+        ],
+        [
+          "EQIX",
+          0.1
+        ],
+        [
+          "CSCO",
+          -3.5
+        ]
+      ],
+      "laggards_m": [
+        [
+          "DELL",
+          -21.6
+        ],
+        [
+          "CRWV",
+          -38.0
+        ]
+      ],
+      "top_posts": []
+    },
+    {
+      "theme": "AI software",
+      "basket": [
+        "IGV",
+        "PLTR",
+        "MSFT",
+        "NOW",
+        "CRM",
+        "SNOW",
+        "DDOG"
+      ],
+      "w": -11.7,
+      "m": -14.7,
+      "q": -12.3,
+      "rs_vs_spy_m": -13.7,
+      "rs_vs_spy_q": -12.3,
+      "above50": false,
+      "reddit_mentions_per_1k_posts": null,
+      "reddit_change": null,
+      "google_trends_change": 5.8,
+      "x_volume": null,
+      "news_headlines": 0,
+      "label": "NEUTRAL",
+      "leaders_m": [
+        [
+          "MSFT",
+          1.8
+        ],
+        [
+          "PLTR",
+          -3.1
+        ],
+        [
+          "CRM",
+          -3.2
+        ]
+      ],
+      "laggards_m": [
+        [
+          "DDOG",
+          -14.9
+        ],
+        [
+          "NOW",
+          -23.7
+        ]
+      ],
+      "top_posts": []
+    },
+    {
+      "theme": "Crypto",
+      "basket": [
+        "IBIT",
+        "ETHA",
+        "COIN",
+        "MSTR",
+        "HOOD",
+        "MARA",
+        "RIOT"
+      ],
+      "w": -4.6,
+      "m": -15.4,
+      "q": -18.4,
+      "rs_vs_spy_m": -14.3,
+      "rs_vs_spy_q": -18.4,
+      "above50": false,
+      "reddit_mentions_per_1k_posts": null,
+      "reddit_change": null,
+      "google_trends_change": -6.0,
+      "x_volume": null,
+      "news_headlines": 5,
+      "label": "NEUTRAL",
+      "leaders_m": [
+        [
+          "MSTR",
+          -18.7
+        ],
+        [
+          "HOOD",
+          -23.5
+        ],
+        [
+          "COIN",
+          -24.2
+        ]
+      ],
+      "laggards_m": [
+        [
+          "RIOT",
+          -34.7
+        ],
+        [
+          "MARA",
+          -39.6
+        ]
+      ],
+      "top_posts": []
+    },
+    {
+      "theme": "AI chips",
+      "basket": [
+        "SMH",
+        "SOXX",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "TSM",
+        "MU",
+        "ARM",
+        "MRVL",
+        "ASML"
+      ],
+      "w": -5.0,
+      "m": -17.0,
+      "q": -7.4,
+      "rs_vs_spy_m": -15.9,
+      "rs_vs_spy_q": -7.4,
+      "above50": false,
+      "reddit_mentions_per_1k_posts": null,
+      "reddit_change": null,
+      "google_trends_change": -7.9,
+      "x_volume": null,
+      "news_headlines": 1,
+      "label": "NEUTRAL",
+      "leaders_m": [
+        [
+          "AVGO",
+          -5.1
+        ],
+        [
+          "NVDA",
+          -11.4
+        ],
+        [
+          "TSM",
+          -11.6
+        ]
+      ],
+      "laggards_m": [
+        [
+          "MRVL",
+          -26.7
+        ],
+        [
+          "ARM",
+          -29.5
+        ]
+      ],
+      "top_posts": []
+    },
+    {
+      "theme": "Memory chips",
+      "basket": [
+        "EWY",
+        "MU",
+        "SNDK",
+        "WDC",
+        "STX"
+      ],
+      "w": -1.5,
+      "m": -18.2,
+      "q": -18.3,
+      "rs_vs_spy_m": -17.1,
+      "rs_vs_spy_q": -18.3,
+      "above50": false,
+      "reddit_mentions_per_1k_posts": null,
+      "reddit_change": null,
+      "google_trends_change": 479.7,
+      "x_volume": null,
+      "news_headlines": 0,
+      "label": "EARLY - talk rising, price not yet (social-arbitrage watch)",
+      "leaders_m": [
+        [
+          "MU",
+          -19.4
+        ],
+        [
+          "WDC",
+          -20.9
+        ],
+        [
+          "STX",
+          -31.8
+        ]
+      ],
+      "laggards_m": [
+        [
+          "STX",
+          -31.8
+        ],
+        [
+          "SNDK",
+          -35.6
+        ]
+      ],
+      "top_posts": []
+    }
+  ],
+  "reddit_tickers": [
+    {
+      "ticker": "RDDT",
+      "mentions": 263,
+      "m": -38.7,
+      "above50": false
+    },
+    {
+      "ticker": "GOOG",
+      "mentions": 126
+    },
+    {
+      "ticker": "INTC",
+      "mentions": 120
+    },
+    {
+      "ticker": "NVDA",
+      "mentions": 117,
+      "m": -11.4,
+      "above50": false
+    },
+    {
+      "ticker": "SPY",
+      "mentions": 110,
+      "m": -1.1,
+      "above50": false
+    },
+    {
+      "ticker": "QQQ",
+      "mentions": 106,
+      "m": -6.9,
+      "above50": false
+    },
+    {
+      "ticker": "AMD",
+      "mentions": 101,
+      "m": -18.0,
+      "above50": false
+    },
+    {
+      "ticker": "GOOGL",
+      "mentions": 70,
+      "m": -17.3,
+      "above50": false
+    },
+    {
+      "ticker": "TSLA",
+      "mentions": 54,
+      "m": 12.9,
+      "above50": true
+    },
+    {
+      "ticker": "VOO",
+      "mentions": 49
+    },
+    {
+      "ticker": "SNDK",
+      "mentions": 43,
+      "m": -35.6,
+      "above50": false
+    },
+    {
+      "ticker": "AMZN",
+      "mentions": 42,
+      "m": -3.2,
+      "above50": false
+    },
+    {
+      "ticker": "MU",
+      "mentions": 42,
+      "m": -19.4,
+      "above50": false
+    },
+    {
+      "ticker": "DTE",
+      "mentions": 35
+    },
+    {
+      "ticker": "SOXL",
+      "mentions": 34
+    },
+    {
+      "ticker": "META",
+      "mentions": 34,
+      "m": -15.3,
+      "above50": false
+    },
+    {
+      "ticker": "AAPL",
+      "mentions": 33,
+      "m": 4.3,
+      "above50": true
+    },
+    {
+      "ticker": "MSFT",
+      "mentions": 30,
+      "m": 1.8,
+      "above50": true
+    },
+    {
+      "ticker": "IT",
+      "mentions": 27
+    },
+    {
+      "ticker": "AGI",
+      "mentions": 22
+    }
+  ],
+  "rising_tickers": [
+    {
+      "ticker": "INTC",
+      "mentions": 120,
+      "baseline": 10.2,
+      "change": 975.6
+    },
+    {
+      "ticker": "RDDT",
+      "mentions": 263,
+      "baseline": 25.0,
+      "change": 915.4,
+      "m": -38.7,
+      "above50": false
+    },
+    {
+      "ticker": "TTM",
+      "mentions": 7,
+      "baseline": 0.0,
+      "change": 700.0
+    },
+    {
+      "ticker": "NRXP",
+      "mentions": 6,
+      "baseline": 0.0,
+      "change": 600.0
+    },
+    {
+      "ticker": "CAN",
+      "mentions": 5,
+      "baseline": 0.0,
+      "change": 500.0
+    },
+    {
+      "ticker": "UI",
+      "mentions": 8,
+      "baseline": 0.5,
+      "change": 500.0
+    },
+    {
+      "ticker": "INO",
+      "mentions": 5,
+      "baseline": 0.0,
+      "change": 500.0
+    },
+    {
+      "ticker": "KO",
+      "mentions": 14,
+      "baseline": 2.2,
+      "change": 361.5,
+      "m": 9.3,
+      "above50": true
+    },
+    {
+      "ticker": "AAA",
+      "mentions": 8,
+      "baseline": 1.2,
+      "change": 300.0
+    },
+    {
+      "ticker": "CAT",
+      "mentions": 7,
+      "baseline": 1.5,
+      "change": 220.0,
+      "m": -24.5,
+      "above50": false
+    },
+    {
+      "ticker": "VXUS",
+      "mentions": 8,
+      "baseline": 2.0,
+      "change": 200.0
+    },
+    {
+      "ticker": "IBKR",
+      "mentions": 5,
+      "baseline": 1.0,
+      "change": 200.0
+    },
+    {
+      "ticker": "SGOV",
+      "mentions": 16,
+      "baseline": 5.0,
+      "change": 183.3
+    },
+    {
+      "ticker": "AMD",
+      "mentions": 101,
+      "baseline": 35.8,
+      "change": 177.6,
+      "m": -18.0,
+      "above50": false
+    },
+    {
+      "ticker": "TSM",
+      "mentions": 8,
+      "baseline": 2.2,
+      "change": 176.9,
+      "m": -11.6,
+      "above50": false
+    }
+  ],
+  "narratives": [
+    {
+      "key": "ai_fear",
+      "label": "AI fear / FUD",
+      "reddit_per_1k": null,
+      "reddit_change": null,
+      "news_per_1k": 40.0,
+      "news_change": 700.0,
+      "ground_truth_posts": 0,
+      "examples": [
+        {
+          "title": "Has the tech bubble burst? Why the Nasdaq\u2019s rough ride looks eerily like 2000.",
+          "link": "https://www.marketwatch.com/story/has-the-tech-bubble-burst-why-the-nasdaqs-rough-ride-looks-eerily-like-2000-5bcefcb2?mod=mw_rss_topstories",
+          "published": "Fri, 30 Oct 2026 23:14:00 GMT",
+          "source": "feeds.content.dowjones.io"
+        },
+        {
+          "title": "Meta outlook revised downward by S&P on cash flow and capex concerns",
+          "link": "https://www.cnbc.com/2026/10/30/meta-outlook-to-revised-to-negative-by-sp-after-cash-flow-negative.html",
+          "published": "Fri, 30 Oct 2026 22:42:26 GMT",
+          "source": "www.cnbc.com"
+        }
+      ],
+      "accelerating": true
+    },
+    {
+      "key": "ai_efficiency",
+      "label": "AI efficiency evidence",
+      "reddit_per_1k": null,
+      "reddit_change": null,
+      "news_per_1k": 0.0,
+      "news_change": null,
+      "ground_truth_posts": 0,
+      "examples": [],
+      "accelerating": false
+    },
+    {
+      "key": "leverage",
+      "label": "Leverage / forced selling",
+      "reddit_per_1k": null,
+      "reddit_change": null,
+      "news_per_1k": 0.0,
+      "news_change": null,
+      "ground_truth_posts": 0,
+      "examples": [],
+      "accelerating": false
+    }
+  ],
+  "catalysts": [
+    {
+      "name": "GTA 6 launch",
+      "date": "2026-11-19",
+      "days_to_event": 19,
+      "benchmarks": "Street year-1 units ~30-50M; online spend per monthly user ~$20-60; GTA 5 online still ~$0.6B/yr",
+      "tickers": [
+        {
+          "ticker": "TTWO",
+          "side": "main",
+          "w": -6.6,
+          "m": -6.6,
+          "q": -22.4
+        },
+        {
+          "ticker": "DASH",
+          "side": "2nd-order +",
+          "w": -0.2,
+          "m": -1.7,
+          "q": -10.7
+        },
+        {
+          "ticker": "UBER",
+          "side": "2nd-order +",
+          "w": -2.2,
+          "m": -3.9,
+          "q": -8.9
+        },
+        {
+          "ticker": "SONY",
+          "side": "2nd-order +",
+          "w": -3.0,
+          "m": 7.7,
+          "q": 11.8
+        },
+        {
+          "ticker": "MSFT",
+          "side": "2nd-order +",
+          "w": -0.5,
+          "m": 1.8,
+          "q": 7.2
+        },
+        {
+          "ticker": "NFLX",
+          "side": "2nd-order -",
+          "w": -5.7,
+          "m": -8.5,
+          "q": -15.3
+        }
+      ]
+    }
+  ],
+  "big_movers": [
+    {
+      "ticker": "NOW",
+      "w": -33.9,
+      "m": -23.7,
+      "headlines": []
+    },
+    {
+      "ticker": "CROX",
+      "w": 26.2,
+      "m": 26.2,
+      "headlines": []
+    },
+    {
+      "ticker": "VRT",
+      "w": 19.6,
+      "m": -5.5,
+      "headlines": []
+    },
+    {
+      "ticker": "BBW",
+      "w": 16.1,
+      "m": 8.7,
+      "headlines": []
+    },
+    {
+      "ticker": "XYL",
+      "w": -15.0,
+      "m": -8.4,
+      "headlines": []
+    },
+    {
+      "ticker": "MRVL",
+      "w": -14.1,
+      "m": -26.7,
+      "headlines": []
+    },
+    {
+      "ticker": "PWR",
+      "w": 13.6,
+      "m": -6.3,
+      "headlines": []
+    },
+    {
+      "ticker": "COIN",
+      "w": -12.7,
+      "m": -24.2,
+      "headlines": []
+    },
+    {
+      "ticker": "DDOG",
+      "w": -12.7,
+      "m": -14.9,
+      "headlines": []
+    },
+    {
+      "ticker": "SG",
+      "w": 12.7,
+      "m": 27.5,
+      "headlines": []
+    },
+    {
+      "ticker": "GOOGL",
+      "w": -12.6,
+      "m": -17.3,
+      "headlines": []
+    },
+    {
+      "ticker": "TER",
+      "w": -11.2,
+      "m": -34.0,
+      "headlines": []
+    },
+    {
+      "ticker": "HOOD",
+      "w": -10.6,
+      "m": -23.5,
+      "headlines": []
+    },
+    {
+      "ticker": "MSTR",
+      "w": -10.6,
+      "m": -18.7,
+      "headlines": []
+    },
+    {
+      "ticker": "CAVA",
+      "w": 9.8,
+      "m": 8.0,
+      "headlines": []
+    }
+  ],
+  "concentration": {
+    "benchmark": "SMH",
+    "bench_m": -15.4,
+    "bench_q": -4.2,
+    "rows": [
+      {
+        "ticker": "ORCL",
+        "m": -5.0,
+        "q": -7.5,
+        "vs_chips_m": 10.4,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "CRWV",
+        "m": -38.0,
+        "q": -36.0,
+        "vs_chips_m": -22.6,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "NVDA",
+        "m": -11.4,
+        "q": -0.9,
+        "vs_chips_m": 4.1,
+        "above50": false,
+        "above200": true
+      },
+      {
+        "ticker": "MSFT",
+        "m": 1.8,
+        "q": 7.2,
+        "vs_chips_m": 17.2,
+        "above50": true,
+        "above200": true
+      },
+      {
+        "ticker": "AMZN",
+        "m": -3.2,
+        "q": -15.4,
+        "vs_chips_m": 12.3,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "GOOGL",
+        "m": -17.3,
+        "q": -25.0,
+        "vs_chips_m": -1.8,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "ticker": "META",
+        "m": -15.3,
+        "q": 4.3,
+        "vs_chips_m": 0.1,
+        "above50": false,
+        "above200": false
+      }
+    ],
+    "warning_names": [
+      "ORCL",
+      "CRWV",
+      "AMZN",
+      "GOOGL",
+      "META"
+    ],
+    "read": "Stress in the AI chain: ORCL, CRWV, AMZN, GOOGL, META"
+  },
+  "consumer": [
+    {
+      "term": "uggs",
+      "ticker": "DECK",
+      "search_change": 137.0,
+      "at_12m_high": false,
+      "yoy_same_season": -31.4,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": 73542,
+      "yt_intent_per_100": 5.9,
+      "yt_scare_per_100": 4.7,
+      "scare_flag": false,
+      "m": 3.0,
+      "q": -17.6,
+      "mcap_b": 10.9,
+      "short_pct": 9.1,
+      "in_headlines": false,
+      "flag": true,
+      "read": "EARLY - search spike, price and news not there yet: verify (stores, reviews, analyst coverage)"
+    },
+    {
+      "term": "gta 6",
+      "ticker": "TTWO",
+      "search_change": 30.1,
+      "at_12m_high": false,
+      "yoy_same_season": 254.3,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": 500816,
+      "yt_intent_per_100": 5.8,
+      "yt_scare_per_100": 0.2,
+      "scare_flag": false,
+      "m": -6.6,
+      "q": -22.4,
+      "mcap_b": 35.6,
+      "short_pct": 5.2,
+      "in_headlines": true,
+      "flag": true,
+      "read": "LATE - price already ran / in the news"
+    },
+    {
+      "term": "sweetgreen",
+      "ticker": "SG",
+      "search_change": -0.8,
+      "at_12m_high": false,
+      "yoy_same_season": -8.3,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": 14529,
+      "yt_intent_per_100": null,
+      "yt_scare_per_100": null,
+      "scare_flag": false,
+      "m": 27.5,
+      "q": 87.0,
+      "mcap_b": 1.3,
+      "short_pct": 25.8,
+      "in_headlines": false,
+      "flag": false,
+      "read": ""
+    },
+    {
+      "term": "labubu",
+      "ticker": "9992.HK",
+      "search_change": -2.7,
+      "at_12m_high": false,
+      "yoy_same_season": -89.7,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": 3504547,
+      "yt_intent_per_100": 10.7,
+      "yt_scare_per_100": 1.3,
+      "scare_flag": false,
+      "m": -12.7,
+      "q": -17.0,
+      "mcap_b": 178.4,
+      "short_pct": null,
+      "in_headlines": false,
+      "flag": false,
+      "read": ""
+    },
+    {
+      "term": "cava",
+      "ticker": "CAVA",
+      "search_change": -5.7,
+      "at_12m_high": false,
+      "yoy_same_season": 4.5,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": 696267,
+      "yt_intent_per_100": 0.0,
+      "yt_scare_per_100": 0.0,
+      "scare_flag": false,
+      "m": 8.0,
+      "q": -8.9,
+      "mcap_b": 6.9,
+      "short_pct": 14.7,
+      "in_headlines": false,
+      "flag": false,
+      "read": ""
+    },
+    {
+      "term": "pokemon cards",
+      "ticker": "NTDOY",
+      "search_change": -9.3,
+      "at_12m_high": false,
+      "yoy_same_season": 61.4,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": 1016716,
+      "yt_intent_per_100": 3.8,
+      "yt_scare_per_100": 5.8,
+      "scare_flag": true,
+      "m": 5.2,
+      "q": 8.0,
+      "mcap_b": 60.4,
+      "short_pct": null,
+      "in_headlines": false,
+      "flag": true,
+      "read": "CAUTION - scare/negative-virality talk rising: check if it is true"
+    },
+    {
+      "term": "starbucks",
+      "ticker": "SBUX",
+      "search_change": -10.5,
+      "at_12m_high": false,
+      "yoy_same_season": -35.4,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": 337336,
+      "yt_intent_per_100": 1.2,
+      "yt_scare_per_100": 5.0,
+      "scare_flag": true,
+      "m": 9.3,
+      "q": 0.9,
+      "mcap_b": 118.2,
+      "short_pct": 4.3,
+      "in_headlines": false,
+      "flag": false,
+      "read": "CAUTION - scare/negative-virality talk"
+    },
+    {
+      "term": "hims",
+      "ticker": "HIMS",
+      "search_change": -11.0,
+      "at_12m_high": false,
+      "yoy_same_season": -29.1,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": 7394,
+      "yt_intent_per_100": 0.0,
+      "yt_scare_per_100": 0.0,
+      "scare_flag": false,
+      "m": -5.5,
+      "q": -10.2,
+      "mcap_b": 6.5,
+      "short_pct": 27.6,
+      "in_headlines": false,
+      "flag": false,
+      "read": ""
+    },
+    {
+      "term": "celsius energy drink",
+      "ticker": "CELH",
+      "search_change": -11.7,
+      "at_12m_high": false,
+      "yoy_same_season": -30.6,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": 1577,
+      "yt_intent_per_100": 0.0,
+      "yt_scare_per_100": 0.0,
+      "scare_flag": false,
+      "m": 6.2,
+      "q": 3.2,
+      "mcap_b": 7.4,
+      "short_pct": 12.1,
+      "in_headlines": false,
+      "flag": false,
+      "read": ""
+    },
+    {
+      "term": "dutch bros",
+      "ticker": "BROS",
+      "search_change": -12.1,
+      "at_12m_high": false,
+      "yoy_same_season": -4.9,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": 478979,
+      "yt_intent_per_100": 2.2,
+      "yt_scare_per_100": 0.3,
+      "scare_flag": false,
+      "m": 11.0,
+      "q": -34.0,
+      "vs": "SBUX",
+      "vs_rival_q": -34.9,
+      "mcap_b": 7.5,
+      "short_pct": 49.1,
+      "in_headlines": false,
+      "flag": false,
+      "read": ""
+    },
+    {
+      "term": "elf cosmetics",
+      "ticker": "ELF",
+      "search_change": -13.3,
+      "at_12m_high": false,
+      "yoy_same_season": -17.3,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": 288389,
+      "yt_intent_per_100": 3.4,
+      "yt_scare_per_100": 0.0,
+      "scare_flag": false,
+      "m": 7.3,
+      "q": 35.2,
+      "mcap_b": 6.6,
+      "short_pct": 8.8,
+      "in_headlines": false,
+      "flag": false,
+      "read": ""
+    },
+    {
+      "term": "ozempic",
+      "ticker": "NVO",
+      "search_change": -14.9,
+      "at_12m_high": false,
+      "yoy_same_season": -37.7,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": 625126,
+      "yt_intent_per_100": 2.9,
+      "yt_scare_per_100": 2.0,
+      "scare_flag": false,
+      "m": 7.0,
+      "q": -14.0,
+      "mcap_b": 176.4,
+      "short_pct": 1.2,
+      "in_headlines": false,
+      "flag": false,
+      "read": ""
+    },
+    {
+      "term": "robinhood",
+      "ticker": "HOOD",
+      "search_change": -15.8,
+      "at_12m_high": false,
+      "yoy_same_season": -28.7,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": 159733,
+      "yt_intent_per_100": 1.8,
+      "yt_scare_per_100": 1.8,
+      "scare_flag": false,
+      "m": -23.5,
+      "q": -5.9,
+      "mcap_b": 76.5,
+      "short_pct": 4.7,
+      "in_headlines": false,
+      "flag": false,
+      "read": ""
+    },
+    {
+      "term": "on running shoes",
+      "ticker": "ONON",
+      "search_change": -19.0,
+      "at_12m_high": false,
+      "yoy_same_season": 2.5,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": 344042,
+      "yt_intent_per_100": 6.3,
+      "yt_scare_per_100": 3.2,
+      "scare_flag": false,
+      "m": 11.9,
+      "q": -11.0,
+      "vs": "NKE",
+      "vs_rival_q": -2.6,
+      "mcap_b": 11.3,
+      "short_pct": 13.1,
+      "in_headlines": true,
+      "flag": false,
+      "read": ""
+    },
+    {
+      "term": "coconut water",
+      "ticker": "COCO",
+      "search_change": -21.2,
+      "at_12m_high": false,
+      "yoy_same_season": 17.6,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": 3612605,
+      "yt_intent_per_100": 0.0,
+      "yt_scare_per_100": 0.9,
+      "scare_flag": false,
+      "m": 2.6,
+      "q": -7.7,
+      "mcap_b": 3.3,
+      "short_pct": 15.1,
+      "in_headlines": false,
+      "flag": false,
+      "read": ""
+    },
+    {
+      "term": "hoka",
+      "ticker": "DECK",
+      "search_change": -21.9,
+      "at_12m_high": false,
+      "yoy_same_season": -21.4,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": 184888,
+      "yt_intent_per_100": 9.3,
+      "yt_scare_per_100": 0.0,
+      "scare_flag": false,
+      "m": 3.0,
+      "q": -17.6,
+      "mcap_b": 10.9,
+      "short_pct": 9.1,
+      "in_headlines": false,
+      "flag": false,
+      "read": ""
+    },
+    {
+      "term": "birkenstock",
+      "ticker": "BIRK",
+      "search_change": -23.3,
+      "at_12m_high": false,
+      "yoy_same_season": -10.6,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": 997083,
+      "yt_intent_per_100": 0.0,
+      "yt_scare_per_100": 0.8,
+      "scare_flag": false,
+      "m": 1.4,
+      "q": -14.0,
+      "mcap_b": 5.5,
+      "short_pct": 15.6,
+      "in_headlines": false,
+      "flag": false,
+      "read": ""
+    },
+    {
+      "term": "swatch",
+      "ticker": "UHR.SW",
+      "search_change": -25.0,
+      "at_12m_high": false,
+      "yoy_same_season": 18.2,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": 277169,
+      "yt_intent_per_100": 5.9,
+      "yt_scare_per_100": 1.8,
+      "scare_flag": false,
+      "m": -1.6,
+      "q": -2.7,
+      "mcap_b": 9.4,
+      "short_pct": null,
+      "in_headlines": false,
+      "flag": false,
+      "read": ""
+    },
+    {
+      "term": "crocs",
+      "ticker": "CROX",
+      "search_change": -32.0,
+      "at_12m_high": false,
+      "yoy_same_season": -9.2,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": 2863526,
+      "yt_intent_per_100": 0.0,
+      "yt_scare_per_100": 0.0,
+      "scare_flag": false,
+      "m": 26.2,
+      "q": 11.6,
+      "mcap_b": 6.9,
+      "short_pct": 13.4,
+      "in_headlines": false,
+      "flag": false,
+      "read": ""
+    },
+    {
+      "term": "build a bear",
+      "ticker": "BBW",
+      "search_change": -34.6,
+      "at_12m_high": false,
+      "yoy_same_season": -8.9,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": 416635,
+      "yt_intent_per_100": 16.5,
+      "yt_scare_per_100": 1.4,
+      "scare_flag": false,
+      "m": 8.7,
+      "q": -17.6,
+      "mcap_b": 0.3,
+      "short_pct": 26.7,
+      "in_headlines": false,
+      "flag": false,
+      "read": ""
+    },
+    {
+      "term": "barbie",
+      "ticker": "MAT",
+      "search_change": 0.0,
+      "at_12m_high": false,
+      "yoy_same_season": -14.3,
+      "at_5y_high": false,
+      "reddit_mentions": 0,
+      "scare_posts": 0,
+      "scare_examples": [],
+      "yt_views": 8210404,
+      "yt_intent_per_100": 0.0,
+      "yt_scare_per_100": 0.0,
+      "scare_flag": false,
+      "m": 2.5,
+      "q": 3.6,
+      "mcap_b": 4.4,
+      "short_pct": 15.2,
+      "in_headlines": false,
+      "flag": false,
+      "read": ""
+    }
+  ],
+  "discovery": {
+    "reddit": [],
+    "search_rising": {
+      "sold out": [
+        {
+          "query": "calvin harris sold out",
+          "value": 51850
+        },
+        {
+          "query": "blueberries and older adult mood",
+          "value": 22550
+        },
+        {
+          "query": "caitlin clark shoes",
+          "value": 21050
+        },
+        {
+          "query": "ram 1500 rumble bee sold out",
+          "value": 14150
+        },
+        {
+          "query": "are calvin harris tickets sold out",
+          "value": 12100
+        },
+        {
+          "query": "chilis new chicken parm big crispy",
+          "value": 10600
+        },
+        {
+          "query": "nba achilles injury",
+          "value": 10600
+        },
+        {
+          "query": "foldable iphone duo sold out",
+          "value": 9750
+        },
+        {
+          "query": "amazon web services sold out 2027",
+          "value": 9150
+        },
+        {
+          "query": "apple iphone duo sold out",
+          "value": 4050
+        }
+      ],
+      "restock": [
+        {
+          "query": "when does kohls restock needohs",
+          "value": 15350
+        },
+        {
+          "query": "iphone duo restock",
+          "value": 1900
+        },
+        {
+          "query": "do wandering traders restock",
+          "value": 250
+        },
+        {
+          "query": "zelda 40th anniversary switch 2 restock",
+          "value": 250
+        },
+        {
+          "query": "do villagers need beds to restock",
+          "value": 120
+        },
+        {
+          "query": "when does jellycat restock",
+          "value": 120
+        },
+        {
+          "query": "needoh advent calendar",
+          "value": 110
+        },
+        {
+          "query": "how long does it take for a villager to restock",
+          "value": 110
+        },
+        {
+          "query": "foot locker restock dates",
+          "value": 100
+        },
+        {
+          "query": "when does costco restock pokemon cards",
+          "value": 80
+        }
+      ],
+      "dupe": [
+        {
+          "query": "heavenly hunks dupe loops mini donuts",
+          "value": 111950
+        },
+        {
+          "query": "dollar tree pottery barn stocking dupe",
+          "value": 67350
+        },
+        {
+          "query": "costco lola blanket dupe",
+          "value": 10450
+        },
+        {
+          "query": "rayhaan equinox dupe of",
+          "value": 6600
+        },
+        {
+          "query": "club de nuit bling dupe of",
+          "value": 300
+        },
+        {
+          "query": "rayhaan azul dupe of",
+          "value": 300
+        },
+        {
+          "query": "rayhaan vantage dupe of",
+          "value": 250
+        },
+        {
+          "query": "velixir ares dupe of",
+          "value": 200
+        },
+        {
+          "query": "sleep crown dupe",
+          "value": 160
+        },
+        {
+          "query": "lattafa fire on ice dupe of",
+          "value": 130
+        }
+      ],
+      "viral": [
+        {
+          "query": "mike satterlee viral business success",
+          "value": 23950
+        },
+        {
+          "query": "angelina jolie handwriting viral note",
+          "value": 18400
+        },
+        {
+          "query": "trump suit tags viral photo",
+          "value": 12350
+        },
+        {
+          "query": "anne hathaway verity premiere viral video",
+          "value": 10350
+        },
+        {
+          "query": "michael lolley little league viral video",
+          "value": 7250
+        },
+        {
+          "query": "viral coyote pear tree video",
+          "value": 7050
+        },
+        {
+          "query": "streaming shows trending",
+          "value": 6950
+        },
+        {
+          "query": "non-toxic air fryer",
+          "value": 6900
+        },
+        {
+          "query": "kyle shanahan brock purdy viral",
+          "value": 6800
+        },
+        {
+          "query": "minimalist lifestyle trend",
+          "value": 5800
+        }
+      ],
+      "new flavor": [
+        {
+          "query": "oreo permanent new flavor additions",
+          "value": 389400
+        },
+        {
+          "query": "doritos new flavor",
+          "value": 8850
+        },
+        {
+          "query": "mountain dew 2027 new flavor",
+          "value": 7400
+        },
+        {
+          "query": "bloom",
+          "value": 350
+        },
+        {
+          "query": "new oreo flavor",
+          "value": 300
+        },
+        {
+          "query": "redbull",
+          "value": 50
+        }
+      ],
+      "where to buy": [
+        {
+          "query": "where to buy red dye diesel",
+          "value": 5400
+        },
+        {
+          "query": "dove perfume where to buy",
+          "value": 1850
+        },
+        {
+          "query": "where to buy colored contacts",
+          "value": 750
+        },
+        {
+          "query": "c4 all hopped up where to buy",
+          "value": 550
+        },
+        {
+          "query": "where to buy halloween costumes",
+          "value": 500
+        },
+        {
+          "query": "where to buy pumpkins near me",
+          "value": 450
+        },
+        {
+          "query": "where to buy pumpkins",
+          "value": 350
+        },
+        {
+          "query": "where to buy marigolds",
+          "value": 300
+        },
+        {
+          "query": "where to buy dry ice",
+          "value": 70
+        }
+      ],
+      "shortage": [
+        {
+          "query": "europe e-bike mechanic shortage",
+          "value": 47850
+        },
+        {
+          "query": "italy food shortage",
+          "value": 34650
+        },
+        {
+          "query": "nebraska gas shortage",
+          "value": 24650
+        },
+        {
+          "query": "bali fuel shortage",
+          "value": 14400
+        },
+        {
+          "query": "gas shortage omaha ne",
+          "value": 11200
+        },
+        {
+          "query": "nebraska fuel shortage",
+          "value": 10800
+        },
+        {
+          "query": "us embargo cuba medicine shortage",
+          "value": 10450
+        },
+        {
+          "query": "xbox console stock shortage",
+          "value": 8050
+        },
+        {
+          "query": "global diesel shortage forecast 2027",
+          "value": 7700
+        },
+        {
+          "query": "commercial airplane engine shortage teardown",
+          "value": 7250
+        }
+      ],
+      "waitlist": [
+        {
+          "query": "duet waitlist",
+          "value": 188700
+        },
+        {
+          "query": "claude duet",
+          "value": 169800
+        },
+        {
+          "query": "claude duet waitlist",
+          "value": 165300
+        },
+        {
+          "query": "cheapest flights to tokyo",
+          "value": 11450
+        },
+        {
+          "query": "anthropic duet waitlist",
+          "value": 8350
+        },
+        {
+          "query": "red robin waitlist",
+          "value": 6100
+        },
+        {
+          "query": "dove perfume waitlist",
+          "value": 900
+        },
+        {
+          "query": "yardhouse waitlist",
+          "value": 450
+        },
+        {
+          "query": "claude projects waitlist",
+          "value": 300
+        },
+        {
+          "query": "texas road house waitlist",
+          "value": 250
+        }
+      ]
+    }
+  },
+  "sources": {
+    "reddit": false,
+    "reddit_via_apewisdom": true,
+    "youtube": true,
+    "trends": true,
+    "x": false,
+    "news": true,
+    "crypto_talk": true,
+    "earnings_insiders_options": true,
+    "app_store": false
+  },
+  "extras": {
+    "earnings": [
+      {
+        "ticker": "AAPL",
+        "date": "2026-11-02",
+        "days": 2,
+        "m": 4.3
+      },
+      {
+        "ticker": "TLN",
+        "date": "2026-11-03",
+        "days": 3,
+        "m": 6.2
+      },
+      {
+        "ticker": "CAVA",
+        "date": "2026-11-04",
+        "days": 4,
+        "m": 8.0
+      },
+      {
+        "ticker": "BROS",
+        "date": "2026-11-04",
+        "days": 4,
+        "m": 11.0
+      },
+      {
+        "ticker": "ELF",
+        "date": "2026-11-04",
+        "days": 4,
+        "m": 7.3
+      },
+      {
+        "ticker": "NVO",
+        "date": "2026-11-04",
+        "days": 4,
+        "m": 7.0
+      },
+      {
+        "ticker": "UBER",
+        "date": "2026-11-04",
+        "days": 4,
+        "m": -3.9
+      },
+      {
+        "ticker": "SG",
+        "date": "2026-11-05",
+        "days": 5,
+        "m": 27.5
+      },
+      {
+        "ticker": "CELH",
+        "date": "2026-11-05",
+        "days": 5,
+        "m": 6.2
+      },
+      {
+        "ticker": "NTDOY",
+        "date": "2026-11-05",
+        "days": 5,
+        "m": 5.2
+      },
+      {
+        "ticker": "MAT",
+        "date": "2026-11-05",
+        "days": 5,
+        "m": 2.5
+      },
+      {
+        "ticker": "SONY",
+        "date": "2026-11-05",
+        "days": 5,
+        "m": 7.7
+      },
+      {
+        "ticker": "TTWO",
+        "date": "2026-11-09",
+        "days": 9,
+        "m": -6.6
+      },
+      {
+        "ticker": "HIMS",
+        "date": "2026-11-09",
+        "days": 9,
+        "m": -5.5
+      },
+      {
+        "ticker": "CRWV",
+        "date": "2026-11-10",
+        "days": 10,
+        "m": -38.0
+      },
+      {
+        "ticker": "ONON",
+        "date": "2026-11-10",
+        "days": 10,
+        "m": 11.9
+      },
+      {
+        "ticker": "NVDA",
+        "date": "2026-11-17",
+        "days": 17,
+        "m": -11.4
+      }
+    ],
+    "insiders": [
+      {
+        "ticker": "UBER",
+        "m": -3.9,
+        "buys": 2,
+        "buy_value": 15314016,
+        "sells": 1,
+        "sell_value": 2008673,
+        "buyers": [
+          "KHOSROWSHAHI DARA (Chief Executive Officer)",
+          "MACDONALD ANDREW (President)"
+        ]
+      },
+      {
+        "ticker": "ONON",
+        "m": 11.9,
+        "buys": 2,
+        "buy_value": 3987580,
+        "sells": 2,
+        "sell_value": 59978,
+        "buyers": [
+          "BERNHARD OLIVIER (Officer and Director)",
+          "COPPETTI CASPAR FELIX (Chief Executive Officer)"
+        ]
+      },
+      {
+        "ticker": "ORCL",
+        "m": -5.0,
+        "buys": 1,
+        "buy_value": 3483800,
+        "sells": 3,
+        "sell_value": 5342124,
+        "buyers": [
+          "RUSCKOWSKI STEPHEN H (Director)"
+        ]
+      },
+      {
+        "ticker": "ACN",
+        "m": 22.6,
+        "buys": 2,
+        "buy_value": 3200889,
+        "sells": 4,
+        "sell_value": 1795507,
+        "buyers": [
+          "PRICE PAULA A (Director)",
+          "SWEET JULIE SPELLMAN (Chief Executive Officer)"
+        ]
+      },
+      {
+        "ticker": "CELH",
+        "m": 6.2,
+        "buys": 3,
+        "buy_value": 1830043,
+        "sells": 0,
+        "sell_value": 0,
+        "buyers": [
+          "DESANTIS DAMON (Director)",
+          "FIELDLY JOHN ERICK (Chief Executive Officer)",
+          "KRAVITZ HAL (Director)"
+        ]
+      },
+      {
+        "ticker": "CROX",
+        "m": 26.2,
+        "buys": 3,
+        "buy_value": 612571,
+        "sells": 1,
+        "sell_value": 4154785,
+        "buyers": [
+          "KAPLAN BETH JANELL (Director)",
+          "SMACH THOMAS J (Director)"
+        ]
+      },
+      {
+        "ticker": "CAVA",
+        "m": 8.0,
+        "buys": 2,
+        "buy_value": 482340,
+        "sells": 0,
+        "sell_value": 0,
+        "buyers": [
+          "KADOW JOSEPH JOHN (Officer)",
+          "THOMPSON DOUGLAS W (Chief Operating Officer)"
+        ]
+      },
+      {
+        "ticker": "BROS",
+        "m": 11.0,
+        "buys": 1,
+        "buy_value": 103120,
+        "sells": 3,
+        "sell_value": 12822787,
+        "buyers": [
+          "PENEGOR TODD ALLAN (Director)"
+        ]
+      }
+    ],
+    "options": [
+      {
+        "ticker": "NVDA",
+        "m": -11.4,
+        "call_vol": 298086,
+        "put_vol": 283866,
+        "put_call": 0.95,
+        "vol_vs_oi": 4.03,
+        "unusual": [
+          {
+            "side": "call",
+            "exp": "2026-11-02",
+            "strike": 210.0,
+            "volume": 46498,
+            "oi": 2020
+          },
+          {
+            "side": "call",
+            "exp": "2026-11-02",
+            "strike": 207.5,
+            "volume": 45453,
+            "oi": 510
+          },
+          {
+            "side": "call",
+            "exp": "2026-11-02",
+            "strike": 205.0,
+            "volume": 33916,
+            "oi": 254
+          }
+        ]
+      },
+      {
+        "ticker": "AAPL",
+        "m": 4.3,
+        "call_vol": 114054,
+        "put_vol": 235870,
+        "put_call": 2.07,
+        "vol_vs_oi": 1.55,
+        "unusual": [
+          {
+            "side": "put",
+            "exp": "2026-11-06",
+            "strike": 165.0,
+            "volume": 40420,
+            "oi": 14
+          },
+          {
+            "side": "put",
+            "exp": "2026-11-06",
+            "strike": 160.0,
+            "volume": 19000,
+            "oi": 53
+          },
+          {
+            "side": "put",
+            "exp": "2026-11-04",
+            "strike": 310.0,
+            "volume": 13044,
+            "oi": 1261
+          }
+        ]
+      },
+      {
+        "ticker": "TSLA",
+        "m": 12.9,
+        "call_vol": 194854,
+        "put_vol": 198365,
+        "put_call": 1.02,
+        "vol_vs_oi": 3.76,
+        "unusual": [
+          {
+            "side": "call",
+            "exp": "2026-11-02",
+            "strike": 400.0,
+            "volume": 25981,
+            "oi": 1359
+          },
+          {
+            "side": "put",
+            "exp": "2026-11-02",
+            "strike": 395.0,
+            "volume": 20161,
+            "oi": 1254
+          },
+          {
+            "side": "put",
+            "exp": "2026-11-02",
+            "strike": 390.0,
+            "volume": 19811,
+            "oi": 1791
+          }
+        ]
+      },
+      {
+        "ticker": "AMZN",
+        "m": -3.2,
+        "call_vol": 118387,
+        "put_vol": 78737,
+        "put_call": 0.67,
+        "vol_vs_oi": 3.65,
+        "unusual": [
+          {
+            "side": "call",
+            "exp": "2026-11-02",
+            "strike": 240.0,
+            "volume": 14401,
+            "oi": 387
+          },
+          {
+            "side": "call",
+            "exp": "2026-11-02",
+            "strike": 260.0,
+            "volume": 9285,
+            "oi": 1248
+          },
+          {
+            "side": "put",
+            "exp": "2026-11-02",
+            "strike": 230.0,
+            "volume": 9234,
+            "oi": 827
+          }
+        ]
+      },
+      {
+        "ticker": "HOOD",
+        "m": -23.5,
+        "call_vol": 104230,
+        "put_vol": 52917,
+        "put_call": 0.51,
+        "vol_vs_oi": 1.06,
+        "unusual": [
+          {
+            "side": "call",
+            "exp": "2026-11-06",
+            "strike": 86.0,
+            "volume": 13198,
+            "oi": 1511
+          },
+          {
+            "side": "call",
+            "exp": "2026-11-06",
+            "strike": 85.0,
+            "volume": 10888,
+            "oi": 1551
+          },
+          {
+            "side": "call",
+            "exp": "2026-11-06",
+            "strike": 90.0,
+            "volume": 10394,
+            "oi": 835
+          }
+        ]
+      },
+      {
+        "ticker": "ORCL",
+        "m": -5.0,
+        "call_vol": 63519,
+        "put_vol": 55937,
+        "put_call": 0.88,
+        "vol_vs_oi": 0.51,
+        "unusual": [
+          {
+            "side": "put",
+            "exp": "2026-11-06",
+            "strike": 130.0,
+            "volume": 12985,
+            "oi": 2379
+          },
+          {
+            "side": "call",
+            "exp": "2026-11-13",
+            "strike": 135.0,
+            "volume": 5307,
+            "oi": 470
+          },
+          {
+            "side": "call",
+            "exp": "2026-11-06",
+            "strike": 130.0,
+            "volume": 4502,
+            "oi": 1272
+          }
+        ]
+      },
+      {
+        "ticker": "GOOGL",
+        "m": -17.3,
+        "call_vol": 28744,
+        "put_vol": 21082,
+        "put_call": 0.73,
+        "vol_vs_oi": 0.92,
+        "unusual": [
+          {
+            "side": "call",
+            "exp": "2026-11-02",
+            "strike": 295.0,
+            "volume": 7919,
+            "oi": 821
+          },
+          {
+            "side": "call",
+            "exp": "2026-11-04",
+            "strike": 285.0,
+            "volume": 4595,
+            "oi": 623
+          },
+          {
+            "side": "call",
+            "exp": "2026-11-02",
+            "strike": 357.5,
+            "volume": 1355,
+            "oi": 52
+          }
+        ]
+      },
+      {
+        "ticker": "HIMS",
+        "m": -5.5,
+        "call_vol": 34067,
+        "put_vol": 7578,
+        "put_call": 0.22,
+        "vol_vs_oi": 0.72,
+        "unusual": [
+          {
+            "side": "call",
+            "exp": "2026-11-06",
+            "strike": 28.0,
+            "volume": 7183,
+            "oi": 722
+          },
+          {
+            "side": "call",
+            "exp": "2026-11-06",
+            "strike": 29.0,
+            "volume": 6619,
+            "oi": 1553
+          },
+          {
+            "side": "call",
+            "exp": "2026-11-06",
+            "strike": 27.5,
+            "volume": 5059,
+            "oi": 111
+          }
+        ]
+      },
+      {
+        "ticker": "MSFT",
+        "m": 1.8,
+        "call_vol": 44516,
+        "put_vol": 34025,
+        "put_call": 0.76,
+        "vol_vs_oi": 1.56,
+        "unusual": [
+          {
+            "side": "put",
+            "exp": "2026-11-02",
+            "strike": 510.0,
+            "volume": 6544,
+            "oi": 1023
+          },
+          {
+            "side": "call",
+            "exp": "2026-11-02",
+            "strike": 527.5,
+            "volume": 4188,
+            "oi": 454
+          },
+          {
+            "side": "call",
+            "exp": "2026-11-02",
+            "strike": 525.0,
+            "volume": 4025,
+            "oi": 883
+          }
+        ]
+      },
+      {
+        "ticker": "CRWV",
+        "m": -38.0,
+        "call_vol": 80125,
+        "put_vol": 69857,
+        "put_call": 0.87,
+        "vol_vs_oi": 0.56,
+        "unusual": [
+          {
+            "side": "call",
+            "exp": "2026-11-06",
+            "strike": 56.0,
+            "volume": 5834,
+            "oi": 257
+          },
+          {
+            "side": "put",
+            "exp": "2026-11-06",
+            "strike": 52.0,
+            "volume": 4494,
+            "oi": 873
+          },
+          {
+            "side": "call",
+            "exp": "2026-11-06",
+            "strike": 57.0,
+            "volume": 3683,
+            "oi": 938
+          }
+        ]
+      },
+      {
+        "ticker": "META",
+        "m": -15.3,
+        "call_vol": 52770,
+        "put_vol": 35490,
+        "put_call": 0.67,
+        "vol_vs_oi": 1.79,
+        "unusual": [
+          {
+            "side": "call",
+            "exp": "2026-11-02",
+            "strike": 625.0,
+            "volume": 4880,
+            "oi": 274
+          },
+          {
+            "side": "call",
+            "exp": "2026-11-02",
+            "strike": 630.0,
+            "volume": 4418,
+            "oi": 566
+          },
+          {
+            "side": "put",
+            "exp": "2026-11-02",
+            "strike": 610.0,
+            "volume": 4399,
+            "oi": 347
+          }
+        ]
+      },
+      {
+        "ticker": "NOW",
+        "m": -23.7,
+        "call_vol": 25720,
+        "put_vol": 14713,
+        "put_call": 0.57,
+        "vol_vs_oi": 0.67,
+        "unusual": [
+          {
+            "side": "call",
+            "exp": "2026-11-06",
+            "strike": 105.0,
+            "volume": 3513,
+            "oi": 514
+          },
+          {
+            "side": "call",
+            "exp": "2026-11-06",
+            "strike": 100.0,
+            "volume": 528,
+            "oi": 35
+          },
+          {
+            "side": "call",
+            "exp": "2026-11-13",
+            "strike": 105.0,
+            "volume": 517,
+            "oi": 96
+          }
+        ]
+      },
+      {
+        "ticker": "NVO",
+        "m": 7.0,
+        "call_vol": 9914,
+        "put_vol": 2423,
+        "put_call": 0.24,
+        "vol_vs_oi": 0.39,
+        "unusual": [
+          {
+            "side": "call",
+            "exp": "2026-11-06",
+            "strike": 45.0,
+            "volume": 2536,
+            "oi": 630
+          }
+        ]
+      },
+      {
+        "ticker": "BE",
+        "m": -26.8,
+        "call_vol": 29335,
+        "put_vol": 20595,
+        "put_call": 0.7,
+        "vol_vs_oi": 0.84,
+        "unusual": [
+          {
+            "side": "call",
+            "exp": "2026-11-06",
+            "strike": 215.0,
+            "volume": 1842,
+            "oi": 217
+          },
+          {
+            "side": "call",
+            "exp": "2026-11-06",
+            "strike": 207.5,
+            "volume": 1564,
+            "oi": 90
+          },
+          {
+            "side": "call",
+            "exp": "2026-11-06",
+            "strike": 175.0,
+            "volume": 1402,
+            "oi": 6
+          }
+        ]
+      },
+      {
+        "ticker": "TTWO",
+        "m": -6.6,
+        "call_vol": 3335,
+        "put_vol": 1538,
+        "put_call": 0.46,
+        "vol_vs_oi": 0.15,
+        "unusual": [
+          {
+            "side": "call",
+            "exp": "2026-11-13",
+            "strike": 190.0,
+            "volume": 1079,
+            "oi": 5
+          }
+        ]
+      },
+      {
+        "ticker": "ONON",
+        "m": 11.9,
+        "call_vol": 569,
+        "put_vol": 2751,
+        "put_call": 4.83,
+        "vol_vs_oi": 0.4,
+        "unusual": [
+          {
+            "side": "put",
+            "exp": "2026-11-06",
+            "strike": 32.5,
+            "volume": 1013,
+            "oi": 80
+          },
+          {
+            "side": "put",
+            "exp": "2026-11-06",
+            "strike": 33.5,
+            "volume": 1006,
+            "oi": 24
+          }
+        ]
+      },
+      {
+        "ticker": "UBER",
+        "m": -3.9,
+        "call_vol": 10398,
+        "put_vol": 9758,
+        "put_call": 0.94,
+        "vol_vs_oi": 0.15,
+        "unusual": [
+          {
+            "side": "put",
+            "exp": "2026-11-06",
+            "strike": 57.0,
+            "volume": 952,
+            "oi": 152
+          }
+        ]
+      },
+      {
+        "ticker": "ACN",
+        "m": 22.6,
+        "call_vol": 1627,
+        "put_vol": 1376,
+        "put_call": 0.85,
+        "vol_vs_oi": 0.52,
+        "unusual": [
+          {
+            "side": "put",
+            "exp": "2026-11-06",
+            "strike": 245.0,
+            "volume": 529,
+            "oi": 54
+          }
+        ]
+      },
+      {
+        "ticker": "SBUX",
+        "m": 9.3,
+        "call_vol": 3315,
+        "put_vol": 3599,
+        "put_call": 1.09,
+        "vol_vs_oi": 0.36,
+        "unusual": [
+          {
+            "side": "call",
+            "exp": "2026-11-06",
+            "strike": 103.0,
+            "volume": 510,
+            "oi": 107
+          }
+        ]
+      }
+    ],
+    "apps": []
+  },
+  "scorecard": {
+    "total_ideas": 18,
+    "windows": {}
+  },
+  "setup_scorecard": {
+    "momentum": {},
+    "vwap": {},
+    "wealth_builder": {}
+  },
+  "crypto": {
+    "btc_trend": "MIXED",
+    "coins": [
+      {
+        "name": "Bitcoin",
+        "ticker": "BTC-USD",
+        "last": 77325.39,
+        "w": -4.3,
+        "m": -8.9,
+        "q": 23.2,
+        "ytd": -11.6,
+        "above50": false,
+        "above200": true
+      },
+      {
+        "name": "Ethereum",
+        "ticker": "ETH-USD",
+        "last": 2246.75,
+        "w": -4.6,
+        "m": -17.0,
+        "q": 21.9,
+        "ytd": -24.3,
+        "above50": false,
+        "above200": true
+      },
+      {
+        "name": "XRP",
+        "ticker": "XRP-USD",
+        "last": 1.25,
+        "w": -4.1,
+        "m": -16.6,
+        "q": 17.5,
+        "ytd": -32.3,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "name": "Solana",
+        "ticker": "SOL-USD",
+        "last": 95.61,
+        "w": -6.5,
+        "m": -19.2,
+        "q": 33.0,
+        "ytd": -23.2,
+        "above50": false,
+        "above200": true
+      },
+      {
+        "name": "BNB",
+        "ticker": "BNB-USD",
+        "last": 702.41,
+        "w": -4.9,
+        "m": -8.9,
+        "q": 22.2,
+        "ytd": -18.6,
+        "above50": false,
+        "above200": true
+      },
+      {
+        "name": "Dogecoin",
+        "ticker": "DOGE-USD",
+        "last": 0.07527,
+        "w": -3.0,
+        "m": -20.2,
+        "q": 9.0,
+        "ytd": -35.8,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "name": "Cardano",
+        "ticker": "ADA-USD",
+        "last": 0.19207,
+        "w": -7.6,
+        "m": -22.0,
+        "q": 10.2,
+        "ytd": -42.3,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "name": "Chainlink",
+        "ticker": "LINK-USD",
+        "last": 11.56,
+        "w": -0.5,
+        "m": -19.6,
+        "q": 43.5,
+        "ytd": -5.1,
+        "above50": false,
+        "above200": true
+      },
+      {
+        "name": "Avalanche",
+        "ticker": "AVAX-USD",
+        "last": 8.47,
+        "w": -5.8,
+        "m": -23.0,
+        "q": 36.9,
+        "ytd": -31.2,
+        "above50": false,
+        "above200": true
+      },
+      {
+        "name": "Litecoin",
+        "ticker": "LTC-USD",
+        "last": 55.15,
+        "w": -3.2,
+        "m": -19.0,
+        "q": 24.8,
+        "ytd": -28.2,
+        "above50": false,
+        "above200": true
+      },
+      {
+        "name": "Shiba Inu",
+        "ticker": "SHIB-USD",
+        "last": 5e-06,
+        "w": -6.0,
+        "m": -21.7,
+        "q": -6.0,
+        "ytd": -32.9,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "name": "Pepe",
+        "ticker": "PEPE24478-USD",
+        "last": 5e-06,
+        "w": -0.8,
+        "m": 24.0,
+        "q": 65.3,
+        "ytd": 24.0,
+        "above50": true,
+        "above200": true
+      }
+    ],
+    "metals": [
+      {
+        "name": "Gold",
+        "ticker": "GC=F",
+        "last": 3898.9,
+        "w": -2.7,
+        "m": -6.9,
+        "q": -5.1,
+        "ytd": -10.2,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "name": "Silver",
+        "ticker": "SI=F",
+        "last": 49.1,
+        "w": -8.6,
+        "m": -18.3,
+        "q": -14.7,
+        "ytd": -30.0,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "name": "Platinum",
+        "ticker": "PL=F",
+        "last": 1438.0,
+        "w": -7.5,
+        "m": -15.5,
+        "q": -12.9,
+        "ytd": -29.3,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "name": "Palladium",
+        "ticker": "PA=F",
+        "last": 984.6,
+        "w": -5.9,
+        "m": -18.0,
+        "q": -22.8,
+        "ytd": -39.6,
+        "above50": false,
+        "above200": false
+      },
+      {
+        "name": "Copper",
+        "ticker": "HG=F",
+        "last": 6.46,
+        "w": -0.3,
+        "m": -1.5,
+        "q": 0.3,
+        "ytd": 14.7,
+        "above50": false,
+        "above200": true
+      }
+    ],
+    "related": {
+      "Crypto": [
+        {
+          "name": "IBIT",
+          "ticker": "IBIT",
+          "last": 43.36,
+          "w": -5.7,
+          "m": -8.4,
+          "q": 21.7,
+          "ytd": -12.7,
+          "above50": false,
+          "above200": true
+        },
+        {
+          "name": "ETHA",
+          "ticker": "ETHA",
+          "last": 50.42,
+          "w": -6.8,
+          "m": -16.5,
+          "q": 19.5,
+          "ytd": -25.1,
+          "above50": false,
+          "above200": true
+        },
+        {
+          "name": "COIN",
+          "ticker": "COIN",
+          "last": 143.54,
+          "w": -12.7,
+          "m": -23.0,
+          "q": -1.9,
+          "ytd": -36.5,
+          "above50": false,
+          "above200": false
+        },
+        {
+          "name": "MSTR",
+          "ticker": "MSTR",
+          "last": 130.51,
+          "w": -10.6,
+          "m": -14.7,
+          "q": 39.9,
+          "ytd": -14.1,
+          "above50": false,
+          "above200": false
+        },
+        {
+          "name": "HOOD",
+          "ticker": "HOOD",
+          "last": 84.99,
+          "w": -10.6,
+          "m": -24.5,
+          "q": -1.8,
+          "ytd": -24.9,
+          "above50": false,
+          "above200": false
+        },
+        {
+          "name": "MARA",
+          "ticker": "MARA",
+          "last": 6.77,
+          "w": -3.6,
+          "m": -40.2,
+          "q": -40.2,
+          "ytd": -24.6,
+          "above50": false,
+          "above200": false
+        },
+        {
+          "name": "RIOT",
+          "ticker": "RIOT",
+          "last": 12.81,
+          "w": 2.2,
+          "m": -36.4,
+          "q": -36.5,
+          "ytd": 1.1,
+          "above50": false,
+          "above200": false
+        }
+      ],
+      "Metals": [
+        {
+          "name": "GLD",
+          "ticker": "GLD",
+          "last": 355.78,
+          "w": -3.0,
+          "m": -6.6,
+          "q": -4.2,
+          "ytd": -10.2,
+          "above50": false,
+          "above200": false
+        },
+        {
+          "name": "SLV",
+          "ticker": "SLV",
+          "last": 44.6,
+          "w": -8.5,
+          "m": -18.2,
+          "q": -14.8,
+          "ytd": -30.8,
+          "above50": false,
+          "above200": false
+        },
+        {
+          "name": "GDX",
+          "ticker": "GDX",
+          "last": 77.09,
+          "w": -3.9,
+          "m": -12.2,
+          "q": 4.0,
+          "ytd": -10.1,
+          "above50": false,
+          "above200": false
+        },
+        {
+          "name": "GDXJ",
+          "ticker": "GDXJ",
+          "last": 94.97,
+          "w": -4.4,
+          "m": -16.7,
+          "q": -0.4,
+          "ytd": -16.5,
+          "above50": false,
+          "above200": false
+        },
+        {
+          "name": "NEM",
+          "ticker": "NEM",
+          "last": 106.61,
+          "w": -2.1,
+          "m": -7.6,
+          "q": 14.0,
+          "ytd": 7.5,
+          "above50": false,
+          "above200": false
+        },
+        {
+          "name": "AEM",
+          "ticker": "AEM",
+          "last": 165.38,
+          "w": -4.9,
+          "m": -9.8,
+          "q": 14.1,
+          "ytd": -1.8,
+          "above50": false,
+          "above200": false
+        },
+        {
+          "name": "WPM",
+          "ticker": "WPM",
+          "last": 116.58,
+          "w": -3.6,
+          "m": -12.8,
+          "q": 7.1,
+          "ytd": -0.4,
+          "above50": false,
+          "above200": false
+        },
+        {
+          "name": "PSLV",
+          "ticker": "PSLV",
+          "last": 16.02,
+          "w": -7.8,
+          "m": -17.3,
+          "q": -14.8,
+          "ytd": -32.3,
+          "above50": false,
+          "above200": false
+        }
+      ]
+    },
+    "gold_silver_ratio": {
+      "now": 79.4,
+      "avg_1y": 66.0
+    },
+    "fear_greed": {
+      "now": 30,
+      "label": "Fear",
+      "week_ago": 51,
+      "month_ago": 74
+    },
+    "trending": [
+      {
+        "name": "Super Inu",
+        "symbol": "SI",
+        "mcap_rank": 749,
+        "chg_24h": 83.59250851501412
+      },
+      {
+        "name": "Super Pepe",
+        "symbol": "SP",
+        "mcap_rank": 997,
+        "chg_24h": -15.73655078076819
+      },
+      {
+        "name": "Pudgy Penguins",
+        "symbol": "PENGU",
+        "mcap_rank": 113,
+        "chg_24h": 2.444321056202257
+      },
+      {
+        "name": "Bitcoin",
+        "symbol": "BTC",
+        "mcap_rank": 1,
+        "chg_24h": 0.98784057731919
+      },
+      {
+        "name": "Hyperliquid",
+        "symbol": "HYPE",
+        "mcap_rank": 11,
+        "chg_24h": -4.423793857284631
+      },
+      {
+        "name": "Lisk",
+        "symbol": "LSK",
+        "mcap_rank": 372,
+        "chg_24h": 35.65105237962204
+      },
+      {
+        "name": "Solana",
+        "symbol": "SOL",
+        "mcap_rank": 7,
+        "chg_24h": 1.3359762503653518
+      },
+      {
+        "name": "BNB",
+        "symbol": "BNB",
+        "mcap_rank": 4,
+        "chg_24h": 1.216876432047223
+      },
+      {
+        "name": "Lighter",
+        "symbol": "LIT",
+        "mcap_rank": 88,
+        "chg_24h": -3.071361421420042
+      },
+      {
+        "name": "Pearl",
+        "symbol": "PEARL",
+        "mcap_rank": 102,
+        "chg_24h": -5.911795526988396
+      },
+      {
+        "name": "Sui",
+        "symbol": "SUI",
+        "mcap_rank": 30,
+        "chg_24h": 1.9865818521492602
+      },
+      {
+        "name": "Ethereum",
+        "symbol": "ETH",
+        "mcap_rank": 2,
+        "chg_24h": 1.5236153266057282
+      },
+      {
+        "name": "Ethena",
+        "symbol": "ENA",
+        "mcap_rank": 40,
+        "chg_24h": 3.0503479408210508
+      },
+      {
+        "name": "Beam",
+        "symbol": "BEAM",
+        "mcap_rank": 149,
+        "chg_24h": -6.839648568778246
+      },
+      {
+        "name": "Chainlink",
+        "symbol": "LINK",
+        "mcap_rank": 15,
+        "chg_24h": 5.656769342000581
+      }
+    ],
+    "memes": [
+      {
+        "name": "Pepe",
+        "symbol": "PEPE",
+        "mcap_b": 2.1,
+        "vol_b": 0.76,
+        "chg_24h": -3.16206,
+        "chg_7d": 12.3182,
+        "chg_30d": 12.9479
+      },
+      {
+        "name": "Dogecoin",
+        "symbol": "DOGE",
+        "mcap_b": 11.79,
+        "vol_b": 0.43,
+        "chg_24h": 0.30741,
+        "chg_7d": -2.8511,
+        "chg_30d": -20.3052
+      },
+      {
+        "name": "Pump.fun",
+        "symbol": "PUMP",
+        "mcap_b": 1.91,
+        "vol_b": 0.12,
+        "chg_24h": 3.47525,
+        "chg_7d": -1.6352,
+        "chg_30d": -26.7468
+      },
+      {
+        "name": "Pudgy Penguins",
+        "symbol": "PENGU",
+        "mcap_b": 0.46,
+        "vol_b": 0.07,
+        "chg_24h": 1.94113,
+        "chg_7d": -4.8888,
+        "chg_30d": -23.7118
+      },
+      {
+        "name": "Official Trump",
+        "symbol": "TRUMP",
+        "mcap_b": 0.45,
+        "vol_b": 0.07,
+        "chg_24h": 1.73327,
+        "chg_7d": -6.0126,
+        "chg_30d": -23.3135
+      },
+      {
+        "name": "Shiba Inu",
+        "symbol": "SHIB",
+        "mcap_b": 2.77,
+        "vol_b": 0.05,
+        "chg_24h": -0.23288,
+        "chg_7d": -4.4489,
+        "chg_30d": -18.1621
+      },
+      {
+        "name": "dogwifhat",
+        "symbol": "WIF",
+        "mcap_b": 0.18,
+        "vol_b": 0.04,
+        "chg_24h": 2.09937,
+        "chg_7d": -4.6454,
+        "chg_30d": -29.3729
+      },
+      {
+        "name": "Moonbirds",
+        "symbol": "BIRB",
+        "mcap_b": 0.02,
+        "vol_b": 0.03,
+        "chg_24h": 7.48156,
+        "chg_7d": -32.3019,
+        "chg_30d": 27.9336
+      },
+      {
+        "name": "FLOKI",
+        "symbol": "FLOKI",
+        "mcap_b": 0.23,
+        "vol_b": 0.02,
+        "chg_24h": 0.73189,
+        "chg_7d": -0.1553,
+        "chg_30d": -14.969
+      },
+      {
+        "name": "Bonk",
+        "symbol": "BONK",
+        "mcap_b": 0.26,
+        "vol_b": 0.02,
+        "chg_24h": 0.04437,
+        "chg_7d": -4.7071,
+        "chg_30d": -21.8236
+      },
+      {
+        "name": "Fartcoin",
+        "symbol": "FARTCOIN",
+        "mcap_b": 0.12,
+        "vol_b": 0.02,
+        "chg_24h": 2.73262,
+        "chg_7d": -8.4274,
+        "chg_30d": -30.4208
+      },
+      {
+        "name": "Ape and Pepe",
+        "symbol": "APEPE",
+        "mcap_b": 0.25,
+        "vol_b": 0.02,
+        "chg_24h": -0.53135,
+        "chg_7d": 1.1313,
+        "chg_30d": -7.1596
+      },
+      {
+        "name": "MarsCoin",
+        "symbol": "MARSCOIN",
+        "mcap_b": 0.05,
+        "vol_b": 0.01,
+        "chg_24h": 3.21095,
+        "chg_7d": -22.2709,
+        "chg_30d": -61.3461
+      },
+      {
+        "name": "Useless Coin",
+        "symbol": "USELESS",
+        "mcap_b": 0.12,
+        "vol_b": 0.01,
+        "chg_24h": -6.44057,
+        "chg_7d": -20.7161,
+        "chg_30d": -45.3319
+      },
+      {
+        "name": "Giggle Fund",
+        "symbol": "GIGGLE",
+        "mcap_b": 0.03,
+        "vol_b": 0.01,
+        "chg_24h": 2.02624,
+        "chg_7d": -5.7507,
+        "chg_30d": -22.8338
+      }
+    ],
+    "reddit": [
+      {
+        "ticker": "BTC.X",
+        "name": "Bitcoin",
+        "mentions": 1,
+        "mentions_24h_ago": 0
+      },
+      {
+        "ticker": "XRP.X",
+        "name": "XRP",
+        "mentions": 1,
+        "mentions_24h_ago": 0
+      },
+      {
+        "ticker": "LINK.X",
+        "name": "Chainlink",
+        "mentions": 1,
+        "mentions_24h_ago": 0
+      },
+      {
+        "ticker": "XMR.X",
+        "name": "Monero",
+        "mentions": 1,
+        "mentions_24h_ago": 0
+      },
+      {
+        "ticker": "ID.X",
+        "name": "Everest",
+        "mentions": 1,
+        "mentions_24h_ago": 0
+      }
+    ],
+    "reddit_rising": [],
+    "errors": []
+  },
+  "setups": {
+    "rules": {
+      "band": 0.02,
+      "side": "any",
+      "monthly_sma": 20,
+      "weekly_sma": 200
+    },
+    "all_three": [
+      {
+        "ticker": "ADBE",
+        "price": 250.23,
+        "yearly_vwap": 250.42,
+        "vs_vwap": -0.1,
+        "on_vwap": true,
+        "monthly_sma": 309.02,
+        "vs_monthly_sma": -19.0,
+        "under_monthly": true,
+        "weekly_sma": 411.6,
+        "vs_weekly_sma": -39.2,
+        "under_weekly": true,
+        "hits": 3,
+        "m": 3.7
+      },
+      {
+        "ticker": "HD",
+        "price": 329.2,
+        "yearly_vwap": 329.43,
+        "vs_vwap": -0.1,
+        "on_vwap": true,
+        "monthly_sma": 346.07,
+        "vs_monthly_sma": -4.9,
+        "under_monthly": true,
+        "weekly_sma": 332.79,
+        "vs_weekly_sma": -1.1,
+        "under_weekly": true,
+        "hits": 3,
+        "m": 16.5
+      },
+      {
+        "ticker": "MAT",
+        "price": 15.42,
+        "yearly_vwap": 15.6,
+        "vs_vwap": -1.1,
+        "on_vwap": true,
+        "monthly_sma": 16.99,
+        "vs_monthly_sma": -9.3,
+        "under_monthly": true,
+        "weekly_sma": 18.22,
+        "vs_weekly_sma": -15.4,
+        "under_weekly": true,
+        "hits": 3,
+        "m": 2.5
+      },
+      {
+        "ticker": "SMCI",
+        "price": 32.95,
+        "yearly_vwap": 32.58,
+        "vs_vwap": 1.1,
+        "on_vwap": true,
+        "monthly_sma": 37.27,
+        "vs_monthly_sma": -11.6,
+        "under_monthly": true,
+        "weekly_sma": 39.62,
+        "vs_weekly_sma": -16.8,
+        "under_weekly": true,
+        "hits": 3,
+        "m": -21.4
+      },
+      {
+        "ticker": "NTDOY",
+        "price": 13.1,
+        "yearly_vwap": 12.88,
+        "vs_vwap": 1.7,
+        "on_vwap": true,
+        "monthly_sma": 16.78,
+        "vs_monthly_sma": -21.9,
+        "under_monthly": true,
+        "weekly_sma": 14.3,
+        "vs_weekly_sma": -8.4,
+        "under_weekly": true,
+        "hits": 3,
+        "m": 5.2
+      }
+    ],
+    "two_of_three": [
+      {
+        "ticker": "SHW",
+        "price": 332.61,
+        "yearly_vwap": 331.4,
+        "vs_vwap": 0.4,
+        "on_vwap": true,
+        "monthly_sma": 337.82,
+        "vs_monthly_sma": -1.5,
+        "under_monthly": true,
+        "weekly_sma": 311.62,
+        "vs_weekly_sma": 6.7,
+        "under_weekly": false,
+        "hits": 2,
+        "m": 3.7
+      },
+      {
+        "ticker": "ISRG",
+        "price": 432.01,
+        "yearly_vwap": 429.7,
+        "vs_vwap": 0.5,
+        "on_vwap": true,
+        "monthly_sma": 475.0,
+        "vs_monthly_sma": -9.1,
+        "under_monthly": true,
+        "weekly_sma": 423.09,
+        "vs_weekly_sma": 2.1,
+        "under_weekly": false,
+        "hits": 2,
+        "m": 7.7
+      },
+      {
+        "ticker": "AZO",
+        "price": 3169.82,
+        "yearly_vwap": 3193.52,
+        "vs_vwap": -0.7,
+        "on_vwap": true,
+        "monthly_sma": 3548.91,
+        "vs_monthly_sma": -10.7,
+        "under_monthly": true,
+        "weekly_sma": 3127.44,
+        "vs_weekly_sma": 1.4,
+        "under_weekly": false,
+        "hits": 2,
+        "m": 12.4
+      },
+      {
+        "ticker": "ETHA",
+        "price": 50.42,
+        "yearly_vwap": 51.06,
+        "vs_vwap": -1.3,
+        "on_vwap": true,
+        "monthly_sma": 59.65,
+        "vs_monthly_sma": -15.5,
+        "under_monthly": true,
+        "weekly_sma": null,
+        "vs_weekly_sma": null,
+        "under_weekly": false,
+        "hits": 2,
+        "m": -17.5
+      },
+      {
+        "ticker": "DASH",
+        "price": 178.99,
+        "yearly_vwap": 182.49,
+        "vs_vwap": -1.9,
+        "on_vwap": true,
+        "monthly_sma": 205.58,
+        "vs_monthly_sma": -12.9,
+        "under_monthly": true,
+        "weekly_sma": 150.56,
+        "vs_weekly_sma": 18.9,
+        "under_weekly": false,
+        "hits": 2,
+        "m": -1.7
+      },
+      {
+        "ticker": "BX",
+        "price": 118.51,
+        "yearly_vwap": 120.93,
+        "vs_vwap": -2.0,
+        "on_vwap": false,
+        "monthly_sma": 133.9,
+        "vs_monthly_sma": -11.5,
+        "under_monthly": true,
+        "weekly_sma": 122.91,
+        "vs_weekly_sma": -3.6,
+        "under_weekly": true,
+        "hits": 2,
+        "m": 5.6
+      },
+      {
+        "ticker": "MSTR",
+        "price": 130.51,
+        "yearly_vwap": 134.44,
+        "vs_vwap": -2.9,
+        "on_vwap": false,
+        "monthly_sma": 221.2,
+        "vs_monthly_sma": -41.0,
+        "under_monthly": true,
+        "weekly_sma": 167.17,
+        "vs_weekly_sma": -21.9,
+        "under_weekly": true,
+        "hits": 2,
+        "m": -18.7
+      },
+      {
+        "ticker": "STZ",
+        "price": 135.33,
+        "yearly_vwap": 139.34,
+        "vs_vwap": -2.9,
+        "on_vwap": false,
+        "monthly_sma": 145.54,
+        "vs_monthly_sma": -7.0,
+        "under_monthly": true,
+        "weekly_sma": 190.27,
+        "vs_weekly_sma": -28.9,
+        "under_weekly": true,
+        "hits": 2,
+        "m": 20.7
+      },
+      {
+        "ticker": "PEP",
+        "price": 137.34,
+        "yearly_vwap": 142.45,
+        "vs_vwap": -3.6,
+        "on_vwap": false,
+        "monthly_sma": 139.29,
+        "vs_monthly_sma": -1.4,
+        "under_monthly": true,
+        "weekly_sma": 148.32,
+        "vs_weekly_sma": -7.4,
+        "under_weekly": true,
+        "hits": 2,
+        "m": 9.3
+      },
+      {
+        "ticker": "INTU",
+        "price": 341.09,
+        "yearly_vwap": 355.49,
+        "vs_vwap": -4.0,
+        "on_vwap": false,
+        "monthly_sma": 517.82,
+        "vs_monthly_sma": -34.1,
+        "under_monthly": true,
+        "weekly_sma": 534.08,
+        "vs_weekly_sma": -36.1,
+        "under_weekly": true,
+        "hits": 2,
+        "m": 21.2
+      },
+      {
+        "ticker": "KKR",
+        "price": 94.39,
+        "yearly_vwap": 98.81,
+        "vs_vwap": -4.5,
+        "on_vwap": false,
+        "monthly_sma": 111.98,
+        "vs_monthly_sma": -15.7,
+        "under_monthly": true,
+        "weekly_sma": 100.14,
+        "vs_weekly_sma": -5.7,
+        "under_weekly": true,
+        "hits": 2,
+        "m": 3.5
+      },
+      {
+        "ticker": "ONON",
+        "price": 33.78,
+        "yearly_vwap": 35.56,
+        "vs_vwap": -5.0,
+        "on_vwap": false,
+        "monthly_sma": 41.64,
+        "vs_monthly_sma": -18.9,
+        "under_monthly": true,
+        "weekly_sma": 38.74,
+        "vs_weekly_sma": -12.8,
+        "under_weekly": true,
+        "hits": 2,
+        "m": 11.9
+      },
+      {
+        "ticker": "GIS",
+        "price": 34.29,
+        "yearly_vwap": 36.17,
+        "vs_vwap": -5.2,
+        "on_vwap": false,
+        "monthly_sma": 41.76,
+        "vs_monthly_sma": -17.9,
+        "under_monthly": true,
+        "weekly_sma": 52.9,
+        "vs_weekly_sma": -35.2,
+        "under_weekly": true,
+        "hits": 2,
+        "m": 10.3
+      },
+      {
+        "ticker": "NOW",
+        "price": 105.12,
+        "yearly_vwap": 111.94,
+        "vs_vwap": -6.1,
+        "on_vwap": false,
+        "monthly_sma": 147.68,
+        "vs_monthly_sma": -28.8,
+        "under_monthly": true,
+        "weekly_sma": 144.8,
+        "vs_weekly_sma": -27.4,
+        "under_weekly": true,
+        "hits": 2,
+        "m": -23.7
+      },
+      {
+        "ticker": "ABT",
+        "price": 106.2,
+        "yearly_vwap": 99.9,
+        "vs_vwap": 6.3,
+        "on_vwap": false,
+        "monthly_sma": 113.49,
+        "vs_monthly_sma": -6.4,
+        "under_monthly": true,
+        "weekly_sma": 107.81,
+        "vs_weekly_sma": -1.5,
+        "under_weekly": true,
+        "hits": 2,
+        "m": 10.5
+      }
+    ],
+    "scanned": 291
+  },
+  "wealth_builder": {
+    "full": [
+      {
+        "ticker": "PINS",
+        "name": "Pinterest, Inc.",
+        "price": 19.36,
+        "under_monthly": true,
+        "vs_monthly": -25.3,
+        "under_weekly": true,
+        "vs_weekly": -33.8,
+        "daily_20_rising_above_200": true,
+        "money_score": 6,
+        "missing": [],
+        "mcap_b": 11,
+        "cash_b": 1.5,
+        "debt_b": 1.2,
+        "fcf_b": 1.2,
+        "rev_growth": 11.9,
+        "analyst": 2.05263,
+        "on_watch": false,
+        "m": -0.5
+      },
+      {
+        "ticker": "KMB",
+        "name": "Kimberly-Clark Corporation",
+        "price": 107.94,
+        "under_monthly": true,
+        "vs_monthly": -1.9,
+        "under_weekly": true,
+        "vs_weekly": -5.7,
+        "daily_20_rising_above_200": true,
+        "money_score": 5,
+        "missing": [
+          "net cash or little debt"
+        ],
+        "mcap_b": 36,
+        "cash_b": 1.0,
+        "debt_b": 6.5,
+        "fcf_b": 0.9,
+        "rev_growth": 0.6,
+        "analyst": 2.47059,
+        "on_watch": false,
+        "m": 14.4
+      },
+      {
+        "ticker": "NOW",
+        "name": "ServiceNow, Inc.",
+        "price": 105.12,
+        "under_monthly": true,
+        "vs_monthly": -28.8,
+        "under_weekly": true,
+        "vs_weekly": -27.4,
+        "daily_20_rising_above_200": true,
+        "money_score": 5,
+        "missing": [
+          "net cash or little debt"
+        ],
+        "mcap_b": 109,
+        "cash_b": 4.6,
+        "debt_b": 8.4,
+        "fcf_b": 5.8,
+        "rev_growth": 20.5,
+        "analyst": 1.44898,
+        "on_watch": false,
+        "m": -23.7
+      },
+      {
+        "ticker": "PYPL",
+        "name": "PayPal Holdings, Inc.",
+        "price": 57.01,
+        "under_monthly": true,
+        "vs_monthly": -2.1,
+        "under_weekly": true,
+        "vs_weekly": -11.0,
+        "daily_20_rising_above_200": true,
+        "money_score": 4,
+        "missing": [
+          "net cash or little debt",
+          "analysts like it"
+        ],
+        "mcap_b": 47,
+        "cash_b": 10.3,
+        "debt_b": 14.3,
+        "fcf_b": 4.5,
+        "rev_growth": 2.0,
+        "analyst": 2.93023,
+        "on_watch": true,
+        "m": 7.4
+      },
+      {
+        "ticker": "ABT",
+        "name": "Abbott Laboratories",
+        "price": 106.2,
+        "under_monthly": true,
+        "vs_monthly": -6.4,
+        "under_weekly": true,
+        "vs_weekly": -1.5,
+        "daily_20_rising_above_200": true,
+        "money_score": 4,
+        "missing": [
+          "net cash or little debt",
+          "free cash flow positive"
+        ],
+        "mcap_b": 184,
+        "cash_b": 5.6,
+        "debt_b": 32.7,
+        "fcf_b": 0.0,
+        "rev_growth": 14.5,
+        "analyst": 1.53571,
+        "on_watch": false,
+        "m": 10.5
+      },
+      {
+        "ticker": "ONON",
+        "name": "On Holding AG",
+        "price": 33.78,
+        "under_monthly": true,
+        "vs_monthly": -18.9,
+        "under_weekly": true,
+        "vs_weekly": -12.8,
+        "daily_20_rising_above_200": false,
+        "money_score": 6,
+        "missing": [],
+        "mcap_b": 11,
+        "cash_b": 1.2,
+        "debt_b": 0.6,
+        "fcf_b": 0.3,
+        "rev_growth": 13.5,
+        "analyst": 1.70968,
+        "on_watch": false,
+        "m": 11.9
+      },
+      {
+        "ticker": "RBLX",
+        "name": "Roblox Corporation",
+        "price": 42.99,
+        "under_monthly": true,
+        "vs_monthly": -43.4,
+        "under_weekly": true,
+        "vs_weekly": -23.7,
+        "daily_20_rising_above_200": false,
+        "money_score": 6,
+        "missing": [],
+        "mcap_b": 31,
+        "cash_b": 3.2,
+        "debt_b": 1.9,
+        "fcf_b": 1.7,
+        "rev_growth": 15.6,
+        "analyst": 2.31429,
+        "on_watch": false,
+        "m": -0.0
+      },
+      {
+        "ticker": "SYM",
+        "name": "Symbotic Inc.",
+        "price": 37.93,
+        "under_monthly": true,
+        "vs_monthly": -21.3,
+        "under_weekly": true,
+        "vs_weekly": -3.8,
+        "daily_20_rising_above_200": false,
+        "money_score": 6,
+        "missing": [],
+        "mcap_b": 23,
+        "cash_b": 1.7,
+        "debt_b": 0.0,
+        "fcf_b": 0.5,
+        "rev_growth": 21.7,
+        "analyst": 2.22222,
+        "on_watch": false,
+        "m": -12.1
+      },
+      {
+        "ticker": "NFLX",
+        "name": "Netflix, Inc.",
+        "price": 62.08,
+        "under_monthly": true,
+        "vs_monthly": -36.1,
+        "under_weekly": true,
+        "vs_weekly": -16.2,
+        "daily_20_rising_above_200": false,
+        "money_score": 5,
+        "missing": [
+          "net cash or little debt"
+        ],
+        "mcap_b": 258,
+        "cash_b": 8.2,
+        "debt_b": 17.5,
+        "fcf_b": 25.5,
+        "rev_growth": 11.8,
+        "analyst": 1.92157,
+        "on_watch": true,
+        "m": -8.5
+      },
+      {
+        "ticker": "UBER",
+        "name": "Uber Technologies, Inc.",
+        "price": 65.25,
+        "under_monthly": true,
+        "vs_monthly": -18.5,
+        "under_weekly": true,
+        "vs_weekly": -3.3,
+        "daily_20_rising_above_200": false,
+        "money_score": 5,
+        "missing": [
+          "net cash or little debt"
+        ],
+        "mcap_b": 133,
+        "cash_b": 5.4,
+        "debt_b": 14.7,
+        "fcf_b": 7.2,
+        "rev_growth": 12.2,
+        "analyst": 1.58,
+        "on_watch": true,
+        "m": -3.9
+      },
+      {
+        "ticker": "COIN",
+        "name": "Coinbase Global, Inc.",
+        "price": 143.54,
+        "under_monthly": true,
+        "vs_monthly": -37.1,
+        "under_weekly": true,
+        "vs_weekly": -24.2,
+        "daily_20_rising_above_200": false,
+        "money_score": 5,
+        "missing": [
+          "revenue growing"
+        ],
+        "mcap_b": 38,
+        "cash_b": 8.8,
+        "debt_b": 6.9,
+        "fcf_b": 3.7,
+        "rev_growth": -34.2,
+        "analyst": 1.97368,
+        "on_watch": true,
+        "m": -24.2
+      },
+      {
+        "ticker": "BA",
+        "name": "Boeing Company (The)",
+        "price": 171.55,
+        "under_monthly": true,
+        "vs_monthly": -17.7,
+        "under_weekly": true,
+        "vs_weekly": -14.6,
+        "daily_20_rising_above_200": false,
+        "money_score": 5,
+        "missing": [
+          "net cash or little debt"
+        ],
+        "mcap_b": 136,
+        "cash_b": 20.7,
+        "debt_b": 48.5,
+        "fcf_b": 4.7,
+        "rev_growth": 3.9,
+        "analyst": 1.42857,
+        "on_watch": false,
+        "m": -10.8
+      },
+      {
+        "ticker": "BKNG",
+        "name": "Booking Holdings Inc. Common St",
+        "price": 148.13,
+        "under_monthly": true,
+        "vs_monthly": -22.9,
+        "under_weekly": true,
+        "vs_weekly": -8.2,
+        "daily_20_rising_above_200": false,
+        "money_score": 5,
+        "missing": [
+          "net cash or little debt"
+        ],
+        "mcap_b": 111,
+        "cash_b": 17.2,
+        "debt_b": 20.9,
+        "fcf_b": 7.7,
+        "rev_growth": 8.1,
+        "analyst": 1.54054,
+        "on_watch": false,
+        "m": -7.6
+      },
+      {
+        "ticker": "CARR",
+        "name": "Carrier Global Corporation",
+        "price": 53.63,
+        "under_monthly": true,
+        "vs_monthly": -12.6,
+        "under_weekly": true,
+        "vs_weekly": -8.5,
+        "daily_20_rising_above_200": false,
+        "money_score": 5,
+        "missing": [
+          "net cash or little debt"
+        ],
+        "mcap_b": 44,
+        "cash_b": 1.4,
+        "debt_b": 11.9,
+        "fcf_b": 1.9,
+        "rev_growth": 12.3,
+        "analyst": 2.07692,
+        "on_watch": false,
+        "m": -2.5
+      },
+      {
+        "ticker": "CMG",
+        "name": "Chipotle Mexican Grill, Inc.",
+        "price": 31.89,
+        "under_monthly": true,
+        "vs_monthly": -18.4,
+        "under_weekly": true,
+        "vs_weekly": -28.3,
+        "daily_20_rising_above_200": false,
+        "money_score": 5,
+        "missing": [
+          "net cash or little debt"
+        ],
+        "mcap_b": 40,
+        "cash_b": 0.9,
+        "debt_b": 5.6,
+        "fcf_b": 1.2,
+        "rev_growth": 9.6,
+        "analyst": 1.8,
+        "on_watch": false,
+        "m": -1.3
+      },
+      {
+        "ticker": "DECK",
+        "name": "Deckers Outdoor Corporation",
+        "price": 81.99,
+        "under_monthly": true,
+        "vs_monthly": -19.1,
+        "under_weekly": true,
+        "vs_weekly": -29.3,
+        "daily_20_rising_above_200": false,
+        "money_score": 5,
+        "missing": [
+          "analysts like it"
+        ],
+        "mcap_b": 11,
+        "cash_b": 1.2,
+        "debt_b": 0.5,
+        "fcf_b": 0.8,
+        "rev_growth": 3.5,
+        "analyst": 2.55556,
+        "on_watch": false,
+        "m": 3.0
+      },
+      {
+        "ticker": "HD",
+        "name": "Home Depot, Inc. (The)",
+        "price": 329.2,
+        "under_monthly": true,
+        "vs_monthly": -4.9,
+        "under_weekly": true,
+        "vs_weekly": -1.1,
+        "daily_20_rising_above_200": false,
+        "money_score": 5,
+        "missing": [
+          "net cash or little debt"
+        ],
+        "mcap_b": 328,
+        "cash_b": 2.1,
+        "debt_b": 63.2,
+        "fcf_b": 10.8,
+        "rev_growth": 5.7,
+        "analyst": 1.88889,
+        "on_watch": false,
+        "m": 16.5
+      },
+      {
+        "ticker": "INTU",
+        "name": "Intuit Inc.",
+        "price": 341.09,
+        "under_monthly": true,
+        "vs_monthly": -34.1,
+        "under_weekly": true,
+        "vs_weekly": -36.1,
+        "daily_20_rising_above_200": false,
+        "money_score": 5,
+        "missing": [
+          "net cash or little debt"
+        ],
+        "mcap_b": 91,
+        "cash_b": 7.2,
+        "debt_b": 8.4,
+        "fcf_b": 6.4,
+        "rev_growth": 13.7,
+        "analyst": 2.05882,
+        "on_watch": false,
+        "m": 21.2
+      },
+      {
+        "ticker": "LOW",
+        "name": "Lowe's Companies, Inc.",
+        "price": 209.07,
+        "under_monthly": true,
+        "vs_monthly": -7.4,
+        "under_weekly": true,
+        "vs_weekly": -5.2,
+        "daily_20_rising_above_200": false,
+        "money_score": 5,
+        "missing": [
+          "net cash or little debt"
+        ],
+        "mcap_b": 117,
+        "cash_b": 3.2,
+        "debt_b": 42.0,
+        "fcf_b": 4.6,
+        "rev_growth": 8.3,
+        "analyst": 1.74286,
+        "on_watch": false,
+        "m": 15.4
+      },
+      {
+        "ticker": "MCD",
+        "name": "McDonald's Corporation",
+        "price": 258.12,
+        "under_monthly": true,
+        "vs_monthly": -10.7,
+        "under_weekly": true,
+        "vs_weekly": -6.2,
+        "daily_20_rising_above_200": false,
+        "money_score": 5,
+        "missing": [
+          "net cash or little debt"
+        ],
+        "mcap_b": 183,
+        "cash_b": 0.8,
+        "debt_b": 54.6,
+        "fcf_b": 6.3,
+        "rev_growth": 3.7,
+        "analyst": 2.05882,
+        "on_watch": false,
+        "m": 11.3
+      },
+      {
+        "ticker": "PDD",
+        "name": "PDD Holdings Inc.",
+        "price": 78.61,
+        "under_monthly": true,
+        "vs_monthly": -23.4,
+        "under_weekly": true,
+        "vs_weekly": -26.6,
+        "daily_20_rising_above_200": false,
+        "money_score": 5,
+        "missing": [
+          "big institutions own it"
+        ],
+        "mcap_b": 112,
+        "cash_b": 456.4,
+        "debt_b": 4.8,
+        "fcf_b": 74.6,
+        "rev_growth": 8.1,
+        "analyst": 2.0,
+        "on_watch": false,
+        "m": 2.8
+      },
+      {
+        "ticker": "STZ",
+        "name": "Constellation Brands, Inc.",
+        "price": 135.33,
+        "under_monthly": true,
+        "vs_monthly": -7.0,
+        "under_weekly": true,
+        "vs_weekly": -28.9,
+        "daily_20_rising_above_200": false,
+        "money_score": 5,
+        "missing": [
+          "net cash or little debt"
+        ],
+        "mcap_b": 23,
+        "cash_b": 0.1,
+        "debt_b": 10.3,
+        "fcf_b": 1.1,
+        "rev_growth": 6.1,
+        "analyst": 2.04167,
+        "on_watch": false,
+        "m": 20.7
+      },
+      {
+        "ticker": "SYK",
+        "name": "Stryker Corporation",
+        "price": 291.86,
+        "under_monthly": true,
+        "vs_monthly": -15.8,
+        "under_weekly": true,
+        "vs_weekly": -10.7,
+        "daily_20_rising_above_200": false,
+        "money_score": 5,
+        "missing": [
+          "net cash or little debt"
+        ],
+        "mcap_b": 111,
+        "cash_b": 3.3,
+        "debt_b": 14.2,
+        "fcf_b": 4.7,
+        "rev_growth": 7.6,
+        "analyst": 1.73333,
+        "on_watch": false,
+        "m": 6.9
+      },
+      {
+        "ticker": "VICI",
+        "name": "VICI Properties Inc.",
+        "price": 24.46,
+        "under_monthly": true,
+        "vs_monthly": -11.5,
+        "under_weekly": true,
+        "vs_weekly": -8.9,
+        "daily_20_rising_above_200": false,
+        "money_score": 5,
+        "missing": [
+          "net cash or little debt"
+        ],
+        "mcap_b": 27,
+        "cash_b": 0.3,
+        "debt_b": 17.8,
+        "fcf_b": 0.4,
+        "rev_growth": 5.8,
+        "analyst": 1.88,
+        "on_watch": false,
+        "m": 7.6
+      },
+      {
+        "ticker": "ADBE",
+        "name": "Adobe Inc.",
+        "price": 250.23,
+        "under_monthly": true,
+        "vs_monthly": -19.0,
+        "under_weekly": true,
+        "vs_weekly": -39.2,
+        "daily_20_rising_above_200": false,
+        "money_score": 4,
+        "missing": [
+          "net cash or little debt",
+          "analysts like it"
+        ],
+        "mcap_b": 97,
+        "cash_b": 5.6,
+        "debt_b": 6.8,
+        "fcf_b": 9.3,
+        "rev_growth": 12.9,
+        "analyst": 2.92308,
+        "on_watch": true,
+        "m": 3.7
+      },
+      {
+        "ticker": "BSX",
+        "name": "Boston Scientific Corporation",
+        "price": 41.98,
+        "under_monthly": true,
+        "vs_monthly": -47.0,
+        "under_weekly": true,
+        "vs_weekly": -41.9,
+        "daily_20_rising_above_200": false,
+        "money_score": 4,
+        "missing": [
+          "net cash or little debt",
+          "free cash flow positive"
+        ],
+        "mcap_b": 61,
+        "cash_b": 0.5,
+        "debt_b": 12.6,
+        "fcf_b": 0.0,
+        "rev_growth": 1.4,
+        "analyst": 1.90323,
+        "on_watch": false,
+        "m": -2.9
+      },
+      {
+        "ticker": "HSY",
+        "name": "The Hershey Company",
+        "price": 165.61,
+        "under_monthly": true,
+        "vs_monthly": -6.8,
+        "under_weekly": true,
+        "vs_weekly": -10.2,
+        "daily_20_rising_above_200": false,
+        "money_score": 4,
+        "missing": [
+          "net cash or little debt",
+          "analysts like it"
+        ],
+        "mcap_b": 33,
+        "cash_b": 0.7,
+        "debt_b": 5.4,
+        "fcf_b": 1.7,
+        "rev_growth": 3.0,
+        "analyst": 2.56522,
+        "on_watch": false,
+        "m": 4.0
+      },
+      {
+        "ticker": "KKR",
+        "name": "KKR & Co. Inc.",
+        "price": 94.39,
+        "under_monthly": true,
+        "vs_monthly": -15.7,
+        "under_weekly": true,
+        "vs_weekly": -5.7,
+        "daily_20_rising_above_200": false,
+        "money_score": 4,
+        "missing": [
+          "net cash or little debt",
+          "free cash flow positive"
+        ],
+        "mcap_b": 87,
+        "cash_b": 47.6,
+        "debt_b": 56.2,
+        "fcf_b": 0.0,
+        "rev_growth": 7.8,
+        "analyst": 1.6087,
+        "on_watch": false,
+        "m": 3.5
+      },
+      {
+        "ticker": "PEP",
+        "name": "Pepsico, Inc.",
+        "price": 137.34,
+        "under_monthly": true,
+        "vs_monthly": -1.4,
+        "under_weekly": true,
+        "vs_weekly": -7.4,
+        "daily_20_rising_above_200": false,
+        "money_score": 4,
+        "missing": [
+          "net cash or little debt",
+          "analysts like it"
+        ],
+        "mcap_b": 187,
+        "cash_b": 11.2,
+        "debt_b": 51.9,
+        "fcf_b": 9.0,
+        "rev_growth": 5.6,
+        "analyst": 2.66667,
+        "on_watch": false,
+        "m": 9.3
+      },
+      {
+        "ticker": "TMUS",
+        "name": "T-Mobile US, Inc.",
+        "price": 156.44,
+        "under_monthly": true,
+        "vs_monthly": -24.2,
+        "under_weekly": true,
+        "vs_weekly": -14.5,
+        "daily_20_rising_above_200": false,
+        "money_score": 4,
+        "missing": [
+          "net cash or little debt",
+          "big institutions own it"
+        ],
+        "mcap_b": 166,
+        "cash_b": 5.6,
+        "debt_b": 119.0,
+        "fcf_b": 16.4,
+        "rev_growth": 7.4,
+        "analyst": 1.60714,
+        "on_watch": false,
+        "m": -3.3
+      },
+      {
+        "ticker": "XYL",
+        "name": "Xylem Inc.",
+        "price": 92.4,
+        "under_monthly": true,
+        "vs_monthly": -25.6,
+        "under_weekly": true,
+        "vs_weekly": -21.8,
+        "daily_20_rising_above_200": false,
+        "money_score": 4,
+        "missing": [
+          "net cash or little debt",
+          "revenue growing"
+        ],
+        "mcap_b": 21,
+        "cash_b": 0.7,
+        "debt_b": 3.0,
+        "fcf_b": 1.2,
+        "rev_growth": -3.0,
+        "analyst": 1.95238,
+        "on_watch": false,
+        "m": -8.4
+      }
+    ],
+    "one_timeframe": [
+      {
+        "ticker": "DASH",
+        "name": "DoorDash, Inc.",
+        "price": 178.99,
+        "under_monthly": true,
+        "vs_monthly": -12.9,
+        "under_weekly": false,
+        "vs_weekly": 18.9,
+        "daily_20_rising_above_200": false,
+        "money_score": 6,
+        "missing": [],
+        "mcap_b": 78,
+        "cash_b": 6.0,
+        "debt_b": 3.3,
+        "fcf_b": 6.4,
+        "rev_growth": 34.0,
+        "analyst": 1.59524,
+        "on_watch": false,
+        "m": -1.7
+      },
+      {
+        "ticker": "ISRG",
+        "name": "Intuitive Surgical, Inc.",
+        "price": 432.01,
+        "under_monthly": true,
+        "vs_monthly": -9.1,
+        "under_weekly": false,
+        "vs_weekly": 2.1,
+        "daily_20_rising_above_200": false,
+        "money_score": 6,
+        "missing": [],
+        "mcap_b": 153,
+        "cash_b": 4.0,
+        "debt_b": 0.0,
+        "fcf_b": 3.4,
+        "rev_growth": 21.7,
+        "analyst": 1.76471,
+        "on_watch": false,
+        "m": 7.7
+      },
+      {
+        "ticker": "RDDT",
+        "name": "Reddit, Inc.",
+        "price": 91.73,
+        "under_monthly": true,
+        "vs_monthly": -43.3,
+        "under_weekly": false,
+        "vs_weekly": null,
+        "daily_20_rising_above_200": false,
+        "money_score": 6,
+        "missing": [],
+        "mcap_b": 18,
+        "cash_b": 3.0,
+        "debt_b": 0.0,
+        "fcf_b": 0.8,
+        "rev_growth": 53.0,
+        "analyst": 1.94118,
+        "on_watch": false,
+        "m": -38.7
+      },
+      {
+        "ticker": "META",
+        "name": "Meta Platforms, Inc.",
+        "price": 614.99,
+        "under_monthly": true,
+        "vs_monthly": -4.6,
+        "under_weekly": false,
+        "vs_weekly": 20.6,
+        "daily_20_rising_above_200": false,
+        "money_score": 5,
+        "missing": [
+          "net cash or little debt"
+        ],
+        "mcap_b": 1572,
+        "cash_b": 82.4,
+        "debt_b": 114.8,
+        "fcf_b": 16.8,
+        "rev_growth": 26.1,
+        "analyst": 1.40323,
+        "on_watch": true,
+        "m": -15.3
+      },
+      {
+        "ticker": "CRM",
+        "name": "Salesforce, Inc.",
+        "price": 229.17,
+        "under_monthly": false,
+        "vs_monthly": 0.3,
+        "under_weekly": true,
+        "vs_weekly": -3.8,
+        "daily_20_rising_above_200": true,
+        "money_score": 5,
+        "missing": [
+          "net cash or little debt"
+        ],
+        "mcap_b": 189,
+        "cash_b": 11.4,
+        "debt_b": 42.4,
+        "fcf_b": 17.7,
+        "rev_growth": 10.8,
+        "analyst": 1.69643,
+        "on_watch": true,
+        "m": -3.2
+      },
+      {
+        "ticker": "HOOD",
+        "name": "Robinhood Markets, Inc.",
+        "price": 84.99,
+        "under_monthly": true,
+        "vs_monthly": -10.1,
+        "under_weekly": false,
+        "vs_weekly": 65.5,
+        "daily_20_rising_above_200": false,
+        "money_score": 5,
+        "missing": [
+          "free cash flow positive"
+        ],
+        "mcap_b": 77,
+        "cash_b": 24.8,
+        "debt_b": 22.6,
+        "fcf_b": 0.0,
+        "rev_growth": 11.8,
+        "analyst": 1.65625,
+        "on_watch": true,
+        "m": -23.5
+      },
+      {
+        "ticker": "AVGO",
+        "name": "Broadcom Inc.",
+        "price": 326.08,
+        "under_monthly": true,
+        "vs_monthly": -0.0,
+        "under_weekly": false,
+        "vs_weekly": 56.0,
+        "daily_20_rising_above_200": false,
+        "money_score": 5,
+        "missing": [
+          "net cash or little debt"
+        ],
+        "mcap_b": 1557,
+        "cash_b": 24.0,
+        "debt_b": 59.4,
+        "fcf_b": 30.6,
+        "rev_growth": 85.5,
+        "analyst": 1.23529,
+        "on_watch": true,
+        "m": -5.1
+      },
+      {
+        "ticker": "9992.HK",
+        "name": "POP MART",
+        "price": 134.9,
+        "under_monthly": true,
+        "vs_monthly": -31.6,
+        "under_weekly": false,
+        "vs_weekly": 27.4,
+        "daily_20_rising_above_200": false,
+        "money_score": 5,
+        "missing": [
+          "big institutions own it"
+        ],
+        "mcap_b": 178,
+        "cash_b": 14.0,
+        "debt_b": 3.7,
+        "fcf_b": 6.0,
+        "rev_growth": 23.8,
+        "analyst": 2.38462,
+        "on_watch": false,
+        "m": -12.7
+      },
+      {
+        "ticker": "ACN",
+        "name": "Accenture plc",
+        "price": 258.24,
+        "under_monthly": false,
+        "vs_monthly": 12.0,
+        "under_weekly": true,
+        "vs_weekly": -5.5,
+        "daily_20_rising_above_200": true,
+        "money_score": 5,
+        "missing": [
+          "net cash or little debt"
+        ],
+        "mcap_b": 158,
+        "cash_b": 12.8,
+        "debt_b": 13.4,
+        "fcf_b": 10.7,
+        "rev_growth": 6.2,
+        "analyst": 2.33333,
+        "on_watch": false,
+        "m": 22.6
+      },
+      {
+        "ticker": "AZO",
+        "name": "AutoZone, Inc.",
+        "price": 3169.82,
+        "under_monthly": true,
+        "vs_monthly": -10.7,
+        "under_weekly": false,
+        "vs_weekly": 1.4,
+        "daily_20_rising_above_200": false,
+        "money_score": 5,
+        "missing": [
+          "net cash or little debt"
+        ],
+        "mcap_b": 51,
+        "cash_b": 0.3,
+        "debt_b": 13.2,
+        "fcf_b": 1.2,
+        "rev_growth": 5.6,
+        "analyst": 1.48148,
+        "on_watch": false,
+        "m": 12.4
+      },
+      {
+        "ticker": "BAC",
+        "name": "Bank of America Corporation",
+        "price": 50.01,
+        "under_monthly": true,
+        "vs_monthly": -1.0,
+        "under_weekly": false,
+        "vs_weekly": 22.5,
+        "daily_20_rising_above_200": false,
+        "money_score": 5,
+        "missing": [
+          "free cash flow positive"
+        ],
+        "mcap_b": 345,
+        "cash_b": 991.0,
+        "debt_b": 745.6,
+        "fcf_b": 0.0,
+        "rev_growth": 7.1,
+        "analyst": 1.48,
+        "on_watch": false,
+        "m": -6.9
+      },
+      {
+        "ticker": "BWXT",
+        "name": "BWX Technologies, Inc.",
+        "price": 130.7,
+        "under_monthly": true,
+        "vs_monthly": -21.7,
+        "under_weekly": false,
+        "vs_weekly": 8.1,
+        "daily_20_rising_above_200": false,
+        "money_score": 5,
+        "missing": [
+          "net cash or little debt"
+        ],
+        "mcap_b": 12,
+        "cash_b": 0.6,
+        "debt_b": 2.0,
+        "fcf_b": 0.1,
+        "rev_growth": 18.0,
+        "analyst": 1.61111,
+        "on_watch": false,
+        "m": -4.5
+      },
+      {
+        "ticker": "CBRE",
+        "name": "CBRE Group Inc",
+        "price": 128.85,
+        "under_monthly": true,
+        "vs_monthly": -10.3,
+        "under_weekly": false,
+        "vs_weekly": 10.4,
+        "daily_20_rising_above_200": false,
+        "money_score": 5,
+        "missing": [
+          "net cash or little debt"
+        ],
+        "mcap_b": 37,
+        "cash_b": 1.7,
+        "debt_b": 10.7,
+        "fcf_b": 1.3,
+        "rev_growth": 12.7,
+        "analyst": 1.53846,
+        "on_watch": false,
+        "m": -1.3
+      },
+      {
+        "ticker": "CRH",
+        "name": "CRH PLC",
+        "price": 90.81,
+        "under_monthly": true,
+        "vs_monthly": -12.9,
+        "under_weekly": false,
+        "vs_weekly": 7.8,
+        "daily_20_rising_above_200": false,
+        "money_score": 5,
+        "missing": [
+          "net cash or little debt"
+        ],
+        "mcap_b": 60,
+        "cash_b": 5.1,
+        "debt_b": 21.6,
+        "fcf_b": 2.3,
+        "rev_growth": 3.0,
+        "analyst": 1.34783,
+        "on_watch": false,
+        "m": 11.2
+      },
+      {
+        "ticker": "HON",
+        "name": "Honeywell International Inc.",
+        "price": 218.33,
+        "under_monthly": true,
+        "vs_monthly": -0.6,
+        "under_weekly": false,
+        "vs_weekly": 8.0,
+        "daily_20_rising_above_200": false,
+        "money_score": 5,
+        "missing": [
+          "net cash or little debt"
+        ],
+        "mcap_b": 69,
+        "cash_b": 6.2,
+        "debt_b": 17.2,
+        "fcf_b": 7.0,
+        "rev_growth": 1.3,
+        "analyst": 2.0,
+        "on_watch": false,
+        "m": 2.1
+      }
+    ],
+    "watch_status": [
+      {
+        "ticker": "AAPL",
+        "name": "Apple Inc.",
+        "price": 344.63,
+        "under_monthly": false,
+        "vs_monthly": 30.1,
+        "under_weekly": false,
+        "vs_weekly": 54.8,
+        "daily_20_rising_above_200": true,
+        "money_score": 5,
+        "missing": [
+          "net cash or little debt"
+        ],
+        "mcap_b": 5030,
+        "cash_b": 62.4,
+        "debt_b": 84.3,
+        "fcf_b": 107.7,
+        "rev_growth": 16.4,
+        "analyst": 2.23256,
+        "on_watch": true,
+        "m": 4.3
+      },
+      {
+        "ticker": "ABNB",
+        "name": "Airbnb, Inc.",
+        "price": 164.39,
+        "under_monthly": false,
+        "vs_monthly": 20.3,
+        "under_weekly": false,
+        "vs_weekly": 21.8,
+        "daily_20_rising_above_200": true,
+        "money_score": 6,
+        "missing": [],
+        "mcap_b": 98,
+        "cash_b": 12.1,
+        "debt_b": 2.5,
+        "fcf_b": 3.2,
+        "rev_growth": 16.5,
+        "analyst": 2.02273,
+        "on_watch": true,
+        "m": 2.4
+      },
+      {
+        "ticker": "ADBE",
+        "name": "Adobe Inc.",
+        "price": 250.23,
+        "under_monthly": true,
+        "vs_monthly": -19.0,
+        "under_weekly": true,
+        "vs_weekly": -39.2,
+        "daily_20_rising_above_200": false,
+        "money_score": 4,
+        "missing": [
+          "net cash or little debt",
+          "analysts like it"
+        ],
+        "mcap_b": 97,
+        "cash_b": 5.6,
+        "debt_b": 6.8,
+        "fcf_b": 9.3,
+        "rev_growth": 12.9,
+        "analyst": 2.92308,
+        "on_watch": true,
+        "m": 3.7
+      },
+      {
+        "ticker": "AMD",
+        "name": "Advanced Micro Devices, Inc.",
+        "price": 504.8,
+        "under_monthly": false,
+        "vs_monthly": 74.2,
+        "under_weekly": false,
+        "vs_weekly": 158.7,
+        "daily_20_rising_above_200": false,
+        "money_score": 6,
+        "missing": [],
+        "mcap_b": 824,
+        "cash_b": 13.1,
+        "debt_b": 4.3,
+        "fcf_b": 8.8,
+        "rev_growth": 50.1,
+        "analyst": 1.49091,
+        "on_watch": true,
+        "m": -18.0
+      },
+      {
+        "ticker": "AMZN",
+        "name": "Amazon.com, Inc.",
+        "price": 240.35,
+        "under_monthly": false,
+        "vs_monthly": 3.5,
+        "under_weekly": false,
+        "vs_weekly": 26.7,
+        "daily_20_rising_above_200": false,
+        "money_score": 4,
+        "missing": [
+          "net cash or little debt",
+          "free cash flow positive"
+        ],
+        "mcap_b": 2599,
+        "cash_b": 114.2,
+        "debt_b": 271.9,
+        "fcf_b": -11.5,
+        "rev_growth": 12.1,
+        "analyst": 1.33333,
+        "on_watch": true,
+        "m": -3.2
+      },
+      {
+        "ticker": "AVGO",
+        "name": "Broadcom Inc.",
+        "price": 326.08,
+        "under_monthly": true,
+        "vs_monthly": -0.0,
+        "under_weekly": false,
+        "vs_weekly": 56.0,
+        "daily_20_rising_above_200": false,
+        "money_score": 5,
+        "missing": [
+          "net cash or little debt"
+        ],
+        "mcap_b": 1557,
+        "cash_b": 24.0,
+        "debt_b": 59.4,
+        "fcf_b": 30.6,
+        "rev_growth": 85.5,
+        "analyst": 1.23529,
+        "on_watch": true,
+        "m": -5.1
+      },
+      {
+        "ticker": "COIN",
+        "name": "Coinbase Global, Inc.",
+        "price": 143.54,
+        "under_monthly": true,
+        "vs_monthly": -37.1,
+        "under_weekly": true,
+        "vs_weekly": -24.2,
+        "daily_20_rising_above_200": false,
+        "money_score": 5,
+        "missing": [
+          "revenue growing"
+        ],
+        "mcap_b": 38,
+        "cash_b": 8.8,
+        "debt_b": 6.9,
+        "fcf_b": 3.7,
+        "rev_growth": -34.2,
+        "analyst": 1.97368,
+        "on_watch": true,
+        "m": -24.2
+      },
+      {
+        "ticker": "CRM",
+        "name": "Salesforce, Inc.",
+        "price": 229.17,
+        "under_monthly": false,
+        "vs_monthly": 0.3,
+        "under_weekly": true,
+        "vs_weekly": -3.8,
+        "daily_20_rising_above_200": true,
+        "money_score": 5,
+        "missing": [
+          "net cash or little debt"
+        ],
+        "mcap_b": 189,
+        "cash_b": 11.4,
+        "debt_b": 42.4,
+        "fcf_b": 17.7,
+        "rev_growth": 10.8,
+        "analyst": 1.69643,
+        "on_watch": true,
+        "m": -3.2
+      },
+      {
+        "ticker": "DIS",
+        "name": "Walt Disney Company (The)",
+        "price": 110.94,
+        "under_monthly": false,
+        "vs_monthly": 4.4,
+        "under_weekly": false,
+        "vs_weekly": 10.8,
+        "daily_20_rising_above_200": true,
+        "money_score": 5,
+        "missing": [
+          "net cash or little debt"
+        ],
+        "mcap_b": 192,
+        "cash_b": 5.2,
+        "debt_b": 46.0,
+        "fcf_b": 4.9,
+        "rev_growth": 6.8,
+        "analyst": 1.48485,
+        "on_watch": true,
+        "m": 9.5
+      },
+      {
+        "ticker": "GOOGL",
+        "name": "Alphabet Inc.",
+        "price": 279.84,
+        "under_monthly": false,
+        "vs_monthly": 0.1,
+        "under_weekly": false,
+        "vs_weekly": 38.7,
+        "daily_20_rising_above_200": false,
+        "money_score": 5,
+        "missing": [
+          "free cash flow positive"
+        ],
+        "mcap_b": 3440,
+        "cash_b": 265.1,
+        "debt_b": 150.3,
+        "fcf_b": -1.2,
+        "rev_growth": 24.7,
+        "analyst": 1.36207,
+        "on_watch": true,
+        "m": -17.3
+      },
+      {
+        "ticker": "HOOD",
+        "name": "Robinhood Markets, Inc.",
+        "price": 84.99,
+        "under_monthly": true,
+        "vs_monthly": -10.1,
+        "under_weekly": false,
+        "vs_weekly": 65.5,
+        "daily_20_rising_above_200": false,
+        "money_score": 5,
+        "missing": [
+          "free cash flow positive"
+        ],
+        "mcap_b": 77,
+        "cash_b": 24.8,
+        "debt_b": 22.6,
+        "fcf_b": 0.0,
+        "rev_growth": 11.8,
+        "analyst": 1.65625,
+        "on_watch": true,
+        "m": -23.5
+      },
+      {
+        "ticker": "LLY",
+        "name": "Eli Lilly and Company",
+        "price": 1417.54,
+        "under_monthly": false,
+        "vs_monthly": 45.1,
+        "under_weekly": false,
+        "vs_weekly": 81.9,
+        "daily_20_rising_above_200": true,
+        "money_score": 5,
+        "missing": [
+          "net cash or little debt"
+        ],
+        "mcap_b": 1263,
+        "cash_b": 4.9,
+        "debt_b": 49.5,
+        "fcf_b": 9.3,
+        "rev_growth": 38.6,
+        "analyst": 1.6129,
+        "on_watch": true,
+        "m": 23.3
+      },
+      {
+        "ticker": "META",
+        "name": "Meta Platforms, Inc.",
+        "price": 614.99,
+        "under_monthly": true,
+        "vs_monthly": -4.6,
+        "under_weekly": false,
+        "vs_weekly": 20.6,
+        "daily_20_rising_above_200": false,
+        "money_score": 5,
+        "missing": [
+          "net cash or little debt"
+        ],
+        "mcap_b": 1572,
+        "cash_b": 82.4,
+        "debt_b": 114.8,
+        "fcf_b": 16.8,
+        "rev_growth": 26.1,
+        "analyst": 1.40323,
+        "on_watch": true,
+        "m": -15.3
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Microsoft Corporation",
+        "price": 521.91,
+        "under_monthly": false,
+        "vs_monthly": 14.0,
+        "under_weekly": false,
+        "vs_weekly": 29.4,
+        "daily_20_rising_above_200": true,
+        "money_score": 5,
+        "missing": [
+          "net cash or little debt"
+        ],
+        "mcap_b": 3876,
+        "cash_b": 64.5,
+        "debt_b": 133.9,
+        "fcf_b": 3.0,
+        "rev_growth": 18.8,
+        "analyst": 1.39286,
+        "on_watch": true,
+        "m": 1.8
+      },
+      {
+        "ticker": "NFLX",
+        "name": "Netflix, Inc.",
+        "price": 62.08,
+        "under_monthly": true,
+        "vs_monthly": -36.1,
+        "under_weekly": true,
+        "vs_weekly": -16.2,
+        "daily_20_rising_above_200": false,
+        "money_score": 5,
+        "missing": [
+          "net cash or little debt"
+        ],
+        "mcap_b": 258,
+        "cash_b": 8.2,
+        "debt_b": 17.5,
+        "fcf_b": 25.5,
+        "rev_growth": 11.8,
+        "analyst": 1.92157,
+        "on_watch": true,
+        "m": -8.5
+      },
+      {
+        "ticker": "NKE",
+        "name": "Nike, Inc.",
+        "price": 38.67,
+        "under_monthly": true,
+        "vs_monthly": -29.6,
+        "under_weekly": true,
+        "vs_weekly": -49.0,
+        "daily_20_rising_above_200": false,
+        "money_score": 3,
+        "missing": [
+          "net cash or little debt",
+          "revenue growing",
+          "analysts like it"
+        ],
+        "mcap_b": 57,
+        "cash_b": 8.4,
+        "debt_b": 11.1,
+        "fcf_b": 1.8,
+        "rev_growth": -4.3,
+        "analyst": 2.88372,
+        "on_watch": true,
+        "m": 10.0
+      },
+      {
+        "ticker": "NVDA",
+        "name": "NVIDIA Corporation",
+        "price": 204.64,
+        "under_monthly": false,
+        "vs_monthly": 13.2,
+        "under_weekly": false,
+        "vs_weekly": 68.1,
+        "daily_20_rising_above_200": false,
+        "money_score": 6,
+        "missing": [],
+        "mcap_b": 4941,
+        "cash_b": 62.5,
+        "debt_b": 38.9,
+        "fcf_b": 41.8,
+        "rev_growth": 105.9,
+        "analyst": 1.29032,
+        "on_watch": true,
+        "m": -11.4
+      },
+      {
+        "ticker": "NVO",
+        "name": "Novo Nordisk A/S",
+        "price": 40.0,
+        "under_monthly": true,
+        "vs_monthly": -18.9,
+        "under_weekly": true,
+        "vs_weekly": -47.0,
+        "daily_20_rising_above_200": false,
+        "money_score": 3,
+        "missing": [
+          "net cash or little debt",
+          "analysts like it",
+          "big institutions own it"
+        ],
+        "mcap_b": 176,
+        "cash_b": 45.0,
+        "debt_b": 140.1,
+        "fcf_b": 37.7,
+        "rev_growth": 2.1,
+        "analyst": 2.71429,
+        "on_watch": true,
+        "m": 7.0
+      },
+      {
+        "ticker": "PLTR",
+        "name": "Palantir Technologies Inc.",
+        "price": 184.11,
+        "under_monthly": false,
+        "vs_monthly": 21.2,
+        "under_weekly": false,
+        "vs_weekly": 125.5,
+        "daily_20_rising_above_200": true,
+        "money_score": 6,
+        "missing": [],
+        "mcap_b": 442,
+        "cash_b": 9.4,
+        "debt_b": 0.2,
+        "fcf_b": 2.2,
+        "rev_growth": 92.8,
+        "analyst": 1.875,
+        "on_watch": true,
+        "m": -3.1
+      },
+      {
+        "ticker": "PYPL",
+        "name": "PayPal Holdings, Inc.",
+        "price": 57.01,
+        "under_monthly": true,
+        "vs_monthly": -2.1,
+        "under_weekly": true,
+        "vs_weekly": -11.0,
+        "daily_20_rising_above_200": true,
+        "money_score": 4,
+        "missing": [
+          "net cash or little debt",
+          "analysts like it"
+        ],
+        "mcap_b": 47,
+        "cash_b": 10.3,
+        "debt_b": 14.3,
+        "fcf_b": 4.5,
+        "rev_growth": 2.0,
+        "analyst": 2.93023,
+        "on_watch": true,
+        "m": 7.4
+      },
+      {
+        "ticker": "SBUX",
+        "name": "Starbucks Corporation",
+        "price": 103.67,
+        "under_monthly": false,
+        "vs_monthly": 13.2,
+        "under_weekly": false,
+        "vs_weekly": 14.3,
+        "daily_20_rising_above_200": false,
+        "money_score": 4,
+        "missing": [
+          "net cash or little debt",
+          "revenue growing"
+        ],
+        "mcap_b": 118,
+        "cash_b": 3.9,
+        "debt_b": 22.4,
+        "fcf_b": 3.2,
+        "rev_growth": -4.5,
+        "analyst": 2.37143,
+        "on_watch": true,
+        "m": 9.3
+      },
+      {
+        "ticker": "SHOP",
+        "name": "Shopify Inc.",
+        "price": 157.49,
+        "under_monthly": false,
+        "vs_monthly": 20.5,
+        "under_weekly": false,
+        "vs_weekly": 63.1,
+        "daily_20_rising_above_200": true,
+        "money_score": 6,
+        "missing": [],
+        "mcap_b": 204,
+        "cash_b": 4.9,
+        "debt_b": 0.2,
+        "fcf_b": 1.6,
+        "rev_growth": 33.7,
+        "analyst": 1.7037,
+        "on_watch": true,
+        "m": 5.6
+      },
+      {
+        "ticker": "SOFI",
+        "name": "SoFi Technologies, Inc.",
+        "price": 16.76,
+        "under_monthly": true,
+        "vs_monthly": -14.3,
+        "under_weekly": false,
+        "vs_weekly": 25.6,
+        "daily_20_rising_above_200": false,
+        "money_score": 2,
+        "missing": [
+          "net cash or little debt",
+          "free cash flow positive",
+          "analysts like it",
+          "big institutions own it"
+        ],
+        "mcap_b": 22,
+        "cash_b": 2.8,
+        "debt_b": 4.0,
+        "fcf_b": 0.0,
+        "rev_growth": 43.9,
+        "analyst": 2.52,
+        "on_watch": true,
+        "m": 5.8
+      },
+      {
+        "ticker": "TSLA",
+        "name": "Tesla, Inc.",
+        "price": 399.81,
+        "under_monthly": false,
+        "vs_monthly": 6.5,
+        "under_weekly": false,
+        "vs_weekly": 35.8,
+        "daily_20_rising_above_200": false,
+        "money_score": 4,
+        "missing": [
+          "revenue growing",
+          "big institutions own it"
+        ],
+        "mcap_b": 1580,
+        "cash_b": 45.4,
+        "debt_b": 16.4,
+        "fcf_b": 5.0,
+        "rev_growth": -0.2,
+        "analyst": 2.29545,
+        "on_watch": true,
+        "m": 12.9
+      },
+      {
+        "ticker": "UBER",
+        "name": "Uber Technologies, Inc.",
+        "price": 65.25,
+        "under_monthly": true,
+        "vs_monthly": -18.5,
+        "under_weekly": true,
+        "vs_weekly": -3.3,
+        "daily_20_rising_above_200": false,
+        "money_score": 5,
+        "missing": [
+          "net cash or little debt"
+        ],
+        "mcap_b": 133,
+        "cash_b": 5.4,
+        "debt_b": 14.7,
+        "fcf_b": 7.2,
+        "rev_growth": 12.2,
+        "analyst": 1.58,
+        "on_watch": true,
+        "m": -3.9
+      },
+      {
+        "ticker": "UNH",
+        "name": "UnitedHealth Group Incorporated",
+        "price": 406.97,
+        "under_monthly": false,
+        "vs_monthly": 17.8,
+        "under_weekly": true,
+        "vs_weekly": -4.9,
+        "daily_20_rising_above_200": true,
+        "money_score": 4,
+        "missing": [
+          "net cash or little debt",
+          "revenue growing"
+        ],
+        "mcap_b": 365,
+        "cash_b": 28.5,
+        "debt_b": 74.3,
+        "fcf_b": 26.5,
+        "rev_growth": -0.4,
+        "analyst": 1.61538,
+        "on_watch": true,
+        "m": 11.4
+      },
+      {
+        "ticker": "XYZ",
+        "name": "Block, Inc.",
+        "price": 76.22,
+        "under_monthly": false,
+        "vs_monthly": 9.0,
+        "under_weekly": false,
+        "vs_weekly": 10.6,
+        "daily_20_rising_above_200": true,
+        "money_score": 4,
+        "missing": [
+          "net cash or little debt",
+          "free cash flow positive"
+        ],
+        "mcap_b": 46,
+        "cash_b": 6.7,
+        "debt_b": 7.2,
+        "fcf_b": -0.0,
+        "rev_growth": 9.3,
+        "analyst": 1.57447,
+        "on_watch": true,
+        "m": 2.9
+      }
+    ]
+  },
+  "entry_scans": {
+    "spy_above_200d": true,
+    "rule_b": {
+      "active": false,
+      "rows": [
+        {
+          "ticker": "SMR",
+          "price": 5.62,
+          "off_high": -87.5,
+          "high_252d": 44.87,
+          "dollar_vol_m": 196,
+          "buy_levels": [
+            5.62,
+            5.06,
+            4.5
+          ],
+          "m": -27.9
+        },
+        {
+          "ticker": "OKLO",
+          "price": 25.25,
+          "off_high": -81.6,
+          "high_252d": 137.39,
+          "dollar_vol_m": 290,
+          "buy_levels": [
+            25.25,
+            22.73,
+            20.2
+          ],
+          "m": -30.1
+        },
+        {
+          "ticker": "NNE",
+          "price": 11.65,
+          "off_high": -75.5,
+          "high_252d": 47.54,
+          "dollar_vol_m": 28,
+          "buy_levels": [
+            11.65,
+            10.48,
+            9.32
+          ],
+          "m": -25.9
+        },
+        {
+          "ticker": "LEU",
+          "price": 103.29,
+          "off_high": -73.1,
+          "high_252d": 383.31,
+          "dollar_vol_m": 113,
+          "buy_levels": [
+            103.29,
+            92.96,
+            82.63
+          ],
+          "m": -25.7
+        },
+        {
+          "ticker": "MARA",
+          "price": 6.77,
+          "off_high": -62.9,
+          "high_252d": 18.27,
+          "dollar_vol_m": 298,
+          "buy_levels": [
+            6.77,
+            6.09,
+            5.42
+          ],
+          "m": -39.6
+        },
+        {
+          "ticker": "CRWV",
+          "price": 54.87,
+          "off_high": -60.2,
+          "high_252d": 137.98,
+          "dollar_vol_m": 3923,
+          "buy_levels": [
+            54.87,
+            49.38,
+            43.9
+          ],
+          "m": -38.0
+        },
+        {
+          "ticker": "BSX",
+          "price": 41.98,
+          "off_high": -60.0,
+          "high_252d": 104.98,
+          "dollar_vol_m": 804,
+          "buy_levels": [
+            41.98,
+            37.78,
+            33.58
+          ],
+          "m": -2.9
+        },
+        {
+          "ticker": "COIN",
+          "price": 143.54,
+          "off_high": -58.2,
+          "high_252d": 343.78,
+          "dollar_vol_m": 1392,
+          "buy_levels": [
+            143.54,
+            129.19,
+            114.83
+          ],
+          "m": -24.2
+        },
+        {
+          "ticker": "MOD",
+          "price": 129.76,
+          "off_high": -57.7,
+          "high_252d": 306.89,
+          "dollar_vol_m": 215,
+          "buy_levels": [
+            129.76,
+            116.78,
+            103.81
+          ],
+          "m": -31.4
+        },
+        {
+          "ticker": "SYM",
+          "price": 37.93,
+          "off_high": -56.6,
+          "high_252d": 87.3,
+          "dollar_vol_m": 67,
+          "buy_levels": [
+            37.93,
+            34.14,
+            30.34
+          ],
+          "m": -12.1
+        },
+        {
+          "ticker": "PSLV",
+          "price": 16.02,
+          "off_high": -55.9,
+          "high_252d": 36.36,
+          "dollar_vol_m": 112,
+          "buy_levels": [
+            16.02,
+            14.42,
+            12.82
+          ],
+          "m": -18.3
+        },
+        {
+          "ticker": "RIOT",
+          "price": 12.81,
+          "off_high": -55.4,
+          "high_252d": 28.69,
+          "dollar_vol_m": 273,
+          "buy_levels": [
+            12.81,
+            11.53,
+            10.25
+          ],
+          "m": -34.7
+        },
+        {
+          "ticker": "CHTR",
+          "price": 111.49,
+          "off_high": -55.1,
+          "high_252d": 248.19,
+          "dollar_vol_m": 300,
+          "buy_levels": [
+            111.49,
+            100.34,
+            89.19
+          ],
+          "m": 0.1
+        },
+        {
+          "ticker": "ARM",
+          "price": 205.97,
+          "off_high": -53.1,
+          "high_252d": 439.46,
+          "dollar_vol_m": 1166,
+          "buy_levels": [
+            205.97,
+            185.37,
+            164.78
+          ],
+          "m": -29.5
+        },
+        {
+          "ticker": "CELH",
+          "price": 29.12,
+          "off_high": -51.7,
+          "high_252d": 60.23,
+          "dollar_vol_m": 145,
+          "buy_levels": [
+            29.12,
+            26.21,
+            23.3
+          ],
+          "m": 6.2
+        },
+        {
+          "ticker": "MSTR",
+          "price": 130.51,
+          "off_high": -51.6,
+          "high_252d": 269.51,
+          "dollar_vol_m": 2758,
+          "buy_levels": [
+            130.51,
+            117.46,
+            104.41
+          ],
+          "m": -18.7
+        },
+        {
+          "ticker": "WDC",
+          "price": 366.11,
+          "off_high": -50.9,
+          "high_252d": 745.99,
+          "dollar_vol_m": 3535,
+          "buy_levels": [
+            366.11,
+            329.5,
+            292.89
+          ],
+          "m": -20.9
+        },
+        {
+          "ticker": "SNDK",
+          "price": 1150.89,
+          "off_high": -50.7,
+          "high_252d": 2335.0,
+          "dollar_vol_m": 12135,
+          "buy_levels": [
+            1150.89,
+            1035.8,
+            920.71
+          ],
+          "m": -35.6
+        }
+      ]
+    },
+    "momentum": {
+      "active": true,
+      "sectors": [
+        "Consumer Staples",
+        "Energy",
+        "Health Care",
+        "Materials",
+        "Utilities"
+      ],
+      "rows": [
+        {
+          "ticker": "DELL",
+          "price": 424.3,
+          "r12_1": 234.2,
+          "sector": "theme",
+          "m": -21.6
+        },
+        {
+          "ticker": "MRVL",
+          "price": 196.4,
+          "r12_1": 197.8,
+          "sector": "theme",
+          "m": -26.7
+        },
+        {
+          "ticker": "VLO",
+          "price": 399.66,
+          "r12_1": 144.4,
+          "sector": "Energy",
+          "m": -2.2
+        },
+        {
+          "ticker": "MPC",
+          "price": 444.73,
+          "r12_1": 118.2,
+          "sector": "Energy",
+          "m": 5.9
+        },
+        {
+          "ticker": "PSX",
+          "price": 282.83,
+          "r12_1": 97.1,
+          "sector": "Energy",
+          "m": 7.0
+        },
+        {
+          "ticker": "TRGP",
+          "price": 314.99,
+          "r12_1": 88.5,
+          "sector": "Energy",
+          "m": 13.2
+        },
+        {
+          "ticker": "DDOG",
+          "price": 235.27,
+          "r12_1": 77.2,
+          "sector": "theme",
+          "m": -14.9
+        },
+        {
+          "ticker": "TGT",
+          "price": 154.38,
+          "r12_1": 73.2,
+          "sector": "Consumer Staples",
+          "m": -1.5
+        },
+        {
+          "ticker": "MRK",
+          "price": 149.52,
+          "r12_1": 71.0,
+          "sector": "Health Care",
+          "m": 4.0
+        }
+      ]
+    }
+  },
+  "errors": []
+}

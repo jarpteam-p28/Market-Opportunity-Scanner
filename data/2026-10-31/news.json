@@ -1,0 +1,388 @@
+{
+  "date": "2026-10-31",
+  "n": 50,
+  "errors": [],
+  "by_theme": {
+    "AI chips": [
+      {
+        "title": "Nvidia\u2019s Megaspeed ties show potential blind spots in the U.S. effort to block China from accessing advanced chips",
+        "link": "https://www.marketwatch.com/story/nvidias-megaspeed-ties-show-potential-blind-spots-in-the-u-s-effort-to-block-china-from-accessing-advanced-chips-e75d541a?mod=mw_rss_topstories",
+        "published": "Sat, 31 Oct 2026 12:30:00 GMT",
+        "source": "feeds.content.dowjones.io"
+      }
+    ],
+    "AI data centers": [],
+    "Power for AI": [],
+    "Nuclear": [],
+    "Water": [],
+    "Cooling": [],
+    "Copper & grid materials": [],
+    "AI software": [],
+    "Memory chips": [],
+    "AI efficiency wave": [],
+    "Distribution moats": [],
+    "Crypto": [
+      {
+        "title": "Binance\u2019s $6.3 billion hack raises questions about crypto wallet safety",
+        "link": "https://www.cnbc.com/2026/10/31/binance-hack-crypto-wallet-safety.html",
+        "published": "Sat, 31 Oct 2026 12:47:08 GMT",
+        "source": "www.cnbc.com"
+      },
+      {
+        "title": "Crypto industry pours more than $200 million into 2026 midterms to pressure Congress on favorable rules",
+        "link": "https://www.cnbc.com/2026/10/31/crypto-industry-spends-more-than-200-million-to-sway-the-midterms.html",
+        "published": "Sat, 31 Oct 2026 13:04:29 GMT",
+        "source": "www.cnbc.com"
+      },
+      {
+        "title": "Binance, crypto and hacks: What to know about keeping coin safe as cyber criminals advance",
+        "link": "https://www.cnbc.com/2026/10/31/binance-crypto-hack-safety.html",
+        "published": "Sat, 31 Oct 2026 14:26:29 GMT",
+        "source": "www.cnbc.com"
+      },
+      {
+        "title": "Binance loses $6.3 billion in crypto heist\u2014what happens to your money when an exchange gets hacked",
+        "link": "https://www.cnbc.com/make-it/2026/10/30/binance-crypto-hack-customer-funds.html",
+        "published": "Fri, 30 Oct 2026 21:45:52 GMT",
+        "source": "www.cnbc.com"
+      },
+      {
+        "title": "Why bitcoin held up better after the record Binance hack",
+        "link": "https://www.cnbc.com/2026/10/30/binance-hack-bitcoin-price.html",
+        "published": "Fri, 30 Oct 2026 18:07:00 GMT",
+        "source": "www.cnbc.com"
+      }
+    ],
+    "Precious metals": [],
+    "Robotics": []
+  },
+  "latest": [
+    {
+      "title": "Your stock portfolio increasingly hinges on the bond market \u2014 and the midterm elections",
+      "link": "https://www.marketwatch.com/story/your-stock-portfolio-increasingly-hinges-on-the-bond-market-and-the-midterm-elections-dc1abadb?mod=mw_rss_topstories",
+      "published": "Sat, 31 Oct 2026 14:03:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Google taught the world how to search. Now it faces a revolution it can\u2019t afford to lose.",
+      "link": "https://www.marketwatch.com/story/google-taught-the-world-how-to-search-now-it-faces-a-revolution-it-cant-afford-to-lose-b7a01394?mod=mw_rss_topstories",
+      "published": "Sat, 31 Oct 2026 13:15:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "The stock market\u2019s front-runners stumbled in October. Here\u2019s where the smart money is moving now.",
+      "link": "https://www.marketwatch.com/story/the-stock-markets-front-runners-stumbled-in-october-heres-where-the-smart-money-is-moving-now-f901472a?mod=mw_rss_topstories",
+      "published": "Sat, 31 Oct 2026 13:01:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "If you really want to help your adult kids and grandkids, give them money while you\u2019re still alive",
+      "link": "https://www.marketwatch.com/story/if-you-really-want-to-help-your-adult-kids-and-grandkids-give-them-money-while-youre-still-alive-bef6b056?mod=mw_rss_topstories",
+      "published": "Sat, 31 Oct 2026 13:00:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "This Halloween, are full-size candy bars a better deal than fun-sized ones?",
+      "link": "https://www.marketwatch.com/story/this-halloween-are-king-sized-candy-bars-a-better-deal-than-fun-sized-ones-992da0d9?mod=mw_rss_topstories",
+      "published": "Sat, 31 Oct 2026 12:37:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Nvidia\u2019s Megaspeed ties show potential blind spots in the U.S. effort to block China from accessing advanced chips",
+      "link": "https://www.marketwatch.com/story/nvidias-megaspeed-ties-show-potential-blind-spots-in-the-u-s-effort-to-block-china-from-accessing-advanced-chips-e75d541a?mod=mw_rss_topstories",
+      "published": "Sat, 31 Oct 2026 12:30:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "These 10 megadonors have spent a total of $1 billion on the midterm elections",
+      "link": "https://www.marketwatch.com/story/these-10-megadonors-have-spent-a-total-of-1-billion-on-the-midterm-elections-0dc279cf?mod=mw_rss_topstories",
+      "published": "Sat, 31 Oct 2026 12:00:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Grand Theft Callout: \u2018GTA 6\u2019 fans are missing work on the game\u2019s release day because they \u2018don\u2019t want to wait\u2019 anymore",
+      "link": "https://www.marketwatch.com/story/grand-theft-callout-gta-6-fans-are-missing-work-on-the-games-release-day-because-they-dont-want-to-wait-anymore-5f2fa2e3?mod=mw_rss_topstories",
+      "published": "Sat, 31 Oct 2026 04:30:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Has the tech bubble burst? Why the Nasdaq\u2019s rough ride looks eerily like 2000.",
+      "link": "https://www.marketwatch.com/story/has-the-tech-bubble-burst-why-the-nasdaqs-rough-ride-looks-eerily-like-2000-5bcefcb2?mod=mw_rss_topstories",
+      "published": "Fri, 30 Oct 2026 23:14:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "This cybersecurity stock will be the next to join the S&P 500",
+      "link": "https://www.marketwatch.com/story/this-cybersecurity-stock-will-be-the-next-to-join-the-s-p-500-dc976803?mod=mw_rss_topstories",
+      "published": "Fri, 30 Oct 2026 22:20:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Anthropic's path to the Nasdaq just got a lot bumpier",
+      "link": "https://www.cnbc.com/2026/10/31/anthropic-ipo-ai-spending.html",
+      "published": "Sat, 31 Oct 2026 11:00:01 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Trump promised to slash energy costs  \u2014 but gasoline, diesel and jet fuel all soared instead",
+      "link": "https://www.cnbc.com/2026/10/31/trump-gas-diesel-price-midterm-election.html",
+      "published": "Sat, 31 Oct 2026 12:49:58 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "\u2018Pop-up\u2019 super PACs pour $637 million into 2026 midterm races",
+      "link": "https://www.cnbc.com/2026/10/31/2026-midterm-election-super-pacs-donor-disclosure.html",
+      "published": "Sat, 31 Oct 2026 12:00:01 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Automakers like Rivian and Ford are \u2018democratizing 3D printing\u2019 to reduce costs and increase speed",
+      "link": "https://www.cnbc.com/2026/10/31/automakers-3d-printing-ford-rivian-gm.html",
+      "published": "Sat, 31 Oct 2026 12:00:01 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Qatari mediators held talks in Tehran aimed at restarting direct U.S.-Iran negotiations, source says",
+      "link": "https://www.cnbc.com/2026/10/31/qatar-iran-us-talks-mediation.html",
+      "published": "Sat, 31 Oct 2026 13:47:03 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Binance\u2019s $6.3 billion hack raises questions about crypto wallet safety",
+      "link": "https://www.cnbc.com/2026/10/31/binance-hack-crypto-wallet-safety.html",
+      "published": "Sat, 31 Oct 2026 12:47:08 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Crypto industry pours more than $200 million into 2026 midterms to pressure Congress on favorable rules",
+      "link": "https://www.cnbc.com/2026/10/31/crypto-industry-spends-more-than-200-million-to-sway-the-midterms.html",
+      "published": "Sat, 31 Oct 2026 13:04:29 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Gamble on democracy: Inside suspicious election-contracts trading on prediction markets",
+      "link": "https://www.cnbc.com/2026/10/30/gamble-on-democracy-inside-suspicious-election-contracts-trading-on-prediction-markets-.html",
+      "published": "Fri, 30 Oct 2026 22:00:53 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Berkshire ekes out some new highs, but October rally stalls",
+      "link": "https://www.cnbc.com/2026/10/31/berkshire-ekes-out-some-new-highs-but-october-rally-stalls.html",
+      "published": "Sat, 31 Oct 2026 12:26:00 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Halloween gets pricier as chocolate costs climb \u2014 Hershey may feel the pinch",
+      "link": "https://www.cnbc.com/2026/10/30/halloween-gets-pricier-as-chocolate-costs-rise-hershey-could-feel-it.html",
+      "published": "Fri, 30 Oct 2026 16:55:41 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "The rise of the 15-foot skeleton\u2014how a viral novelty became a Halloween staple",
+      "link": "https://www.cnbc.com/make-it/2026/10/23/giant-halloween-skeleton-decorations.html",
+      "published": "Sat, 31 Oct 2026 10:27:19 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Automatic 401(k) rollovers reduce cash-outs, research finds \u2014 but few accounts reach new employer plans",
+      "link": "https://www.cnbc.com/2026/10/31/401k-cash-outs-automatic-rollovers.html",
+      "published": "Sat, 31 Oct 2026 13:30:01 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Meta outlook revised downward by S&P on cash flow and capex concerns",
+      "link": "https://www.cnbc.com/2026/10/30/meta-outlook-to-revised-to-negative-by-sp-after-cash-flow-negative.html",
+      "published": "Fri, 30 Oct 2026 22:42:26 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Treasury Department announces new Series I bond rate of 5.51% for the next six months",
+      "link": "https://www.cnbc.com/2026/10/30/treasury-i-bond-rate-through-april-2027.html",
+      "published": "Fri, 30 Oct 2026 17:15:53 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Binance, crypto and hacks: What to know about keeping coin safe as cyber criminals advance",
+      "link": "https://www.cnbc.com/2026/10/31/binance-crypto-hack-safety.html",
+      "published": "Sat, 31 Oct 2026 14:26:29 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Trump called out Big Oil profits. Here\u2019s how much their refining earnings have surged since",
+      "link": "https://www.cnbc.com/2026/10/31/trump-big-oil-refining-profits.html",
+      "published": "Sat, 31 Oct 2026 06:00:02 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "In the wake of Weil, a legal recruiter's advice for surviving a company wind-down",
+      "link": "https://www.cnbc.com/make-it/2026/10/31/weil-wind-down-career-advice.html",
+      "published": "Sat, 31 Oct 2026 13:07:01 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "How to start an art collection on any budget",
+      "link": "https://www.cnbc.com/2026/10/31/how-to-invest-in-art-collecting.html",
+      "published": "Sat, 31 Oct 2026 12:58:43 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Tech gets crushed, defensive stocks shine. How we're making sense of it all",
+      "link": "https://www.cnbc.com/investingclub/2026/10/30/tech-gets-crushed-defensive-stocks-shine-how-were-making-sense-of-it-all.html",
+      "published": "Fri, 30 Oct 2026 18:55:44 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Alaska Senate election: DOJ wants to 'segregate' all ballots for 2nd Sullivan candidate",
+      "link": "https://www.cnbc.com/2026/10/30/alaska-senate-election-doj-lawsuit-sullivan-peltola.html",
+      "published": "Fri, 30 Oct 2026 22:57:55 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "35-year-old took on $20K in debt to launch a business from her dining room\u2014now it brings in 8 figures a year",
+      "link": "https://www.cnbc.com/make-it/2026/10/31/set-active-lindsey-carter-entrepreneurship.html",
+      "published": "Sat, 31 Oct 2026 13:05:01 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Intel stock has worst day since 1970s, wiping about $12 billion off government's stake",
+      "link": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html",
+      "published": "Fri, 30 Oct 2026 20:30:57 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "'Bad time to troll': Binance co-founder Zhao asks Musk for support after hack",
+      "link": "https://www.cnbc.com/2026/10/30/binance-hack-elon-musk-tesla-spacex.html",
+      "published": "Fri, 30 Oct 2026 20:02:45 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "AI is coming to construction sites. But does it make workers safer?",
+      "link": "https://www.cnbc.com/2026/10/31/ai-construction-worker-safety.html",
+      "published": "Sat, 31 Oct 2026 06:00:02 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Reid Hoffman gives millions to Dems in late spending spree as Epstein fight spills into election",
+      "link": "https://www.cnbc.com/2026/10/30/reid-hoffman-democrats-epstein-midterms-2026.html",
+      "published": "Fri, 30 Oct 2026 18:32:17 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Binance loses $6.3 billion in crypto heist\u2014what happens to your money when an exchange gets hacked",
+      "link": "https://www.cnbc.com/make-it/2026/10/30/binance-crypto-hack-customer-funds.html",
+      "published": "Fri, 30 Oct 2026 21:45:52 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Jim Cramer says it's time to look beyond tech. Here are 4 consumer stocks he likes",
+      "link": "https://www.cnbc.com/2026/10/30/jim-cramer-consumer-staples-stocks.html",
+      "published": "Fri, 30 Oct 2026 22:52:04 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Why bitcoin held up better after the record Binance hack",
+      "link": "https://www.cnbc.com/2026/10/30/binance-hack-bitcoin-price.html",
+      "published": "Fri, 30 Oct 2026 18:07:00 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Cramer\u2019s week ahead: Expect more volatility as tech earnings, midterms loom",
+      "link": "https://www.cnbc.com/2026/10/30/jim-cramer-week-ahead-apple-amd-jobs-report.html",
+      "published": "Fri, 30 Oct 2026 22:17:13 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Gen Z is ditching bars for run clubs \u2014 and finding more than friends along the way",
+      "link": "https://www.cnbc.com/2026/10/30/gen-z-diplo-run-club.html",
+      "published": "Fri, 30 Oct 2026 10:32:46 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Russia extends diesel export ban through January, allows limited shipments",
+      "link": "https://www.investing.com/news/stock-market-news/russia-extends-diesel-export-ban-through-january-allows-limited-shipments-4989277",
+      "published": "2026-10-31 13:43:46",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "GS flags interest rates and AI disruption as risks to long-term equity demand",
+      "link": "https://www.investing.com/news/stock-market-news/gs-flags-interest-rates-and-ai-disruption-as-risks-to-longterm-equity-demand-4989261",
+      "published": "2026-10-31 12:27:33",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Tech risk-reward turns favorable after rout, Deutsche Bank says",
+      "link": "https://www.investing.com/news/stock-market-news/tech-riskreward-turns-favorable-after-rout-deutsche-bank-says-4989239",
+      "published": "2026-10-31 11:02:38",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Power bills and data centers cast rare spotlight on utilities in US midterms",
+      "link": "https://www.investing.com/news/stock-market-news/power-bills-and-data-centers-cast-rare-spotlight-on-utilities-in-us-midterms-4989220",
+      "published": "2026-10-31 11:00:26",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Citi upgrades Hyundai Mobis to buy on 4Q outlook",
+      "link": "https://www.investing.com/news/stock-market-news/citi-upgrades-hyundai-mobis-to-buy-on-4q-outlook-93CH-4989214",
+      "published": "2026-10-31 10:03:53",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Agentic AI excitement runs ahead of results",
+      "link": "https://www.investing.com/news/stock-market-news/agentic-ai-excitement-runs-ahead-of-results-4989096",
+      "published": "2026-10-31 05:00:02",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Alaska Air to cut about 200 jobs as fuel shock squeezes earnings",
+      "link": "https://www.investing.com/news/stock-market-news/alaska-air-to-cut-200-jobs-as-fuel-costs-threaten-700-million-annual-loss-4988943",
+      "published": "2026-10-31 01:30:39",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "US approves $2.1 billion Patriot missile sale to Ukraine",
+      "link": "https://www.investing.com/news/stock-market-news/us-approves-21-billion-patriot-missile-sale-to-ukraine-4988538",
+      "published": "2026-10-31 00:54:41",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Wall Street closes sharply lower as AI cash burn fears spark tech\u00a0selloff",
+      "link": "https://www.investing.com/news/stock-market-news/nasdaq-futures-tumble-as-amazon-intel-results-deepen-ai-spending-woes-4986163",
+      "published": "2026-10-31 00:42:51",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Is the market too bearish on aluminium?",
+      "link": "https://www.investing.com/news/stock-market-news/is-the-market-too-bearish-on-aluminium-4988986",
+      "published": "2026-10-31 00:40:08",
+      "source": "www.investing.com"
+    }
+  ],
+  "narratives": {
+    "ai_fear": {
+      "count": 2,
+      "examples": [
+        {
+          "title": "Has the tech bubble burst? Why the Nasdaq\u2019s rough ride looks eerily like 2000.",
+          "link": "https://www.marketwatch.com/story/has-the-tech-bubble-burst-why-the-nasdaqs-rough-ride-looks-eerily-like-2000-5bcefcb2?mod=mw_rss_topstories",
+          "published": "Fri, 30 Oct 2026 23:14:00 GMT",
+          "source": "feeds.content.dowjones.io"
+        },
+        {
+          "title": "Meta outlook revised downward by S&P on cash flow and capex concerns",
+          "link": "https://www.cnbc.com/2026/10/30/meta-outlook-to-revised-to-negative-by-sp-after-cash-flow-negative.html",
+          "published": "Fri, 30 Oct 2026 22:42:26 GMT",
+          "source": "www.cnbc.com"
+        }
+      ]
+    },
+    "ai_efficiency": {
+      "count": 0,
+      "examples": []
+    },
+    "leverage": {
+      "count": 0,
+      "examples": []
+    }
+  }
+}

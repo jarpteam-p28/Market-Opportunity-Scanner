@@ -1,30 +1,31 @@
-# Market Opportunity Scan — 2026-10-24
-_Data through 2026-10-24. Research only, not investment advice._
+# Market Opportunity Scan — 2026-10-31
+_Data through 2026-10-31. Research only, not investment advice._
 
 ## Thesis (agents)
-**Weekly thesis, 24 Oct 2026**
+## Weekly Thesis, 31 Oct 2026
 
 **1. Where we are**
-The regime is MIXED (2/4), not risk-on. SPY is above its 200-day but below its 50-day. VIX is 19.45 (+24% in a month), credit is softening, and the 10-year sits at 4.99%, right at the 5% line. Money is rotating out of megacaps and the AI chain (SMH -12%) into energy, utilities and staples.
+The regime is mixed with a risk-off tilt (2/4). SPY is below its 50-day but above its 200-day, VIX is 19.4, credit is weakening, and the 10-year at 4.93% sits just under the 5% line. This is rotation, not a broad advance: Mag 7 is -9.7% over a month while equal-weight is +4.5%.
 
 **2. What is working**
-Energy, utilities and staples lead, and their participation is broad. That is real rotation, and the price and breadth agree. Among themes, only AI software is confirmed (NOW +12% this week). Efficiency, distribution moats and water are "stealth" themes: prices are up but talk is quiet. The talk does not support them yet. Efficiency Google Trends is -15%, ACN alone is +41.7%, and the moats and water baskets look like a defensive bid. Every AI-infrastructure theme is below its 50-day. The social-arbitrage hunter failed this week, so the ideas below rest on the other reports.
+Energy, Staples and Health Care lead, and participation is broad (nearly every name in each sector is above its averages). The talk roughly matches the price here. The "AI users beat AI builders" story (efficiency, moats, water) is up in price, but its evidence is thin: Google Trends and price only, with no headlines and no Reddit data. The AI infrastructure chain is breaking (SMH -15%, CRWV -38%), and talk about it is fear, not enthusiasm. The social-arbitrage analyst failed this week, so the ideas below rest on sector, theme and sentiment data only.
 
-**3. Opportunities** (the first two are the best-supported)
-- **TTWO (GTA 6, Nov 19):** Search is +226% year on year, yet the stock is 3M -16.5% and flat for the month. Put/call is 2.43, so options are cautious. Confirm with strong trailer and comment sentiment and a solid Nov 9 earnings report. Kill it on any delay past the holidays. *Plan:* small starter now, add only after earnings if the date holds, exit on a delay.
-- **AI software (NOW; MSFT is crowded at +35% for the quarter):** Price and talk agree. Confirm with MSFT and GOOGL results on 10/28 and NOW holding its 50-day. Kill it if NOW loses the 50-day or hyperscaler capex guidance disappoints. *Plan:* starter after the 10/28 reaction, add on confirmed strength.
-- **Power and utilities (TLN):** Broad rotation, but CEG and VST lag. Confirm with sector breadth holding. Kill it if the 10-year closes above 5% and utilities break down. *Plan:* starter; add on drops only if the cause is rates noise.
-- **Water (AWK, VLTO):** Quiet, steady relative strength. This is likely a defensive bid, so conviction is low. *Plan:* watch, with a tiny starter at most.
-- **Efficiency (ACN):** The move is narrow and already made, so I would not chase it. Revisit if the basket broadens beyond ACN.
+**3. Opportunities** (all low conviction, small starters only)
+- **Memory (MU, SNDK):** Searches are up about 480% while prices are down 18%. The market may be treating this as an AI-spending casualty. *Confirm:* price reclaims its 50-day, and the reason for the searches turns out to be demand. *Kill:* AI-lab spending cuts. *Plan:* tiny starter, add only on confirmation, add on drops only if the cause is noise.
+- **Distribution moats (WMT):** Price is leading and talk is quiet. WMT is already +18.5%, so the risk is that it is late. *Confirm:* it holds above its 50-day through a pullback. *Kill:* the theme loses its relative strength. *Plan:* starter on a pullback, not a chase.
+- **Water (AWK, VLTO):** Stealth strength (+7 RS) with little coverage. *Confirm:* RS holds as the market stabilises. *Kill:* it fades as a defensive trade once yields settle. *Plan:* starter, add on confirmation, exit if RS turns negative.
+- **Power (TLN, CEG):** The only infrastructure theme with positive 3-month RS. TLN reports Nov 3. *Confirm:* a clean earnings reaction. *Kill:* weakness spreading from the AI chain. *Plan:* wait for the print, then a starter.
+- **TTWO into GTA 6 (earnings Nov 9, launch Nov 19):** TTWO is -22% over 3 months, so expectations look cautious. This is a binary event with no evidence yet on engagement. *Confirm:* the launch date holds and the guidance is solid. *Kill:* a delay. *Plan:* small starter after earnings, exit if the news becomes public and the price has already moved.
 
-**4. Risks that matter**
-- A 10-year above 5% (about 30% odds) could force a sell-off.
-- The AI chain is stressed: CRWV is -39.8%, and ORCL and GOOGL are below both their 50-day and 200-day averages.
-- Earnings are clustered: MSFT and GOOGL on 10/28, AMZN on 10/29, CRWV on 11/11 and NVDA on 11/17.
-- The Reddit, X and fear meters are blank. Absence of data is not safety.
-- Rough odds: 45% choppy rotation, 30% rates sell-off, 25% relief rally.
+I would not chase RDDT, INTC, NOW, CROX or VRT, because their big moves have no known reason. The social-media scare flags on Pokémon cards and Starbucks need checking first.
 
-**Sizing:** Low or medium conviction means a small starter position only. High conviction needs several independent sources to agree (price, talk and ground truth) and a supportive regime. If unsure, trim half rather than all.
+**4. Risks**
+- The 10-year is 7bp from 5%. A break above would pressure everything.
+- AI de-risking could get forced (35% odds), and there is no leverage data to rule it out. CRWV reports Nov 10 and NVDA Nov 17.
+- The "broadening" is mostly mega-cap decline, not new strength.
+- I'd be wrong if the 10-year holds below 4.8%, SMH retakes its 50-day, and VIX drops below 16.
+
+**Sizing:** Low or medium conviction means a small starter only. High conviction needs several independent sources to agree (price, talk and ground truth) and a supportive regime. If unsure, trim half, not all.
 
 *This is research, not investment advice.*
 
@@ -33,266 +34,260 @@ Energy, utilities and staples lead, and their participation is broad. That is re
 
 | | Last | 1 wk | 1 mo | 3 mo | YTD | >50d | >200d |
 |---|---|---|---|---|---|---|---|
-| S&P 500 (SPY) | 759.97 | -0.4% | -0.9% | +3.1% | +12.3% | ❌ | ✅ |
+| S&P 500 (SPY) | 755.72 | -0.6% | -1.1% | -0.0% | +11.7% | ❌ | ✅ |
 
-- VIX 19.45 · 10-yr yield 4.99 · dollar 1-mo +0.9%
-- Equal-weight vs S&P (1 mo): +4.0% · small caps vs S&P: -1.2% · credit appetite (HYG/IEF): -2.5%
+- VIX 19.42 · 10-yr yield 4.93 · dollar 1-mo +0.1%
+- Equal-weight vs S&P (1 mo): +5.6% · small caps vs S&P: +1.2% · credit appetite (HYG/IEF): -2.0%
 - 10-year yield below the 5% danger line
-- Breadth: 56.5% of sector top-10 names above their 50-day, 63.0% above 200-day
+- Breadth: 64.8% of sector top-10 names above their 50-day, 63.0% above 200-day
 
 ## 2. Is it only the Magnificent 7?
-**Roughly balanced**
+**Broadening: the average stock is keeping up or leading**
 
 | | 1 wk | 1 mo | 3 mo | YTD |
 |---|---|---|---|---|
-| Mag 7 (equal weight) | -3.4% | -6.4% | -0.3% | -2.8% |
-| S&P 500 | -0.4% | -0.9% | +3.1% | +12.3% |
-| Average stock (RSP) | +1.1% | +3.0% | +1.0% | +14.4% |
+| Mag 7 (equal weight) | -3.2% | -9.7% | -5.8% | -5.9% |
+| S&P 500 | -0.6% | -1.1% | -0.0% | +11.7% |
+| Average stock (RSP) | +0.8% | +4.5% | +0.9% | +15.3% |
 
-Each: AAPL +3.5% (1 mo) · MSFT +5.3% (1 mo) · NVDA -6.1% (1 mo) · GOOGL -6.5% (1 mo) · AMZN -0.6% (1 mo) · META -17.4% (1 mo) · TSLA -1.5% (1 mo)
-Mag 7 = 41.2% of the market cap of all tracked large caps.
+Each: AAPL +4.3% (1 mo) · MSFT +1.8% (1 mo) · NVDA -11.4% (1 mo) · GOOGL -17.3% (1 mo) · AMZN -3.2% (1 mo) · META -15.3% (1 mo) · TSLA +12.9% (1 mo)
+Mag 7 = 40.2% of the market cap of all tracked large caps.
 
 ## 3. Sector rotation (vs S&P, last month)
 | Rank | Sector | 1 wk | 1 mo | 3 mo | vs S&P 1 mo | Rank change vs last week | >50d | >200d |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Energy (XLE) | +1.6% | +10.8% | +19.5% | +11.7% | = | ✅ | ✅ |
-| 2 | Utilities (XLU) | +0.8% | +8.1% | -6.1% | +9.1% | ▲2 | ✅ | ❌ |
-| 3 | Consumer Staples (XLP) | +0.7% | +8.0% | +4.1% | +9.0% | ▼1 | ✅ | ✅ |
-| 4 | Health Care (XLV) | +1.5% | +5.5% | +10.1% | +6.5% | ▼1 | ✅ | ✅ |
-| 5 | Materials (XLB) | +0.8% | +3.3% | +0.3% | +4.2% | ▲1 | ✅ | ✅ |
-| 6 | Consumer Discretionary (XLY) | +0.6% | +2.5% | +2.3% | +3.5% | ▼1 | ❌ | ❌ |
-| 6 | Financials (XLF) | +0.7% | +2.5% | -1.4% | +3.5% | ▲1 | ❌ | ✅ |
-| 8 | Real Estate (XLRE) | +1.0% | +2.2% | -6.2% | +3.1% | ▲1 | ❌ | ❌ |
-| 9 | Industrials (XLI) | -1.9% | -2.5% | -9.9% | -1.6% | ▼1 | ❌ | ❌ |
-| 10 | Technology (XLK) | -0.1% | -5.9% | +5.2% | -5.0% | ▲1 | ❌ | ✅ |
-| 11 | Communication (XLC) | -4.4% | -7.4% | -1.7% | -6.5% | ▼1 | ❌ | ❌ |
+| 1 | Energy (XLE) | +1.0% | +11.7% | +19.8% | +12.8% | = | ✅ | ✅ |
+| 2 | Consumer Staples (XLP) | +1.3% | +11.3% | +6.1% | +12.4% | ▲1 | ✅ | ✅ |
+| 3 | Health Care (XLV) | +3.1% | +11.2% | +14.4% | +12.3% | ▲1 | ✅ | ✅ |
+| 4 | Utilities (XLU) | +2.0% | +9.5% | -1.4% | +10.5% | ▼2 | ✅ | ❌ |
+| 5 | Materials (XLB) | +2.8% | +8.7% | +3.9% | +9.7% | = | ✅ | ✅ |
+| 6 | Real Estate (XLRE) | +1.4% | +6.1% | -3.6% | +7.2% | ▲2 | ✅ | ✅ |
+| 7 | Consumer Discretionary (XLY) | +2.0% | +6.0% | -2.2% | +7.1% | ▼1 | ✅ | ✅ |
+| 8 | Financials (XLF) | +1.1% | +5.7% | -1.2% | +6.8% | ▼2 | ✅ | ✅ |
+| 9 | Industrials (XLI) | +1.7% | -0.7% | -8.4% | +0.3% | = | ❌ | ❌ |
+| 10 | Communication (XLC) | -5.3% | -9.1% | -10.0% | -8.0% | ▲1 | ❌ | ❌ |
+| 11 | Technology (XLK) | -2.0% | -9.3% | +0.9% | -8.2% | ▼1 | ❌ | ✅ |
 
 ## 4. Talk vs. tape: themes
 | Theme | 1 mo | 3 mo | vs S&P 1 mo | Reddit talk change | Google Trends change | X | Read |
 |---|---|---|---|---|---|---|---|
-| AI efficiency wave | +7.4% | +3.5% | +8.3% | – | -15.3% | – | STEALTH - price leading, talk quiet |
-| Distribution moats | +7.3% | -0.1% | +8.3% | – | – | – | STEALTH - price leading, talk quiet |
-| Water | +6.0% | +1.3% | +6.9% | – | -27.8% | – | STEALTH - price leading, talk quiet |
-| AI software | +1.2% | +7.9% | +2.1% | – | +28.9% | – | CONFIRMED - talk and price both rising |
-| Precious metals | -7.0% | -10.8% | -6.1% | – | -3.0% | – | NEUTRAL |
-| Robotics | -7.8% | +0.4% | -6.9% | – | -28.7% | – | NEUTRAL |
-| Power for AI | -8.2% | +0.4% | -7.2% | – | -10.9% | – | NEUTRAL |
-| Copper & grid materials | -9.7% | -14.6% | -8.8% | – | -18.4% | – | NEUTRAL |
-| Cooling | -12.5% | -7.2% | -11.5% | – | -23.6% | – | NEUTRAL |
-| AI data centers | -13.6% | -7.5% | -12.7% | – | -16.5% | – | NEUTRAL |
-| Nuclear | -13.8% | -28.4% | -12.9% | – | -14.0% | – | NEUTRAL |
-| AI chips | -16.4% | -1.7% | -15.4% | – | -20.5% | – | NEUTRAL |
-| Crypto | -18.2% | -15.4% | -17.2% | – | -20.0% | – | NEUTRAL |
-| Memory chips | -23.5% | -14.5% | -22.6% | – | -100.0% | – | NEUTRAL |
+| Distribution moats | +6.4% | +3.4% | +7.5% | – | – | – | STEALTH - price leading, talk quiet |
+| AI efficiency wave | +6.3% | +5.0% | +7.3% | – | +56.1% | – | CONFIRMED - talk and price both rising |
+| Water | +5.9% | +2.1% | +7.0% | – | -5.2% | – | STEALTH - price leading, talk quiet |
+| Robotics | -8.3% | -1.8% | -7.2% | – | -23.7% | – | NEUTRAL |
+| Power for AI | -11.2% | +2.8% | -10.1% | – | -11.8% | – | NEUTRAL |
+| Cooling | -11.5% | -4.9% | -10.4% | – | -20.2% | – | NEUTRAL |
+| Copper & grid materials | -12.5% | -15.5% | -11.5% | – | -9.8% | – | NEUTRAL |
+| Nuclear | -12.8% | -28.3% | -11.7% | – | -8.8% | – | NEUTRAL |
+| Precious metals | -13.3% | -12.2% | -12.2% | – | +5.7% | – | NEUTRAL |
+| AI data centers | -13.6% | -7.7% | -12.5% | – | -13.1% | – | NEUTRAL |
+| AI software | -14.7% | -12.3% | -13.7% | – | +5.8% | – | NEUTRAL |
+| Crypto | -15.4% | -18.4% | -14.3% | – | -6.0% | – | NEUTRAL |
+| AI chips | -17.0% | -7.4% | -15.9% | – | -7.9% | – | NEUTRAL |
+| Memory chips | -18.2% | -18.3% | -17.1% | – | +479.7% | – | EARLY - talk rising, price not yet (social-arbitrage watch) |
 
-- **AI efficiency wave** leaders (1 mo): ACN +41.7%, CNC +13.3%, UNH +11.5%
-- **Distribution moats** leaders (1 mo): COST +11.9%, WMT +11.4%, PG +11.3%
-- **Water** leaders (1 mo): VLTO +8.6%, AWK +8.5%, WTRG +8.5%
-- **AI software** leaders (1 mo): NOW +15.4%, MSFT +5.3%, DDOG +5.0%
-- **Precious metals** leaders (1 mo): NEM -10.2%, AEM -10.3%, WPM -16.0%
-- **Robotics** leaders (1 mo): ISRG +13.2%, TSLA -1.5%, ROK -1.6%
-- **Power for AI** leaders (1 mo): TLN +9.3%, VST +1.6%, CEG -3.1%
-- **Copper & grid materials** leaders (1 mo): SCCO -8.2%, FCX -9.4%, TECK -11.2%
-- **Cooling** leaders (1 mo): CARR +2.5%, TT +1.5%, JCI -1.0%
-- **AI data centers** leaders (1 mo): CSCO -0.1%, DLR -4.8%, EQIX -7.7%
-- **Nuclear** leaders (1 mo): BWXT -8.3%, CCJ -10.8%, NNE -28.6%
-- **AI chips** leaders (1 mo): NVDA -6.1%, TSM -7.2%, AVGO -8.2%
-- **Crypto** leaders (1 mo): MSTR -9.7%, COIN -17.4%, HOOD -21.3%
-- **Memory chips** leaders (1 mo): MU -18.8%, WDC -23.7%, SNDK -29.4%
+- **Distribution moats** leaders (1 mo): WMT +18.5%, HD +16.5%, UPS +15.3%
+- **AI efficiency wave** leaders (1 mo): ACN +22.6%, WMT +18.5%, UPS +15.3%
+- **Water** leaders (1 mo): VLTO +17.4%, AWK +12.9%, WTRG +12.5%
+- **Robotics** leaders (1 mo): TSLA +12.9%, ISRG +7.7%, ROK -1.4%
+- **Power for AI** leaders (1 mo): TLN +6.2%, CEG +1.3%, NRG -0.9%
+- **Cooling** leaders (1 mo): JCI -1.8%, CARR -2.5%, VRT -5.5%
+- **Copper & grid materials** leaders (1 mo): TECK -7.1%, FCX -9.6%, SCCO -10.9%
+- **Nuclear** leaders (1 mo): BWXT -4.5%, CCJ -10.2%, LEU -25.7%
+- **Precious metals** leaders (1 mo): NEM -7.0%, AEM -8.4%, WPM -12.6%
+- **AI data centers** leaders (1 mo): DLR +2.4%, EQIX +0.1%, CSCO -3.5%
+- **AI software** leaders (1 mo): MSFT +1.8%, PLTR -3.1%, CRM -3.2%
+- **Crypto** leaders (1 mo): MSTR -18.7%, HOOD -23.5%, COIN -24.2%
+- **AI chips** leaders (1 mo): AVGO -5.1%, NVDA -11.4%, TSM -11.6%
+- **Memory chips** leaders (1 mo): MU -19.4%, WDC -20.9%, STX -31.8%
 
 ## 5a. AI concentration-risk watch
-**Stress in the AI chain: ORCL, CRWV, GOOGL** (chip index SMH 1 mo -12.2%)
+**Stress in the AI chain: ORCL, CRWV, AMZN, GOOGL, META** (chip index SMH 1 mo -15.4%)
 
 | Ticker | 1 mo | 3 mo | vs chips 1 mo | >50d | >200d |
 |---|---|---|---|---|---|
-| ORCL | -9.3% | +5.6% | +3.0% | ❌ | ❌ |
-| CRWV | -39.8% | -23.4% | -27.6% | ❌ | ❌ |
-| NVDA | -6.1% | +7.5% | +6.1% | ❌ | ✅ |
-| MSFT | +5.3% | +35.1% | +17.5% | ✅ | ✅ |
-| AMZN | -0.6% | +7.2% | +11.7% | ❌ | ✅ |
-| GOOGL | -6.5% | -1.9% | +5.7% | ❌ | ❌ |
-| META | -17.4% | +8.3% | -5.1% | ❌ | ✅ |
+| ORCL | -5.0% | -7.5% | +10.4% | ❌ | ❌ |
+| CRWV | -38.0% | -36.0% | -22.6% | ❌ | ❌ |
+| NVDA | -11.4% | -0.9% | +4.1% | ❌ | ✅ |
+| MSFT | +1.8% | +7.2% | +17.2% | ✅ | ✅ |
+| AMZN | -3.2% | -15.4% | +12.3% | ❌ | ❌ |
+| GOOGL | -17.3% | -25.0% | -1.8% | ❌ | ❌ |
+| META | -15.3% | +4.3% | +0.1% | ❌ | ❌ |
 
 ## 5e. Narrative meters (talk vs its own usual level)
 | Narrative | Reddit per 1k posts | Change | Headlines per 1k | Change | Dev/IT posts | Accelerating? |
 |---|---|---|---|---|---|---|
-| AI fear / FUD | – | – | 20.0 | – | 0 | no |
+| AI fear / FUD | – | – | 40.0 | +700.0% | 0 | ⚠️ yes |
 | AI efficiency evidence | – | – | 0.0 | – | 0 | no |
 | Leverage / forced selling | – | – | 0.0 | – | 0 | no |
-- AI fear / FUD examples: [Moonshot curbs hacking ability in new Kimi model as fears grow over AI-powered cyberattack](https://www.investing.com/news/stock-market-news/moonshot-curbs-hacking-ability-in-new-kimi-model-as-fears-grow-over-aipowered-cyberattacks-4970639)
+- AI fear / FUD examples: [Has the tech bubble burst? Why the Nasdaq’s rough ride looks eerily like 2000.](https://www.marketwatch.com/story/has-the-tech-bubble-burst-why-the-nasdaqs-rough-ride-looks-eerily-like-2000-5bcefcb2?mod=mw_rss_topstories) · [Meta outlook revised downward by S&P on cash flow and capex concerns](https://www.cnbc.com/2026/10/30/meta-outlook-to-revised-to-negative-by-sp-after-cash-flow-negative.html)
 
 ## 5b. Rising talk on Reddit (at least double the usual mentions)
 | Ticker | Mentions | Usual | Change | 1 mo price | >50d |
 |---|---|---|---|---|---|
-| FIGR | 22 | 0.0 | +2200.0% | – | – |
-| CRDO | 11 | 0.0 | +1100.0% | – | – |
-| HR | 7 | 0.0 | +700.0% | – | – |
-| VZ | 6 | 0.0 | +600.0% | -4.2% | ❌ |
-| XXII | 5 | 0.0 | +500.0% | – | – |
-| BE | 51 | 8.0 | +477.8% | -27.5% | ❌ |
-| GOOG | 50 | 18.0 | +168.4% | – | – |
-| WDC | 18 | 8.0 | +111.1% | -23.7% | ❌ |
-| RDDT | 15 | 7.0 | +100.0% | -5.5% | ❌ |
-| LUNR | 6 | 2.5 | +100.0% | – | – |
+| INTC | 120 | 10.2 | +975.6% | – | – |
+| RDDT | 263 | 25.0 | +915.4% | -38.7% | ❌ |
+| TTM | 7 | 0.0 | +700.0% | – | – |
+| NRXP | 6 | 0.0 | +600.0% | – | – |
+| CAN | 5 | 0.0 | +500.0% | – | – |
+| UI | 8 | 0.5 | +500.0% | – | – |
+| INO | 5 | 0.0 | +500.0% | – | – |
+| KO | 14 | 2.2 | +361.5% | +9.3% | ✅ |
+| AAA | 8 | 1.2 | +300.0% | – | – |
+| CAT | 7 | 1.5 | +220.0% | -24.5% | ❌ |
+| VXUS | 8 | 2.0 | +200.0% | – | – |
+| IBKR | 5 | 1.0 | +200.0% | – | – |
+| SGOV | 16 | 5.0 | +183.3% | – | – |
+| AMD | 101 | 35.8 | +177.6% | -18.0% | ❌ |
+| TSM | 8 | 2.2 | +176.9% | -11.6% | ❌ |
 
 ## 5c. Consumer social-arb watch (Google searches, last 4 weeks vs prior 12)
 | Search term | Ticker | Search vs prior 12 wks | vs same weeks last year | 12-mo high | YouTube buying-intent /100 comments | Scare posts | 1 mo price | 3 mo price | vs rival 3 mo | Mkt cap $B | Short % | Read |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| uggs | DECK | +160.4% | -20.0% | ❌ | 2.8 | 0 | +3.1% | -17.0% | – | 11.0 | +9.7% | 🔥 EARLY - search spike, price and news not there yet: verify (stores, reviews, analyst coverage) |
-| barbie | MAT | +15.4% | -6.2% | ❌ | – | 0 | +24.9% | +10.9% | – | 4.7 | +16.7% |  |
-| gta 6 | TTWO | +7.1% | +225.8% | ❌ | 2.7 | 0 | +0.3% | -16.5% | – | 38.1 | +5.0% | 🔥 EARLY - search spike, price and news not there yet: verify (stores, reviews, analyst coverage) |
-| sweetgreen | SG | +0.4% | -5.8% | ❌ | 0.0 | 0 | +18.9% | +59.2% | – | 1.2 | +26.6% |  |
-| pokemon cards | NTDOY | -2.5% | +71.6% | ❌ | 13.1 | 0 | +5.7% | +18.2% | – | 62.4 | – | ⚠️ CAUTION - scare/negative-virality talk rising: check if it is true |
-| cava | CAVA | -4.7% | +6.4% | ❌ | 0.0 | 0 | -0.1% | -17.1% | – | 6.2 | +14.4% |  |
-| dutch bros | BROS | -8.1% | +3.7% | ❌ | 3.6 | 0 | +7.7% | -36.8% | SBUX -34.7% | 7.3 | +50.5% |  |
-| starbucks | SBUX | -9.0% | -22.9% | ❌ | 3.8 | 0 | +7.6% | -2.2% | – | 114.9 | +4.1% |  |
-| celsius energy drink | CELH | -13.2% | -28.4% | ❌ | 6.4 | 0 | +0.1% | -1.1% | – | 7.2 | +12.4% |  |
-| elf cosmetics | ELF | -13.7% | -18.2% | ❌ | 3.6 | 0 | +13.6% | +36.0% | – | 6.7 | +8.2% |  |
-| hims | HIMS | -13.9% | -30.4% | ❌ | 0.0 | 0 | -5.4% | -8.4% | – | 6.5 | +28.2% |  |
-| labubu | 9992.HK | -15.4% | -90.8% | ❌ | 7.6 | 0 | -14.6% | -18.1% | – | 174.1 | – |  |
-| robinhood | HOOD | -18.0% | -31.5% | ❌ | 3.3 | 0 | -21.3% | -0.6% | – | 85.5 | +5.1% |  |
-| swatch | UHR.SW | -20.8% | +27.3% | ❌ | 6.0 | 0 | -5.6% | -0.2% | – | 8.8 | – |  |
-| hoka | DECK | -21.3% | -13.4% | ❌ | 6.8 | 0 | +3.1% | -17.0% | – | 11.0 | +9.7% |  |
-| coconut water | COCO | -21.8% | +22.3% | ❌ | 1.2 | 0 | -4.5% | -16.1% | – | 3.2 | +16.1% |  |
-| on running shoes | ONON | -21.8% | +8.1% | ❌ | 9.2 | 0 | +6.7% | -12.3% | NKE -1.7% | 10.9 | +11.1% |  |
-| birkenstock | BIRK | -22.6% | -2.9% | ❌ | 0.0 | 0 | +2.5% | -21.6% | – | 5.4 | +13.4% |  |
-| ozempic | NVO | -23.7% | -41.2% | ❌ | 2.8 | 0 | +1.1% | -20.4% | – | 172.3 | +1.0% |  |
-| build a bear | BBW | -28.1% | +4.7% | ❌ | 16.2 | 0 | -5.2% | -29.7% | – | 0.3 | +27.4% |  |
-| crocs | CROX | -32.8% | -7.2% | ❌ | 0.3 | 0 | -3.4% | -11.4% | – | 5.7 | +14.0% |  |
+| uggs | DECK | +137.0% | -31.4% | ❌ | 5.9 | 0 | +3.0% | -17.6% | – | 10.9 | +9.1% | 🔥 EARLY - search spike, price and news not there yet: verify (stores, reviews, analyst coverage) |
+| gta 6 | TTWO | +30.1% | +254.3% | ❌ | 5.8 | 0 | -6.6% | -22.4% | – | 35.6 | +5.2% | 🔥 LATE - price already ran / in the news |
+| sweetgreen | SG | -0.8% | -8.3% | ❌ | – | 0 | +27.5% | +87.0% | – | 1.3 | +25.8% |  |
+| labubu | 9992.HK | -2.7% | -89.7% | ❌ | 10.7 | 0 | -12.7% | -17.0% | – | 178.4 | – |  |
+| cava | CAVA | -5.7% | +4.5% | ❌ | 0.0 | 0 | +8.0% | -8.9% | – | 6.9 | +14.7% |  |
+| pokemon cards | NTDOY | -9.3% | +61.4% | ❌ | 3.8 | 0 | +5.2% | +8.0% | – | 60.4 | – | ⚠️ CAUTION - scare/negative-virality talk rising: check if it is true |
+| starbucks | SBUX | -10.5% | -35.4% | ❌ | 1.2 | 0 | +9.3% | +0.9% | – | 118.2 | +4.3% | ⚠️ CAUTION - scare/negative-virality talk |
+| hims | HIMS | -11.0% | -29.1% | ❌ | 0.0 | 0 | -5.5% | -10.2% | – | 6.5 | +27.6% |  |
+| celsius energy drink | CELH | -11.7% | -30.6% | ❌ | 0.0 | 0 | +6.2% | +3.2% | – | 7.4 | +12.1% |  |
+| dutch bros | BROS | -12.1% | -4.9% | ❌ | 2.2 | 0 | +11.0% | -34.0% | SBUX -34.9% | 7.5 | +49.1% |  |
+| elf cosmetics | ELF | -13.3% | -17.3% | ❌ | 3.4 | 0 | +7.3% | +35.2% | – | 6.6 | +8.8% |  |
+| ozempic | NVO | -14.9% | -37.7% | ❌ | 2.9 | 0 | +7.0% | -14.0% | – | 176.4 | +1.2% |  |
+| robinhood | HOOD | -15.8% | -28.7% | ❌ | 1.8 | 0 | -23.5% | -5.9% | – | 76.5 | +4.7% |  |
+| on running shoes | ONON | -19.0% | +2.5% | ❌ | 6.3 | 0 | +11.9% | -11.0% | NKE -2.6% | 11.3 | +13.1% |  |
+| coconut water | COCO | -21.2% | +17.6% | ❌ | 0.0 | 0 | +2.6% | -7.7% | – | 3.3 | +15.1% |  |
+| hoka | DECK | -21.9% | -21.4% | ❌ | 9.3 | 0 | +3.0% | -17.6% | – | 10.9 | +9.1% |  |
+| birkenstock | BIRK | -23.3% | -10.6% | ❌ | 0.0 | 0 | +1.4% | -14.0% | – | 5.5 | +15.6% |  |
+| swatch | UHR.SW | -25.0% | +18.2% | ❌ | 5.9 | 0 | -1.6% | -2.7% | – | 9.4 | – |  |
+| crocs | CROX | -32.0% | -9.2% | ❌ | 0.0 | 0 | +26.2% | +11.6% | – | 6.9 | +13.4% |  |
+| build a bear | BBW | -34.6% | -8.9% | ❌ | 16.5 | 0 | +8.7% | -17.6% | – | 0.3 | +26.7% |  |
+| barbie | MAT | +0.0% | -14.3% | ❌ | 0.0 | 0 | +2.5% | +3.6% | – | 4.4 | +15.2% |  |
 
 ## 5h. Discovery: new things people are talking about (wide funnel, not yet on any list)
-- Google rising searches for 'sold out': calvin harris sold out (+50500%), caitlin clark shoes (+24500%), carlsbad caverns cheetos impact (+20000%), blueberries and older adult mood (+19800%), cheapest flights to tokyo (+16300%), ram 1500 rumble bee sold out (+14100%)
-- Google rising searches for 'restock': when does kohls restock needohs (+1050%), when does costco restock pokemon cards (+400%), zelda 40th anniversary switch 2 restock (+200%), needoh advent calendar (+110%), costco pokemon restock (+80%), when does tjmaxx restock (+70%)
-- Google rising searches for 'dupe': heavenly hunks dupe loops mini donuts (+17800%), club de nuit bling dupe of (+6350%), rayhaan vantage dupe of (+650%), rayhaan equinox dupe of (+350%), rayhaan azul dupe of (+300%), fire on ice lattafa dupe of (+200%)
-- Google rising searches for 'viral': extremely small dachshund puppy viral (+51300%), ericka alvarez viral baseball backlash (+47900%), viral coyote pear tree video (+44150%), mike satterlee viral business success (+28300%), angelina jolie handwriting viral note (+20350%), trump suit tags viral photo (+13850%)
-- Google rising searches for 'new flavor': mountain dew 2027 new flavor (+462400%), doritos new flavor (+10000%), bloom new flavor (+600%), celsius new flavor (+160%)
-- Google rising searches for 'where to buy': where to buy red dye diesel (+5800%), where to buy pumpkins near me (+400%), where to buy pumpkins (+350%), where to buy colored contacts (+250%)
-- Google rising searches for 'shortage': europe e-bike mechanic shortage (+44500%), omaha gas shortage (+33600%), maryland water shortage (+29200%), zyn shortage (+12800%), us embargo cuba medicine shortage (+12400%), gas shortage omaha ne (+11850%)
-- Google rising searches for 'waitlist': claude projects waitlist (+11600%), claude code projects waitlist (+8800%), cheapest flights to tokyo (+7450%), red robin waitlist (+6000%), gringos waitlist (+5450%), sushi bomb waitlist (+2250%)
+- Google rising searches for 'sold out': calvin harris sold out (+51850%), blueberries and older adult mood (+22550%), caitlin clark shoes (+21050%), ram 1500 rumble bee sold out (+14150%), are calvin harris tickets sold out (+12100%), chilis new chicken parm big crispy (+10600%)
+- Google rising searches for 'restock': when does kohls restock needohs (+15350%), iphone duo restock (+1900%), do wandering traders restock (+250%), zelda 40th anniversary switch 2 restock (+250%), do villagers need beds to restock (+120%), when does jellycat restock (+120%)
+- Google rising searches for 'dupe': heavenly hunks dupe loops mini donuts (+111950%), dollar tree pottery barn stocking dupe (+67350%), costco lola blanket dupe (+10450%), rayhaan equinox dupe of (+6600%), club de nuit bling dupe of (+300%), rayhaan azul dupe of (+300%)
+- Google rising searches for 'viral': mike satterlee viral business success (+23950%), angelina jolie handwriting viral note (+18400%), trump suit tags viral photo (+12350%), anne hathaway verity premiere viral video (+10350%), michael lolley little league viral video (+7250%), viral coyote pear tree video (+7050%)
+- Google rising searches for 'new flavor': oreo permanent new flavor additions (+389400%), doritos new flavor (+8850%), mountain dew 2027 new flavor (+7400%), bloom (+350%), new oreo flavor (+300%), redbull (+50%)
+- Google rising searches for 'where to buy': where to buy red dye diesel (+5400%), dove perfume where to buy (+1850%), where to buy colored contacts (+750%), c4 all hopped up where to buy (+550%), where to buy halloween costumes (+500%), where to buy pumpkins near me (+450%)
+- Google rising searches for 'shortage': europe e-bike mechanic shortage (+47850%), italy food shortage (+34650%), nebraska gas shortage (+24650%), bali fuel shortage (+14400%), gas shortage omaha ne (+11200%), nebraska fuel shortage (+10800%)
+- Google rising searches for 'waitlist': duet waitlist (+188700%), claude duet (+169800%), claude duet waitlist (+165300%), cheapest flights to tokyo (+11450%), anthropic duet waitlist (+8350%), red robin waitlist (+6100%)
 
 ## 5f. Catalyst calendar
-**GTA 6 launch** — 2026-11-19 (26 days away). Benchmarks: Street year-1 units ~30-50M; online spend per monthly user ~$20-60; GTA 5 online still ~$0.6B/yr
+**GTA 6 launch** — 2026-11-19 (19 days away). Benchmarks: Street year-1 units ~30-50M; online spend per monthly user ~$20-60; GTA 5 online still ~$0.6B/yr
 
 | Ticker | Role | 1 wk | 1 mo | 3 mo |
 |---|---|---|---|---|
-| TTWO | main | -0.8% | +0.3% | -16.5% |
-| DASH | 2nd-order + | -5.2% | -4.3% | -2.7% |
-| UBER | 2nd-order + | -5.2% | -3.6% | -2.2% |
-| SONY | 2nd-order + | +4.8% | +13.4% | +17.0% |
-| MSFT | 2nd-order + | -0.9% | +5.3% | +35.1% |
-| NFLX | 2nd-order - | -6.6% | -8.2% | -6.5% |
+| TTWO | main | -6.6% | -6.6% | -22.4% |
+| DASH | 2nd-order + | -0.2% | -1.7% | -10.7% |
+| UBER | 2nd-order + | -2.2% | -3.9% | -8.9% |
+| SONY | 2nd-order + | -3.0% | +7.7% | +11.8% |
+| MSFT | 2nd-order + | -0.5% | +1.8% | +7.2% |
+| NFLX | 2nd-order - | -5.7% | -8.5% | -15.3% |
 
 ## 5g. Big movers on the watch list this week (is the reason material or noise?)
 | Ticker | 1 wk | 1 mo | Headlines found |
 |---|---|---|---|
-| PWR | -13.5% | -15.1% | – |
-| BE | -12.7% | -27.5% | – |
-| NOW | +12.0% | +15.4% | – |
-| CRWV | -11.7% | -39.8% | – |
-| GEV | -11.5% | -14.7% | – |
-| NRG | -11.0% | -5.7% | – |
-| LEU | -10.9% | -30.5% | – |
-| MOD | -10.4% | -32.3% | – |
-| WPM | -9.9% | -16.0% | – |
-| 9992.HK | -9.5% | -14.6% | – |
-| META | -9.4% | -17.4% | – |
-| DDOG | +9.1% | +5.0% | – |
-| RIOT | -8.7% | -46.6% | – |
-| ACN | +8.6% | +41.7% | – |
-| TECK | -8.6% | -11.2% | – |
-| AEM | -8.2% | -10.3% | – |
-| NEM | -8.2% | -10.2% | – |
+| NOW | -33.9% | -23.7% | – |
+| CROX | +26.2% | +26.2% | – |
+| VRT | +19.6% | -5.5% | – |
+| BBW | +16.1% | +8.7% | – |
+| XYL | -15.0% | -8.4% | – |
+| MRVL | -14.1% | -26.7% | – |
+| PWR | +13.6% | -6.3% | – |
+| COIN | -12.7% | -24.2% | – |
+| DDOG | -12.7% | -14.9% | – |
+| SG | +12.7% | +27.5% | – |
+| GOOGL | -12.6% | -17.3% | – |
+| TER | -11.2% | -34.0% | – |
+| HOOD | -10.6% | -23.5% | – |
+| MSTR | -10.6% | -18.7% | – |
+| CAVA | +9.8% | +8.0% | – |
 
 ## 5d. Most-mentioned tickers on Reddit (this scan)
 | Ticker | Mentions | 1 mo | >50d |
 |---|---|---|---|
-| SPY | 171 | -0.9% | ❌ |
-| MU | 93 | -18.8% | ❌ |
-| QQQ | 83 | -5.0% | ❌ |
-| NVDA | 52 | -6.1% | ❌ |
-| BE | 51 | -27.5% | ❌ |
-| GOOG | 50 | – | – |
-| TSLA | 41 | -1.5% | ✅ |
-| SPCX | 38 | – | – |
-| ASTS | 38 | – | – |
-| DTE | 36 | – | – |
-| USO | 33 | – | – |
-| GOOGL | 33 | -6.5% | ❌ |
-| MSFT | 31 | +5.3% | ✅ |
-| META | 30 | -17.4% | ❌ |
-| NBIS | 27 | – | – |
-| CRWV | 27 | -39.8% | ❌ |
-| AMZN | 24 | -0.6% | ❌ |
-| AAPL | 23 | +3.5% | ✅ |
-| SNDK | 23 | -29.4% | ❌ |
-| SOXL | 22 | – | – |
+| RDDT | 263 | -38.7% | ❌ |
+| GOOG | 126 | – | – |
+| INTC | 120 | – | – |
+| NVDA | 117 | -11.4% | ❌ |
+| SPY | 110 | -1.1% | ❌ |
+| QQQ | 106 | -6.9% | ❌ |
+| AMD | 101 | -18.0% | ❌ |
+| GOOGL | 70 | -17.3% | ❌ |
+| TSLA | 54 | +12.9% | ✅ |
+| VOO | 49 | – | – |
+| SNDK | 43 | -35.6% | ❌ |
+| AMZN | 42 | -3.2% | ❌ |
+| MU | 42 | -19.4% | ❌ |
+| DTE | 35 | – | – |
+| SOXL | 34 | – | – |
+| META | 34 | -15.3% | ❌ |
+| AAPL | 33 | +4.3% | ✅ |
+| MSFT | 30 | +1.8% | ✅ |
+| IT | 27 | – | – |
+| AGI | 22 | – | – |
 
 ## 5i. Earnings in the next 30 days (watch names)
 | Ticker | Date | Days away | 1 mo price |
 |---|---|---|---|
-| V | 2026-10-27 | 3 | +10.9% |
-| HOOD | 2026-10-27 | 3 | -21.3% |
-| MSFT | 2026-10-28 | 4 | +5.3% |
-| GOOGL | 2026-10-28 | 4 | -6.5% |
-| AMZN | 2026-10-29 | 5 | -0.6% |
-| SBUX | 2026-10-29 | 5 | +7.6% |
-| CROX | 2026-10-29 | 5 | -3.4% |
-| AAPL | 2026-11-02 | 9 | +3.5% |
-| CAVA | 2026-11-04 | 11 | -0.1% |
-| BROS | 2026-11-04 | 11 | +7.7% |
-| ELF | 2026-11-04 | 11 | +13.6% |
-| NVO | 2026-11-04 | 11 | +1.1% |
-| DASH | 2026-11-04 | 11 | -4.3% |
-| UBER | 2026-11-04 | 11 | -3.6% |
-| SG | 2026-11-05 | 12 | +18.9% |
-| NTDOY | 2026-11-05 | 12 | +5.7% |
-| MAT | 2026-11-05 | 12 | +24.9% |
-| SONY | 2026-11-05 | 12 | +13.4% |
-| VST | 2026-11-06 | 13 | +1.6% |
-| TTWO | 2026-11-09 | 16 | +0.3% |
-| CELH | 2026-11-09 | 16 | +0.1% |
-| HIMS | 2026-11-09 | 16 | -5.4% |
-| CRWV | 2026-11-11 | 18 | -39.8% |
-| ONON | 2026-11-11 | 18 | +6.7% |
-| NVDA | 2026-11-17 | 24 | -6.1% |
+| AAPL | 2026-11-02 | 2 | +4.3% |
+| TLN | 2026-11-03 | 3 | +6.2% |
+| CAVA | 2026-11-04 | 4 | +8.0% |
+| BROS | 2026-11-04 | 4 | +11.0% |
+| ELF | 2026-11-04 | 4 | +7.3% |
+| NVO | 2026-11-04 | 4 | +7.0% |
+| UBER | 2026-11-04 | 4 | -3.9% |
+| SG | 2026-11-05 | 5 | +27.5% |
+| CELH | 2026-11-05 | 5 | +6.2% |
+| NTDOY | 2026-11-05 | 5 | +5.2% |
+| MAT | 2026-11-05 | 5 | +2.5% |
+| SONY | 2026-11-05 | 5 | +7.7% |
+| TTWO | 2026-11-09 | 9 | -6.6% |
+| HIMS | 2026-11-09 | 9 | -5.5% |
+| CRWV | 2026-11-10 | 10 | -38.0% |
+| ONON | 2026-11-10 | 10 | +11.9% |
+| NVDA | 2026-11-17 | 17 | -11.4% |
 
 ## 5j. Insider buying, last 90 days (open-market purchases)
 | Ticker | Buys | $ bought | Sells | $ sold | Who bought | 1 mo price |
 |---|---|---|---|---|---|---|
-| UBER | 2 | 15,314,016 | 1 | 2,008,673 | KHOSROWSHAHI DARA (Chief Executive Officer); MACDONALD ANDREW (President) | -3.6% |
-| ONON | 2 | 3,987,580 | 2 | 59,978 | BERNHARD OLIVIER (Officer and Director); COPPETTI CASPAR FELIX (Chief Executive Officer) | +6.7% |
-| ORCL | 1 | 3,483,800 | 3 | 5,342,124 | RUSCKOWSKI STEPHEN H (Director) | -9.3% |
-| CELH | 3 | 1,830,043 | 0 | 0 | DESANTIS DAMON (Director); FIELDLY JOHN ERICK (Chief Executive Officer); KRAVITZ HAL (Dire | +0.1% |
-| VST | 2 | 1,173,069 | 4 | 16,626,776 | BURKE JAMES A. (Chief Executive Officer) | +1.6% |
-| CROX | 3 | 612,571 | 1 | 4,154,785 | KAPLAN BETH JANELL (Director); SMACH THOMAS J (Director) | -3.4% |
-| CAVA | 2 | 482,340 | 0 | 0 | KADOW JOSEPH JOHN (Officer); THOMPSON DOUGLAS W (Chief Operating Officer) | -0.1% |
-| BROS | 1 | 103,120 | 3 | 12,822,787 | PENEGOR TODD ALLAN (Director) | +7.7% |
+| UBER | 2 | 15,314,016 | 1 | 2,008,673 | KHOSROWSHAHI DARA (Chief Executive Officer); MACDONALD ANDREW (President) | -3.9% |
+| ONON | 2 | 3,987,580 | 2 | 59,978 | BERNHARD OLIVIER (Officer and Director); COPPETTI CASPAR FELIX (Chief Executive Officer) | +11.9% |
+| ORCL | 1 | 3,483,800 | 3 | 5,342,124 | RUSCKOWSKI STEPHEN H (Director) | -5.0% |
+| ACN | 2 | 3,200,889 | 4 | 1,795,507 | PRICE PAULA A (Director); SWEET JULIE SPELLMAN (Chief Executive Officer) | +22.6% |
+| CELH | 3 | 1,830,043 | 0 | 0 | DESANTIS DAMON (Director); FIELDLY JOHN ERICK (Chief Executive Officer); KRAVITZ HAL (Dire | +6.2% |
+| CROX | 3 | 612,571 | 1 | 4,154,785 | KAPLAN BETH JANELL (Director); SMACH THOMAS J (Director) | +26.2% |
+| CAVA | 2 | 482,340 | 0 | 0 | KADOW JOSEPH JOHN (Officer); THOMPSON DOUGLAS W (Chief Operating Officer) | +8.0% |
+| BROS | 1 | 103,120 | 3 | 12,822,787 | PENEGOR TODD ALLAN (Director) | +11.0% |
 
 ## 5k. Options activity (nearest 2 expirations, last session)
 Unusual = a contract traded at least 3x its open interest and 500+ contracts: new money positioning. Not direction-proof: it can be a hedge.
 
 | Ticker | Call vol | Put vol | Put/call | Volume vs open interest | Biggest unusual contract | 1 mo price |
 |---|---|---|---|---|---|---|
-| NVDA | 290,211 | 193,825 | 0.67 | 2.98 | put 212.5 exp 2026-10-26: 54,485 vs OI 2,928 | -6.1% |
-| AAPL | 117,383 | 106,339 | 0.91 | 3.47 | put 345 exp 2026-10-26: 24,233 vs OI 2,345 | +3.5% |
-| TSLA | 182,137 | 153,950 | 0.85 | 2.52 | put 370 exp 2026-10-26: 23,292 vs OI 1,353 | -1.5% |
-| AMZN | 123,230 | 66,420 | 0.54 | 2.1 | call 250 exp 2026-10-26: 20,991 vs OI 2,709 | -0.6% |
-| MU | 110,755 | 80,557 | 0.73 | 3.53 | call 900 exp 2026-10-26: 13,815 vs OI 2,172 | -18.8% |
-| HIMS | 27,881 | 12,695 | 0.46 | 0.71 | call 30 exp 2026-10-30: 9,900 vs OI 1,794 | -5.4% |
-| CRWV | 80,576 | 62,498 | 0.78 | 0.32 | call 55 exp 2026-10-30: 9,753 vs OI 678 | -39.8% |
-| SG | 16,163 | 1,149 | 0.07 | 3.82 | call 13 exp 2026-11-06: 7,960 vs OI 132 | +18.9% |
-| HOOD | 67,755 | 28,891 | 0.43 | 0.46 | call 102 exp 2026-10-30: 7,468 vs OI 1,865 | -21.3% |
-| GOOGL | 90,730 | 31,533 | 0.35 | 0.62 | call 400 exp 2026-10-26: 7,348 vs OI 26 | -6.5% |
-| META | 35,853 | 28,135 | 0.78 | 1.36 | call 650 exp 2026-10-26: 6,536 vs OI 1,063 | -17.4% |
-| MSFT | 53,670 | 38,275 | 0.71 | 0.51 | call 525 exp 2026-10-26: 6,135 vs OI 505 | +5.3% |
-| ORCL | 61,164 | 33,023 | 0.54 | 0.24 | call 225 exp 2026-10-30: 4,413 vs OI 90 | -9.3% |
-| UBER | 22,100 | 17,339 | 0.78 | 0.34 | call 73 exp 2026-11-06: 3,405 vs OI 888 | -3.6% |
-| VST | 11,123 | 2,680 | 0.24 | 0.3 | call 150 exp 2026-11-06: 2,705 vs OI 312 | +1.6% |
-| TTWO | 1,777 | 4,313 | 2.43 | 0.24 | put 195 exp 2026-10-30: 2,202 vs OI 146 | +0.3% |
-| DECK | 1,399 | 2,312 | 1.65 | 1.04 | put 78 exp 2026-10-30: 1,084 vs OI 50 | +3.1% |
-| ONON | 1,404 | 1,514 | 1.08 | 0.14 | put 33 exp 2026-10-30: 1,067 vs OI 221 | +6.7% |
-| CAVA | 805 | 1,673 | 2.08 | 0.27 | put 50 exp 2026-10-30: 746 vs OI 172 | -0.1% |
-| DASH | 1,237 | 1,543 | 1.25 | 0.52 | put 172.5 exp 2026-10-30: 606 vs OI 26 | -4.3% |
+| NVDA | 298,086 | 283,866 | 0.95 | 4.03 | call 210 exp 2026-11-02: 46,498 vs OI 2,020 | -11.4% |
+| AAPL | 114,054 | 235,870 | 2.07 | 1.55 | put 165 exp 2026-11-06: 40,420 vs OI 14 | +4.3% |
+| TSLA | 194,854 | 198,365 | 1.02 | 3.76 | call 400 exp 2026-11-02: 25,981 vs OI 1,359 | +12.9% |
+| AMZN | 118,387 | 78,737 | 0.67 | 3.65 | call 240 exp 2026-11-02: 14,401 vs OI 387 | -3.2% |
+| HOOD | 104,230 | 52,917 | 0.51 | 1.06 | call 86 exp 2026-11-06: 13,198 vs OI 1,511 | -23.5% |
+| ORCL | 63,519 | 55,937 | 0.88 | 0.51 | put 130 exp 2026-11-06: 12,985 vs OI 2,379 | -5.0% |
+| GOOGL | 28,744 | 21,082 | 0.73 | 0.92 | call 295 exp 2026-11-02: 7,919 vs OI 821 | -17.3% |
+| HIMS | 34,067 | 7,578 | 0.22 | 0.72 | call 28 exp 2026-11-06: 7,183 vs OI 722 | -5.5% |
+| MSFT | 44,516 | 34,025 | 0.76 | 1.56 | put 510 exp 2026-11-02: 6,544 vs OI 1,023 | +1.8% |
+| CRWV | 80,125 | 69,857 | 0.87 | 0.56 | call 56 exp 2026-11-06: 5,834 vs OI 257 | -38.0% |
+| META | 52,770 | 35,490 | 0.67 | 1.79 | call 625 exp 2026-11-02: 4,880 vs OI 274 | -15.3% |
+| NOW | 25,720 | 14,713 | 0.57 | 0.67 | call 105 exp 2026-11-06: 3,513 vs OI 514 | -23.7% |
+| NVO | 9,914 | 2,423 | 0.24 | 0.39 | call 45 exp 2026-11-06: 2,536 vs OI 630 | +7.0% |
+| BE | 29,335 | 20,595 | 0.7 | 0.84 | call 215 exp 2026-11-06: 1,842 vs OI 217 | -26.8% |
+| TTWO | 3,335 | 1,538 | 0.46 | 0.15 | call 190 exp 2026-11-13: 1,079 vs OI 5 | -6.6% |
+| ONON | 569 | 2,751 | 4.83 | 0.4 | put 32.5 exp 2026-11-06: 1,013 vs OI 80 | +11.9% |
+| UBER | 10,398 | 9,758 | 0.94 | 0.15 | put 57 exp 2026-11-06: 952 vs OI 152 | -3.9% |
+| ACN | 1,627 | 1,376 | 0.85 | 0.52 | put 245 exp 2026-11-06: 529 vs OI 54 | +22.6% |
+| SBUX | 3,315 | 3,599 | 1.09 | 0.36 | call 103 exp 2026-11-06: 510 vs OI 107 | +9.3% |
 
 ## 5m. Your setup: on the yearly VWAP (±2%) + under the monthly 20-SMA + under the weekly 200-SMA
 Scanned 291 stocks and ETFs. Unproven rule: every hit is logged to journal/setups.csv and scored vs the S&P and a random pick. Regime today: **MIXED** (your backtests: regime mattered more than stock signals).
@@ -301,72 +296,70 @@ Scanned 291 stocks and ETFs. Unproven rule: every hit is logged to journal/setup
 
 | Ticker | Price | Yearly VWAP | vs VWAP | Monthly SMA | vs it | Weekly SMA | vs it | 1 mo |
 |---|---|---|---|---|---|---|---|---|
-| SMCI | 32.94 | 32.55 ✅ | +1.2% | 37.27 ✅ | -11.6% | 39.5 ✅ | -16.6% | -20.6% |
-| STZ | 138.68 | 140.65 ✅ | -1.4% | 146.81 ✅ | -5.5% | 192.18 ✅ | -27.8% | +21.4% |
+| ADBE | 250.23 | 250.42 ✅ | -0.1% | 309.02 ✅ | -19.0% | 411.6 ✅ | -39.2% | +3.7% |
+| HD | 329.2 | 329.43 ✅ | -0.1% | 346.07 ✅ | -4.9% | 332.79 ✅ | -1.1% | +16.5% |
+| MAT | 15.42 | 15.6 ✅ | -1.1% | 16.99 ✅ | -9.3% | 18.22 ✅ | -15.4% | +2.5% |
+| SMCI | 32.95 | 32.58 ✅ | +1.1% | 37.27 ✅ | -11.6% | 39.62 ✅ | -16.8% | -21.4% |
+| NTDOY | 13.1 | 12.88 ✅ | +1.7% | 16.78 ✅ | -21.9% | 14.3 ✅ | -8.4% | +5.2% |
 
 **Two of three (watch for the third):**
 
 | Ticker | Price | Yearly VWAP | vs VWAP | Monthly SMA | vs it | Weekly SMA | vs it | 1 mo |
 |---|---|---|---|---|---|---|---|---|
-| AZO | 3200.76 | 3193.96 ✅ | +0.2% | 3550.46 ✅ | -9.8% | 3123.92 ❌ | +2.5% | +11.8% |
-| COF | 201.34 | 201.78 ✅ | -0.2% | 202.46 ✅ | -0.6% | 159.44 ❌ | +26.3% | +2.4% |
-| ORLY | 89.92 | 90.34 ✅ | -0.5% | 94.24 ✅ | -4.6% | 79.04 ❌ | +13.8% | +4.3% |
-| PPG | 110.61 | 111.12 ✅ | -0.5% | 107.6 ❌ | +2.8% | 117.08 ✅ | -5.5% | +4.0% |
-| UPS | 101.06 | 102.03 ✅ | -1.0% | 95.58 ❌ | +5.7% | 115.63 ✅ | -12.6% | +9.8% |
-| META | 642.62 | 634.27 ✅ | +1.3% | 646.05 ✅ | -0.5% | 507.56 ❌ | +26.6% | -17.4% |
-| DOW | 32.61 | 32.1 ✅ | +1.6% | 28.24 ❌ | +15.5% | 37.5 ✅ | -13.0% | +14.2% |
-| SHW | 337.06 | 331.52 ✅ | +1.7% | 338.04 ✅ | -0.3% | 311.11 ❌ | +8.3% | +5.2% |
-| DASH | 179.38 | 182.82 ✅ | -1.9% | 205.6 ✅ | -12.8% | 149.91 ❌ | +19.7% | -4.3% |
-| RCL | 276.48 | 281.9 ✅ | -1.9% | 282.35 ✅ | -2.1% | 193.53 ❌ | +42.9% | +15.7% |
-| BX | 117.97 | 120.98 ❌ | -2.5% | 133.88 ✅ | -11.9% | 122.64 ✅ | -3.8% | +0.6% |
-| HD | 319.83 | 329.55 ❌ | -3.0% | 345.6 ✅ | -7.5% | 332.57 ✅ | -3.8% | +9.5% |
-| INTU | 343.39 | 355.82 ❌ | -3.5% | 517.94 ✅ | -33.7% | 534.25 ✅ | -35.7% | +24.5% |
-| ABT | 103.7 | 99.84 ❌ | +3.9% | 113.37 ✅ | -8.5% | 107.78 ✅ | -3.8% | +3.2% |
-| SYK | 307.15 | 320.08 ❌ | -4.0% | 347.35 ✅ | -11.6% | 326.48 ✅ | -5.9% | +14.2% |
+| SHW | 332.61 | 331.4 ✅ | +0.4% | 337.82 ✅ | -1.5% | 311.62 ❌ | +6.7% | +3.7% |
+| ISRG | 432.01 | 429.7 ✅ | +0.5% | 475.0 ✅ | -9.1% | 423.09 ❌ | +2.1% | +7.7% |
+| AZO | 3169.82 | 3193.52 ✅ | -0.7% | 3548.91 ✅ | -10.7% | 3127.44 ❌ | +1.4% | +12.4% |
+| ETHA | 50.42 | 51.06 ✅ | -1.3% | 59.65 ✅ | -15.5% | – ❌ | – | -17.5% |
+| DASH | 178.99 | 182.49 ✅ | -1.9% | 205.58 ✅ | -12.9% | 150.56 ❌ | +18.9% | -1.7% |
+| BX | 118.51 | 120.93 ❌ | -2.0% | 133.9 ✅ | -11.5% | 122.91 ✅ | -3.6% | +5.6% |
+| MSTR | 130.51 | 134.44 ❌ | -2.9% | 221.2 ✅ | -41.0% | 167.17 ✅ | -21.9% | -18.7% |
+| STZ | 135.33 | 139.34 ❌ | -2.9% | 145.54 ✅ | -7.0% | 190.27 ✅ | -28.9% | +20.7% |
+| PEP | 137.34 | 142.45 ❌ | -3.6% | 139.29 ✅ | -1.4% | 148.32 ✅ | -7.4% | +9.3% |
+| INTU | 341.09 | 355.49 ❌ | -4.0% | 517.82 ✅ | -34.1% | 534.08 ✅ | -36.1% | +21.2% |
+| KKR | 94.39 | 98.81 ❌ | -4.5% | 111.98 ✅ | -15.7% | 100.14 ✅ | -5.7% | +3.5% |
+| ONON | 33.78 | 35.56 ❌ | -5.0% | 41.64 ✅ | -18.9% | 38.74 ✅ | -12.8% | +11.9% |
+| GIS | 34.29 | 36.17 ❌ | -5.2% | 41.76 ✅ | -17.9% | 52.9 ✅ | -35.2% | +10.3% |
+| NOW | 105.12 | 111.94 ❌ | -6.1% | 147.68 ✅ | -28.8% | 144.8 ✅ | -27.4% | -23.7% |
+| ABT | 106.2 | 99.9 ❌ | +6.3% | 113.49 ✅ | -6.4% | 107.81 ✅ | -1.5% | +10.5% |
 
 ## 5n. Rule B: deep drawdown in a weak market (from your v30 backtest)
 **Not active**: the S&P is above its 200-day, so Rule B is off. Shown for watching only, not logged. Rule: 50%+ off the 252-day high, liquid. Buy 1/3 now, 1/3 at −10%, 1/3 at −20%. Exit: once up 40% on your average cost, sell when the close falls 25% from its high since then; otherwise after ~2 years. Expect a typical −19% to −24% drop before it works.
 
 | Ticker | Price | Off 52-wk high | 52-wk high | $ vol/day (M) | Buy 1/3 at | 1 mo |
 |---|---|---|---|---|---|---|
-| SMR | 5.38 | -88.0% | 44.87 | 213 | 5.38 / 4.84 / 4.3 | -36.5% |
-| OKLO | 26.35 | -81.6% | 143.42 | 311 | 26.35 / 23.72 / 21.08 | -31.2% |
-| NNE | 12.16 | -74.6% | 47.83 | 28 | 12.16 / 10.94 / 9.73 | -28.6% |
-| LEU | 102.45 | -73.8% | 390.82 | 111 | 102.45 / 92.2 / 81.96 | -30.5% |
-| MARA | 7.02 | -64.1% | 19.56 | 328 | 7.02 / 6.32 / 5.62 | -45.7% |
-| CRWV | 54.24 | -61.2% | 139.93 | 3575 | 54.24 / 48.81 / 43.39 | -39.8% |
-| MOD | 133.34 | -56.6% | 306.89 | 251 | 133.34 / 120.01 / 106.67 | -32.3% |
-| BSX | 45.69 | -56.5% | 104.98 | 677 | 45.69 / 41.12 / 36.55 | +2.3% |
-| CHTR | 108.61 | -56.4% | 248.88 | 319 | 108.61 / 97.75 / 86.89 | -7.6% |
-| RIOT | 12.53 | -56.3% | 28.69 | 275 | 12.53 / 11.28 / 10.02 | -46.6% |
-| CELH | 28.47 | -55.1% | 63.35 | 158 | 28.47 / 25.62 / 22.78 | +0.1% |
-| SYM | 39.28 | -55.0% | 87.3 | 62 | 39.28 / 35.35 / 31.42 | -10.8% |
-| ORCL | 126.16 | -54.9% | 279.59 | 3955 | 126.16 / 113.54 / 100.93 | -9.3% |
-| COIN | 164.45 | -54.5% | 361.43 | 1404 | 164.45 / 148.0 / 131.56 | -17.4% |
-| WDC | 343.67 | -53.9% | 745.99 | 3884 | 343.67 / 309.3 / 274.94 | -23.7% |
-| PSLV | 17.37 | -52.2% | 36.36 | 121 | 17.37 / 15.63 / 13.9 | -16.3% |
-| ARM | 210.33 | -52.1% | 439.46 | 1279 | 210.33 / 189.3 / 168.26 | -31.3% |
-| KLAC | 145.61 | -51.7% | 301.37 | 1823 | 145.61 / 131.05 / 116.49 | -22.2% |
-| MSTR | 146.01 | -50.6% | 295.63 | 2931 | 146.01 / 131.41 / 116.81 | -9.7% |
+| SMR | 5.62 | -87.5% | 44.87 | 196 | 5.62 / 5.06 / 4.5 | -27.9% |
+| OKLO | 25.25 | -81.6% | 137.39 | 290 | 25.25 / 22.73 / 20.2 | -30.1% |
+| NNE | 11.65 | -75.5% | 47.54 | 28 | 11.65 / 10.48 / 9.32 | -25.9% |
+| LEU | 103.29 | -73.1% | 383.31 | 113 | 103.29 / 92.96 / 82.63 | -25.7% |
+| MARA | 6.77 | -62.9% | 18.27 | 298 | 6.77 / 6.09 / 5.42 | -39.6% |
+| CRWV | 54.87 | -60.2% | 137.98 | 3923 | 54.87 / 49.38 / 43.9 | -38.0% |
+| BSX | 41.98 | -60.0% | 104.98 | 804 | 41.98 / 37.78 / 33.58 | -2.9% |
+| COIN | 143.54 | -58.2% | 343.78 | 1392 | 143.54 / 129.19 / 114.83 | -24.2% |
+| MOD | 129.76 | -57.7% | 306.89 | 215 | 129.76 / 116.78 / 103.81 | -31.4% |
+| SYM | 37.93 | -56.6% | 87.3 | 67 | 37.93 / 34.14 / 30.34 | -12.1% |
+| PSLV | 16.02 | -55.9% | 36.36 | 112 | 16.02 / 14.42 / 12.82 | -18.3% |
+| RIOT | 12.81 | -55.4% | 28.69 | 273 | 12.81 / 11.53 / 10.25 | -34.7% |
+| CHTR | 111.49 | -55.1% | 248.19 | 300 | 111.49 / 100.34 / 89.19 | +0.1% |
+| ARM | 205.97 | -53.1% | 439.46 | 1166 | 205.97 / 185.37 / 164.78 | -29.5% |
+| CELH | 29.12 | -51.7% | 60.23 | 145 | 29.12 / 26.21 / 23.3 | +6.2% |
+| MSTR | 130.51 | -51.6% | 269.51 | 2758 | 130.51 / 117.46 / 104.41 | -18.7% |
+| WDC | 366.11 | -50.9% | 745.99 | 3535 | 366.11 / 329.5 / 292.89 | -20.9% |
+| SNDK | 1150.89 | -50.7% | 2335.0 | 12135 | 1150.89 / 1035.8 / 920.71 | -35.6% |
 
 ## 5o. Momentum leaders in a strong market
 **ACTIVE**: the S&P is above its 200-day. Rule: top 10% by 12-month return (skipping the last month), above the 200-day, sector in the top 5 (Consumer Staples, Energy, Health Care, Materials, Utilities). Untested on your data: scored like everything else.
 
 | Ticker | Price | 12-1 mo return | Sector | 1 mo |
 |---|---|---|---|---|
-| SNDK | 1238.03 | +1093.3% | theme | -29.4% |
-| DELL | 456.44 | +260.3% | theme | -14.7% |
-| MRVL | 228.51 | +220.0% | theme | -11.7% |
-| VLO | 419.28 | +141.5% | Energy | +9.5% |
-| MPC | 457.22 | +110.8% | Energy | +17.0% |
-| PSX | 283.18 | +100.5% | Energy | +10.7% |
-| TRGP | 302.37 | +87.3% | Energy | +6.8% |
-| NUE | 258.11 | +83.1% | Materials | +4.3% |
-| FCX | 65.18 | +78.0% | Materials | -9.4% |
-| MRK | 145.27 | +73.9% | Health Care | -1.8% |
-| TGT | 152.76 | +72.8% | Consumer Staples | -2.2% |
-| CNC | 70.17 | +71.9% | theme | +13.3% |
-| SCCO | 185.01 | +68.6% | Materials | -8.2% |
+| DELL | 424.3 | +234.2% | theme | -21.6% |
+| MRVL | 196.4 | +197.8% | theme | -26.7% |
+| VLO | 399.66 | +144.4% | Energy | -2.2% |
+| MPC | 444.73 | +118.2% | Energy | +5.9% |
+| PSX | 282.83 | +97.1% | Energy | +7.0% |
+| TRGP | 314.99 | +88.5% | Energy | +13.2% |
+| DDOG | 235.27 | +77.2% | theme | -14.9% |
+| TGT | 154.38 | +73.2% | Consumer Staples | -1.5% |
+| MRK | 149.52 | +71.0% | Health Care | +4.0% |
 
 ## 5p. Wealth Builder (Oliver Velez style): great company, beaten-down chart
 Chart: under the monthly 20-SMA and the weekly 200-SMA; best if the daily 20-SMA is rising and above the daily 200-SMA. Company: "more money than its problems" score out of 6 (net cash or little debt, positive free cash flow, revenue growing, analysts rate it buy, institutions own 60%+, $10B+ size). "Will it change the world" is your call, not the scanner's.
@@ -375,248 +368,253 @@ Chart: under the monthly 20-SMA and the weekly 200-SMA; best if the daily 20-SMA
 
 | Ticker | Price | vs monthly 20 | vs weekly 200 | Daily 20 rising > 200 | Money score | Cash $B | Debt $B | FCF $B | Rev growth | Analysts (1=buy) | Missing | 1 mo |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| PINS | 22.32 | -14.3% | -23.8% | ✅ | 6/6 | 1.3 | 1.2 | 1.2 | +18.2% | 2.02564 | – | +19.2% |
-| PYPL | 57.02 | -2.1% | -11.1% | ✅ | 4/6 | 11.3 | 14.2 | 4.4 | +4.8% | 2.90909 | net cash or little debt, analysts like it | +8.4% |
-| ONON | 32.51 | -21.8% | -15.9% | ❌ | 6/6 | 1.2 | 0.6 | 0.3 | +13.5% | 1.70968 | – | +6.7% |
-| RBLX | 52.89 | -30.8% | -6.1% | ❌ | 6/6 | 3.0 | 1.8 | 1.5 | +35.9% | 2.31429 | – | +8.3% |
-| NFLX | 65.85 | -32.3% | -11.0% | ❌ | 5/6 | 8.2 | 17.5 | 25.5 | +11.8% | 1.92157 | net cash or little debt | -8.2% |
-| UBER | 66.7 | -16.7% | -0.9% | ❌ | 5/6 | 5.4 | 14.7 | 7.2 | +12.2% | 1.58 | net cash or little debt | -3.6% |
-| COIN | 164.45 | -28.3% | -12.9% | ❌ | 5/6 | 8.8 | 6.7 | 2.7 | -17.3% | 1.97368 | revenue growing | -17.4% |
-| BA | 188.35 | -10.0% | -6.3% | ❌ | 5/6 | 19.3 | 48.4 | 5.6 | +8.0% | 1.51724 | net cash or little debt | -4.3% |
-| BKNG | 155.83 | -19.0% | -3.3% | ❌ | 5/6 | 17.2 | 20.9 | 7.7 | +8.1% | 1.54054 | net cash or little debt | -1.0% |
-| BSX | 45.69 | -42.5% | -36.8% | ❌ | 5/6 | 0.5 | 12.6 | 2.5 | +7.5% | 1.6 | net cash or little debt | +2.3% |
-| CARR | 56.24 | -8.9% | -4.4% | ❌ | 5/6 | 1.3 | 12.4 | 0.9 | +3.9% | 2.07692 | net cash or little debt | +2.5% |
-| CMG | 27.52 | -29.2% | -38.1% | ❌ | 5/6 | 0.7 | 5.4 | 1.1 | +9.3% | 1.8 | net cash or little debt | -14.0% |
-| HD | 319.83 | -7.5% | -3.8% | ❌ | 5/6 | 2.1 | 63.2 | 10.8 | +5.7% | 1.88889 | net cash or little debt | +9.5% |
-| HSY | 169.64 | -4.6% | -8.1% | ❌ | 5/6 | 0.8 | 5.9 | 1.7 | +6.6% | 2.47826 | net cash or little debt | +1.7% |
-| INTU | 343.39 | -33.7% | -35.7% | ❌ | 5/6 | 7.2 | 8.4 | 6.4 | +13.7% | 2.05882 | net cash or little debt | +24.5% |
-| LOW | 198.68 | -11.8% | -9.9% | ❌ | 5/6 | 3.2 | 42.0 | 4.6 | +8.3% | 1.74286 | net cash or little debt | +6.1% |
-| MCD | 248.46 | -13.9% | -9.7% | ❌ | 5/6 | 0.8 | 54.6 | 6.3 | +3.7% | 2.05882 | net cash or little debt | +4.8% |
-| MLM | 507.17 | -11.4% | -2.6% | ❌ | 5/6 | 0.1 | 6.3 | 0.6 | +21.0% | 1.75 | net cash or little debt | +5.6% |
-| NRG | 92.31 | -34.5% | -1.4% | ❌ | 5/6 | 0.2 | 23.5 | 0.8 | +11.0% | 1.5 | net cash or little debt | -5.7% |
-| PDD | 79.04 | -23.0% | -26.2% | ❌ | 5/6 | 456.4 | 4.8 | 74.6 | +8.1% | 2.02778 | big institutions own it | +1.1% |
-| STZ | 138.68 | -5.5% | -27.8% | ❌ | 5/6 | 0.1 | 10.3 | 1.1 | +6.1% | 2.04167 | net cash or little debt | +21.4% |
-| SYK | 307.15 | -11.6% | -5.9% | ❌ | 5/6 | 3.5 | 15.4 | 4.1 | +9.4% | 1.68966 | net cash or little debt | +14.2% |
-| VICI | 23.76 | -13.9% | -11.5% | ❌ | 5/6 | 0.3 | 17.8 | 0.3 | +5.7% | 1.88 | net cash or little debt | +2.1% |
-| XYL | 108.74 | -13.0% | -8.0% | ❌ | 5/6 | 1.3 | 3.1 | 1.2 | +1.5% | 1.85714 | net cash or little debt | +5.9% |
-| ADBE | 263.82 | -14.8% | -36.0% | ❌ | 4/6 | 5.6 | 6.8 | 9.3 | +12.9% | 2.92308 | net cash or little debt, analysts like it | +10.4% |
-| ABT | 103.7 | -8.5% | -3.8% | ❌ | 4/6 | 5.6 | 32.7 | 0.0 | +14.5% | 1.46429 | net cash or little debt, free cash flow positive | +3.2% |
-| CCI | 85.97 | -0.6% | -5.5% | ❌ | 4/6 | 0.1 | 22.9 | 0.8 | -7.2% | 2.09091 | net cash or little debt, revenue growing | +27.1% |
-| DECK | 81.09 | -20.0% | -30.0% | ❌ | 4/6 | 1.2 | 0.5 | 0.0 | +3.5% | 2.51852 | free cash flow positive, analysts like it | +3.1% |
-| KKR | 91.34 | -18.3% | -8.6% | ❌ | 4/6 | 47.6 | 56.2 | 0.0 | +7.8% | 1.6087 | net cash or little debt, free cash flow positive | -4.5% |
-| PEP | 135.77 | -2.5% | -8.5% | ❌ | 4/6 | 11.2 | 51.9 | 9.0 | +5.6% | 2.66667 | net cash or little debt, analysts like it | +5.9% |
-| TMUS | 146.54 | -28.8% | -19.9% | ❌ | 4/6 | 2.8 | 120.4 | 11.3 | +7.9% | 1.60714 | net cash or little debt, big institutions own it | -11.4% |
+| PINS | 19.36 | -25.3% | -33.8% | ✅ | 6/6 | 1.5 | 1.2 | 1.2 | +11.9% | 2.05263 | – | -0.5% |
+| KMB | 107.94 | -1.9% | -5.7% | ✅ | 5/6 | 1.0 | 6.5 | 0.9 | +0.6% | 2.47059 | net cash or little debt | +14.4% |
+| NOW | 105.12 | -28.8% | -27.4% | ✅ | 5/6 | 4.6 | 8.4 | 5.8 | +20.5% | 1.44898 | net cash or little debt | -23.7% |
+| PYPL | 57.01 | -2.1% | -11.0% | ✅ | 4/6 | 10.3 | 14.3 | 4.5 | +2.0% | 2.93023 | net cash or little debt, analysts like it | +7.4% |
+| ABT | 106.2 | -6.4% | -1.5% | ✅ | 4/6 | 5.6 | 32.7 | 0.0 | +14.5% | 1.53571 | net cash or little debt, free cash flow positive | +10.5% |
+| ONON | 33.78 | -18.9% | -12.8% | ❌ | 6/6 | 1.2 | 0.6 | 0.3 | +13.5% | 1.70968 | – | +11.9% |
+| RBLX | 42.99 | -43.4% | -23.7% | ❌ | 6/6 | 3.2 | 1.9 | 1.7 | +15.6% | 2.31429 | – | -0.0% |
+| SYM | 37.93 | -21.3% | -3.8% | ❌ | 6/6 | 1.7 | 0.0 | 0.5 | +21.7% | 2.22222 | – | -12.1% |
+| NFLX | 62.08 | -36.1% | -16.2% | ❌ | 5/6 | 8.2 | 17.5 | 25.5 | +11.8% | 1.92157 | net cash or little debt | -8.5% |
+| UBER | 65.25 | -18.5% | -3.3% | ❌ | 5/6 | 5.4 | 14.7 | 7.2 | +12.2% | 1.58 | net cash or little debt | -3.9% |
+| COIN | 143.54 | -37.1% | -24.2% | ❌ | 5/6 | 8.8 | 6.9 | 3.7 | -34.2% | 1.97368 | revenue growing | -24.2% |
+| BA | 171.55 | -17.7% | -14.6% | ❌ | 5/6 | 20.7 | 48.5 | 4.7 | +3.9% | 1.42857 | net cash or little debt | -10.8% |
+| BKNG | 148.13 | -22.9% | -8.2% | ❌ | 5/6 | 17.2 | 20.9 | 7.7 | +8.1% | 1.54054 | net cash or little debt | -7.6% |
+| CARR | 53.63 | -12.6% | -8.5% | ❌ | 5/6 | 1.4 | 11.9 | 1.9 | +12.3% | 2.07692 | net cash or little debt | -2.5% |
+| CMG | 31.89 | -18.4% | -28.3% | ❌ | 5/6 | 0.9 | 5.6 | 1.2 | +9.6% | 1.8 | net cash or little debt | -1.3% |
+| DECK | 81.99 | -19.1% | -29.3% | ❌ | 5/6 | 1.2 | 0.5 | 0.8 | +3.5% | 2.55556 | analysts like it | +3.0% |
+| HD | 329.2 | -4.9% | -1.1% | ❌ | 5/6 | 2.1 | 63.2 | 10.8 | +5.7% | 1.88889 | net cash or little debt | +16.5% |
+| INTU | 341.09 | -34.1% | -36.1% | ❌ | 5/6 | 7.2 | 8.4 | 6.4 | +13.7% | 2.05882 | net cash or little debt | +21.2% |
+| LOW | 209.07 | -7.4% | -5.2% | ❌ | 5/6 | 3.2 | 42.0 | 4.6 | +8.3% | 1.74286 | net cash or little debt | +15.4% |
+| MCD | 258.12 | -10.7% | -6.2% | ❌ | 5/6 | 0.8 | 54.6 | 6.3 | +3.7% | 2.05882 | net cash or little debt | +11.3% |
+| PDD | 78.61 | -23.4% | -26.6% | ❌ | 5/6 | 456.4 | 4.8 | 74.6 | +8.1% | 2.0 | big institutions own it | +2.8% |
+| STZ | 135.33 | -7.0% | -28.9% | ❌ | 5/6 | 0.1 | 10.3 | 1.1 | +6.1% | 2.04167 | net cash or little debt | +20.7% |
+| SYK | 291.86 | -15.8% | -10.7% | ❌ | 5/6 | 3.3 | 14.2 | 4.7 | +7.6% | 1.73333 | net cash or little debt | +6.9% |
+| VICI | 24.46 | -11.5% | -8.9% | ❌ | 5/6 | 0.3 | 17.8 | 0.4 | +5.8% | 1.88 | net cash or little debt | +7.6% |
+| ADBE | 250.23 | -19.0% | -39.2% | ❌ | 4/6 | 5.6 | 6.8 | 9.3 | +12.9% | 2.92308 | net cash or little debt, analysts like it | +3.7% |
+| BSX | 41.98 | -47.0% | -41.9% | ❌ | 4/6 | 0.5 | 12.6 | 0.0 | +1.4% | 1.90323 | net cash or little debt, free cash flow positive | -2.9% |
+| HSY | 165.61 | -6.8% | -10.2% | ❌ | 4/6 | 0.7 | 5.4 | 1.7 | +3.0% | 2.56522 | net cash or little debt, analysts like it | +4.0% |
+| KKR | 94.39 | -15.7% | -5.7% | ❌ | 4/6 | 47.6 | 56.2 | 0.0 | +7.8% | 1.6087 | net cash or little debt, free cash flow positive | +3.5% |
+| PEP | 137.34 | -1.4% | -7.4% | ❌ | 4/6 | 11.2 | 51.9 | 9.0 | +5.6% | 2.66667 | net cash or little debt, analysts like it | +9.3% |
+| TMUS | 156.44 | -24.2% | -14.5% | ❌ | 4/6 | 5.6 | 119.0 | 16.4 | +7.4% | 1.60714 | net cash or little debt, big institutions own it | -3.3% |
+| XYL | 92.4 | -25.6% | -21.8% | ❌ | 4/6 | 0.7 | 3.0 | 1.2 | -3.0% | 1.95238 | net cash or little debt, revenue growing | -8.4% |
 
 **Strong company, one timeframe so far:**
 
 | Ticker | Price | vs monthly 20 | vs weekly 200 | Daily 20 rising > 200 | Money score | Cash $B | Debt $B | FCF $B | Rev growth | Analysts (1=buy) | Missing | 1 mo |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| DASH | 179.38 | -12.8% | +19.7% | ❌ | 6/6 | 5.3 | 3.3 | 5.1 | +35.6% | 1.6 | – | -4.3% |
-| ISRG | 452.29 | -5.0% | +7.1% | ❌ | 6/6 | 4.0 | 0.0 | 3.4 | +21.7% | 1.73529 | – | +13.2% |
-| RDDT | 144.25 | -12.3% | – | ❌ | 6/6 | 2.8 | 0.0 | 0.7 | +61.1% | 1.94118 | – | -5.5% |
-| SYM | 39.28 | -18.7% | +0.0% | ❌ | 6/6 | 1.7 | 0.0 | 0.5 | +21.7% | 2.29412 | – | -10.8% |
-| META | 642.62 | -0.5% | +26.6% | ❌ | 5/6 | 82.4 | 114.8 | 16.8 | +26.1% | 1.40323 | net cash or little debt | -17.4% |
-| AVGO | 321.68 | -1.3% | +54.9% | ❌ | 5/6 | 24.0 | 59.4 | 30.6 | +85.5% | 1.27451 | net cash or little debt | -8.2% |
-| 9992.HK | 131.7 | -33.1% | +25.0% | ❌ | 5/6 | 14.0 | 3.7 | 6.0 | +23.8% | 2.30769 | big institutions own it | -14.6% |
-| ACN | 249.37 | +8.4% | -8.7% | ✅ | 5/6 | 12.8 | 13.4 | 10.7 | +6.2% | 2.33333 | net cash or little debt | +41.7% |
-| BAC | 50.56 | -0.0% | +24.2% | ❌ | 5/6 | 991.0 | 745.6 | 0.0 | +7.1% | 1.48 | free cash flow positive | -9.8% |
-| BWXT | 127.19 | -23.7% | +5.5% | ❌ | 5/6 | 0.6 | 2.0 | 0.1 | +18.0% | 1.61111 | net cash or little debt | -8.3% |
-| CBRE | 123.3 | -14.0% | +5.8% | ❌ | 5/6 | 1.7 | 10.5 | 1.4 | +12.3% | 1.53846 | net cash or little debt | -9.7% |
-| CRH | 84.89 | -18.3% | +1.1% | ❌ | 5/6 | 3.0 | 19.8 | 2.0 | +5.6% | 1.34783 | net cash or little debt | +1.1% |
-| GE | 285.64 | -2.5% | +46.7% | ❌ | 5/6 | 9.8 | 20.6 | 6.3 | +15.9% | 1.47826 | net cash or little debt | -10.5% |
-| IBM | 253.56 | -1.8% | +25.9% | ❌ | 5/6 | 11.1 | 67.1 | 12.4 | +4.7% | 2.28 | net cash or little debt | +11.7% |
-| KMB | 110.15 | +0.0% | -3.8% | ✅ | 5/6 | 1.0 | 6.5 | 0.9 | +0.6% | 2.4375 | net cash or little debt | +13.3% |
+| DASH | 178.99 | -12.9% | +18.9% | ❌ | 6/6 | 6.0 | 3.3 | 6.4 | +34.0% | 1.59524 | – | -1.7% |
+| ISRG | 432.01 | -9.1% | +2.1% | ❌ | 6/6 | 4.0 | 0.0 | 3.4 | +21.7% | 1.76471 | – | +7.7% |
+| RDDT | 91.73 | -43.3% | – | ❌ | 6/6 | 3.0 | 0.0 | 0.8 | +53.0% | 1.94118 | – | -38.7% |
+| META | 614.99 | -4.6% | +20.6% | ❌ | 5/6 | 82.4 | 114.8 | 16.8 | +26.1% | 1.40323 | net cash or little debt | -15.3% |
+| CRM | 229.17 | +0.3% | -3.8% | ✅ | 5/6 | 11.4 | 42.4 | 17.7 | +10.8% | 1.69643 | net cash or little debt | -3.2% |
+| HOOD | 84.99 | -10.1% | +65.5% | ❌ | 5/6 | 24.8 | 22.6 | 0.0 | +11.8% | 1.65625 | free cash flow positive | -23.5% |
+| AVGO | 326.08 | -0.0% | +56.0% | ❌ | 5/6 | 24.0 | 59.4 | 30.6 | +85.5% | 1.23529 | net cash or little debt | -5.1% |
+| 9992.HK | 134.9 | -31.6% | +27.4% | ❌ | 5/6 | 14.0 | 3.7 | 6.0 | +23.8% | 2.38462 | big institutions own it | -12.7% |
+| ACN | 258.24 | +12.0% | -5.5% | ✅ | 5/6 | 12.8 | 13.4 | 10.7 | +6.2% | 2.33333 | net cash or little debt | +22.6% |
+| AZO | 3169.82 | -10.7% | +1.4% | ❌ | 5/6 | 0.3 | 13.2 | 1.2 | +5.6% | 1.48148 | net cash or little debt | +12.4% |
+| BAC | 50.01 | -1.0% | +22.5% | ❌ | 5/6 | 991.0 | 745.6 | 0.0 | +7.1% | 1.48 | free cash flow positive | -6.9% |
+| BWXT | 130.7 | -21.7% | +8.1% | ❌ | 5/6 | 0.6 | 2.0 | 0.1 | +18.0% | 1.61111 | net cash or little debt | -4.5% |
+| CBRE | 128.85 | -10.3% | +10.4% | ❌ | 5/6 | 1.7 | 10.7 | 1.3 | +12.7% | 1.53846 | net cash or little debt | -1.3% |
+| CRH | 90.81 | -12.9% | +7.8% | ❌ | 5/6 | 5.1 | 21.6 | 2.3 | +3.0% | 1.34783 | net cash or little debt | +11.2% |
+| HON | 218.33 | -0.6% | +8.0% | ❌ | 5/6 | 6.2 | 17.2 | 7.0 | +1.3% | 2.0 | net cash or little debt | +2.1% |
 
-**Your wealth watch list today:** AAPL M❌W❌ 5/6 · ABNB M❌W❌ 6/6 · ADBE M✅W✅ 4/6 · AMD M❌W❌ 6/6 · AMZN M❌W❌ 5/6 · AVGO M✅W❌ 5/6 · COIN M✅W✅ 5/6 · CRM M❌W❌ 5/6 · DIS M❌W❌ 5/6 · GOOGL M❌W❌ 6/6 · HOOD M❌W❌ 5/6 · LLY M❌W❌ 5/6 · META M✅W❌ 5/6 · MSFT M❌W❌ 5/6 · NFLX M✅W✅ 5/6 · NKE M✅W✅ 3/6 · NVDA M❌W❌ 6/6 · NVO M✅W✅ 3/6 · PLTR M❌W❌ 6/6 · PYPL M✅W✅ 4/6 · SBUX M❌W❌ 4/6 · SHOP M❌W❌ 6/6 · SOFI M✅W❌ 2/6 · TSLA M✅W❌ 4/6 · UBER M✅W✅ 5/6 · UNH M❌W✅ 4/6 · XYZ M❌W❌ 4/6
+**Your wealth watch list today:** AAPL M❌W❌ 5/6 · ABNB M❌W❌ 6/6 · ADBE M✅W✅ 4/6 · AMD M❌W❌ 6/6 · AMZN M❌W❌ 4/6 · AVGO M✅W❌ 5/6 · COIN M✅W✅ 5/6 · CRM M❌W✅ 5/6 · DIS M❌W❌ 5/6 · GOOGL M❌W❌ 5/6 · HOOD M✅W❌ 5/6 · LLY M❌W❌ 5/6 · META M✅W❌ 5/6 · MSFT M❌W❌ 5/6 · NFLX M✅W✅ 5/6 · NKE M✅W✅ 3/6 · NVDA M❌W❌ 6/6 · NVO M✅W✅ 3/6 · PLTR M❌W❌ 6/6 · PYPL M✅W✅ 4/6 · SBUX M❌W❌ 4/6 · SHOP M❌W❌ 6/6 · SOFI M✅W❌ 2/6 · TSLA M❌W❌ 4/6 · UBER M✅W✅ 5/6 · UNH M❌W✅ 4/6 · XYZ M❌W❌ 4/6
 
 ## 8. Crypto and precious metals
-**Bitcoin: MIXED** · Crypto Fear & Greed 51 (Neutral), a week ago 55, a month ago 71
+**Bitcoin: MIXED** · Crypto Fear & Greed 30 (Fear), a week ago 51, a month ago 74
 
 | Coin / metal | Last | 1 wk | 1 mo | 3 mo | YTD | >50d | >200d |
 |---|---|---|---|---|---|---|---|
-| Bitcoin | 80,622.24 | -0.9% | -4.5% | +25.4% | -7.9% | ❌ | ✅ |
-| Ethereum | 2,364.85 | -1.5% | -12.0% | +26.2% | -20.3% | ❌ | ✅ |
-| XRP | 1.28 | -0.7% | -16.3% | +17.0% | -30.2% | ❌ | ✅ |
-| Solana | 101.27 | -2.0% | -13.5% | +36.1% | -18.6% | ❌ | ✅ |
-| BNB | 730.69 | +1.9% | -5.9% | +28.5% | -15.4% | ❌ | ✅ |
-| Dogecoin | 0.07749 | -2.2% | -19.1% | +8.1% | -33.9% | ❌ | ❌ |
-| Cardano | 0.20744 | -5.5% | -16.4% | +26.0% | -37.7% | ❌ | ❌ |
-| Chainlink | 11.58 | -3.2% | -12.3% | +38.3% | -5.0% | ❌ | ✅ |
-| Avalanche | 8.88 | -8.9% | -12.8% | +31.3% | -27.8% | ❌ | ✅ |
-| Litecoin | 56.34 | -4.1% | -21.7% | +21.1% | -26.6% | ❌ | ✅ |
-| Shiba Inu | 5e-06 | -2.0% | -18.3% | -2.0% | -30.0% | ❌ | ❌ |
-| Pepe | 4e-06 | +10.0% | +10.0% | +46.7% | +10.0% | ✅ | ✅ |
-| Gold | 4,007.9 | -4.1% | -7.2% | -1.5% | -7.7% | ❌ | ❌ |
-| Silver | 53.71 | -5.8% | -16.6% | -8.4% | -23.4% | ❌ | ❌ |
-| Platinum | 1,554.2 | -4.3% | -11.0% | -2.5% | -23.6% | ❌ | ❌ |
-| Palladium | 1,046.6 | -6.0% | -16.8% | -16.1% | -35.8% | ❌ | ❌ |
-| Copper | 6.48 | -0.8% | -3.0% | +2.5% | +15.0% | ❌ | ✅ |
+| Bitcoin | 77,325.39 | -4.3% | -8.9% | +23.2% | -11.6% | ❌ | ✅ |
+| Ethereum | 2,246.75 | -4.6% | -17.0% | +21.9% | -24.3% | ❌ | ✅ |
+| XRP | 1.25 | -4.1% | -16.6% | +17.5% | -32.3% | ❌ | ❌ |
+| Solana | 95.61 | -6.5% | -19.2% | +33.0% | -23.2% | ❌ | ✅ |
+| BNB | 702.41 | -4.9% | -8.9% | +22.2% | -18.6% | ❌ | ✅ |
+| Dogecoin | 0.07527 | -3.0% | -20.2% | +9.0% | -35.8% | ❌ | ❌ |
+| Cardano | 0.19207 | -7.6% | -22.0% | +10.2% | -42.3% | ❌ | ❌ |
+| Chainlink | 11.56 | -0.5% | -19.6% | +43.5% | -5.1% | ❌ | ✅ |
+| Avalanche | 8.47 | -5.8% | -23.0% | +36.9% | -31.2% | ❌ | ✅ |
+| Litecoin | 55.15 | -3.2% | -19.0% | +24.8% | -28.2% | ❌ | ✅ |
+| Shiba Inu | 5e-06 | -6.0% | -21.7% | -6.0% | -32.9% | ❌ | ❌ |
+| Pepe | 5e-06 | -0.8% | +24.0% | +65.3% | +24.0% | ✅ | ✅ |
+| Gold | 3,898.9 | -2.7% | -6.9% | -5.1% | -10.2% | ❌ | ❌ |
+| Silver | 49.1 | -8.6% | -18.3% | -14.7% | -30.0% | ❌ | ❌ |
+| Platinum | 1,438.0 | -7.5% | -15.5% | -12.9% | -29.3% | ❌ | ❌ |
+| Palladium | 984.6 | -5.9% | -18.0% | -22.8% | -39.6% | ❌ | ❌ |
+| Copper | 6.46 | -0.3% | -1.5% | +0.3% | +14.7% | ❌ | ✅ |
 
-Gold/silver ratio 74.6 (1-year average 66.2). Higher than usual means silver is cheap relative to gold.
+Gold/silver ratio 79.4 (1-year average 66.0). Higher than usual means silver is cheap relative to gold.
 
-**Crypto stocks and ETFs (1 mo):** IBIT -4.0% · ETHA -10.8%↓ · COIN -17.0%↓ · MSTR -10.0% · HOOD -22.5%↓ · MARA -47.4%↓ · RIOT -49.3%↓
+**Crypto stocks and ETFs (1 mo):** IBIT -8.4%↓ · ETHA -16.5%↓ · COIN -23.0%↓ · MSTR -14.7%↓ · HOOD -24.5%↓ · MARA -40.2%↓ · RIOT -36.4%↓
 
-**Metals stocks and ETFs (1 mo):** GLD -6.7%↓ · SLV -16.2%↓ · GDX -14.3%↓ · GDXJ -18.1%↓ · NEM -11.9%↓ · AEM -11.1%↓ · WPM -16.9%↓ · PSLV -17.2%↓
+**Metals stocks and ETFs (1 mo):** GLD -6.6%↓ · SLV -18.2%↓ · GDX -12.2%↓ · GDXJ -16.7%↓ · NEM -7.6%↓ · AEM -9.8%↓ · WPM -12.8%↓ · PSLV -17.3%↓
 
-**Most searched coins on CoinGecko right now:** Universal High Income (UHI, #667, 24h -22.2%), Hyperliquid (HYPE, #11, 24h -2.8%), Binance Super CZ (BSC, #815, 24h +34.6%), Dacity Coin (DACITY, #833, 24h +1.2%), Irys (IRYS, #246, 24h +35.7%), Pearl (PEARL, #92, 24h -7.1%), NEAR Protocol (NEAR, #20, 24h -10.3%), Ethena (ENA, #41, 24h -8.5%), Sui (SUI, #30, 24h -5.2%), Orderly (ORDER, #633, 24h +132.9%)
+**Most searched coins on CoinGecko right now:** Super Inu (SI, #749, 24h +83.6%), Super Pepe (SP, #997, 24h -15.7%), Pudgy Penguins (PENGU, #113, 24h +2.4%), Bitcoin (BTC, #1, 24h +1.0%), Hyperliquid (HYPE, #11, 24h -4.4%), Lisk (LSK, #372, 24h +35.7%), Solana (SOL, #7, 24h +1.3%), BNB (BNB, #4, 24h +1.2%), Lighter (LIT, #88, 24h -3.1%), Pearl (PEARL, #102, 24h -5.9%)
 
-**Most-mentioned on crypto Reddit (via ApeWisdom):** BTC.X 1, ETH.X 1, USDT.X 1 (24h ago 1), XRP.X 1, LINK.X 1, USDC.X 1, XMR.X 1, HBAR.X 1, APY.X 1, MB.X 1, IRA.X 1, EST.X 1
+**Most-mentioned on crypto Reddit (via ApeWisdom):** BTC.X 1, XRP.X 1, LINK.X 1, XMR.X 1, ID.X 1
 
 **Meme coins, by trading volume** (high risk: these can go to zero)
 
 | Coin | Mkt cap $B | 24h volume $B | 24h | 7 d | 30 d |
 |---|---|---|---|---|---|
-| Pepe (PEPE) | 1.85 | 0.42 | -11.3% | +12.0% | +2.2% |
-| Dogecoin (DOGE) | 12.09 | 0.39 | -3.2% | -2.6% | -16.6% |
-| Moonbirds (BIRB) | 0.03 | 0.19 | +60.6% | +145.0% | +75.0% |
-| Little John (JOHN) | 0.02 | 0.17 | – | – | – |
-| Pump.fun (PUMP) | 1.92 | 0.13 | -9.2% | -6.1% | +9.8% |
-| Official Trump (TRUMP) | 0.47 | 0.1 | -7.3% | -6.7% | -16.6% |
-| Pudgy Penguins (PENGU) | 0.48 | 0.1 | -5.7% | +3.0% | -21.5% |
-| Shiba Inu (SHIB) | 2.88 | 0.06 | -4.2% | -2.3% | -13.0% |
-| Bonk (BONK) | 0.27 | 0.04 | -7.6% | +1.5% | -14.1% |
-| dogwifhat (WIF) | 0.18 | 0.04 | -8.5% | -8.1% | -21.9% |
-| Fartcoin (FARTCOIN) | 0.13 | 0.03 | -12.6% | -12.0% | -29.2% |
-| Animecoin (ANIME) | 0.02 | 0.02 | +11.4% | +12.8% | -4.5% |
-| FLOKI (FLOKI) | 0.22 | 0.02 | -5.4% | -1.6% | -15.0% |
-| Universal High Income (UHI) | 0.03 | 0.01 | -21.9% | – | – |
-| Useless Coin (USELESS) | 0.15 | 0.01 | -6.7% | +0.2% | -42.8% |
+| Pepe (PEPE) | 2.1 | 0.76 | -3.2% | +12.3% | +12.9% |
+| Dogecoin (DOGE) | 11.79 | 0.43 | +0.3% | -2.9% | -20.3% |
+| Pump.fun (PUMP) | 1.91 | 0.12 | +3.5% | -1.6% | -26.7% |
+| Pudgy Penguins (PENGU) | 0.46 | 0.07 | +1.9% | -4.9% | -23.7% |
+| Official Trump (TRUMP) | 0.45 | 0.07 | +1.7% | -6.0% | -23.3% |
+| Shiba Inu (SHIB) | 2.77 | 0.05 | -0.2% | -4.4% | -18.2% |
+| dogwifhat (WIF) | 0.18 | 0.04 | +2.1% | -4.6% | -29.4% |
+| Moonbirds (BIRB) | 0.02 | 0.03 | +7.5% | -32.3% | +27.9% |
+| FLOKI (FLOKI) | 0.23 | 0.02 | +0.7% | -0.2% | -15.0% |
+| Bonk (BONK) | 0.26 | 0.02 | +0.0% | -4.7% | -21.8% |
+| Fartcoin (FARTCOIN) | 0.12 | 0.02 | +2.7% | -8.4% | -30.4% |
+| Ape and Pepe (APEPE) | 0.25 | 0.02 | -0.5% | +1.1% | -7.2% |
+| MarsCoin (MARSCOIN) | 0.05 | 0.01 | +3.2% | -22.3% | -61.3% |
+| Useless Coin (USELESS) | 0.12 | 0.01 | -6.4% | -20.7% | -45.3% |
+| Giggle Fund (GIGGLE) | 0.03 | 0.01 | +2.0% | -5.8% | -22.8% |
 
 ## 7. Scorecard: are the agents beating the S&P?
-No idea is a month old yet (11 logged). First 1-month scores appear about four weeks after the first watchlist.
+No idea is a month old yet (18 logged). First 1-month scores appear about four weeks after the first watchlist.
 
 ## 6. Top 10 by market cap in each sector
 
-**Technology:** NVDA -6.1%↓ · AAPL +3.5% · MSFT +5.3% · AVGO -8.2%↓ · MU -18.8%↓ · AMD -17.9%↓ · PLTR +2.2% · CSCO -0.1%↓ · ORCL -9.3%↓ · PANW -2.4%
-**Communication:** GOOGL -6.5%↓ · META -17.4%↓ · NFLX -8.2%↓ · DIS +6.6% · VZ -4.2%↓ · TMUS -11.4%↓ · T -16.8%↓ · CMCSA +4.1%↓ · WBD –↓ · EA –↓
-**Consumer Discretionary:** AMZN -0.6%↓ · TSLA -1.5% · HD +9.5% · MCD +4.8%↓ · TJX +10.2% · BKNG -1.0%↓ · SBUX +7.6% · LOW +6.1% · MAR +11.2% · ABNB +13.6%↓
-**Consumer Staples:** WMT +11.4% · COST +11.9% · KO +5.2% · PG +11.3% · PM +5.1% · PEP +5.9% · MO +7.9% · MNST +8.2% · MDLZ +5.8% · CL +10.8%
-**Energy:** XOM +13.0% · CVX +13.4% · COP +16.6% · MPC +17.0% · VLO +9.5% · PSX +10.7% · WMB +1.6%↓ · EOG +14.9% · SLB +3.2% · KMI +10.2%
-**Financials:** BRK-B +7.3% · JPM -1.6%↓ · V +10.9% · MA +10.3% · BAC -9.8%↓ · MS -8.6%↓ · GS -5.2%↓ · WFC +0.3%↓ · AXP +2.8%↓ · C -8.7%↓
-**Health Care:** LLY +7.7% · JNJ -2.5%↓ · ABBV +8.4% · UNH +11.5% · MRK -1.8%↓ · TMO -0.7% · AMGN +8.2% · GILD +4.2% · ABT +3.2%↓ · PFE +5.7%
-**Industrials:** CAT -14.7%↓ · GE -10.5%↓ · RTX +1.3%↓ · GEV -14.7%↓ · DE -6.8%↓ · UNP +6.9% · BA -4.3%↓ · ETN -16.8%↓ · LMT +15.4% · UBER -3.6%↓
-**Materials:** LIN +8.7% · SCCO -8.2%↓ · NEM -10.2%↓ · FCX -9.4%↓ · SHW +5.2% · ECL +4.8% · APD +8.7% · NUE +4.3% · CRH +1.1%↓ · MLM +5.6%
-**Real Estate:** WELL +1.6% · PLD -5.5%↓ · EQIX -7.7%↓ · AMT +14.2% · SPG +3.4% · DLR -4.8%↓ · PSA +8.9% · O +3.2%↓ · CCI +27.1% · CBRE -9.7%↓
-**Utilities:** NEE +8.6% · SO +12.1% · DUK +10.4% · CEG -3.1%↓ · AEP +10.3% · D +7.9% · SRE +8.1% · ETR +9.4% · XEL +12.2% · VST +1.6%↓
+**Technology:** AAPL +4.3% · NVDA -11.4%↓ · MSFT +1.8% · AVGO -5.1%↓ · MU -19.4%↓ · AMD -18.0%↓ · PLTR -3.1%↓ · CSCO -3.5%↓ · ORCL -5.0%↓ · AMAT -26.3%↓
+**Communication:** GOOGL -17.3%↓ · META -15.3%↓ · NFLX -8.5%↓ · DIS +9.5% · VZ -1.2%↓ · TMUS -3.3%↓ · T -10.9%↓ · CMCSA +8.7% · WBD –↓ · EA –↓
+**Consumer Discretionary:** AMZN -3.2%↓ · TSLA +12.9% · HD +16.5% · MCD +11.3% · TJX +5.0% · SBUX +9.3% · LOW +15.4% · BKNG -7.6%↓ · MAR +12.5% · ABNB +2.4%↓
+**Consumer Staples:** WMT +18.5% · COST +10.8% · KO +9.3% · PG +13.0% · PM +11.9% · PEP +9.3% · MO +16.5% · MNST +12.3% · MDLZ +12.4% · CL +13.4%
+**Energy:** XOM +14.3% · CVX +13.7% · COP +21.2% · MPC +5.9% · VLO -2.2% · PSX +7.0% · WMB +7.4% · EOG +17.9% · SLB +10.4% · KMI +10.9%
+**Financials:** BRK-B +8.4% · JPM +1.7%↓ · V +14.9% · MA +16.2% · BAC -6.9%↓ · MS -1.4%↓ · GS -0.2%↓ · WFC +3.9%↓ · AXP +6.0% · C -3.4%↓
+**Health Care:** LLY +23.3% · JNJ +5.6% · ABBV +14.1% · MRK +4.0% · UNH +11.4% · TMO +6.8% · AMGN +14.4% · GILD +15.7% · ABT +10.5% · PFE +8.5%
+**Industrials:** GE -3.2%↓ · CAT -24.5%↓ · RTX +8.0% · GEV -13.1%↓ · DE +1.2% · UNP +11.6% · LMT +26.0% · ETN -15.4%↓ · BA -10.8%↓ · UBER -3.9%↓
+**Materials:** LIN +9.5% · SCCO -10.9%↓ · NEM -7.0%↓ · FCX -9.6%↓ · ECL +11.7% · SHW +3.7% · APD +15.8% · NUE +16.1% · CRH +11.2% · MLM +12.8%
+**Real Estate:** WELL +3.4% · PLD -0.2%↓ · EQIX +0.1%↓ · AMT +16.6% · SPG +8.4% · DLR +2.4%↓ · PSA +14.4% · O +6.9%↓ · CCI +34.1% · CBRE -1.3%↓
+**Utilities:** NEE +9.6% · SO +12.3% · DUK +12.0% · CEG +1.3%↓ · AEP +8.7% · D +9.6% · SRE +10.3% · ETR +9.7% · XEL +13.1% · EXC +14.1%
 
 ## Agent notes
 ### Regime
-**1. Regime: MIXED (score 2/4), not risk-on.**
-- SPY is above its 200-day but below its 50-day. That is a pullback inside an uptrend, and the 200-day is the key test (the data gives no level for it). SPY is -0.9% over 1 month and +12.3% YTD.
-- VIX is 19.45, up 24.1% in a month.
-- Credit appetite is -2.5% over 1 month, so HYG is lagging IEF.
-- The 10-year is 4.99%, just under the 5% flag (alert is false), down 3.4% over the month.
-- The dollar proxy is up 0.9%.
-- Small caps are lagging large caps by 1.2%.
+**1. Mixed (model score 2/4), with a risk-off tilt.**
+- SPY is 755.72, below its 50-day but still above its 200-day. By our backtest rule the primary regime is intact, though it's weakening.
+- VIX is 19.42, up 18.5% in a month. Credit appetite (HYG vs IEF) is -2.0% over 1 month.
+- The 10-year is 4.93%, just under the 5% alert line. The dollar is flat (+0.1%).
+- Fear & Greed is 30, down from 74 a month ago. Crypto and metals are mostly below their 50-day averages.
 
-**2. Breadth: the index is dragged by megacaps, but the rally is not broad.**
-- Over 1 month, Mag 7 is -6.4% against RSP +3.0% and SPY -0.9%. Equal weight beats cap weight by 4.0 points.
-- YTD, RSP is +14.4%, SPY +12.3% and Mag 7 -2.8%. Over the quarter, though, RSP (+1.0%) lags SPY (+3.1%).
-- Only 56.5% of the top-10s are above their 50-day and 63.0% above their 200-day, which is middling.
-- This is rotation out of megacaps and the AI chain (SMH -12.2% over 1 month; ORCL, CRWV and GOOGL are flagged), not broad strength.
-- Mag 7 is 41.2% of tracked market cap, so its weakness weighs on SPY.
+**2. Rotation, not a broad advance.**
+- Over 1 month, Mag 7 is -9.7%, SPY -1.1% and equal-weight +4.5%, a 5.6-point gap. Year to date, equal-weight is +15.3% vs SPY +11.7%.
+- Mag 7 is still 40.2% of tracked market cap, so its drop drags the index.
+- Mag 7 is split: AAPL, MSFT and TSLA are up, while GOOGL (-17.3%) and META (-15.3%) are down.
+- The AI chain is stressed (SMH -15.4% over 1 month).
+- Breadth is middling: 64.8% above the 50-day and 63.0% above the 200-day. I can't tell from the data what "top10s" covers, so I'm giving that figure little weight.
 
-**3. What would change my read**
-- **Risk-off:** SPY closes below its 200-day; the 10-year closes at or above 5%; HYG/IEF keeps falling; the AI-chain warnings widen; the share of top-10s above their 200-day drops below 50%.
-- **Risk-on:** SPY reclaims its 50-day with VIX falling and credit appetite turning positive.
+**3. What would change my read.** The data doesn't give the 50-day or 200-day levels, so these are conditions, not prices.
+- **Risk-off:** SPY closes below its 200-day, or the 10-year reaches 5% or higher. Also VIX rising further with HYG/IEF weakening, or more AI-chain breaks (ORCL, CRWV).
+- **Risk-on:** SPY reclaims its 50-day, VIX falls, credit appetite turns positive, and breadth rises above the current ~63–65%.
 
 ### Sectors
-**1. Sector leadership**
-- **Leaders:** Energy is #1 (month +10.8%, RS +11.7, up from +6.1). Utilities is #2, up from #4 (RS +9.1 vs +1.7), the biggest rotation inflow. Staples is #3 (RS +9.0).
-- **Moving up:** Utilities (+2), then Materials, Financials, Real Estate and Tech (+1 each). Tech is still #10 with a month of -5.9%.
-- **Rolling over:** Communication (week -4.4%, month -7.4%, rank 11) and Industrials (week -1.9%, rank 9). Discretionary, Staples and Health Care each slipped one spot.
+**1. Leaders and rotation**
+- **Leaders:** Energy is #1 (XLE +11.7% month, RS +12.8, rank unchanged). Staples (+11.3%) and Health Care (+11.2%) are #2 and #3.
+- **Rotating in:** Health Care's RS jumped from 6.5 to 12.3 and Staples' from 9.0 to 12.4, with each up one rank. Real Estate rose two ranks (8→6), and Materials' RS rose from 4.2 to 9.7 at an unchanged #5.
+- **Rolling over:** Utilities fell 2→4 and is below its 200-day. Financials fell 6→8, Discretionary 6→7 and Tech 10→11. Tech (-9.3% month) is below its 50-day, and Communication (-9.1%) is below both averages.
+- The pattern is defensive and energy-led, with growth sectors weak.
 
-**2. Participation in the leaders**
-- **Energy is broad.** All 10 top names are up on the month and 9 of 10 are above their 50-day average (WMB is the exception). WMB (-9.2 vs sector) and SLB (-7.6) lag.
-- **Staples is the broadest.** All 10 are above their 50-day average and 9 of 10 are above their 200-day (PEP is not).
-- **Utilities is mostly broad.** 8 of 10 are above their 50-day average. CEG (-3.1% month) and VST (+1.6%) lag.
+**2. Participation in leading sectors**
+It is broad, not one or two names.
+- **Energy:** all 10 are above their 50- and 200-day averages. VLO is the only one down on the month (-2.2%).
+- **Staples:** all 10 are up 9.3% to 18.5% on the month, and 9 of 10 are above their 200-day (PEP is the exception).
+- **Health Care:** all 10 are up on the month and above both averages.
 
-**3. Large caps with relative strength vs their sector (month)**
-- **MSFT:** +5.3%, +11.2 vs Tech.
-- **AAPL:** +3.5%, +9.4 vs Tech.
-- **DIS:** +6.6%, +14.0 vs Communication.
-- **LMT:** +15.4%, +17.9 vs Industrials.
-- **V:** +10.9%, +8.3 vs Financials.
+**3. Large-cap relative strength (month, vs sector)**
+- **AAPL:** +4.3%, +13.6 pts vs Tech, the only mega-cap there above both averages.
+- **LLY:** +23.3%, +12.0 pts.
+- **COP:** +21.2%, +9.6 pts.
+- **MA:** +16.2%, +10.5 pts (V is +14.9%, +9.2 pts).
+- **WMT:** +18.5%, +7.1 pts.
 
-Most of these are strong inside weak sectors. Tech's other large caps are falling: MU -18.8%, AMD -17.9%, AVGO -8.2%, NVDA -6.1%.
-
-**Breadth:** 56.5% of top-10 stocks are above their 50-day average and 63.0% are above their 200-day.
+**Caution:** NVDA (-11.4%) and AVGO are below their 50-day, so the AI chain is weak.
 
 ### Sentiment
-**1. More talk vs cooling**
-- **Rising:** BE (51 mentions vs baseline 8), GOOG (50 vs 18), WDC (18 vs 8), RDDT (15 vs 7), and AI software, where Google Trends is +28.9% and price is rising too (NOW +12% this week).
-- **Cooling:** Google Trends is down for memory (-100%, probably a data artifact), robotics (-29%), water (-28%), cooling (-24%), AI chips (-21%), crypto (-20%), copper (-18%) and data centers (-17%). Labubu search is down 15%, and 91% below the same season last year.
+**1. More vs. less talk**
+- **Rising:** INTC (120 mentions vs ~10 baseline), RDDT (263 vs 25), AMD (101 vs ~36). Google Trends is up for memory chips (+480%) and the AI-efficiency basket (+56%). AI-fear headlines are up ~700% (news only).
+- **Cooling:** searches are down for robotics (-24%), the data-center cooling basket (-20%), AI data centers (-13%) and power (-12%).
 
-**2. Real vs noise**
-- The Reddit sample is thin: most rising tickers are in single or double digits.
-- FIGR, CRDO, HR, VZ and XXII show huge percentage jumps off a zero baseline, so treat them as noise.
-- No theme has Reddit rates, X data or ground-truth posts. Headlines are near zero (one AI-fear item about Kimi).
-- Uggs search is +160%, but it is -20% vs last year's same season. That is seasonal, not new interest.
-- The BE spike came with a -27.5% monthly move. That is debate after a crash, not discovery.
+**2. Signal vs. noise**
+- Reddit counts are small (tens to low hundreds of mentions). Theme-level Reddit data is null, and there are 0 headlines on most themes, so this is a thin read.
+- TTM, NRXP, CAN, INO and UI have 5–8 mentions off zero baselines. That is noise.
+- KO (14 mentions) is a small sample.
+- Uggs search is +137%, but it is -31% vs the same season last year. That is seasonal, so it fails the test.
+- Pokémon cards and Starbucks carry scare flags (YouTube scare ~5–6 per 100 comments). Check whether the claims are true before anything else.
+- The memory-chip search jump comes with prices down 18% on the month. I can't tell why people are searching, so check that first.
 
-**3. Early vs late**
-- **Possibly early:** GTA 6 (TTWO). Search is +7% recently and +226% vs last year, price is flat for the month, and earnings are Nov 9. Put/call is 2.43, so options are cautious. A human should read the trailer and comment sentiment.
-- **Stealth, price ahead of talk:** AI efficiency (ACN +41.7%), distribution moats and water. Talk is quiet, but the prices have already moved, so this is not early.
-- **Late or crowded:** Sweetgreen (+59% quarterly, 26.6% short interest, call-heavy options), Mattel (+25% for the month) and BE.
-- **Caution:** Pokémon cards show scare talk (5.2 per 100 comments). Check whether it is true. It is a $62B company, so the trend is unlikely to move the stock.
+**3. Early vs. late**
+- **Possibly early:** memory chips (talk up, price down; SNDK 43 and MU 42 mentions). It depends on AI-lab spending, though. The AI-efficiency theme has talk and price both rising, but 0 headlines. Distribution moats and water show price leading while talk is quiet.
+- **Late or crowded:** RDDT and INTC chatter is extreme (~9–10x baseline) and RDDT is -39%, which looks like a reaction. Sweetgreen (+87% over the quarter, 25.8% short) and Crocs (+26% this week, search -32%) look like price running ahead of talk. GTA 6 is in headlines, and its search is +254% year on year, with earnings on 11/9.
 
-The AI chain is weak (chips -16% for the month, CRWV -40%), so any idea that depends on AI-lab spending needs a skeptic check.
+**Regime:** Fear & Greed is 30, and most AI themes are below their 50-day average. Big movers (NOW -34%, CROX +26%, VRT +20%) have no headlines, so I can't call them material or noise. Don't add to them until the reason is known.
+
+**Human checks:** read TikTok comments, count creators, and check stores and analyst coverage.
 
 ### Themes
-**1. Theme confirmation (vs S&P)**
-- **CONFIRMED:** AI software only (1M +1.2%, 3M +7.9%, relative strength +2.1 / +4.8, above 50d).
-- **STEALTH** (price up, talk quiet, above 50d): AI efficiency wave, Distribution moats, Water.
-- **NEUTRAL, but all below the 50-day:** Power, Nuclear, Data centers, Cooling, Copper, AI chips, Memory, Robotics, Crypto and Precious metals. Every one lags the S&P over 1 month, so the thesis is not confirmed for any infrastructure link.
+**1. Theme labels (vs S&P, 1m/3m RS, above 50-day)**
+- **CONFIRMED:** AI efficiency (+7.3/+5.0, above 50d).
+- **STEALTH:** Distribution moats (+7.5/+3.4) and Water (+7.0/+2.1), both above 50d.
+- **EARLY:** Memory (RS -17.1/-18.3, below 50d). Google Trends is +479.7% but price hasn't followed.
+- **NEUTRAL (all below 50d):**
+  - Power -10.1/+2.8
+  - Cooling -10.4/-4.9
+  - Data centers -12.5/-7.7
+  - Chips -15.9/-7.4
+  - Copper -11.5/-15.5
+  - Nuclear -11.7/-28.3
+  - Robotics -7.2/-1.8
+
+Price does not confirm the infrastructure thesis.
 
 **2. Supply chain**
-- **Strongest:** software, the user end of the chain. Power is the least bad builder (3M +0.4%).
-- **Not caught up:** memory (1M -23.5%), chips (-16.4%), data centers (-13.6%), nuclear (3M -28.4%), copper (3M -14.6%). Cooling is also weak (-12.5%). Neoclouds are under stress (CRWV -39.8%), and the one chips headline is about that.
+- **Strongest:** Power, the only infrastructure theme with a positive 3-month RS (+2.8). Its leaders are TLN and CEG.
+- **Not caught up:** Memory (talk spiking, price weak). Nuclear is the weakest on 3 months (-28.3).
+- **Rotation:** Yes, early. Users (efficiency, moats) are +7 RS while builders are -10 to -17. Leadership is also defensive (Energy, Staples, Health Care), so this is partly a risk-off regime.
 
-**3. Leaders and laggards (1M)**
-- **Software:** NOW +15.4, MSFT +5.3 lead; SNOW -2.6 lags.
-- **Efficiency:** ACN +41.7, CNC +13.3 lead; AMZN -0.6, JPM -1.6 lag.
-- **Water:** VLTO +8.6, AWK +8.5 lead; WTS +1.2 lags.
-- **Chips:** NVDA -6.1, TSM -7.2 hold up best; ARM -31.3, MU -18.8 lag.
-- **Power:** TLN +9.3, VST +1.6 lead; BE -27.5, ETN -16.8 lag.
+**3. Leaders and laggards (1 month)**
+- **Efficiency:** ACN +22.6, WMT +18.5, UPS +15.3. Laggards JPM +1.7, AMZN -3.2.
+- **Moats:** WMT +18.5, HD +16.5, UPS +15.3. Laggards KO +9.3 (still positive), AMZN -3.2.
+- **Water:** VLTO +17.4, AWK +12.9, WTRG +12.5. Laggards WTS -3.3, XYL -8.4.
+- **Power (best infrastructure):** TLN +6.2, CEG +1.3. Laggards ETN -15.4, BE -26.8.
 
-**Rotation (builders → users)**
-Early signs. Efficiency is +7.4% over 1M against chips at -16.4%. Over 3M it is only +3.5%, so the shift is recent. The efficiency evidence meter and Dev/IT post count are not in the data, and efficiency Google Trends is -15.3% with 0 headlines. Real payoff evidence is unproven. The move is also narrow: ACN alone is +41.7%.
+**Efficiency evidence:** The data has no efficiency-meter or Dev/IT post counts (Reddit null, 0 headlines). The only support is Google Trends +56.1% and price. There is no direct proof yet that AI is cutting costs inside companies.
 
-**Distribution moats**
-These are +7.3% over 1M but -0.1% over 3M, and they trail the S&P over 3M. Leaders are COST, WMT and PG, which looks like a staples and defensive bid. AMZN, the thesis name, is -0.6%.
-
-**Catalyst: GTA 6 (Nov 19, 26 days)**
-- **Priced in:** 30–50M year-1 units, $20–60 online spend per monthly user, and GTA 5 online at about $0.6B a year. TTWO is 3M -16.5% and 1M +0.3%, so little optimism looks priced in.
-- **High scenario:** deep engagement at the upper end of $20–60 spend and strong comment and pre-launch interest. **Low:** spend and units near the bottom of those ranges.
-- **Second-order winners:** SONY (+13.4% 1M) and MSFT. DASH and UBER are weak (-5.2% on the week). **Loser:** NFLX (-8.2%).
-- **Delay:** it would hurt TTWO and unwind the second-order trades. The playbook notes say a slip past the holidays would hurt badly.
+**Catalyst: GTA 6 (Nov 19, 19 days)**
+- **Priced in:** 30–50M year-1 units, $20–60 online spend per monthly user, GTA 5 Online still ~$0.6B/yr. TTWO is -22.4% over 3 months, so expectations look cautious.
+- **High scenario:** Deep engagement and spend near $60. **Low scenario:** Units near 30M and spend near $20. The data has no evidence yet on which is more likely.
+- **Second-order winners:** DASH, UBER, SONY, MSFT. **Loser:** NFLX.
+- **Delay:** Hurts TTWO most, especially past the holidays. The second-order trades would also fade.
 
 ### Social_Arb
 (agent failed: empty reply (stop_reason=max_tokens))
 
 ### Skeptic
 **1. Crowded or priced in**
-- MSFT is up 35.1% in the quarter, and ACN (+41.7% in a month) carries the "AI efficiency" basket. The basket's quarterly relative strength is only +0.4, and its Google Trends change is -15.3%, so there is little confirming evidence.
-- "Stealth" defensives such as distribution moats and water are up 7.3% and 6.0% in a month, but they trail SPY over the quarter (-3.2 and -1.8). That looks like a flight to safety.
-- Leadership is narrow. Mag7 is 41.2% of tracked market cap and down 6.4% in a month, while equal weight is up 3.0%. SPY is below its 50-day average.
+- The "broadening" is mostly mega-cap decline. Mag7 is -9.7% over 1 month, while equal weight is +4.5% and SPY -1.1%. SPY's quarter is 0.0%.
+- Only 3 of 14 themes are up over 1 month: Distribution moats +6.4%, AI efficiency +6.3%, Water +5.9%. These are defensive, and they are led by WMT +18.5% and HD +16.5%.
+- AI efficiency is "confirmed" only by Google Trends +56%. Its basket laggards are AMZN -3.2% and JPM +1.7%.
 
-**2. What could break the bull story**
-- The 10-year is at 4.99%, right at the 5% line.
-- VIX is up 24.1% in a month, and credit appetite is -2.5.
-- The AI chain is stressed. CRWV is -39.8%, ORCL is below both its 50-day and 200-day averages, and GOOGL is below both too. AI chips are -16.4% and memory -23.5%, so chips are not "fine."
-- MSFT and GOOGL report 10/28, AMZN 10/29, CRWV 11/11 and NVDA 11/17.
-- The narrative meters are blind. Reddit and X are null and the fear change is null. AI-fear news is 20 per 1k and not flagged as accelerating, and leverage news is 0. Absence of data is not safety.
+**2. What breaks the bull story**
+- The 10-year is 4.93%, just 7bp below the ~5% line.
+- SPY is below its 50-day average. VIX is 19.42 (+18.5%), and credit appetite is -2.0.
+- The AI chain is cracking: CRWV -38%, GOOGL -17.3% (-25% over the quarter), META -15.3% (S&P outlook cut), ORCL and AMZN below their 200-day averages. SMH is -15.4%.
+- AI-fear news is +700%. Reddit and leverage data are null, so forced selling can't be ruled out.
+- Catalysts: CRWV reports Nov 10 and NVDA Nov 17.
 
-**Scenarios (rough odds)**
-- 45%: choppy rotation into defensives, with chips still weak.
-- 30%: the 10-year pushes above 5% and forces a sell-off.
-- 25%: relief rally on hyperscaler earnings.
+**Scenarios**
+- Chop and rotation continue: 45%.
+- Forced AI de-risking with the 10-year above 5%: 35%.
+- Washout and rebound: 20%.
 
-**3. What would prove me wrong**
-- The 10-year falls back from 4.99%.
-- SPY reclaims its 50-day average and breadth holds.
-- ORCL and CRWV recover while the hyperscalers report solid results.
-- The efficiency basket broadens beyond ACN.
+**3. Proof I'm wrong**
+- The 10-year falls and holds below 4.8%.
+- SMH retakes its 50-day average and CRWV reports without stress.
+- Mag7 stops lagging equal weight.
+- VIX falls below 16 while the AI-fear count fades.
 
 
 ---
