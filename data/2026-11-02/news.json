@@ -1,0 +1,384 @@
+{
+  "date": "2026-11-02",
+  "n": 50,
+  "errors": [],
+  "by_theme": {
+    "AI chips": [
+      {
+        "title": "Why is ON Semiconductor stock sliding today?",
+        "link": "https://www.investing.com/news/stock-market-news/why-is-on-semiconductor-stock-sliding-today-93CH-4992998",
+        "published": "2026-11-02 22:03:37",
+        "source": "www.investing.com"
+      }
+    ],
+    "AI data centers": [],
+    "Power for AI": [],
+    "Nuclear": [
+      {
+        "title": "Fake nuclear warnings in Ukraine as Moscow, Kyiv report separate cyberattacks on emergency apps",
+        "link": "https://www.cnbc.com/2026/11/02/russia-ukraine-cyberattack-zelenskyy-putin.html",
+        "published": "Mon, 02 Nov 2026 15:28:46 GMT",
+        "source": "www.cnbc.com"
+      }
+    ],
+    "Water": [],
+    "Cooling": [],
+    "Copper & grid materials": [],
+    "AI software": [
+      {
+        "title": "Palantir earnings reveal a major AI turning point",
+        "link": "https://www.marketwatch.com/story/palantir-earnings-reveal-a-major-ai-turning-point-db766110?mod=mw_rss_topstories",
+        "published": "Mon, 02 Nov 2026 21:09:00 GMT",
+        "source": "feeds.content.dowjones.io"
+      },
+      {
+        "title": "Palantir reports booming U.S. commercial revenue growth, topping government for first time",
+        "link": "https://www.cnbc.com/2026/11/02/palantir-pltr-earnings-q3-2026.html",
+        "published": "Mon, 02 Nov 2026 22:22:00 GMT",
+        "source": "www.cnbc.com"
+      },
+      {
+        "title": "Why is Palantir Technologies stock rising today?",
+        "link": "https://www.investing.com/news/stock-market-news/why-is-palantir-technologies-stock-rising-today-93CH-4992945",
+        "published": "2026-11-02 21:49:10",
+        "source": "www.investing.com"
+      }
+    ],
+    "Memory chips": [],
+    "AI efficiency wave": [],
+    "Distribution moats": [],
+    "Crypto": [
+      {
+        "title": "Defense, healthcare, crypto and AI: How the midterm election could affect stocks",
+        "link": "https://www.cnbc.com/2026/11/02/midterm-election-stocks-defense-healthcare-crypto-ai.html",
+        "published": "Mon, 02 Nov 2026 18:59:48 GMT",
+        "source": "www.cnbc.com"
+      }
+    ],
+    "Precious metals": [],
+    "Robotics": []
+  },
+  "latest": [
+    {
+      "title": "Traders rushing into a leveraged ETF to make a bullish bet on the Nasdaq-100 just got burned",
+      "link": "https://www.marketwatch.com/story/traders-rushing-into-a-leveraged-etf-to-make-a-bullish-bet-on-the-nasdaq-100-just-got-burned-d6775191?mod=mw_rss_topstories",
+      "published": "Mon, 02 Nov 2026 22:03:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Wall Street\u2019s most hated stocks are faring far better than its favorites",
+      "link": "https://www.marketwatch.com/story/wall-streets-most-hated-stocks-are-faring-far-better-than-its-favorites-4c1d6c68?mod=mw_rss_topstories",
+      "published": "Mon, 02 Nov 2026 21:45:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Want to help your adult kids and grandkids? Give them money while you\u2019re still alive.",
+      "link": "https://www.marketwatch.com/story/if-you-really-want-to-help-your-adult-kids-and-grandkids-give-them-money-while-youre-still-alive-bef6b056?mod=mw_rss_topstories",
+      "published": "Mon, 02 Nov 2026 21:35:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "\u2018She\u2019s a Type A personality\u2019: My stepmother wants me to repay my late father\u2019s $40,000 wedding gift. Should I oblige?",
+      "link": "https://www.marketwatch.com/story/shes-a-type-a-personality-my-stepmother-wants-me-to-repay-my-late-fathers-40-000-wedding-gift-should-i-oblige-51fc64f7?mod=mw_rss_topstories",
+      "published": "Mon, 02 Nov 2026 21:30:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "The stock market has gone nowhere for the past 5 months. It\u2019s now looking like a bargain.",
+      "link": "https://www.marketwatch.com/story/the-stock-market-has-gone-nowhere-for-the-past-5-months-its-now-looking-like-a-bargain-150914c2?mod=mw_rss_topstories",
+      "published": "Mon, 02 Nov 2026 21:29:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Palantir earnings reveal a major AI turning point",
+      "link": "https://www.marketwatch.com/story/palantir-earnings-reveal-a-major-ai-turning-point-db766110?mod=mw_rss_topstories",
+      "published": "Mon, 02 Nov 2026 21:09:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "\u2018It seems bizarre\u2019: We\u2019re in our 80s with $950,000 in traditional IRAs. Why is our adviser pushing Roth conversions?",
+      "link": "https://www.marketwatch.com/story/it-seems-bizarre-were-in-our-80s-with-950-000-in-traditional-iras-why-is-our-adviser-pushing-us-to-do-roth-conversions-a665f990?mod=mw_rss_topstories",
+      "published": "Mon, 02 Nov 2026 21:00:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Chip stocks are suffering from a \u2018crisis of confidence\u2019 \u2014 but things aren\u2019t as gloomy as they seem",
+      "link": "https://www.marketwatch.com/story/chip-stocks-are-suffering-from-a-crisis-of-confidence-but-things-arent-as-gloomy-as-they-seem-6ed14ea9?mod=mw_rss_topstories",
+      "published": "Mon, 02 Nov 2026 20:30:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "How soon gas prices could go down now that oil is tumbling",
+      "link": "https://www.marketwatch.com/story/how-soon-gas-prices-could-go-down-now-that-oil-is-tumbling-a1140dc2?mod=mw_rss_topstories",
+      "published": "Mon, 02 Nov 2026 19:27:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "It may take weeks to tally the midterm election results. Here\u2019s why Wall Street isn\u2019t worried.",
+      "link": "https://www.marketwatch.com/story/it-may-take-weeks-to-tally-the-midterm-election-results-heres-why-wall-street-isnt-worried-ed9313fd?mod=mw_rss_topstories",
+      "published": "Mon, 02 Nov 2026 18:16:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Palantir reports booming U.S. commercial revenue growth, topping government for first time",
+      "link": "https://www.cnbc.com/2026/11/02/palantir-pltr-earnings-q3-2026.html",
+      "published": "Mon, 02 Nov 2026 22:22:00 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Trump focuses on Reflecting Pool in final public speech before midterms",
+      "link": "https://www.cnbc.com/2026/11/02/trump-midterm-election-speech-reflecting-pool.html",
+      "published": "Mon, 02 Nov 2026 21:15:13 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Stock market after midterm elections: What S&P 500 history shows",
+      "link": "https://www.cnbc.com/2026/11/02/stock-market-after-midterm-elections-sp-500-history.html",
+      "published": "Mon, 02 Nov 2026 17:57:35 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "DOJ asks Supreme Court to block California counting disputed mail-in ballots",
+      "link": "https://www.cnbc.com/2026/11/02/supreme-court-california-mail-ballots-election.html",
+      "published": "Mon, 02 Nov 2026 19:38:58 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Anthropic reports $17 billion in Q3 revenue, purchase commitments of $895.4 billion in revised S-1",
+      "link": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
+      "published": "Mon, 02 Nov 2026 17:52:01 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Crude oil prices sell off more than 7% on Iran peace talk hopes ahead of U.S. midterms",
+      "link": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html",
+      "published": "Mon, 02 Nov 2026 20:19:25 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Trump Account holders to receive SpaceX stock from Gwynne Shotwell in December",
+      "link": "https://www.cnbc.com/2026/11/02/trump-accounts-spacex-shares-shotwell.html",
+      "published": "Mon, 02 Nov 2026 19:46:47 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "I bonds now pay 5.51% \u2014 but there are trade-offs. What to know before buying",
+      "link": "https://www.cnbc.com/2026/11/02/i-bonds-rate.html",
+      "published": "Mon, 02 Nov 2026 20:57:50 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Prediction market traders now see nearly 75% chance of Democrats winning the Senate",
+      "link": "https://www.cnbc.com/2026/11/02/prediction-market-traders-now-see-nearly-75percent-chance-of-democrats-winning-the-senate.html",
+      "published": "Mon, 02 Nov 2026 20:48:21 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Texas governor race tightens in prediction markets, but Abbott remains favored",
+      "link": "https://www.cnbc.com/2026/11/02/texas-governor-prediction-markets-abbott-hinojosa.html",
+      "published": "Mon, 02 Nov 2026 21:13:43 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Social Security may have to cut retirement benefits in six years. Here's how much money is at stake for beneficiaries",
+      "link": "https://www.cnbc.com/2026/11/01/social-security-benefit-cuts-2032.html",
+      "published": "Mon, 02 Nov 2026 18:46:31 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Wall Street's Fear Index is doing something strange. Here's what it means for stocks",
+      "link": "https://www.cnbc.com/2026/11/02/wall-streets-fear-index-is-doing-something-strange-heres-what-it-means-for-stocks.html",
+      "published": "Mon, 02 Nov 2026 15:30:41 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Judge tosses DOJ case against ex-FBI officials accused of lying about Hunter Biden probe",
+      "link": "https://www.cnbc.com/2026/11/02/fbi-hunter-biden-doj-case-dismissed.html",
+      "published": "Mon, 02 Nov 2026 19:19:17 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Lumentum CEO touts 'enormous' opportunity in massive AI connectivity deal with Marvell",
+      "link": "https://www.cnbc.com/2026/11/02/marvell-lumentum-ai-deal.html",
+      "published": "Mon, 02 Nov 2026 21:00:59 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Kimberly-Clark closes its acquisition of Tylenol maker Kenvue. What to expect next",
+      "link": "https://www.cnbc.com/investingclub/2026/11/02/kimberly-clark-closes-its-acquisition-of-tylenol-maker-kenvue-what-to-expect-next.html",
+      "published": "Mon, 02 Nov 2026 21:35:06 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Defense, healthcare, crypto and AI: How the midterm election could affect stocks",
+      "link": "https://www.cnbc.com/2026/11/02/midterm-election-stocks-defense-healthcare-crypto-ai.html",
+      "published": "Mon, 02 Nov 2026 18:59:48 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Fed will vote on rates less often. What that could mean for borrowers",
+      "link": "https://www.cnbc.com/2026/11/02/fed-rate-votes-consumer-borrowing-costs.html",
+      "published": "Mon, 02 Nov 2026 19:21:15 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Fanatics takes bigger NHL design role with all-32 team Hometown Remix jerseys",
+      "link": "https://www.cnbc.com/2026/11/02/fanatics-nhl-hometown-remix-jerseys.html",
+      "published": "Mon, 02 Nov 2026 17:28:16 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Oracle files to sell $20 billion in new stock, bonds to finance AI buildout",
+      "link": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+      "published": "Mon, 02 Nov 2026 21:10:34 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Democratic Rep. Stevens endorses Republican Rogers over rival El-Sayed in Michigan Senate election",
+      "link": "https://www.cnbc.com/2026/11/01/michigan-senate-stevens-rogers-endorsement-el-sayed.html",
+      "published": "Sun, 01 Nov 2026 21:06:42 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Canada-India $5.5 billion bank takeover attracts opposition from workers, politicians",
+      "link": "https://www.cnbc.com/2026/11/02/canada-india-bank-takeover-protest-workers.html",
+      "published": "Mon, 02 Nov 2026 04:09:34 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Rubio says Trump wants to end Iran war 'peacefully' even as both sides prepare for strikes",
+      "link": "https://www.cnbc.com/2026/11/02/us-iran-war-trump-hormuz-rubio.html",
+      "published": "Mon, 02 Nov 2026 02:39:35 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "CrowdStrike lands an upgrade, and Jim Cramer's advice on Apple ahead of earnings",
+      "link": "https://www.cnbc.com/investingclub/2026/11/02/crowdstrike-lands-an-upgrade-and-jim-cramers-advice-on-apple-ahead-of-earnings.html",
+      "published": "Mon, 02 Nov 2026 17:04:34 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Apollo launches $11 billion private credit platform, backed by Abu Dhabi",
+      "link": "https://www.cnbc.com/2026/11/02/apollo-private-credit-abu-dhabi.html",
+      "published": "Mon, 02 Nov 2026 09:11:02 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Connecticut Sen. Chris Murphy hospitalized after stroke, office says",
+      "link": "https://www.cnbc.com/2026/11/01/chris-murphy-stroke-senate-hospital.html",
+      "published": "Mon, 02 Nov 2026 14:14:00 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Fake nuclear warnings in Ukraine as Moscow, Kyiv report separate cyberattacks on emergency apps",
+      "link": "https://www.cnbc.com/2026/11/02/russia-ukraine-cyberattack-zelenskyy-putin.html",
+      "published": "Mon, 02 Nov 2026 15:28:46 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Alaska Sen. Sullivan says he'll accept election results, slams Peltola campaign\u2019s reported recruitment of 2nd Sullivan",
+      "link": "https://www.cnbc.com/2026/11/01/alaska-senate-election-dan-sullivan-peltola.html",
+      "published": "Sun, 01 Nov 2026 17:12:59 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "South Korea targets 'world's highest performance' sovereign AI model in record new budget",
+      "link": "https://www.cnbc.com/2026/11/02/south-korea-ai-spending-budget.html",
+      "published": "Mon, 02 Nov 2026 06:02:03 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "AI is coming to construction sites. But does it make workers safer?",
+      "link": "https://www.cnbc.com/2026/10/31/ai-construction-worker-safety.html",
+      "published": "Mon, 02 Nov 2026 06:55:19 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "These Senate races may help determine the fate of Social Security",
+      "link": "https://www.cnbc.com/2026/11/01/social-security-senate-races.html",
+      "published": "Sun, 01 Nov 2026 15:20:06 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Apple results beat Wall Street expectations\u00a0on strong iPhone sales",
+      "link": "https://www.investing.com/news/stock-market-news/apple-results-beat-wall-street-expectationson-strong-iphone-sales-4992898",
+      "published": "2026-11-02 22:13:03",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Oracle taps investors for $20 billion to finance AI expansion",
+      "link": "https://www.investing.com/news/stock-market-news/oracle-to-offer-10-billion-in-bonds-4991687",
+      "published": "2026-11-02 22:07:05",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Why is Ichor Holdings stock gaining today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-ichor-holdings-stock-gaining-today-93CH-4993008",
+      "published": "2026-11-02 22:05:52",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Why is Vertex Pharmaceuticals stock climbing today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-vertex-pharmaceuticals-stock-climbing-today-93CH-4992999",
+      "published": "2026-11-02 22:03:47",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Why is ON Semiconductor stock sliding today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-on-semiconductor-stock-sliding-today-93CH-4992998",
+      "published": "2026-11-02 22:03:37",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Why is Roku stock climbing today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-roku-stock-climbing-today-93CH-4992997",
+      "published": "2026-11-02 22:02:24",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Major automakers urge US Congress to pass permanent ban on Chinese vehicles",
+      "link": "https://www.investing.com/news/stock-market-news/major-automakers-urge-us-congress-to-pass-permanent-ban-on-chinese-vehicles-4992433",
+      "published": "2026-11-02 22:00:59",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Why is Palantir Technologies stock rising today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-palantir-technologies-stock-rising-today-93CH-4992945",
+      "published": "2026-11-02 21:49:10",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "S&P 500 ends down; Apple dips ahead of quarterly report",
+      "link": "https://www.investing.com/news/stock-market-news/wall-street-futures-rise-as-ai-stocks-catch-their-breath-midterms-in-focus-4990733",
+      "published": "2026-11-02 21:42:25",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "New cyberattack on supermarket fridges sweeps across Europe",
+      "link": "https://www.investing.com/news/stock-market-news/cyberattack-on-fridges-hits-supermarkets-across-europe-4991995",
+      "published": "2026-11-02 21:37:20",
+      "source": "www.investing.com"
+    }
+  ],
+  "narratives": {
+    "ai_fear": {
+      "count": 0,
+      "examples": []
+    },
+    "ai_efficiency": {
+      "count": 0,
+      "examples": []
+    },
+    "leverage": {
+      "count": 1,
+      "examples": [
+        {
+          "title": "Traders rushing into a leveraged ETF to make a bullish bet on the Nasdaq-100 just got burned",
+          "link": "https://www.marketwatch.com/story/traders-rushing-into-a-leveraged-etf-to-make-a-bullish-bet-on-the-nasdaq-100-just-got-burned-d6775191?mod=mw_rss_topstories",
+          "published": "Mon, 02 Nov 2026 22:03:00 GMT",
+          "source": "feeds.content.dowjones.io"
+        }
+      ]
+    }
+  }
+}

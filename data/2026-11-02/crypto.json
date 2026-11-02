@@ -1,0 +1,271 @@
+{
+  "date": "2026-11-02",
+  "errors": [],
+  "trending": [
+    {
+      "name": "Super Inu",
+      "symbol": "SI",
+      "mcap_rank": 817,
+      "chg_24h": 3.153289070816951
+    },
+    {
+      "name": "AudaCity",
+      "symbol": "DACITYCOIN",
+      "mcap_rank": 807,
+      "chg_24h": 20.42554849959655
+    },
+    {
+      "name": "Hyperliquid",
+      "symbol": "HYPE",
+      "mcap_rank": 10,
+      "chg_24h": -3.087843814000863
+    },
+    {
+      "name": "Pudgy Penguins",
+      "symbol": "PENGU",
+      "mcap_rank": 113,
+      "chg_24h": -2.4466746335253617
+    },
+    {
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "mcap_rank": 1,
+      "chg_24h": -0.9815910796966735
+    },
+    {
+      "name": "Aave",
+      "symbol": "AAVE",
+      "mcap_rank": 47,
+      "chg_24h": -4.662290228318346
+    },
+    {
+      "name": "Kinetiq",
+      "symbol": "KNTQ",
+      "mcap_rank": 210,
+      "chg_24h": -16.871170663571245
+    },
+    {
+      "name": "Kamino",
+      "symbol": "KMNO",
+      "mcap_rank": 181,
+      "chg_24h": -7.494225110651387
+    },
+    {
+      "name": "Lighter",
+      "symbol": "LIT",
+      "mcap_rank": 83,
+      "chg_24h": -1.5838586797970615
+    },
+    {
+      "name": "Venice Token",
+      "symbol": "VVV",
+      "mcap_rank": 72,
+      "chg_24h": -6.4699034356666445
+    },
+    {
+      "name": "peaq",
+      "symbol": "PEAQ",
+      "mcap_rank": 312,
+      "chg_24h": -5.776796183525109
+    },
+    {
+      "name": "Pearl",
+      "symbol": "PEARL",
+      "mcap_rank": 99,
+      "chg_24h": -1.9820001847953777
+    },
+    {
+      "name": "Sui",
+      "symbol": "SUI",
+      "mcap_rank": 30,
+      "chg_24h": -1.7230106660736804
+    },
+    {
+      "name": "Monero",
+      "symbol": "XMR",
+      "mcap_rank": 13,
+      "chg_24h": 2.394204831854175
+    },
+    {
+      "name": "Canton",
+      "symbol": "CC",
+      "mcap_rank": 28,
+      "chg_24h": -2.879494484386157
+    }
+  ],
+  "memes": [
+    {
+      "name": "Dogecoin",
+      "symbol": "DOGE",
+      "mcap_b": 11.61,
+      "vol_b": 0.4,
+      "chg_24h": -0.7916,
+      "chg_7d": -3.5009,
+      "chg_30d": -20.2078
+    },
+    {
+      "name": "Pepe",
+      "symbol": "PEPE",
+      "mcap_b": 2.01,
+      "vol_b": 0.38,
+      "chg_24h": -1.33987,
+      "chg_7d": 11.3005,
+      "chg_30d": 10.3784
+    },
+    {
+      "name": "Official Trump",
+      "symbol": "TRUMP",
+      "mcap_b": 0.45,
+      "vol_b": 0.16,
+      "chg_24h": -4.16835,
+      "chg_7d": -5.079,
+      "chg_30d": -21.5297
+    },
+    {
+      "name": "Pump.fun",
+      "symbol": "PUMP",
+      "mcap_b": 1.82,
+      "vol_b": 0.1,
+      "chg_24h": -3.40022,
+      "chg_7d": -5.1009,
+      "chg_30d": -36.6094
+    },
+    {
+      "name": "Pudgy Penguins",
+      "symbol": "PENGU",
+      "mcap_b": 0.44,
+      "vol_b": 0.07,
+      "chg_24h": -2.52416,
+      "chg_7d": -5.9712,
+      "chg_30d": -23.9549
+    },
+    {
+      "name": "Shiba Inu",
+      "symbol": "SHIB",
+      "mcap_b": 2.7,
+      "vol_b": 0.04,
+      "chg_24h": -1.81217,
+      "chg_7d": -5.35,
+      "chg_30d": -20.1824
+    },
+    {
+      "name": "dogwifhat",
+      "symbol": "WIF",
+      "mcap_b": 0.17,
+      "vol_b": 0.02,
+      "chg_24h": -3.45128,
+      "chg_7d": -4.9035,
+      "chg_30d": -32.9131
+    },
+    {
+      "name": "Ape and Pepe",
+      "symbol": "APEPE",
+      "mcap_b": 0.25,
+      "vol_b": 0.02,
+      "chg_24h": 0.22023,
+      "chg_7d": 2.5951,
+      "chg_30d": -5.6409
+    },
+    {
+      "name": "Moonbirds",
+      "symbol": "BIRB",
+      "mcap_b": 0.02,
+      "vol_b": 0.02,
+      "chg_24h": 4.58133,
+      "chg_7d": 15.8166,
+      "chg_30d": 26.586
+    },
+    {
+      "name": "Bonk",
+      "symbol": "BONK",
+      "mcap_b": 0.25,
+      "vol_b": 0.02,
+      "chg_24h": -2.88364,
+      "chg_7d": -6.7291,
+      "chg_30d": -26.2936
+    },
+    {
+      "name": "\u725b\u6765 (Niu Lai)",
+      "symbol": "\u725b\u6765",
+      "mcap_b": 0.06,
+      "vol_b": 0.02,
+      "chg_24h": -8.31684,
+      "chg_7d": 13.5994,
+      "chg_30d": -21.7083
+    },
+    {
+      "name": "Cash Cat",
+      "symbol": "CASHCAT",
+      "mcap_b": 0.1,
+      "vol_b": 0.02,
+      "chg_24h": 5.94818,
+      "chg_7d": 12.6476,
+      "chg_30d": -37.1872
+    },
+    {
+      "name": "1000CAT",
+      "symbol": "1000CAT",
+      "mcap_b": 0.0,
+      "vol_b": 0.01,
+      "chg_24h": 6.81403,
+      "chg_7d": 1.1905,
+      "chg_30d": -23.5252
+    },
+    {
+      "name": "Fartcoin",
+      "symbol": "FARTCOIN",
+      "mcap_b": 0.12,
+      "vol_b": 0.01,
+      "chg_24h": -2.02609,
+      "chg_7d": -6.3265,
+      "chg_30d": -33.1326
+    },
+    {
+      "name": "FLOKI",
+      "symbol": "FLOKI",
+      "mcap_b": 0.22,
+      "vol_b": 0.01,
+      "chg_24h": -1.88433,
+      "chg_7d": -1.4622,
+      "chg_30d": -18.0209
+    }
+  ],
+  "fear_greed": {
+    "now": 37,
+    "label": "Fear",
+    "week_ago": 50,
+    "month_ago": 67
+  },
+  "reddit": [
+    {
+      "ticker": "BTC.X",
+      "name": "Bitcoin",
+      "mentions": 1,
+      "mentions_24h_ago": 0
+    },
+    {
+      "ticker": "XRP.X",
+      "name": "XRP",
+      "mentions": 1,
+      "mentions_24h_ago": 0
+    },
+    {
+      "ticker": "LINK.X",
+      "name": "Chainlink",
+      "mentions": 1,
+      "mentions_24h_ago": 0
+    },
+    {
+      "ticker": "XMR.X",
+      "name": "Monero",
+      "mentions": 1,
+      "mentions_24h_ago": 0
+    },
+    {
+      "ticker": "ID.X",
+      "name": "Everest",
+      "mentions": 1,
+      "mentions_24h_ago": 0
+    }
+  ]
+}
