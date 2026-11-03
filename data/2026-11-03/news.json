@@ -1,0 +1,371 @@
+{
+  "date": "2026-11-03",
+  "n": 50,
+  "errors": [],
+  "by_theme": {
+    "AI chips": [],
+    "AI data centers": [
+      {
+        "title": "AMD stock jumps 8% on earnings as data center revenue nearly doubles",
+        "link": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html",
+        "published": "Tue, 03 Nov 2026 22:10:55 GMT",
+        "source": "www.cnbc.com"
+      }
+    ],
+    "Power for AI": [],
+    "Nuclear": [],
+    "Water": [],
+    "Cooling": [],
+    "Copper & grid materials": [],
+    "AI software": [
+      {
+        "title": "Apple warns of risks related to AI agents behaving in 'unintended or unpredictable' ways",
+        "link": "https://www.cnbc.com/2026/11/03/apple-warns-of-ai-agents-behave-in-unintended-or-unpredictable-ways.html",
+        "published": "Tue, 03 Nov 2026 20:10:41 GMT",
+        "source": "www.cnbc.com"
+      }
+    ],
+    "Memory chips": [],
+    "AI efficiency wave": [],
+    "Distribution moats": [],
+    "Crypto": [
+      {
+        "title": "Binance co-CEO Richard Teng says hackers used fake job interviews, AI tool to steal $6.3 billion in crypto",
+        "link": "https://www.cnbc.com/2026/11/03/binance-co-ceo-teng-says-hackers-used-fake-job-interviews-to-steal-6point3-billion-in-crypto.html",
+        "published": "Tue, 03 Nov 2026 18:40:37 GMT",
+        "source": "www.cnbc.com"
+      },
+      {
+        "title": "Binance breach puts custody at center of crypto infrastructure trade",
+        "link": "https://www.cnbc.com/2026/11/03/binance-breach-puts-custody-at-center-of-crypto-infrastructure-trade.html",
+        "published": "Tue, 03 Nov 2026 20:13:37 GMT",
+        "source": "www.cnbc.com"
+      }
+    ],
+    "Precious metals": [],
+    "Robotics": []
+  },
+  "latest": [
+    {
+      "title": "AI\u2019s control over the bond market is growing \u2014 even rivaling war and elections",
+      "link": "https://www.marketwatch.com/story/ais-control-over-the-bond-market-is-growing-even-rivaling-war-and-elections-5d727b35?mod=mw_rss_topstories",
+      "published": "Tue, 03 Nov 2026 22:06:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "S&P 500 is looking over the edge of a technical cliff \u2014 what happens if it falls off?",
+      "link": "https://www.marketwatch.com/story/s-p-500-is-looking-over-the-edge-of-a-technical-cliff-what-happens-if-it-falls-off-be97ebd9?mod=mw_rss_topstories",
+      "published": "Tue, 03 Nov 2026 21:30:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Depressing, but true: If you want to get ahead at work, embrace virtue signaling",
+      "link": "https://www.marketwatch.com/story/depressing-but-true-if-you-want-to-get-ahead-at-work-embrace-virtue-signaling-b4e72f0a?mod=mw_rss_topstories",
+      "published": "Tue, 03 Nov 2026 21:27:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Super Micro\u2019s stock pops as earnings show booming demand for AI servers",
+      "link": "https://www.marketwatch.com/story/super-micros-stock-pops-as-earnings-show-booming-demand-for-ai-servers-2d179658?mod=mw_rss_topstories",
+      "published": "Tue, 03 Nov 2026 21:13:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Anthropic\u2019s IPO is a high-stakes referendum on Big Tech \u2014 and this chart proves it",
+      "link": "https://www.marketwatch.com/story/anthropics-ipo-is-a-high-stakes-referendum-on-big-tech-and-this-chart-proves-it-d1c54d33?mod=mw_rss_topstories",
+      "published": "Tue, 03 Nov 2026 21:04:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "The internet is \u2018dying\u2019: AI is eating it and obliterating these business models",
+      "link": "https://www.marketwatch.com/story/the-internet-is-dying-ai-is-eating-it-and-obliterating-these-business-models-435ae2b0?mod=mw_rss_topstories",
+      "published": "Tue, 03 Nov 2026 20:46:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "\u2018It\u2019s good to be old\u2019: I\u2019ve been invited to a dozen free meals that turn into annuity sales pitches. Should I stop going?",
+      "link": "https://www.marketwatch.com/story/its-good-to-be-old-ive-been-invited-to-a-dozen-free-meals-that-turn-into-annuity-sales-pitches-should-i-stop-going-63df67ca?mod=mw_rss_topstories",
+      "published": "Tue, 03 Nov 2026 20:00:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "An overlooked energy source could solve AI\u2019s power crunch \u2014 and these 2 stocks are prime plays",
+      "link": "https://www.marketwatch.com/story/an-overlooked-energy-source-could-solve-ais-power-crunch-and-these-2-stocks-are-prime-plays-bc5d988a?mod=mw_rss_topstories",
+      "published": "Tue, 03 Nov 2026 19:57:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Medicare prescription drug costs will jump 50% in 2027.\u00a0Doing nothing could cost you.",
+      "link": "https://www.marketwatch.com/story/medicare-prescription-drug-costs-will-jump-50-in-2027-doing-nothing-could-cost-you-b701dfb7?mod=mw_rss_topstories",
+      "published": "Tue, 03 Nov 2026 19:23:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "My wife and I have no kids and a 99% chance of outliving our life savings. Why not spend it all?",
+      "link": "https://www.marketwatch.com/story/fancy-cars-hold-no-appeal-my-wife-and-i-have-a-99-chance-of-outliving-our-savings-why-dont-we-spend-it-all-932a2166?mod=mw_rss_topstories",
+      "published": "Tue, 03 Nov 2026 19:00:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "AMD stock jumps 8% on earnings as data center revenue nearly doubles",
+      "link": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html",
+      "published": "Tue, 03 Nov 2026 22:10:55 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Apple warns of risks related to AI agents behaving in 'unintended or unpredictable' ways",
+      "link": "https://www.cnbc.com/2026/11/03/apple-warns-of-ai-agents-behave-in-unintended-or-unpredictable-ways.html",
+      "published": "Tue, 03 Nov 2026 20:10:41 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Trump DOJ sends target letters to Democrats in Alaska Senate criminal probe: Reports",
+      "link": "https://www.cnbc.com/2026/11/03/trump-doj-election-lawsuits-monitors-2026-midterms.html",
+      "published": "Tue, 03 Nov 2026 20:33:31 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Midterm elections could jolt stocks if Democrats sweep Congress",
+      "link": "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html",
+      "published": "Tue, 03 Nov 2026 18:05:18 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "What the 2026 midterm elections could mean for Trump's final two years",
+      "link": "https://www.cnbc.com/2026/11/03/midterm-elections-congress-trump-democrats-republicans.html",
+      "published": "Tue, 03 Nov 2026 18:29:24 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "AMD has been crushed into earnings. Here\u2019s one way to trade it",
+      "link": "https://www.cnbc.com/2026/11/03/amd-has-been-crushed-into-earnings-heres-one-way-to-trade-it.html",
+      "published": "Tue, 03 Nov 2026 20:40:51 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Binance co-CEO Richard Teng says hackers used fake job interviews, AI tool to steal $6.3 billion in crypto",
+      "link": "https://www.cnbc.com/2026/11/03/binance-co-ceo-teng-says-hackers-used-fake-job-interviews-to-steal-6point3-billion-in-crypto.html",
+      "published": "Tue, 03 Nov 2026 18:40:37 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Binance breach puts custody at center of crypto infrastructure trade",
+      "link": "https://www.cnbc.com/2026/11/03/binance-breach-puts-custody-at-center-of-crypto-infrastructure-trade.html",
+      "published": "Tue, 03 Nov 2026 20:13:37 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Disney plans several thousand layoffs, asks some managers to cut costs by up to 20%",
+      "link": "https://www.cnbc.com/2026/11/03/disney-layoffs-cost-cuts.html",
+      "published": "Tue, 03 Nov 2026 17:05:29 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "CrowdStrike launches AI kill switch that it says can stop internal agents that go rogue",
+      "link": "https://www.cnbc.com/2026/11/03/crowdstrike-ai-kill-switch-rogue-agents.html",
+      "published": "Tue, 03 Nov 2026 20:27:21 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "JetBlue raises bag fees for third time in a year as fuel costs bite",
+      "link": "https://www.cnbc.com/2026/11/03/jetblue-checked-bag-fee.html",
+      "published": "Tue, 03 Nov 2026 20:07:50 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Sen. Chris Murphy still hospitalized after suffering a stroke over the weekend",
+      "link": "https://www.cnbc.com/2026/11/03/chris-murphy-hospitalized-stroke.html",
+      "published": "Tue, 03 Nov 2026 19:36:16 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "The next wave of luxury real estate: marina developments with yacht parking",
+      "link": "https://www.cnbc.com/2026/11/03/the-next-wave-of-luxury-real-estate-marinas-with-yacht-parking.html",
+      "published": "Tue, 03 Nov 2026 20:41:27 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Fannie Mae, Freddie Mac rally as Ackman presses for conservatorship exit",
+      "link": "https://www.cnbc.com/2026/11/03/ackman-fannie-mae-freddie-mac-conservatorship.html",
+      "published": "Tue, 03 Nov 2026 20:52:14 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Meta seeks to raise up to $25 billion in debt sale as AI spending jumps",
+      "link": "https://www.cnbc.com/2026/11/03/meta-bond-sale-ai-funding.html",
+      "published": "Tue, 03 Nov 2026 18:33:49 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Eaton's strong quarter should mark a bottom for shares of the AI buildout winner",
+      "link": "https://www.cnbc.com/investingclub/2026/11/03/eatons-strong-quarter-should-mark-a-bottom-for-shares-of-the-ai-buildout-winner.html",
+      "published": "Tue, 03 Nov 2026 20:46:59 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "AI-generated 'slopaganda' in political ads puts internet platforms on alert",
+      "link": "https://www.cnbc.com/2026/11/03/ai-generated-slopaganda-in-political-ads-puts-platforms-on-alert.html",
+      "published": "Tue, 03 Nov 2026 20:33:28 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Sullivan: What the 2026 midterms could mean for energy investors",
+      "link": "https://www.cnbc.com/2026/11/03/2026-midterms-energy-investors.html",
+      "published": "Tue, 03 Nov 2026 20:36:08 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "The 'poison pill' ballot measure that could kill the California billionaire tax",
+      "link": "https://www.cnbc.com/2026/11/03/poison-pill-ballot-measure-could-kill-california-billionaire-tax-.html",
+      "published": "Tue, 03 Nov 2026 18:23:31 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Options traders are betting heavily on these stocks ahead of election results",
+      "link": "https://www.cnbc.com/2026/11/03/options-traders-are-betting-heavily-on-these-stocks-ahead-of-election-results.html",
+      "published": "Tue, 03 Nov 2026 20:51:21 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Bill Ackman warns of 'casino' stock market as speculative trading grows",
+      "link": "https://www.cnbc.com/2026/11/03/bill-ackman-casino-stock-market.html",
+      "published": "Tue, 03 Nov 2026 16:23:26 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Crude oil prices fall for second day as market hopes for diplomatic resolution to Iran war",
+      "link": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html",
+      "published": "Tue, 03 Nov 2026 20:02:10 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Apple stock sinks as global memory crisis hurts profits, giving Ternus his first big test",
+      "link": "https://www.cnbc.com/2026/11/03/apple-earnings-john-ternus-faces-first-test-amid-high-memory-costs.html",
+      "published": "Tue, 03 Nov 2026 14:38:03 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Job openings posted big September gain in positive sign for labor market ahead of payrolls report",
+      "link": "https://www.cnbc.com/2026/11/03/job-openings-posted-big-september-gain-in-positive-sign-for-labor-market-ahead-of-payrolls-report.html",
+      "published": "Tue, 03 Nov 2026 19:15:21 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Russia confirms new Ukraine peace talks as Melania Trump prepares to host ceasefire meeting",
+      "link": "https://www.cnbc.com/2026/11/03/russia-ukraine-peace-talks-abu-dhabi-trump-putin-xi.html",
+      "published": "Tue, 03 Nov 2026 18:25:57 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Pfizer hikes full-year outlook on new product growth, taps company veteran as new CFO",
+      "link": "https://www.cnbc.com/2026/11/03/pfizer-pfe-earnings-q3-2026.html",
+      "published": "Tue, 03 Nov 2026 19:25:44 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "New national home listing database is taking on Compass in the battle for control of real estate information",
+      "link": "https://www.cnbc.com/2026/11/03/national-home-listing-database-battles-compass-in-real-estate-info-war.html",
+      "published": "Tue, 03 Nov 2026 13:00:01 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Ghosted after a job interview? There's a website for that\u2014and thousands of frustrated job seekers have weighed in",
+      "link": "https://www.cnbc.com/make-it/2026/11/03/employer-ghosting-job-interviews.html",
+      "published": "Tue, 03 Nov 2026 18:00:01 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Ferrari raises 2026 guidance after Q3 earnings beat",
+      "link": "https://www.cnbc.com/2026/11/03/ferrari-race-earnings-q3-2026.html",
+      "published": "Tue, 03 Nov 2026 21:11:34 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Baked by Melissa enters Target with first at-home cupcake mix",
+      "link": "https://www.cnbc.com/2026/11/03/baked-by-melissa-cupcake-kits-target.html",
+      "published": "Tue, 03 Nov 2026 13:40:04 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Skyworks tumbles as sluggish smartphone market weighs on forecast",
+      "link": "https://www.investing.com/news/stock-market-news/skyworks-tumbles-as-sluggish-smartphone-market-weighs-on-forecast-4996716",
+      "published": "2026-11-03 22:13:12",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Super Micro forecasts quarterly revenue above estimates on strong AI server demand",
+      "link": "https://www.investing.com/news/stock-market-news/super-micro-forecasts-quarterly-revenue-above-estimates-on-strong-ai-server-demand-4996409",
+      "published": "2026-11-03 22:13:02",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Booking Holdings takes $1 billion hit to third-quarter results linked to FTC action",
+      "link": "https://www.investing.com/news/stock-market-news/booking-holdings-takes-900-million-hit-to-quarterly-revenue-linked-to-ftc-action-4996593",
+      "published": "2026-11-03 22:12:34",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Tracx Logis files for 1M share IPO at $18-$22/sh",
+      "link": "https://www.investing.com/news/stock-market-news/tracx-logis-files-for-1m-share-ipo-at-1822sh-432SI-4996646",
+      "published": "2026-11-03 22:06:03",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Amgen posts higher-than-expected third quarter results, but shares dip",
+      "link": "https://www.investing.com/news/stock-market-news/amgen-third-quarter-sales-rise-8-led-by-cholesterol-cancer-drugs-4996411",
+      "published": "2026-11-03 22:00:30",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "AIG beats profit estimates on premium growth, investment income",
+      "link": "https://www.investing.com/news/stock-market-news/aig-beats-profit-estimates-on-premium-growth-investment-income-4996500",
+      "published": "2026-11-03 21:55:09",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Exclusive-Skydance shuffles distribution\u00a0ranks as eight executives depart",
+      "link": "https://www.investing.com/news/stock-market-news/exclusiveskydance-shuffles-distributionranks-as-eight-executives-depart-4996277",
+      "published": "2026-11-03 21:54:57",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Automakers back Trump administration\u2019s rollback of US fuel economy rules",
+      "link": "https://www.investing.com/news/stock-market-news/automakers-back-us-rollback-of-fuel-economy-rules-4993191",
+      "published": "2026-11-03 21:54:45",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "AMD forecasts quarterly revenue above estimates as data-center growth accelerates",
+      "link": "https://www.investing.com/news/stock-market-news/amd-forecasts-quarterly-revenue-above-estimates-as-datacenter-growth-accelerates-4996502",
+      "published": "2026-11-03 21:42:23",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "After-Hours Movers: AMD, SMCI, SWKS, NRIX, TOST, BKNG",
+      "link": "https://www.investing.com/news/stock-market-news/afterhours-movers-amd-smci-swks-nrix-tost-bkng-432SI-4996579",
+      "published": "2026-11-03 21:41:02",
+      "source": "www.investing.com"
+    }
+  ],
+  "narratives": {
+    "ai_fear": {
+      "count": 0,
+      "examples": []
+    },
+    "ai_efficiency": {
+      "count": 1,
+      "examples": [
+        {
+          "title": "Disney plans several thousand layoffs, asks some managers to cut costs by up to 20%",
+          "link": "https://www.cnbc.com/2026/11/03/disney-layoffs-cost-cuts.html",
+          "published": "Tue, 03 Nov 2026 17:05:29 GMT",
+          "source": "www.cnbc.com"
+        }
+      ]
+    },
+    "leverage": {
+      "count": 0,
+      "examples": []
+    }
+  }
+}
