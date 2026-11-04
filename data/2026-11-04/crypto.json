@@ -1,0 +1,265 @@
+{
+  "date": "2026-11-04",
+  "errors": [],
+  "trending": [
+    {
+      "name": "FOCO",
+      "symbol": "FOCO",
+      "mcap_rank": 804,
+      "chg_24h": 602.8103773214232
+    },
+    {
+      "name": "AudaCity",
+      "symbol": "DACITYCOIN",
+      "mcap_rank": 742,
+      "chg_24h": 33.36824968294326
+    },
+    {
+      "name": "Monero",
+      "symbol": "XMR",
+      "mcap_rank": 13,
+      "chg_24h": 2.2207111234404797
+    },
+    {
+      "name": "Pepe",
+      "symbol": "PEPE",
+      "mcap_rank": 45,
+      "chg_24h": 2.402497965039451
+    },
+    {
+      "name": "Solana",
+      "symbol": "SOL",
+      "mcap_rank": 7,
+      "chg_24h": 2.047073091071798
+    },
+    {
+      "name": "Pudgy Penguins",
+      "symbol": "PENGU",
+      "mcap_rank": 112,
+      "chg_24h": 3.7255547701839102
+    },
+    {
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "mcap_rank": 1,
+      "chg_24h": 3.56759807063131
+    },
+    {
+      "name": "Official Trump",
+      "symbol": "TRUMP",
+      "mcap_rank": 121,
+      "chg_24h": -19.70488145331953
+    },
+    {
+      "name": "Injective",
+      "symbol": "INJ",
+      "mcap_rank": 83,
+      "chg_24h": 10.113938565714713
+    },
+    {
+      "name": "Pearl",
+      "symbol": "PEARL",
+      "mcap_rank": 96,
+      "chg_24h": 9.369268452960528
+    },
+    {
+      "name": "Sui",
+      "symbol": "SUI",
+      "mcap_rank": 29,
+      "chg_24h": 3.8544436542159564
+    },
+    {
+      "name": "Figure Heloc",
+      "symbol": "FIGR_HELOC",
+      "mcap_rank": 9,
+      "chg_24h": -0.2833868937287222
+    },
+    {
+      "name": "Elsa",
+      "symbol": "ELSA",
+      "mcap_rank": 734,
+      "chg_24h": 69.78432405977976
+    },
+    {
+      "name": "Four",
+      "symbol": "FORM",
+      "mcap_rank": 321,
+      "chg_24h": 3.5327864802991735
+    },
+    {
+      "name": "Aerodrome Finance",
+      "symbol": "AERO",
+      "mcap_rank": 151,
+      "chg_24h": 1.6754369260600712
+    }
+  ],
+  "memes": [
+    {
+      "name": "Dogecoin",
+      "symbol": "DOGE",
+      "mcap_b": 12.09,
+      "vol_b": 0.61,
+      "chg_24h": 2.55672,
+      "chg_7d": -4.2034,
+      "chg_30d": -19.691
+    },
+    {
+      "name": "Pepe",
+      "symbol": "PEPE",
+      "mcap_b": 2.11,
+      "vol_b": 0.55,
+      "chg_24h": 2.29975,
+      "chg_7d": -1.1134,
+      "chg_30d": 11.8818
+    },
+    {
+      "name": "Official Trump",
+      "symbol": "TRUMP",
+      "mcap_b": 0.36,
+      "vol_b": 0.38,
+      "chg_24h": -19.69526,
+      "chg_7d": -26.8602,
+      "chg_30d": -38.6092
+    },
+    {
+      "name": "Pump.fun",
+      "symbol": "PUMP",
+      "mcap_b": 1.97,
+      "vol_b": 0.18,
+      "chg_24h": -1.60131,
+      "chg_7d": -6.4211,
+      "chg_30d": -34.8602
+    },
+    {
+      "name": "Pudgy Penguins",
+      "symbol": "PENGU",
+      "mcap_b": 0.46,
+      "vol_b": 0.1,
+      "chg_24h": 3.64316,
+      "chg_7d": -7.9431,
+      "chg_30d": -25.6859
+    },
+    {
+      "name": "Shiba Inu",
+      "symbol": "SHIB",
+      "mcap_b": 2.81,
+      "vol_b": 0.06,
+      "chg_24h": 2.96266,
+      "chg_7d": -5.0223,
+      "chg_30d": -19.6616
+    },
+    {
+      "name": "Bonk",
+      "symbol": "BONK",
+      "mcap_b": 0.27,
+      "vol_b": 0.04,
+      "chg_24h": 6.83756,
+      "chg_7d": -4.5747,
+      "chg_30d": -21.3525
+    },
+    {
+      "name": "dogwifhat",
+      "symbol": "WIF",
+      "mcap_b": 0.17,
+      "vol_b": 0.03,
+      "chg_24h": -0.35678,
+      "chg_7d": -7.2088,
+      "chg_30d": -33.1493
+    },
+    {
+      "name": "Useless Coin",
+      "symbol": "USELESS",
+      "mcap_b": 0.14,
+      "vol_b": 0.02,
+      "chg_24h": 12.64221,
+      "chg_7d": -17.4209,
+      "chg_30d": -40.4402
+    },
+    {
+      "name": "FLOKI",
+      "symbol": "FLOKI",
+      "mcap_b": 0.22,
+      "vol_b": 0.02,
+      "chg_24h": 2.70669,
+      "chg_7d": -4.6292,
+      "chg_30d": -21.3979
+    },
+    {
+      "name": "Cash Cat",
+      "symbol": "CASHCAT",
+      "mcap_b": 0.11,
+      "vol_b": 0.02,
+      "chg_24h": 1.07076,
+      "chg_7d": 4.4639,
+      "chg_30d": -31.4993
+    },
+    {
+      "name": "Moonbirds",
+      "symbol": "BIRB",
+      "mcap_b": 0.02,
+      "vol_b": 0.02,
+      "chg_24h": 6.42086,
+      "chg_7d": 15.6228,
+      "chg_30d": 33.4928
+    },
+    {
+      "name": "Fartcoin",
+      "symbol": "FARTCOIN",
+      "mcap_b": 0.13,
+      "vol_b": 0.01,
+      "chg_24h": 6.23255,
+      "chg_7d": -6.4511,
+      "chg_30d": -32.0309
+    },
+    {
+      "name": "Mubarak",
+      "symbol": "MUBARAK",
+      "mcap_b": 0.04,
+      "vol_b": 0.01,
+      "chg_24h": 6.04493,
+      "chg_7d": -20.8713,
+      "chg_30d": -43.263
+    },
+    {
+      "name": "MarsCoin",
+      "symbol": "MARSCOIN",
+      "mcap_b": 0.05,
+      "vol_b": 0.01,
+      "chg_24h": 2.35209,
+      "chg_7d": -25.9619,
+      "chg_30d": -50.5737
+    }
+  ],
+  "fear_greed": {
+    "now": 34,
+    "label": "Fear",
+    "week_ago": 51,
+    "month_ago": 70
+  },
+  "reddit": [
+    {
+      "ticker": "BTC.X",
+      "name": "Bitcoin",
+      "mentions": 1,
+      "mentions_24h_ago": 0
+    },
+    {
+      "ticker": "XRP.X",
+      "name": "XRP",
+      "mentions": 1,
+      "mentions_24h_ago": 0
+    },
+    {
+      "ticker": "LINK.X",
+      "name": "Chainlink",
+      "mentions": 1,
+      "mentions_24h_ago": 0
+    },
+    {
+      "ticker": "XMR.X",
+      "name": "Monero",
+      "mentions": 1,
+      "mentions_24h_ago": 0
+    }
+  ]
+}
