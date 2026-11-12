@@ -1,0 +1,11 @@
+{
+  "n_tickers": 333,
+  "got": 329,
+  "missing": [
+    "AQUA",
+    "BTC-USD",
+    "HES",
+    "MMC"
+  ],
+  "last_bar": "2026-11-12 00:00:00"
+}

@@ -1,0 +1,257 @@
+{
+  "date": "2026-11-12",
+  "terms": {
+    "coconut water": {
+      "ticker": "COCO",
+      "videos": 5,
+      "views_30d_top5": 151857,
+      "comments_read": 70,
+      "intent_per_100": 2.9,
+      "scare_per_100": 0.0,
+      "examples": [
+        "the cruise lines and resorts should be calling him to come perform that song 2-3 nights out of the week \ud83d\ude02",
+        "bought a young coconut from walmart. came with a green thing to push in to pierce and a straw. this exists. spout makes no sense"
+      ]
+    },
+    "sweetgreen": {
+      "ticker": "SG",
+      "videos": 5,
+      "views_30d_top5": 5453,
+      "comments_read": 1,
+      "intent_per_100": 0.0,
+      "scare_per_100": 0.0,
+      "examples": []
+    },
+    "cava": {
+      "ticker": "CAVA",
+      "videos": 5,
+      "views_30d_top5": 607349,
+      "comments_read": 319,
+      "intent_per_100": 0.0,
+      "scare_per_100": 0.0,
+      "examples": []
+    },
+    "dutch bros": {
+      "ticker": "BROS",
+      "videos": 5,
+      "views_30d_top5": 260608,
+      "comments_read": 223,
+      "intent_per_100": 1.3,
+      "scare_per_100": 0.0,
+      "examples": [
+        "no, grown americans love their coffee black maybe a sugar or a little tiny splash of creamer. what you\u2019re experiencing is the youth in america (teens to ungrown",
+        "waited so long for this \ud83d\udcaa\u2764",
+        "i love the hazelnut truffle mocha. i actually ordered it with almond mik & sugar free chocolate sauce instead of the actual chocolate milk. dutch bros also has "
+      ]
+    },
+    "starbucks": {
+      "ticker": "SBUX",
+      "videos": 5,
+      "views_30d_top5": 481003,
+      "comments_read": 210,
+      "intent_per_100": 3.3,
+      "scare_per_100": 1.4,
+      "examples": [
+        "i love your videos so much!!!!! my name is also sydney girl!!!!!! i really want one of those bear cups. sad i could not get one",
+        "just saw this after seeing a short about starbucks firing a bunch of employees after they exposed how toxic the blending poweder they use is \ud83d\ude05",
+        "my dad bought 5 boxes form different starbucks and we somehow got the whole collection!!"
+      ]
+    },
+    "birkenstock": {
+      "ticker": "BIRK",
+      "videos": 5,
+      "views_30d_top5": 343784,
+      "comments_read": 54,
+      "intent_per_100": 0.0,
+      "scare_per_100": 1.9,
+      "examples": [
+        "in february 2025, germany's federal court of justice ruled that birkenstock sandals are not copyright-protected works of applied art, and dismissed the company'"
+      ]
+    },
+    "hoka": {
+      "ticker": "DECK",
+      "videos": 5,
+      "views_30d_top5": 5707,
+      "comments_read": 21,
+      "intent_per_100": 4.8,
+      "scare_per_100": 0.0,
+      "examples": [
+        "\u2705 lowest verified prices:\n\u2022 hoka transport 2(best overall): https://geni.us/yxdlaa\n\u2022 hoka bondi 9 (most comfortable): https://geni.us/syo8zq\n\u2022 hoka gaviota 6 (b"
+      ]
+    },
+    "on running shoes": {
+      "ticker": "ONON",
+      "videos": 5,
+      "views_30d_top5": 4707555,
+      "comments_read": 212,
+      "intent_per_100": 2.4,
+      "scare_per_100": 1.4,
+      "examples": [
+        "vomero line is max cushion not really placed right plus very heavy great as max stack and recovery but too high stack for daily training.",
+        "comfy shoes are not always the best. when buying a shoe, always know the structure of your foot (wide, flat, high arched, etc) - and that kids is how you choose",
+        "been watching this channel for quite a time. couple months back, i bought couple pairs of mizuno because they were on huge discount. and, i found them to be the"
+      ]
+    },
+    "crocs": {
+      "ticker": "CROX",
+      "videos": 5,
+      "views_30d_top5": 512037,
+      "comments_read": 214,
+      "intent_per_100": 4.2,
+      "scare_per_100": 1.4,
+      "examples": [
+        "i worked a job where all we did all day was plug little wires into tiny plastic things for use in car or factory lighting. we weren't allowed to sit or even lea",
+        "as someone who's had this, skechers and brooks are your friends for retail. skechers is cheaper, feels more comfy in the short term, their archfit range is grea",
+        "i literally walk the moment i clock in till i clock out. 8 hours a day. im also pulling a cart full of totes as well. i work for walmart as a personal shopper f"
+      ]
+    },
+    "elf cosmetics": {
+      "ticker": "ELF",
+      "videos": 5,
+      "views_30d_top5": 26149,
+      "comments_read": 19,
+      "intent_per_100": 0.0,
+      "scare_per_100": 0.0,
+      "examples": []
+    },
+    "celsius energy drink": {
+      "ticker": "CELH",
+      "videos": 5,
+      "views_30d_top5": 20791,
+      "comments_read": 18,
+      "intent_per_100": 5.6,
+      "scare_per_100": 5.6,
+      "examples": [
+        "sucralose isn't just an \"artificial sweetener.\" it has an  extremely long chemical forumla that is just one atom away from rat poison, and it's neurotoxic.",
+        "take my money you bloody \ud83d\udc10"
+      ]
+    },
+    "swatch": {
+      "ticker": "UHR.SW",
+      "videos": 5,
+      "views_30d_top5": 297273,
+      "comments_read": 183,
+      "intent_per_100": 1.1,
+      "scare_per_100": 3.3,
+      "examples": [
+        "i'm 70, i recall a rocky point session in 1977, i almost ran micheal over racing a right down the line, he was hooting me in a negative way, like heyyy!!!  [sor",
+        "sick",
+        "at this point idk if i prefer fake one or og better..."
+      ]
+    },
+    "ozempic": {
+      "ticker": "NVO",
+      "videos": 5,
+      "views_30d_top5": 96775,
+      "comments_read": 135,
+      "intent_per_100": 4.4,
+      "scare_per_100": 2.2,
+      "examples": [
+        "who the hell believe what fda say. they are a scam",
+        "with all the research that's going on into the benefits of glp-1 medications outside of diabetes and weight loss. maybe we'll all be on them for 70 years.\nheart",
+        "im in canada \ud83c\udde8\ud83c\udde6 and the glp1 is everywhere. i feel like im the only one not on it and im missing out on this mirscle drug. i have pcos, secondary infertility fo"
+      ]
+    },
+    "hims": {
+      "ticker": "HIMS",
+      "videos": 5,
+      "views_30d_top5": 57279,
+      "comments_read": 149,
+      "intent_per_100": 11.4,
+      "scare_per_100": 2.0,
+      "examples": [
+        "juicyyyy. bought more at 18.50! \ud83c\udf89\ud83c\udf89\ud83c\udf89",
+        "as long as the cfo responsible for this debacle is selling shares like crazy there is no point buying a single share",
+        "bottom line - the quarter was a big disappointment and the forecast for the quarter is even worst.  travis is infatuated with hims  and based on the last two ye"
+      ]
+    },
+    "robinhood": {
+      "ticker": "HOOD",
+      "videos": 5,
+      "views_30d_top5": 216784,
+      "comments_read": 98,
+      "intent_per_100": 3.1,
+      "scare_per_100": 0.0,
+      "examples": [
+        "who's buying the dip!",
+        "i\u2019m buying more hood stock if it falls to around 70$",
+        "if robinhood wants to improve their crypto earnings, maybe stop revoking people's crypto-buying privileges for no reason, with no explanation."
+      ]
+    },
+    "pokemon cards": {
+      "ticker": "NTDOY",
+      "videos": 5,
+      "views_30d_top5": 209555,
+      "comments_read": 288,
+      "intent_per_100": 3.5,
+      "scare_per_100": 2.1,
+      "examples": [
+        "i would never leave that office. sick setup!",
+        "people think that a new price point will be established and a new low will be set. i think that these cards that were manipulated can become so notorious that i",
+        "stepped away for a little bit but the new intro and outro animation is sick!"
+      ]
+    },
+    "gta 6": {
+      "ticker": "TTWO",
+      "videos": 5,
+      "views_30d_top5": 5080769,
+      "comments_read": 358,
+      "intent_per_100": 3.1,
+      "scare_per_100": 1.1,
+      "examples": [
+        "lucia is filming jason on her phone from the tree and jason is filming lucia from the suv, he gives her a \"heart\" as soon as she lines up with the notifcation o",
+        "actually so incredible. bought the ultimate edition and have it all pre loaded and ready. we\u2019re almost there fellas",
+        "the back to back gta 6 videos popping up on my timeline makes it so much more real that it's releasing soon"
+      ]
+    },
+    "labubu": {
+      "ticker": "9992.HK",
+      "videos": 5,
+      "views_30d_top5": 8657133,
+      "comments_read": 249,
+      "intent_per_100": 12.0,
+      "scare_per_100": 1.2,
+      "examples": [
+        "it was realy funny to see a toymaker go:\n\"hm.. scalpers are buying off all our products, lets produce a bunch more!\"\nmadlads decided to turn scalpers into whale",
+        "i remember getting my gf a labubu at retail price, straight from pop mart during the peak of the craze.  genuinely confused why people were paying scalper price",
+        "i like that this happened primarily because the maker of labubu is mostly responsible for this.   the maker literally gave an interview saying he made this line"
+      ]
+    },
+    "uggs": {
+      "ticker": "DECK",
+      "videos": 5,
+      "views_30d_top5": 231281,
+      "comments_read": 156,
+      "intent_per_100": 1.9,
+      "scare_per_100": 3.2,
+      "examples": [
+        "just bought them wheels on the p38 f\u00fcr my disco 2 ;)",
+        "jt & megan skiendiel in the same room? just ordered new tasmans",
+        "omfggg i am buying things:)"
+      ]
+    },
+    "barbie": {
+      "ticker": "MAT",
+      "videos": 5,
+      "views_30d_top5": 729205,
+      "comments_read": 100,
+      "intent_per_100": 1.0,
+      "scare_per_100": 0.0,
+      "examples": [
+        "i need this barbie set in my life! the colors are just perfect. \ud83c\udf08"
+      ]
+    },
+    "build a bear": {
+      "ticker": "BBW",
+      "videos": 5,
+      "views_30d_top5": 247738,
+      "comments_read": 49,
+      "intent_per_100": 2.0,
+      "scare_per_100": 0.0,
+      "examples": [
+        "\ud83e\uddf8\ud83c\udf89 the world's largest build-a-bear is officially open!!\ud83d\udc3b\n\nhippies!! can you believe how huge those opening-day lines were?! \ud83d\ude31 we had so much fun celebrating th"
+      ]
+    }
+  },
+  "errors": []
+}
