@@ -31,3 +31,9 @@ date,ticker,theme,stance,conviction,thesis_breaker,idea,price,spy
 2026-11-07,MU,Memory,avoid,low,"Price reclaims its 50-day with talk still elevated, which would flip this to watch.","Talk is rising but price is the weakest of all themes, so this is crowded capitulation.",690.0,735.29
 2026-11-07,CRWV,AI chain stress,avoid,medium,A strong earnings reaction and a reclaim of its 50-day.,"CRWV is down 43% over 1 month and reports Nov 10, and it is a canary for AI-chain leverage.",46.4,735.29
 2026-11-07,NVDA,AI chips,watch,low,A guidance miss or a break lower after earnings.,"NVDA is down 19% over 1 month with earnings Nov 17, and the result will signal whether the AI-chain selloff is ending.",186.64,735.29
+2026-11-14,COST,Distribution moats,long-bias,low,Falls below its 50-day or lags the S&P for several weeks.,"Price leads (+13.3% month, +6.7 vs Staples) with quiet talk, but it is partly defensive rotation.",1106.21,754.37
+2026-11-14,UPS,AI efficiency,watch,low,Efficiency basket loses its 50-day with no confirming chatter.,"Leads the efficiency basket on price, but there is no non-price evidence yet.",112.4,754.37
+2026-11-14,AWK,Water,watch,low,Relative strength vs the S&P turns negative.,"Water outperforms the S&P and is above its 50-day, but it is a defensive utility.",149.6,754.37
+2026-11-14,TTWO,GTA 6,watch,low,"A delay past the holidays, or weak engagement and spend near $20 per user.","Launch is Nov 19 and the stock has run up, so the expectations are already high.",227.82,754.37
+2026-11-14,SONY,GTA 6 second-order,watch,low,Gives back gains if GTA 6 is delayed or disappoints.,"+9.6% on the month, confirming the GTA 6 second-order effect.",27.07,754.37
+2026-11-14,NVDA,AI chips,avoid,medium,Holds up after earnings while ORCL and CRWV recover their 50-days and chips outperform the S&P.,"Down 25% on the month, with talk driven by a leadership scandal and earnings in 3 days.",162.85,754.37

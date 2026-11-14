@@ -49,3 +49,77 @@ extras: 34 names, apps found 21, errors 0
 fundamentals: 125 names, 0 errors
 
 (exit 0)
+=== collect_market
+prices: (1827, 330), missing 3: ['AQUA', 'HES', 'MMC']
+$AQUA: No data found, symbol may be delisted
+
+1 Failed download:
+['AQUA']: No data found, symbol may be delisted
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: HES"}}}
+$HES: No data found, symbol may be delisted
+
+1 Failed download:
+['HES']: No data found, symbol may be delisted
+$MMC: No data found, symbol may be delisted
+
+1 Failed download:
+['MMC']: No data found, symbol may be delisted
+$HES: No data found, symbol may be delisted
+$MMC: No data found, symbol may be delisted
+
+(exit 0)
+=== collect_reddit
+reddit: 0 posts, authed=False, apewisdom tickers=200, errors=56
+
+(exit 0)
+=== collect_trends
+trends: 21 terms, 0 errors
+
+(exit 0)
+=== collect_x
+x/grok: skipped (disabled or no XAI_API_KEY)
+
+(exit 0)
+=== collect_youtube
+youtube: 21 terms, 0 errors
+
+(exit 0)
+=== collect_news
+news: 50 headlines
+
+(exit 0)
+=== collect_crypto
+crypto: trending 15, memes 15, reddit 25, errors 0
+
+(exit 0)
+=== collect_extras
+extras: 34 names, apps found 0, errors 0
+
+(exit 0)
+=== collect_fundamentals
+fundamentals: 126 names, 0 errors
+
+(exit 0)
+=== analyze
+analysis saved: RISK-ON (some caution) | themes: 14
+
+(exit 0)
+=== agents
+agent regime: 1513 chars
+agent sectors: 1447 chars
+agent sentiment: 1987 chars
+agent themes: 2287 chars
+agent social_arb: 52 chars
+agent skeptic: 1321 chars
+agent synthesizer: 4403 chars
+
+(exit 0)
+=== report
+report written 43104 chars
+
+(exit 0)
+=== score_journal
+scored theses.csv 38
+scored setups.csv 211
+
+(exit 0)

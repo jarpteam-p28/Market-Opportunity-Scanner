@@ -5,27 +5,15 @@
   "by_theme": {
     "AI chips": [
       {
-        "title": "Nvidia\u2019s stock is on a losing streak not seen in 14 years. What comes next?",
-        "link": "https://www.marketwatch.com/story/nvidias-stock-is-on-a-losing-streak-not-seen-in-14-years-what-comes-next-a07e801e?mod=mw_rss_topstories",
-        "published": "Fri, 13 Nov 2026 22:21:00 GMT",
+        "title": "The scandal at Nvidia is exactly what\u2019s wrong with the S&P 500",
+        "link": "https://www.marketwatch.com/story/the-scandal-at-nvidia-is-exactly-whats-wrong-with-the-s-p-500-7307457e?mod=mw_rss_topstories",
+        "published": "Sat, 14 Nov 2026 17:50:00 GMT",
         "source": "feeds.content.dowjones.io"
       },
       {
-        "title": "Trump doesn\u2019t plan to raise Nvidia, spy issue during China trip: U.S. officials",
-        "link": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
-        "published": "Sat, 14 Nov 2026 01:34:11 GMT",
-        "source": "www.cnbc.com"
-      },
-      {
-        "title": "Nvidia is done with Jensen Huang. The fallout in Washington is just beginning",
-        "link": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-washington-congress.html",
-        "published": "Fri, 13 Nov 2026 23:54:36 GMT",
-        "source": "www.cnbc.com"
-      },
-      {
-        "title": "Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion",
-        "link": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
-        "published": "Fri, 13 Nov 2026 22:18:43 GMT",
+        "title": "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors",
+        "link": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html",
+        "published": "Sat, 14 Nov 2026 17:46:06 GMT",
         "source": "www.cnbc.com"
       },
       {
@@ -35,32 +23,37 @@
         "source": "www.cnbc.com"
       },
       {
+        "title": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
+        "link": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html",
+        "published": "Sat, 14 Nov 2026 15:50:43 GMT",
+        "source": "www.cnbc.com"
+      },
+      {
+        "title": "Trump doesn\u2019t plan to raise Nvidia, spy issue during China trip: U.S. officials",
+        "link": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
+        "published": "Sat, 14 Nov 2026 15:36:47 GMT",
+        "source": "www.cnbc.com"
+      },
+      {
         "title": "After Jensen Huang\u2019s exit, what top financial advisors are doing with Nvidia: Exclusive CNBC poll",
         "link": "https://www.cnbc.com/2026/11/13/nvidia-stock-advisors-jensen-huang-exit-exclusive-poll.html",
         "published": "Fri, 13 Nov 2026 19:53:38 GMT",
         "source": "www.cnbc.com"
       },
       {
-        "title": "A trading strategy to ride out the Nvidia uncertainty and generate income in the process",
-        "link": "https://www.cnbc.com/2026/11/13/a-trading-strategy-to-ride-out-the-nvidia-uncertainty-and-generate-income-in-the-process.html",
-        "published": "Fri, 13 Nov 2026 19:30:36 GMT",
+        "title": "Nvidia's leadership crisis rattles the AI trade. Here's how we're adjusting our portfolio",
+        "link": "https://www.cnbc.com/investingclub/2026/11/14/nvidias-leadership-crisis-rattles-wall-street-how-were-adjusting.html",
+        "published": "Sat, 14 Nov 2026 18:48:39 GMT",
         "source": "www.cnbc.com"
       },
       {
-        "title": "What's ahead for AI financing after Nvidia CEO Jensen Huang departs",
-        "link": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-resignation-ai-financing.html",
-        "published": "Fri, 13 Nov 2026 21:19:04 GMT",
+        "title": "Nvidia is done with Jensen Huang. The fallout in Washington is just beginning",
+        "link": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-washington-congress.html",
+        "published": "Fri, 13 Nov 2026 23:54:36 GMT",
         "source": "www.cnbc.com"
       }
     ],
-    "AI data centers": [
-      {
-        "title": "Why the data center slowdown concern is overblown. Two stocks to buy amid the fear",
-        "link": "https://www.cnbc.com/2026/11/13/data-center-slowdown-utility-stocks.html",
-        "published": "Fri, 13 Nov 2026 16:54:40 GMT",
-        "source": "www.cnbc.com"
-      }
-    ],
+    "AI data centers": [],
     "Power for AI": [],
     "Nuclear": [],
     "Water": [],
@@ -77,88 +70,183 @@
     "Memory chips": [],
     "AI efficiency wave": [],
     "Distribution moats": [],
-    "Crypto": [
-      {
-        "title": "Bitcoin is now below $69,000 and could fall even further if investors cash out to buy into the Anthropic IPO",
-        "link": "https://www.marketwatch.com/story/bitcoin-could-fall-even-further-if-investors-cash-out-to-buy-into-the-anthropic-ipo-5a14f46a?mod=mw_rss_topstories",
-        "published": "Fri, 13 Nov 2026 21:26:00 GMT",
-        "source": "feeds.content.dowjones.io"
-      }
-    ],
+    "Crypto": [],
     "Precious metals": [],
     "Robotics": []
   },
   "latest": [
     {
-      "title": "FAA declares rare nationwide ground stop on flights, with more than 10,000 delayed or canceled",
-      "link": "https://www.marketwatch.com/story/faa-declares-rare-widespread-ground-outage-bdc46393?mod=mw_rss_topstories",
-      "published": "Sat, 14 Nov 2026 01:28:00 GMT",
-      "source": "feeds.content.dowjones.io"
-    },
-    {
-      "title": "\u2018The thought of living to 100 terrifies me\u2019: Is Social Security a giant Ponzi scheme?",
-      "link": "https://www.marketwatch.com/story/the-thought-of-living-to-100-terrifies-me-is-social-security-a-giant-ponzi-scheme-84a64e7e?mod=mw_rss_topstories",
-      "published": "Fri, 13 Nov 2026 23:12:00 GMT",
-      "source": "feeds.content.dowjones.io"
-    },
-    {
-      "title": "4 expert tips for signing up for Medicare",
-      "link": "https://www.marketwatch.com/story/what-really-happens-during-medicare-counseling-6a4f618e?mod=mw_rss_topstories",
-      "published": "Fri, 13 Nov 2026 22:45:00 GMT",
-      "source": "feeds.content.dowjones.io"
-    },
-    {
-      "title": "Nvidia\u2019s stock is on a losing streak not seen in 14 years. What comes next?",
-      "link": "https://www.marketwatch.com/story/nvidias-stock-is-on-a-losing-streak-not-seen-in-14-years-what-comes-next-a07e801e?mod=mw_rss_topstories",
-      "published": "Fri, 13 Nov 2026 22:21:00 GMT",
-      "source": "feeds.content.dowjones.io"
-    },
-    {
-      "title": "Global oil supplies are suddenly flowing. Why a crude glut won\u2019t mean cheaper diesel.",
-      "link": "https://www.marketwatch.com/story/global-oil-supplies-are-suddenly-flowing-why-a-crude-glut-wont-mean-cheaper-diesel-a5fa80c8?mod=mw_rss_topstories",
-      "published": "Fri, 13 Nov 2026 22:04:00 GMT",
+      "title": "Should a widow leave her late partner\u2019s home to her stepkids \u2014 or cut off contact with them?",
+      "link": "https://www.marketwatch.com/story/she-can-always-change-her-mind-should-a-widow-leave-the-family-home-to-her-stepchildren-649b06af?mod=mw_rss_topstories",
+      "published": "Sat, 14 Nov 2026 18:30:00 GMT",
       "source": "feeds.content.dowjones.io"
     },
     {
       "title": "\u2018He calls my plans a fantasy\u2019: My husband says we can\u2019t afford a $200,000-a-year retirement. Is he being cheap?",
       "link": "https://www.marketwatch.com/story/he-calls-my-plans-a-fantasy-my-husband-says-we-cant-afford-our-200-000-a-year-dream-retirement-i-think-hes-cheap-45bc5b4e?mod=mw_rss_topstories",
-      "published": "Fri, 13 Nov 2026 22:00:00 GMT",
+      "published": "Sat, 14 Nov 2026 18:00:00 GMT",
       "source": "feeds.content.dowjones.io"
     },
     {
-      "title": "\u2018She has a history of financial mismanagement\u2019: My brother cut our sister out of his will. I\u2019ll get everything. Do I tell her?",
-      "link": "https://www.marketwatch.com/story/she-has-a-history-of-financial-mismanagement-my-brother-cut-my-sister-out-of-his-will-im-getting-everything-do-i-tell-her-3e537851?mod=mw_rss_topstories",
-      "published": "Fri, 13 Nov 2026 21:32:00 GMT",
-      "source": "feeds.content.dowjones.io"
-    },
-    {
-      "title": "Bitcoin is now below $69,000 and could fall even further if investors cash out to buy into the Anthropic IPO",
-      "link": "https://www.marketwatch.com/story/bitcoin-could-fall-even-further-if-investors-cash-out-to-buy-into-the-anthropic-ipo-5a14f46a?mod=mw_rss_topstories",
-      "published": "Fri, 13 Nov 2026 21:26:00 GMT",
-      "source": "feeds.content.dowjones.io"
-    },
-    {
-      "title": "AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang",
-      "link": "https://www.marketwatch.com/story/amd-and-other-chip-stocks-slide-as-wall-street-rethinks-the-ai-trade-without-jensen-huang-2fb74547?mod=mw_rss_topstories",
-      "published": "Fri, 13 Nov 2026 21:10:00 GMT",
+      "title": "Here\u2019s how Bernie Sanders wants to keep Social Security solvent \u2018for generations\u2019",
+      "link": "https://www.marketwatch.com/story/heres-how-bernie-sanders-wants-to-keep-social-security-solvent-for-generations-f5666a38?mod=mw_rss_topstories",
+      "published": "Sat, 14 Nov 2026 17:50:00 GMT",
       "source": "feeds.content.dowjones.io"
     },
     {
       "title": "The trillion-dollar mistake corporate America is making about retirement",
       "link": "https://www.marketwatch.com/story/corporate-america-is-making-a-trillion-dollar-mistake-about-retirement-234c8996?mod=mw_rss_topstories",
-      "published": "Fri, 13 Nov 2026 21:09:00 GMT",
+      "published": "Sat, 14 Nov 2026 17:50:00 GMT",
       "source": "feeds.content.dowjones.io"
     },
     {
-      "title": "FAA lifts ground stop after four hours, but flight cancellations will stretch into the weekend",
-      "link": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
-      "published": "Sat, 14 Nov 2026 01:44:39 GMT",
+      "title": "Retirees should be big beneficiaries of the midterms: \u2018Democrats will hold every gavel that matters for aging and public policy\u2019",
+      "link": "https://www.marketwatch.com/story/retirees-should-be-big-beneficiaries-of-the-midterms-democrats-will-hold-every-gavel-that-matters-for-aging-and-public-policy-71e966f0?mod=mw_rss_topstories",
+      "published": "Sat, 14 Nov 2026 17:50:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "The lonely labor of caregiving: \u2018You shouldn\u2019t have to be rich to take care of the people you love\u2019",
+      "link": "https://www.marketwatch.com/story/if-you-could-change-one-thing-about-caregiving-what-would-it-be-8b20be29?mod=mw_rss_topstories",
+      "published": "Sat, 14 Nov 2026 17:50:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Medicare at age 50? What \u2018Medicare for more\u2019 could mean for American workers.",
+      "link": "https://www.marketwatch.com/story/its-not-medicare-for-all-but-medicare-for-more-what-this-could-mean-for-workers-over-50-4a5c51a3?mod=mw_rss_topstories",
+      "published": "Sat, 14 Nov 2026 17:50:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Why this \u2018big idea\u2019 to fix Social Security relies on a massive stock-market gamble",
+      "link": "https://www.marketwatch.com/story/why-this-big-idea-to-fix-social-security-relies-on-a-massive-stock-market-gamble-5423f50f?mod=mw_rss_topstories",
+      "published": "Sat, 14 Nov 2026 17:50:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "4 expert tips for signing up for Medicare",
+      "link": "https://www.marketwatch.com/story/what-really-happens-during-medicare-counseling-6a4f618e?mod=mw_rss_topstories",
+      "published": "Sat, 14 Nov 2026 17:50:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "The scandal at Nvidia is exactly what\u2019s wrong with the S&P 500",
+      "link": "https://www.marketwatch.com/story/the-scandal-at-nvidia-is-exactly-whats-wrong-with-the-s-p-500-7307457e?mod=mw_rss_topstories",
+      "published": "Sat, 14 Nov 2026 17:50:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Nationwide ground stop followed contractor upgrade to L3Harris telecommunication system: DOT\u2019s Duffy",
+      "link": "https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html",
+      "published": "Sat, 14 Nov 2026 18:32:47 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors",
+      "link": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html",
+      "published": "Sat, 14 Nov 2026 17:46:06 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home",
+      "link": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html",
+      "published": "Sat, 14 Nov 2026 12:00:01 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "SpaceX launches Starship in key test flight of massive rocket",
+      "link": "https://www.cnbc.com/2026/11/13/spacex-launches-starship-in-key-test-flight-of-massive-rocket.html",
+      "published": "Sat, 14 Nov 2026 01:18:51 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "How Rockstar's 'GTA VI' release could reshape gaming, streaming and even paid time off",
+      "link": "https://www.cnbc.com/2026/11/14/gta-6-grand-theft-auto-launch.html",
+      "published": "Sat, 14 Nov 2026 14:54:22 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
+      "link": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
+      "published": "Fri, 13 Nov 2026 23:42:18 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Berkshire breaks out to record high with fourth-quarter rally reaching 19%",
+      "link": "https://www.cnbc.com/2026/11/14/berkshire-breaks-out-to-record-high-with-fourth-quarter-rally-reaching-19percent.html",
+      "published": "Sat, 14 Nov 2026 14:02:39 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
+      "link": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html",
+      "published": "Sat, 14 Nov 2026 15:50:43 GMT",
       "source": "www.cnbc.com"
     },
     {
       "title": "Trump doesn\u2019t plan to raise Nvidia, spy issue during China trip: U.S. officials",
       "link": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
-      "published": "Sat, 14 Nov 2026 01:34:11 GMT",
+      "published": "Sat, 14 Nov 2026 15:36:47 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Heating oil prices are up 59% from last winter. The spike is 'crushing folks,' Maine nonprofit says",
+      "link": "https://www.cnbc.com/2026/11/14/heating-oil-price-spike-household-budgets.html",
+      "published": "Sat, 14 Nov 2026 14:30:01 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Juice your growth and save on taxes in this workplace investment account",
+      "link": "https://www.cnbc.com/2026/11/14/hsa-investing-tax-benefits.html",
+      "published": "Sat, 14 Nov 2026 14:08:17 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Retailers are turning to entertainment to win shoppers\u2019 attention",
+      "link": "https://www.cnbc.com/2026/11/14/retailers-invest-entertainment.html",
+      "published": "Sat, 14 Nov 2026 13:00:01 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Meet the seven co-founders of Anthropic",
+      "link": "https://www.cnbc.com/2026/11/14/meet-the-seven-co-founders-of-anthropic.html",
+      "published": "Sat, 14 Nov 2026 12:15:01 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "They train people to avoid 'honeypot' scams\u2014here are the common red flags they spot: 'It feels so good to be wanted'",
+      "link": "https://www.cnbc.com/make-it/2026/11/13/honeypot-scam-red-flags.html",
+      "published": "Fri, 13 Nov 2026 21:06:25 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Rising rents draw Wall Street money to industrial outdoor storage lot investments across the U.S.",
+      "link": "https://www.cnbc.com/2026/11/14/real-estate-rental-income-industrial-storage-market.html",
+      "published": "Sat, 14 Nov 2026 15:14:57 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "After Jensen Huang\u2019s exit, what top financial advisors are doing with Nvidia: Exclusive CNBC poll",
+      "link": "https://www.cnbc.com/2026/11/13/nvidia-stock-advisors-jensen-huang-exit-exclusive-poll.html",
+      "published": "Fri, 13 Nov 2026 19:53:38 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Nvidia's leadership crisis rattles the AI trade. Here's how we're adjusting our portfolio",
+      "link": "https://www.cnbc.com/investingclub/2026/11/14/nvidias-leadership-crisis-rattles-wall-street-how-were-adjusting.html",
+      "published": "Sat, 14 Nov 2026 18:48:39 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Microsoft apologizes for massive outage that took down Outlook and other 365 services",
+      "link": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
+      "published": "Sat, 14 Nov 2026 08:11:28 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Analysis: Companies love a \u2018rockstar\u2019 CEO. Until they depend on one",
+      "link": "https://www.cnbc.com/2026/11/14/nvidia-jensen-huang-ceo-succession-risk.html",
+      "published": "Sat, 14 Nov 2026 07:08:45 GMT",
       "source": "www.cnbc.com"
     },
     {
@@ -168,15 +256,15 @@
       "source": "www.cnbc.com"
     },
     {
-      "title": "Microsoft apologizes for massive outage that took down Outlook and other 365 services",
-      "link": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
-      "published": "Fri, 13 Nov 2026 18:18:28 GMT",
+      "title": "Ecuador wants to monetize its biodiversity \u2014 while still drilling for oil",
+      "link": "https://www.cnbc.com/2026/11/14/ecuador-biodiversity-green-finance-oil.html",
+      "published": "Sat, 14 Nov 2026 06:00:01 GMT",
       "source": "www.cnbc.com"
     },
     {
-      "title": "SpaceX launches Starship in key test flight of massive rocket",
-      "link": "https://www.cnbc.com/2026/11/13/spacex-launches-starship-in-key-test-flight-of-massive-rocket.html",
-      "published": "Sat, 14 Nov 2026 01:18:51 GMT",
+      "title": "Hackers stole $6.3 billion from Binance\u20142 habits that take 'a few seconds' can help you avoid similar traps",
+      "link": "https://www.cnbc.com/make-it/2026/11/13/binance-hack-2-online-habits-that-can-help-you-avoid-scams-.html",
+      "published": "Fri, 13 Nov 2026 22:06:55 GMT",
       "source": "www.cnbc.com"
     },
     {
@@ -189,18 +277,6 @@
       "title": "AI risks are the biggest threat to the financial system, Fed survey finds",
       "link": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html",
       "published": "Fri, 13 Nov 2026 21:18:30 GMT",
-      "source": "www.cnbc.com"
-    },
-    {
-      "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
-      "link": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
-      "published": "Fri, 13 Nov 2026 23:42:18 GMT",
-      "source": "www.cnbc.com"
-    },
-    {
-      "title": "After Jensen Huang\u2019s exit, what top financial advisors are doing with Nvidia: Exclusive CNBC poll",
-      "link": "https://www.cnbc.com/2026/11/13/nvidia-stock-advisors-jensen-huang-exit-exclusive-poll.html",
-      "published": "Fri, 13 Nov 2026 19:53:38 GMT",
       "source": "www.cnbc.com"
     },
     {
@@ -222,12 +298,6 @@
       "source": "www.cnbc.com"
     },
     {
-      "title": "They train people to avoid 'honeypot' scams\u2014here are the common red flags they spot: 'It feels so good to be wanted'",
-      "link": "https://www.cnbc.com/make-it/2026/11/13/honeypot-scam-red-flags.html",
-      "published": "Fri, 13 Nov 2026 21:06:25 GMT",
-      "source": "www.cnbc.com"
-    },
-    {
       "title": "Wholesale prices rose 0.3% in October, putting annual rate at 6.5%, the highest in nearly four years",
       "link": "https://www.cnbc.com/2026/11/13/ppi-inflation-report-october-2026.html",
       "published": "Fri, 13 Nov 2026 15:44:16 GMT",
@@ -246,147 +316,63 @@
       "source": "www.cnbc.com"
     },
     {
-      "title": "Goldman Sachs looks to cash in on big IPOs twice. Anthropic\u2019s historic deal is its next chance",
-      "link": "https://www.cnbc.com/investingclub/2026/11/13/goldman-sachs-looks-to-cash-in-on-anthropics-ipo-twice-heres-how-and-who-else-wants-to.html",
-      "published": "Fri, 13 Nov 2026 21:44:07 GMT",
-      "source": "www.cnbc.com"
-    },
-    {
-      "title": "Hackers stole $6.3 billion from Binance\u20142 habits that take 'a few seconds' can help you avoid similar traps",
-      "link": "https://www.cnbc.com/make-it/2026/11/13/binance-hack-2-online-habits-that-can-help-you-avoid-scams-.html",
-      "published": "Fri, 13 Nov 2026 22:06:55 GMT",
-      "source": "www.cnbc.com"
-    },
-    {
-      "title": "Is a bottom in for the Nasdaq-100? Charts to watch",
-      "link": "https://www.cnbc.com/2026/11/13/is-a-bottom-in-for-the-nasdaq-100-charts-to-watch.html",
-      "published": "Fri, 13 Nov 2026 18:00:01 GMT",
-      "source": "www.cnbc.com"
-    },
-    {
-      "title": "Chicago Fed's Goolsbee says central bank 'has definitely got work to do' on inflation",
-      "link": "https://www.cnbc.com/2026/11/13/chicago-feds-goolsbee-says-central-bank-has-definitely-got-work-to-do-on-inflation.html",
-      "published": "Fri, 13 Nov 2026 14:22:07 GMT",
-      "source": "www.cnbc.com"
-    },
-    {
-      "title": "Why the data center slowdown concern is overblown. Two stocks to buy amid the fear",
-      "link": "https://www.cnbc.com/2026/11/13/data-center-slowdown-utility-stocks.html",
-      "published": "Fri, 13 Nov 2026 16:54:40 GMT",
-      "source": "www.cnbc.com"
-    },
-    {
-      "title": "What's ahead for AI financing after Nvidia CEO Jensen Huang departs",
-      "link": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-resignation-ai-financing.html",
-      "published": "Fri, 13 Nov 2026 21:19:04 GMT",
-      "source": "www.cnbc.com"
-    },
-    {
-      "title": "Apple, Alphabet and Uber survived major founder transitions. Nvidia will be a harder test",
-      "link": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-founder-ceo-transition.html",
-      "published": "Fri, 13 Nov 2026 15:03:10 GMT",
-      "source": "www.cnbc.com"
-    },
-    {
-      "title": "Trump says he wants to \u2018get Cuba done\u2019 before leaving office, would consider military force",
-      "link": "https://www.cnbc.com/2026/11/13/trump-cuba-us-military-force-iran.html",
-      "published": "Fri, 13 Nov 2026 13:04:00 GMT",
-      "source": "www.cnbc.com"
-    },
-    {
-      "title": "Jensen Huang scandal casts doubt on Nvidia\u2019s AI dominance \u2014 how we got here",
-      "link": "https://www.cnbc.com/2026/11/13/jensen-huang-scandal-casts-doubt-on-nvidias-ai-dominance-how-we-got-here.html",
-      "published": "Fri, 13 Nov 2026 14:01:24 GMT",
-      "source": "www.cnbc.com"
-    },
-    {
-      "title": "U.S. seizes $1.2 billion in cryptocurrency stolen from Binance",
-      "link": "https://www.cnbc.com/2026/11/13/us-seizes-binance-hack-crypto.html",
-      "published": "Fri, 13 Nov 2026 12:03:24 GMT",
-      "source": "www.cnbc.com"
-    },
-    {
-      "title": "CNBC's Official NHL Team Valuations 2026: How the 32 franchises stack up",
-      "link": "https://www.cnbc.com/2026/11/13/cnbcs-official-nhl-team-valuations-2026-how-the-32-clubs-stack-up.html",
-      "published": "Fri, 13 Nov 2026 12:47:16 GMT",
-      "source": "www.cnbc.com"
-    },
-    {
-      "title": "\u2018We will sue them\u2019: Canada threatens Stellantis as Trump trade war reshapes Jeep production plans",
-      "link": "https://www.cnbc.com/2026/11/13/canada-stellantis-auto-trump-tariffs-jeep.html",
-      "published": "Fri, 13 Nov 2026 14:24:57 GMT",
-      "source": "www.cnbc.com"
-    },
-    {
-      "title": "Women are taking pay cuts and 'white-knuckling it' to manage menopause and work: 'I feel like I'm sitting on the sidelines'",
-      "link": "https://www.cnbc.com/make-it/2026/11/13/menopause-career-setbacks.html",
-      "published": "Fri, 13 Nov 2026 16:00:01 GMT",
-      "source": "www.cnbc.com"
-    },
-    {
-      "title": "10-year Treasury yield moves to 5.17% as traders weigh producer price report",
-      "link": "https://www.cnbc.com/2026/11/13/treasury-yields-fed-rates.html",
-      "published": "Fri, 13 Nov 2026 21:08:20 GMT",
-      "source": "www.cnbc.com"
-    },
-    {
-      "title": "What we know about Chinese businesswoman Alice Huang",
-      "link": "https://www.investing.com/news/stock-market-news/what-we-know-about-chinese-businesswoman-alice-huang-5026865",
-      "published": "2026-11-14 01:06:37",
+      "title": "Thousands of US flights canceled, delayed as air travel system slowly recovers from shutdown",
+      "link": "https://www.investing.com/news/stock-market-news/thousands-of-us-flights-canceled-delayed-as-air-travel-system-recovers-from-shutdown-5027394",
+      "published": "2026-11-14 18:42:18",
       "source": "www.investing.com"
     },
     {
-      "title": "Democratic senators order Musk to preserve records over Ukraine Starlink access,\u00a0WSJ reports",
-      "link": "https://www.investing.com/news/stock-market-news/democrats-senators-order-musk-to-preserve-spacex-records-over-ukraine-starlink-accesswsj-reports-5026793",
-      "published": "2026-11-14 01:06:18",
+      "title": "Duffy investigates L3Harris over FAA outage that grounded U.S. flights",
+      "link": "https://www.investing.com/news/stock-market-news/duffy-investigates-l3harris-over-faa-outage-that-grounded-us-flights-5027454",
+      "published": "2026-11-14 18:18:02",
       "source": "www.investing.com"
     },
     {
-      "title": "S&P 500, Nasdaq end lower as Nvidia uncertainty weighs on tech shares",
-      "link": "https://www.investing.com/news/stock-market-news/nasdaq-futures-dip-as-nvidia-tumult-keeps-investors-on-edge-5024713",
-      "published": "2026-11-14 00:48:19",
+      "title": "Italy fines Meta $887 million over Android users\u2019 data access",
+      "link": "https://www.investing.com/news/stock-market-news/italy-fines-meta-887-million-over-android-users-data-access-5027329",
+      "published": "2026-11-14 18:12:17",
       "source": "www.investing.com"
     },
     {
-      "title": "Exclusive-Ex-Nvidia CEO misled top lawyer on affair with Chinese businesswoman, sources say",
-      "link": "https://www.investing.com/news/stock-market-news/exclusiveexnvidia-ceo-misled-top-lawyer-on-affair-with-chinese-businesswoman-sources-say-5026828",
-      "published": "2026-11-14 00:30:22",
+      "title": "U.S. midterms: Citi breaks down implications for economy and markets",
+      "link": "https://www.investing.com/news/stock-market-news/us-midterms-citi-breaks-down-implications-for-economy-and-markets-5027443",
+      "published": "2026-11-14 17:52:12",
       "source": "www.investing.com"
     },
     {
-      "title": "Free speech nonprofit says US to end efforts to curb Facebook group and app reporting ICE activity",
-      "link": "https://www.investing.com/news/stock-market-news/free-speech-nonprofit-says-us-to-end-efforts-to-curb-facebook-group-and-app-reporting-ice-activity-5026821",
-      "published": "2026-11-14 00:19:33",
+      "title": "Italy fines Meta \u20ac805 million over access to Android users\u2019 photos",
+      "link": "https://www.investing.com/news/stock-market-news/italy-fines-meta-805-million-over-access-to-android-users-photos-5027370",
+      "published": "2026-11-14 14:59:55",
       "source": "www.investing.com"
     },
     {
-      "title": "New York sued over law requiring social media \u2019warning label\u2019",
-      "link": "https://www.investing.com/news/stock-market-news/new-york-sued-over-law-requiring-social-media-warning-label-5026808",
-      "published": "2026-11-14 00:18:36",
+      "title": "Musk says Nvidia will lose \u2019critical\u2019 deals without Jensen Huang",
+      "link": "https://www.investing.com/news/stock-market-news/musk-says-nvidia-will-lose-critical-deals-without-jensen-huang-5027369",
+      "published": "2026-11-14 14:54:22",
       "source": "www.investing.com"
     },
     {
-      "title": "Soros Fund ramps up Intel stake to over $340 million in third quarter",
-      "link": "https://www.investing.com/news/stock-market-news/soros-fund-ramps-up-intel-stake-to-over-340-million-in-third-quarter-5026774",
-      "published": "2026-11-13 23:42:21",
+      "title": "MSC nears deal for 80% stake in German shipbuilder Meyer Werft, Spiegel reports",
+      "link": "https://www.investing.com/news/stock-market-news/msc-nears-deal-for-80-stake-in-german-shipbuilder-meyer-werft-spiegel-reports-5027358",
+      "published": "2026-11-14 14:18:34",
       "source": "www.investing.com"
     },
     {
-      "title": "Exclusive-Investors flock to Anthropic IPO but question durability of AI lead",
-      "link": "https://www.investing.com/news/stock-market-news/exclusiveinvestors-flock-to-anthropic-ipo-but-question-durability-of-ai-lead-5026644",
-      "published": "2026-11-13 23:36:34",
+      "title": "Democrats\u2019 midterm sweep \"not bad at all\" for SpaceX, analyst says",
+      "link": "https://www.investing.com/news/stock-market-news/democrats-midterm-sweep-not-bad-at-all-for-spacex-analyst-says-5027337",
+      "published": "2026-11-14 13:29:01",
       "source": "www.investing.com"
     },
     {
-      "title": "Exclusive-Brookfield, CPPIB consortium enters next round in Uniper sales process, sources say",
+      "title": "Brookfield, CPPIB consortium enters next round in Uniper sales process, sources say",
       "link": "https://www.investing.com/news/stock-market-news/exclusivebrookfield-cppib-advance-to-next-round-in-uniper-sales-process-sources-say-5026330",
-      "published": "2026-11-13 22:48:19",
+      "published": "2026-11-14 13:18:21",
       "source": "www.investing.com"
     },
     {
-      "title": "FAA nationwide flight grounding linked to network update, system crash",
-      "link": "https://www.investing.com/news/stock-market-news/faa-orders-nationwide-ground-stop-citing-extraordinary-safety-concerns-5026489",
-      "published": "2026-11-13 22:39:32",
+      "title": "Trump official seeks $50 billion for air traffic control after outage",
+      "link": "https://www.investing.com/news/stock-market-news/white-house-urges-congress-to-provide-301-billion-for-aviation-reform-5024655",
+      "published": "2026-11-14 12:36:23",
       "source": "www.investing.com"
     }
   ],

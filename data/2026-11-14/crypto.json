@@ -5,229 +5,229 @@
     {
       "name": "ni hao cat",
       "symbol": "MIHAO",
-      "mcap_rank": 951,
-      "chg_24h": 2.5390631905653502
+      "mcap_rank": 711,
+      "chg_24h": 10.29893800805425
     },
     {
       "name": "Bitcoin",
       "symbol": "BTC",
       "mcap_rank": 1,
-      "chg_24h": -3.817283546554457
-    },
-    {
-      "name": "Akedo",
-      "symbol": "AKE",
-      "mcap_rank": 137,
-      "chg_24h": 346.13686852218086
-    },
-    {
-      "name": "Pudgy Penguins",
-      "symbol": "PENGU",
-      "mcap_rank": 114,
-      "chg_24h": -1.8728647079252396
-    },
-    {
-      "name": "Pearl",
-      "symbol": "PEARL",
-      "mcap_rank": 91,
-      "chg_24h": 11.31476404182941
-    },
-    {
-      "name": "Hyperliquid",
-      "symbol": "HYPE",
-      "mcap_rank": 10,
-      "chg_24h": -1.9800448559855952
-    },
-    {
-      "name": "Avalanche",
-      "symbol": "AVAX",
-      "mcap_rank": 25,
-      "chg_24h": -1.7532314486067957
-    },
-    {
-      "name": "Internet Computer",
-      "symbol": "ICP",
-      "mcap_rank": 60,
-      "chg_24h": -5.742382591197071
-    },
-    {
-      "name": "XRP",
-      "symbol": "XRP",
-      "mcap_rank": 6,
-      "chg_24h": -2.183651311056631
-    },
-    {
-      "name": "NEAR Protocol",
-      "symbol": "NEAR",
-      "mcap_rank": 21,
-      "chg_24h": -0.288473725122797
-    },
-    {
-      "name": "Pi Network",
-      "symbol": "PI",
-      "mcap_rank": 82,
-      "chg_24h": 0.21007479256056716
-    },
-    {
-      "name": "Berachain",
-      "symbol": "BERA",
-      "mcap_rank": 435,
-      "chg_24h": 30.680393791808747
+      "chg_24h": -4.83107946462347
     },
     {
       "name": "Solana",
       "symbol": "SOL",
       "mcap_rank": 7,
-      "chg_24h": -4.938791197651944
+      "chg_24h": -9.833652189198098
     },
     {
-      "name": "Kinetiq",
-      "symbol": "KNTQ",
-      "mcap_rank": 275,
-      "chg_24h": -4.927955545591388
+      "name": "Kava",
+      "symbol": "KAVA",
+      "mcap_rank": 467,
+      "chg_24h": -44.76567401187811
     },
     {
-      "name": "LayerZero",
-      "symbol": "ZRO",
-      "mcap_rank": 89,
-      "chg_24h": 0.8481692011883252
+      "name": "Hyperliquid",
+      "symbol": "HYPE",
+      "mcap_rank": 10,
+      "chg_24h": -10.60695889037365
+    },
+    {
+      "name": "Lighter",
+      "symbol": "LIT",
+      "mcap_rank": 82,
+      "chg_24h": -10.548826543873085
+    },
+    {
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "mcap_rank": 2,
+      "chg_24h": -5.778278086711314
+    },
+    {
+      "name": "Pump.fun",
+      "symbol": "PUMP",
+      "mcap_rank": 57,
+      "chg_24h": -15.444875186127158
+    },
+    {
+      "name": "Ethena",
+      "symbol": "ENA",
+      "mcap_rank": 51,
+      "chg_24h": -13.288243826540795
+    },
+    {
+      "name": "NEAR Protocol",
+      "symbol": "NEAR",
+      "mcap_rank": 23,
+      "chg_24h": -11.882702624320626
+    },
+    {
+      "name": "Cardano",
+      "symbol": "ADA",
+      "mcap_rank": 18,
+      "chg_24h": -9.945259676421928
+    },
+    {
+      "name": "Zcash",
+      "symbol": "ZEC",
+      "mcap_rank": 11,
+      "chg_24h": -10.253150014379656
+    },
+    {
+      "name": "Bittensor",
+      "symbol": "TAO",
+      "mcap_rank": 39,
+      "chg_24h": -10.38367011864945
+    },
+    {
+      "name": "Derive",
+      "symbol": "DRV",
+      "mcap_rank": 134,
+      "chg_24h": -13.475704437805572
+    },
+    {
+      "name": "XRP",
+      "symbol": "XRP",
+      "mcap_rank": 6,
+      "chg_24h": -7.230185650303259
     }
   ],
   "memes": [
     {
       "name": "Dogecoin",
       "symbol": "DOGE",
-      "mcap_b": 10.09,
-      "vol_b": 0.56,
-      "chg_24h": -2.95648,
-      "chg_7d": -10.754,
-      "chg_30d": -21.0469
+      "mcap_b": 9.41,
+      "vol_b": 0.6,
+      "chg_24h": -8.38739,
+      "chg_7d": -15.8838,
+      "chg_30d": -25.3132
     },
     {
       "name": "Pepe",
       "symbol": "PEPE",
-      "mcap_b": 1.86,
-      "vol_b": 0.41,
-      "chg_24h": -3.17287,
-      "chg_7d": -11.2236,
-      "chg_30d": 8.6522
-    },
-    {
-      "name": "Pump.fun",
-      "symbol": "PUMP",
-      "mcap_b": 1.58,
-      "vol_b": 0.12,
-      "chg_24h": -0.28584,
-      "chg_7d": -11.7327,
-      "chg_30d": -27.6173
-    },
-    {
-      "name": "Official Trump",
-      "symbol": "TRUMP",
-      "mcap_b": 0.31,
-      "vol_b": 0.1,
-      "chg_24h": -2.00353,
-      "chg_7d": -9.0088,
-      "chg_30d": -41.612
+      "mcap_b": 1.66,
+      "vol_b": 0.37,
+      "chg_24h": -11.71047,
+      "chg_7d": -17.892,
+      "chg_30d": -4.0956
     },
     {
       "name": "Pudgy Penguins",
       "symbol": "PENGU",
-      "mcap_b": 0.38,
-      "vol_b": 0.09,
-      "chg_24h": -2.05352,
-      "chg_7d": -6.9566,
-      "chg_30d": -20.2658
+      "mcap_b": 0.32,
+      "vol_b": 0.11,
+      "chg_24h": -16.71433,
+      "chg_7d": -20.0291,
+      "chg_30d": -32.6821
+    },
+    {
+      "name": "Pump.fun",
+      "symbol": "PUMP",
+      "mcap_b": 1.36,
+      "vol_b": 0.11,
+      "chg_24h": -15.27225,
+      "chg_7d": -17.0956,
+      "chg_30d": -33.3844
+    },
+    {
+      "name": "Official Trump",
+      "symbol": "TRUMP",
+      "mcap_b": 0.27,
+      "vol_b": 0.1,
+      "chg_24h": -12.16446,
+      "chg_7d": -17.8124,
+      "chg_30d": -47.6606
     },
     {
       "name": "Shiba Inu",
       "symbol": "SHIB",
-      "mcap_b": 2.5,
+      "mcap_b": 2.33,
       "vol_b": 0.05,
-      "chg_24h": -2.19723,
-      "chg_7d": -6.3707,
-      "chg_30d": -16.2986
+      "chg_24h": -8.51025,
+      "chg_7d": -11.0565,
+      "chg_30d": -22.0879
     },
     {
       "name": "dogwifhat",
       "symbol": "WIF",
-      "mcap_b": 0.15,
+      "mcap_b": 0.13,
       "vol_b": 0.03,
-      "chg_24h": -2.09464,
-      "chg_7d": -9.1694,
-      "chg_30d": -26.4965
+      "chg_24h": -10.35778,
+      "chg_7d": -15.7264,
+      "chg_30d": -32.5676
     },
     {
       "name": "Bonk",
       "symbol": "BONK",
-      "mcap_b": 0.24,
+      "mcap_b": 0.21,
       "vol_b": 0.03,
-      "chg_24h": -1.0245,
-      "chg_7d": -4.8691,
-      "chg_30d": -13.5596
+      "chg_24h": -11.46084,
+      "chg_7d": -13.0993,
+      "chg_30d": -21.465
+    },
+    {
+      "name": "Doge Pepe",
+      "symbol": "DOPE",
+      "mcap_b": 0.03,
+      "vol_b": 0.02,
+      "chg_24h": 134309.66066,
+      "chg_7d": 202065.6197,
+      "chg_30d": 168.5364
+    },
+    {
+      "name": "Banana For Scale",
+      "symbol": "BANANAS31",
+      "mcap_b": 0.04,
+      "vol_b": 0.02,
+      "chg_24h": 5.81138,
+      "chg_7d": -29.1571,
+      "chg_30d": -35.8507
+    },
+    {
+      "name": "ni hao cat",
+      "symbol": "MIHAO",
+      "mcap_b": 0.03,
+      "vol_b": 0.02,
+      "chg_24h": 17.59905,
+      "chg_7d": null,
+      "chg_30d": null
     },
     {
       "name": "Ape and Pepe",
       "symbol": "APEPE",
       "mcap_b": 0.26,
-      "vol_b": 0.02,
-      "chg_24h": -0.12826,
-      "chg_7d": 3.9692,
-      "chg_30d": 4.0343
-    },
-    {
-      "name": "Useless Coin",
-      "symbol": "USELESS",
-      "mcap_b": 0.12,
       "vol_b": 0.01,
-      "chg_24h": -8.00889,
-      "chg_7d": -5.3258,
-      "chg_30d": -26.1474
+      "chg_24h": -1.73519,
+      "chg_7d": 3.8064,
+      "chg_30d": 3.9213
     },
     {
       "name": "Fartcoin",
       "symbol": "FARTCOIN",
-      "mcap_b": 0.11,
+      "mcap_b": 0.09,
       "vol_b": 0.01,
-      "chg_24h": -2.03229,
-      "chg_7d": -9.8439,
-      "chg_30d": -31.271
+      "chg_24h": -13.12323,
+      "chg_7d": -17.5361,
+      "chg_30d": -38.9018
     },
     {
-      "name": "FLOKI",
-      "symbol": "FLOKI",
-      "mcap_b": 0.19,
+      "name": "Useless Coin",
+      "symbol": "USELESS",
+      "mcap_b": 0.1,
       "vol_b": 0.01,
-      "chg_24h": -2.51896,
-      "chg_7d": -8.6659,
-      "chg_30d": -20.3978
+      "chg_24h": -18.33807,
+      "chg_7d": -18.5347,
+      "chg_30d": -37.7369
     },
     {
       "name": "MowCat",
       "symbol": "MOW",
       "mcap_b": 0.0,
       "vol_b": 0.01,
-      "chg_24h": 55.98894,
-      "chg_7d": 43.2429,
-      "chg_30d": 32.397
-    },
-    {
-      "name": "\u725b\u6765 (Niu Lai)",
-      "symbol": "\u725b\u6765",
-      "mcap_b": 0.06,
-      "vol_b": 0.01,
-      "chg_24h": 4.4626,
-      "chg_7d": 14.9016,
-      "chg_30d": -9.5481
-    },
-    {
-      "name": "ni hao cat",
-      "symbol": "MIHAO",
-      "mcap_b": 0.01,
-      "vol_b": 0.01,
-      "chg_24h": 3.59357,
-      "chg_7d": null,
-      "chg_30d": null
+      "chg_24h": 14.1474,
+      "chg_7d": 62.34,
+      "chg_30d": 49.0004
     }
   ],
   "fear_greed": {
@@ -240,50 +240,32 @@
     {
       "ticker": "BTC.X",
       "name": "Bitcoin",
-      "mentions": 327,
-      "mentions_24h_ago": 122
+      "mentions": 210,
+      "mentions_24h_ago": 278
     },
     {
       "ticker": "ETH.X",
       "name": "Ethereum",
-      "mentions": 55,
+      "mentions": 52,
       "mentions_24h_ago": 46
     },
     {
       "ticker": "MSTR.X",
       "name": "MicroStrategy tokenized stock FTX",
-      "mentions": 17,
-      "mentions_24h_ago": 5
-    },
-    {
-      "ticker": "ANT.X",
-      "name": "Aragon",
-      "mentions": 6,
-      "mentions_24h_ago": 1
-    },
-    {
-      "ticker": "LOT.X",
-      "name": "Lukki Operating Token",
-      "mentions": 6,
-      "mentions_24h_ago": 1
+      "mentions": 8,
+      "mentions_24h_ago": 12
     },
     {
       "ticker": "FTX.X",
       "name": "FintruX Network",
-      "mentions": 5,
+      "mentions": 7,
       "mentions_24h_ago": 1
     },
     {
-      "ticker": "NVDA.X",
-      "name": "NVIDIA tokenized stock FTX",
-      "mentions": 5,
-      "mentions_24h_ago": 6
-    },
-    {
-      "ticker": "XRP.X",
-      "name": "XRP",
+      "ticker": "ADA.X",
+      "name": "Cardano",
       "mentions": 4,
-      "mentions_24h_ago": 2
+      "mentions_24h_ago": 3
     },
     {
       "ticker": "USDC.X",
@@ -292,100 +274,118 @@
       "mentions_24h_ago": 1
     },
     {
-      "ticker": "ADA.X",
-      "name": "Cardano",
-      "mentions": 3,
-      "mentions_24h_ago": 1
-    },
-    {
-      "ticker": "SOL.X",
-      "name": "Solana",
-      "mentions": 3,
-      "mentions_24h_ago": 3
-    },
-    {
-      "ticker": "OG.X",
-      "name": "OG Fan Token",
-      "mentions": 3,
-      "mentions_24h_ago": 1
-    },
-    {
-      "ticker": "DOGE.X",
-      "name": "Dogecoin",
-      "mentions": 2,
+      "ticker": "LOT.X",
+      "name": "Lukki Operating Token",
+      "mentions": 4,
       "mentions_24h_ago": 2
     },
     {
       "ticker": "IQ.X",
       "name": "Everipedia",
+      "mentions": 3,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "NVDA.X",
+      "name": "NVIDIA tokenized stock FTX",
+      "mentions": 3,
+      "mentions_24h_ago": 6
+    },
+    {
+      "ticker": "USDT.X",
+      "name": "Tether",
       "mentions": 2,
       "mentions_24h_ago": 1
     },
     {
-      "ticker": "APY.X",
-      "name": "APY.Finance",
+      "ticker": "XRP.X",
+      "name": "XRP",
+      "mentions": 2,
+      "mentions_24h_ago": 5
+    },
+    {
+      "ticker": "LTC.X",
+      "name": "Litecoin",
       "mentions": 2,
       "mentions_24h_ago": 1
     },
     {
-      "ticker": "YOU.X",
-      "name": "YOU COIN",
+      "ticker": "LINK.X",
+      "name": "Chainlink",
       "mentions": 2,
       "mentions_24h_ago": 1
     },
     {
-      "ticker": "KAT.X",
-      "name": "Kambria",
+      "ticker": "OG.X",
+      "name": "OG Fan Token",
       "mentions": 2,
-      "mentions_24h_ago": 1
+      "mentions_24h_ago": 2
     },
     {
       "ticker": "GPT.X",
       "name": "GoPower",
       "mentions": 2,
-      "mentions_24h_ago": 0
-    },
-    {
-      "ticker": "ITS.X",
-      "name": "IterationSyndicate",
-      "mentions": 2,
-      "mentions_24h_ago": 0
-    },
-    {
-      "ticker": "IT.X",
-      "name": "IDCM Token",
-      "mentions": 2,
       "mentions_24h_ago": 1
     },
     {
-      "ticker": "USDT.X",
-      "name": "Tether",
-      "mentions": 1,
-      "mentions_24h_ago": 3
-    },
-    {
-      "ticker": "LTC.X",
-      "name": "Litecoin",
-      "mentions": 1,
+      "ticker": "AMD.X",
+      "name": "Advanced Micro Devices tokenized stock FTX",
+      "mentions": 2,
       "mentions_24h_ago": 0
     },
     {
       "ticker": "DOT.X",
       "name": "Polkadot",
       "mentions": 1,
-      "mentions_24h_ago": 0
+      "mentions_24h_ago": 1
     },
     {
       "ticker": "BCH.X",
       "name": "Bitcoin Cash",
       "mentions": 1,
-      "mentions_24h_ago": 0
+      "mentions_24h_ago": 1
     },
     {
       "ticker": "BNB.X",
       "name": "Binance Coin",
       "mentions": 1,
       "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "BSV.X",
+      "name": "Bitcoin SV",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "XLM.X",
+      "name": "Stellar",
+      "mentions": 1,
+      "mentions_24h_ago": 1
+    },
+    {
+      "ticker": "XMR.X",
+      "name": "Monero",
+      "mentions": 1,
+      "mentions_24h_ago": 2
+    },
+    {
+      "ticker": "DOGE.X",
+      "name": "Dogecoin",
+      "mentions": 1,
+      "mentions_24h_ago": 2
+    },
+    {
+      "ticker": "ZEC.X",
+      "name": "Zcash",
+      "mentions": 1,
+      "mentions_24h_ago": 3
+    },
+    {
+      "ticker": "EGLD.X",
+      "name": "Elrond",
+      "mentions": 1,
+      "mentions_24h_ago": 0
     }
   ]
 }
