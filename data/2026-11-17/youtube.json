@@ -1,0 +1,260 @@
+{
+  "date": "2026-11-17",
+  "terms": {
+    "coconut water": {
+      "ticker": "COCO",
+      "videos": 5,
+      "views_30d_top5": 219319,
+      "comments_read": 8,
+      "intent_per_100": 0.0,
+      "scare_per_100": 0.0,
+      "examples": []
+    },
+    "sweetgreen": {
+      "ticker": "SG",
+      "videos": 5,
+      "views_30d_top5": 5344,
+      "comments_read": 2,
+      "intent_per_100": 0.0,
+      "scare_per_100": 0.0,
+      "examples": []
+    },
+    "cava": {
+      "ticker": "CAVA",
+      "videos": 5,
+      "views_30d_top5": 462136,
+      "comments_read": 199,
+      "intent_per_100": 0.5,
+      "scare_per_100": 0.0,
+      "examples": [
+        "when people talk about enron, the same names always surface: jeff skilling, ken lay, andy fastow. but in the shadows of america\u2019s most infamous corporate collap"
+      ]
+    },
+    "dutch bros": {
+      "ticker": "BROS",
+      "videos": 5,
+      "views_30d_top5": 960401,
+      "comments_read": 313,
+      "intent_per_100": 1.6,
+      "scare_per_100": 0.0,
+      "examples": [
+        "no, grown americans love their coffee black maybe a sugar or a little tiny splash of creamer. what you\u2019re experiencing is the youth in america (teens to ungrown",
+        "waited so long for this \ud83d\udcaa\u2764",
+        "i waited like refreshed youtube for so long on the tuesday and then i remembered"
+      ]
+    },
+    "starbucks": {
+      "ticker": "SBUX",
+      "videos": 5,
+      "views_30d_top5": 1514870,
+      "comments_read": 478,
+      "intent_per_100": 6.7,
+      "scare_per_100": 0.8,
+      "examples": [
+        "honestly i don't blame companies for taking advantage of their customers, they do be buying everything lol",
+        "my rule for blind boxes is that if there's a single option in the box that i would be disappointed to get i don't get the box. i treat it as if i'm buying my le",
+        "as a starbucks barista, there is nothing that makes me laugh more than these videos. people are feral. we sold out 15 min after open."
+      ]
+    },
+    "birkenstock": {
+      "ticker": "BIRK",
+      "videos": 5,
+      "views_30d_top5": 341439,
+      "comments_read": 51,
+      "intent_per_100": 0.0,
+      "scare_per_100": 2.0,
+      "examples": [
+        "in february 2025, germany's federal court of justice ruled that birkenstock sandals are not copyright-protected works of applied art, and dismissed the company'"
+      ]
+    },
+    "hoka": {
+      "ticker": "DECK",
+      "videos": 5,
+      "views_30d_top5": 13497,
+      "comments_read": 28,
+      "intent_per_100": 10.7,
+      "scare_per_100": 0.0,
+      "examples": [
+        "\u2705 lowest verified prices:\n\u2022 hoka transport 2(best overall): https://geni.us/yxdlaa\n\u2022 hoka bondi 9 (most comfortable): https://geni.us/syo8zq\n\u2022 hoka gaviota 6 (b",
+        "i think a very interesting option for seniors is the kybun. they have a unique sole technology which is not soft, but elastic and is especially made for seniors",
+        "i wear the hoka transport like the person below mentioned ~~when i'm not wearing my brooks adrenaline. the hoka is very sturdy, not bouncy and gave good support"
+      ]
+    },
+    "on running shoes": {
+      "ticker": "ONON",
+      "videos": 5,
+      "views_30d_top5": 3100736,
+      "comments_read": 308,
+      "intent_per_100": 7.1,
+      "scare_per_100": 1.0,
+      "examples": [
+        "ive bought 2 pairs of new balance fuel cell\u2019s. they are reasonably priced, soft without being unstable. i love them",
+        "i bought the ellipse but purely as a casual all day shoe, not for running & i love it. super comfy & looks great",
+        "i bought lidl's crivit carbon-plated shoes after watching ben's review and was pleasantly surprised. bargain of the year for me!"
+      ]
+    },
+    "crocs": {
+      "ticker": "CROX",
+      "videos": 5,
+      "views_30d_top5": 673019,
+      "comments_read": 312,
+      "intent_per_100": 3.2,
+      "scare_per_100": 1.0,
+      "examples": [
+        "it\u2019s not my fault that my grandma bought me camouflage crocs\ud83d\ude2d",
+        "i throw my white fur lined crocs in the damn washing machine every week\u2026 and i love realtree crocs the rest of these ugly asf though",
+        "i feel like i\u2019d rather get emotionally better with stuff that doesn\u2019t make me seen obsessed and doesn\u2019t feed into my materialistic desires."
+      ]
+    },
+    "elf cosmetics": {
+      "ticker": "ELF",
+      "videos": 5,
+      "views_30d_top5": 1632893,
+      "comments_read": 384,
+      "intent_per_100": 6.5,
+      "scare_per_100": 0.5,
+      "examples": [
+        "can you do a full face of maybelline, or l'oreal?? plsss",
+        "heyy love your videos!\ncan you do a full dace of maybeline? x",
+        "please do a full face of maybelline."
+      ]
+    },
+    "celsius energy drink": {
+      "ticker": "CELH",
+      "videos": 5,
+      "views_30d_top5": 25670,
+      "comments_read": 22,
+      "intent_per_100": 4.5,
+      "scare_per_100": 4.5,
+      "examples": [
+        "take my money you bloody \ud83d\udc10",
+        "sucralose isn't just an \"artificial sweetener.\" it has an  extremely long chemical forumla that is just one atom away from rat poison, and it's neurotoxic."
+      ]
+    },
+    "swatch": {
+      "ticker": "UHR.SW",
+      "videos": 5,
+      "views_30d_top5": 652373,
+      "comments_read": 309,
+      "intent_per_100": 3.6,
+      "scare_per_100": 1.6,
+      "examples": [
+        "i'm 70, i recall a rocky point session in 1977, i almost ran micheal over racing a right down the line, he was hooting me in a negative way, like heyyy!!!  [sor",
+        "sick",
+        "i got the polar lights one in osaka japan. i ordered a color matching rubber strap from wrist buddies and im very impressed with the quality and color accuracy"
+      ]
+    },
+    "ozempic": {
+      "ticker": "NVO",
+      "videos": 5,
+      "views_30d_top5": 161087,
+      "comments_read": 206,
+      "intent_per_100": 3.4,
+      "scare_per_100": 2.4,
+      "examples": [
+        "who the hell believe what fda say. they are a scam",
+        "with all the research that's going on into the benefits of glp-1 medications outside of diabetes and weight loss. maybe we'll all be on them for 70 years.\nheart",
+        "im in canada \ud83c\udde8\ud83c\udde6 and the glp1 is everywhere. i feel like im the only one not on it and im missing out on this mirscle drug. i have pcos, secondary infertility fo"
+      ]
+    },
+    "hims": {
+      "ticker": "HIMS",
+      "videos": 5,
+      "views_30d_top5": 96885,
+      "comments_read": 84,
+      "intent_per_100": 7.1,
+      "scare_per_100": 0.0,
+      "examples": [
+        "glp1 is much cheaper through online sales, like mochi health.",
+        "i am mirror image to tannor with my reaction to jensen headlines. he is my hero and my second largest holding. my largest holding is only my largest due to empl",
+        "i sold it when it was around $60, bought again at $30, waiting for the next surge."
+      ]
+    },
+    "robinhood": {
+      "ticker": "HOOD",
+      "videos": 5,
+      "views_30d_top5": 101882,
+      "comments_read": 111,
+      "intent_per_100": 0.9,
+      "scare_per_100": 4.5,
+      "examples": [
+        "if they have a foreign accent. 99/100 times its a scam",
+        "so many people have tried to scam me. the last one was an irs seemed fishy the logo wasn\u2019t right and i did my taxes with a person who is certified yet the lette",
+        "i made a mistake falling foe a scam on discord months ago"
+      ]
+    },
+    "pokemon cards": {
+      "ticker": "NTDOY",
+      "videos": 5,
+      "views_30d_top5": 2643735,
+      "comments_read": 248,
+      "intent_per_100": 4.8,
+      "scare_per_100": 1.6,
+      "examples": [
+        "i got my first case ever thanks to you. i got a destined rivals booster boxe case. then i bought the journey together enhanced booster box case. thank you!!",
+        "i bought 2 psa 10 umberon unagaba  on whatnot few years ago $50 each. was after i collect all of them i have them all in 10s. pikachu i was getting for $20 seal",
+        "smh a fake pokemon fan.... next time do better voice over work before butchering the hobby i love and you got into for profit."
+      ]
+    },
+    "gta 6": {
+      "ticker": "TTWO",
+      "videos": 5,
+      "views_30d_top5": 1196002,
+      "comments_read": 499,
+      "intent_per_100": 3.8,
+      "scare_per_100": 1.4,
+      "examples": [
+        "one of the biggest things that has me excited for gta 6 is just how much there will be to do outside of the main story. gta 5 singleplayer has a large open worl",
+        "i really hope that rockstar invests in the story mode post launch. i hope we get story mode dlc, map expansion, and more side activities. online is great but th",
+        "damn i\u2019m really gonna be more worried about some fake sleep more than real sleep"
+      ]
+    },
+    "labubu": {
+      "ticker": "9992.HK",
+      "videos": 5,
+      "views_30d_top5": 11782364,
+      "comments_read": 308,
+      "intent_per_100": 8.1,
+      "scare_per_100": 3.2,
+      "examples": [
+        "it was realy funny to see a toymaker go:\n\"hm.. scalpers are buying off all our products, lets produce a bunch more!\"\nmadlads decided to turn scalpers into whale",
+        "my 6 year old niece recently told me nobody buys labubus anymore because the fake ones (lafufus) are full of asbestos",
+        "i like that this happened primarily because the maker of labubu is mostly responsible for this.   the maker literally gave an interview saying he made this line"
+      ]
+    },
+    "uggs": {
+      "ticker": "DECK",
+      "videos": 5,
+      "views_30d_top5": 534368,
+      "comments_read": 171,
+      "intent_per_100": 0.0,
+      "scare_per_100": 2.9,
+      "examples": [
+        "the fake one is better quality than the real\ud83d\ude02",
+        "i like the fake one",
+        "q: why fake shoes are not coppied better in details?"
+      ]
+    },
+    "barbie": {
+      "ticker": "MAT",
+      "videos": 5,
+      "views_30d_top5": 468657,
+      "comments_read": 24,
+      "intent_per_100": 0.0,
+      "scare_per_100": 0.0,
+      "examples": []
+    },
+    "build a bear": {
+      "ticker": "BBW",
+      "videos": 5,
+      "views_30d_top5": 269486,
+      "comments_read": 46,
+      "intent_per_100": 2.2,
+      "scare_per_100": 0.0,
+      "examples": [
+        "\ud83e\uddf8\ud83c\udf89 the world's largest build-a-bear is officially open!!\ud83d\udc3b\n\nhippies!! can you believe how huge those opening-day lines were?! \ud83d\ude31 we had so much fun celebrating th"
+      ]
+    }
+  },
+  "errors": []
+}

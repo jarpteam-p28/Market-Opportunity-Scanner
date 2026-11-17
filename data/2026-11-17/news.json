@@ -1,0 +1,400 @@
+{
+  "date": "2026-11-17",
+  "n": 50,
+  "errors": [],
+  "by_theme": {
+    "AI chips": [
+      {
+        "title": "Trump\u2019s accounts traded up to $97.5 million in Nvidia as Huang gained White House access",
+        "link": "https://www.cnbc.com/2026/11/16/trump-nvidia-stock-trades-jensen-huang.html",
+        "published": "Mon, 16 Nov 2026 22:37:45 GMT",
+        "source": "www.cnbc.com"
+      },
+      {
+        "title": "Jim Cramer says Nvidia\u2019s leadership shake-up won\u2019t derail the AI trade",
+        "link": "https://www.cnbc.com/2026/11/16/nvidia-cramer-ai-trade-leadership-change.html",
+        "published": "Mon, 16 Nov 2026 23:23:47 GMT",
+        "source": "www.cnbc.com"
+      },
+      {
+        "title": "Market's Nvidia obsession obscuring an opportunity in this name",
+        "link": "https://www.cnbc.com/2026/11/16/disney-options-trade-before-earnings.html",
+        "published": "Mon, 16 Nov 2026 18:56:49 GMT",
+        "source": "www.cnbc.com"
+      },
+      {
+        "title": "Eli Lilly makes a deal outside obesity. Plus, another word of caution on Nvidia",
+        "link": "https://www.cnbc.com/investingclub/2026/11/16/eli-lilly-makes-a-deal-outside-obesity-plus-another-word-of-caution-on-nvidia.html",
+        "published": "Mon, 16 Nov 2026 20:07:46 GMT",
+        "source": "www.cnbc.com"
+      },
+      {
+        "title": "Nvidia's Colette Kress confronts key questions in first earnings report since Jensen Huang\u2019s exit",
+        "link": "https://www.cnbc.com/2026/11/16/nvidia-earnings-jensen-huang-resignation.html",
+        "published": "Mon, 16 Nov 2026 13:42:43 GMT",
+        "source": "www.cnbc.com"
+      },
+      {
+        "title": "Nvidia fallout: Commerce targets loophole for China's data center use",
+        "link": "https://www.cnbc.com/2026/11/16/nvidia-commerce-china-lutnick.html",
+        "published": "Mon, 16 Nov 2026 21:51:43 GMT",
+        "source": "www.cnbc.com"
+      },
+      {
+        "title": "Trump says he's OK with Jensen Huang returning as Nvidia CEO, sees no national security risk",
+        "link": "https://www.cnbc.com/2026/11/16/trump-lutnick-nvidia-national-security-jensen-huant.html",
+        "published": "Mon, 16 Nov 2026 18:55:46 GMT",
+        "source": "www.cnbc.com"
+      },
+      {
+        "title": "Nvidia rules out Huang comeback as campaign for his return grows",
+        "link": "https://www.investing.com/news/stock-market-news/silicon-valley-leaders-back-call-for-jensen-huangs-return-to-nvidia-5029956",
+        "published": "2026-11-17 03:42:21",
+        "source": "www.investing.com"
+      }
+    ],
+    "AI data centers": [
+      {
+        "title": "Nvidia fallout: Commerce targets loophole for China's data center use",
+        "link": "https://www.cnbc.com/2026/11/16/nvidia-commerce-china-lutnick.html",
+        "published": "Mon, 16 Nov 2026 21:51:43 GMT",
+        "source": "www.cnbc.com"
+      }
+    ],
+    "Power for AI": [],
+    "Nuclear": [],
+    "Water": [],
+    "Cooling": [],
+    "Copper & grid materials": [],
+    "AI software": [
+      {
+        "title": "Stanley Druckenmiller dumped these chip stocks while buying into SpaceX and Palantir",
+        "link": "https://www.marketwatch.com/story/stanley-druckenmiller-dumped-these-chip-stocks-while-buying-into-spacex-and-palantir-9ae1f078?mod=mw_rss_topstories",
+        "published": "Mon, 16 Nov 2026 23:28:00 GMT",
+        "source": "feeds.content.dowjones.io"
+      }
+    ],
+    "Memory chips": [],
+    "AI efficiency wave": [],
+    "Distribution moats": [],
+    "Crypto": [],
+    "Precious metals": [],
+    "Robotics": []
+  },
+  "latest": [
+    {
+      "title": "I\u2019m in my 40s. Should I accept a lower pension in exchange for naming my husband or child as a beneficiary?",
+      "link": "https://www.marketwatch.com/story/im-in-my-40s-should-i-accept-a-lower-pension-in-exchange-for-naming-my-husband-or-child-as-a-beneficiary-b2352059?mod=mw_rss_topstories",
+      "published": "Tue, 17 Nov 2026 02:30:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "United Airlines resolves system outage that delayed flights Monday",
+      "link": "https://www.marketwatch.com/story/united-airlines-suffers-system-outage-amid-lingering-faa-ground-stop-delays-5e33f94c?mod=mw_rss_topstories",
+      "published": "Mon, 16 Nov 2026 23:42:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Stanley Druckenmiller dumped these chip stocks while buying into SpaceX and Palantir",
+      "link": "https://www.marketwatch.com/story/stanley-druckenmiller-dumped-these-chip-stocks-while-buying-into-spacex-and-palantir-9ae1f078?mod=mw_rss_topstories",
+      "published": "Mon, 16 Nov 2026 23:28:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Do Amazon\u2019s Black Friday deals really save you money? A new report casts doubt.",
+      "link": "https://www.marketwatch.com/story/do-amazons-black-friday-deals-really-save-you-money-03859cf3?mod=mw_rss_topstories",
+      "published": "Mon, 16 Nov 2026 23:04:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "My husband is happily retired at 64 and thinks I should keep working. Is he being fair?",
+      "link": "https://www.marketwatch.com/story/my-husband-is-happily-retired-at-64-and-thinks-i-should-keep-working-is-he-being-fair-325c5f38?mod=mw_rss_topstories",
+      "published": "Mon, 16 Nov 2026 23:00:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "U.S. dollar\u2019s AI-driven breakout could become a stock-market wrecking ball",
+      "link": "https://www.marketwatch.com/story/u-s-dollars-ai-driven-breakout-could-become-a-stock-market-wrecking-ball-18199b95?mod=mw_rss_topstories",
+      "published": "Mon, 16 Nov 2026 22:46:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Berkshire upped its bet on a beleaguered U.S. housing market, while souring on these bank stocks",
+      "link": "https://www.marketwatch.com/story/berkshire-upped-its-bet-on-a-beleaguered-u-s-housing-market-while-souring-on-these-bank-stocks-2e8de402?mod=mw_rss_topstories",
+      "published": "Mon, 16 Nov 2026 22:33:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "\u2018He calls my plans a fantasy\u2019: My husband says we can\u2019t afford a $200,000-a-year retirement. Is he being cheap?",
+      "link": "https://www.marketwatch.com/story/he-calls-my-plans-a-fantasy-my-husband-says-we-cant-afford-our-200-000-a-year-dream-retirement-i-think-hes-cheap-45bc5b4e?mod=mw_rss_topstories",
+      "published": "Mon, 16 Nov 2026 22:30:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "The FDA declined to approve one of biotech\u2019s most closely watched cancer drugs. The company\u2019s stock tumbled.",
+      "link": "https://www.marketwatch.com/story/the-fda-declined-to-approve-one-of-biotechs-most-closely-watched-cancer-drugs-d7c6a0a3?mod=mw_rss_topstories",
+      "published": "Mon, 16 Nov 2026 22:21:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "\u2018It leaves me with a sour taste\u2019: My elderly mother gave our cousin $800 for a car repair. Should I be worried?",
+      "link": "https://www.marketwatch.com/story/it-leaves-me-with-a-sour-taste-my-elderly-mother-gave-our-cousin-800-for-a-car-repair-should-i-be-worried-88dbd188?mod=mw_rss_topstories",
+      "published": "Mon, 16 Nov 2026 22:08:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Trump\u2019s accounts traded up to $97.5 million in Nvidia as Huang gained White House access",
+      "link": "https://www.cnbc.com/2026/11/16/trump-nvidia-stock-trades-jensen-huang.html",
+      "published": "Mon, 16 Nov 2026 22:37:45 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Analysis: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
+      "link": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html",
+      "published": "Tue, 17 Nov 2026 00:42:33 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Aschenbrenner\u2019s Situational Awareness made AI bets again before October rout",
+      "link": "https://www.cnbc.com/2026/11/16/situational-awareness-aschenbrenner-new-ai-bets.html",
+      "published": "Mon, 16 Nov 2026 23:05:12 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "JPMorgan Chase says temporary software bug is affecting consumer banking",
+      "link": "https://www.cnbc.com/2026/11/16/jpmorgan-chase-technical-issue.html",
+      "published": "Mon, 16 Nov 2026 22:14:47 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "CNBC's The China Connection newsletter: As Nike and Lululemon struggle in China, Xiaohongshu is helping local brands take off",
+      "link": "https://www.cnbc.com/2026/11/16/as-nike-lululemon-struggle-in-china-xiaohongshu-helps-local-brands.html",
+      "published": "Mon, 16 Nov 2026 23:00:01 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Berkshire Hathaway raised its stake in Delta in the third quarter. It also trimmed a key bank holding",
+      "link": "https://www.cnbc.com/2026/11/16/berkshire-hathaway-raised-its-stake-in-delta-air-in-the-third-quarter.html",
+      "published": "Mon, 16 Nov 2026 23:01:19 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "United Airlines resolves system outage that affected departing flights",
+      "link": "https://www.cnbc.com/2026/11/16/united-airlines-outage-faa.html",
+      "published": "Tue, 17 Nov 2026 00:00:49 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Kalshi plans to launch stock trading soon",
+      "link": "https://www.cnbc.com/2026/11/16/kalshi-plans-to-launch-stock-trading-soon.html",
+      "published": "Mon, 16 Nov 2026 21:23:34 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Warren Buffett donates $5.5 billion, says kindness 'compounds' in Thanksgiving letter",
+      "link": "https://www.cnbc.com/2026/11/16/warren-buffett-donates-5point5-billion-thanksgiving.html",
+      "published": "Mon, 16 Nov 2026 17:39:32 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home",
+      "link": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html",
+      "published": "Mon, 16 Nov 2026 17:14:13 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Jim Cramer says Nvidia\u2019s leadership shake-up won\u2019t derail the AI trade",
+      "link": "https://www.cnbc.com/2026/11/16/nvidia-cramer-ai-trade-leadership-change.html",
+      "published": "Mon, 16 Nov 2026 23:23:47 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "U.S. crude oil declines to $85 a barrel on recovering Middle East exports",
+      "link": "https://www.cnbc.com/2026/11/16/us-crude-oil-declines-to-87-a-barrel-on-recovering-middle-east-exports.html",
+      "published": "Mon, 16 Nov 2026 22:19:02 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "California sues OpenAI over Hugging Face, other AI model loss of control",
+      "link": "https://www.cnbc.com/2026/11/16/openai-california-bonta-ai-lawsuit.html",
+      "published": "Mon, 16 Nov 2026 22:11:09 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could \u2018disappoint\u2019",
+      "link": "https://www.cnbc.com/2026/11/16/fed-ai-task-force-kevin-warsh.html",
+      "published": "Mon, 16 Nov 2026 18:46:07 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Market's Nvidia obsession obscuring an opportunity in this name",
+      "link": "https://www.cnbc.com/2026/11/16/disney-options-trade-before-earnings.html",
+      "published": "Mon, 16 Nov 2026 18:56:49 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "This Anthropic proxy play is getting traders' attention \u2013 here's where they see it going",
+      "link": "https://www.cnbc.com/2026/11/16/anthropic-proxy-destiny-tech100-fund.html",
+      "published": "Mon, 16 Nov 2026 19:06:11 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Eli Lilly makes a deal outside obesity. Plus, another word of caution on Nvidia",
+      "link": "https://www.cnbc.com/investingclub/2026/11/16/eli-lilly-makes-a-deal-outside-obesity-plus-another-word-of-caution-on-nvidia.html",
+      "published": "Mon, 16 Nov 2026 20:07:46 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Nvidia's Colette Kress confronts key questions in first earnings report since Jensen Huang\u2019s exit",
+      "link": "https://www.cnbc.com/2026/11/16/nvidia-earnings-jensen-huang-resignation.html",
+      "published": "Mon, 16 Nov 2026 13:42:43 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Robert Pattinson cast as next James Bond",
+      "link": "https://www.cnbc.com/2026/11/16/robert-pattinson-james-bond.html",
+      "published": "Mon, 16 Nov 2026 21:03:36 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "'We slept here': Flight delays linger as airlines recover from ground stop, but schedule improves Monday",
+      "link": "https://www.cnbc.com/2026/11/15/flight-delays-ground-faa-stop.html",
+      "published": "Mon, 16 Nov 2026 15:56:39 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "OpenAI inks agreements with four independent evaluators to boost company's safety work",
+      "link": "https://www.cnbc.com/2026/11/16/openai-independent-ai-safety-evaluators.html",
+      "published": "Mon, 16 Nov 2026 21:54:18 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Nvidia fallout: Commerce targets loophole for China's data center use",
+      "link": "https://www.cnbc.com/2026/11/16/nvidia-commerce-china-lutnick.html",
+      "published": "Mon, 16 Nov 2026 21:51:43 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Trump says he's OK with Jensen Huang returning as Nvidia CEO, sees no national security risk",
+      "link": "https://www.cnbc.com/2026/11/16/trump-lutnick-nvidia-national-security-jensen-huant.html",
+      "published": "Mon, 16 Nov 2026 18:55:46 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Cantwell urges Lutnick to stop AI chip sales to China ahead of Xi meeting",
+      "link": "https://www.cnbc.com/2026/11/16/cantwell-lutnick-ai-chip-china.html",
+      "published": "Mon, 16 Nov 2026 12:13:47 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "A major NFT marketplace is shutting down\u20145 years after the boom, there's a lesson for investors",
+      "link": "https://www.cnbc.com/make-it/2026/11/16/5-years-after-the-nft-boom-theres-a-lesson-for-investors-.html",
+      "published": "Mon, 16 Nov 2026 14:00:01 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Prediction market odds for Tesla-SpaceX merger by April 2027 top 60%",
+      "link": "https://www.cnbc.com/2026/11/16/prediction-market-odds-for-tesla-spacex-merger-by-april-2027-top-60percent.html",
+      "published": "Mon, 16 Nov 2026 19:06:41 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Anthropic\u2019s IPO lands as the embattled AI trade looks for a much-needed bright spot",
+      "link": "https://www.cnbc.com/2026/11/15/anthropic-ipo-is-make-or-break-for-the-technology-industry.html",
+      "published": "Sun, 15 Nov 2026 12:00:01 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "There's a growing 'property tax revolt' as homeowners face rising costs. How it could impact your bill",
+      "link": "https://www.cnbc.com/2026/11/16/property-tax-relief-homeowners-bills.html",
+      "published": "Mon, 16 Nov 2026 19:15:18 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Novo says Wegovy injection lowers BMI and obesity rates in children in trial",
+      "link": "https://www.cnbc.com/2026/11/16/novo-wegovy-obesity-children-trial.html",
+      "published": "Mon, 16 Nov 2026 15:00:01 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "China confirms Xi-Trump-Putin historic summit. What will be on the agenda?",
+      "link": "https://www.cnbc.com/2026/11/16/trump-xi-putin-ukraine-nuclear-tariffs-russia-iran-.html",
+      "published": "Mon, 16 Nov 2026 08:38:16 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "How Trump and Xi went from tariff war to trade truce",
+      "link": "https://www.investing.com/news/stock-market-news/how-trump-and-xi-went-from-tariff-war-to-trade-truce-5031569",
+      "published": "2026-11-17 03:54:23",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Nvidia rules out Huang comeback as campaign for his return grows",
+      "link": "https://www.investing.com/news/stock-market-news/silicon-valley-leaders-back-call-for-jensen-huangs-return-to-nvidia-5029956",
+      "published": "2026-11-17 03:42:21",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Novartis wins FDA approval for Cosentyx in polymyalgia rheumatica",
+      "link": "https://www.investing.com/news/stock-market-news/novartis-wins-fda-approval-for-cosentyx-in-polymyalgia-rheumatica-5031556",
+      "published": "2026-11-17 03:37:39",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Why is Xpeng HK stock rallying today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-xpeng-hk-stock-rallying-today-93CH-5031544",
+      "published": "2026-11-17 03:19:51",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Why is Baidu HK stock sliding today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-baidu-hk-stock-sliding-today-93CH-5031543",
+      "published": "2026-11-17 03:19:49",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "A 450% revenue beat, a 20%+ gain: the biotech our AI models picked first",
+      "link": "https://www.investing.com/news/stock-market-news/a-450-revenue-beat-a-20-gain-the-biotech-our-ai-models-picked-first-5031514",
+      "published": "2026-11-17 02:48:19",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Four US activist hedge funds exit Dick\u2019s Sporting Goods in third quarter amid profit woes",
+      "link": "https://www.investing.com/news/stock-market-news/four-us-activist-hedge-funds-exit-dicks-sporting-goods-in-third-quarter-amid-profit-woes-5031506",
+      "published": "2026-11-17 02:42:22",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "JD.com Q3 earnings preview: e-commerce weakness, AI growth in focus",
+      "link": "https://www.investing.com/news/stock-market-news/jdcom-q3-earnings-preview-ecommerce-weakness-ai-growth-in-focus-93CH-5031505",
+      "published": "2026-11-17 02:40:51",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Baidu shares hit over five-year low as ad slump overshadows AI growth",
+      "link": "https://www.investing.com/news/stock-market-news/baidu-shares-hit-over-fiveyear-low-as-ad-slump-overshadows-ai-growth-5031486",
+      "published": "2026-11-17 02:26:01",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Microsoft reports phishing attack targeting firms with fake emails",
+      "link": "https://www.investing.com/news/stock-market-news/microsoft-reports-phishing-attack-targeting-firms-with-fake-emails-93CH-5031404",
+      "published": "2026-11-17 01:11:38",
+      "source": "www.investing.com"
+    }
+  ],
+  "narratives": {
+    "ai_fear": {
+      "count": 0,
+      "examples": []
+    },
+    "ai_efficiency": {
+      "count": 0,
+      "examples": []
+    },
+    "leverage": {
+      "count": 0,
+      "examples": []
+    }
+  }
+}
