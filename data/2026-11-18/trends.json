@@ -1,0 +1,303 @@
+{
+  "date": "2026-11-18",
+  "terms": {
+    "Nvidia stock": {
+      "theme": "AI chips",
+      "last_week": 40.285714285714285,
+      "prior_4w": 6.642857142857143,
+      "change": 5.064516129032258,
+      "peak_3m": 100.0
+    },
+    "copper price": {
+      "theme": "Copper & grid materials",
+      "last_week": 57.285714285714285,
+      "prior_4w": 62.464285714285715,
+      "change": -0.08290451686678102,
+      "peak_3m": 100.0
+    },
+    "AI agents": {
+      "theme": "AI software",
+      "last_week": 53.42857142857143,
+      "prior_4w": 68.21428571428571,
+      "change": -0.21675392670157057,
+      "peak_3m": 100.0
+    },
+    "memory chip shortage": {
+      "theme": "Memory chips",
+      "last_week": 0.8571428571428571,
+      "prior_4w": 7.464285714285714,
+      "change": -0.8851674641148326,
+      "peak_3m": 100.0
+    },
+    "AI layoffs": {
+      "theme": "AI efficiency wave",
+      "last_week": 33.0,
+      "prior_4w": 34.964285714285715,
+      "change": -0.0561797752808989,
+      "peak_3m": 100.0
+    },
+    "bitcoin": {
+      "theme": "Crypto",
+      "last_week": 55.285714285714285,
+      "prior_4w": 41.785714285714285,
+      "change": 0.32307692307692304,
+      "peak_3m": 100.0
+    },
+    "XRP": {
+      "theme": "Crypto",
+      "last_week": 37.42857142857143,
+      "prior_4w": 30.535714285714285,
+      "change": 0.2257309941520469,
+      "peak_3m": 100.0
+    },
+    "meme coin": {
+      "theme": "Crypto",
+      "last_week": 29.285714285714285,
+      "prior_4w": 28.0,
+      "change": 0.04591836734693877,
+      "peak_3m": 100.0
+    },
+    "buy gold": {
+      "theme": "Precious metals",
+      "last_week": 67.42857142857143,
+      "prior_4w": 61.82142857142857,
+      "change": 0.09069901790872326,
+      "peak_3m": 100.0
+    },
+    "silver price": {
+      "theme": "Precious metals",
+      "last_week": 71.14285714285714,
+      "prior_4w": 65.5,
+      "change": 0.0861504907306434,
+      "peak_3m": 100.0
+    },
+    "humanoid robot": {
+      "theme": "Robotics",
+      "last_week": 13.0,
+      "prior_4w": 17.642857142857142,
+      "change": -0.26315789473684204,
+      "peak_3m": 100.0
+    }
+  },
+  "consumer": {
+    "coconut water": {
+      "ticker": "COCO",
+      "last_4w": 31.0,
+      "prior_12w": 39.833333333333336,
+      "year_avg": 51.48076923076923,
+      "change": -0.2217573221757323,
+      "at_12m_high": false,
+      "yoy_same_season": -0.023622047244094446,
+      "at_5y_high": false
+    },
+    "sweetgreen": {
+      "ticker": "SG",
+      "last_4w": 56.5,
+      "prior_12w": 59.416666666666664,
+      "year_avg": 62.63461538461539,
+      "change": -0.04908835904628328,
+      "at_12m_high": false,
+      "yoy_same_season": -0.0423728813559322,
+      "at_5y_high": false
+    },
+    "cava": {
+      "ticker": "CAVA",
+      "last_4w": 78.5,
+      "prior_12w": 82.08333333333333,
+      "year_avg": 82.9423076923077,
+      "change": -0.04365482233502538,
+      "at_12m_high": false,
+      "yoy_same_season": 0.14598540145985406,
+      "at_5y_high": false
+    },
+    "dutch bros": {
+      "ticker": "BROS",
+      "last_4w": 70.0,
+      "prior_12w": 67.16666666666667,
+      "year_avg": 71.61538461538461,
+      "change": 0.04218362282878396,
+      "at_12m_high": false,
+      "yoy_same_season": -0.04761904761904767,
+      "at_5y_high": false
+    },
+    "starbucks": {
+      "ticker": "SBUX",
+      "last_4w": 63.25,
+      "prior_12w": 49.416666666666664,
+      "year_avg": 48.96153846153846,
+      "change": 0.2799325463743676,
+      "at_12m_high": false,
+      "yoy_same_season": 0.016064257028112428,
+      "at_5y_high": false
+    },
+    "birkenstock": {
+      "ticker": "BIRK",
+      "last_4w": 43.25,
+      "prior_12w": 47.5,
+      "year_avg": 55.15384615384615,
+      "change": -0.08947368421052626,
+      "at_12m_high": false,
+      "yoy_same_season": -0.3422053231939164,
+      "at_5y_high": false
+    },
+    "hoka": {
+      "ticker": "DECK",
+      "last_4w": 32.75,
+      "prior_12w": 37.666666666666664,
+      "year_avg": 48.63461538461539,
+      "change": -0.13053097345132736,
+      "at_12m_high": false,
+      "yoy_same_season": -0.38497652582159625,
+      "at_5y_high": false
+    },
+    "on running shoes": {
+      "ticker": "ONON",
+      "last_4w": 19.75,
+      "prior_12w": 22.583333333333332,
+      "year_avg": 34.44230769230769,
+      "change": -0.1254612546125461,
+      "at_12m_high": false,
+      "yoy_same_season": -0.24761904761904763,
+      "at_5y_high": false
+    },
+    "crocs": {
+      "ticker": "CROX",
+      "last_4w": 36.25,
+      "prior_12w": 42.333333333333336,
+      "year_avg": 46.86538461538461,
+      "change": -0.14370078740157488,
+      "at_12m_high": false,
+      "yoy_same_season": -0.3555555555555555,
+      "at_5y_high": false
+    },
+    "swatch": {
+      "ticker": "UHR.SW",
+      "last_4w": 3.0,
+      "prior_12w": 3.5833333333333335,
+      "year_avg": 6.480769230769231,
+      "change": -0.16279069767441867,
+      "at_12m_high": false,
+      "yoy_same_season": 0.0,
+      "at_5y_high": false
+    },
+    "gta 6": {
+      "ticker": "TTWO",
+      "last_4w": 47.25,
+      "prior_12w": 9.0,
+      "year_avg": 8.51923076923077,
+      "change": 4.25,
+      "at_12m_high": true,
+      "yoy_same_season": 22.625,
+      "at_5y_high": true
+    },
+    "labubu": {
+      "ticker": "9992.HK",
+      "last_4w": 2.25,
+      "prior_12w": 2.8333333333333335,
+      "year_avg": 7.9423076923076925,
+      "change": -0.20588235294117652,
+      "at_12m_high": false,
+      "yoy_same_season": -0.9181818181818182,
+      "at_5y_high": false
+    },
+    "uggs": {
+      "ticker": "DECK",
+      "last_4w": 34.25,
+      "prior_12w": 14.416666666666666,
+      "year_avg": 17.057692307692307,
+      "change": 1.3757225433526012,
+      "at_12m_high": false,
+      "yoy_same_season": -0.4243697478991597,
+      "at_5y_high": false
+    },
+    "barbie": {
+      "ticker": "MAT",
+      "last_4w": 3.5,
+      "prior_12w": 3.0833333333333335,
+      "year_avg": 3.3846153846153846,
+      "change": 0.1351351351351351,
+      "at_12m_high": false,
+      "yoy_same_season": -0.125,
+      "at_5y_high": false
+    },
+    "build a bear": {
+      "ticker": "BBW",
+      "last_4w": 61.75,
+      "prior_12w": 53.5,
+      "year_avg": 47.32692307692308,
+      "change": 0.1542056074766356,
+      "at_12m_high": false,
+      "yoy_same_season": 0.037815126050420256,
+      "at_5y_high": false
+    }
+  },
+  "errors": [
+    "AI chips: The request failed: Google returned a response with code 429",
+    "data center: The request failed: Google returned a response with code 429",
+    "AI data center: The request failed: Google returned a response with code 429",
+    "data center power: The request failed: Google returned a response with code 429",
+    "electricity prices: The request failed: Google returned a response with code 429",
+    "nuclear energy: The request failed: Google returned a response with code 429",
+    "uranium: The request failed: Google returned a response with code 429",
+    "data center water: The request failed: Google returned a response with code 429",
+    "water shortage: The request failed: Google returned a response with code 429",
+    "liquid cooling: The request failed: Google returned a response with code 429",
+    "elf cosmetics: The request failed: Google returned a response with code 429",
+    "celsius energy drink: The request failed: Google returned a response with code 429",
+    "ozempic: The request failed: Google returned a response with code 429",
+    "hims: The request failed: Google returned a response with code 429",
+    "robinhood: The request failed: Google returned a response with code 429",
+    "pokemon cards: The request failed: Google returned a response with code 429",
+    "discovery sold out: The request failed: Google returned a response with code 429",
+    "discovery restock: The request failed: Google returned a response with code 429",
+    "discovery dupe: The request failed: Google returned a response with code 429",
+    "discovery viral: The request failed: Google returned a response with code 429",
+    "discovery new flavor: The request failed: Google returned a response with code 429",
+    "discovery where to buy: The request failed: Google returned a response with code 429",
+    "discovery shortage: The request failed: Google returned a response with code 429"
+  ],
+  "discovery": {
+    "waitlist": [
+      {
+        "query": "claude duet",
+        "value": 238800
+      },
+      {
+        "query": "claude duet waitlist",
+        "value": 238650
+      },
+      {
+        "query": "noah kahan waitlist",
+        "value": 93900
+      },
+      {
+        "query": "waitlist ut austin",
+        "value": 61200
+      },
+      {
+        "query": "dove perfume waitlist",
+        "value": 45700
+      },
+      {
+        "query": "noah kahan waitlist tickets",
+        "value": 27700
+      },
+      {
+        "query": "red robin waitlist",
+        "value": 20150
+      },
+      {
+        "query": "noah kahan ticket waitlist",
+        "value": 11600
+      },
+      {
+        "query": "chili's menu",
+        "value": 5250
+      },
+      {
+        "query": "duet waitlist",
+        "value": 2350
+      }
+    ]
+  }
+}
