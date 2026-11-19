@@ -1,0 +1,400 @@
+{
+  "date": "2026-11-19",
+  "n": 50,
+  "errors": [],
+  "by_theme": {
+    "AI chips": [
+      {
+        "title": "\u2018Nvidia\u2019s turmoil has me spooked\u2019: Should I sell my stocks and buy real estate \u2014 or ride out the storm?",
+        "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
+        "published": "Thu, 19 Nov 2026 00:30:00 GMT",
+        "source": "feeds.content.dowjones.io"
+      },
+      {
+        "title": "Nvidia\u2019s booming demand is \u2018hard to ignore,\u2019 but these four questions loom over the stock",
+        "link": "https://www.marketwatch.com/story/what-wall-street-analysts-are-now-saying-after-nvidias-beat-and-raise-quarter-9311c85d?mod=mw_rss_topstories",
+        "published": "Wed, 18 Nov 2026 22:31:00 GMT",
+        "source": "feeds.content.dowjones.io"
+      },
+      {
+        "title": "What\u2019s next for the AI trade after Nvidia\u2019s blowout results are met with a shrug",
+        "link": "https://www.marketwatch.com/story/whats-next-for-the-ai-trade-after-nvidias-blowout-results-are-met-with-a-shrug-853c7abe?mod=mw_rss_topstories",
+        "published": "Wed, 18 Nov 2026 21:19:00 GMT",
+        "source": "feeds.content.dowjones.io"
+      },
+      {
+        "title": "Nvidia interim CEO Kress tells employees \u2018let\u2019s move forward\u2019 at first all-hands meeting since Jensen Huang exit",
+        "link": "https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-kress-addresses-staff-after-jensen-huang-exit-.html",
+        "published": "Wed, 18 Nov 2026 23:45:50 GMT",
+        "source": "www.cnbc.com"
+      },
+      {
+        "title": "Cantor Fitzgerald's Nvidia business interests targeted in Democrats' Lutnick probe",
+        "link": "https://www.cnbc.com/2026/11/18/nvidia-lutnick-china-ai-megaspeed-cantor-fitzgerald.html",
+        "published": "Wed, 18 Nov 2026 09:45:01 GMT",
+        "source": "www.cnbc.com"
+      },
+      {
+        "title": "Read Jim Cramer\u2019s full interview with Nvidia\u2019s Colette Kress: Demand, buybacks and China",
+        "link": "https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-colette-kress-talks-earnings-china-transcript.html",
+        "published": "Wed, 18 Nov 2026 18:14:42 GMT",
+        "source": "www.cnbc.com"
+      },
+      {
+        "title": "Nvidia\u2019s Kress faces a divided workforce as some employees push for Huang\u2019s return",
+        "link": "https://www.cnbc.com/2026/11/18/nvidia-kress-jensen-huang-return.html",
+        "published": "Wed, 18 Nov 2026 18:11:41 GMT",
+        "source": "www.cnbc.com"
+      },
+      {
+        "title": "With Jensen Huang gone, Colette Kress shows Nvidia is still at the center of AI",
+        "link": "https://www.cnbc.com/2026/11/17/jensen-huang-may-be-gone-nvidia-shows-its-still-at-the-center-of-ai-.html",
+        "published": "Wed, 18 Nov 2026 03:15:00 GMT",
+        "source": "www.cnbc.com"
+      }
+    ],
+    "AI data centers": [],
+    "Power for AI": [],
+    "Nuclear": [],
+    "Water": [],
+    "Cooling": [],
+    "Copper & grid materials": [
+      {
+        "title": "How copper\u2019s plunge could hurt the AI buildout",
+        "link": "https://www.marketwatch.com/story/coppers-plunge-could-make-the-ai-data-center-buildout-more-painful-7057f41c?mod=mw_rss_topstories",
+        "published": "Wed, 18 Nov 2026 23:02:00 GMT",
+        "source": "feeds.content.dowjones.io"
+      }
+    ],
+    "AI software": [],
+    "Memory chips": [],
+    "AI efficiency wave": [],
+    "Distribution moats": [],
+    "Crypto": [],
+    "Precious metals": [],
+    "Robotics": []
+  },
+  "latest": [
+    {
+      "title": "Palo Alto Networks\u2019 stock gets a fresh AI-fueled boost from earnings",
+      "link": "https://www.marketwatch.com/story/palo-alto-networks-stock-soars-as-earnings-show-ai-has-upped-the-stakes-for-cybersecurity-308e34b8?mod=mw_rss_topstories",
+      "published": "Thu, 19 Nov 2026 01:02:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "\u2018I\u2019ve been a stay-at-home mom\u2019: I\u2019m 50 and have a chronic illness. My husband lost his job. Should he raid his 401(k)?",
+      "link": "https://www.marketwatch.com/story/ive-been-a-stay-at-home-mom-im-50-and-have-a-chronic-illness-my-husband-lost-his-job-should-he-raid-his-401-k-63e59123?mod=mw_rss_topstories",
+      "published": "Thu, 19 Nov 2026 01:00:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "\u2018Nvidia\u2019s turmoil has me spooked\u2019: Should I sell my stocks and buy real estate \u2014 or ride out the storm?",
+      "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
+      "published": "Thu, 19 Nov 2026 00:30:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "What the \u2018death cross\u2019 in small-cap stocks means for the rest of the market",
+      "link": "https://www.marketwatch.com/story/what-the-death-cross-in-small-cap-stocks-means-for-the-rest-of-the-stock-market-edd8e86e?mod=mw_rss_topstories",
+      "published": "Wed, 18 Nov 2026 23:12:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "How copper\u2019s plunge could hurt the AI buildout",
+      "link": "https://www.marketwatch.com/story/coppers-plunge-could-make-the-ai-data-center-buildout-more-painful-7057f41c?mod=mw_rss_topstories",
+      "published": "Wed, 18 Nov 2026 23:02:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "The stock market is being rocked by the biggest shake-up in a generation as tech falls behind",
+      "link": "https://www.marketwatch.com/story/the-stock-market-is-being-rocked-by-the-biggest-shake-up-in-a-generation-as-tech-falls-behind-66c1f281?mod=mw_rss_topstories",
+      "published": "Wed, 18 Nov 2026 22:53:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Nvidia\u2019s booming demand is \u2018hard to ignore,\u2019 but these four questions loom over the stock",
+      "link": "https://www.marketwatch.com/story/what-wall-street-analysts-are-now-saying-after-nvidias-beat-and-raise-quarter-9311c85d?mod=mw_rss_topstories",
+      "published": "Wed, 18 Nov 2026 22:31:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Is Social Security a Ponzi scheme? No, but fear is fueling such talk.",
+      "link": "https://www.marketwatch.com/story/the-thought-of-living-to-100-terrifies-me-is-social-security-a-giant-ponzi-scheme-84a64e7e?mod=mw_rss_topstories",
+      "published": "Wed, 18 Nov 2026 22:00:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Has the stock market\u2019s slump hit bottom yet? Here\u2019s what these contrarian indicators say.",
+      "link": "https://www.marketwatch.com/story/has-the-stock-markets-correction-hit-bottom-yet-heres-what-these-contrarian-indicators-say-f9104879?mod=mw_rss_topstories",
+      "published": "Wed, 18 Nov 2026 21:58:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "What\u2019s next for the AI trade after Nvidia\u2019s blowout results are met with a shrug",
+      "link": "https://www.marketwatch.com/story/whats-next-for-the-ai-trade-after-nvidias-blowout-results-are-met-with-a-shrug-853c7abe?mod=mw_rss_topstories",
+      "published": "Wed, 18 Nov 2026 21:19:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Anthropic IPO raises over $81 billion in largest offering on record, topping SpaceX",
+      "link": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
+      "published": "Thu, 19 Nov 2026 01:13:20 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Musk says Jensen Huang is irreplaceable, regrets midterm spending",
+      "link": "https://www.cnbc.com/2026/11/19/elon-musk-jensen-huang-midterms.html",
+      "published": "Thu, 19 Nov 2026 02:49:35 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Nvidia interim CEO Kress tells employees \u2018let\u2019s move forward\u2019 at first all-hands meeting since Jensen Huang exit",
+      "link": "https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-kress-addresses-staff-after-jensen-huang-exit-.html",
+      "published": "Wed, 18 Nov 2026 23:45:50 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Palo Alto inks $4.5 billion deal for AI startup Applied Compute, shares pop 7% on earnings",
+      "link": "https://www.cnbc.com/2026/11/18/palo-alto-networks-panw-q1-2027-earnings-.html",
+      "published": "Thu, 19 Nov 2026 00:07:06 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Kash Patel skips House hearing after Mar-a-Lago gala with $50,000 access",
+      "link": "https://www.cnbc.com/2026/11/18/kash-patel-hearing-mar-a-lago-gala.html",
+      "published": "Thu, 19 Nov 2026 00:08:14 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "CEO turned informant: How the FDA built a case against executives promising cheap medications",
+      "link": "https://www.cnbc.com/2026/11/18/fda-canarx-case-informant.html",
+      "published": "Wed, 18 Nov 2026 21:07:14 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
+      "link": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html",
+      "published": "Wed, 18 Nov 2026 19:41:59 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Big bets against AI debt, from CoreWeave to Oracle and the Mag 7, could soon hit the ETF market",
+      "link": "https://www.cnbc.com/2026/11/18/ai-credit-default-swaps-coreweave-debt.html",
+      "published": "Wed, 18 Nov 2026 23:38:55 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "I watched Trump, Xi and Putin gather in China. Here are my top takeaways",
+      "link": "https://www.cnbc.com/2026/11/18/trump-xi-putin-apec-shenzhen-china.html",
+      "published": "Wed, 18 Nov 2026 19:47:05 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Cantor Fitzgerald's Nvidia business interests targeted in Democrats' Lutnick probe",
+      "link": "https://www.cnbc.com/2026/11/18/nvidia-lutnick-china-ai-megaspeed-cantor-fitzgerald.html",
+      "published": "Wed, 18 Nov 2026 09:45:01 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Retail investor enthusiasm for Anthropic IPO to rival SpaceX debut",
+      "link": "https://www.cnbc.com/2026/11/18/anthropic-ipo-retail-investors.html",
+      "published": "Wed, 18 Nov 2026 22:37:00 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Investigators make progress in hunt for cause of FAA ground stop",
+      "link": "https://www.cnbc.com/2026/11/18/faa-ground-stop-router-investigation.html",
+      "published": "Wed, 18 Nov 2026 18:13:25 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "One of the world's most contested seas is proving too much for Asia's leaders to resolve",
+      "link": "https://www.cnbc.com/2026/11/19/south-china-sea-china-asean-coc.html",
+      "published": "Thu, 19 Nov 2026 00:31:00 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Vance scraps schedule to address tech outages as Trump admin insists incidents aren't linked",
+      "link": "https://www.cnbc.com/2026/11/18/trump-tech-outages-nsa-faa-microsoft.html",
+      "published": "Wed, 18 Nov 2026 19:17:27 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Inside India newsletter: Foreign flows helped the market recover. Now it faces the inflation test",
+      "link": "https://www.cnbc.com/2026/11/19/india-inflation-foreign-investor-nifty50.html",
+      "published": "Thu, 19 Nov 2026 00:01:23 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Why Anthropic's hot IPO is bringing out sellers \u2014 plus, a silver lining of the down market",
+      "link": "https://www.cnbc.com/investingclub/2026/11/18/why-anthropics-hot-ipo-is-bringing-out-sellers-plus-a-down-market-silver-lining.html",
+      "published": "Wed, 18 Nov 2026 19:46:12 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Fed\u2019s Waller says central bank may need to \u2018shock people\u2019 with half-point rate hike",
+      "link": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html",
+      "published": "Wed, 18 Nov 2026 15:13:39 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Is Apple the safe haven investors think it is?\u00a0Here's a way to trade it with less risk",
+      "link": "https://www.cnbc.com/2026/11/18/is-apple-the-safe-haven-investors-think-it-is-heres-a-way-to-trade-it-with-less-risk.html",
+      "published": "Wed, 18 Nov 2026 18:10:21 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Read Jim Cramer\u2019s full interview with Nvidia\u2019s Colette Kress: Demand, buybacks and China",
+      "link": "https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-colette-kress-talks-earnings-china-transcript.html",
+      "published": "Wed, 18 Nov 2026 18:14:42 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Ford starts U.S. battery cell production using Chinese tech amid geopolitical tensions",
+      "link": "https://www.cnbc.com/2026/11/18/ford-us-battery-cells-catl-tech.html",
+      "published": "Wed, 18 Nov 2026 17:02:53 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Two new housing reports point to bleak winter ahead, with record low sales",
+      "link": "https://www.cnbc.com/2026/11/18/two-new-housing-reports-point-to-bleak-winter-ahead.html",
+      "published": "Wed, 18 Nov 2026 15:09:45 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Tech outages are causing people to panic-buy. Costco is benefiting, Mizuho says",
+      "link": "https://www.cnbc.com/2026/11/18/tech-outage-costco-panic-buying.html",
+      "published": "Wed, 18 Nov 2026 16:33:14 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Nvidia\u2019s Kress faces a divided workforce as some employees push for Huang\u2019s return",
+      "link": "https://www.cnbc.com/2026/11/18/nvidia-kress-jensen-huang-return.html",
+      "published": "Wed, 18 Nov 2026 18:11:41 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Jeffries wins Democratic House speaker race, on track to make history in January",
+      "link": "https://www.cnbc.com/2026/11/18/jeffries-house-speaker-congress.html",
+      "published": "Wed, 18 Nov 2026 18:32:39 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Target shares rise 7% as retailer posts best sales growth in five years, hikes guidance",
+      "link": "https://www.cnbc.com/2026/11/18/target-tgt-q3-2026-earnings.html",
+      "published": "Wed, 18 Nov 2026 17:56:50 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Hims & Hers launches new peptide treatments \u2014 while admitting there's more to learn about efficacy",
+      "link": "https://www.cnbc.com/2026/11/18/hims-hers-peptides-plus-treatments.html",
+      "published": "Wed, 18 Nov 2026 14:02:52 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "With Jensen Huang gone, Colette Kress shows Nvidia is still at the center of AI",
+      "link": "https://www.cnbc.com/2026/11/17/jensen-huang-may-be-gone-nvidia-shows-its-still-at-the-center-of-ai-.html",
+      "published": "Wed, 18 Nov 2026 03:15:00 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Nvidia sinks after earnings, dragging down neoclouds CoreWeave, Iren",
+      "link": "https://www.cnbc.com/2026/11/18/nvidia-stock-earnings.html",
+      "published": "Wed, 18 Nov 2026 21:06:49 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Jensen Huang has agreed to appear before Senate banking committee, Chairman Scott says",
+      "link": "https://www.cnbc.com/2026/11/18/jensen-huang-nvidia-tim-scott-congress.html",
+      "published": "Wed, 18 Nov 2026 17:50:37 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Democrat Mary Peltola wins Alaska Senate election",
+      "link": "https://www.cnbc.com/2026/11/18/alaska-senate-mary-peltola-wins-election.html",
+      "published": "Wed, 18 Nov 2026 12:50:00 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "CoreWeave co-founder buys $30 mln of company bonds amid insider stock sales",
+      "link": "https://www.investing.com/news/stock-market-news/coreweave-cofounder-buys-30-mln-of-company-bonds-amid-insider-stock-sales-5037594",
+      "published": "2026-11-19 02:36:51",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Surge in software patches likely behind recent tech outages; bank regulators on alert",
+      "link": "https://www.investing.com/news/stock-market-news/patching-in-the-ai-age-may-underlie-some-of-the-major-tech-outages-experts-say-5036726",
+      "published": "2026-11-19 02:36:45",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Sunrise Energy shares slump 9.9% to seven-month low as U.S listing plan faces vote",
+      "link": "https://www.investing.com/news/stock-market-news/sunrise-energy-metals-shares-slump-10-to-sevenmonth-low-despite-firb-approval-5037559",
+      "published": "2026-11-19 02:35:50",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Grand Theft Auto VI draws rave reviews as gamers enter Vice City",
+      "link": "https://www.investing.com/news/stock-market-news/gamers-get-ready-to-enter-vice-city-as-grand-theft-auto-vi-begins-globalrollout-5035485",
+      "published": "2026-11-19 02:12:23",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Why is the Australian Dollar sliding today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-the-australian-dollar-sliding-today-93CH-5037556",
+      "published": "2026-11-19 02:07:48",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Trump says he referred to ex-Nvidia boss Huang\u2019s situation \u2019briefly\u2019 in talk with Xi",
+      "link": "https://www.investing.com/news/stock-market-news/trump-says-he-referred-to-exnvidia-boss-huangs-situation-briefly-in-talk-with-xi-5037541",
+      "published": "2026-11-19 01:54:33",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Japan\u2019s Datasection slumps on big guidance cut amid U.S.-China chip access row",
+      "link": "https://www.investing.com/news/stock-market-news/japans-datasection-slumps-on-big-guidance-cut-amid-uschina-chip-access-row-5037539",
+      "published": "2026-11-19 01:53:20",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Samsung Electronics downplays concerns about neocloud firms and AI bubble",
+      "link": "https://www.investing.com/news/stock-market-news/samsung-electronics-downplays-concerns-about-neocloud-firms-and-ai-bubble-5035189",
+      "published": "2026-11-19 01:42:40",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Wall Street futures climb ahead of Anthropic\u2019s $1.5 trillion mega IPO",
+      "link": "https://www.investing.com/news/stock-market-news/wall-street-futures-climb-ahead-of-anthropics-15-trillion-mega-ipo-5037518",
+      "published": "2026-11-19 01:37:29",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Musk says he felt \u2019pretty foolish\u2019 about scale of midterm spending after Republican rout",
+      "link": "https://www.investing.com/news/stock-market-news/musk-says-he-felt-pretty-foolish-about-scale-of-midterm-spending-after-republican-rout-5037471",
+      "published": "2026-11-19 01:00:37",
+      "source": "www.investing.com"
+    }
+  ],
+  "narratives": {
+    "ai_fear": {
+      "count": 1,
+      "examples": [
+        {
+          "title": "Samsung Electronics downplays concerns about neocloud firms and AI bubble",
+          "link": "https://www.investing.com/news/stock-market-news/samsung-electronics-downplays-concerns-about-neocloud-firms-and-ai-bubble-5035189",
+          "published": "2026-11-19 01:42:40",
+          "source": "www.investing.com"
+        }
+      ]
+    },
+    "ai_efficiency": {
+      "count": 0,
+      "examples": []
+    },
+    "leverage": {
+      "count": 0,
+      "examples": []
+    }
+  }
+}
