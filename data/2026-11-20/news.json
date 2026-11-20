@@ -1,0 +1,396 @@
+{
+  "date": "2026-11-20",
+  "n": 50,
+  "errors": [],
+  "by_theme": {
+    "AI chips": [
+      {
+        "title": "Nvidia\u2019s stock falls further. It has lost $669 billion in six trading days.",
+        "link": "https://www.marketwatch.com/story/nvidias-stock-falls-further-it-has-lost-611-billion-in-six-trading-days-434af231?mod=mw_rss_topstories",
+        "published": "Thu, 19 Nov 2026 21:45:00 GMT",
+        "source": "feeds.content.dowjones.io"
+      },
+      {
+        "title": "California attorney general issues Nvidia subpoena in probe of China chip diversion",
+        "link": "https://www.cnbc.com/2026/11/19/nvidia-california-bonta-subpoena-china-chips.html",
+        "published": "Thu, 19 Nov 2026 23:21:23 GMT",
+        "source": "www.cnbc.com"
+      },
+      {
+        "title": "Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says",
+        "link": "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html",
+        "published": "Fri, 20 Nov 2026 00:53:55 GMT",
+        "source": "www.cnbc.com"
+      },
+      {
+        "title": "Jensen Huang's \u2014 and Nvidia's \u2014 legal exposure balloons",
+        "link": "https://www.cnbc.com/2026/11/19/nvidia-jensen-huang-legal.html",
+        "published": "Thu, 19 Nov 2026 18:44:34 GMT",
+        "source": "www.cnbc.com"
+      },
+      {
+        "title": "Trump bought Nvidia, Palantir, SpaceX in September as federal deals, White House ties grew",
+        "link": "https://www.cnbc.com/2026/11/19/trump-nvidia-spacex-palantir-stock-trades-september.html",
+        "published": "Thu, 19 Nov 2026 19:43:08 GMT",
+        "source": "www.cnbc.com"
+      }
+    ],
+    "AI data centers": [],
+    "Power for AI": [],
+    "Nuclear": [],
+    "Water": [],
+    "Cooling": [],
+    "Copper & grid materials": [],
+    "AI software": [
+      {
+        "title": "Trump bought Nvidia, Palantir, SpaceX in September as federal deals, White House ties grew",
+        "link": "https://www.cnbc.com/2026/11/19/trump-nvidia-spacex-palantir-stock-trades-september.html",
+        "published": "Thu, 19 Nov 2026 19:43:08 GMT",
+        "source": "www.cnbc.com"
+      }
+    ],
+    "Memory chips": [
+      {
+        "title": "Why Micron, Broadcom and other AI stocks gave up their gains Thursday",
+        "link": "https://www.marketwatch.com/story/why-micron-intel-and-other-ai-stocks-are-getting-a-lift-on-thursday-cf6f59f8?mod=mw_rss_topstories",
+        "published": "Thu, 19 Nov 2026 21:27:00 GMT",
+        "source": "feeds.content.dowjones.io"
+      }
+    ],
+    "AI efficiency wave": [],
+    "Distribution moats": [],
+    "Crypto": [
+      {
+        "title": "Kraken parent's acquisition of Tribe Capital flags new chapter in evolution of crypto exchanges",
+        "link": "https://www.cnbc.com/2026/11/19/acquisition-of-tribe-capital-flags-new-chapter-in-evolution-of-crypto-exchanges.html",
+        "published": "Thu, 19 Nov 2026 20:33:05 GMT",
+        "source": "www.cnbc.com"
+      }
+    ],
+    "Precious metals": [],
+    "Robotics": []
+  },
+  "latest": [
+    {
+      "title": "I\u2019m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity?",
+      "link": "https://www.marketwatch.com/story/were-in-our-50s-and-terrified-of-a-market-crash-should-we-put-400-000-of-our-1-million-retirement-savings-into-an-annuity-1943f240?mod=mw_rss_topstories",
+      "published": "Fri, 20 Nov 2026 01:30:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "My wife is bankrolling her family\u2019s trips to New York and it\u2019s draining our savings. Should I ask her to stop?",
+      "link": "https://www.marketwatch.com/story/my-wife-pays-thousands-of-dollars-for-her-family-to-visit-from-argentina-how-can-i-convince-her-to-stop-9381351c?mod=mw_rss_topstories",
+      "published": "Fri, 20 Nov 2026 01:22:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "After Anthropic\u2019s \u2018bittersweet\u2019 IPO, here\u2019s what lies ahead",
+      "link": "https://www.marketwatch.com/story/after-anthropics-bittersweet-ipo-heres-what-lies-ahead-8c32fdb7?mod=mw_rss_topstories",
+      "published": "Thu, 19 Nov 2026 23:56:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "These were the only stocks that rose amid the stock market\u2019s wipeout Thursday",
+      "link": "https://www.marketwatch.com/story/these-were-the-only-stocks-that-rose-amid-the-stock-markets-wipeout-thursday-1eaf32ba?mod=mw_rss_topstories",
+      "published": "Thu, 19 Nov 2026 23:11:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Intuit\u2019s downbeat outlook deepens Wall Street\u2019s anxiety about software companies",
+      "link": "https://www.marketwatch.com/story/intuits-downbeat-outlook-deepens-wall-streets-anxiety-about-software-companies-15b878e5?mod=mw_rss_topstories",
+      "published": "Thu, 19 Nov 2026 22:53:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "A CoreWeave co-founder just made an unconventional $30 million wager on its battered bonds",
+      "link": "https://www.marketwatch.com/story/a-coreweave-co-founder-just-made-an-unconventional-30-million-wager-on-its-battered-bonds-5586b0e9?mod=mw_rss_topstories",
+      "published": "Thu, 19 Nov 2026 22:41:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Anthropic\u2019s stock surges in its debut \u2014 and the rest of the market dives anyway",
+      "link": "https://www.marketwatch.com/story/anthropics-stock-surges-in-its-debut-and-the-rest-of-the-market-dives-anyway-19671218?mod=mw_rss_topstories",
+      "published": "Thu, 19 Nov 2026 22:12:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Markets are sending troubling signals about the state of the economy",
+      "link": "https://www.marketwatch.com/story/markets-are-sending-troubling-signals-about-the-state-of-the-economy-8043f20e?mod=mw_rss_topstories",
+      "published": "Thu, 19 Nov 2026 21:57:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Nvidia\u2019s stock falls further. It has lost $669 billion in six trading days.",
+      "link": "https://www.marketwatch.com/story/nvidias-stock-falls-further-it-has-lost-611-billion-in-six-trading-days-434af231?mod=mw_rss_topstories",
+      "published": "Thu, 19 Nov 2026 21:45:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Why Micron, Broadcom and other AI stocks gave up their gains Thursday",
+      "link": "https://www.marketwatch.com/story/why-micron-intel-and-other-ai-stocks-are-getting-a-lift-on-thursday-cf6f59f8?mod=mw_rss_topstories",
+      "published": "Thu, 19 Nov 2026 21:27:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "AMD dives on short seller report of alleged China exposure",
+      "link": "https://www.cnbc.com/2026/11/19/amd-falls-on-short-seller-report-of-alleged-china-exposure.html",
+      "published": "Fri, 20 Nov 2026 00:08:34 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Anthropic IPO 'exactly what the markets need', but analysts warn of volatility",
+      "link": "https://www.cnbc.com/2026/11/20/anthropic-ipo-stocks-market.html",
+      "published": "Fri, 20 Nov 2026 02:33:39 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "California attorney general issues Nvidia subpoena in probe of China chip diversion",
+      "link": "https://www.cnbc.com/2026/11/19/nvidia-california-bonta-subpoena-china-chips.html",
+      "published": "Thu, 19 Nov 2026 23:21:23 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says",
+      "link": "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html",
+      "published": "Fri, 20 Nov 2026 00:53:55 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Anthropic was supposed to save the AI trade. What went wrong?",
+      "link": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ai-stocks-selloff.html",
+      "published": "Fri, 20 Nov 2026 00:00:38 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
+      "link": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html",
+      "published": "Fri, 20 Nov 2026 01:49:03 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "SoftBank plunges over 16% as AI sell-off hits Asian tech stocks following Anthropic debut",
+      "link": "https://www.cnbc.com/2026/11/20/softbank-ai-tech-stocks-slide-anthropic-debut.html",
+      "published": "Fri, 20 Nov 2026 02:14:50 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Congress passes bill to protect older investors from financial fraud",
+      "link": "https://www.cnbc.com/2026/11/19/financial-exploitation-prevention-act-older-investors-fraud.html",
+      "published": "Thu, 19 Nov 2026 22:23:29 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Jensen Huang's \u2014 and Nvidia's \u2014 legal exposure balloons",
+      "link": "https://www.cnbc.com/2026/11/19/nvidia-jensen-huang-legal.html",
+      "published": "Thu, 19 Nov 2026 18:44:34 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "APEC final day in photos: Trump, Xi and Putin shake hands; Takaichi kept at a distance",
+      "link": "https://www.cnbc.com/2026/11/19/trump-xi-putin-photos-us-china-russia-trilateral-.html",
+      "published": "Thu, 19 Nov 2026 10:54:07 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Walmart hikes outlook as CEO tells CNBC retailer aims to keep prices low despite soaring fuel costs",
+      "link": "https://www.cnbc.com/2026/11/19/walmart-wmt-q3-2026-earnings.html",
+      "published": "Thu, 19 Nov 2026 19:58:30 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "One of the world's most contested seas is proving too much for Asia's leaders to resolve",
+      "link": "https://www.cnbc.com/2026/11/19/south-china-sea-china-asean-coc.html",
+      "published": "Thu, 19 Nov 2026 00:31:00 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Intuit to sell Mailchimp to Bending Spoons for $3.68 billion",
+      "link": "https://www.cnbc.com/2026/11/19/intuit-mailchimp-sale-bending-spoons.html",
+      "published": "Thu, 19 Nov 2026 21:40:31 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Trump bought Nvidia, Palantir, SpaceX in September as federal deals, White House ties grew",
+      "link": "https://www.cnbc.com/2026/11/19/trump-nvidia-spacex-palantir-stock-trades-september.html",
+      "published": "Thu, 19 Nov 2026 19:43:08 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Amazon app warns New York of higher costs if Mamdani delivery law passes",
+      "link": "https://www.cnbc.com/2026/11/19/amazon-nyc-delivery-protection-act.html",
+      "published": "Thu, 19 Nov 2026 20:46:23 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Palo Alto stock jumps on earnings beat and company's big bet on securing open-weight models",
+      "link": "https://www.cnbc.com/2026/11/19/palo-alto-networks-earnings-applied-compute.html",
+      "published": "Thu, 19 Nov 2026 21:00:57 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Anthropic IPO: Investors who flip the stock may face brokerage penalty",
+      "link": "https://www.cnbc.com/2026/11/19/anthropic-ipo-flipping-rules.html",
+      "published": "Fri, 20 Nov 2026 00:16:30 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "S&P 500 heads for 6th straight decline. Plus, J&J advances two key products",
+      "link": "https://www.cnbc.com/investingclub/2026/11/19/sp-500-heads-for-6th-straight-decline-plus-jj-advances-two-key-products.html",
+      "published": "Thu, 19 Nov 2026 20:10:21 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Amid recent banking outages, should you start carrying cash again? Top advisors weigh in",
+      "link": "https://www.cnbc.com/2026/11/19/banking-outages-emergency-cash.html",
+      "published": "Thu, 19 Nov 2026 19:06:56 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Inside India newsletter: Foreign flows helped the market recover. Now it faces the inflation test",
+      "link": "https://www.cnbc.com/2026/11/19/india-inflation-foreign-investor-nifty50.html",
+      "published": "Thu, 19 Nov 2026 00:01:23 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Kraken parent's acquisition of Tribe Capital flags new chapter in evolution of crypto exchanges",
+      "link": "https://www.cnbc.com/2026/11/19/acquisition-of-tribe-capital-flags-new-chapter-in-evolution-of-crypto-exchanges.html",
+      "published": "Thu, 19 Nov 2026 20:33:05 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "3-step method to influence people and win them over, from a Stanford expert: \u2018Your voice is like a muscle\u2019",
+      "link": "https://www.cnbc.com/make-it/2026/11/19/matt-abrahams-persuasive-speaking-tips.html",
+      "published": "Thu, 19 Nov 2026 20:17:36 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "As Sanofi's Pompe drug shortage drags on, some patients struggle to access treatments",
+      "link": "https://www.cnbc.com/2026/11/19/as-pompe-drug-shortage-drags-on-patients-struggle-to-get-treatments.html",
+      "published": "Thu, 19 Nov 2026 19:38:33 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Netflix, Amazon, Fox to bid for 2030 men's World Cup rights; Disney out",
+      "link": "https://www.cnbc.com/2026/11/19/netflix-amazon-fox-bid-for-2030-mens-world-cup-rights-disney-out.html",
+      "published": "Thu, 19 Nov 2026 18:30:51 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "What Ron Johnson's 'Ponzi scheme' label gets wrong about Social Security, experts say",
+      "link": "https://www.cnbc.com/2026/11/19/social-security-ponzi-scheme-ron-johnson.html",
+      "published": "Thu, 19 Nov 2026 21:35:46 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Gold's bad year is getting worse. Why its price keeps falling",
+      "link": "https://www.cnbc.com/2026/11/19/gold-prices-fall-fed-rates-dollar.html",
+      "published": "Thu, 19 Nov 2026 16:29:52 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Trump, Xi, Putin said they plan to boost oil production, revamp UN after trilateral talks",
+      "link": "https://www.cnbc.com/2026/11/19/trump-xi-putin-trilateral-meeting-china.html",
+      "published": "Thu, 19 Nov 2026 17:01:41 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Denmark ratifies Trump security deal over Greenland after months of diplomatic tensions",
+      "link": "https://www.cnbc.com/2026/11/19/greenland-denmark-trump-security-military-bases.html",
+      "published": "Thu, 19 Nov 2026 12:02:08 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Anthropic IPO, AI wealth spawn a new, leaner kind of family office",
+      "link": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ai-wealth-spawn-a-new-leaner-kind-of-family-office.html",
+      "published": "Thu, 19 Nov 2026 14:57:38 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Microsoft CEO Satya Nadella calls Outlook outage a 'perfect storm.' Here's what went wrong",
+      "link": "https://www.cnbc.com/2026/11/18/microsoft-put-the-ai-threat-to-software-behind-it-then-came-the-outage.html",
+      "published": "Thu, 19 Nov 2026 00:18:28 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Exclusive-Citi underestimated risky assets by $35 billion after incorrectly recording trades, sources say",
+      "link": "https://www.investing.com/news/stock-market-news/exclusivecitiincorrectly-booked-trades-underestimatedrisky-assets-by-35-billion-sources-say-5040342",
+      "published": "2026-11-20 02:18:24",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "+82% since entry - a cloud software name our models picked keeps climbing",
+      "link": "https://www.investing.com/news/stock-market-news/82-since-entry--a-cloud-software-name-our-models-picked-keeps-climbing-5040510",
+      "published": "2026-11-20 02:01:35",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Grand Theft Auto VI draws rave reviews as gamers enter Vice City",
+      "link": "https://www.investing.com/news/stock-market-news/gamers-get-ready-to-enter-vice-city-as-grand-theft-auto-vi-begins-globalrollout-5035485",
+      "published": "2026-11-20 02:00:45",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "TSMC tightens China AI chip curbs as new US rules close manufacturing loophole, sources say",
+      "link": "https://www.investing.com/news/stock-market-news/tsmc-tightens-china-ai-chip-curbs-as-new-us-rules-close-manufacturing-loophole-sources-say-5038806",
+      "published": "2026-11-20 01:55:29",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Exclusive-Trump administration weighs forcing US firms to disclose Chinese AI use",
+      "link": "https://www.investing.com/news/stock-market-news/exclusivetrump-administration-weighs-forcing-us-firms-to-disclose-chinese-ai-use-5035455",
+      "published": "2026-11-20 01:54:29",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Wall Street futures fall as Anthropic debut fails to revive AI trade",
+      "link": "https://www.investing.com/news/stock-market-news/wall-street-futures-fall-as-anthropic-debut-fails-to-revive-ai-trade-5040450",
+      "published": "2026-11-20 01:11:53",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "UK tribunal confirms government order demanding access to Apple data",
+      "link": "https://www.investing.com/news/stock-market-news/uk-has-imposed-an-order-demanding-access-to-apple-data-uk-tribunal-says-5039030",
+      "published": "2026-11-20 00:42:25",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Citigroup misbooked trades at European unit, underestimated risk by $35 bln, Reuters reports",
+      "link": "https://www.investing.com/news/stock-market-news/citigroup-misbooked-trades-at-european-unit-underestimated-risk-by-35-bln-reuters-reports-93CH-5040402",
+      "published": "2026-11-20 00:21:00",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Trump cyber director Sean Cairncross to leave post- Axios",
+      "link": "https://www.investing.com/news/stock-market-news/trump-cyber-director-sean-cairncross-to-leave-post-axios-93CH-5040401",
+      "published": "2026-11-20 00:20:50",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Senate Republicans reject legislation to end Iran war",
+      "link": "https://www.investing.com/news/stock-market-news/senate-republicans-reject-legislation-to-end-iran-war-93CH-5040382",
+      "published": "2026-11-20 00:11:28",
+      "source": "www.investing.com"
+    }
+  ],
+  "narratives": {
+    "ai_fear": {
+      "count": 1,
+      "examples": [
+        {
+          "title": "Palo Alto stock jumps on earnings beat and company's big bet on securing open-weight models",
+          "link": "https://www.cnbc.com/2026/11/19/palo-alto-networks-earnings-applied-compute.html",
+          "published": "Thu, 19 Nov 2026 21:00:57 GMT",
+          "source": "www.cnbc.com"
+        }
+      ]
+    },
+    "ai_efficiency": {
+      "count": 0,
+      "examples": []
+    },
+    "leverage": {
+      "count": 0,
+      "examples": []
+    }
+  }
+}
