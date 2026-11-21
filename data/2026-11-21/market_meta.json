@@ -1,0 +1,11 @@
+{
+  "n_tickers": 333,
+  "got": 329,
+  "missing": [
+    "AQUA",
+    "CSCO",
+    "HES",
+    "MMC"
+  ],
+  "last_bar": "2026-11-21 00:00:00"
+}

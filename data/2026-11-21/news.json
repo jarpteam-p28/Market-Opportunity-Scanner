@@ -1,0 +1,395 @@
+{
+  "date": "2026-11-21",
+  "n": 50,
+  "errors": [],
+  "by_theme": {
+    "AI chips": [
+      {
+        "title": "Nvidia\u2019s stock clinches a stretch of weekly losses not seen since 2008",
+        "link": "https://www.marketwatch.com/story/nvidias-stock-heads-for-a-stretch-of-weekly-losses-unseen-since-2008-91aba9a6?mod=mw_rss_topstories",
+        "published": "Fri, 20 Nov 2026 21:58:00 GMT",
+        "source": "feeds.content.dowjones.io"
+      },
+      {
+        "title": "Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 financial crisis",
+        "link": "https://www.cnbc.com/2026/11/20/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis.html",
+        "published": "Fri, 20 Nov 2026 22:59:33 GMT",
+        "source": "www.cnbc.com"
+      },
+      {
+        "title": "Trump says he discussed Jensen Huang with Xi; Bessent tells CNBC Nvidia chip export policy is unchanged",
+        "link": "https://www.cnbc.com/2026/11/20/treasury-secretary-scott-bessent.html",
+        "published": "Fri, 20 Nov 2026 22:08:41 GMT",
+        "source": "www.cnbc.com"
+      },
+      {
+        "title": "Jensen Huang's \u2014 and Nvidia's \u2014 legal exposure balloons",
+        "link": "https://www.cnbc.com/2026/11/19/nvidia-jensen-huang-legal.html",
+        "published": "Thu, 19 Nov 2026 18:44:34 GMT",
+        "source": "www.cnbc.com"
+      }
+    ],
+    "AI data centers": [
+      {
+        "title": "Data center construction costs soar 13% in 2026",
+        "link": "https://www.cnbc.com/2026/11/20/data-center-construction-costs-soar-13-percent-in-2026.html",
+        "published": "Fri, 20 Nov 2026 16:52:08 GMT",
+        "source": "www.cnbc.com"
+      }
+    ],
+    "Power for AI": [],
+    "Nuclear": [],
+    "Water": [],
+    "Cooling": [],
+    "Copper & grid materials": [],
+    "AI software": [],
+    "Memory chips": [
+      {
+        "title": "Micron and Sandisk stocks might look like bargains, but analysts say that\u2019s actually a red flag",
+        "link": "https://www.marketwatch.com/story/micron-and-sandisk-stocks-might-look-like-bargains-but-analysts-say-thats-actually-a-red-flag-da1f1f5d?mod=mw_rss_topstories",
+        "published": "Fri, 20 Nov 2026 21:36:00 GMT",
+        "source": "feeds.content.dowjones.io"
+      }
+    ],
+    "AI efficiency wave": [],
+    "Distribution moats": [],
+    "Crypto": [
+      {
+        "title": "Bitcoin suffered identical sell-off pattern ahead of Anthropic, SpaceX IPOs \u2014 what happens next?",
+        "link": "https://www.cnbc.com/2026/11/20/bitcoin-pre-ipo-selloff-pattern-anthropic-spacex.html",
+        "published": "Fri, 20 Nov 2026 14:34:14 GMT",
+        "source": "www.cnbc.com"
+      },
+      {
+        "title": "Bitcoin's regulation bull case is played out. What could drive crypto gains moving forward",
+        "link": "https://www.cnbc.com/2026/11/20/bitcoin-price-catalysts-tokenization-regulation.html",
+        "published": "Fri, 20 Nov 2026 18:07:18 GMT",
+        "source": "www.cnbc.com"
+      },
+      {
+        "title": "Bitcoin sell-off: Crypto is failing the 'digital gold' test again as it sinks with stocks",
+        "link": "https://www.cnbc.com/2026/11/20/bitcoin-price-gold-market-hedge.html",
+        "published": "Fri, 20 Nov 2026 17:25:19 GMT",
+        "source": "www.cnbc.com"
+      }
+    ],
+    "Precious metals": [],
+    "Robotics": []
+  },
+  "latest": [
+    {
+      "title": "Dow, S&P 500 enter correction as Nasdaq suffers worst week since 2020",
+      "link": "https://www.marketwatch.com/story/dow-s-p-500-enter-correction-as-nasdaq-suffers-worst-week-since-2020-bd74dadf?mod=mw_rss_topstories",
+      "published": "Fri, 20 Nov 2026 22:46:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Chip stocks see $2.3 trillion weekly wipeout as panic grips the AI trade",
+      "link": "https://www.marketwatch.com/story/chip-stocks-see-2-3-trillion-weekly-wipeout-as-panic-grips-the-ai-trade-371f2f03?mod=mw_rss_topstories",
+      "published": "Fri, 20 Nov 2026 22:44:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "These stocks were crushed the most this week as the tech wreck accelerated",
+      "link": "https://www.marketwatch.com/story/these-stocks-were-crushed-the-most-this-week-as-the-tech-wreck-accelerated-8d6f7323?mod=mw_rss_topstories",
+      "published": "Fri, 20 Nov 2026 22:44:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Nvidia\u2019s stock clinches a stretch of weekly losses not seen since 2008",
+      "link": "https://www.marketwatch.com/story/nvidias-stock-heads-for-a-stretch-of-weekly-losses-unseen-since-2008-91aba9a6?mod=mw_rss_topstories",
+      "published": "Fri, 20 Nov 2026 21:58:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Everyone\u2019s making money off \u2018GTA 6\u2019 this week \u2014 except investors in Take-Two\u2019s stock",
+      "link": "https://www.marketwatch.com/story/everyones-making-money-off-gta-6-this-week-except-investors-in-take-twos-stock-489ee01b?mod=mw_rss_topstories",
+      "published": "Fri, 20 Nov 2026 21:39:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "The hidden catch in Anthropic\u2019s IPO: Billions of locked-up shares are waiting in the wings",
+      "link": "https://www.marketwatch.com/story/the-hidden-catch-in-anthropics-ipo-billions-of-locked-up-shares-are-waiting-in-the-wings-279d33ce?mod=mw_rss_topstories",
+      "published": "Fri, 20 Nov 2026 21:39:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Micron and Sandisk stocks might look like bargains, but analysts say that\u2019s actually a red flag",
+      "link": "https://www.marketwatch.com/story/micron-and-sandisk-stocks-might-look-like-bargains-but-analysts-say-thats-actually-a-red-flag-da1f1f5d?mod=mw_rss_topstories",
+      "published": "Fri, 20 Nov 2026 21:36:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "One thing Thanksgiving travelers can be thankful for: Gas prices are down 75 cents from this year\u2019s peak",
+      "link": "https://www.marketwatch.com/story/one-thing-thanksgiving-travelers-can-be-thankful-for-gas-prices-are-down-75-cents-from-this-years-peak-efac1809?mod=mw_rss_topstories",
+      "published": "Fri, 20 Nov 2026 21:34:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Anthropic\u2019s stock sees dramatic slide but manages to stay above its IPO price",
+      "link": "https://www.marketwatch.com/story/anthropics-stock-slides-closer-to-ipo-price-and-drags-down-the-ai-trade-cc43a0c4?mod=mw_rss_topstories",
+      "published": "Fri, 20 Nov 2026 21:25:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Here\u2019s what\u2019s been proven to help GLP-1 users from losing too much muscle from the drug",
+      "link": "https://www.marketwatch.com/story/heres-whats-been-proven-to-help-glp-1-users-who-have-lost-muscle-from-the-drug-2c71cdbf?mod=mw_rss_topstories",
+      "published": "Fri, 20 Nov 2026 21:01:00 GMT",
+      "source": "feeds.content.dowjones.io"
+    },
+    {
+      "title": "Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 financial crisis",
+      "link": "https://www.cnbc.com/2026/11/20/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis.html",
+      "published": "Fri, 20 Nov 2026 22:59:33 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "A massive bearish trade just happened in the chip stocks",
+      "link": "https://www.cnbc.com/2026/11/20/a-massive-bearish-trade-just-happened-in-the-chip-stocks.html",
+      "published": "Fri, 20 Nov 2026 19:33:31 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Zscaler stock jumps 18% on report that CrowdStrike in talks to buy security vendor",
+      "link": "https://www.cnbc.com/2026/11/20/zscaler-crowdstrike-deal.html",
+      "published": "Fri, 20 Nov 2026 21:35:24 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "The bull market has a new problem. The 'smart money' is selling",
+      "link": "https://www.cnbc.com/2026/11/20/equity-issuance-bull-market-problem.html",
+      "published": "Fri, 20 Nov 2026 14:15:29 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Trump vows to stop U.S. companies from building data centers abroad, threatens 'tremendous tax'",
+      "link": "https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html",
+      "published": "Fri, 20 Nov 2026 20:47:58 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Prediction markets outlook for stocks in 2026 dims amid AI sell-off",
+      "link": "https://www.cnbc.com/2026/11/20/sp-500-8000-kalshi-odds-ai-selloff.html",
+      "published": "Fri, 20 Nov 2026 19:59:03 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "As Anthropic shares tank, investors scramble to hedge. It could be very expensive",
+      "link": "https://www.cnbc.com/2026/11/20/as-anthropic-shares-tank-investors-scramble-to-hedge-it-could-be-very-expensive.html",
+      "published": "Fri, 20 Nov 2026 15:12:40 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Trump says he still has confidence in Lutnick",
+      "link": "https://www.cnbc.com/2026/11/20/trump-lutnick-commerce-china-ai.html",
+      "published": "Fri, 20 Nov 2026 20:52:08 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Jensen Huang to testify publicly before Senate banking panel, Chairman Scott says",
+      "link": "https://www.cnbc.com/2026/11/20/jensen-huang-nvidia-senate-testimony.html",
+      "published": "Fri, 20 Nov 2026 19:42:53 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Data center construction costs soar 13% in 2026",
+      "link": "https://www.cnbc.com/2026/11/20/data-center-construction-costs-soar-13-percent-in-2026.html",
+      "published": "Fri, 20 Nov 2026 16:52:08 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Warsh wants Fed officials to talk less. Instead, they\u2019re talking more",
+      "link": "https://www.cnbc.com/2026/11/20/warsh-fed-forward-guidance-rate-hikes.html",
+      "published": "Fri, 20 Nov 2026 21:10:48 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Ex-GM CEO on Mary Barra succession planning: 'It's going to be tough'",
+      "link": "https://www.cnbc.com/2026/11/20/gm-ceo-succession-mary-barra-dan-akerson.html",
+      "published": "Fri, 20 Nov 2026 15:50:27 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Trump says he discussed Jensen Huang with Xi; Bessent tells CNBC Nvidia chip export policy is unchanged",
+      "link": "https://www.cnbc.com/2026/11/20/treasury-secretary-scott-bessent.html",
+      "published": "Fri, 20 Nov 2026 22:08:41 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Anthropic was supposed to save the AI trade. What went wrong?",
+      "link": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ai-stocks-selloff.html",
+      "published": "Fri, 20 Nov 2026 00:00:38 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Gap names new Athleta CEO, says Old Navy turnaround is seeing signs of progress",
+      "link": "https://www.cnbc.com/2026/11/19/gap-gap-q3-2026-earnings.html",
+      "published": "Fri, 20 Nov 2026 21:04:48 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Anthropic raises $93.5 billion total as underwriters scoop up \u2018greenshoe\u2019 overallotment",
+      "link": "https://www.cnbc.com/2026/11/20/anthropic-ipo-greenshoe.html",
+      "published": "Fri, 20 Nov 2026 14:59:38 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Intensifying AI rout wipes out Nasdaq's 2026 gains. Alphabet is a tech bright spot",
+      "link": "https://www.cnbc.com/investingclub/2026/11/20/ai-rout-wipes-out-nasdaqs-2026-gains-alphabet-is-a-tech-bright-spot.html",
+      "published": "Fri, 20 Nov 2026 20:06:12 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Forget Anthropic: In Europe, the IPO hype is about a blue lagoon",
+      "link": "https://www.cnbc.com/2026/11/20/anthropic-ipo-iceland-blue-lagoon.html",
+      "published": "Fri, 20 Nov 2026 06:00:01 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "A wave of 'pent-up quits' could boost turnover in the job market, expert says: 'The labor market is a bit like a coiled spring'",
+      "link": "https://www.cnbc.com/make-it/2026/11/20/worker-turnover-quits-hiring-2027.html",
+      "published": "Fri, 20 Nov 2026 18:55:39 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Jensen Huang's \u2014 and Nvidia's \u2014 legal exposure balloons",
+      "link": "https://www.cnbc.com/2026/11/19/nvidia-jensen-huang-legal.html",
+      "published": "Thu, 19 Nov 2026 18:44:34 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Bitcoin suffered identical sell-off pattern ahead of Anthropic, SpaceX IPOs \u2014 what happens next?",
+      "link": "https://www.cnbc.com/2026/11/20/bitcoin-pre-ipo-selloff-pattern-anthropic-spacex.html",
+      "published": "Fri, 20 Nov 2026 14:34:14 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "U.S.-China trade, Taiwan and tech tensions remain unresolved as Trump returns from Asia",
+      "link": "https://www.cnbc.com/2026/11/20/apec-summit-trump-xi-china-trade-taiwan.html",
+      "published": "Fri, 20 Nov 2026 13:29:50 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "SpaceX\u2019s subsidiary Cursor tells lawmakers it's considering phasing out Chinese AI models",
+      "link": "https://www.cnbc.com/2026/11/20/cursor-chinese-ai-models-geopolitical-risk.html",
+      "published": "Fri, 20 Nov 2026 14:07:24 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "A24 is having a great year at the box office. That could give HBO Max a streaming edge",
+      "link": "https://www.cnbc.com/2026/11/20/a24-box-office-hbo-max.html",
+      "published": "Fri, 20 Nov 2026 12:00:02 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Cathie Wood\u2019s Ark Invest was a big buyer of Anthropic as she tells CNBC she\u2019s \u2018quite optimistic\u2019",
+      "link": "https://www.cnbc.com/2026/11/20/cathie-woods-ark-invest-was-a-big-buyer-of-anthropic-during-debut.html",
+      "published": "Fri, 20 Nov 2026 16:18:04 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Bitcoin's regulation bull case is played out. What could drive crypto gains moving forward",
+      "link": "https://www.cnbc.com/2026/11/20/bitcoin-price-catalysts-tokenization-regulation.html",
+      "published": "Fri, 20 Nov 2026 18:07:18 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Rejecting cheap fabrics, higher prices: Why shoppers are asking for better clothes",
+      "link": "https://www.cnbc.com/2026/11/20/clothing-prices-polyester-cotton-quality.html",
+      "published": "Fri, 20 Nov 2026 12:00:02 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Bitcoin sell-off: Crypto is failing the 'digital gold' test again as it sinks with stocks",
+      "link": "https://www.cnbc.com/2026/11/20/bitcoin-price-gold-market-hedge.html",
+      "published": "Fri, 20 Nov 2026 17:25:19 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "White House replaces cyber director Sean Cairncross amid widespread tech outages",
+      "link": "https://www.cnbc.com/2026/11/20/sean-cairncross-white-house-cyber-director.html",
+      "published": "Fri, 20 Nov 2026 15:52:45 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Some FHA borrowers pay mortgage insurance for a decade or more. There's an industry push to change the rules",
+      "link": "https://www.cnbc.com/2026/11/20/fha-mortgage-insurance-cuts-cancellation.html",
+      "published": "Fri, 20 Nov 2026 13:35:01 GMT",
+      "source": "www.cnbc.com"
+    },
+    {
+      "title": "Analysis-Wall Street banks set for banner year as Anthropic, SpaceX IPOs generate $1 billion in fees",
+      "link": "https://www.investing.com/news/stock-market-news/analysiswall-street-banks-set-for-banner-year-as-anthropic-spacex-ipos-generate-1-billion-in-fees-5042444",
+      "published": "2026-11-21 02:12:22",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Singaporean extradited to face US charges over global insider trading scheme",
+      "link": "https://www.investing.com/news/stock-market-news/singaporean-extradited-to-face-us-charges-over-global-insider-trading-scheme-5042823",
+      "published": "2026-11-21 02:06:58",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "US was warned of telecom security risks years before Salt Typhoon",
+      "link": "https://www.investing.com/news/stock-market-news/us-was-warned-of-telecom-security-risks-years-before-salt-typhoon-5043030",
+      "published": "2026-11-21 01:54:24",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "UBS flags resilient commodity investment case despite easing oil supply premium",
+      "link": "https://www.investing.com/news/stock-market-news/ubs-flags-resilient-commodity-investment-case-despite-easing-oil-supply-premium-5043001",
+      "published": "2026-11-21 01:28:01",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Waymo recalls self-driving cars over closed freeway lanes, manual traffic control",
+      "link": "https://www.investing.com/news/stock-market-news/waymo-recalls-selfdriving-cars-over-closed-freeway-lanes-manual-traffic-control-5042522",
+      "published": "2026-11-21 00:24:35",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "\u2019Black Friday\u2019 brings consumer spending into focus for AI-rocked market",
+      "link": "https://www.investing.com/news/stock-market-news/black-friday-brings-consumer-spending-into-focus-for-airocked-market-5041258",
+      "published": "2026-11-21 00:24:21",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Missouri judge approves Bayer\u2019s $7.25 billion Roundup settlement",
+      "link": "https://www.investing.com/news/stock-market-news/missouri-judge-approves-bayers-725-billion-roundup-settlement-5042643",
+      "published": "2026-11-21 00:12:19",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Ford, Honda, Stellantis, VW sue New Jersey to block \u2019extortionate\u2019 vehicle repair law",
+      "link": "https://www.investing.com/news/stock-market-news/ford-honda-stellantis-vw-sue-new-jersey-to-blockvehicle-repair-law-5042513",
+      "published": "2026-11-21 00:06:26",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "Wonder explores sale of Grubhub, Wall Street Journal reports",
+      "link": "https://www.investing.com/news/stock-market-news/wonder-explores-sale-of-grubhub-wall-street-journal-reports-5042912",
+      "published": "2026-11-21 00:00:22",
+      "source": "www.investing.com"
+    },
+    {
+      "title": "US judge rejects CFTC emergency bid to block New York from policing Kalshi",
+      "link": "https://www.investing.com/news/stock-market-news/us-judge-rejects-cftc-emergency-bid-to-block-new-york-from-policing-kalshi-5042918",
+      "published": "2026-11-20 23:54:36",
+      "source": "www.investing.com"
+    }
+  ],
+  "narratives": {
+    "ai_fear": {
+      "count": 0,
+      "examples": []
+    },
+    "ai_efficiency": {
+      "count": 0,
+      "examples": []
+    },
+    "leverage": {
+      "count": 0,
+      "examples": []
+    }
+  }
+}

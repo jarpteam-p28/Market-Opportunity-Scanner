@@ -1,0 +1,102 @@
+{
+  "9992.HK": {
+    "short_pct_float": null,
+    "mcap": 184825987072,
+    "name": "POP MART"
+  },
+  "BBW": {
+    "short_pct_float": 0.2568,
+    "mcap": 335455488,
+    "name": "Build-A-Bear Workshop, Inc."
+  },
+  "BIRK": {
+    "short_pct_float": 0.1292,
+    "mcap": 5530077184,
+    "name": "Birkenstock Holding plc"
+  },
+  "BROS": {
+    "short_pct_float": 0.4114,
+    "mcap": 4522021888,
+    "name": "Dutch Bros Inc."
+  },
+  "CAVA": {
+    "short_pct_float": 0.1432,
+    "mcap": 5706634752,
+    "name": "CAVA Group, Inc."
+  },
+  "CELH": {
+    "short_pct_float": 0.1197,
+    "mcap": 7130832384,
+    "name": "Celsius Holdings, Inc."
+  },
+  "COCO": {
+    "short_pct_float": 0.1557,
+    "mcap": 3673200896,
+    "name": "The Vita Coco Company, Inc."
+  },
+  "CROX": {
+    "short_pct_float": 0.1297,
+    "mcap": 7072291840,
+    "name": "Crocs, Inc."
+  },
+  "DECK": {
+    "short_pct_float": 0.0928,
+    "mcap": 10403430400,
+    "name": "Deckers Outdoor Corporation"
+  },
+  "ELF": {
+    "short_pct_float": 0.0828,
+    "mcap": 6120006144,
+    "name": "e.l.f. Beauty, Inc."
+  },
+  "HIMS": {
+    "short_pct_float": 0.2647,
+    "mcap": 3422421248,
+    "name": "Hims & Hers Health, Inc."
+  },
+  "HOOD": {
+    "short_pct_float": 0.044899996,
+    "mcap": 55983542272,
+    "name": "Robinhood Markets, Inc."
+  },
+  "MAT": {
+    "short_pct_float": 0.1511,
+    "mcap": 3914204928,
+    "name": "Mattel, Inc."
+  },
+  "NTDOY": {
+    "short_pct_float": null,
+    "mcap": 62580436992,
+    "name": "Nintendo Co., Ltd."
+  },
+  "NVO": {
+    "short_pct_float": 0.0121,
+    "mcap": 166686162944,
+    "name": "Novo Nordisk A/S"
+  },
+  "ONON": {
+    "short_pct_float": 0.1163,
+    "mcap": 10025704448,
+    "name": "On Holding AG"
+  },
+  "SBUX": {
+    "short_pct_float": 0.0428,
+    "mcap": 117578506240,
+    "name": "Starbucks Corporation"
+  },
+  "SG": {
+    "short_pct_float": 0.233,
+    "mcap": 1449612288,
+    "name": "Sweetgreen, Inc."
+  },
+  "TTWO": {
+    "short_pct_float": 0.0499,
+    "mcap": 39314833408,
+    "name": "Take-Two Interactive Software, "
+  },
+  "UHR.SW": {
+    "short_pct_float": null,
+    "mcap": 9780452352,
+    "name": "SWATCH GROUP I"
+  }
+}
